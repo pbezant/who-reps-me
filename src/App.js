@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import {Search, repList} from './Search.js';
+// import Results from './Results.js';
+
+const apiKey = "16d983f13d34f95039958108";
+// let repList;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <h1 className='hero-text'>Who Reps Me?</h1>
+        <Search apiKey={apiKey}/>
+        <Results />
+      </main>
     </div>
   );
 }

@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.App{
+  --white: #fff;
+  --blue: #71ccd5;
+  --dark-grey: #888;
+  --grey: #bbb;
+  --light-grey: #dfdfdf;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
+  justify-content: top;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap:3vw;
+  background-image: linear-gradient(60deg, #a6c0fe 0%, #f68084 100%);
+  background-attachment: fixed;
+  /* padding:10vw 0; */
+  width:100vw;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-text{
+  font-size: 10vw;
+  color:white;
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.search {
+  border: 2px solid #dfdfdf;
+  border-radius: 1em;
+  height: 2.5em;
+  width:60vw;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #888;
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+  background-color: rgba(255,255,255,70%);
+}
+.search span {
+  background: #bbb;
+  margin-right: 7px;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 20px;
+}
+.search span[data-selected] {
+  background: #71ccd5;
+}
+.search::after {
+  content: "";
+  background: #888;
+  width: 1px;
+  height: 19px;
+  margin: -1px 0 0 -1px;
+  display: none;
+  -webkit-animation: blink 0.5s infinite alternate;
+          animation: blink 0.5s infinite alternate;
+}
+.search:focus {
+  border-color: #71ccd5;
+  outline: none;
+}
+.search:focus[data-cursor]::after {
+  display: block;
+}
+@media screen and (max-width: 736px) {
+  .search:focus[data-cursor]::after {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.search:focus + h1 {
+  color: #71ccd5;
+}
+.search:focus + h1 span {
+  border-color: #71ccd5;
 }
