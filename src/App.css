@@ -187,6 +187,9 @@
   border-radius: 1rem;
 }
 
+.rep-card.us-senate{
+  order:4;
+}
 .rep-card img{
   width:256px;
   border-radius: 1rem;
