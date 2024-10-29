@@ -3,6 +3,7 @@
   "name": "who-reps-me",
   "version": "0.1.0",
   "private": false,
+  "proxy": "https://api.5calls.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

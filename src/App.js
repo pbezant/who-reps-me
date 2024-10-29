@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 // import logo from './logo.svg';
@@ -55,7 +55,7 @@ function SearchBar({ apiKey, setRepList }) {
 async function getRepList(apiKey, location) {
   try {
     // add in package.json -> "proxy": "https://api.5calls.org",
-    const response = await axios.get(`https://api.5calls.org/v1/representatives?location=${location}`, {
+    const response = await axios.get(`/v1/representatives?location=${location}`, {
       headers: {
         'X-5Calls-Token': apiKey,
         'Content-Type': 'application/json',
@@ -79,7 +79,7 @@ function Results({ repList }) {
             <ul>
               <li>{rep.area}</li>
               <li><a href='phone:${rep.phone}'>{rep.phone}</a></li>
-              <li><a href="${rep.url}">{rep.url}</a></li>
+              <li><a href='${rep.url}'>{rep.url}</a></li>
             </ul>
           </div>
          
