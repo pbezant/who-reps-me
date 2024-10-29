@@ -41,7 +41,7 @@ function SearchBar({ apiKey, setRepList }) {
         className="search"
         value={location}
         onChange={handleChange}
-        placeholder="Enter Location"
+        placeholder="Enter your address or zip code"
       />
       <button
         className='button-cta'
