@@ -29,9 +29,9 @@
   background-image: url("../public/flag-waving.svg");
   background-attachment: fixed;
   background-size: cover;
-  background-size: 250vw;
+  background-size: 250vh;
   background-repeat: no-repeat;
-  background-position: -50vw -50vh;
+  background-position: center;
   /* opacity: 0.8; */
   filter:contrast(70%)
   
