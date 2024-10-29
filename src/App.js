@@ -73,10 +73,15 @@ function Results({ repList }) {
       {repList?.representatives?.map((rep) => (
         <section key={rep.id} className='rep-card'>
           <img src={rep.photoURL} alt={rep.name} />
-          <ul>
-            <li>{rep.name}</li>
-            <li>{rep.phone}</li>
-          </ul>
+          <div>
+            <h2>{rep.name}</h2>
+            <ul>
+              <li>{rep.area}</li>
+              <li><a href='phone:${rep.phone}'>{rep.phone}</a></li>
+              <li><a href="${rep.url}">{rep.url}</a></li>
+            </ul>
+          </div>
+         
         </section>
       ))}
     </section>
