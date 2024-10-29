@@ -162,8 +162,8 @@
   justify-content: center;
   column-gap: 2em;
   row-gap: 2em;
-  column-count: 3;
   margin:2em;
+  max-width: 1166px;
 }
 @media screen and (min-width:800px) {
   .results{
@@ -176,7 +176,8 @@
   flex-direction: column;
   align-items: center;
   gap:1em;
-  /* max-width: 300px; */
+  flex-basis: 25%;
+  /* max-width: 275px; */
   font-size: 1rem;
   padding:24px;
   color:white;
