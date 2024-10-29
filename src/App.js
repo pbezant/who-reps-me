@@ -74,7 +74,7 @@ function Results({ repList }) {
       {/* <pre>{JSON.stringify(repList, null, 2)}</pre> */}
       {repList?.representatives?.map((rep) => (
         <section key={rep.id} className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-          <img src={rep.photoURL} alt={rep.name} />
+          <img src={rep.photoURL || '../generic-profile.jpg'} alt={rep.name} />
           <div>
             <h2>{rep.name}</h2>
             <ul>
