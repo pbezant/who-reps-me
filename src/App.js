@@ -54,7 +54,8 @@ function SearchBar({ apiKey, setRepList }) {
 
 async function getRepList(apiKey, location) {
   try {
-    const response = await axios.get(`/v1/representatives?location=${location}`, {
+    // add in package.json -> "proxy": "https://api.5calls.org",
+    const response = await axios.get(`https://api.5calls.org/v1/representatives?location=${location}`, {
       headers: {
         'X-5Calls-Token': apiKey,
         'Content-Type': 'application/json',
