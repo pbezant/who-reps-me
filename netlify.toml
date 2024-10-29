@@ -1,4 +1,5 @@
 [[redirects]]
   from = "/v1/*"
-  to = "https://api.5calls.org"
-  status = 301
+  to = "https://api.5calls.org:splat"
+  status = 200
+  force = true
