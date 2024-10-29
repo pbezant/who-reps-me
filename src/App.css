@@ -12,11 +12,11 @@
   justify-content: top;
   align-items: center;
   gap:4em;
-  /* background-image: linear-gradient(60deg, #355fc1, #cf252b); */
-  
   width:100vw;
   height: 100vh;
   overflow-y: scroll;
+  background-color: rgb(53 95 193 / 90%);
+  background-image: radial-gradient( transparent, black);
 }
 .App:before{
   content: "";
@@ -33,7 +33,7 @@
   background-repeat: no-repeat;
   background-position: -50vw -50vh;
   /* opacity: 0.8; */
-  filter:contrast(70%)
+  /* filter:saturate(30%) */
   
 
 }
