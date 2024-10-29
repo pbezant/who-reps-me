@@ -12,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <main>
-        <h1 className='hero-text'>Who Reps Me?</h1>
+        <h1 className='hero-title'>Who Reps Me?</h1>
+        <h2 className='hero-subtitle'>An application to find your representatives</h2>
         <SearchBar apiKey={apiKey} setRepList={setRepList} />
         <Results repList={repList} />
       </main>
