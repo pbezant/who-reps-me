@@ -11,7 +11,7 @@
   justify-content: top;
   align-items: center;
   gap:4em;
-  background-image: linear-gradient(60deg, #a6c0fe 0%, #f68084 100%);
+  background-image: linear-gradient(60deg, #355fc1, #cf252b);
   background-attachment: fixed;
   /* padding:10vw 0; */
   width:100vw;
