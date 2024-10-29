@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/v1/*"
+  to = "https://api.5calls.org"
+  status = 200
+  force = true
+  conditions = {Language = ["en","es"], Country = ["US"]}
