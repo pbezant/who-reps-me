@@ -78,9 +78,9 @@ function Results({ repList }) {
           <div>
             <h2>{rep.name}</h2>
             <ul>
-              <li>{rep.area}</li>
+              <li>{rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}</li>
               <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>
-              <li><a href={`${rep.url}`}>{rep.url}</a></li>
+              {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
             </ul>
           </div>
          
