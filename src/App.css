@@ -5,6 +5,7 @@
   --dark-grey: #888;
   --grey: #bbb;
   --light-grey: #dfdfdf;
+  --black: #333333;
 }
 .App{
   display: flex;
@@ -132,7 +133,9 @@
 .search:focus + h1 span {
   border-color: #355fc1;
 }
-
+.search::placeholder{
+  color:var(--black);
+}
 /* Button */
 .button-cta {
   width:40vw;
@@ -162,11 +165,11 @@
 .button-cta:active,
 .button-cta:hover {
   outline: 0;
-  border:2px solid rgb(5, 6, 45);
+  border:2px solid var(--black);
 }
 
 .button-cta span {
-  background-color: rgb(5, 6, 45);
+  background-color: var(--black);
   padding: 16px 24px;
   border-radius: 0.9em;
   width: 100%;
