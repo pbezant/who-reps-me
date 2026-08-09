@@ -1,0 +1,32 @@
+{
+  "_comment": "Seed list of local governments to scrape. At nationwide scale this file is generated from the Census Bureau Census of Governments + website resolution (see discover.js). For the prototype we hand-seed a few Texas cities with known council/contact pages.",
+  "jurisdictions": [
+    {
+      "city": "Austin",
+      "state": "TX",
+      "level": "local",
+      "body": "Austin City Council",
+      "urls": [
+        "https://www.austintexas.gov/department/city-council"
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "level": "local",
+      "body": "San Antonio City Council",
+      "urls": [
+        "https://www.sanantonio.gov/Council"
+      ]
+    },
+    {
+      "city": "Kyle",
+      "state": "TX",
+      "level": "local",
+      "body": "Kyle City Council",
+      "urls": [
+        "https://www.cityofkyle.com/citycouncil"
+      ]
+    }
+  ]
+}

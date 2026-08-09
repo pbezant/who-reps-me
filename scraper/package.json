@@ -1,0 +1,13 @@
+{
+  "name": "who-reps-me-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Background scraper that extracts local elected officials (down to city council) via AI extraction. Prototype phase.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "scrape": "node src/run.js"
+  }
+}
