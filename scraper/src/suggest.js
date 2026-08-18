@@ -10,8 +10,10 @@ export function suggestLinks(html, baseUrl, limit = 6) {
     const href = m[1];
     const text = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
     if (!/council|commissioner|elected|mayor|government/i.test(`${href} ${text}`)) continue;
-    // Skip agendas/minutes/video — they are not roster pages.
-    if (/agenda|minute|video|calendar|meeting|archive|\.pdf$/i.test(href)) continue;
+    // Skip agendas/minutes/video/news coverage — they mention the council but aren't roster
+    // pages (confirmed against Boulder, CO: a "City Council Voices Support For..." news post
+    // matched on "council" and got offered as a candidate ahead of the real roster page).
+    if (/agenda|minute|video|calendar|meeting|archive|news|press|blog|event|\.pdf$/i.test(href)) continue;
     try {
       const abs = new URL(href, baseUrl).href;
       if (!out.has(abs)) out.set(abs, text || "(no text)");
