@@ -5,6 +5,18 @@
 import { fetchPage } from "./fetch.js";
 import { extractOfficials } from "./extract.js";
 import { normalize } from "./normalize.js";
+import { suggestLinks } from "./suggest.js";
+
+// Look at the site's homepage for a better candidate URL. Best-effort: never throws.
+async function findSuggestions(url, allowBrowser) {
+  try {
+    const origin = new URL(url).origin;
+    const home = await fetchPage(origin, { allowBrowser });
+    return home.ok ? suggestLinks(home.html, origin) : [];
+  } catch {
+    return [];
+  }
+}
 
 export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = false }) {
   const results = [];
@@ -15,7 +27,7 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
     if (!page.ok) {
       // browserError explains why the Playwright fallback couldn't rescue a blocked/empty page.
       const detail = page.browserError ? `${page.error}; ${page.browserError}` : page.error;
-      problems.push({ url, error: detail });
+      problems.push({ url, error: detail, suggestions: await findSuggestions(url, allowBrowser) });
       continue;
     }
     if (page.needsBrowser) {
@@ -26,6 +38,7 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
         error: page.browserError
           ? `needs-browser (empty static render); ${page.browserError}`
           : "needs-browser (empty static render)",
+        suggestions: await findSuggestions(url, allowBrowser),
       });
       continue;
     }
@@ -34,6 +47,10 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
     try {
       raw = await extractOfficials({ text: page.text, url, jurisdiction });
     } catch (err) {
+      if (err?.fatal) {
+        err.jurisdiction = `${jurisdiction.city}, ${jurisdiction.state}`;
+        throw err;
+      }
       problems.push({ url, error: `extract failed: ${err.message}` });
       continue;
     }

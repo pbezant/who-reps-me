@@ -18,7 +18,7 @@ BallotReady) are paid commercial data. This scraper is the DIY alternative.
 | Data store | Per-state JSON shards committed to the repo | $0 |
 | Runner | GitHub Actions cron | $0 |
 | Geocoding | US Census Geocoder (no API key) | $0 |
-| Extraction | GitHub Models via built-in `GITHUB_TOKEN` (default) | $0 |
+| Extraction | `ovh` free tier, no API key (default) | $0 |
 
 No database server and no always-on worker. For read-only, batch-updated data, a per-state
 JSON file *is* the database — the frontend already fetches JSON and knows the state from
@@ -31,7 +31,7 @@ Extraction is provider-agnostic. Most free LLM APIs expose an **OpenAI-compatibl
 
 | Preset | Free tier | Key needed | Notes |
 | --- | --- | --- | --- |
-| **`github`** ← default | 15 RPM, 150 RPD | **none** — built-in `GITHUB_TOKEN` | Simplest in Actions; needs `models: read`. Per-request cap ~8K in / 4K out, so pages clip to 18k chars |
+| ~~`github`~~ | **RETIRED** | — | GitHub shut GitHub Models down; it returns HTTP 410. Do not use |
 | `groq` | 30 RPM, 1,000 RPD | `LLM_API_KEY` | Very fast; Llama 3.3 70B |
 | `gemini` | 15 RPM, 1,500 RPD | `LLM_API_KEY` | Strong at structured output; 1M context |
 | `mistral` | ~1B tokens/month | `LLM_API_KEY` | Highest volume ceiling — best for going nationwide |
@@ -39,22 +39,18 @@ Extraction is provider-agnostic. Most free LLM APIs expose an **OpenAI-compatibl
 | `cerebras` | 5 RPM, 1M TPD | `LLM_API_KEY` | Payment method required |
 | `openrouter` | 20 RPM, 50 RPD | `LLM_API_KEY` | Many `:free` models |
 | `samba`, `llm7` | varies | `LLM_API_KEY` | See the list below |
-| `ovh` | 2 RPM per IP | **none** — anonymous | EU-hosted; slow but keyless |
+| **`ovh`** ← default | 2 RPM per IP | **none** — anonymous | Keyless, so it works with zero setup, but 2 RPM means a 25-city run takes ~15 min |
 | `anthropic` | — (paid) | `ANTHROPIC_API_KEY` | ~$0.014/page, best extraction quality |
 
 Provider list and limits: [awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis).
 
 ```bash
-# default: GitHub Models. In Actions this needs nothing at all. Locally, GITHUB_TOKEN
-# isn't set for you, so use a fine-grained PAT with the "Models: read" permission:
+# default: OVH anonymous tier — no key at all, but only 2 requests/minute
 cd scraper
-LLM_API_KEY=github_pat_... npm run scrape
+npm run scrape
 
-# free, via Groq
+# free and much faster, via Groq
 LLM_PRESET=groq LLM_API_KEY=gsk_... npm run scrape
-
-# free, no key at all (EU-hosted, 2 RPM so it's slow)
-LLM_PRESET=ovh npm run scrape
 
 # any other OpenAI-compatible endpoint
 LLM_BASE_URL=https://... LLM_MODEL=some-model LLM_API_KEY=... npm run scrape
@@ -68,6 +64,9 @@ RPM and retries on 429/5xx with backoff (honoring `Retry-After`). Override with 
 
 ### Honest trade-offs
 
+- **Free providers disappear.** GitHub Models was retired outright mid-2026, and Groq cut its
+  daily limits. This is why the provider is a one-variable swap and why a dead provider now
+  aborts the run on the first failure instead of retrying 25 times.
 - **Quality varies.** Claude Haiku and Gemini Flash are reliably good at strict JSON
   extraction; smaller open models miss fields or wander from the schema more often. Every
   record carries a `confidence` score — spot-check a couple of cities after switching, and
@@ -118,9 +117,9 @@ cd scraper
 npm run probe                  # free: verify all seed URLs
 npm run probe -- --only Kyle   # free: verify one
 
-# then scrape (GitHub Models by default; locally needs a PAT with "Models: read")
-LLM_API_KEY=github_pat_... npm run scrape
-LLM_API_KEY=github_pat_... npm run scrape -- --only Austin
+# then scrape (OVH by default, no key; or pick a faster provider)
+npm run scrape
+LLM_PRESET=groq LLM_API_KEY=gsk_... npm run scrape -- --only Austin
 ```
 
 `probe` reports each URL as `OK`, `OK (via browser)`, `FAIL`, `NEEDS-BROWSER`, or
@@ -138,10 +137,15 @@ Scrape output: `public/officials/<STATE>.json` shards + `index.json`. Failed pag
 shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
 weekly is usually plenty since officials rarely change.
 
-**Setup: none required.** Extraction defaults to GitHub Models using the `GITHUB_TOKEN` that
-Actions injects automatically (the workflow grants `models: read`). To use a different provider,
-add a repo secret — `LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude — under
-*Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to its name.
+**Setup: none required.** Extraction defaults to the `ovh` preset, whose anonymous tier needs no
+key — but at 2 requests/minute a full run takes ~15 minutes. For faster and better extraction, add
+a repo secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude) under
+*Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to that
+provider's name.
+
+> **GitHub Models is retired.** It was the original default and now returns
+> `HTTP 410 github_models_retirement_brownout` for every request. Selecting `LLM_PRESET=github`
+> now fails immediately with a message naming the working alternatives.
 
 The **Run workflow** button takes a `mode`:
 
@@ -193,16 +197,20 @@ Hays / Caldwell / Bastrop / Williamson counties, including 5 county commissioner
 Counties use `level: "county"` with `city` set to `"<Name> County"` — the frontend's
 `normalizePlace` strips the "County" suffix so it matches the geocoded county.
 
-**Seed URLs are guesses until a probe run proves otherwise.** The first probe run scored only
-4/26, and its homepage suggestions supplied the corrections now in the file. Current state:
+**Seed URLs are guesses until a run proves otherwise.** A first probe scored 4/26; its homepage
+suggestions supplied corrections. The first real scrape then confirmed that **19 of 25
+jurisdictions fetch successfully** — they failed only at the LLM step, because GitHub Models had
+been retired. Current state:
 
-| Status | Jurisdictions |
+| Fetch status | Jurisdictions |
 | --- | --- |
-| Probe-verified `OK` | Austin, Leander, Travis County, Caldwell County |
-| Corrected from probe suggestions | Bee Cave, Round Rock, Hutto, Kyle, Bastrop, Bastrop County, Wimberley, Lockhart |
-| Previously timed out at 15s (timeout now 30s) | Lakeway, Cedar Park, Taylor, Buda, San Marcos, Elgin, Williamson County |
-| Needs the browser fallback (403 / client-rendered) | Dripping Springs, Pflugerville |
-| Root seeded so probe can suggest the council page | Manor, Hays County, Georgetown, Smithville |
+| **Fetches OK** (19) | Austin, Leander, Travis County, Caldwell County, Bee Cave, Round Rock, Hutto, Kyle, Bastrop, Bastrop County, Wimberley, Lockhart, Taylor, Buda, Williamson County, Pflugerville, Manor, Hays County, Smithville |
+| `HTTP 404` — needs a new URL | Lakeway, Cedar Park, San Marcos, Elgin |
+| DNS failure — wrong domain | Georgetown (`georgetown.org` does not resolve) |
+| Empty even after browser render | Dripping Springs |
+
+A scrape run now prints `try:` URL suggestions for each failed page, so the six above can be
+fixed from the next run's output without a separate probe.
 
 Luling was removed: `www.lulingtx.org` does not resolve and the city's real domain is unknown.
 

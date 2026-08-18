@@ -9,7 +9,7 @@
 //
 // Config:
 //   LLM_PRESET    groq | gemini | mistral | cerebras | github | openrouter | nvidia |
-//                 samba | llm7 | ovh | anthropic        (default: github)
+//                 samba | llm7 | ovh | anthropic        (default: ovh)
 //   LLM_API_KEY   provider key. Falls back to ANTHROPIC_API_KEY / GITHUB_TOKEN.
 //   LLM_MODEL     override the preset's default model
 //   LLM_BASE_URL  override the preset's base URL (any OpenAI-compatible endpoint)
@@ -52,7 +52,10 @@ const PRESETS = {
     rpm: 4, // limit 5 RPM, 30K TPM
   },
   github: {
-    // Uses the GITHUB_TOKEN already present in Actions — no extra secret to configure.
+    // RETIRED: GitHub Models is being shut down and now answers with
+    // HTTP 410 github_models_retirement_brownout. Kept only so an existing
+    // LLM_PRESET=github fails with a clear message instead of an unknown-preset error.
+    retired: "GitHub Models has been retired by GitHub and returns HTTP 410.",
     api: "openai",
     baseUrl: "https://models.github.ai/inference",
     model: "openai/gpt-4.1-mini",
@@ -95,7 +98,7 @@ const PRESETS = {
   },
 };
 
-const presetName = process.env.LLM_PRESET || "github";
+const presetName = process.env.LLM_PRESET || "ovh";
 const preset = PRESETS[presetName];
 if (!preset) {
   throw new Error(
@@ -150,6 +153,17 @@ function extractJson(text) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// A provider that is retired, unauthorized or missing will fail identically on every page.
+// Marking those errors fatal lets the runner stop after the first one instead of grinding
+// through the whole seed list.
+const FATAL_STATUSES = new Set([401, 403, 404, 410]);
+
+function fatalError(message) {
+  const err = new Error(message);
+  err.fatal = true;
+  return err;
+}
 
 // Client-side throttle so we stay under the provider's requests/minute cap.
 let lastCallAt = 0;
@@ -217,8 +231,14 @@ function readModelText(data) {
 }
 
 export async function extractOfficials({ text, url, jurisdiction }) {
+  if (preset.retired) {
+    throw fatalError(
+      `LLM_PRESET="${presetName}" is no longer usable: ${preset.retired} ` +
+        `Pick another preset (ovh needs no key; groq/gemini/mistral need LLM_API_KEY).`
+    );
+  }
   if (!API_KEY && presetName !== "ovh") {
-    throw new Error(
+    throw fatalError(
       `No API key. Set LLM_API_KEY (or ANTHROPIC_API_KEY for the anthropic preset, ` +
         `GITHUB_TOKEN for the github preset).`
     );
@@ -261,7 +281,8 @@ export async function extractOfficials({ text, url, jurisdiction }) {
 
     if (!res.ok) {
       const errText = await res.text().catch(() => "");
-      throw new Error(`${presetName} HTTP ${res.status}: ${errText.slice(0, 300)}`);
+      const message = `${presetName} HTTP ${res.status}: ${errText.slice(0, 300)}`;
+      throw FATAL_STATUSES.has(res.status) ? fatalError(message) : new Error(message);
     }
 
     const data = await res.json();
