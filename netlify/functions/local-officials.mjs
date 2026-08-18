@@ -102,13 +102,26 @@ export default async (req) => {
   }
 
   // The discovered page is usually the homepage, not a roster page — look for a better link
-  // on it (same heuristic the batch scraper uses to recover from a bad seed URL) and try both.
+  // on it (same heuristic the batch scraper uses to recover from a bad seed URL). suggestLinks
+  // returns candidates in DOM order, not ranked by relevance, so the first one is frequently a
+  // generic "Government" nav item rather than the actual roster page (confirmed for Boulder,
+  // CO: the real "/government/city-council" link was 3rd). Try several — see the merge loop
+  // below for why it doesn't just stop at the first one that returns anything.
   const candidateUrls = [discovery.url];
-  const rosterLink = suggestLinks(discovery.page.html, discovery.url, 1)[0];
-  if (rosterLink) candidateUrls.push(rosterLink[0]);
+  for (const [link] of suggestLinks(discovery.page.html, discovery.url, 4)) {
+    candidateUrls.push(link);
+  }
 
   const now = new Date().toISOString();
-  const results = [];
+  // Dedupe by id (pipeline.js's approach for the batch scraper, which visits every seed URL
+  // for a jurisdiction rather than stopping at the first hit) — a person can legitimately turn
+  // up on more than one candidate page. A single stray match doesn't necessarily mean the real
+  // roster page: confirmed against Boulder, CO, where a NEWS ARTICLE mentioning the city
+  // council got tried before the actual roster page and yielded one name (the city clerk),
+  // which would have looked like a "successful" scrape if we'd stopped there. So keep visiting
+  // candidates until either the list runs out or the count looks like an actual roster (3+),
+  // not just any non-zero result.
+  const byId = new Map();
   let extractError;
   for (const url of candidateUrls) {
     const page =
@@ -124,10 +137,11 @@ export default async (req) => {
     }
     for (const r of raw) {
       const rec = normalize(r, { jurisdiction, sourceUrl: url, extractedAt: now });
-      if (rec) results.push(rec);
+      if (rec) byId.set(rec.id, rec);
     }
-    if (results.length) break; // first page that yields officials wins; skip the second LLM call
+    if (byId.size >= 3) break;
   }
+  const results = [...byId.values()];
 
   const reason = results.length === 0 ? extractError : undefined;
   await store.setJSON(key, {
