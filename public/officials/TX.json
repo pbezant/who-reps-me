@@ -1,0 +1,1522 @@
+{
+  "state": "TX",
+  "generated_at": "2026-08-18T16:54:37.375Z",
+  "count": 75,
+  "cities": [
+    "Austin",
+    "Bastrop",
+    "Bastrop County",
+    "Bee Cave",
+    "Caldwell County",
+    "Hays County",
+    "Hutto",
+    "Kyle",
+    "Leander",
+    "Lockhart",
+    "Round Rock",
+    "Travis County",
+    "Williamson County"
+  ],
+  "officials": [
+    {
+      "id": "tx:austin:council-member:josé-'chito'-vela",
+      "name": "José 'Chito' Vela",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:josé-velásquez",
+      "name": "José Velásquez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:krista-laine",
+      "name": "Krista Laine",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:marc-duchen",
+      "name": "Marc Duchen",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 10",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:mike-siegel",
+      "name": "Mike Siegel",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:natasha-harper-madison",
+      "name": "Natasha Harper-Madison",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:paige-ellis",
+      "name": "Paige Ellis",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:ryan-alter",
+      "name": "Ryan Alter",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:vanessa-fuentes",
+      "name": "Vanessa Fuentes",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:council-member:zohaib-'zo'-qadri",
+      "name": "Zohaib 'Zo' Qadri",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:austin:mayor:kirk-watson",
+      "name": "Kirk Watson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Austin City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Austin",
+        "state": "TX"
+      },
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop-county:county-commissioner:null",
+      "name": "null",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Bastrop County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "804 Pecan Street, Bastrop, TX 78602",
+      "jurisdiction": {
+        "city": "Bastrop County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.bastrop.tx.us/page/com.main",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.5
+    },
+    {
+      "id": "tx:bastrop:council-member:cynthia-meyer",
+      "name": "Cynthia Meyer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": "Place 2",
+      "phone": "512-718-9300",
+      "email": "cmeyer@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop:council-member:john-kirkland",
+      "name": "John Kirkland",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": "Place 5",
+      "phone": "512-718-5102",
+      "email": "jkirkland@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop:council-member:kerry-fossler",
+      "name": "Kerry Fossler",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": "Place 4",
+      "phone": "512-718-6601",
+      "email": "kfossler@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop:council-member:kevin-plunkett",
+      "name": "Kevin Plunkett",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": "Place 3",
+      "phone": "512-718-5421",
+      "email": "kplunkett@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop:council-member:perry-lowe",
+      "name": "Perry Lowe",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": "Place 1",
+      "phone": "512-718-6995",
+      "email": "plowe@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bastrop:mayor:ishmael-harris",
+      "name": "Ishmael Harris",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "district": null,
+      "phone": "512-718-5957",
+      "email": "iharris@cityofbastrop.org",
+      "url": null,
+      "photo_url": null,
+      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
+      "jurisdiction": {
+        "city": "Bastrop",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofbastrop.org/page/cc.home",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:council-member:andrea-willott",
+      "name": "Andrea Willott",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "awillott@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:council-member:blake-sbrocco",
+      "name": "Blake Sbrocco",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "bsbrocco@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:council-member:kevin-hight",
+      "name": "Kevin Hight",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "khight@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:council-member:kit-crumbley",
+      "name": "Kit Crumbley",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "kcrumbley@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:mayor-pro-tem:andrew-clark",
+      "name": "Andrew Clark",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "aclark@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:bee-cave:mayor:kara-king",
+      "name": "Kara King",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "district": null,
+      "phone": null,
+      "email": "kking@beecavetexas.gov",
+      "url": null,
+      "photo_url": null,
+      "address": "4000 Galleria Parkway, Bee Cave, TX 78738",
+      "jurisdiction": {
+        "city": "Bee Cave",
+        "state": "TX"
+      },
+      "source_url": "https://www.beecavetexas.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:caldwell-county:commissioners-court-coordinator:stephanie-mckee",
+      "name": "Stephanie McKee",
+      "office": "Commissioners Court Coordinator",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": null,
+      "phone": "512-398-1808",
+      "email": null,
+      "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:caldwell-county:precinct-1-commissioner:b.-j.-westmoreland",
+      "name": "B. J. Westmoreland",
+      "office": "Precinct 1 Commissioner",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "512-376-1507",
+      "email": null,
+      "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "photo_url": null,
+      "address": "110 S. Main St., Room 103, Lockhart, TX 78644",
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:caldwell-county:precinct-2-commissioner:rusty-horne",
+      "name": "Rusty Horne",
+      "office": "Precinct 2 Commissioner",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "512-359-4647",
+      "email": null,
+      "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "photo_url": null,
+      "address": "110 S. Main St., Room 103, Lockhart, TX 78644",
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:caldwell-county:precinct-3-commissioner:edward-'ed'-theriot",
+      "name": "Edward 'Ed' Theriot",
+      "office": "Precinct 3 Commissioner",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "512-618-2865",
+      "email": null,
+      "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "photo_url": null,
+      "address": "110 S. Main St., Room 103, Lockhart, TX 78644",
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:caldwell-county:precinct-4-commissioner:dyral-thomas",
+      "name": "Dyral Thomas",
+      "office": "Precinct 4 Commissioner",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "512-359-4649",
+      "email": null,
+      "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "photo_url": null,
+      "address": "110 S. Main St., Room 103, Lockhart, TX 78644",
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:hays-county:commissioner:debbie-ingalsbe",
+      "name": "Debbie Ingalsbe",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Hays County",
+        "state": "TX"
+      },
+      "source_url": "https://hayscountytx.gov/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:hays-county:commissioner:michelle-cohen",
+      "name": "Michelle Cohen",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Hays County",
+        "state": "TX"
+      },
+      "source_url": "https://hayscountytx.gov/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:hays-county:commissioner:morgan-hammer",
+      "name": "Morgan Hammer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Hays County",
+        "state": "TX"
+      },
+      "source_url": "https://hayscountytx.gov/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:hays-county:commissioner:walt-smith",
+      "name": "Walt Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Hays County",
+        "state": "TX"
+      },
+      "source_url": "https://hayscountytx.gov/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:hays-county:county-judge:ruben-becerra",
+      "name": "Ruben Becerra",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Hays County",
+        "state": "TX"
+      },
+      "source_url": "https://hayscountytx.gov/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:hutto:councilmember:aaron-king",
+      "name": "Aaron King",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Hutto City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "500 W Live Oak Street, Hutto, TX 78634",
+      "jurisdiction": {
+        "city": "Hutto",
+        "state": "TX"
+      },
+      "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:hutto:councilmember:evan-porterfield",
+      "name": "Evan Porterfield",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Hutto City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "500 W Live Oak Street, Hutto, TX 78634",
+      "jurisdiction": {
+        "city": "Hutto",
+        "state": "TX"
+      },
+      "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:hutto:councilmember:jim-morris",
+      "name": "Jim Morris",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Hutto City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "500 W Live Oak Street, Hutto, TX 78634",
+      "jurisdiction": {
+        "city": "Hutto",
+        "state": "TX"
+      },
+      "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:hutto:mayor-pro-tem,-councilmember:dan-thornton",
+      "name": "Dan Thornton",
+      "office": "Mayor Pro Tem, Councilmember",
+      "level": "local",
+      "body": "Hutto City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "500 W Live Oak Street, Hutto, TX 78634",
+      "jurisdiction": {
+        "city": "Hutto",
+        "state": "TX"
+      },
+      "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:hutto:mayor:mike-snyder",
+      "name": "Mike Snyder",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Hutto City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "500 W Live Oak Street, Hutto, TX 78634",
+      "jurisdiction": {
+        "city": "Hutto",
+        "state": "TX"
+      },
+      "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:council-member:claudia-zapata",
+      "name": "Claudia Zapata",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "czapata@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:council-member:courtney-goza",
+      "name": "Courtney Goza",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "cgoza@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:council-member:dr.-lauralee-harris",
+      "name": "Dr. Lauralee Harris",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "lharris@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:council-member:marc-mckinney",
+      "name": "Marc McKinney",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "mmckinney@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:council-member:melisa-medina",
+      "name": "Melisa Medina",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "mmedina@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:mayor-pro-tem,-council-member:michael-tobias",
+      "name": "Michael Tobias",
+      "office": "Mayor Pro Tem, Council Member",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "mtobias@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:kyle:mayor:yvonne-flores-cale",
+      "name": "Yvonne Flores-Cale",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Kyle City Council",
+      "district": null,
+      "phone": null,
+      "email": "ycale@cityofkyle.com",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Kyle",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:council-member:andrew-naudin",
+      "name": "Andrew Naudin",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:council-member:annette-sponseller",
+      "name": "Annette Sponseller",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:council-member:michael-herrera",
+      "name": "Michael Herrera",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:council-member:natomi-blair",
+      "name": "Natomi Blair",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:council-member:stephen-chang",
+      "name": "Stephen Chang",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:mayor-pro-tem/council-member:becki-ross",
+      "name": "Becki Ross",
+      "office": "Mayor Pro Tem/Council Member",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:leander:mayor:na'cole-thompson",
+      "name": "Na'Cole Thompson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Leander City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Leander",
+        "state": "TX"
+      },
+      "source_url": "https://www.leandertx.gov/citycouncil",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:lockhart:city-council-member-at-large:brad-westmoreland",
+      "name": "Brad Westmoreland",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Lockhart",
+        "state": "TX"
+      },
+      "source_url": "https://www.lockhart-tx.org/27/Government",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:lockhart:city-council-member-at-large:taylor-burge",
+      "name": "Taylor Burge",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Lockhart",
+        "state": "TX"
+      },
+      "source_url": "https://www.lockhart-tx.org/27/Government",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:lockhart:city-council-member:john-castillo",
+      "name": "John Castillo",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Lockhart",
+        "state": "TX"
+      },
+      "source_url": "https://www.lockhart-tx.org/27/Government",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:lockhart:city-council-member:juan-mendoza",
+      "name": "Juan Mendoza",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Lockhart",
+        "state": "TX"
+      },
+      "source_url": "https://www.lockhart-tx.org/27/Government",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:lockhart:mayor:lew-white",
+      "name": "Lew White",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Lockhart",
+        "state": "TX"
+      },
+      "source_url": "https://www.lockhart-tx.org/27/Government",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:frank-ortega",
+      "name": "Frank Ortega",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:hilda-montgomery",
+      "name": "Hilda Montgomery",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:kristin-stevens",
+      "name": "Kristin Stevens",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:melissa-fleming",
+      "name": "Melissa Fleming",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:michelle-ly",
+      "name": "Michelle Ly",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:councilmember:rene-flores",
+      "name": "Rene Flores",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:round-rock:mayor:craig-morgan",
+      "name": "Craig Morgan",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Round Rock",
+        "state": "TX"
+      },
+      "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:travis-county:commissioner:ann-howard",
+      "name": "Ann Howard",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "district": "Precinct Three",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Travis County",
+        "state": "TX"
+      },
+      "source_url": "https://www.traviscountytx.gov/commissioners-court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:travis-county:commissioner:brigid-shea",
+      "name": "Brigid Shea",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "district": "Precinct Two",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Travis County",
+        "state": "TX"
+      },
+      "source_url": "https://www.traviscountytx.gov/commissioners-court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:travis-county:commissioner:george-morales",
+      "name": "George Morales",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "district": "Precinct Four",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Travis County",
+        "state": "TX"
+      },
+      "source_url": "https://www.traviscountytx.gov/commissioners-court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:travis-county:commissioner:jeff-travillion",
+      "name": "Jeff Travillion",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "district": "Precinct One",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Travis County",
+        "state": "TX"
+      },
+      "source_url": "https://www.traviscountytx.gov/commissioners-court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:travis-county:county-judge:andy-brown",
+      "name": "Andy Brown",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Travis County",
+        "state": "TX"
+      },
+      "source_url": "https://www.traviscountytx.gov/commissioners-court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:williamson-county:commissioner:cynthia-long",
+      "name": "Cynthia Long",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.wilco.org/Commissioners-Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:williamson-county:commissioner:russ-boles",
+      "name": "Russ Boles",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.wilco.org/Commissioners-Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:williamson-county:commissioner:terry-cook",
+      "name": "Terry Cook",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.wilco.org/Commissioners-Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:williamson-county:commissioner:valerie-covey",
+      "name": "Valerie Covey",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.wilco.org/Commissioners-Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:williamson-county:county-judge:steven-snell",
+      "name": "Steven Snell",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.wilco.org/Commissioners-Court",
+      "extracted_at": "2026-08-18T16:54:37.375Z",
+      "confidence": 0.9
+    }
+  ]
+}
