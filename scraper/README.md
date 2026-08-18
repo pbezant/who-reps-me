@@ -144,8 +144,10 @@ a repo secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Cla
 provider's name.
 
 > **GitHub Models is retired.** It was the original default and now returns
-> `HTTP 410 github_models_retirement_brownout` for every request. Selecting `LLM_PRESET=github`
-> now fails immediately with a message naming the working alternatives.
+> `HTTP 410 github_models_retirement_brownout` for every request. It has been removed from the
+> workflow's provider dropdown, and a run whose `LLM_PRESET` variable still says `github` fails
+> in the first seconds with a message naming the working alternatives — check that repository
+> **variable** if a run aborts this way, since a variable overrides the `ovh` default.
 
 The **Run workflow** button takes a `mode`:
 
