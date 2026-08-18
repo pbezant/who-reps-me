@@ -158,7 +158,7 @@ async function throttle(rpm) {
   lastCallAt = Date.now();
 }
 
-function buildRequest({ system, user, maxOutput }, cfg) {
+function buildRequest({ system, user, maxOutput, jsonMode }, cfg) {
   if (cfg.api === "anthropic") {
     return {
       endpoint: `${cfg.baseUrl}/messages`,
@@ -187,7 +187,10 @@ function buildRequest({ system, user, maxOutput }, cfg) {
       model: cfg.model,
       max_tokens: maxOutput,
       temperature: 0,
-      response_format: { type: "json_object" },
+      // Only force JSON-object output when the caller actually wants JSON (extract.js). Most
+      // providers 400 (or otherwise misbehave) if json_object mode is requested but the prompt
+      // doesn't ask the model for JSON — discover.js asks for a bare URL, not an object.
+      ...(jsonMode !== false ? { response_format: { type: "json_object" } } : {}),
       messages: [
         { role: "system", content: system },
         { role: "user", content: user },
@@ -206,7 +209,7 @@ function readModelText(data, api) {
 // Low-level call: system + user text in, raw model text out. Retries on 429/5xx with backoff
 // (honoring Retry-After), throttled to the preset's RPM. Callers parse the response shape
 // they expect (extract.js wants JSON officials, discover.js wants a bare URL).
-export async function callLLM({ system, user, maxOutput, maxAttempts = 4 } = {}) {
+export async function callLLM({ system, user, maxOutput, jsonMode = true, maxAttempts = 4 } = {}) {
   const cfg = resolveLLMConfig();
   if (cfg.preset.retired) {
     throw fatalError(
@@ -221,7 +224,7 @@ export async function callLLM({ system, user, maxOutput, maxAttempts = 4 } = {})
   }
 
   const { endpoint, headers, body } = buildRequest(
-    { system, user, maxOutput: maxOutput || cfg.maxOutput },
+    { system, user, maxOutput: maxOutput || cfg.maxOutput, jsonMode },
     cfg
   );
 

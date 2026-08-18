@@ -48,12 +48,11 @@ export async function discoverJurisdictionSite({ city, state, level }) {
   const user = `Jurisdiction: ${city}, ${state} (${kind} government)
 What is the official ${kind} government homepage URL?`;
 
-  let raw;
-  try {
-    raw = await callLLM({ system: SYSTEM_PROMPT, user, maxOutput: 60 });
-  } catch {
-    return null; // fatal (bad key/retired preset) or transient — either way, no site found
-  }
+  // Let a callLLM failure (bad key, retired preset, provider error) propagate rather than
+  // swallowing it here — the caller distinguishes "couldn't confirm a site" (expected, happens
+  // for towns the model doesn't know) from "the LLM call itself is broken" (a bug to surface),
+  // which look identical if this just returned null for both.
+  const raw = await callLLM({ system: SYSTEM_PROMPT, user, maxOutput: 60, jsonMode: false });
 
   const url = extractUrl(raw);
   if (!url) return null;

@@ -84,10 +84,21 @@ export default async (req) => {
     body: level === "county" ? `${city} Commissioners Court` : `${city} City Council`,
   };
 
-  const discovery = await discoverJurisdictionSite({ city, state, level }).catch(() => null);
+  let discovery, discoveryError;
+  try {
+    discovery = await discoverJurisdictionSite({ city, state, level });
+  } catch (err) {
+    discoveryError = err.message; // surfaced below so a broken key/preset is diagnosable from
+    // the response itself, not just server logs — distinct from a legitimate "no site found".
+  }
   if (!discovery) {
-    await store.setJSON(key, { ok: false, officials: [], checked_at: new Date().toISOString() });
-    return jsonResponse({ officials: [], source: "scraped-now" });
+    await store.setJSON(key, {
+      ok: false,
+      officials: [],
+      checked_at: new Date().toISOString(),
+      ...(discoveryError ? { error: discoveryError } : {}),
+    });
+    return jsonResponse({ officials: [], source: "scraped-now", ...(discoveryError ? { error: discoveryError } : {}) });
   }
 
   // The discovered page is usually the homepage, not a roster page — look for a better link
@@ -98,6 +109,7 @@ export default async (req) => {
 
   const now = new Date().toISOString();
   const results = [];
+  let extractError;
   for (const url of candidateUrls) {
     const page =
       url === discovery.url ? discovery.page : await fetchPage(url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
@@ -106,7 +118,8 @@ export default async (req) => {
     let raw;
     try {
       raw = await extractOfficials({ text: page.text, url, jurisdiction });
-    } catch {
+    } catch (err) {
+      extractError = err.message;
       continue;
     }
     for (const r of raw) {
@@ -116,14 +129,16 @@ export default async (req) => {
     if (results.length) break; // first page that yields officials wins; skip the second LLM call
   }
 
+  const reason = results.length === 0 ? extractError : undefined;
   await store.setJSON(key, {
     ok: results.length > 0,
     officials: results,
     source_url: discovery.url,
     checked_at: now,
+    ...(reason ? { error: reason } : {}),
   });
 
-  return jsonResponse({ officials: results, source: "scraped-now" });
+  return jsonResponse({ officials: results, source: "scraped-now", ...(reason ? { error: reason } : {}) });
 };
 
 export const config = { path: "/api/local-officials" };
