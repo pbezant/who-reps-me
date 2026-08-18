@@ -18,7 +18,7 @@ BallotReady) are paid commercial data. This scraper is the DIY alternative.
 | Data store | Per-state JSON shards committed to the repo | $0 |
 | Runner | GitHub Actions cron | $0 |
 | Geocoding | US Census Geocoder (no API key) | $0 |
-| Extraction | swappable LLM — free tier or Claude Haiku | $0–20 |
+| Extraction | GitHub Models via built-in `GITHUB_TOKEN` (default) | $0 |
 
 No database server and no always-on worker. For read-only, batch-updated data, a per-state
 JSON file *is* the database — the frontend already fetches JSON and knows the state from
@@ -31,7 +31,7 @@ Extraction is provider-agnostic. Most free LLM APIs expose an **OpenAI-compatibl
 
 | Preset | Free tier | Key needed | Notes |
 | --- | --- | --- | --- |
-| `github` | 15 RPM, 150 RPD | **none** — built-in `GITHUB_TOKEN` | Simplest in Actions; needs `models: read` |
+| **`github`** ← default | 15 RPM, 150 RPD | **none** — built-in `GITHUB_TOKEN` | Simplest in Actions; needs `models: read`. Per-request cap ~8K in / 4K out, so pages clip to 18k chars |
 | `groq` | 30 RPM, 1,000 RPD | `LLM_API_KEY` | Very fast; Llama 3.3 70B |
 | `gemini` | 15 RPM, 1,500 RPD | `LLM_API_KEY` | Strong at structured output; 1M context |
 | `mistral` | ~1B tokens/month | `LLM_API_KEY` | Highest volume ceiling — best for going nationwide |
@@ -45,8 +45,12 @@ Extraction is provider-agnostic. Most free LLM APIs expose an **OpenAI-compatibl
 Provider list and limits: [awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis).
 
 ```bash
-# free, via Groq
+# default: GitHub Models. In Actions this needs nothing at all. Locally, GITHUB_TOKEN
+# isn't set for you, so use a fine-grained PAT with the "Models: read" permission:
 cd scraper
+LLM_API_KEY=github_pat_... npm run scrape
+
+# free, via Groq
 LLM_PRESET=groq LLM_API_KEY=gsk_... npm run scrape
 
 # free, no key at all (EU-hosted, 2 RPM so it's slow)
@@ -110,9 +114,9 @@ cd scraper
 npm run probe                  # free: verify all seed URLs
 npm run probe -- --only Kyle   # free: verify one
 
-# then scrape with whichever provider you chose above
-LLM_PRESET=groq LLM_API_KEY=gsk_... npm run scrape
-LLM_PRESET=groq LLM_API_KEY=gsk_... npm run scrape -- --only Austin
+# then scrape (GitHub Models by default; locally needs a PAT with "Models: read")
+LLM_API_KEY=github_pat_... npm run scrape
+LLM_API_KEY=github_pat_... npm run scrape -- --only Austin
 ```
 
 `probe` reports each URL as `OK`, `FAIL`, `NEEDS-BROWSER`, or `NO-ROSTER-KEYWORDS`, and for
@@ -129,17 +133,17 @@ Scrape output: `public/officials/<STATE>.json` shards + `index.json`. Failed pag
 shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
 weekly is usually plenty since officials rarely change.
 
-**One-time setup:** pick a provider. The `github` preset needs **nothing** (it uses the
-built-in `GITHUB_TOKEN`). Any other provider needs a repo secret — `LLM_API_KEY` for a free
-provider, or `ANTHROPIC_API_KEY` for Claude — under
-*Settings → Secrets and variables → Actions*. Set the repo **variable** `LLM_PRESET` to choose.
+**Setup: none required.** Extraction defaults to GitHub Models using the `GITHUB_TOKEN` that
+Actions injects automatically (the workflow grants `models: read`). To use a different provider,
+add a repo secret — `LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude — under
+*Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to its name.
 
 The **Run workflow** button takes a `mode`:
 
 | mode | Cost | Use |
 | --- | --- | --- |
 | `probe` | free | Verify seed URLs; downloads a `seed-probe-report` artifact |
-| `scrape` | free or paid, per provider | The real run |
+| `scrape` | free (GitHub Models by default) | The real run |
 
 Scheduled runs always scrape.
 

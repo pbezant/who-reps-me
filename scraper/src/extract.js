@@ -9,7 +9,7 @@
 //
 // Config:
 //   LLM_PRESET    groq | gemini | mistral | cerebras | github | openrouter | nvidia |
-//                 samba | llm7 | ovh | anthropic        (default: anthropic)
+//                 samba | llm7 | ovh | anthropic        (default: github)
 //   LLM_API_KEY   provider key. Falls back to ANTHROPIC_API_KEY / GITHUB_TOKEN.
 //   LLM_MODEL     override the preset's default model
 //   LLM_BASE_URL  override the preset's base URL (any OpenAI-compatible endpoint)
@@ -57,6 +57,10 @@ const PRESETS = {
     baseUrl: "https://models.github.ai/inference",
     model: "openai/gpt-4.1-mini",
     rpm: 12, // limit 15 RPM, 150 RPD
+    // Per-request cap is ~8K tokens in / 4K out — tighter than other providers. 18k chars
+    // stays under 8K tokens even on dense pages (worst case ~3 chars/token).
+    maxChars: 18000,
+    maxOutput: 4000,
   },
   openrouter: {
     api: "openai",
@@ -91,7 +95,7 @@ const PRESETS = {
   },
 };
 
-const presetName = process.env.LLM_PRESET || "anthropic";
+const presetName = process.env.LLM_PRESET || "github";
 const preset = PRESETS[presetName];
 if (!preset) {
   throw new Error(
@@ -104,6 +108,8 @@ const BASE_URL = process.env.LLM_BASE_URL || preset.baseUrl;
 // SCRAPER_MODEL kept for backwards compatibility with the original Anthropic-only version.
 const MODEL = process.env.LLM_MODEL || process.env.SCRAPER_MODEL || preset.model;
 const RPM = Number(process.env.LLM_RPM || preset.rpm || 0);
+const MAX_CHARS = Number(process.env.LLM_MAX_CHARS || preset.maxChars || 24000);
+const MAX_OUTPUT = Number(process.env.LLM_MAX_OUTPUT || preset.maxOutput || 4096);
 const API_KEY =
   process.env.LLM_API_KEY ||
   (API === "anthropic" ? process.env.ANTHROPIC_API_KEY : null) ||
@@ -174,7 +180,7 @@ ${text}
       },
       body: {
         model: MODEL,
-        max_tokens: 4096,
+        max_tokens: MAX_OUTPUT,
         system: SYSTEM_PROMPT,
         messages: [{ role: "user", content: userContent }],
       },
@@ -190,7 +196,7 @@ ${text}
     headers,
     body: {
       model: MODEL,
-      max_tokens: 4096,
+      max_tokens: MAX_OUTPUT,
       temperature: 0,
       // Ask for JSON where the provider supports it; harmless hint where it doesn't,
       // and extractJson() still handles prose-wrapped output.
@@ -218,10 +224,10 @@ export async function extractOfficials({ text, url, jurisdiction }) {
     );
   }
 
-  // Cap page text so a huge page can't blow up token use. Officials are almost always in a
-  // roster block near the top; 24k chars is plenty for a council page and stays under the
-  // tighter free-tier per-request input limits (e.g. GitHub Models' 8K tokens).
-  const clipped = text.slice(0, 24000);
+  // Cap page text so a huge page can't blow up token use, and so we stay under the selected
+  // provider's per-request input limit. Officials are almost always in a roster block near the
+  // top of the page, so a clip rarely loses anything that matters.
+  const clipped = text.slice(0, MAX_CHARS);
   const { endpoint, headers, body } = buildRequest({ text: clipped, url, jurisdiction });
 
   const MAX_ATTEMPTS = 4;
