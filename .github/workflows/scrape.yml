@@ -12,9 +12,13 @@
 #   probe  - free reachability check of every seed URL (no Claude calls, spends nothing)
 #   scrape - the real run (spends Claude tokens)
 #
-# Notes: scheduled runs only fire from the repository's DEFAULT branch, so use the manual
-# button to test on a feature branch. GitHub also disables schedules after ~60 days of repo
-# inactivity, and may delay cron runs under load.
+# IMPORTANT: GitHub registers workflows from the repository's DEFAULT branch only. Until this
+# file is merged to the default branch it will not appear in the Actions tab at all, and neither
+# the "Run workflow" button nor the cron schedule is available — switching branches in the UI
+# does not help. Before it is merged, run the scraper locally instead:
+#   cd scraper && npm run probe        # free
+#   cd scraper && ANTHROPIC_API_KEY=... npm run scrape
+# GitHub also disables schedules after ~60 days of repo inactivity, and may delay cron under load.
 
 name: Scrape local officials
 

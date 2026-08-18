@@ -85,9 +85,13 @@ The **Run workflow** button takes a `mode`:
 | `probe` | free | Verify seed URLs; downloads a `seed-probe-report` artifact |
 | `scrape` | tokens | The real run |
 
-Scheduled runs always scrape. Note that schedules fire only from the **default branch**, so use
-the manual button to test a feature branch; GitHub also disables schedules after ~60 days of
-repo inactivity.
+Scheduled runs always scrape.
+
+> **The workflow only appears in the Actions tab once this file is on the repository's default
+> branch.** GitHub registers workflows from the default branch only, so while it lives on a
+> feature branch there is nothing to run — no **Run workflow** button and no cron, and switching
+> branches in the UI won't reveal it. Until it's merged, run the scraper locally (see above).
+> GitHub also disables schedules after ~60 days of repo inactivity.
 
 ## Seed list
 
