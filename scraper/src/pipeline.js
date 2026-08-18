@@ -6,20 +6,27 @@ import { fetchPage } from "./fetch.js";
 import { extractOfficials } from "./extract.js";
 import { normalize } from "./normalize.js";
 
-export async function scrapeJurisdiction(jurisdiction, { now }) {
+export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = false }) {
   const results = [];
   const problems = [];
 
   for (const url of jurisdiction.urls) {
-    const page = await fetchPage(url);
+    const page = await fetchPage(url, { allowBrowser });
     if (!page.ok) {
-      problems.push({ url, error: page.error });
+      // browserError explains why the Playwright fallback couldn't rescue a blocked/empty page.
+      const detail = page.browserError ? `${page.error}; ${page.browserError}` : page.error;
+      problems.push({ url, error: detail });
       continue;
     }
     if (page.needsBrowser) {
-      // Static fetch got almost no text — likely a JS-rendered SPA. Flag for the
-      // Playwright fallback (phase 2) instead of silently returning nothing.
-      problems.push({ url, error: "needs-browser (empty static render)" });
+      // Almost no text and no browser fallback available — flag rather than silently returning
+      // nothing, so probe/problems output shows this page needs Playwright installed.
+      problems.push({
+        url,
+        error: page.browserError
+          ? `needs-browser (empty static render); ${page.browserError}`
+          : "needs-browser (empty static render)",
+      });
       continue;
     }
 

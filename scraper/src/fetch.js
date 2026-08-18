@@ -1,7 +1,11 @@
-// Page fetching. Native fetch handles static/server-rendered gov pages, which is
-// the majority. JS-heavy sites (SPAs) need a headless browser — that's a Playwright
-// fallback we add in phase 2. For now we detect a suspiciously empty body and flag it
-// so the pipeline can mark the jurisdiction for browser-based re-crawl later.
+import { renderPage } from "./browser.js";
+
+// Page fetching. Native fetch handles static/server-rendered gov pages, which is the
+// majority and costs nothing. Two cases need a real browser: client-rendered rosters (fetch
+// returns an almost-empty shell) and sites whose WAF answers non-browser requests with 403.
+// For those we fall back to Playwright when it's available (see browser.js) — pass
+// { allowBrowser: true }. Without Playwright installed the page is simply reported as
+// needing a browser, exactly as before.
 
 // Many municipal sites sit behind WAFs that reject unrecognized bot user-agents outright
 // (a bare bot string 403s on most of them). We send a normal browser UA so ordinary public
@@ -28,7 +32,10 @@ export function htmlToText(html) {
     .trim();
 }
 
-export async function fetchPage(url, { timeoutMs = 20000 } = {}) {
+// Statuses that usually mean "bot blocked" rather than "page missing" — worth a browser retry.
+const WAF_STATUSES = new Set([403, 429, 503]);
+
+async function fetchStatic(url, timeoutMs) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -50,4 +57,39 @@ export async function fetchPage(url, { timeoutMs = 20000 } = {}) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+export async function fetchPage(url, { timeoutMs = 20000, allowBrowser = false } = {}) {
+  const staticResult = await fetchStatic(url, timeoutMs);
+
+  const blocked = !staticResult.ok && WAF_STATUSES.has(staticResult.status);
+  const thin = staticResult.ok && staticResult.needsBrowser;
+  if (!allowBrowser || (!blocked && !thin)) return staticResult;
+
+  // Retry through a real browser: executes JS and gets past naive bot filters.
+  const rendered = await renderPage(url, { timeoutMs: Math.max(timeoutMs, 30000) });
+  if (!rendered.ok) {
+    // Keep the original diagnosis, but note why the fallback didn't help.
+    return { ...staticResult, browserError: rendered.error };
+  }
+
+  const text = htmlToText(rendered.html);
+  if (text.length < 500) {
+    return {
+      ok: false,
+      url,
+      status: rendered.status ?? staticResult.status,
+      error: "needs-browser (empty even after browser render)",
+      viaBrowser: true,
+    };
+  }
+  return {
+    ok: true,
+    url,
+    status: rendered.status ?? 200,
+    html: rendered.html,
+    text,
+    needsBrowser: false,
+    viaBrowser: true,
+  };
 }

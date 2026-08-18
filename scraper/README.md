@@ -92,11 +92,15 @@ writing new code. Any provider works — see above.
 ## Pipeline
 
 ```
-seeds.json ─> fetch ─> AI extract ─> normalize ─> dedupe ─> per-state shards
- (config)    fetch.js   extract.js   normalize.js  pipeline.js   output.js -> ../public/officials/<ST>.json
+seeds.json ─> fetch ─────────> AI extract ─> normalize ─> dedupe ─> per-state shards
+ (config)    fetch.js         extract.js   normalize.js  pipeline.js   output.js
+             └─ browser.js                                          -> ../public/officials/<ST>.json
+                (fallback)
 ```
 
-- **fetch.js** — native `fetch`, strips HTML to text, flags likely JS-only pages for a browser fallback.
+- **fetch.js** — native `fetch`, strips HTML to text; retries through headless Chromium when a
+  page is client-rendered or WAF-blocked.
+- **browser.js** — optional Playwright fallback, lazily imported and shared across the run.
 - **extract.js** — provider-agnostic LLM call (raw fetch, no SDK) with RPM throttle and 429 retry.
 - **normalize.js** — canonical record with provenance (`source_url`, `extracted_at`) and `confidence`.
 - **pipeline.js** — per-jurisdiction orchestration + dedupe.
@@ -119,7 +123,8 @@ LLM_API_KEY=github_pat_... npm run scrape
 LLM_API_KEY=github_pat_... npm run scrape -- --only Austin
 ```
 
-`probe` reports each URL as `OK`, `FAIL`, `NEEDS-BROWSER`, or `NO-ROSTER-KEYWORDS`, and for
+`probe` reports each URL as `OK`, `OK (via browser)`, `FAIL`, `NEEDS-BROWSER`, or
+`NO-ROSTER-KEYWORDS`, and for
 anything not OK it scans the site's homepage and prints candidate council links to use instead.
 Full report: `scraper/data/probe.json`.
 
@@ -152,6 +157,33 @@ Scheduled runs always scrape.
 > feature branch there is nothing to run — no **Run workflow** button and no cron, and switching
 > branches in the UI won't reveal it. Until it's merged, run the scraper locally (see above).
 > GitHub also disables schedules after ~60 days of repo inactivity.
+
+## Browser fallback (headless Chromium)
+
+Two things defeat a plain HTTP fetch: rosters rendered client-side (you get an empty shell) and
+municipal WAFs that answer non-browser requests with **403**. Both are retried through headless
+Chromium via Playwright, which executes the page's JS and presents as a real browser.
+
+Playwright is an **optional dependency** — `browser.js` imports it lazily, so without it the
+scraper behaves exactly as before and just reports those pages as `needs-browser`.
+
+```bash
+cd scraper
+npm install                          # installs playwright (optional dep)
+npx playwright install chromium      # downloads the browser
+npm run probe                        # now reports "OK (via browser)" where relevant
+
+npm install --omit=optional          # opt out entirely; static-only
+SCRAPER_BROWSER=0 npm run scrape     # or disable per-run
+```
+
+If your Chromium lives outside Playwright's default location, point at it with
+`PLAYWRIGHT_CHROMIUM_PATH=/path/to/chrome`.
+
+In CI the workflow installs and caches Chromium automatically. Set the repo variable
+`SCRAPER_BROWSER=0` to turn the fallback off.
+
+Costs nothing in API terms — rendering is local work, not LLM tokens. It only spends CI minutes.
 
 ## Seed list
 
@@ -202,8 +234,8 @@ future **ward-level point-in-polygon** matching.
 
 - **Grow coverage** by adding jurisdictions to `config/seeds.json`. At nationwide scale the
   seed list is generated from the US Census *Census of Governments*; the pipeline is unchanged.
-- **JS-rendered sites** (flagged `needs-browser`, e.g. the 403 on cityofkyle.com) need a
-  Playwright fetch fallback — a drop-in phase-2 addition to `fetch.js`.
+- **JS-rendered and WAF-blocked sites** are handled by the browser fallback below. Anything it
+  still can't read is reported as `needs-browser` with the underlying reason.
 - **Address → *your specific* council member** (ward/district) needs per-city boundary GeoJSON
   most cities don't publish. MVP matches at **city + county level**; geocoding already provides
   the coordinates to upgrade wherever boundary data exists. Even Cicero has this gap.

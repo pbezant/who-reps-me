@@ -10,5 +10,8 @@
   "scripts": {
     "probe": "node src/probe.js",
     "scrape": "node src/run.js"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.49.0"
   }
 }

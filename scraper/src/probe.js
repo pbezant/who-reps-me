@@ -16,6 +16,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { fetchPage } from "./fetch.js";
+import { closeBrowser } from "./browser.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -55,23 +56,27 @@ async function main() {
   let jurisdictions = seeds.jurisdictions;
   if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
 
+  const allowBrowser = process.env.SCRAPER_BROWSER !== "0";
+
   const report = [];
   let ok = 0;
 
   for (const j of jurisdictions) {
     for (const url of j.urls) {
-      const r = await fetchPage(url, { timeoutMs: 15000 });
+      const r = await fetchPage(url, { timeoutMs: 15000, allowBrowser });
       let status;
       let suggestions = [];
 
       if (!r.ok) {
         status = `FAIL (${r.error})`;
+        if (r.browserError) status += ` [browser: ${r.browserError}]`;
       } else if (r.needsBrowser) {
         status = "NEEDS-BROWSER (empty static render)";
+        if (r.browserError) status += ` [browser: ${r.browserError}]`;
       } else if (!ROSTER_RE.test(r.text)) {
         status = "NO-ROSTER-KEYWORDS";
       } else {
-        status = "OK";
+        status = r.viaBrowser ? "OK (via browser)" : "OK";
         ok++;
       }
 
@@ -79,7 +84,7 @@ async function main() {
       if (status !== "OK") {
         try {
           const origin = new URL(url).origin;
-          const home = await fetchPage(origin, { timeoutMs: 15000 });
+          const home = await fetchPage(origin, { timeoutMs: 15000, allowBrowser });
           if (home.ok) suggestions = suggestLinks(home.html, origin);
         } catch {
           /* ignore */
@@ -106,7 +111,9 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main()
+  .catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  })
+  .finally(() => closeBrowser());
