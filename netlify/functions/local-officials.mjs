@@ -28,6 +28,7 @@ import { discoverJurisdictionSite } from "../../scraper/src/discover.js";
 import { suggestLinks } from "../../scraper/src/suggest.js";
 import { extractOfficials } from "../../scraper/src/extract.js";
 import { normalize } from "../../scraper/src/normalize.js";
+import { findMediaCandidates, stripSharedMedia } from "../../scraper/src/media.js";
 
 const STORE_NAME = "local-officials-ondemand";
 const HIT_TTL_MS = 1000 * 60 * 60 * 24 * 90; // 90 days: officials rarely change
@@ -139,9 +140,14 @@ export default async (req) => {
     fetched += 1;
     if (!page?.ok) continue;
 
+    // Regex-only, no extra fetch or LLM call — safe to run here despite the tight ~30s
+    // budget this endpoint already fights. See scraper/src/media.js for why this is what
+    // makes photo_url/social reachable at all (fetch.js strips <img>/<a> out of page.text).
+    const media = findMediaCandidates(page.html, url);
+
     let raw;
     try {
-      raw = await extractOfficials({ text: page.text, url, jurisdiction });
+      raw = await extractOfficials({ text: page.text, url, jurisdiction, media });
     } catch (err) {
       extractError = err.message;
       continue;
@@ -166,7 +172,7 @@ export default async (req) => {
       }
     }
   }
-  const results = [...byId.values()];
+  const results = stripSharedMedia([...byId.values()]);
 
   const reason = results.length === 0 ? extractError : undefined;
   await store.setJSON(key, {

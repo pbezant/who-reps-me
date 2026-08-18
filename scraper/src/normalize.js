@@ -63,6 +63,18 @@ export function buildId(jurisdiction, office, name) {
     .replace(/\s+/g, "-");
 }
 
+const SOCIAL_PLATFORMS = ["twitter", "facebook", "instagram", "linkedin", "youtube"];
+
+// Always emit every platform key (null when absent) so every record has the same shape —
+// the frontend can render a fixed set of icon slots without checking each key exists first.
+function normalizeSocial(raw, base) {
+  const social = {};
+  for (const platform of SOCIAL_PLATFORMS) {
+    social[platform] = absolutize(raw?.[platform], base);
+  }
+  return social;
+}
+
 export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
   const name = (raw.name || "").trim();
   if (!name) return null;
@@ -77,6 +89,7 @@ export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
     email: raw.email ? String(raw.email).trim() : null,
     url: absolutize(raw.url, sourceUrl),
     photo_url: absolutize(raw.photo_url, sourceUrl),
+    social: normalizeSocial(raw.social, sourceUrl),
     address: raw.address ? String(raw.address).trim() : null,
     jurisdiction: { city: jurisdiction.city, state: jurisdiction.state },
     source_url: sourceUrl,

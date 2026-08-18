@@ -6,6 +6,7 @@ import { fetchPage } from "./fetch.js";
 import { extractOfficials } from "./extract.js";
 import { normalize } from "./normalize.js";
 import { suggestLinks } from "./suggest.js";
+import { findMediaCandidates, stripSharedMedia } from "./media.js";
 
 // Look at the site's homepage for a better candidate URL. Best-effort: never throws.
 async function findSuggestions(url, allowBrowser) {
@@ -43,9 +44,13 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
       continue;
     }
 
+    // Regex-scanned from the raw HTML (fetch.js already stripped tags out of page.text for
+    // the LLM) — see media.js for why this is what makes photo_url/social reachable at all.
+    const media = findMediaCandidates(page.html, url);
+
     let raw;
     try {
-      raw = await extractOfficials({ text: page.text, url, jurisdiction });
+      raw = await extractOfficials({ text: page.text, url, jurisdiction, media });
     } catch (err) {
       if (err?.fatal) {
         err.jurisdiction = `${jurisdiction.city}, ${jurisdiction.state}`;
@@ -68,5 +73,5 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
     if (!prev || (rec.confidence ?? 0) > (prev.confidence ?? 0)) byId.set(rec.id, rec);
   }
 
-  return { officials: [...byId.values()], problems };
+  return { officials: stripSharedMedia([...byId.values()]), problems };
 }

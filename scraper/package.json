@@ -10,7 +10,11 @@
   "scripts": {
     "probe": "node src/probe.js",
     "scrape": "node src/run.js",
-    "test": "node --test 'src/**/*.test.js'"
+    "federal-social": "node src/federal-social.js",
+    "test": "node --test 'src/**/*.test.js' 'scripts/**/*.test.js'"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
   },
   "optionalDependencies": {
     "playwright": "^1.49.0"

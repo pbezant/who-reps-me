@@ -17,9 +17,10 @@
 //
 // Merge rule within a duplicate group: the record with the newest `extracted_at` wins as the
 // base (its office/name/district/confidence/source_url/extracted_at are kept as-is); any field
-// on the base that is null is backfilled from the newest duplicate that has a non-null value
-// for it (e.g. photo_url once photo extraction lands on an older record but not yet on a newer
-// one). Nothing is dropped silently — the script prints every group it merges.
+// (or, for `social`, any individual platform) on the base that is null is backfilled from the
+// newest duplicate that has a non-null value for it — e.g. an older duplicate has a photo_url or
+// a twitter link the newer one is missing. Nothing is dropped silently — the script prints every
+// group it merges.
 
 import { readFile, writeFile } from "node:fs/promises";
 import { buildId } from "../src/normalize.js";
@@ -28,6 +29,12 @@ import { buildId } from "../src/normalize.js";
 // Deliberately excludes identity/provenance fields (name, office, jurisdiction, source_url,
 // extracted_at, confidence) — those always come from whichever record is newest.
 const BACKFILL_FIELDS = ["phone", "email", "url", "photo_url", "address", "district"];
+
+// `social` (added alongside photo_url — see normalize.js's normalizeSocial()) is an object with
+// one key per platform, always present but usually all-null, so it needs its own per-platform
+// backfill rather than the single `!= null` check BACKFILL_FIELDS uses: the object itself is
+// never null, only its individual platform values are.
+const SOCIAL_PLATFORMS = ["twitter", "facebook", "instagram", "linkedin", "youtube"];
 
 function mergeGroup(records) {
   const [base, ...rest] = [...records].sort(
@@ -38,6 +45,15 @@ function mergeGroup(records) {
     if (merged[field] != null) continue;
     const donor = rest.find((r) => r[field] != null);
     if (donor) merged[field] = donor[field];
+  }
+  if (rest.some((r) => r.social)) {
+    const social = { ...merged.social };
+    for (const platform of SOCIAL_PLATFORMS) {
+      if (social[platform] != null) continue;
+      const donor = rest.find((r) => r.social?.[platform] != null);
+      if (donor) social[platform] = donor.social[platform];
+    }
+    merged.social = social;
   }
   return merged;
 }
