@@ -93,8 +93,8 @@ writing new code. Any provider works — see above.
 ```
 seeds.json ─> fetch ─────────> AI extract ─> normalize ─> dedupe ─> per-state shards
  (config)    fetch.js         extract.js   normalize.js  pipeline.js   output.js
-             └─ browser.js                                          -> ../public/officials/<ST>.json
-                (fallback)
+             └─ browser.js       ^                                  -> ../public/officials/<ST>.json
+                (fallback)       └── media.js (photo/social candidates from the raw HTML)
 ```
 
 ## On-demand scraping (self-building coverage)
@@ -171,12 +171,60 @@ netlify dev
 - **fetch.js** — native `fetch`, strips HTML to text; retries through headless Chromium when a
   page is client-rendered or WAF-blocked.
 - **browser.js** — optional Playwright fallback, lazily imported and shared across the run.
+- **media.js** — regex scan of the page's *raw* HTML (before fetch.js strips it to text) for
+  photo `<img>` and social-link `<a>` candidates, plus a post-hoc `stripSharedMedia()` pass that
+  nulls out a photo/link repeated across several officials (a jurisdiction-wide logo/account, not
+  a personal one). Without this, `extract.js`'s `photo_url`/`social` fields have nothing to work
+  with — `htmlToText()` removes every `src`/`href` before the LLM ever sees the page.
 - **extract.js** — provider-agnostic LLM call (raw fetch, no SDK) with RPM throttle and 429 retry.
+  Also builds the "images and social links found on this page" block from `media.js`'s output.
 - **normalize.js** — canonical record with provenance (`source_url`, `extracted_at`) and `confidence`.
 - **pipeline.js** — per-jurisdiction orchestration + dedupe.
 - **output.js** — groups by state and **upsert-merges** into `public/officials/<STATE>.json` so a
   scoped run never wipes other cities; also maintains `public/officials/index.json` (coverage).
 - **run.js** — CLI entry; writes shards + a scratch `data/problems.json` (gitignored).
+- **federal-social.js** — unrelated to the scrape pipeline above: builds
+  `public/federal-social.json` from the public `unitedstates/congress-legislators` project (no
+  LLM calls). See "Photos and social links" below.
+
+## Photos and social links
+
+Every official record carries `photo_url` and a `social` object
+(`{twitter, facebook, instagram, linkedin, youtube}`, each a URL or `null`) — see
+`normalize.js`. Coverage varies by source:
+
+- **Local officials (this scraper)**: extracted from whatever roster page is already being
+  fetched, via `media.js` + the extended `extract.js` prompt. Not every roster page shows a
+  photo or personal social links, and this deliberately does **not** follow a link to each
+  official's own bio page for a second look — that's a possible future enhancement, not
+  something this does today. A photo/link that repeats across multiple officials on the same
+  page is treated as shared branding and dropped (`stripSharedMedia()`), not attributed to any
+  one person.
+- **State legislators**: come from 5calls (see the main `README.md`), which doesn't include
+  social links or a bio-page URL to follow. Instead, `config/seeds.json` seeds each state
+  chamber's own member roster (`level: "state-upper"`/`"state-lower"`) through this same
+  scraper, and the frontend matches a scraped record onto a 5calls record by
+  `(state, chamber, district)` — district numbers are unique per chamber, so this needs no name
+  matching. Only jurisdictions actually seeded get this; see `_needs_verified_url` in
+  `seeds.json` for chambers that don't work under the roster-page-only constraint (e.g. the
+  Texas House, whose own site has no single page with both districts and photos/socials).
+- **Federal reps**: also come from 5calls (which already includes a photo). Social links are
+  merged in separately by the frontend from `public/federal-social.json`
+  (`npm run federal-social` to rebuild it — see below), keyed by bioguide ID, which is the same
+  ID 5calls uses. No scraping involved.
+
+### Rebuilding the federal social-links shard
+
+```bash
+cd scraper
+npm install
+npm run federal-social
+```
+
+Fetches and parses `unitedstates/congress-legislators`' `legislators-social-media.yaml` (public
+domain, ~500 members) and writes `public/federal-social.json`. No API key, no rate limit — this
+can run far more often than the officials scrape, and does so on its own schedule via
+`.github/workflows/federal-social.yml`.
 
 ## Run locally
 

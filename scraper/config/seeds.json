@@ -1,8 +1,9 @@
 {
-  "_comment": "Central Texas seed list. Run `npm run probe` (free, no LLM calls) after editing: it verifies each URL and, when one is wrong, prints candidate council links scraped from that site's homepage. URLs marked verified below were confirmed OK by a probe run; the rest came from probe suggestions or still need confirmation. Counties use level 'county' with city set to '<Name> County' so the frontend's county matching resolves them.",
+  "_comment": "Central Texas seed list. Run `npm run probe` (free, no LLM calls) after editing: it verifies each URL and, when one is wrong, prints candidate council links scraped from that site's homepage. URLs marked verified below were confirmed OK by a probe run; the rest came from probe suggestions or still need confirmation. Counties use level 'county' with city set to '<Name> County' so the frontend's county matching resolves them. State chambers use level 'state-upper'/'state-lower' (matching 5calls' StateUpper/StateLower area values) with 'city' set to a descriptive chamber name, not an actual city — the frontend matches these to 5calls' state-legislator records by (state, chamber, district), not by place name.",
   "_scope": "central-texas",
   "_needs_verified_url": {
     "Luling": "www.lulingtx.org does not resolve; the city's real domain is unknown. Removed until confirmed.",
+    "Texas House": "No single-page roster works under the current roster-page-only extraction: house.texas.gov/members is client-rendered and its text stays above fetch.js's 500-char needsBrowser threshold on boilerplate alone, so the Playwright fallback never triggers; capitol.texas.gov/Members/Members.aspx?Chamber=H is server-rendered but is only an A-Z last-name index linking out to individual MemberInfo.aspx bio pages (district/photo/social live there, not on the index). Needs either a per-official bio-page follow-up crawl (deferred — see the photo/social plan) or a different discovery source. Texas Senate has no such problem (senate.texas.gov/members.php is a single static page with all districts) and is seeded below.",
     "note": "Anything still failing after the next probe run needs its URL replaced from the probe suggestions."
   },
   "jurisdictions": [
@@ -229,6 +230,16 @@
       "body": "Smithville City Council",
       "urls": [
         "https://www.ci.smithville.tx.us/"
+      ]
+    },
+    {
+      "_note": "Server-rendered, confirmed OK by probe (31 district mentions on one static fetch, no browser needed).",
+      "city": "Texas Senate",
+      "state": "TX",
+      "level": "state-upper",
+      "body": "Texas Senate",
+      "urls": [
+        "https://senate.texas.gov/members.php"
       ]
     }
   ]
