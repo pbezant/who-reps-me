@@ -3,3 +3,7 @@
   to = "https://api.5calls.org/v1/:splat"
   status = 200
   force = true
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

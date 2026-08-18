@@ -94,44 +94,84 @@ async function getRepList(apiKey, location) {
   }
 }
 
+// Map a scraped official record (static shard or on-demand response — same shape, see
+// scraper/src/normalize.js) into the card shape the 5calls reps use.
+function toRepCard(o, state) {
+  return {
+    id: o.id,
+    name: o.name,
+    area: o.office || o.body || 'Local',
+    state,
+    phone: o.phone || '',
+    url: o.url || '',
+    photoURL: o.photo_url || '',
+    email: o.email || '',
+    district: o.district || '',
+    isLocal: true,
+  };
+}
+
+// Ask the on-demand scraper (Netlify function) to find and scrape this jurisdiction, since the
+// committed static shard has nothing for it. First time this city is searched it's slow (a
+// live scrape); the function saves the result so every search after that is a cache hit. Fails
+// soft to an empty list — an uncovered city should never break federal/state results.
+async function scrapeLocalOfficials(geo) {
+  const city = geo.place || (geo.county ? `${geo.county} County` : null);
+  if (!city) return [];
+  const level = geo.place ? 'local' : 'county';
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 25000);
+  try {
+    const res = await fetch('/api/local-officials', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ state: geo.state, city, level }),
+      signal: controller.signal,
+    });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.officials || []).map((o) => toRepCard(o, geo.state));
+  } catch (error) {
+    console.error('On-demand local scrape failed:', error);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // Fetch the per-state officials shard and return the local officials matching the geocoded
-// place (or county), mapped into the same card shape the 5calls reps use. Fails soft to an
-// empty list so the app still shows federal/state reps if the shard is missing or no match.
+// place (or county). If the shard has nothing for this jurisdiction, fall back to scraping it
+// on demand (and saving the result) instead of just showing nothing. Fails soft to an empty
+// list so the app still shows federal/state reps if the shard is missing or no match.
 async function getLocalOfficials(geo) {
   if (!geo?.state) return [];
+
+  let shardMatches = [];
   try {
     const res = await fetch(`${process.env.PUBLIC_URL}/officials/${geo.state}.json`);
-    if (!res.ok) return [];
-    const shard = await res.json();
+    if (res.ok) {
+      const shard = await res.json();
+      const wantPlace = normalizePlace(geo.place);
+      const wantCounty = normalizePlace(geo.county);
 
-    const wantPlace = normalizePlace(geo.place);
-    const wantCounty = normalizePlace(geo.county);
-
-    return (shard.officials || [])
-      .filter((o) => {
+      shardMatches = (shard.officials || []).filter((o) => {
         // Match by level, not by name alone: normalizePlace strips the "County" suffix, so a
         // county and a like-named city collide ("Bastrop County" and the city of Bastrop both
         // reduce to "bastrop"). Without this an Elgin resident would be shown Bastrop's mayor.
         const name = normalizePlace(o.jurisdiction?.city);
         if (o.level === 'county') return Boolean(wantCounty) && name === wantCounty;
         return Boolean(wantPlace) && name === wantPlace;
-      })
-      .map((o) => ({
-        id: o.id,
-        name: o.name,
-        area: o.office || o.body || 'Local',
-        state: geo.state,
-        phone: o.phone || '',
-        url: o.url || '',
-        photoURL: o.photo_url || '',
-        email: o.email || '',
-        district: o.district || '',
-        isLocal: true,
-      }));
+      });
+    }
   } catch (error) {
     console.error('Error fetching local officials:', error);
-    return [];
   }
+
+  if (shardMatches.length) return shardMatches.map((o) => toRepCard(o, geo.state));
+
+  // Nothing in the pre-scraped shard for this place — check the on-demand cache / scrape it.
+  return scrapeLocalOfficials(geo);
 }
 
 function Results({ repList }) {
