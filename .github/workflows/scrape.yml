@@ -1,0 +1,64 @@
+# Refreshes the local-officials data store for free on GitHub Actions.
+#
+# Runs the scraper, which writes per-state JSON shards under public/officials/, then commits
+# any changes back. Netlify auto-deploys on the resulting push — no server, no database, no
+# monthly cost. The only spend is the Claude extraction API (Haiku), controlled by how many
+# jurisdictions are in scraper/config/seeds.json.
+#
+# Setup (one time): add the repository secret ANTHROPIC_API_KEY
+#   Settings -> Secrets and variables -> Actions -> New repository secret.
+#
+# Note: scheduled runs only fire from the repository's DEFAULT branch. Before merge, test with
+# the "Run workflow" button (workflow_dispatch).
+
+name: Scrape local officials
+
+on:
+  schedule:
+    # Weekly, Monday 08:00 UTC. Bump frequency around November elections when officials change.
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Optional: scrape a single city (matches seeds.json 'city')"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-officials
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node scraper/src/run.js --only "${{ inputs.only }}"
+          else
+            node scraper/src/run.js
+          fi
+
+      - name: Commit updated shards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/officials
+          if git diff --staged --quiet; then
+            echo "No changes to officials data."
+          else
+            git commit -m "chore(data): refresh local officials shards [skip ci]"
+            git push
+          fi

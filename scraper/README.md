@@ -1,8 +1,8 @@
 # who-reps-me · local officials scraper
 
 Background scraper that fills the gap no free API covers: **local elected officials, down to
-city council**, with contact info. Federal + state are already handled by 5calls in the
-frontend; this service handles the local layer and serves it to the app.
+city council**, with contact info. Federal + state are handled by 5calls in the frontend; this
+service handles the local layer and stores it as static JSON the app reads directly.
 
 ## Why a scraper (and not an API)
 
@@ -10,37 +10,62 @@ There is no free API for city-council-level officials nationwide. Google's Civic
 Representatives API shut down April 2025; the only comprehensive providers (Cicero,
 BallotReady) are paid commercial data. This scraper is the DIY alternative.
 
+## Cost model: $0 infrastructure
+
+| Piece | Choice | Cost |
+| --- | --- | --- |
+| Hosting | Netlify static (already used) | $0 |
+| Data store | Per-state JSON shards committed to the repo | $0 |
+| Runner | GitHub Actions cron | $0 |
+| Geocoding | US Census Geocoder (no API key) | $0 |
+| Extraction | Claude Haiku, ~$0.014/page | scoped ~$5–20 |
+
+No database server and no always-on worker. For read-only, batch-updated data, a per-state
+JSON file *is* the database — the frontend already fetches JSON and knows the state from
+geocoding, so it downloads exactly one small shard.
+
 ## Approach: AI extraction, not per-site parsers
 
-Every city website has a different layout, so hand-written CSS/XPath scrapers don't scale —
-you'd maintain thousands of them. Instead we send each page's **visible text to Claude** and
-ask for a strict JSON list of officials (`src/extract.js`). Adding a new city is **adding a
-URL to the seed list**, not writing new code.
+Every city website has a different layout, so hand-written CSS/XPath scrapers don't scale.
+Instead we send each page's **visible text to Claude** and ask for a strict JSON list of
+officials (`src/extract.js`). Adding a new city is **adding a URL to the seed list**, not
+writing new code.
 
 ## Pipeline
 
 ```
-seeds.json ──> fetch ──> AI extract ──> normalize ──> dedupe ──> officials.json / Postgres
- (discover)   fetch.js    extract.js    normalize.js   pipeline.js        run.js
+seeds.json ─> fetch ─> AI extract ─> normalize ─> dedupe ─> per-state shards
+ (config)    fetch.js   extract.js   normalize.js  pipeline.js   output.js -> ../public/officials/<ST>.json
 ```
 
-- **fetch.js** — native `fetch`, strips HTML to text, flags likely JS-only pages that need a browser.
+- **fetch.js** — native `fetch`, strips HTML to text, flags likely JS-only pages for a browser fallback.
 - **extract.js** — Claude Messages API (raw fetch, no SDK). Cheap model by default.
 - **normalize.js** — canonical record with provenance (`source_url`, `extracted_at`) and `confidence`.
 - **pipeline.js** — per-jurisdiction orchestration + dedupe.
-- **run.js** — prototype CLI; writes `data/officials.json`.
+- **output.js** — groups by state and **upsert-merges** into `public/officials/<STATE>.json` so a
+  scoped run never wipes other cities; also maintains `public/officials/index.json` (coverage).
+- **run.js** — CLI entry; writes shards + a scratch `data/problems.json` (gitignored).
 
-## Run the prototype
+## Run locally
 
 ```bash
 cd scraper
 export ANTHROPIC_API_KEY=sk-ant-...
-npm run scrape              # all seed cities
-npm run scrape -- --only Kyle
+npm run scrape                 # all seed cities
+npm run scrape -- --only Kyle  # one city
 ```
 
-Output: `data/officials.json` — normalized officials + a `problems` list of pages that
-failed or need a browser.
+Output: `public/officials/<STATE>.json` shards + `index.json`. Problems (failed / needs-browser
+pages) go to `scraper/data/problems.json`.
+
+## Run on a schedule (free)
+
+`.github/workflows/scrape.yml` runs the scraper weekly (and on-demand via **Run workflow**),
+commits changed shards, and Netlify auto-deploys on the push.
+
+**One-time setup:** add repo secret `ANTHROPIC_API_KEY` under
+*Settings → Secrets and variables → Actions*. Scheduled runs fire only from the default branch,
+so test with the manual **Run workflow** button before merging.
 
 ## Record schema
 
@@ -51,7 +76,7 @@ failed or need a browser.
   "office": "Mayor",
   "level": "local",              // federal | state | county | local
   "body": "Austin City Council",
-  "district": null,              // "District 4" / "Ward 2" / "Place 5" when applicable
+  "district": null,              // "District 4" / "Place 5" when applicable
   "phone": "512-978-2100",
   "email": null,
   "url": "https://...",
@@ -59,44 +84,27 @@ failed or need a browser.
   "address": null,
   "jurisdiction": { "city": "Austin", "state": "TX" },
   "source_url": "https://...",   // provenance
-  "extracted_at": "2026-08-09T...",
+  "extracted_at": "2026-08-18T...",
   "confidence": 0.9
 }
 ```
 
-## Scaling to nationwide (the roadmap)
+## How the frontend uses it
 
-The prototype and the national system run the **same** `pipeline.js`. Scaling is these
-additions, not a rewrite:
+`src/geocode.js` geocodes the user's address via the US Census Geocoder (JSONP, no key),
+returning `{ lat, lon, state, county, place, districts }`. `src/App.js` then fetches
+`/officials/<state>.json` and matches officials whose city/county equals the geocoded
+place/county, rendering them alongside the federal/state reps. The `lat`/`lon` is retained for
+future **ward-level point-in-polygon** matching.
 
-1. **Discovery layer (`discover.js`, phase 2).** Seed the list of *which* governments exist
-   from the US Census Bureau **Census of Governments** (~19k municipalities, ~3k counties,
-   ~13k school districts), then resolve each to its website via search. This replaces the
-   hand-written `seeds.json`.
-2. **Browser fallback (phase 2).** Playwright for pages `fetch.js` flags as `needs-browser`
-   (JS-rendered SPAs).
-3. **Postgres (phase 2).** Upsert records by `id`; keep `last_verified`. Swap the JSON file
-   write in `run.js` for DB upserts.
-4. **Incremental crawl (phase 3).** A queue + nightly slice so we never hit 25k sites at
-   once. Re-crawl aggressively right after November elections when officials change.
-5. **API (phase 3).** Small Express service the React app queries instead of 5calls for the
-   local layer.
+## Scaling & limitations
 
-### The hard limitation to be honest about
-
-**Address → *your specific* council member** needs ward/district boundary maps that most
-cities don't publish. So:
-- City-level (mayor, all council members for a city) → achievable everywhere.
-- Ward/district-level (your one representative) → only where boundary data exists; elsewhere
-  we return all council members for the city and let the user pick.
-
-Even Cicero has gaps here — it's a property of the data ecosystem, not this design.
-
-## Deploying on DigitalOcean
-
-- **Managed Postgres** for storage.
-- **App Platform Worker** (or a small Droplet) running the crawler on a cron schedule.
-- **App Platform Service** for the read API.
-- Secrets: `ANTHROPIC_API_KEY`, `DATABASE_URL` as env vars.
-- Be a good citizen: honest User-Agent (set in `fetch.js`), respect robots.txt, rate-limit
-  per-domain. Public gov data is generally low-risk to collect, but crawl politely.
+- **Grow coverage** by adding jurisdictions to `config/seeds.json`. At nationwide scale the
+  seed list is generated from the US Census *Census of Governments*; the pipeline is unchanged.
+- **JS-rendered sites** (flagged `needs-browser`, e.g. the 403 on cityofkyle.com) need a
+  Playwright fetch fallback — a drop-in phase-2 addition to `fetch.js`.
+- **Address → *your specific* council member** (ward/district) needs per-city boundary GeoJSON
+  most cities don't publish. MVP matches at **city + county level**; geocoding already provides
+  the coordinates to upgrade wherever boundary data exists. Even Cicero has this gap.
+- If server-side queries are ever needed, the shards migrate cleanly to a free-tier DB
+  (Neon / Supabase / Turso / Cloudflare D1) — not required now.
