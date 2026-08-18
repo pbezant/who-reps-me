@@ -52,7 +52,12 @@ What is the official ${kind} government homepage URL?`;
   // swallowing it here — the caller distinguishes "couldn't confirm a site" (expected, happens
   // for towns the model doesn't know) from "the LLM call itself is broken" (a bug to surface),
   // which look identical if this just returned null for both.
-  const raw = await callLLM({ system: SYSTEM_PROMPT, user, maxOutput: 60, jsonMode: false });
+  //
+  // maxOutput needs real headroom even though the visible answer is just a URL: reasoning
+  // models (Gemini 2.5 Flash's default "thinking" mode is the one that bit us) spend part of
+  // max_tokens on an internal reasoning pass before the visible answer, so a tight budget can
+  // get the response cut off mid-thought with nothing usable left ("https" and nothing else).
+  const raw = await callLLM({ system: SYSTEM_PROMPT, user, maxOutput: 200, jsonMode: false });
 
   const url = extractUrl(raw);
   if (!url) return null;
