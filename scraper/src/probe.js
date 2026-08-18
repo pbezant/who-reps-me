@@ -17,6 +17,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { fetchPage } from "./fetch.js";
 import { closeBrowser } from "./browser.js";
+import { suggestLinks } from "./suggest.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -24,26 +25,6 @@ const ROOT = join(__dirname, "..");
 // Signals that a page is a roster of officials rather than a generic landing page.
 const ROSTER_RE =
   /council ?member|councilmember|city council|mayor|commissioner|alderman|place \d|district \d|precinct \d/i;
-
-const LINK_RE = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
-
-function suggestLinks(html, baseUrl) {
-  const out = new Map();
-  for (const m of html.matchAll(LINK_RE)) {
-    const href = m[1];
-    const text = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-    if (!/council|commissioner|elected|mayor|government/i.test(`${href} ${text}`)) continue;
-    // Skip agendas/minutes/video — they are not roster pages.
-    if (/agenda|minute|video|calendar|meeting|archive|\.pdf$/i.test(href)) continue;
-    try {
-      const abs = new URL(href, baseUrl).href;
-      if (!out.has(abs)) out.set(abs, text || "(no text)");
-    } catch {
-      /* ignore unparseable href */
-    }
-  }
-  return [...out.entries()].slice(0, 6);
-}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

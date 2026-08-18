@@ -4,11 +4,12 @@
 # any changes back. Netlify auto-deploys on the resulting push — no server, no database, no
 # monthly cost.
 #
-# Extraction defaults to GitHub Models via the built-in GITHUB_TOKEN — free, and no secret to
-# configure. The provider is swappable (see scraper/src/extract.js PRESETS): set the repository
-# VARIABLE LLM_PRESET to change it permanently (Settings -> Secrets and variables -> Actions ->
-# Variables), or pick one per-run with the "provider" input below. Other providers read the repo
-# SECRET LLM_API_KEY (or ANTHROPIC_API_KEY for the anthropic preset).
+# GitHub Models was RETIRED by GitHub (HTTP 410) and no longer works. Extraction now defaults to
+# the "ovh" preset, whose anonymous tier needs no key at all — but it is rate limited to 2 requests
+# per minute, so a full run takes ~15 minutes. For faster, better extraction set the repository
+# VARIABLE LLM_PRESET (Settings -> Secrets and variables -> Actions -> Variables) to groq, gemini,
+# mistral or anthropic and add the matching repo SECRET (LLM_API_KEY, or ANTHROPIC_API_KEY for
+# anthropic). The "provider" input below overrides it for a single run.
 #
 # Pages that are client-rendered, or whose WAF blocks plain HTTP, are retried through headless
 # Chromium (see scraper/src/browser.js). Set the repo variable SCRAPER_BROWSER to 0 to disable.
@@ -42,7 +43,7 @@ on:
         type: choice
         options: [scrape, probe]
       provider:
-        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else github)"
+        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else ovh). github is retired."
         required: false
         type: choice
         options: ["", anthropic, github, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7, ovh]
@@ -111,13 +112,13 @@ jobs:
       - name: Run scraper
         if: github.event_name == 'schedule' || inputs.mode == 'scrape'
         env:
-          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'github' }}
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
           SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
           # Key for whichever third-party provider is selected (unused by github/ovh presets).
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           # Used when LLM_PRESET=anthropic.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Default provider: GitHub Models. Automatically provided, needs models: read above.
+          # Only used by the retired "github" preset; harmless otherwise.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Provider: $LLM_PRESET"

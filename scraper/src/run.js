@@ -37,13 +37,26 @@ async function main() {
   const now = new Date().toISOString();
   const allOfficials = [];
   const allProblems = [];
+  let fatal = null;
 
   for (const [i, j] of jurisdictions.entries()) {
     // Polite pause between jurisdictions — this is a low-volume crawler of public records,
     // not a load test on small-city web servers.
     if (i > 0) await sleep(1000);
     process.stdout.write(`Scraping ${j.city}, ${j.state} (${j.body}) ... `);
-    const { officials, problems } = await scrapeJurisdiction(j, { now, allowBrowser });
+    let officials, problems;
+    try {
+      ({ officials, problems } = await scrapeJurisdiction(j, { now, allowBrowser }));
+    } catch (err) {
+      if (err?.fatal) {
+        // The provider is misconfigured or retired, so every remaining jurisdiction would
+        // fail the same way. Stop now rather than burning through the rest of the list.
+        console.log("FATAL");
+        fatal = err;
+        break;
+      }
+      throw err;
+    }
     console.log(`${officials.length} officials, ${problems.length} problems`);
     allOfficials.push(...officials);
     for (const p of problems) allProblems.push({ city: j.city, state: j.state, ...p });
@@ -62,7 +75,10 @@ async function main() {
   );
   if (allProblems.length) {
     console.log(`\n${allProblems.length} problem page(s) (see scraper/data/problems.json):`);
-    for (const p of allProblems) console.log(`  - ${p.city}, ${p.state}: ${p.url} -> ${p.error}`);
+    for (const p of allProblems) {
+      console.log(`  - ${p.city}, ${p.state}: ${p.url} -> ${p.error}`);
+      for (const [href, text] of p.suggestions || []) console.log(`        try: ${href}  (${text})`);
+    }
   }
 
   // In CI, surface the outcome on the run's summary page so "did it work?" doesn't require
@@ -77,11 +93,33 @@ async function main() {
       ``,
       ...states.map((s) => `- \`${s.state}.json\`: ${s.count} officials across ${s.cities.length} cities`),
     ];
+    if (fatal) {
+      lines.push(``, `> **Run aborted — LLM provider unusable:** ${fatal.message}`, ``);
+    }
     if (allProblems.length) {
       lines.push(``, `### Failed pages`, ``);
-      for (const p of allProblems) lines.push(`- ${p.city}, ${p.state}: ${p.error}`);
+      for (const p of allProblems) {
+        lines.push(`- **${p.city}, ${p.state}**: ${p.error}`);
+        for (const [href] of p.suggestions || []) lines.push(`  - try: ${href}`);
+      }
     }
     await appendFile(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+  }
+
+  if (fatal) {
+    console.error(`\nRUN ABORTED — LLM provider unusable:\n  ${fatal.message}`);
+    if (fatal.jurisdiction) console.error(`  (first failed at ${fatal.jurisdiction})`);
+    console.error(
+      [
+        "",
+        "Fix: set the repo variable LLM_PRESET to a working provider.",
+        "  ovh       - no key required",
+        "  groq      - needs secret LLM_API_KEY (free key at console.groq.com)",
+        "  gemini    - needs secret LLM_API_KEY (free key at aistudio.google.com)",
+        "  anthropic - needs secret ANTHROPIC_API_KEY",
+      ].join("\n")
+    );
+    process.exitCode = 1;
   }
 
   // If the browser fallback was wanted but unavailable, say so once — otherwise
