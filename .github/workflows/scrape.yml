@@ -1,0 +1,119 @@
+# Refreshes the local-officials data store for free on GitHub Actions.
+#
+# Runs the scraper, which writes per-state JSON shards under public/officials/, then commits
+# any changes back. Netlify auto-deploys on the resulting push — no server, no database, no
+# monthly cost.
+#
+# Extraction defaults to GitHub Models via the built-in GITHUB_TOKEN — free, and no secret to
+# configure. The provider is swappable (see scraper/src/extract.js PRESETS): set the repository
+# VARIABLE LLM_PRESET to change it permanently (Settings -> Secrets and variables -> Actions ->
+# Variables), or pick one per-run with the "provider" input below. Other providers read the repo
+# SECRET LLM_API_KEY (or ANTHROPIC_API_KEY for the anthropic preset).
+#
+# Two modes via "Run workflow":
+#   probe  - free reachability check of every seed URL (no LLM calls at all)
+#   scrape - the real run
+#
+# IMPORTANT: GitHub registers workflows from the repository's DEFAULT branch only. Until this
+# file is merged to the default branch it will not appear in the Actions tab at all, and neither
+# the "Run workflow" button nor the cron schedule is available — switching branches in the UI
+# does not help. Before it is merged, run the scraper locally instead:
+#   cd scraper && npm run probe        # free
+#   cd scraper && LLM_PRESET=groq LLM_API_KEY=... npm run scrape
+# GitHub also disables schedules after ~60 days of repo inactivity, and may delay cron under load.
+
+name: Scrape local officials
+
+on:
+  schedule:
+    # Overnight so the run never competes with daytime API usage.
+    # 07:00 UTC = 2:00 AM CDT / 1:00 AM CST. Weekly on Monday — officials change rarely, so
+    # weekly is plenty; use "0 7 * * *" for nightly if you ever need fresher data.
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "probe = free URL check, scrape = real run"
+        required: true
+        default: probe
+        type: choice
+        options: [probe, scrape]
+      provider:
+        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else github)"
+        required: false
+        type: choice
+        options: ["", anthropic, github, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7, ovh]
+      only:
+        description: "Optional: limit to a single city (matches seeds.json 'city')"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  # Required by the "github" preset (GitHub Models via the built-in GITHUB_TOKEN).
+  models: read
+
+concurrency:
+  group: scrape-officials
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Free: verifies every seed URL is reachable and looks like a roster page, and suggests
+      # replacements for the ones that aren't. Makes no LLM calls.
+      - name: Probe seed URLs
+        if: inputs.mode == 'probe'
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node scraper/src/probe.js --only "${{ inputs.only }}"
+          else
+            node scraper/src/probe.js
+          fi
+
+      - name: Upload probe report
+        if: inputs.mode == 'probe'
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-probe-report
+          path: scraper/data/probe.json
+          if-no-files-found: warn
+
+      # The real run. Scheduled (overnight cron) runs always land here.
+      - name: Run scraper
+        if: github.event_name == 'schedule' || inputs.mode == 'scrape'
+        env:
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'github' }}
+          # Key for whichever third-party provider is selected (unused by github/ovh presets).
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # Used when LLM_PRESET=anthropic.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Default provider: GitHub Models. Automatically provided, needs models: read above.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Provider: $LLM_PRESET"
+          if [ -n "${{ inputs.only }}" ]; then
+            node scraper/src/run.js --only "${{ inputs.only }}"
+          else
+            node scraper/src/run.js
+          fi
+
+      - name: Commit updated shards
+        if: github.event_name == 'schedule' || inputs.mode == 'scrape'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/officials
+          if git diff --staged --quiet; then
+            echo "No changes to officials data."
+          else
+            git commit -m "chore(data): refresh local officials shards [skip ci]"
+            git push
+          fi
