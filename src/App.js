@@ -109,8 +109,12 @@ async function getLocalOfficials(geo) {
 
     return (shard.officials || [])
       .filter((o) => {
-        const city = normalizePlace(o.jurisdiction?.city);
-        return (wantPlace && city === wantPlace) || (wantCounty && city === wantCounty);
+        // Match by level, not by name alone: normalizePlace strips the "County" suffix, so a
+        // county and a like-named city collide ("Bastrop County" and the city of Bastrop both
+        // reduce to "bastrop"). Without this an Elgin resident would be shown Bastrop's mayor.
+        const name = normalizePlace(o.jurisdiction?.city);
+        if (o.level === 'county') return Boolean(wantCounty) && name === wantCounty;
+        return Boolean(wantPlace) && name === wantPlace;
       })
       .map((o) => ({
         id: o.id,
