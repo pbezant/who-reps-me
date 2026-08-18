@@ -101,26 +101,24 @@ export default async (req) => {
     return jsonResponse({ officials: [], source: "scraped-now", ...(discoveryError ? { error: discoveryError } : {}) });
   }
 
-  // The discovered page is usually the homepage, not a roster page — look for a better link
-  // on it (same heuristic the batch scraper uses to recover from a bad seed URL). suggestLinks
-  // returns candidates in DOM order, not ranked by relevance, so the first one is frequently a
-  // generic "Government" nav item rather than the actual roster page (confirmed for Boulder,
-  // CO: the real "/government/city-council" link was 3rd). Try several — see the merge loop
-  // below for why it doesn't just stop at the first one that returns anything.
+  // The discovered page is usually a homepage or a general "Government" hub, not the roster
+  // itself, and how far the real roster sits from there varies by site — sometimes one hop
+  // (Boulder, CO: homepage -> /government/city-council), sometimes two (Asheville, NC:
+  // homepage -> /government/ -> /government/meet-city-council/, which never showed up as a
+  // candidate when we only looked one level deep). So this is a small breadth-first crawl, not
+  // a fixed list: each page that doesn't already look like a roster contributes its own
+  // same-origin "council"-ish links as further candidates, bounded by FETCH_BUDGET so a site
+  // that never converges can't run the request past Netlify's own function ceiling (confirmed
+  // directly: ~30s, via a plain request that timed out server-side rather than in our code).
   //
   // Same-origin only: suggestLinks' keyword match ("government", "council", ...) can catch a
   // jurisdiction's own social-media links too (confirmed for Ann Arbor, MI: its own Instagram
   // account matched and got offered as a candidate). A roster page is never on a third-party
   // domain, and fetching one just adds latency/risk for a page that was never going to work.
   const origin = new URL(discovery.url).origin;
-  const candidateUrls = [discovery.url];
-  for (const [link] of suggestLinks(discovery.page.html, discovery.url, 4)) {
-    try {
-      if (new URL(link).origin === origin) candidateUrls.push(link);
-    } catch {
-      /* skip unparseable */
-    }
-  }
+  const FETCH_BUDGET = 6;
+  const visited = new Set([discovery.url]);
+  const queue = [discovery.url];
 
   const now = new Date().toISOString();
   // Dedupe by id (pipeline.js's approach for the batch scraper, which visits every seed URL
@@ -128,14 +126,17 @@ export default async (req) => {
   // up on more than one candidate page. A single stray match doesn't necessarily mean the real
   // roster page: confirmed against Boulder, CO, where a NEWS ARTICLE mentioning the city
   // council got tried before the actual roster page and yielded one name (the city clerk),
-  // which would have looked like a "successful" scrape if we'd stopped there. So keep visiting
-  // candidates until either the list runs out or the count looks like an actual roster (3+),
-  // not just any non-zero result.
+  // which would have looked like a "successful" scrape if we'd stopped there. So keep crawling
+  // until either the budget runs out or the count looks like an actual roster (3+), not just
+  // any non-zero result.
   const byId = new Map();
   let extractError;
-  for (const url of candidateUrls) {
+  let fetched = 0;
+  while (queue.length && fetched < FETCH_BUDGET && byId.size < 3) {
+    const url = queue.shift();
     const page =
       url === discovery.url ? discovery.page : await fetchPage(url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
+    fetched += 1;
     if (!page?.ok) continue;
 
     let raw;
@@ -150,6 +151,20 @@ export default async (req) => {
       if (rec) byId.set(rec.id, rec);
     }
     if (byId.size >= 3) break;
+
+    // This page wasn't the roster — queue its own same-origin candidate links for the next
+    // round, so a hub-of-hubs structure gets followed rather than giving up after one hop.
+    for (const [link] of suggestLinks(page.html, url, 4)) {
+      if (visited.has(link)) continue;
+      try {
+        if (new URL(link).origin === origin) {
+          visited.add(link);
+          queue.push(link);
+        }
+      } catch {
+        /* skip unparseable */
+      }
+    }
   }
   const results = [...byId.values()];
 
