@@ -120,8 +120,13 @@ async function scrapeLocalOfficials(geo) {
   if (!city) return [];
   const level = geo.place ? 'local' : 'county';
 
+  // Just under Netlify's own ~30s function ceiling (confirmed directly: a cold on-demand scrape
+  // that needs several candidate pages gets a 502 from Netlify itself right around 30s) — no
+  // point aborting client-side well before the server would anyway. The server keeps working
+  // and caches the result even if this abort does fire, so a premature abort just costs the
+  // user a second search rather than losing the work.
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 25000);
+  const timer = setTimeout(() => controller.abort(), 28000);
   try {
     const res = await fetch('/api/local-officials', {
       method: 'POST',

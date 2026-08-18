@@ -107,9 +107,19 @@ export default async (req) => {
   // generic "Government" nav item rather than the actual roster page (confirmed for Boulder,
   // CO: the real "/government/city-council" link was 3rd). Try several — see the merge loop
   // below for why it doesn't just stop at the first one that returns anything.
+  //
+  // Same-origin only: suggestLinks' keyword match ("government", "council", ...) can catch a
+  // jurisdiction's own social-media links too (confirmed for Ann Arbor, MI: its own Instagram
+  // account matched and got offered as a candidate). A roster page is never on a third-party
+  // domain, and fetching one just adds latency/risk for a page that was never going to work.
+  const origin = new URL(discovery.url).origin;
   const candidateUrls = [discovery.url];
   for (const [link] of suggestLinks(discovery.page.html, discovery.url, 4)) {
-    candidateUrls.push(link);
+    try {
+      if (new URL(link).origin === origin) candidateUrls.push(link);
+    } catch {
+      /* skip unparseable */
+    }
   }
 
   const now = new Date().toISOString();
