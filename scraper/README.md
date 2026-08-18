@@ -97,6 +97,77 @@ seeds.json ─> fetch ─────────> AI extract ─> normalize ─
                 (fallback)
 ```
 
+## On-demand scraping (self-building coverage)
+
+The weekly batch run above only covers what's in `config/seeds.json` — a human vetted URL per
+jurisdiction. For everything else, the frontend falls back to scraping the jurisdiction live,
+the first time anyone searches it, and saving the result so it never has to scrape that city
+again. This is what lets coverage grow to "wherever someone has actually searched" without
+pre-seeding the whole country.
+
+```
+search with no shard match
+        │
+        ▼
+netlify/functions/local-officials.mjs  (POST /api/local-officials)
+        │
+        ├─ 1. Netlify Blobs cache hit? ─────────────────► return cached officials
+        │        (90-day TTL on a hit, 7-day TTL on a miss)
+        │
+        ├─ 2. discover.js: ask the LLM for the official site,
+        │     then FETCH it to verify before trusting the answer
+        │        │
+        │        no site found ──────────────────────────► cache the miss, return []
+        │        │
+        ├─ 3. same fetch → extract → normalize pipeline the batch scraper uses
+        │        (no browser fallback — see below)
+        │
+        └─ 4. save to Netlify Blobs, return the officials
+```
+
+- **`scraper/src/discover.js`** — the genuinely new piece. The batch scraper never had to find
+  a jurisdiction's website; a human already put the URL in `seeds.json`. Here we ask the
+  configured LLM to recall the official homepage, then **fetch it and check it actually looks
+  like that jurisdiction's government site** before trusting it — models confidently
+  hallucinate plausible `.gov`-shaped URLs for small towns, so recall alone isn't enough. A
+  city the model doesn't know fails soft (empty result, cached as a miss), not with an error.
+- **`netlify/functions/local-officials.mjs`** — the endpoint, using Netlify Blobs
+  (`@netlify/blobs`) as the cache/save layer. Blobs, not a real database, to keep the same $0
+  model as the rest of this project — no server to provision, included in Netlify's free tier.
+- **No headless-browser fallback on this path.** Playwright doesn't fit a synchronous
+  request/response function. A jurisdiction that needs it fails soft here and stays eligible
+  for the batch scraper (which does have the browser fallback, via `browser.js`) to pick up
+  later if it's ever added to `seeds.json`.
+- **Not promoted into the committed shard automatically.** An on-demand find lives only in
+  Blobs, separate from `public/officials/<STATE>.json`. It works (the frontend checks Blobs
+  whenever the shard misses), but if you want it in the permanent, git-committed dataset too,
+  copy the discovered URL into `seeds.json` by hand — same as any other seed.
+
+### Setup: Netlify environment variables
+
+This path runs **synchronously inside a live search**, so it needs a fast LLM preset — the
+scraper's own `ovh` default (2 requests/minute, no key) will blow past Netlify's function
+timeout. In the Netlify site's *Site configuration → Environment variables*, set:
+
+```
+LLM_PRESET=groq            # or gemini / mistral — anything faster than ovh
+LLM_API_KEY=...            # that provider's free-tier key
+```
+
+Same variables the batch scraper uses (see the provider table above) — just set on the
+Netlify site itself, not only as a GitHub Actions secret, since the two run in different
+places.
+
+### Testing locally
+
+Netlify Blobs only works inside Netlify's runtime, so `npm start` alone won't exercise this
+path — run it through the Netlify CLI instead:
+
+```bash
+npm install -g netlify-cli   # once
+netlify dev
+```
+
 - **fetch.js** — native `fetch`, strips HTML to text; retries through headless Chromium when a
   page is client-rendered or WAF-blocked.
 - **browser.js** — optional Playwright fallback, lazily imported and shared across the run.
