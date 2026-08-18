@@ -46,7 +46,7 @@ on:
         description: "LLM provider for this run (blank = repo variable LLM_PRESET, else ovh). github is retired."
         required: false
         type: choice
-        options: ["", anthropic, github, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7, ovh]
+        options: ["", anthropic, ovh, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7]
       only:
         description: "Optional: limit to a single city (matches seeds.json 'city')"
         required: false
@@ -54,8 +54,6 @@ on:
 
 permissions:
   contents: write
-  # Required by the "github" preset (GitHub Models via the built-in GITHUB_TOKEN).
-  models: read
 
 concurrency:
   group: scrape-officials
@@ -71,6 +69,17 @@ jobs:
         with:
           node-version: "20"
 
+      # Catch a retired/removed provider before spending minutes on browser setup.
+      - name: Check provider
+        env:
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
+        run: |
+          echo "Provider: $LLM_PRESET"
+          if [ "$LLM_PRESET" = "github" ]; then
+            echo "::error::LLM_PRESET=github is retired: GitHub Models returns HTTP 410. Change the repository variable LLM_PRESET (Settings -> Secrets and variables -> Actions -> Variables) to ovh (needs no key), groq/gemini/mistral (needs the LLM_API_KEY secret), or anthropic (needs the ANTHROPIC_API_KEY secret)."
+            exit 1
+          fi
+
       # Browser fallback: lets the scraper read client-rendered rosters and get past WAFs
       # that 403 plain HTTP requests. Free, just CI minutes. Cached so most runs skip the
       # download. Without this the run still works — such pages are reported as
@@ -85,7 +94,7 @@ jobs:
         working-directory: scraper
         run: |
           npm install --no-audit --no-fund
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
 
       # Free: verifies every seed URL is reachable and looks like a roster page, and suggests
       # replacements for the ones that aren't. Makes no LLM calls.
@@ -114,12 +123,10 @@ jobs:
         env:
           LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
           SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
-          # Key for whichever third-party provider is selected (unused by github/ovh presets).
+          # Key for whichever provider is selected (the ovh preset needs none).
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           # Used when LLM_PRESET=anthropic.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Only used by the retired "github" preset; harmless otherwise.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Provider: $LLM_PRESET"
           if [ -n "${{ inputs.only }}" ]; then
