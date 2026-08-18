@@ -53,13 +53,19 @@ async function fetchStatic(url, timeoutMs) {
     const needsBrowser = text.length < 500;
     return { ok: true, url, status: res.status, html, text, needsBrowser };
   } catch (err) {
-    return { ok: false, url, status: null, error: String(err?.message || err) };
+    // AbortError's own message ("This operation was aborted") hides the real cause, which is
+    // almost always our own timeout on a slow municipal server.
+    const error =
+      err?.name === "AbortError" || /aborted/i.test(String(err?.message))
+        ? `timeout after ${timeoutMs}ms`
+        : String(err?.message || err);
+    return { ok: false, url, status: null, error };
   } finally {
     clearTimeout(timer);
   }
 }
 
-export async function fetchPage(url, { timeoutMs = 20000, allowBrowser = false } = {}) {
+export async function fetchPage(url, { timeoutMs = 30000, allowBrowser = false } = {}) {
   const staticResult = await fetchStatic(url, timeoutMs);
 
   const blocked = !staticResult.ok && WAF_STATUSES.has(staticResult.status);

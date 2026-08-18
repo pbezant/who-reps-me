@@ -7,7 +7,7 @@
 //   ANTHROPIC_API_KEY=sk-... node src/run.js
 //   ANTHROPIC_API_KEY=sk-... node src/run.js --only Kyle
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { scrapeJurisdiction } from "./pipeline.js";
@@ -63,6 +63,25 @@ async function main() {
   if (allProblems.length) {
     console.log(`\n${allProblems.length} problem page(s) (see scraper/data/problems.json):`);
     for (const p of allProblems) console.log(`  - ${p.city}, ${p.state}: ${p.url} -> ${p.error}`);
+  }
+
+  // In CI, surface the outcome on the run's summary page so "did it work?" doesn't require
+  // digging through logs.
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const lines = [
+      `## Local officials scrape`,
+      ``,
+      `- **${allOfficials.length}** officials extracted`,
+      `- **${jurisdictions.length}** jurisdictions attempted`,
+      `- **${allProblems.length}** page(s) failed`,
+      ``,
+      ...states.map((s) => `- \`${s.state}.json\`: ${s.count} officials across ${s.cities.length} cities`),
+    ];
+    if (allProblems.length) {
+      lines.push(``, `### Failed pages`, ``);
+      for (const p of allProblems) lines.push(`- ${p.city}, ${p.state}: ${p.error}`);
+    }
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
   }
 
   // If the browser fallback was wanted but unavailable, say so once — otherwise

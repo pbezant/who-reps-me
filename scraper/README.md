@@ -147,8 +147,8 @@ The **Run workflow** button takes a `mode`:
 
 | mode | Cost | Use |
 | --- | --- | --- |
-| `probe` | free | Verify seed URLs; downloads a `seed-probe-report` artifact |
-| `scrape` | free (GitHub Models by default) | The real run |
+| `scrape` ← default | free | The real run: extracts officials and commits the data |
+| `probe` | free | Only checks seed URLs and **writes no data**; downloads a `seed-probe-report` artifact |
 
 Scheduled runs always scrape.
 
@@ -187,57 +187,25 @@ Costs nothing in API terms — rendering is local work, not LLM tokens. It only 
 
 ## Seed list
 
-`config/seeds.json` currently covers **Central Texas** (26 jurisdictions): the Austin metro
-(Austin, Round Rock, Cedar Park, Georgetown, Leander, Pflugerville, Hutto, Taylor, Lakeway,
-Bee Cave, Manor), the Hays/Caldwell/Bastrop cities (Kyle, Buda, San Marcos, Dripping Springs,
-Wimberley, Lockhart, Luling, Bastrop, Elgin, Smithville), and 5 county commissioners courts
-(Travis, Williamson, Hays, Caldwell, Bastrop).
+`config/seeds.json` covers **Central Texas** — 25 jurisdictions across the Austin metro and the
+Hays / Caldwell / Bastrop / Williamson counties, including 5 county commissioners courts.
 
 Counties use `level: "county"` with `city` set to `"<Name> County"` — the frontend's
 `normalizePlace` strips the "County" suffix so it matches the geocoded county.
 
-These URLs are best-effort and **not yet verified against the live sites** (the dev sandbox
-blocks outbound access to municipal hosts). Run `npm run probe` — locally or via the workflow's
-`probe` mode — and fix any non-OK entries before the first real scrape.
+**Seed URLs are guesses until a probe run proves otherwise.** The first probe run scored only
+4/26, and its homepage suggestions supplied the corrections now in the file. Current state:
 
-## Record schema
+| Status | Jurisdictions |
+| --- | --- |
+| Probe-verified `OK` | Austin, Leander, Travis County, Caldwell County |
+| Corrected from probe suggestions | Bee Cave, Round Rock, Hutto, Kyle, Bastrop, Bastrop County, Wimberley, Lockhart |
+| Previously timed out at 15s (timeout now 30s) | Lakeway, Cedar Park, Taylor, Buda, San Marcos, Elgin, Williamson County |
+| Needs the browser fallback (403 / client-rendered) | Dripping Springs, Pflugerville |
+| Root seeded so probe can suggest the council page | Manor, Hays County, Georgetown, Smithville |
 
-```jsonc
-{
-  "id": "tx:austin:mayor:kirk-watson",
-  "name": "Kirk Watson",
-  "office": "Mayor",
-  "level": "local",              // federal | state | county | local
-  "body": "Austin City Council",
-  "district": null,              // "District 4" / "Place 5" when applicable
-  "phone": "512-978-2100",
-  "email": null,
-  "url": "https://...",
-  "photo_url": "https://...",
-  "address": null,
-  "jurisdiction": { "city": "Austin", "state": "TX" },
-  "source_url": "https://...",   // provenance
-  "extracted_at": "2026-08-18T...",
-  "confidence": 0.9
-}
-```
+Luling was removed: `www.lulingtx.org` does not resolve and the city's real domain is unknown.
 
-## How the frontend uses it
+**Workflow when a seed fails:** run `npm run probe`, read the `try:` suggestions it prints under
+each failure, paste the right URL into `seeds.json`, repeat. Each round is free.
 
-`src/geocode.js` geocodes the user's address via the US Census Geocoder (JSONP, no key),
-returning `{ lat, lon, state, county, place, districts }`. `src/App.js` then fetches
-`/officials/<state>.json` and matches officials whose city/county equals the geocoded
-place/county, rendering them alongside the federal/state reps. The `lat`/`lon` is retained for
-future **ward-level point-in-polygon** matching.
-
-## Scaling & limitations
-
-- **Grow coverage** by adding jurisdictions to `config/seeds.json`. At nationwide scale the
-  seed list is generated from the US Census *Census of Governments*; the pipeline is unchanged.
-- **JS-rendered and WAF-blocked sites** are handled by the browser fallback below. Anything it
-  still can't read is reported as `needs-browser` with the underlying reason.
-- **Address → *your specific* council member** (ward/district) needs per-city boundary GeoJSON
-  most cities don't publish. MVP matches at **city + county level**; geocoding already provides
-  the coordinates to upgrade wherever boundary data exists. Even Cicero has this gap.
-- If server-side queries are ever needed, the shards migrate cleanly to a free-tier DB
-  (Neon / Supabase / Turso / Cloudflare D1) — not required now.

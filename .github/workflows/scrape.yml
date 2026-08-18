@@ -14,8 +14,8 @@
 # Chromium (see scraper/src/browser.js). Set the repo variable SCRAPER_BROWSER to 0 to disable.
 #
 # Two modes via "Run workflow":
-#   probe  - free reachability check of every seed URL (no LLM calls at all)
-#   scrape - the real run
+#   scrape - the real run: extracts officials and commits the data (this is the default)
+#   probe  - reachability check of every seed URL only; makes no LLM calls and writes NO data
 #
 # IMPORTANT: GitHub registers workflows from the repository's DEFAULT branch only. Until this
 # file is merged to the default branch it will not appear in the Actions tab at all, and neither
@@ -36,11 +36,11 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "probe = free URL check, scrape = real run"
+        description: "scrape = fetch officials and commit data | probe = only check seed URLs, writes no data"
         required: true
-        default: probe
+        default: scrape
         type: choice
-        options: [probe, scrape]
+        options: [scrape, probe]
       provider:
         description: "LLM provider for this run (blank = repo variable LLM_PRESET, else github)"
         required: false

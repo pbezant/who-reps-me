@@ -57,13 +57,14 @@ async function main() {
   if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
 
   const allowBrowser = process.env.SCRAPER_BROWSER !== "0";
+  const TIMEOUT_MS = Number(process.env.SCRAPER_TIMEOUT_MS || 30000);
 
   const report = [];
   let ok = 0;
 
   for (const j of jurisdictions) {
     for (const url of j.urls) {
-      const r = await fetchPage(url, { timeoutMs: 15000, allowBrowser });
+      const r = await fetchPage(url, { timeoutMs: TIMEOUT_MS, allowBrowser });
       let status;
       let suggestions = [];
 
@@ -84,7 +85,7 @@ async function main() {
       if (status !== "OK") {
         try {
           const origin = new URL(url).origin;
-          const home = await fetchPage(origin, { timeoutMs: 15000, allowBrowser });
+          const home = await fetchPage(origin, { timeoutMs: TIMEOUT_MS, allowBrowser });
           if (home.ok) suggestions = suggestLinks(home.html, origin);
         } catch {
           /* ignore */
