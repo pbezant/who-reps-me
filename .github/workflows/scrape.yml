@@ -10,9 +10,12 @@
 # Variables), or pick one per-run with the "provider" input below. Other providers read the repo
 # SECRET LLM_API_KEY (or ANTHROPIC_API_KEY for the anthropic preset).
 #
+# Pages that are client-rendered, or whose WAF blocks plain HTTP, are retried through headless
+# Chromium (see scraper/src/browser.js). Set the repo variable SCRAPER_BROWSER to 0 to disable.
+#
 # Two modes via "Run workflow":
-#   probe  - free reachability check of every seed URL (no LLM calls at all)
-#   scrape - the real run
+#   scrape - the real run: extracts officials and commits the data (this is the default)
+#   probe  - reachability check of every seed URL only; makes no LLM calls and writes NO data
 #
 # IMPORTANT: GitHub registers workflows from the repository's DEFAULT branch only. Until this
 # file is merged to the default branch it will not appear in the Actions tab at all, and neither
@@ -33,11 +36,11 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "probe = free URL check, scrape = real run"
+        description: "scrape = fetch officials and commit data | probe = only check seed URLs, writes no data"
         required: true
-        default: probe
+        default: scrape
         type: choice
-        options: [probe, scrape]
+        options: [scrape, probe]
       provider:
         description: "LLM provider for this run (blank = repo variable LLM_PRESET, else github)"
         required: false
@@ -67,10 +70,28 @@ jobs:
         with:
           node-version: "20"
 
+      # Browser fallback: lets the scraper read client-rendered rosters and get past WAFs
+      # that 403 plain HTTP requests. Free, just CI minutes. Cached so most runs skip the
+      # download. Without this the run still works — such pages are reported as
+      # "needs-browser" instead.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Install Playwright
+        working-directory: scraper
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
       # Free: verifies every seed URL is reachable and looks like a roster page, and suggests
       # replacements for the ones that aren't. Makes no LLM calls.
       - name: Probe seed URLs
         if: inputs.mode == 'probe'
+        env:
+          SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
         run: |
           if [ -n "${{ inputs.only }}" ]; then
             node scraper/src/probe.js --only "${{ inputs.only }}"
@@ -91,6 +112,7 @@ jobs:
         if: github.event_name == 'schedule' || inputs.mode == 'scrape'
         env:
           LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'github' }}
+          SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
           # Key for whichever third-party provider is selected (unused by github/ovh presets).
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           # Used when LLM_PRESET=anthropic.

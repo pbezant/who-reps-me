@@ -7,11 +7,12 @@
 //   ANTHROPIC_API_KEY=sk-... node src/run.js
 //   ANTHROPIC_API_KEY=sk-... node src/run.js --only Kyle
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { scrapeJurisdiction } from "./pipeline.js";
 import { writeShards } from "./output.js";
+import { closeBrowser, browserStatus } from "./browser.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -29,6 +30,10 @@ async function main() {
   let jurisdictions = seeds.jurisdictions;
   if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
 
+  // Browser fallback is on unless explicitly disabled; it degrades to static-only when
+  // Playwright isn't installed, so this is safe by default.
+  const allowBrowser = process.env.SCRAPER_BROWSER !== "0";
+
   const now = new Date().toISOString();
   const allOfficials = [];
   const allProblems = [];
@@ -38,7 +43,7 @@ async function main() {
     // not a load test on small-city web servers.
     if (i > 0) await sleep(1000);
     process.stdout.write(`Scraping ${j.city}, ${j.state} (${j.body}) ... `);
-    const { officials, problems } = await scrapeJurisdiction(j, { now });
+    const { officials, problems } = await scrapeJurisdiction(j, { now, allowBrowser });
     console.log(`${officials.length} officials, ${problems.length} problems`);
     allOfficials.push(...officials);
     for (const p of problems) allProblems.push({ city: j.city, state: j.state, ...p });
@@ -59,9 +64,38 @@ async function main() {
     console.log(`\n${allProblems.length} problem page(s) (see scraper/data/problems.json):`);
     for (const p of allProblems) console.log(`  - ${p.city}, ${p.state}: ${p.url} -> ${p.error}`);
   }
+
+  // In CI, surface the outcome on the run's summary page so "did it work?" doesn't require
+  // digging through logs.
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const lines = [
+      `## Local officials scrape`,
+      ``,
+      `- **${allOfficials.length}** officials extracted`,
+      `- **${jurisdictions.length}** jurisdictions attempted`,
+      `- **${allProblems.length}** page(s) failed`,
+      ``,
+      ...states.map((s) => `- \`${s.state}.json\`: ${s.count} officials across ${s.cities.length} cities`),
+    ];
+    if (allProblems.length) {
+      lines.push(``, `### Failed pages`, ``);
+      for (const p of allProblems) lines.push(`- ${p.city}, ${p.state}: ${p.error}`);
+    }
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, lines.join("\n") + "\n");
+  }
+
+  // If the browser fallback was wanted but unavailable, say so once — otherwise
+  // "needs-browser" problems look unexplained.
+  const bs = browserStatus();
+  if (allowBrowser && !bs.available) {
+    console.log(`\nBrowser fallback unavailable: ${bs.reason}`);
+    console.log("Install it with: npm install playwright && npx playwright install chromium");
+  }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main()
+  .catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  })
+  .finally(() => closeBrowser());
