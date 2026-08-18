@@ -179,6 +179,10 @@ netlify dev
 - **extract.js** — provider-agnostic LLM call (raw fetch, no SDK) with RPM throttle and 429 retry.
   Also builds the "images and social links found on this page" block from `media.js`'s output.
 - **normalize.js** — canonical record with provenance (`source_url`, `extracted_at`) and `confidence`.
+  Its `id` (`state:city:office:name`) canonicalizes the office string and strips quote characters
+  before building the id, so two runs that extract the same person with slightly different office
+  phrasing ("City Council Member" vs "Council Member") or nickname-quote style don't get upserted
+  as two different people (`output.js`'s upsert is keyed on `id`) — see `buildId()`.
 - **pipeline.js** — per-jurisdiction orchestration + dedupe.
 - **output.js** — groups by state and **upsert-merges** into `public/officials/<STATE>.json` so a
   scoped run never wipes other cities; also maintains `public/officials/index.json` (coverage).
@@ -225,6 +229,36 @@ Fetches and parses `unitedstates/congress-legislators`' `legislators-social-medi
 domain, ~500 members) and writes `public/federal-social.json`. No API key, no rate limit — this
 can run far more often than the officials scrape, and does so on its own schedule via
 `.github/workflows/federal-social.yml`.
+
+## Tests
+
+```bash
+cd scraper
+npm test
+```
+
+Uses Node's built-in test runner (`node --test`, no dependency needed). Coverage today is
+`normalize.js`'s id canonicalization (`buildId()`) and the upsert-not-duplicate behavior it's
+meant to guarantee end-to-end through `output.js`'s `writeShards()`.
+
+## One-off maintenance: deduping a shard
+
+If a shard ever accumulates duplicate records under the *old* id scheme (pre-canonicalization —
+the exact bug `buildId()` now fixes going forward), `scripts/dedupe-shard.js` re-derives every
+record's id with the current `buildId()` and merges any that land on the same id, keeping the
+newest `extracted_at` and backfilling null fields (`phone`, `email`, `url`, `photo_url`,
+`address`, `district`) from an older duplicate that has them:
+
+```bash
+cd scraper
+node scripts/dedupe-shard.js ../public/officials/TX.json --dry-run   # preview
+node scripts/dedupe-shard.js ../public/officials/TX.json             # write
+```
+
+It only merges records that canonicalize to the same id — it will not touch two records that are
+genuinely different offices or different people. If you run it against a shard, remember to
+update `public/officials/index.json`'s `count` for that state to match (`writeShards()` keeps the
+two in sync on a normal scrape; this script only touches the one shard file you point it at).
 
 ## Run locally
 

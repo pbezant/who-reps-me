@@ -1,7 +1,7 @@
 {
   "state": "TX",
   "generated_at": "2026-08-18T18:11:02.875Z",
-  "count": 98,
+  "count": 82,
   "cities": [
     "Austin",
     "Bastrop",
@@ -20,7 +20,7 @@
   ],
   "officials": [
     {
-      "id": "tx:austin:city-council-member:josé-“chito”-vela",
+      "id": "tx:austin:council-member:josé-chito-vela",
       "name": "José “Chito” Vela",
       "office": "City Council Member",
       "level": "local",
@@ -40,7 +40,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:josé-velásquez",
+      "id": "tx:austin:council-member:josé-velásquez",
       "name": "José Velásquez",
       "office": "City Council Member",
       "level": "local",
@@ -60,7 +60,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:krista-laine",
+      "id": "tx:austin:council-member:krista-laine",
       "name": "Krista Laine",
       "office": "City Council Member",
       "level": "local",
@@ -80,7 +80,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:marc-duchen",
+      "id": "tx:austin:council-member:marc-duchen",
       "name": "Marc Duchen",
       "office": "City Council Member",
       "level": "local",
@@ -100,7 +100,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:mike-siegel",
+      "id": "tx:austin:council-member:mike-siegel",
       "name": "Mike Siegel",
       "office": "City Council Member",
       "level": "local",
@@ -120,7 +120,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:natasha-harper-madison",
+      "id": "tx:austin:council-member:natasha-harper-madison",
       "name": "Natasha Harper-Madison",
       "office": "City Council Member",
       "level": "local",
@@ -140,7 +140,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:paige-ellis",
+      "id": "tx:austin:council-member:paige-ellis",
       "name": "Paige Ellis",
       "office": "City Council Member",
       "level": "local",
@@ -160,7 +160,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:ryan-alter",
+      "id": "tx:austin:council-member:ryan-alter",
       "name": "Ryan Alter",
       "office": "City Council Member",
       "level": "local",
@@ -180,7 +180,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:vanessa-fuentes",
+      "id": "tx:austin:council-member:vanessa-fuentes",
       "name": "Vanessa Fuentes",
       "office": "City Council Member",
       "level": "local",
@@ -200,7 +200,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:austin:city-council-member:zohaib-\"zo\"-qadri",
+      "id": "tx:austin:council-member:zohaib-zo-qadri",
       "name": "Zohaib \"Zo\" Qadri",
       "office": "City Council Member",
       "level": "local",
@@ -218,206 +218,6 @@
       "source_url": "https://www.austintexas.gov/department/city-council",
       "extracted_at": "2026-08-18T18:11:02.875Z",
       "confidence": 1
-    },
-    {
-      "id": "tx:austin:council-member:josé-'chito'-vela",
-      "name": "José 'Chito' Vela",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 4",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:josé-velásquez",
-      "name": "José Velásquez",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 3",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:krista-laine",
-      "name": "Krista Laine",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 6",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:marc-duchen",
-      "name": "Marc Duchen",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 10",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:mike-siegel",
-      "name": "Mike Siegel",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 7",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:natasha-harper-madison",
-      "name": "Natasha Harper-Madison",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 1",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:paige-ellis",
-      "name": "Paige Ellis",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 8",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:ryan-alter",
-      "name": "Ryan Alter",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 5",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:vanessa-fuentes",
-      "name": "Vanessa Fuentes",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 2",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:austin:council-member:zohaib-'zo'-qadri",
-      "name": "Zohaib 'Zo' Qadri",
-      "office": "Council Member",
-      "level": "local",
-      "body": "Austin City Council",
-      "district": "District 9",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Austin",
-        "state": "TX"
-      },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
     },
     {
       "id": "tx:austin:mayor:kirk-watson",
@@ -460,109 +260,9 @@
       "confidence": 0.5
     },
     {
-      "id": "tx:bastrop:city-council-member:cynthia-meyer",
-      "name": "Cynthia Meyer",
-      "office": "City Council Member",
-      "level": "local",
-      "body": "Bastrop City Council",
-      "district": "Place 2",
-      "phone": "512-718-9300",
-      "email": "cmeyer@cityofbastrop.org",
-      "url": null,
-      "photo_url": null,
-      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
-      "jurisdiction": {
-        "city": "Bastrop",
-        "state": "TX"
-      },
-      "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
-    },
-    {
-      "id": "tx:bastrop:city-council-member:john-kirkland",
-      "name": "John Kirkland",
-      "office": "City Council Member",
-      "level": "local",
-      "body": "Bastrop City Council",
-      "district": "Place 5",
-      "phone": "512-718-5102",
-      "email": "jkirkland@cityofbastrop.org",
-      "url": null,
-      "photo_url": null,
-      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
-      "jurisdiction": {
-        "city": "Bastrop",
-        "state": "TX"
-      },
-      "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
-    },
-    {
-      "id": "tx:bastrop:city-council-member:kerry-fossler",
-      "name": "Kerry Fossler",
-      "office": "City Council Member",
-      "level": "local",
-      "body": "Bastrop City Council",
-      "district": "Place 4",
-      "phone": "512-718-6601",
-      "email": "kfossler@cityofbastrop.org",
-      "url": null,
-      "photo_url": null,
-      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
-      "jurisdiction": {
-        "city": "Bastrop",
-        "state": "TX"
-      },
-      "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
-    },
-    {
-      "id": "tx:bastrop:city-council-member:kevin-plunkett",
-      "name": "Kevin Plunkett",
-      "office": "City Council Member",
-      "level": "local",
-      "body": "Bastrop City Council",
-      "district": "Place 3",
-      "phone": "512-718-5421",
-      "email": "kplunkett@cityofbastrop.org",
-      "url": null,
-      "photo_url": null,
-      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
-      "jurisdiction": {
-        "city": "Bastrop",
-        "state": "TX"
-      },
-      "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
-    },
-    {
-      "id": "tx:bastrop:city-council-member:perry-lowe",
-      "name": "Perry Lowe",
-      "office": "City Council Member",
-      "level": "local",
-      "body": "Bastrop City Council",
-      "district": "Place 1",
-      "phone": "512-718-6995",
-      "email": "plowe@cityofbastrop.org",
-      "url": null,
-      "photo_url": null,
-      "address": "1311 Chestnut Street, Bastrop, Texas 78602",
-      "jurisdiction": {
-        "city": "Bastrop",
-        "state": "TX"
-      },
-      "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
-    },
-    {
       "id": "tx:bastrop:council-member:cynthia-meyer",
       "name": "Cynthia Meyer",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Bastrop City Council",
       "district": "Place 2",
@@ -576,13 +276,13 @@
         "state": "TX"
       },
       "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
     },
     {
       "id": "tx:bastrop:council-member:john-kirkland",
       "name": "John Kirkland",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Bastrop City Council",
       "district": "Place 5",
@@ -596,13 +296,13 @@
         "state": "TX"
       },
       "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
     },
     {
       "id": "tx:bastrop:council-member:kerry-fossler",
       "name": "Kerry Fossler",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Bastrop City Council",
       "district": "Place 4",
@@ -616,13 +316,13 @@
         "state": "TX"
       },
       "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
     },
     {
       "id": "tx:bastrop:council-member:kevin-plunkett",
       "name": "Kevin Plunkett",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Bastrop City Council",
       "district": "Place 3",
@@ -636,13 +336,13 @@
         "state": "TX"
       },
       "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
     },
     {
       "id": "tx:bastrop:council-member:perry-lowe",
       "name": "Perry Lowe",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Bastrop City Council",
       "district": "Place 1",
@@ -656,8 +356,8 @@
         "state": "TX"
       },
       "source_url": "https://www.cityofbastrop.org/page/cc.home",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
     },
     {
       "id": "tx:bastrop:mayor:ishmael-harris",
@@ -840,7 +540,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:caldwell-county:commissioner:edward-\"ed\"-theriot",
+      "id": "tx:caldwell-county:commissioner:edward-ed-theriot",
       "name": "Edward \"Ed\" Theriot",
       "office": "Commissioner",
       "level": "county",
@@ -940,7 +640,7 @@
       "confidence": 0.9
     },
     {
-      "id": "tx:caldwell-county:precinct-3-commissioner:edward-'ed'-theriot",
+      "id": "tx:caldwell-county:precinct-3-commissioner:edward-ed-theriot",
       "name": "Edward 'Ed' Theriot",
       "office": "Precinct 3 Commissioner",
       "level": "county",
@@ -1080,7 +780,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:hutto:councilmember:aaron-king",
+      "id": "tx:hutto:council-member:aaron-king",
       "name": "Aaron King",
       "office": "Councilmember",
       "level": "local",
@@ -1100,7 +800,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:hutto:councilmember:evan-porterfield",
+      "id": "tx:hutto:council-member:evan-porterfield",
       "name": "Evan Porterfield",
       "office": "Councilmember",
       "level": "local",
@@ -1120,7 +820,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:hutto:councilmember:jim-morris",
+      "id": "tx:hutto:council-member:jim-morris",
       "name": "Jim Morris",
       "office": "Councilmember",
       "level": "local",
@@ -1140,7 +840,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:hutto:mayor-pro-tem,-councilmember:dan-thornton",
+      "id": "tx:hutto:mayor-pro-tem,-council-member:dan-thornton",
       "name": "Dan Thornton",
       "office": "Mayor Pro Tem, Councilmember",
       "level": "local",
@@ -1420,7 +1120,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:leander:mayor-pro-tem-/-council-member:becki-ross",
+      "id": "tx:leander:mayor-pro-tem/council-member:becki-ross",
       "name": "Becki Ross",
       "office": "Mayor Pro Tem / Council Member",
       "level": "local",
@@ -1440,27 +1140,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:leander:mayor-pro-tem/council-member:becki-ross",
-      "name": "Becki Ross",
-      "office": "Mayor Pro Tem/Council Member",
-      "level": "local",
-      "body": "Leander City Council",
-      "district": "Place 6",
-      "phone": null,
-      "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
-      "jurisdiction": {
-        "city": "Leander",
-        "state": "TX"
-      },
-      "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T16:54:37.375Z",
-      "confidence": 0.9
-    },
-    {
-      "id": "tx:leander:mayor:na'cole-thompson",
+      "id": "tx:leander:mayor:nacole-thompson",
       "name": "Na'Cole Thompson",
       "office": "Mayor",
       "level": "local",
@@ -1480,7 +1160,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:lockhart:city-council-member-at-large:brad-westmoreland",
+      "id": "tx:lockhart:council-member-at-large:brad-westmoreland",
       "name": "Brad Westmoreland",
       "office": "City Council Member At-Large",
       "level": "local",
@@ -1500,7 +1180,7 @@
       "confidence": 0.8
     },
     {
-      "id": "tx:lockhart:city-council-member-at-large:taylor-burge",
+      "id": "tx:lockhart:council-member-at-large:taylor-burge",
       "name": "Taylor Burge",
       "office": "City Council Member At-Large",
       "level": "local",
@@ -1520,7 +1200,7 @@
       "confidence": 0.8
     },
     {
-      "id": "tx:lockhart:city-council-member:brad-westmoreland",
+      "id": "tx:lockhart:council-member:brad-westmoreland",
       "name": "Brad Westmoreland",
       "office": "City Council Member",
       "level": "local",
@@ -1540,7 +1220,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:lockhart:city-council-member:john-castillo",
+      "id": "tx:lockhart:council-member:john-castillo",
       "name": "John Castillo",
       "office": "City Council Member",
       "level": "local",
@@ -1560,7 +1240,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:lockhart:city-council-member:juan-mendoza",
+      "id": "tx:lockhart:council-member:juan-mendoza",
       "name": "Juan Mendoza",
       "office": "City Council Member",
       "level": "local",
@@ -1580,7 +1260,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:lockhart:city-council-member:taylor-burge",
+      "id": "tx:lockhart:council-member:taylor-burge",
       "name": "Taylor Burge",
       "office": "City Council Member",
       "level": "local",
@@ -1620,7 +1300,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:frank-ortega",
+      "id": "tx:round-rock:council-member:frank-ortega",
       "name": "Frank Ortega",
       "office": "Councilmember",
       "level": "local",
@@ -1640,7 +1320,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:hilda-montgomery",
+      "id": "tx:round-rock:council-member:hilda-montgomery",
       "name": "Hilda Montgomery",
       "office": "Councilmember",
       "level": "local",
@@ -1660,7 +1340,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:kristin-stevens",
+      "id": "tx:round-rock:council-member:kristin-stevens",
       "name": "Kristin Stevens",
       "office": "Councilmember",
       "level": "local",
@@ -1680,7 +1360,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:melissa-fleming",
+      "id": "tx:round-rock:council-member:melissa-fleming",
       "name": "Melissa Fleming",
       "office": "Councilmember",
       "level": "local",
@@ -1700,7 +1380,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:michelle-ly",
+      "id": "tx:round-rock:council-member:michelle-ly",
       "name": "Michelle Ly",
       "office": "Councilmember",
       "level": "local",
@@ -1720,7 +1400,7 @@
       "confidence": 1
     },
     {
-      "id": "tx:round-rock:councilmember:rene-flores",
+      "id": "tx:round-rock:council-member:rene-flores",
       "name": "Rene Flores",
       "office": "Councilmember",
       "level": "local",
