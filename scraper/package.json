@@ -8,6 +8,7 @@
     "node": ">=18"
   },
   "scripts": {
+    "probe": "node src/probe.js",
     "scrape": "node src/run.js"
   }
 }

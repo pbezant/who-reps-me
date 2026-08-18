@@ -8,19 +8,32 @@
 # Setup (one time): add the repository secret ANTHROPIC_API_KEY
 #   Settings -> Secrets and variables -> Actions -> New repository secret.
 #
-# Note: scheduled runs only fire from the repository's DEFAULT branch. Before merge, test with
-# the "Run workflow" button (workflow_dispatch).
+# Two modes via "Run workflow":
+#   probe  - free reachability check of every seed URL (no Claude calls, spends nothing)
+#   scrape - the real run (spends Claude tokens)
+#
+# Notes: scheduled runs only fire from the repository's DEFAULT branch, so use the manual
+# button to test on a feature branch. GitHub also disables schedules after ~60 days of repo
+# inactivity, and may delay cron runs under load.
 
 name: Scrape local officials
 
 on:
   schedule:
-    # Weekly, Monday 08:00 UTC. Bump frequency around November elections when officials change.
-    - cron: "0 8 * * 1"
+    # Overnight so the run never competes with daytime API usage.
+    # 07:00 UTC = 2:00 AM CDT / 1:00 AM CST. Weekly on Monday — officials change rarely, so
+    # weekly is plenty; use "0 7 * * *" for nightly if you ever need fresher data.
+    - cron: "0 7 * * 1"
   workflow_dispatch:
     inputs:
+      mode:
+        description: "probe = free URL check, scrape = real run (uses Claude tokens)"
+        required: true
+        default: probe
+        type: choice
+        options: [probe, scrape]
       only:
-        description: "Optional: scrape a single city (matches seeds.json 'city')"
+        description: "Optional: limit to a single city (matches seeds.json 'city')"
         required: false
         type: string
 
@@ -32,7 +45,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +54,28 @@ jobs:
         with:
           node-version: "20"
 
+      # Free: verifies every seed URL is reachable and looks like a roster page, and suggests
+      # replacements for the ones that aren't. No Claude calls.
+      - name: Probe seed URLs
+        if: inputs.mode == 'probe'
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node scraper/src/probe.js --only "${{ inputs.only }}"
+          else
+            node scraper/src/probe.js
+          fi
+
+      - name: Upload probe report
+        if: inputs.mode == 'probe'
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-probe-report
+          path: scraper/data/probe.json
+          if-no-files-found: warn
+
+      # The real run. Scheduled (nightly cron) runs always land here.
       - name: Run scraper
+        if: github.event_name == 'schedule' || inputs.mode == 'scrape'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -52,6 +86,7 @@ jobs:
           fi
 
       - name: Commit updated shards
+        if: github.event_name == 'schedule' || inputs.mode == 'scrape'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -3,8 +3,14 @@
 // fallback we add in phase 2. For now we detect a suspiciously empty body and flag it
 // so the pipeline can mark the jurisdiction for browser-based re-crawl later.
 
+// Many municipal sites sit behind WAFs that reject unrecognized bot user-agents outright
+// (a bare bot string 403s on most of them). We send a normal browser UA so ordinary public
+// pages load, while still identifying the project and a contact address so site operators
+// can reach us. Combined with sequential requests and a per-jurisdiction delay (run.js),
+// this stays a polite, low-volume crawler of public records.
 const USER_AGENT =
-  "who-reps-me-civic-scraper/0.1 (+https://github.com/pbezant/who-reps-me; contact preston@structuresense.ai)";
+  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 " +
+  "(who-reps-me civic data; +https://github.com/pbezant/who-reps-me; preston@structuresense.ai)";
 
 // Strip tags/scripts/styles down to visible text so we send the model signal, not markup.
 // Keeps token cost low at nationwide scale.

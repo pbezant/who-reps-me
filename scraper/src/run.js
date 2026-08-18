@@ -18,6 +18,8 @@ const ROOT = join(__dirname, "..");
 const REPO_ROOT = join(ROOT, "..");
 const PUBLIC_OFFICIALS_DIR = join(REPO_ROOT, "public", "officials");
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function main() {
   const args = process.argv.slice(2);
   const onlyIdx = args.indexOf("--only");
@@ -31,7 +33,10 @@ async function main() {
   const allOfficials = [];
   const allProblems = [];
 
-  for (const j of jurisdictions) {
+  for (const [i, j] of jurisdictions.entries()) {
+    // Polite pause between jurisdictions — this is a low-volume crawler of public records,
+    // not a load test on small-city web servers.
+    if (i > 0) await sleep(1000);
     process.stdout.write(`Scraping ${j.city}, ${j.state} (${j.body}) ... `);
     const { officials, problems } = await scrapeJurisdiction(j, { now });
     console.log(`${officials.length} officials, ${problems.length} problems`);

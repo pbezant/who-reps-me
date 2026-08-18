@@ -1,32 +1,188 @@
 {
-  "_comment": "Seed list of local governments to scrape. At nationwide scale this file is generated from the Census Bureau Census of Governments + website resolution (see discover.js). For the prototype we hand-seed a few Texas cities with known council/contact pages.",
+  "_comment": "Central Texas seed list (Austin metro + surrounding counties). Cities use level 'local'; counties use level 'county' with city set to '<Name> County' so the frontend's county matching resolves it. IMPORTANT: run `npm run probe` (free, no API calls) after editing this file — it verifies each URL is reachable and looks like a roster page, and suggests replacements for the ones that aren't. Only then run `npm run scrape`.",
+  "_scope": "central-texas",
   "jurisdictions": [
     {
       "city": "Austin",
       "state": "TX",
       "level": "local",
       "body": "Austin City Council",
-      "urls": [
-        "https://www.austintexas.gov/department/city-council"
-      ]
+      "urls": ["https://www.austintexas.gov/department/city-council"]
     },
     {
-      "city": "San Antonio",
+      "city": "Pflugerville",
       "state": "TX",
       "level": "local",
-      "body": "San Antonio City Council",
-      "urls": [
-        "https://www.sanantonio.gov/Council"
-      ]
+      "body": "Pflugerville City Council",
+      "urls": ["https://www.pflugervilletx.gov/city-government/city-council"]
+    },
+    {
+      "city": "Lakeway",
+      "state": "TX",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "urls": ["https://www.lakeway-tx.gov/148/City-Council"]
+    },
+    {
+      "city": "Bee Cave",
+      "state": "TX",
+      "level": "local",
+      "body": "Bee Cave City Council",
+      "urls": ["https://www.beecavetexas.gov/city-council"]
+    },
+    {
+      "city": "Manor",
+      "state": "TX",
+      "level": "local",
+      "body": "Manor City Council",
+      "urls": ["https://www.cityofmanor.org/city-council"]
+    },
+    {
+      "city": "Round Rock",
+      "state": "TX",
+      "level": "local",
+      "body": "Round Rock City Council",
+      "urls": ["https://www.roundrocktexas.gov/city-departments/city-council/"]
+    },
+    {
+      "city": "Cedar Park",
+      "state": "TX",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "urls": ["https://www.cedarparktexas.gov/government/city-council"]
+    },
+    {
+      "city": "Georgetown",
+      "state": "TX",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "urls": ["https://government.georgetown.org/city-council/"]
+    },
+    {
+      "city": "Leander",
+      "state": "TX",
+      "level": "local",
+      "body": "Leander City Council",
+      "urls": ["https://www.leandertx.gov/citycouncil"]
+    },
+    {
+      "city": "Hutto",
+      "state": "TX",
+      "level": "local",
+      "body": "Hutto City Council",
+      "urls": ["https://huttotx.gov/155/City-Council"]
+    },
+    {
+      "city": "Taylor",
+      "state": "TX",
+      "level": "local",
+      "body": "Taylor City Council",
+      "urls": ["https://www.taylortx.gov/155/City-Council"]
     },
     {
       "city": "Kyle",
       "state": "TX",
       "level": "local",
       "body": "Kyle City Council",
-      "urls": [
-        "https://www.cityofkyle.com/citycouncil"
-      ]
+      "urls": ["https://www.cityofkyle.com/citycouncil"]
+    },
+    {
+      "city": "Buda",
+      "state": "TX",
+      "level": "local",
+      "body": "Buda City Council",
+      "urls": ["https://www.budatx.gov/155/City-Council"]
+    },
+    {
+      "city": "San Marcos",
+      "state": "TX",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "urls": ["https://www.sanmarcostx.gov/155/City-Council"]
+    },
+    {
+      "city": "Dripping Springs",
+      "state": "TX",
+      "level": "local",
+      "body": "Dripping Springs City Council",
+      "urls": ["https://www.cityofdrippingsprings.com/citycouncil"]
+    },
+    {
+      "city": "Wimberley",
+      "state": "TX",
+      "level": "local",
+      "body": "Wimberley City Council",
+      "urls": ["https://www.cityofwimberley.com/155/City-Council"]
+    },
+    {
+      "city": "Lockhart",
+      "state": "TX",
+      "level": "local",
+      "body": "Lockhart City Council",
+      "urls": ["https://www.lockhart-tx.org/155/City-Council"]
+    },
+    {
+      "city": "Luling",
+      "state": "TX",
+      "level": "local",
+      "body": "Luling City Council",
+      "urls": ["https://www.lulingtx.org/city-council"]
+    },
+    {
+      "city": "Bastrop",
+      "state": "TX",
+      "level": "local",
+      "body": "Bastrop City Council",
+      "urls": ["https://www.cityofbastrop.org/city-council"]
+    },
+    {
+      "city": "Elgin",
+      "state": "TX",
+      "level": "local",
+      "body": "Elgin City Council",
+      "urls": ["https://www.elgintx.com/155/City-Council"]
+    },
+    {
+      "city": "Smithville",
+      "state": "TX",
+      "level": "local",
+      "body": "Smithville City Council",
+      "urls": ["https://www.smithvilletx.org/155/City-Council"]
+    },
+    {
+      "city": "Travis County",
+      "state": "TX",
+      "level": "county",
+      "body": "Travis County Commissioners Court",
+      "urls": ["https://www.traviscountytx.gov/commissioners-court"]
+    },
+    {
+      "city": "Williamson County",
+      "state": "TX",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "urls": ["https://www.wilco.org/Commissioners-Court"]
+    },
+    {
+      "city": "Hays County",
+      "state": "TX",
+      "level": "county",
+      "body": "Hays County Commissioners Court",
+      "urls": ["https://hayscountytx.gov/commissioners-court/"]
+    },
+    {
+      "city": "Caldwell County",
+      "state": "TX",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "urls": ["https://www.co.caldwell.tx.us/page/Commissioners.Court"]
+    },
+    {
+      "city": "Bastrop County",
+      "state": "TX",
+      "level": "county",
+      "body": "Bastrop County Commissioners Court",
+      "urls": ["https://www.co.bastrop.tx.us/page/commissioners.court"]
     }
   ]
 }

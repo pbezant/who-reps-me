@@ -48,24 +48,61 @@ seeds.json ─> fetch ─> AI extract ─> normalize ─> dedupe ─> per-state 
 
 ## Run locally
 
+**Always probe first — it's free.** The probe checks every seed URL without making a single
+Claude call, so you never spend extraction tokens on dead links:
+
 ```bash
 cd scraper
+npm run probe                  # free: verify all seed URLs
+npm run probe -- --only Kyle   # free: verify one
+
 export ANTHROPIC_API_KEY=sk-ant-...
-npm run scrape                 # all seed cities
-npm run scrape -- --only Kyle  # one city
+npm run scrape                 # costs tokens: all seed cities
+npm run scrape -- --only Kyle  # costs tokens: one city
 ```
 
-Output: `public/officials/<STATE>.json` shards + `index.json`. Problems (failed / needs-browser
-pages) go to `scraper/data/problems.json`.
+`probe` reports each URL as `OK`, `FAIL`, `NEEDS-BROWSER`, or `NO-ROSTER-KEYWORDS`, and for
+anything not OK it scans the site's homepage and prints candidate council links to use instead.
+Full report: `scraper/data/probe.json`.
+
+Scrape output: `public/officials/<STATE>.json` shards + `index.json`. Failed pages go to
+`scraper/data/problems.json`.
 
 ## Run on a schedule (free)
 
-`.github/workflows/scrape.yml` runs the scraper weekly (and on-demand via **Run workflow**),
-commits changed shards, and Netlify auto-deploys on the push.
+`.github/workflows/scrape.yml` runs **overnight** — weekly, Monday at 07:00 UTC
+(2:00 AM CDT / 1:00 AM CST) — so it never competes with daytime API usage. It commits changed
+shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
+weekly is usually plenty since officials rarely change.
 
 **One-time setup:** add repo secret `ANTHROPIC_API_KEY` under
-*Settings → Secrets and variables → Actions*. Scheduled runs fire only from the default branch,
-so test with the manual **Run workflow** button before merging.
+*Settings → Secrets and variables → Actions*.
+
+The **Run workflow** button takes a `mode`:
+
+| mode | Cost | Use |
+| --- | --- | --- |
+| `probe` | free | Verify seed URLs; downloads a `seed-probe-report` artifact |
+| `scrape` | tokens | The real run |
+
+Scheduled runs always scrape. Note that schedules fire only from the **default branch**, so use
+the manual button to test a feature branch; GitHub also disables schedules after ~60 days of
+repo inactivity.
+
+## Seed list
+
+`config/seeds.json` currently covers **Central Texas** (26 jurisdictions): the Austin metro
+(Austin, Round Rock, Cedar Park, Georgetown, Leander, Pflugerville, Hutto, Taylor, Lakeway,
+Bee Cave, Manor), the Hays/Caldwell/Bastrop cities (Kyle, Buda, San Marcos, Dripping Springs,
+Wimberley, Lockhart, Luling, Bastrop, Elgin, Smithville), and 5 county commissioners courts
+(Travis, Williamson, Hays, Caldwell, Bastrop).
+
+Counties use `level: "county"` with `city` set to `"<Name> County"` — the frontend's
+`normalizePlace` strips the "County" suffix so it matches the geocoded county.
+
+These URLs are best-effort and **not yet verified against the live sites** (the dev sandbox
+blocks outbound access to municipal hosts). Run `npm run probe` — locally or via the workflow's
+`probe` mode — and fix any non-OK entries before the first real scrape.
 
 ## Record schema
 
