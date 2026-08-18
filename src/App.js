@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 import { geocode, normalizePlace } from './geocode';
+import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -41,19 +42,26 @@ function SearchBar({ apiKey, setRepList }) {
       // so it can also supply state-legislator social links below, instead of re-fetching
       // the same file twice.
       const geo = await geocode(location);
-      const [fedState, shard, federalSocial] = await Promise.all([
+      const [fedState, shard, federalSocial, stateCards] = await Promise.all([
         getRepList(apiKey, location),
         getOfficialsShard(geo?.state),
         getFederalSocial(),
+        getStateLegislators(geo),
       ]);
       const locals = await getLocalOfficials(geo, shard);
 
       // Merge into one list so Results renders every level uniformly. Local officials go
       // first so city-level reps are visible without scrolling past federal/state.
-      const representatives = [
-        ...locals,
-        ...mergeSocialLinks(fedState?.representatives || [], { federalSocial, shard, state: geo?.state }),
-      ];
+      //
+      // mergeStateLegislators runs LAST so it can drop 5calls' state entries in favour of the
+      // Open States ones — but only when Open States actually returned some, so a missing key
+      // or an uncovered state leaves the previous behaviour untouched.
+      const withSocial = mergeSocialLinks(fedState?.representatives || [], {
+        federalSocial,
+        shard,
+        state: geo?.state,
+      });
+      const representatives = [...locals, ...mergeStateLegislators(withSocial, stateCards)];
       setRepList({ ...(fedState || {}), representatives, geo });
     } catch (error) {
       console.error('Search failed:', error);
@@ -87,7 +95,9 @@ function SearchBar({ apiKey, setRepList }) {
 async function getRepList(apiKey, location) {
   try {
     // add in package.json -> "proxy": "https://api.5calls.org",
-    const response = await axios.get(`/v1/representatives?location=${location}`, {
+    // encodeURIComponent, not raw interpolation: an address containing '&' or '#' would
+    // otherwise truncate the query string and silently geocode the wrong place.
+    const response = await axios.get(`/v1/representatives?location=${encodeURIComponent(location)}`, {
       headers: {
         'X-5Calls-Token': apiKey,
         'Content-Type': 'application/json',
@@ -204,6 +214,31 @@ function mergeSocialLinks(representatives, { federalSocial, shard, state }) {
     }
     return rep;
   });
+}
+
+// Ask our Netlify function for the state legislators at these coordinates (Open States v3,
+// key held server-side — see netlify/functions/state-legislators.mjs). This is a precise
+// point-in-polygon lookup, unlike 5calls' internal geocoding of the raw search string, which
+// is why it recovers the state reps that go missing on ZIP-only searches.
+//
+// Fails soft to an empty list in every failure mode: mergeStateLegislators treats that as
+// "keep whatever 5calls gave us", so state results can only get better here, never worse.
+async function getStateLegislators(geo) {
+  // Coerce rather than trusting the type: geocode()'s two paths build coordinates differently
+  // (the ZIP fallback parses strings from zippopotam), so a bare Number.isFinite check on the
+  // raw value would silently skip the lookup if either ever hands back a numeric string.
+  const lat = Number(geo?.lat);
+  const lon = Number(geo?.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return [];
+  try {
+    const res = await fetch(`/api/state-legislators?lat=${lat}&lon=${lon}`);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return toStateRepCards(data.results, geo.state);
+  } catch (error) {
+    console.error('State legislator lookup failed:', error);
+    return [];
+  }
 }
 
 // Ask the on-demand scraper (Netlify function) to find and scrape this jurisdiction, since the

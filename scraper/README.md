@@ -204,14 +204,19 @@ Every official record carries `photo_url` and a `social` object
   something this does today. A photo/link that repeats across multiple officials on the same
   page is treated as shared branding and dropped (`stripSharedMedia()`), not attributed to any
   one person.
-- **State legislators**: come from 5calls (see the main `README.md`), which doesn't include
-  social links or a bio-page URL to follow. Instead, `config/seeds.json` seeds each state
-  chamber's own member roster (`level: "state-upper"`/`"state-lower"`) through this same
-  scraper, and the frontend matches a scraped record onto a 5calls record by
-  `(state, chamber, district)` — district numbers are unique per chamber, so this needs no name
-  matching. Only jurisdictions actually seeded get this; see `_needs_verified_url` in
-  `seeds.json` for chambers that don't work under the roster-page-only constraint (e.g. the
-  Texas House, whose own site has no single page with both districts and photos/socials).
+- **State legislators**: now come from **Open States v3** (`people.geo`), which returns the
+  photo, email, office phone, and related links for the legislators at a lat/lng — see the main
+  `README.md` and `src/stateLegislators.js`. This replaced two weaker approaches at once: 5calls'
+  state entries (which often go missing entirely on ZIP-only searches, since it geocodes the
+  search string rather than coordinates) and the roster-scraping path described below.
+
+  The scraper *can* still seed a state chamber's own member roster
+  (`level: "state-upper"`/`"state-lower"`), and the frontend still matches those onto 5calls
+  records by `(state, chamber, district)` as a fallback for when Open States is unconfigured or
+  returns nothing. But it was never a good fit and is no longer the primary path: it needs one
+  hand-vetted roster URL per chamber per state, and plenty of chambers have no single page
+  carrying districts *and* photos/socials — see `_needs_verified_url` in `seeds.json` for the
+  Texas House, which defeated it outright. Open States covers all 50 states with no seeding.
 - **Federal reps**: also come from 5calls (which already includes a photo). Social links are
   merged in separately by the frontend from `public/federal-social.json`
   (`npm run federal-social` to rebuild it — see below), keyed by bioguide ID, which is the same

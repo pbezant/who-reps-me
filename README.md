@@ -1,3 +1,52 @@
+# Who Reps Me?
+
+Enter an address or ZIP and see everyone who represents you — federal, state, and local.
+
+## Data sources
+
+| Level | Source | Cost | Key |
+| --- | --- | --- | --- |
+| US House / Senate | [5calls](https://5calls.org/representatives-api/) | free | token in `src/App.js` |
+| State legislators | [Open States v3](https://docs.openstates.org/api-v3/) `people.geo` | free | `OPENSTATES_API_KEY` (server-side) |
+| City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
+| Geocoding | US Census Geocoder | free | none |
+
+### Why state legislators don't come from 5calls
+
+5calls returns state legislators, but it geocodes the location **string** we send it. State
+legislative districts are much smaller than a ZIP code, so a ZIP-only search often resolves to a
+congressional district and no state ones — 5calls flags this as `lowAccuracy`. Open States takes
+a **lat/lng** instead and does a real point-in-polygon lookup, and `src/geocode.js` already gets
+those coordinates from the Census geocoder on every search.
+
+So both are used: 5calls for Congress, Open States for the statehouse. If Open States is
+unconfigured or returns nothing, whatever state reps 5calls found are kept as-is — the app never
+ends up with fewer reps than before.
+
+## Configuration
+
+The app runs without any setup; each key only improves one layer.
+
+```
+OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators
+LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md)
+LLM_API_KEY=...
+```
+
+Set these in the Netlify site's *Site configuration → Environment variables*. `OPENSTATES_API_KEY`
+is read only by `netlify/functions/state-legislators.mjs` and never reaches the browser: Open
+States keys carry a per-account daily quota, and v3 doesn't serve CORS for browser requests
+anyway. Coordinate lookups are cached in Netlify Blobs for 30 days to stay well inside that quota.
+
+## Tests
+
+```bash
+npm test            # frontend (jest)
+cd scraper && npm test
+```
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
