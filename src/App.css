@@ -309,3 +309,39 @@
 .rep-committees li{
   padding:0.15em 0;
 }
+
+/* Shown while a search falls through to a genuinely slow live on-demand scrape (see
+   scrapeLocalOfficials()'s SLOW_SCRAPE_THRESHOLD_MS in App.js) — a normal search never
+   triggers this, so it only appears when there's actually a wait worth explaining. */
+.scrape-status{
+  display:flex;
+  align-items:center;
+  gap:0.6em;
+  max-width:60vw;
+  margin:0;
+  padding:0.6em 1em;
+  border-radius:1em;
+  color:var(--white);
+  background-color:rgba(5,6,45,40%);
+  backdrop-filter:blur(0.5rem);
+  -webkit-backdrop-filter:blur(0.5rem);
+  font-size:0.95em;
+  text-align:left;
+}
+.scrape-status-dot{
+  flex:none;
+  width:0.6em;
+  height:0.6em;
+  border-radius:50%;
+  background-color:var(--white);
+  animation:scrape-pulse 1.2s ease-in-out infinite;
+}
+@keyframes scrape-pulse{
+  0%, 100% { opacity:0.35; transform:scale(0.85); }
+  50% { opacity:1; transform:scale(1); }
+}
+@media (prefers-reduced-motion: reduce){
+  .scrape-status-dot{
+    animation:none;
+  }
+}

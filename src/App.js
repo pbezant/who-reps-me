@@ -24,9 +24,13 @@ function App() {
 }
 export default App;
 
+// 'idle' -> 'searching' (normal fetch, usually well under a second) -> possibly 'scraping'
+// (this search fell through to a live on-demand scrape that's taking a while — see
+// scrapeLocalOfficials()'s SLOW_THRESHOLD_MS) -> back to 'idle'.
 function SearchBar({ apiKey, setRepList }) {
   const [location, setLocation] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState('idle');
+  const loading = status !== 'idle';
 
   const handleChange = (event) => {
     setLocation(event.target.value);
@@ -34,7 +38,7 @@ function SearchBar({ apiKey, setRepList }) {
 
   const executeSearch = async () => {
     if (!location.trim() || loading) return;
-    setLoading(true);
+    setStatus('searching');
     try {
       // Geocode first (authoritative city/county/state + the coordinates the state-legislator
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
@@ -47,7 +51,11 @@ function SearchBar({ apiKey, setRepList }) {
         getFederalDetails(),
         getStateLegislators(geo),
       ]);
-      const locals = await getLocalOfficials(geo, shard);
+      // A shard miss falls through to a live on-demand scrape (netlify/functions/
+      // local-officials.mjs) — onSlowScrape flips the status once that's taking noticeably
+      // longer than a normal search, so the UI can say why instead of leaving the user staring
+      // at a generic "Searching…" for up to 30 seconds.
+      const locals = await getLocalOfficials(geo, shard, { onSlowScrape: () => setStatus('scraping') });
 
       // Merge into one list so Results renders every level uniformly. Local officials go
       // first so city-level reps are visible without scrolling past federal/state.
@@ -62,7 +70,7 @@ function SearchBar({ apiKey, setRepList }) {
       console.error('Search failed:', error);
       setRepList(null);
     } finally {
-      setLoading(false);
+      setStatus('idle');
     }
   }
 
@@ -81,8 +89,15 @@ function SearchBar({ apiKey, setRepList }) {
         onClick={executeSearch}
         disabled={loading}
       >
-        <span className="text">{loading ? 'Searching…' : 'Search'}</span>
+        <span className="text">{status === 'scraping' ? 'Gathering local data…' : loading ? 'Searching…' : 'Search'}</span>
       </button>
+      {status === 'scraping' && (
+        <p className="scrape-status" aria-live="polite">
+          <span className="scrape-status-dot" aria-hidden="true" />
+          You're the first to search this area — actively gathering local officials data.
+          This can take up to 30 seconds.
+        </p>
+      )}
     </div>
   );
 }
@@ -257,14 +272,26 @@ async function getStateLegislators(geo) {
   }
 }
 
+// How long a shard-miss request runs before we tell the user it's a genuinely slow live scrape,
+// not just a normal fetch. A shard miss can resolve two very different ways server-side —
+// netlify/functions/local-officials.mjs's own `source` field distinguishes them in the
+// response — but the client can't know which one it's getting until the response arrives, so
+// this waits a beat rather than assuming the worst up front:
+//   - Netlify Blobs cache hit (someone already triggered discovery for this city): fast,
+//     comparable to a normal search.
+//   - genuine live scrape (nobody has searched this city before): can take up to ~30s.
+const SLOW_SCRAPE_THRESHOLD_MS = 1500;
+
 // Ask the on-demand scraper (Netlify function) to find and scrape this jurisdiction, since the
 // committed static shard has nothing for it. First time this city is searched it's slow (a
 // live scrape); the function saves the result so every search after that is a cache hit. Fails
 // soft to an empty list — an uncovered city should never break federal/state results.
-async function scrapeLocalOfficials(geo) {
+async function scrapeLocalOfficials(geo, { onSlowScrape } = {}) {
   const city = geo.place || (geo.county ? `${geo.county} County` : null);
   if (!city) return [];
   const level = geo.place ? 'local' : 'county';
+
+  const slowTimer = setTimeout(() => onSlowScrape?.(), SLOW_SCRAPE_THRESHOLD_MS);
 
   // Just under Netlify's own ~30s function ceiling (confirmed directly: a cold on-demand scrape
   // that needs several candidate pages gets a 502 from Netlify itself right around 30s) — no
@@ -288,6 +315,7 @@ async function scrapeLocalOfficials(geo) {
     return [];
   } finally {
     clearTimeout(timer);
+    clearTimeout(slowTimer);
   }
 }
 
@@ -296,7 +324,7 @@ async function scrapeLocalOfficials(geo) {
 // fall back to scraping it on demand (and saving the result) instead of just showing nothing.
 // Fails soft to an empty list so the app still shows federal/state reps if the shard is
 // missing or no match.
-async function getLocalOfficials(geo, shard) {
+export async function getLocalOfficials(geo, shard, { onSlowScrape } = {}) {
   if (!geo?.state) return [];
 
   const wantPlace = normalizePlace(geo.place);
@@ -316,7 +344,7 @@ async function getLocalOfficials(geo, shard) {
   if (shardMatches.length) return shardMatches.map((o) => toRepCard(o, geo.state));
 
   // Nothing in the pre-scraped shard for this place — check the on-demand cache / scrape it.
-  return scrapeLocalOfficials(geo);
+  return scrapeLocalOfficials(geo, { onSlowScrape });
 }
 
 // Minimal inline glyphs (not literal brand marks) so a social row needs no icon-library
