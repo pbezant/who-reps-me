@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials } from './App';
+import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials, localScrapeNote } from './App';
 
 test('renders the search page', () => {
   render(<App />);
@@ -158,5 +158,78 @@ describe('getLocalOfficials on-demand slow-scrape indicator', () => {
     await getLocalOfficials(geo, null, { onSlowScrape });
     jest.advanceTimersByTime(5000);
     expect(onSlowScrape).not.toHaveBeenCalled();
+  });
+
+  test('does not call onScrapeResult on a shard hit', async () => {
+    global.fetch = jest.fn();
+    const shard = { officials: [{ id: 'x', level: 'local', jurisdiction: { city: 'Nowhere' }, name: 'Pat' }] };
+    const onScrapeResult = jest.fn();
+
+    await getLocalOfficials(geo, shard, { onScrapeResult });
+    expect(onScrapeResult).not.toHaveBeenCalled();
+  });
+
+  test('calls onScrapeResult with found:true and no error when the on-demand scrape finds officials', async () => {
+    const onScrapeResult = jest.fn();
+    global.fetch = jest.fn(() =>
+      Promise.resolve({ ok: true, json: async () => ({ officials: [{ id: 'x', name: 'Pat' }], source: 'scraped-now' }) })
+    );
+
+    await getLocalOfficials(geo, null, { onScrapeResult });
+    expect(onScrapeResult).toHaveBeenCalledWith({ city: 'Nowhere', found: true, error: null, source: 'scraped-now' });
+  });
+
+  test('calls onScrapeResult with the backend-reported error when discovery fails, instead of discarding it', async () => {
+    const onScrapeResult = jest.fn();
+    global.fetch = jest.fn(() =>
+      Promise.resolve({
+        ok: true,
+        json: async () => ({ officials: [], source: 'scraped-now', error: 'LLM_PRESET misconfigured' }),
+      })
+    );
+
+    await getLocalOfficials(geo, null, { onScrapeResult });
+    expect(onScrapeResult).toHaveBeenCalledWith({
+      city: 'Nowhere', found: false, error: 'LLM_PRESET misconfigured', source: 'scraped-now',
+    });
+  });
+
+  test('calls onScrapeResult with a server-error message on a non-ok response', async () => {
+    const onScrapeResult = jest.fn();
+    global.fetch = jest.fn(() => Promise.resolve({ ok: false, status: 502 }));
+
+    await getLocalOfficials(geo, null, { onScrapeResult });
+    expect(onScrapeResult).toHaveBeenCalledWith({ city: 'Nowhere', found: false, error: 'Server error (HTTP 502)' });
+  });
+
+  test('calls onScrapeResult when the fetch itself throws', async () => {
+    const onScrapeResult = jest.fn();
+    global.fetch = jest.fn(() => Promise.reject(new Error('network down')));
+
+    await getLocalOfficials(geo, null, { onScrapeResult });
+    expect(onScrapeResult).toHaveBeenCalledWith({ city: 'Nowhere', found: false, error: 'network down' });
+  });
+});
+
+describe('localScrapeNote', () => {
+  test('returns null when officials were found — the rendered cards already say so', () => {
+    expect(localScrapeNote({ city: 'Durango', found: true })).toBeNull();
+  });
+
+  test('leads with the error when the backend reported one', () => {
+    const note = localScrapeNote({ city: 'Durango', found: false, error: 'LLM_PRESET misconfigured' });
+    expect(note).toMatch(/Durango/);
+    expect(note).toMatch(/LLM_PRESET misconfigured/);
+  });
+
+  test('explains the auto-retry window for a cached prior miss', () => {
+    const note = localScrapeNote({ city: 'Pagosa Springs', found: false, source: 'cache-miss' });
+    expect(note).toMatch(/Pagosa Springs/);
+    expect(note).toMatch(/week/i);
+  });
+
+  test('falls back to a plain not-found message for a fresh empty result with no error', () => {
+    const note = localScrapeNote({ city: 'Durango', found: false, source: 'scraped-now' });
+    expect(note).toBe('No local officials found for Durango yet.');
   });
 });

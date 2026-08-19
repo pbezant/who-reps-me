@@ -30,6 +30,11 @@ export default App;
 function SearchBar({ apiKey, setRepList }) {
   const [location, setLocation] = useState('');
   const [status, setStatus] = useState('idle');
+  // What the on-demand scrape actually concluded, once a search that used it finishes — null
+  // means either no on-demand scrape happened (shard hit) or it found officials (self-evident
+  // from the rendered cards, no note needed). Cleared at the start of every new search so a
+  // note from a previous city never lingers onto this one.
+  const [scrapeNote, setScrapeNote] = useState(null);
   const loading = status !== 'idle';
 
   const handleChange = (event) => {
@@ -39,6 +44,7 @@ function SearchBar({ apiKey, setRepList }) {
   const executeSearch = async () => {
     if (!location.trim() || loading) return;
     setStatus('searching');
+    setScrapeNote(null);
     try {
       // Geocode first (authoritative city/county/state + the coordinates the state-legislator
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
@@ -55,7 +61,10 @@ function SearchBar({ apiKey, setRepList }) {
       // local-officials.mjs) — onSlowScrape flips the status once that's taking noticeably
       // longer than a normal search, so the UI can say why instead of leaving the user staring
       // at a generic "Searching…" for up to 30 seconds.
-      const locals = await getLocalOfficials(geo, shard, { onSlowScrape: () => setStatus('scraping') });
+      const locals = await getLocalOfficials(geo, shard, {
+        onSlowScrape: () => setStatus('scraping'),
+        onScrapeResult: (result) => setScrapeNote(localScrapeNote(result)),
+      });
 
       // Merge into one list so Results renders every level uniformly. Local officials go
       // first so city-level reps are visible without scrolling past federal/state.
@@ -98,8 +107,24 @@ function SearchBar({ apiKey, setRepList }) {
           This can take up to 30 seconds.
         </p>
       )}
+      {status === 'idle' && scrapeNote && (
+        <p className="scrape-note" aria-live="polite">{scrapeNote}</p>
+      )}
     </div>
   );
+}
+
+// Turns an on-demand scrape's outcome into a message worth showing the user — or null when
+// there's nothing worth saying (officials were found; the rendered cards already say so).
+// Exported so it's independently testable (see App.test.js) rather than only covered by
+// rendering the whole SearchBar.
+export function localScrapeNote({ city, found, error, source }) {
+  if (found) return null;
+  if (error) return `Couldn't check ${city} for local officials right now (${error}). Try again in a bit.`;
+  if (source === 'cache-miss') {
+    return `No local officials found for ${city} in our last check — this is retried automatically within the week.`;
+  }
+  return `No local officials found for ${city} yet.`;
 }
 
 async function getRepList(apiKey, location) {
@@ -285,8 +310,13 @@ const SLOW_SCRAPE_THRESHOLD_MS = 1500;
 // Ask the on-demand scraper (Netlify function) to find and scrape this jurisdiction, since the
 // committed static shard has nothing for it. First time this city is searched it's slow (a
 // live scrape); the function saves the result so every search after that is a cache hit. Fails
-// soft to an empty list — an uncovered city should never break federal/state results.
-async function scrapeLocalOfficials(geo, { onSlowScrape } = {}) {
+// soft to an empty list — an uncovered city should never break federal/state results — but
+// `onScrapeResult` (if given) is always called with what actually happened, since a silent []
+// makes "we haven't found anything for you yet" indistinguishable from "the scraper is broken",
+// which is exactly the confusion this exists to resolve: the Netlify function (see its own
+// header comment) already computes a real `error`/`source` on every non-empty-officials outcome,
+// this just stops discarding it.
+async function scrapeLocalOfficials(geo, { onSlowScrape, onScrapeResult } = {}) {
   const city = geo.place || (geo.county ? `${geo.county} County` : null);
   if (!city) return [];
   const level = geo.place ? 'local' : 'county';
@@ -307,11 +337,18 @@ async function scrapeLocalOfficials(geo, { onSlowScrape } = {}) {
       body: JSON.stringify({ state: geo.state, city, level }),
       signal: controller.signal,
     });
-    if (!res.ok) return [];
+    if (!res.ok) {
+      onScrapeResult?.({ city, found: false, error: `Server error (HTTP ${res.status})` });
+      return [];
+    }
     const data = await res.json();
-    return (data.officials || []).map((o) => toRepCard(o, geo.state));
+    const officials = (data.officials || []).map((o) => toRepCard(o, geo.state));
+    onScrapeResult?.({ city, found: officials.length > 0, error: data.error || null, source: data.source });
+    return officials;
   } catch (error) {
+    const message = error.name === 'AbortError' ? 'Timed out' : error.message;
     console.error('On-demand local scrape failed:', error);
+    onScrapeResult?.({ city, found: false, error: message });
     return [];
   } finally {
     clearTimeout(timer);
@@ -324,7 +361,7 @@ async function scrapeLocalOfficials(geo, { onSlowScrape } = {}) {
 // fall back to scraping it on demand (and saving the result) instead of just showing nothing.
 // Fails soft to an empty list so the app still shows federal/state reps if the shard is
 // missing or no match.
-export async function getLocalOfficials(geo, shard, { onSlowScrape } = {}) {
+export async function getLocalOfficials(geo, shard, { onSlowScrape, onScrapeResult } = {}) {
   if (!geo?.state) return [];
 
   const wantPlace = normalizePlace(geo.place);
@@ -344,7 +381,7 @@ export async function getLocalOfficials(geo, shard, { onSlowScrape } = {}) {
   if (shardMatches.length) return shardMatches.map((o) => toRepCard(o, geo.state));
 
   // Nothing in the pre-scraped shard for this place — check the on-demand cache / scrape it.
-  return scrapeLocalOfficials(geo, { onSlowScrape });
+  return scrapeLocalOfficials(geo, { onSlowScrape, onScrapeResult });
 }
 
 // Minimal inline glyphs (not literal brand marks) so a social row needs no icon-library
