@@ -3,27 +3,36 @@
 // scraper/README.md's "Dynamic jurisdiction discovery" section).
 //
 // Walks the "universe" of incorporated places + counties for one or more states
-// (scraper/data/jurisdictions/<STATE>.json, built once by scripts/build-jurisdiction-universe.js
-// from the US Census Gazetteer Files), skipping anything already in config/seeds.json or
-// already recorded here (a hit, or a miss still inside its cooldown), and for up to
-// DISCOVER_BUDGET (default 15) new jurisdictions per run: asks the configured LLM for the
-// jurisdiction's official homepage (discoverJurisdictionSite(), discover.js), verifies it, then
-// runs the same breadth-first roster-page crawl the on-demand path uses (findRosterPage(),
-// discover.js). A hit is appended to config/seeds.discovered.json's `jurisdictions`; a miss is
-// recorded in its `misses` (with a reason and a checked_at, so it's retried after a cooldown
-// rather than forever).
+// (scraper/data/jurisdictions/<STATE>.json, built by scripts/fetch-census-data.js from the US
+// Census Gazetteer Files + Population Estimates Program), skipping anything already in
+// config/seeds.json or already recorded here (a hit, or a miss still inside its cooldown), and
+// for up to DISCOVER_BUDGET (default 100) new jurisdictions per run, biggest population first
+// (selectDiscoveryCandidates() below): asks the configured LLM for the jurisdiction's official
+// homepage (discoverJurisdictionSite(), discover.js), verifies it, then runs the same
+// breadth-first roster-page crawl the on-demand path uses (findRosterPage(), discover.js). A hit
+// is appended to config/seeds.discovered.json's `jurisdictions`; a miss is recorded in its
+// `misses` (with a reason and a checked_at, so it's retried after a cooldown rather than
+// forever).
+//
+// DISCOVER_STATES (resolveStateList() in stateFips.js) defaults to "ALL" — every US state + DC —
+// not just Central Texas: this is genuinely nationwide, and population-weighted ordering means
+// the biggest cities/counties in the *entire country* get attempted before ever reaching a small
+// one, regardless of which state either happens to be in.
 //
 // This does NOT itself extract/commit officials data — it only finds and verifies roster URLs.
 // The next scheduled scrape.yml run picks up any newly discovered jurisdictions automatically
 // via seeds.js's loadJurisdictions() (config/seeds.json ∪ config/seeds.discovered.json).
 //
 // Needs a real LLM_PRESET/LLM_API_KEY to be useful in a reasonable amount of time — each
-// discovery attempt is up to 1 + fetchBudget LLM calls, so the keyless `ovh` default (2 RPM)
-// makes even a 15-jurisdiction budget slow (same trade-off already documented for the on-demand
-// Netlify path in scraper/README.md).
+// discovery attempt is up to 1 + fetchBudget LLM calls, so a slow keyless provider makes even a
+// modest budget slow (same trade-off already documented for the on-demand Netlify path in
+// scraper/README.md). Defaults to gemini — see this workflow's own defaults in
+// discover-jurisdictions.yml. At DISCOVER_BUDGET=100 and up to 7 LLM calls each, a run's worst
+// case (700 calls) stays comfortably under Gemini's 1,500 requests/day free-tier cap.
 //
 // Usage:
-//   DISCOVER_STATES=TX LLM_PRESET=groq LLM_API_KEY=... node src/discover-jurisdictions.js
+//   DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... node src/discover-jurisdictions.js
+//   LLM_PRESET=gemini LLM_API_KEY=... node src/discover-jurisdictions.js   # DISCOVER_STATES=ALL
 //   DISCOVER_STATES=TX DISCOVER_BUDGET=5 node src/discover-jurisdictions.js
 
 import { writeFile, mkdir } from "node:fs/promises";
@@ -32,6 +41,7 @@ import { join } from "node:path";
 import { discoverJurisdictionSite, findRosterPage } from "./discover.js";
 import { loadJurisdictions, readJsonIfExists, jurisdictionKey, CONFIG_DIR } from "./seeds.js";
 import { closeBrowser } from "./browser.js";
+import { resolveStateList } from "./stateFips.js";
 
 const DATA_DIR = join(CONFIG_DIR, "..", "data");
 const DISCOVERED_PATH = join(CONFIG_DIR, "seeds.discovered.json");
@@ -54,28 +64,33 @@ export function guessBodyName(city, level) {
 
 // Picks which of `candidates` (the full universe of places+counties for the target states) are
 // actually worth attempting this run: not already seeded/discovered, and not a miss still
-// inside its cooldown. Pure/no I/O so it's unit-testable on its own (see
-// discover-jurisdictions.test.js) separately from the discovery/crawl mechanics in main().
+// inside its cooldown — then orders what's left population-weighted, biggest first, so a
+// budget-capped run (and a budget-capped scrape.yml run afterward — see run.js's own header
+// comment, which relies on this file's arrival order to break ties) reaches the highest-impact
+// jurisdictions before ever running out of budget. A candidate with no known population (the
+// Census population file didn't have a match for it — see build-jurisdiction-universe.js) sorts
+// last rather than being dropped; it's still worth discovering eventually. Pure/no I/O so it's
+// unit-testable on its own (see discover-jurisdictions.test.js) separately from the
+// discovery/crawl mechanics in main().
 export function selectDiscoveryCandidates(candidates, { seededKeys, discoveredKeys, misses, now, missCooldownMs = MISS_COOLDOWN_MS }) {
   const missByKey = new Map((misses || []).map((m) => [jurisdictionKey(m), m]));
-  return (candidates || []).filter((j) => {
-    const key = jurisdictionKey(j);
-    if (seededKeys.has(key) || discoveredKeys.has(key)) return false;
-    const miss = missByKey.get(key);
-    if (miss) {
-      const age = Date.parse(now) - Date.parse(miss.checked_at || 0);
-      if (Number.isFinite(age) && age < missCooldownMs) return false;
-    }
-    return true;
-  });
+  return (candidates || [])
+    .filter((j) => {
+      const key = jurisdictionKey(j);
+      if (seededKeys.has(key) || discoveredKeys.has(key)) return false;
+      const miss = missByKey.get(key);
+      if (miss) {
+        const age = Date.parse(now) - Date.parse(miss.checked_at || 0);
+        if (Number.isFinite(age) && age < missCooldownMs) return false;
+      }
+      return true;
+    })
+    .sort((a, b) => (b.population ?? -1) - (a.population ?? -1));
 }
 
 async function main() {
-  const states = (process.env.DISCOVER_STATES || "TX")
-    .split(",")
-    .map((s) => s.trim().toUpperCase())
-    .filter(Boolean);
-  const budget = Number(process.env.DISCOVER_BUDGET || 15);
+  const states = resolveStateList(process.env.DISCOVER_STATES);
+  const budget = Number(process.env.DISCOVER_BUDGET || 100);
   // Unlike the on-demand Netlify path (no time budget to spend on a real browser), a scheduled
   // batch run can afford the Playwright fallback for client-rendered/WAF-blocked sites — same
   // opt-out convention as run.js/probe.js.
@@ -92,11 +107,11 @@ async function main() {
   for (const state of states) {
     const universe = await readJsonIfExists(join(DATA_DIR, "jurisdictions", `${state}.json`));
     if (!universe) {
-      console.log(`No jurisdiction universe file for ${state} (run scripts/build-jurisdiction-universe.js first) — skipping.`);
+      console.log(`No jurisdiction universe file for ${state} (run scripts/fetch-census-data.js first) — skipping.`);
       continue;
     }
-    for (const city of universe.places || []) candidates.push({ city, state, level: "local" });
-    for (const city of universe.counties || []) candidates.push({ city, state, level: "county" });
+    for (const p of universe.places || []) candidates.push({ city: p.name, state, level: "local", population: p.population });
+    for (const c of universe.counties || []) candidates.push({ city: c.name, state, level: "county", population: c.population });
   }
 
   const now = new Date().toISOString();

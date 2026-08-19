@@ -3,9 +3,23 @@
 // React app fetches (served free by Netlify). Runs locally or from the GitHub Actions
 // cron; the scrape logic (pipeline.js) is identical either way.
 //
+// At Central-Texas scale (~26 jurisdictions) a full sweep every run was fine. At nationwide
+// scale (thousands of jurisdictions, once discover-jurisdictions.js has been building up
+// config/seeds.discovered.json) it isn't: GitHub Actions caps a job at 6 hours, and even a
+// generous free-tier LLM rate limit can't push that many pages through in one run. So unless
+// --only targets a single jurisdiction, this run is budget-capped (SCRAPER_BUDGET, default 100 —
+// sized for the Gemini free tier's 1,500 requests/day cap, worst case ~11 requests per
+// jurisdiction counting the bio-page follow-up pass: 100 * 11 = 1,100, with headroom to spare)
+// and prioritized (selectScrapeCandidates() below) — never-scraped jurisdictions first, then
+// whichever previously-scraped ones are most overdue for a refresh (SCRAPER_REFRESH_DAYS,
+// default 30 — officials rarely change, so there's no value re-confirming a jurisdiction that
+// was scraped last week). A run that doesn't get through everything due just picks up where it
+// left off next time, the same resumable pattern discover-jurisdictions.js already established.
+//
 // Usage:
 //   ANTHROPIC_API_KEY=sk-... node src/run.js
 //   ANTHROPIC_API_KEY=sk-... node src/run.js --only Kyle
+//   SCRAPER_BUDGET=200 node src/run.js
 
 import { writeFile, mkdir, appendFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -13,7 +27,7 @@ import { dirname, join } from "node:path";
 import { scrapeJurisdiction } from "./pipeline.js";
 import { writeShards } from "./output.js";
 import { closeBrowser, browserStatus } from "./browser.js";
-import { loadJurisdictions } from "./seeds.js";
+import { loadJurisdictions, jurisdictionKey, readJsonIfExists } from "./seeds.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -21,6 +35,49 @@ const REPO_ROOT = join(ROOT, "..");
 const PUBLIC_OFFICIALS_DIR = join(REPO_ROOT, "public", "officials");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Picks which jurisdictions this run should actually scrape, in priority order, bounded by
+// `budget`. Pure/no I/O so it's unit-testable on its own (see run.test.js) separately from
+// loadLastScrapedByKey()'s file reads below. A jurisdiction scraped more recently than
+// `refreshMs` ago is dropped entirely (not just deprioritized) — no point spending budget on
+// it this run. Among what's left, never-scraped (no entry in `lastScrapedByKey`) always sorts
+// before any previously-scraped jurisdiction, however stale; ties keep their relative order
+// (a stable sort), so a batch newly written by discover-jurisdictions.js in population-weighted
+// order arrives here in that same order rather than being reshuffled.
+export function selectScrapeCandidates(jurisdictions, lastScrapedByKey, { budget, refreshMs, now }) {
+  const dueNowFirst = jurisdictions
+    .map((j) => {
+      const lastScraped = lastScrapedByKey.get(jurisdictionKey(j));
+      const age = lastScraped ? Date.parse(now) - Date.parse(lastScraped) : Infinity;
+      return { jurisdiction: j, age };
+    })
+    .filter((x) => x.age >= refreshMs)
+    .sort((a, b) => {
+      if (a.age === Infinity && b.age === Infinity) return 0;
+      if (a.age === Infinity) return -1;
+      if (b.age === Infinity) return 1;
+      return b.age - a.age;
+    });
+  return dueNowFirst.slice(0, budget).map((x) => x.jurisdiction);
+}
+
+// Builds a jurisdiction -> most-recent extracted_at map from the already-committed shards, so
+// selectScrapeCandidates() can tell a never-scraped jurisdiction from one that's just due for a
+// refresh. Only reads shards for states actually present in `jurisdictions` — no point reading
+// all 50 states' worth when a run (or --only) only touches a handful.
+async function loadLastScrapedByKey(jurisdictions, publicDir) {
+  const states = [...new Set(jurisdictions.map((j) => j.state.toUpperCase()))];
+  const byKey = new Map();
+  for (const state of states) {
+    const shard = await readJsonIfExists(join(publicDir, `${state}.json`));
+    for (const rec of shard?.officials || []) {
+      const key = jurisdictionKey({ state: rec.jurisdiction?.state, city: rec.jurisdiction?.city, level: rec.level });
+      const prev = byKey.get(key);
+      if (!prev || Date.parse(rec.extracted_at) > Date.parse(prev)) byKey.set(key, rec.extracted_at);
+    }
+  }
+  return byKey;
+}
 
 async function main() {
   const args = process.argv.slice(2);
@@ -31,7 +88,26 @@ async function main() {
   // by discover-jurisdictions.js, when it exists) — seeds.json always wins a conflict. See
   // seeds.js's own header comment.
   let jurisdictions = await loadJurisdictions();
-  if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
+  const totalKnown = jurisdictions.length;
+  let dueCount = totalKnown;
+
+  if (only) {
+    // A manual, targeted run bypasses budget/staleness entirely — you asked for this one.
+    jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
+    dueCount = jurisdictions.length;
+  } else {
+    const budget = Number(process.env.SCRAPER_BUDGET || 100);
+    const refreshDays = Number(process.env.SCRAPER_REFRESH_DAYS || 30);
+    const now = new Date().toISOString();
+    const lastScrapedByKey = await loadLastScrapedByKey(jurisdictions, PUBLIC_OFFICIALS_DIR);
+    const opts = { refreshMs: refreshDays * 24 * 60 * 60 * 1000, now };
+    dueCount = selectScrapeCandidates(jurisdictions, lastScrapedByKey, { ...opts, budget: Infinity }).length;
+    jurisdictions = selectScrapeCandidates(jurisdictions, lastScrapedByKey, { ...opts, budget });
+  }
+
+  console.log(
+    `${jurisdictions.length} jurisdiction(s) this run (${dueCount} due for a scrape/refresh, ${totalKnown} known total).`
+  );
 
   // Browser fallback is on unless explicitly disabled; it degrades to static-only when
   // Playwright isn't installed, so this is safe by default.
@@ -134,9 +210,14 @@ async function main() {
   }
 }
 
-main()
-  .catch((err) => {
-    console.error(err);
-    process.exitCode = 1;
-  })
-  .finally(() => closeBrowser());
+// Guarded so importing this module for its exported pure functions (run.test.js) never
+// triggers a real scrape — the same bug bit federal-details.js, build-jurisdiction-universe.js,
+// and discover-jurisdictions.js earlier in this project for the identical reason.
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main()
+    .catch((err) => {
+      console.error(err);
+      process.exitCode = 1;
+    })
+    .finally(() => closeBrowser());
+}

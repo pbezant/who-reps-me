@@ -13,6 +13,7 @@
     "federal-social": "node src/federal-social.js",
     "federal-details": "node src/federal-details.js",
     "discover-jurisdictions": "node src/discover-jurisdictions.js",
+    "fetch-census-data": "node scripts/fetch-census-data.js",
     "test": "node --test"
   },
   "dependencies": {

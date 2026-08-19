@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial } from './App';
+import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials } from './App';
 
 test('renders the search page', () => {
   render(<App />);
@@ -102,5 +102,61 @@ describe('mergeFederalSocial', () => {
     const reps = [{ id: 'local-1', area: 'Mayor', offices: [{ classification: 'main' }] }];
     const [rep] = mergeFederalSocial(reps, { federalSocial: {}, federalDetails: {} });
     expect(rep.offices).toEqual([{ classification: 'main' }]);
+  });
+});
+
+describe('getLocalOfficials on-demand slow-scrape indicator', () => {
+  const geo = { state: 'TX', place: 'Nowhere', county: null };
+
+  beforeEach(() => {
+    jest.useFakeTimers();
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+    delete global.fetch;
+  });
+
+  test('returns shard matches immediately without ever calling onSlowScrape', async () => {
+    global.fetch = jest.fn();
+    const shard = { officials: [{ id: 'x', level: 'local', jurisdiction: { city: 'Nowhere' }, name: 'Pat' }] };
+    const onSlowScrape = jest.fn();
+
+    const officials = await getLocalOfficials(geo, shard, { onSlowScrape });
+    expect(officials).toHaveLength(1);
+    expect(global.fetch).not.toHaveBeenCalled();
+    expect(onSlowScrape).not.toHaveBeenCalled();
+  });
+
+  test('on a shard miss, does not call onSlowScrape before the threshold elapses', async () => {
+    const onSlowScrape = jest.fn();
+    global.fetch = jest.fn(() => new Promise(() => {})); // never resolves within this test
+
+    getLocalOfficials(geo, null, { onSlowScrape });
+    // Let the microtask queue (the fetch call itself) flush before checking timers.
+    await Promise.resolve();
+
+    jest.advanceTimersByTime(1499);
+    expect(onSlowScrape).not.toHaveBeenCalled();
+  });
+
+  test('on a shard miss, calls onSlowScrape once the request is still in flight past the threshold', async () => {
+    const onSlowScrape = jest.fn();
+    global.fetch = jest.fn(() => new Promise(() => {}));
+
+    getLocalOfficials(geo, null, { onSlowScrape });
+    await Promise.resolve();
+
+    jest.advanceTimersByTime(1500);
+    expect(onSlowScrape).toHaveBeenCalledTimes(1);
+  });
+
+  test('does not call onSlowScrape when the on-demand fetch resolves before the threshold', async () => {
+    const onSlowScrape = jest.fn();
+    global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: async () => ({ officials: [] }) }));
+
+    await getLocalOfficials(geo, null, { onSlowScrape });
+    jest.advanceTimersByTime(5000);
+    expect(onSlowScrape).not.toHaveBeenCalled();
   });
 });

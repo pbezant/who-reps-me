@@ -18,7 +18,7 @@ BallotReady) are paid commercial data. This scraper is the DIY alternative.
 | Data store | Per-state JSON shards committed to the repo | $0 |
 | Runner | GitHub Actions cron | $0 |
 | Geocoding | US Census Geocoder (no API key) | $0 |
-| Extraction | `ovh` free tier, no API key (default) | $0 |
+| Extraction | `gemini` free tier (scheduled workflows' default; `ovh` needs no key at all if you'd rather not set one) | $0 |
 
 No database server and no always-on worker. For read-only, batch-updated data, a per-state
 JSON file *is* the database — the frontend already fetches JSON and knows the state from
@@ -203,7 +203,13 @@ netlify dev
   never erases enrichment a previous run already found; also maintains
   `public/officials/index.json` (coverage).
 - **run.js** — CLI entry; writes shards + a scratch `data/problems.json` (gitignored). Loads its
-  jurisdiction list via `seeds.js`, not `config/seeds.json` directly.
+  jurisdiction list via `seeds.js`, not `config/seeds.json` directly. Unless `--only` targets a
+  single city, each run is budget-capped (`SCRAPER_BUDGET`, default 100) and prioritized via
+  `selectScrapeCandidates()` — never-scraped jurisdictions first, then whichever previously-
+  scraped ones are most overdue for a refresh (`SCRAPER_REFRESH_DAYS`, default 30). At nationwide
+  scale a full sweep every run doesn't fit GitHub Actions' 6-hour job limit or a free-tier LLM
+  rate limit, so a run that doesn't get through everything just picks up where it left off next
+  time — the same resumable pattern `discover-jurisdictions.js` already uses.
 - **seeds.js** — merges `config/seeds.json` (hand-authored) with `config/seeds.discovered.json`
   (auto-discovered — see "Dynamic jurisdiction discovery" below), hand-authored entries always
   winning a conflict. Shared by `run.js` and `probe.js`.
@@ -350,6 +356,15 @@ Scrape output: `public/officials/<STATE>.json` shards + `index.json`. Failed pag
 bio-page fetches per jurisdiction per run it's allowed, or `SCRAPER_ENRICH_BUDGET=0` to disable
 it entirely (roster-page-only, the old behavior).
 
+At nationwide scale, `npm run scrape` (without `--only`) doesn't attempt every known
+jurisdiction in one run — it picks up to `SCRAPER_BUDGET` (default 100 — sized against the
+Gemini free tier's 1,500 requests/day cap, see below) of them, never-scraped ones first, then
+whichever previously-scraped ones are most overdue for a refresh
+(`SCRAPER_REFRESH_DAYS`, default 30 — officials rarely change, so there's no value re-confirming
+one scraped last week). A run reports how many jurisdictions were due vs. how many it actually
+got to; anything left over just gets picked up next run, the same resumable pattern
+`discover-jurisdictions.js` uses for its own queue. `--only` bypasses budget/staleness entirely.
+
 ## Run on a schedule (free)
 
 `.github/workflows/scrape.yml` runs **overnight** — weekly, Monday at 07:00 UTC
@@ -357,19 +372,25 @@ it entirely (roster-page-only, the old behavior).
 shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
 weekly is usually plenty since officials rarely change.
 
-**Setup: none required.** Extraction defaults to the `ovh` preset, whose anonymous tier needs no
-key — but at 2 requests/minute a full run (roster pass + the bio-page follow-up pass, which adds
-up to `SCRAPER_ENRICH_BUDGET` more LLM calls per jurisdiction — see "Run locally" above) takes
-well over the ~15 minutes a roster-only run used to. For faster and better extraction, add
-a repo secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude) under
-*Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to that
-provider's name.
+**Setup: add the `LLM_API_KEY` repo secret** (Settings → Secrets and variables → Actions →
+Secrets) with a free Gemini key from aistudio.google.com — extraction defaults to the `gemini`
+preset (15 requests/minute, 1,500/day), which `SCRAPER_BUDGET` (repo variable, default 100) is
+sized against: worst case ~11 LLM calls per jurisdiction (roster pass + up to
+`SCRAPER_ENRICH_BUDGET` bio-page follow-ups, see "Run locally" above), so 100 * 11 = 1,100 stays
+under the daily cap with headroom, and the run finishes in well under an hour instead of
+bumping into GitHub Actions' 6-hour job limit. Without that secret, a scheduled run fails
+outright — either add it, or set the repo **variable** `LLM_PRESET` to `ovh` to fall back to its
+keyless anonymous tier (2 requests/minute; expect a run to take much longer and cover fewer
+jurisdictions per week at the same `SCRAPER_BUDGET`). To use a different provider entirely, set
+`LLM_PRESET` to its name and add the matching secret (`LLM_API_KEY`, or `ANTHROPIC_API_KEY` for
+Claude).
 
 > **GitHub Models is retired.** It was the original default and now returns
 > `HTTP 410 github_models_retirement_brownout` for every request. It has been removed from the
 > workflow's provider dropdown, and a run whose `LLM_PRESET` variable still says `github` fails
 > in the first seconds with a message naming the working alternatives — check that repository
-> **variable** if a run aborts this way, since a variable overrides the `ovh` default.
+> **variable** if a run aborts this way, since a variable overrides the workflow's `gemini`
+> default.
 
 The **Run workflow** button takes a `mode`:
 
@@ -421,52 +442,67 @@ specifically for **hand-vetted overrides/corrections**, merged (via `seeds.js`) 
 `discover-jurisdictions.js`. `seeds.json` always wins a conflict, so a hand-fixed URL is never
 clobbered by automation.
 
-### 1. Build the jurisdiction "universe" for a state (once, occasionally)
+### 1. Build the jurisdiction "universe" for a state (automatic in CI, or run by hand)
 
-`discover-jurisdictions.js` needs to know what cities/counties exist before it can look for
-their roster pages. That list comes from the US Census Bureau's annual **Gazetteer Files**
-(public domain, no key —
-[census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html)).
-Download the national **Places** and **Counties** files for the year you want (each a `.zip`
-containing one tab-delimited `.txt`), unzip them locally, then:
+`discover-jurisdictions.js` needs to know what cities/counties exist — and how big each one is,
+for population-weighted ordering (see step 2) — before it can look for their roster pages. Two
+free, public-domain, no-key US Census Bureau sources supply this, joined together by
+`scripts/fetch-census-data.js`:
+
+- The annual **Gazetteer Files** (place/county names + GEOIDs) —
+  [census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html)
+- The **Population Estimates Program** (population by GEOID) —
+  [census.gov/programs-surveys/popest/data/data-sets.html](https://www.census.gov/programs-surveys/popest/data/data-sets.html)
 
 ```bash
 cd scraper
-node scripts/build-jurisdiction-universe.js TX \
-  --places /path/to/2025_gaz_place_national.txt \
-  --counties /path/to/2025_gaz_county_national.txt
+DISCOVER_STATES=TX,CA npm run fetch-census-data
 ```
 
-Writes `scraper/data/jurisdictions/TX.json` — **committed reference data**, regenerated by hand
-only when it goes stale (Census publishes a new vintage annually). This script deliberately does
-**not** download or unzip anything itself: the exact current-year filename wasn't verified
-against a live fetch when this was built, and a human fetching the authoritative file once is
-more robust than code trusting a URL that might 404 a year from now. See the script's own header
-comment for exactly what it does with the two files (state/active-government filtering, stripping
-Census's place-name suffixes to match `seeds.json`'s bare-name convention, ...).
+Downloads both per state (plus one shared national county-population file), joins population
+onto each place/county by its Census GEOID, and writes `scraper/data/jurisdictions/<STATE>.json`
+— **committed reference data**. `discover-jurisdictions.yml` runs this automatically before every
+discovery run, so it's always current without a separate manual step; it also still works run by
+hand for local testing. **The Census data vintage (which year's files to fetch) is
+auto-detected fresh each run**, not pinned to a hardcoded year — `fetch-census-data.js` lists the
+Census directory itself and picks the newest one published (`detectLatestGazetteerYear()`/
+`detectLatestPopestVintage()`), the same technique used to confirm the URL shape by hand in the
+first place. Nothing needs bumping annually as a result; the `GAZETTEER_YEAR`/`POPEST_VINTAGE`
+repo variables exist only to pin a specific vintage (e.g. to roll back if a freshly-published one
+turns out broken) and are normally left unset. A state whose fetch fails degrades to
+`population: null` for that run rather than blocking discovery entirely — see
+`build-jurisdiction-universe.js` for the actual parsing/join logic (place-name suffix stripping
+to match `seeds.json`'s bare-name convention, active-government filtering, ...).
 
-### 2. Run discovery (budget-capped, repeatable)
+### 2. Run discovery (budget-capped, repeatable, population-weighted)
 
 ```bash
-DISCOVER_STATES=TX LLM_PRESET=groq LLM_API_KEY=... npm run discover-jurisdictions
+DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
+# or, for every US state + DC (the default — see resolveStateList() in src/stateFips.js):
+LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
 ```
 
-For up to `DISCOVER_BUDGET` (default 15) jurisdictions not already in `seeds.json` or
-`seeds.discovered.json` (and not a miss still inside its 90-day retry cooldown): asks the LLM for
-the jurisdiction's homepage (`discoverJurisdictionSite()`), verifies it, then runs the same
+For up to `DISCOVER_BUDGET` (default 100) jurisdictions not already in `seeds.json` or
+`seeds.discovered.json` (and not a miss still inside its 90-day retry cooldown), **biggest
+population first, across every state in scope at once** (`selectDiscoveryCandidates()` — a
+jurisdiction with no population match sorts last rather than being dropped): asks the LLM for the
+jurisdiction's homepage (`discoverJurisdictionSite()`), verifies it, then runs the same
 roster-page crawl the on-demand path uses (`findRosterPage()` — both live in `discover.js`, so a
-fix to this logic only ever happens once). A hit is appended to `seeds.discovered.json`; a miss
-is recorded there too, with a reason, so a human can spot-check a sample for false positives
-rather than trusting the automation blindly.
+fix to this logic only ever happens once). A hit is appended to `seeds.discovered.json`; a miss is
+recorded there too, with a reason, so a human can spot-check a sample for false positives rather
+than trusting the automation blindly. This population-weighted arrival order is also what
+`run.js`'s own `SCRAPER_BUDGET` cap relies on to break ties among never-scraped jurisdictions (see
+its header comment) — so the biggest cities/counties **in the whole country** reach the front of
+both queues, not just within whichever state happens to sort first.
 
 **This does not extract or commit officials data** — only URLs. The next `npm run scrape` (or
 scheduled `scrape.yml` run) picks up anything newly discovered automatically via `seeds.js`.
 
 Needs a real `LLM_PRESET`/`LLM_API_KEY` to be useful in a reasonable time — each attempt is up to
-7 LLM calls, so the keyless `ovh` default (2 RPM) makes even a 15-jurisdiction budget slow (same
-trade-off as the on-demand Netlify path). Runs on its own schedule via
-`.github/workflows/discover-jurisdictions.yml`, decoupled from `scrape.yml`/`federal-social.yml`
-the same way those two are decoupled from each other.
+7 LLM calls, so a slow keyless provider makes even a 15-jurisdiction budget slow (same trade-off
+as the on-demand Netlify path). Defaults to `gemini`, same as `scrape.yml`. Runs on its own
+schedule via `.github/workflows/discover-jurisdictions.yml`, decoupled from
+`scrape.yml`/`federal-social.yml` the same way those two are decoupled from each other.
 
 ## Seed list
 
