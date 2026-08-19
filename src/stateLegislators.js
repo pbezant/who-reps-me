@@ -16,37 +16,14 @@
 //
 // The API key never reaches the browser — netlify/functions/state-legislators.mjs injects it
 // server-side. This module is pure so it can be unit-tested without network or Netlify.
+//
+// The person→card mapping shared with the state-executive tier (phone/email/offices/social)
+// lives in openStatesPerson.js — see that file's header comment.
 
-const SOCIAL_HOSTS = [
-  [/(^|\.)(twitter|x)\.com$/, 'twitter'],
-  [/(^|\.)facebook\.com$/, 'facebook'],
-  [/(^|\.)instagram\.com$/, 'instagram'],
-  [/(^|\.)linkedin\.com$/, 'linkedin'],
-  [/(^|\.)(youtube\.com|youtu\.be)$/, 'youtube'],
-];
+import { classifySocial, phoneFrom, emailFrom, officesFrom, firstNonSocialLink } from './openStatesPerson';
 
-// Open States `links` is a generic list of "related URLs" — a personal site, a campaign page,
-// and sometimes social profiles, all mixed together with no type field. Classify by hostname
-// so the social row renders the same shape the scraper produces (see scraper/src/media.js).
-export function classifySocial(links) {
-  const social = { twitter: null, facebook: null, instagram: null, linkedin: null, youtube: null };
-  for (const link of links || []) {
-    const url = typeof link === 'string' ? link : link?.url;
-    if (!url) continue;
-    let host;
-    try {
-      host = new URL(url).hostname.toLowerCase();
-    } catch {
-      continue; // not a usable absolute URL
-    }
-    for (const [pattern, platform] of SOCIAL_HOSTS) {
-      // First match wins: an official account is listed before a campaign one often enough
-      // that overwriting with a later link tends to make the result worse, not better.
-      if (pattern.test(host) && !social[platform]) social[platform] = url;
-    }
-  }
-  return social;
-}
+// Re-exported for existing importers/tests — this module used to own classifySocial itself.
+export { classifySocial };
 
 // The one reliable federal/state discriminator in the payload. Confirmed against a live
 // response: US members carry jurisdiction.classification "country" with a non-numeric district
@@ -68,49 +45,6 @@ function areaForChamber(orgClassification) {
   return null;
 }
 
-// Offices carry the phone. Prefer the capitol office (staffed year-round and the number these
-// APIs keep most current) over a district one, but take whatever has a number rather than
-// showing none. Older payloads used `contact_details` instead of `offices`, so read both.
-function phoneFrom(person) {
-  const offices = person?.offices || [];
-  const capitol = offices.find((o) => o?.classification === 'capitol' && o?.voice);
-  if (capitol) return capitol.voice;
-  const anyOffice = offices.find((o) => o?.voice);
-  if (anyOffice) return anyOffice.voice;
-  const legacy = (person?.contact_details || []).find((c) => c?.type === 'voice' && c?.value);
-  return legacy ? legacy.value : '';
-}
-
-function emailFrom(person) {
-  if (person?.email) return person.email;
-  const legacy = (person?.contact_details || []).find((c) => c?.type === 'email' && c?.value);
-  return legacy ? legacy.value : '';
-}
-
-// Maps Open States' full `offices` array onto the shared cross-tier office shape (see
-// scraper/src/normalize.js's normalizeOffices() for the same shape used by the scraper and
-// federal enrichment) — purely additive alongside phoneFrom() above, which stays the single
-// top-level `phone` convenience field (still prefers the capitol office). Confirmed against a
-// real response (src/__fixtures__/openstates-people-geo.json): `classification` values include
-// "capitol" and "district-mail" (not a fixed enum, passed through as-is); there is no `city` or
-// `hours` field anywhere in this API's office schema, so those always come through null. An
-// empty-string `voice` (seen on a real district-mail office with no phone) maps to null, not "".
-function officesFrom(person) {
-  const offices = person?.offices || [];
-  return offices
-    .map((o) => ({
-      classification: o?.classification || 'other',
-      name: o?.name || null,
-      city: null,
-      address: o?.address || null,
-      phone: o?.voice || null,
-      fax: o?.fax || null,
-      hours: null,
-    }))
-    // Drop an office row with nothing usable at all rather than rendering an empty entry.
-    .filter((o) => o.address || o.phone || o.fax);
-}
-
 // Map one Open States person onto the same card shape 5calls' reps use, so Results renders
 // every level uniformly and needs no branch for where a record came from.
 function toCard(person, state) {
@@ -121,7 +55,7 @@ function toCard(person, state) {
 
   const district = role.district === 0 || role.district ? String(role.district) : '';
   const links = person?.links || [];
-  const firstNonSocial = links.find((l) => l?.url && !Object.values(classifySocial([l])).some(Boolean));
+  const firstNonSocial = firstNonSocialLink(links);
 
   return {
     id: person.id,

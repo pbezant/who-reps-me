@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
+import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -50,12 +51,13 @@ function SearchBar({ apiKey, setRepList }) {
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(location);
-      const [fedState, shard, federalSocial, federalDetails, stateCards] = await Promise.all([
+      const [fedState, shard, federalSocial, federalDetails, stateCards, executiveCards] = await Promise.all([
         getRepList(apiKey, location),
         getOfficialsShard(geo?.state),
         getFederalSocial(),
         getFederalDetails(),
         getStateLegislators(geo),
+        getStateExecutives(geo?.state),
       ]);
       // A shard miss falls through to a live on-demand scrape (netlify/functions/
       // local-officials.mjs) — onSlowScrape flips the status once that's taking noticeably
@@ -69,11 +71,14 @@ function SearchBar({ apiKey, setRepList }) {
       // Merge into one list so Results renders every level uniformly. Local officials go
       // first so city-level reps are visible without scrolling past federal/state.
       //
-      // mergeStateLegislators runs LAST so it can drop 5calls' state entries in favour of the
-      // Open States ones — but only when Open States actually returned some, so a missing key
-      // or an uncovered state leaves the previous behaviour untouched.
+      // mergeStateLegislators runs before mergeStateExecutives so it can drop 5calls' state
+      // entries in favour of the Open States ones — but only when Open States actually returned
+      // some, so a missing key or an uncovered state leaves the previous behaviour untouched.
+      // mergeStateExecutives then appends Governor/AG/etc — pure addition, since 5calls never
+      // returns state executives at all (see that function's own header comment).
       const withSocial = mergeFederalSocial(fedState?.representatives || [], { federalSocial, federalDetails });
-      const representatives = [...locals, ...mergeStateLegislators(withSocial, stateCards)];
+      const withState = mergeStateLegislators(withSocial, stateCards);
+      const representatives = [...locals, ...mergeStateExecutives(withState, executiveCards)];
       setRepList({ ...(fedState || {}), representatives, geo });
     } catch (error) {
       console.error('Search failed:', error);
@@ -310,6 +315,25 @@ async function getStateLegislators(geo) {
     return toStateRepCards(data.results, geo.state);
   } catch (error) {
     console.error('State legislator lookup failed:', error);
+    return [];
+  }
+}
+
+// Ask our Netlify function for a state's executive officials (Open States v3, key held
+// server-side — see netlify/functions/state-executives.mjs). Unlike getStateLegislators this
+// is keyed on the state alone, not a coordinate: every address in a state has the same Governor.
+//
+// Fails soft to an empty list in every failure mode: mergeStateExecutives just has nothing to
+// append, so this can only ever add reps, never remove any.
+async function getStateExecutives(state) {
+  if (!state) return [];
+  try {
+    const res = await fetch(`/api/state-executives?state=${encodeURIComponent(state)}`);
+    if (!res.ok) return [];
+    const data = await res.json();
+    return toStateExecutiveCards(data.results, state);
+  } catch (error) {
+    console.error('State executive lookup failed:', error);
     return [];
   }
 }
