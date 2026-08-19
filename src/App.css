@@ -345,3 +345,22 @@
     animation:none;
   }
 }
+
+/* Shown once a search that used the on-demand scrape has finished, when it's worth telling the
+   user something more specific than an empty results list — a real error, or a confirmed "not
+   found" — so "no local officials shown" never reads as ambiguous between "still working" and
+   "done, nothing here" (see localScrapeNote() in App.js). No pulsing dot: unlike .scrape-status,
+   this is a settled outcome, not an in-progress one. */
+.scrape-note{
+  max-width:60vw;
+  margin:0;
+  padding:0.6em 1em;
+  border-radius:1em;
+  color:var(--white);
+  background-color:rgba(5,6,45,25%);
+  backdrop-filter:blur(0.5rem);
+  -webkit-backdrop-filter:blur(0.5rem);
+  font-size:0.9em;
+  text-align:left;
+  opacity:0.9;
+}
