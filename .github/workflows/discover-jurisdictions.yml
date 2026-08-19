@@ -11,18 +11,23 @@
 # scrape or the federal-details refresh.
 #
 # Defaults to LLM_PRESET=gemini (needs the repo SECRET LLM_API_KEY), same as scrape.yml — each
-# discovery attempt is up to 7 LLM calls, so a slow keyless provider makes even a
-# 15-jurisdiction budget slow (same trade-off scraper/README.md documents for the on-demand
-# Netlify discovery path). Set the repository variable LLM_PRESET to switch providers.
+# discovery attempt is up to 7 LLM calls, so a slow keyless provider makes even a modest budget
+# slow (same trade-off scraper/README.md documents for the on-demand Netlify discovery path). Set
+# the repository variable LLM_PRESET to switch providers.
+#
+# DISCOVER_STATES defaults to every US state + DC (resolveStateList()'s "ALL" — see
+# stateFips.js): this is genuinely nationwide, not just Central Texas. Set the repo variable
+# DISCOVER_STATES to a comma-separated list to scope it down.
 #
 # Before discovering, this workflow downloads (via scraper/scripts/fetch-census-data.js) and
-# commits scraper/data/jurisdictions/<STATE>.json for each state in DISCOVER_STATES — the
-# Census Gazetteer (place/county names) + Population Estimates (for population-weighted
-# ordering — see selectDiscoveryCandidates() in discover-jurisdictions.js) joined together. Those
-# files are refreshed every run, so they stay current without a separate maintenance step. The
-# download URLs are pinned to a specific Census data vintage (GAZETTEER_YEAR/POPEST_VINTAGE/
-# POPEST_YEAR repo variables); see fetch-census-data.js's own header comment for what to do when
-# Census publishes a new one and these start 404ing.
+# commits scraper/data/jurisdictions/<STATE>.json for each target state — the Census Gazetteer
+# (place/county names) + Population Estimates (for population-weighted ordering — see
+# selectDiscoveryCandidates() in discover-jurisdictions.js) joined together. Those files are
+# refreshed every run, so they stay current without a separate maintenance step. The Census data
+# *vintage* (which year's files to fetch) is auto-detected fresh each run rather than pinned —
+# see fetch-census-data.js's own header comment — so there's nothing to bump annually; the
+# GAZETTEER_YEAR/POPEST_VINTAGE repo variables below are for pinning/rollback only, left unset
+# normally.
 #
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
 # repository's default branch. Until this file is merged there, run it locally instead:
@@ -38,11 +43,11 @@ on:
   workflow_dispatch:
     inputs:
       states:
-        description: "Comma-separated USPS state codes to discover in (blank = repo variable DISCOVER_STATES, else TX)"
+        description: "Comma-separated USPS state codes to discover in (blank = repo variable DISCOVER_STATES, else ALL — every US state + DC)"
         required: false
         type: string
       budget:
-        description: "Max new jurisdictions to attempt this run (blank = repo variable DISCOVER_BUDGET, else 15)"
+        description: "Max new jurisdictions to attempt this run (blank = repo variable DISCOVER_BUDGET, else 100)"
         required: false
         type: string
       provider:
@@ -104,10 +109,12 @@ jobs:
       - name: Fetch Census jurisdiction data
         working-directory: scraper
         env:
-          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES || 'TX' }}
-          GAZETTEER_YEAR: ${{ vars.GAZETTEER_YEAR || '2025' }}
-          POPEST_VINTAGE: ${{ vars.POPEST_VINTAGE || '2020-2025' }}
-          POPEST_YEAR: ${{ vars.POPEST_YEAR || '2025' }}
+          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES }}
+          # Left unset normally — fetch-census-data.js auto-detects the latest published Census
+          # vintage each run. Set these repo variables only to pin a specific one (testing) or
+          # roll back (a freshly-published vintage turned out broken).
+          GAZETTEER_YEAR: ${{ vars.GAZETTEER_YEAR }}
+          POPEST_VINTAGE: ${{ vars.POPEST_VINTAGE }}
         run: node scripts/fetch-census-data.js
 
       - name: Discover jurisdictions
@@ -116,10 +123,10 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
-          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES || 'TX' }}
-          DISCOVER_BUDGET: ${{ inputs.budget || vars.DISCOVER_BUDGET || '15' }}
+          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES }}
+          DISCOVER_BUDGET: ${{ inputs.budget || vars.DISCOVER_BUDGET || '100' }}
         run: |
-          echo "Provider: $LLM_PRESET | States: $DISCOVER_STATES | Budget: $DISCOVER_BUDGET"
+          echo "Provider: $LLM_PRESET | States: ${DISCOVER_STATES:-ALL} | Budget: $DISCOVER_BUDGET"
           node scraper/src/discover-jurisdictions.js
 
       - name: Commit updated seeds.discovered.json and jurisdiction universe files

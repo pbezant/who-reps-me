@@ -19,3 +19,16 @@ export const STATE_FIPS = {
 export function stateFips(usps) {
   return STATE_FIPS[(usps || "").toUpperCase()] || null;
 }
+
+// Resolves a DISCOVER_STATES env value into a list of USPS codes: "ALL" (the default — going
+// nationwide, not just Central Texas) expands to every state in STATE_FIPS; otherwise it's the
+// usual comma-separated list. Shared by discover-jurisdictions.js and fetch-census-data.js so
+// the two always agree on which states a run actually covers.
+export function resolveStateList(raw) {
+  const trimmed = (raw || "ALL").trim().toUpperCase();
+  if (trimmed === "ALL") return Object.keys(STATE_FIPS);
+  return trimmed
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}

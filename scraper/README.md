@@ -463,10 +463,13 @@ Downloads both per state (plus one shared national county-population file), join
 onto each place/county by its Census GEOID, and writes `scraper/data/jurisdictions/<STATE>.json`
 — **committed reference data**. `discover-jurisdictions.yml` runs this automatically before every
 discovery run, so it's always current without a separate manual step; it also still works run by
-hand for local testing. The download URLs are pinned to a specific data vintage via the
-`GAZETTEER_YEAR`/`POPEST_VINTAGE`/`POPEST_YEAR` repo variables (confirmed live against the
-2025/2020-2025 vintage — see `fetch-census-data.js`'s header comment for what to bump when Census
-publishes a new one and these start 404ing). A state whose fetch fails degrades to
+hand for local testing. **The Census data vintage (which year's files to fetch) is
+auto-detected fresh each run**, not pinned to a hardcoded year — `fetch-census-data.js` lists the
+Census directory itself and picks the newest one published (`detectLatestGazetteerYear()`/
+`detectLatestPopestVintage()`), the same technique used to confirm the URL shape by hand in the
+first place. Nothing needs bumping annually as a result; the `GAZETTEER_YEAR`/`POPEST_VINTAGE`
+repo variables exist only to pin a specific vintage (e.g. to roll back if a freshly-published one
+turns out broken) and are normally left unset. A state whose fetch fails degrades to
 `population: null` for that run rather than blocking discovery entirely — see
 `build-jurisdiction-universe.js` for the actual parsing/join logic (place-name suffix stripping
 to match `seeds.json`'s bare-name convention, active-government filtering, ...).
@@ -475,19 +478,22 @@ to match `seeds.json`'s bare-name convention, active-government filtering, ...).
 
 ```bash
 DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
+# or, for every US state + DC (the default — see resolveStateList() in src/stateFips.js):
+LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
 ```
 
-For up to `DISCOVER_BUDGET` (default 15) jurisdictions not already in `seeds.json` or
+For up to `DISCOVER_BUDGET` (default 100) jurisdictions not already in `seeds.json` or
 `seeds.discovered.json` (and not a miss still inside its 90-day retry cooldown), **biggest
-population first** (`selectDiscoveryCandidates()` — a jurisdiction with no population match sorts
-last rather than being dropped): asks the LLM for the jurisdiction's homepage
-(`discoverJurisdictionSite()`), verifies it, then runs the same roster-page crawl the on-demand
-path uses (`findRosterPage()` — both live in `discover.js`, so a fix to this logic only ever
-happens once). A hit is appended to `seeds.discovered.json`; a miss is recorded there too, with a
-reason, so a human can spot-check a sample for false positives rather than trusting the
-automation blindly. This population-weighted arrival order is also what `run.js`'s own
-`SCRAPER_BUDGET` cap relies on to break ties among never-scraped jurisdictions (see its header
-comment) — so the biggest cities/counties reach the front of both queues, not just this one.
+population first, across every state in scope at once** (`selectDiscoveryCandidates()` — a
+jurisdiction with no population match sorts last rather than being dropped): asks the LLM for the
+jurisdiction's homepage (`discoverJurisdictionSite()`), verifies it, then runs the same
+roster-page crawl the on-demand path uses (`findRosterPage()` — both live in `discover.js`, so a
+fix to this logic only ever happens once). A hit is appended to `seeds.discovered.json`; a miss is
+recorded there too, with a reason, so a human can spot-check a sample for false positives rather
+than trusting the automation blindly. This population-weighted arrival order is also what
+`run.js`'s own `SCRAPER_BUDGET` cap relies on to break ties among never-scraped jurisdictions (see
+its header comment) — so the biggest cities/counties **in the whole country** reach the front of
+both queues, not just within whichever state happens to sort first.
 
 **This does not extract or commit officials data** — only URLs. The next `npm run scrape` (or
 scheduled `scrape.yml` run) picks up anything newly discovered automatically via `seeds.js`.

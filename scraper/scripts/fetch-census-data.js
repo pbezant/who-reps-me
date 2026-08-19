@@ -5,35 +5,49 @@
 //
 // This is meant to run in GitHub Actions (discover-jurisdictions.yml), not in an arbitrary dev
 // sandbox: census.gov is unreachable from the environment this was originally written in, so the
-// URLs below were confirmed with a live `curl` from a machine that COULD reach it, not guessed —
-// but they're still hardcoded to specific data vintages that Census updates on its own schedule
-// (a new Gazetteer year each fall; a new Population Estimates vintage folder each spring), so a
-// stale value here will eventually 404. When that happens: bump GAZETTEER_YEAR / POPEST_VINTAGE /
-// POPEST_YEAR (repo variables — see discover-jurisdictions.yml) rather than editing this file.
-// Confirmed vintages as of writing: GAZETTEER_YEAR=2025 (folder .../gazetteer/2025_Gazetteer/,
-// files named 2025_gaz_place_<FIPS>.txt), POPEST_VINTAGE=2020-2025 with POPEST_YEAR=2025 (folder
-// .../popest/datasets/2020-2025/, files named co-est2025-alldata.csv / sub-est2025_<FIPS>.csv —
-// note the population *column* inside those files, POPESTIMATE<year>, is found dynamically by
-// latestPopEstimateColumn() regardless of this year value, so getting POPEST_YEAR slightly wrong
-// only affects which file gets fetched, not how it's parsed).
+// URL *shape* below was confirmed with a live `curl` from a machine that COULD reach it, not
+// guessed. Census updates its data on its own schedule (a new Gazetteer year each fall; a new
+// Population Estimates vintage folder each spring), which would make a hardcoded year eventually
+// 404 — so unless GAZETTEER_YEAR/POPEST_VINTAGE are explicitly pinned (env var or repo variable),
+// this script auto-detects the latest published one each run by listing the parent directory
+// (detectLatestGazetteerYear()/detectLatestPopestVintage() below) — the exact technique used to
+// confirm the URL shape by hand in the first place, now automated so nobody has to remember to
+// bump a year annually. If detection itself fails (network hiccup, or Census restructuring the
+// directory layout entirely — a real but much rarer risk than "a new year exists"), it falls back
+// to the last-confirmed-good vintage and logs why, rather than crashing the run outright.
 //
 // Usage:
 //   DISCOVER_STATES=TX,CA node scripts/fetch-census-data.js
-//   GAZETTEER_YEAR=2026 POPEST_VINTAGE=2020-2026 POPEST_YEAR=2026 DISCOVER_STATES=TX node scripts/fetch-census-data.js
+//   GAZETTEER_YEAR=2026 POPEST_VINTAGE=2020-2026 DISCOVER_STATES=TX node scripts/fetch-census-data.js  # pin instead of auto-detect
 
 import { fileURLToPath } from "node:url";
-import { stateFips } from "../src/stateFips.js";
+import { stateFips, resolveStateList } from "../src/stateFips.js";
 import { writeJurisdictionUniverse } from "./build-jurisdiction-universe.js";
+
+// Last-confirmed-good vintage (via a live `curl` — see this file's header comment), used only
+// when auto-detection itself fails; auto-detection is otherwise what actually picks the year.
+const FALLBACK_GAZETTEER_YEAR = "2025";
+const FALLBACK_POPEST_VINTAGE = "2020-2025";
 
 const GAZETTEER_BASE = "https://www2.census.gov/geo/docs/maps-data/data/gazetteer";
 const POPEST_BASE = "https://www2.census.gov/programs-surveys/popest/datasets";
 
+// Population files are named by the vintage's own end year (e.g. co-est2025-alldata.csv lives in
+// the "2020-2025" folder) — deriving it from the vintage string instead of taking it as a
+// separate config removes one more value that could drift out of sync with the other.
+export function popestYearFromVintage(popestVintage) {
+  const end = (popestVintage || "").split("-")[1];
+  if (!/^\d{4}$/.test(end || "")) throw new Error(`Could not derive a year from popestVintage "${popestVintage}"`);
+  return end;
+}
+
 // Pure URL construction, kept separate from the actual fetch() calls below so it's unit-testable
 // without network mocking (see fetch-census-data.test.js) — the same split this codebase uses
 // throughout (e.g. selectScrapeCandidates() vs. loadLastScrapedByKey() in run.js).
-export function censusUrlsForState(state, { gazetteerYear, popestVintage, popestYear }) {
+export function censusUrlsForState(state, { gazetteerYear, popestVintage }) {
   const fips = stateFips(state);
   if (!fips) throw new Error(`Unknown state code "${state}" (no FIPS mapping in src/stateFips.js)`);
+  const popestYear = popestYearFromVintage(popestVintage);
   return {
     places: `${GAZETTEER_BASE}/${gazetteerYear}_Gazetteer/${gazetteerYear}_gaz_place_${fips}.txt`,
     counties: `${GAZETTEER_BASE}/${gazetteerYear}_Gazetteer/${gazetteerYear}_gaz_counties_${fips}.txt`,
@@ -41,8 +55,8 @@ export function censusUrlsForState(state, { gazetteerYear, popestVintage, popest
   };
 }
 
-export function countyPopulationUrl({ popestVintage, popestYear }) {
-  return `${POPEST_BASE}/${popestVintage}/counties/totals/co-est${popestYear}-alldata.csv`;
+export function countyPopulationUrl({ popestVintage }) {
+  return `${POPEST_BASE}/${popestVintage}/counties/totals/co-est${popestYearFromVintage(popestVintage)}-alldata.csv`;
 }
 
 async function fetchText(url, { required = true } = {}) {
@@ -54,8 +68,53 @@ async function fetchText(url, { required = true } = {}) {
   return res.text();
 }
 
-export async function fetchCensusDataForState(state, { gazetteerYear, popestVintage, popestYear, countyPopulationText }) {
-  const urls = censusUrlsForState(state, { gazetteerYear, popestVintage, popestYear });
+// Parses "<year>_Gazetteer/" directory-listing links out of an index page's HTML — the same
+// pattern confirmed live via `curl .../gazetteer/ | grep -oE 'href="[0-9]{4}_Gazetteer/"'` when
+// this script was first written. Pure/no I/O so it's unit-testable on its own.
+export function parseGazetteerYears(html) {
+  return [...(html || "").matchAll(/href="(\d{4})_Gazetteer\/"/g)].map((m) => Number(m[1]));
+}
+
+// Parses "<start>-<end>/" vintage-folder links out of the Population Estimates datasets index
+// page — same live-confirmed pattern as parseGazetteerYears() above.
+export function parsePopestVintages(html) {
+  return [...(html || "").matchAll(/href="(\d{4})-(\d{4})\/"/g)].map((m) => ({ start: Number(m[1]), end: Number(m[2]) }));
+}
+
+// Finds the newest Gazetteer year actually published right now, instead of trusting a hardcoded
+// one that will eventually go stale — falls back to `fallback` on any failure (network error, or
+// an index page whose format this can't parse) so a transient hiccup degrades gracefully rather
+// than blocking every state's discovery.
+export async function detectLatestGazetteerYear(fallback) {
+  try {
+    const html = await fetchText(`${GAZETTEER_BASE}/`);
+    const years = parseGazetteerYears(html);
+    if (!years.length) throw new Error("no year folders found in directory listing");
+    return String(Math.max(...years));
+  } catch (err) {
+    console.log(`Could not auto-detect the latest Gazetteer year (${err.message}) — using ${fallback}.`);
+    return fallback;
+  }
+}
+
+// Same idea for the Population Estimates vintage folder — picks the one with the latest end
+// year (vintage folders are named "<first year still in the file>-<latest year>", e.g.
+// "2020-2025"; a new vintage always extends the end year, sometimes also bumping the start).
+export async function detectLatestPopestVintage(fallback) {
+  try {
+    const html = await fetchText(`${POPEST_BASE}/`);
+    const vintages = parsePopestVintages(html);
+    if (!vintages.length) throw new Error("no vintage folders found in directory listing");
+    const latest = vintages.reduce((a, b) => (b.end > a.end ? b : a));
+    return `${latest.start}-${latest.end}`;
+  } catch (err) {
+    console.log(`Could not auto-detect the latest population-estimates vintage (${err.message}) — using ${fallback}.`);
+    return fallback;
+  }
+}
+
+export async function fetchCensusDataForState(state, { gazetteerYear, popestVintage, countyPopulationText }) {
+  const urls = censusUrlsForState(state, { gazetteerYear, popestVintage });
 
   const [placesText, countiesText, placePopulationText] = await Promise.all([
     fetchText(urls.places),
@@ -70,17 +129,19 @@ export async function fetchCensusDataForState(state, { gazetteerYear, popestVint
 }
 
 async function main() {
-  const states = (process.env.DISCOVER_STATES || "TX")
-    .split(",")
-    .map((s) => s.trim().toUpperCase())
-    .filter(Boolean);
-  const gazetteerYear = process.env.GAZETTEER_YEAR || "2025";
-  const popestVintage = process.env.POPEST_VINTAGE || "2020-2025";
-  const popestYear = process.env.POPEST_YEAR || "2025";
+  const states = resolveStateList(process.env.DISCOVER_STATES);
+
+  // GAZETTEER_YEAR/POPEST_VINTAGE (env var or repo variable) pin a specific vintage when set —
+  // useful for testing, or to roll back if a freshly-published vintage turns out broken. Left
+  // unset (the default), this auto-detects the latest one published right now, so nobody has to
+  // remember to bump a year annually — see this file's own header comment.
+  const gazetteerYear = process.env.GAZETTEER_YEAR || (await detectLatestGazetteerYear(FALLBACK_GAZETTEER_YEAR));
+  const popestVintage = process.env.POPEST_VINTAGE || (await detectLatestPopestVintage(FALLBACK_POPEST_VINTAGE));
+  console.log(`Using Gazetteer year ${gazetteerYear}, population-estimates vintage ${popestVintage}.`);
 
   // County population is one national file shared by every state — fetch it once, not once per
   // state, both to be a polite crawler and because it's the same download either way.
-  const countyPopUrl = countyPopulationUrl({ popestVintage, popestYear });
+  const countyPopUrl = countyPopulationUrl({ popestVintage });
   let countyPopulationText = null;
   try {
     countyPopulationText = await fetchText(countyPopUrl, { required: false });
@@ -94,7 +155,7 @@ async function main() {
   let failures = 0;
   for (const state of states) {
     try {
-      await fetchCensusDataForState(state, { gazetteerYear, popestVintage, popestYear, countyPopulationText });
+      await fetchCensusDataForState(state, { gazetteerYear, popestVintage, countyPopulationText });
     } catch (err) {
       failures++;
       console.error(`FAILED ${state}: ${err.message}`);
@@ -103,8 +164,8 @@ async function main() {
 
   if (failures === states.length && states.length > 0) {
     console.error(
-      `\nAll ${states.length} state(s) failed — likely a stale GAZETTEER_YEAR/POPEST_VINTAGE/POPEST_YEAR ` +
-        `(Census may have published a new vintage). See this script's own header comment.`
+      `\nAll ${states.length} state(s) failed even after auto-detecting the vintage — this usually means Census has ` +
+        `changed its directory/file layout in a way this script's parsing doesn't handle. See this script's own header comment.`
     );
     process.exitCode = 1;
   } else if (failures > 0) {
