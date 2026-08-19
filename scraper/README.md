@@ -203,7 +203,13 @@ netlify dev
   never erases enrichment a previous run already found; also maintains
   `public/officials/index.json` (coverage).
 - **run.js** — CLI entry; writes shards + a scratch `data/problems.json` (gitignored). Loads its
-  jurisdiction list via `seeds.js`, not `config/seeds.json` directly.
+  jurisdiction list via `seeds.js`, not `config/seeds.json` directly. Unless `--only` targets a
+  single city, each run is budget-capped (`SCRAPER_BUDGET`, default 50) and prioritized via
+  `selectScrapeCandidates()` — never-scraped jurisdictions first, then whichever previously-
+  scraped ones are most overdue for a refresh (`SCRAPER_REFRESH_DAYS`, default 30). At nationwide
+  scale a full sweep every run doesn't fit GitHub Actions' 6-hour job limit or a free-tier LLM
+  rate limit, so a run that doesn't get through everything just picks up where it left off next
+  time — the same resumable pattern `discover-jurisdictions.js` already uses.
 - **seeds.js** — merges `config/seeds.json` (hand-authored) with `config/seeds.discovered.json`
   (auto-discovered — see "Dynamic jurisdiction discovery" below), hand-authored entries always
   winning a conflict. Shared by `run.js` and `probe.js`.
@@ -350,6 +356,14 @@ Scrape output: `public/officials/<STATE>.json` shards + `index.json`. Failed pag
 bio-page fetches per jurisdiction per run it's allowed, or `SCRAPER_ENRICH_BUDGET=0` to disable
 it entirely (roster-page-only, the old behavior).
 
+At nationwide scale, `npm run scrape` (without `--only`) doesn't attempt every known
+jurisdiction in one run — it picks up to `SCRAPER_BUDGET` (default 50) of them, never-scraped
+ones first, then whichever previously-scraped ones are most overdue for a refresh
+(`SCRAPER_REFRESH_DAYS`, default 30 — officials rarely change, so there's no value re-confirming
+one scraped last week). A run reports how many jurisdictions were due vs. how many it actually
+got to; anything left over just gets picked up next run, the same resumable pattern
+`discover-jurisdictions.js` uses for its own queue. `--only` bypasses budget/staleness entirely.
+
 ## Run on a schedule (free)
 
 `.github/workflows/scrape.yml` runs **overnight** — weekly, Monday at 07:00 UTC
@@ -360,8 +374,11 @@ weekly is usually plenty since officials rarely change.
 **Setup: none required.** Extraction defaults to the `ovh` preset, whose anonymous tier needs no
 key — but at 2 requests/minute a full run (roster pass + the bio-page follow-up pass, which adds
 up to `SCRAPER_ENRICH_BUDGET` more LLM calls per jurisdiction — see "Run locally" above) takes
-well over the ~15 minutes a roster-only run used to. For faster and better extraction, add
-a repo secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude) under
+well over the ~15 minutes a roster-only run used to. `SCRAPER_BUDGET` (repo variable, default 50)
+keeps a single run bounded regardless of how many jurisdictions are known in total — see "Run
+locally" above — so a slow provider means more weeks to cycle through the full list, not a run
+that blows past GitHub Actions' 6-hour job limit. For faster and better extraction, add a repo
+secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude) under
 *Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to that
 provider's name.
 

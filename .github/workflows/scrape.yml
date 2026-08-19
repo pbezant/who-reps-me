@@ -14,6 +14,12 @@
 # Pages that are client-rendered, or whose WAF blocks plain HTTP, are retried through headless
 # Chromium (see scraper/src/browser.js). Set the repo variable SCRAPER_BROWSER to 0 to disable.
 #
+# Nationwide scale: unless "only" targets a single city, run.js caps each run to SCRAPER_BUDGET
+# jurisdictions (repo variable, default 50), prioritized never-scraped-first then most-overdue
+# (SCRAPER_REFRESH_DAYS, repo variable, default 30 — see run.js's own header comment). A run that
+# doesn't get through everything just picks up where it left off next week — the same resumable,
+# budget-capped pattern discover-jurisdictions.js already uses.
+#
 # Two modes via "Run workflow":
 #   scrape - the real run: extracts officials and commits the data (this is the default)
 #   probe  - reachability check of every seed URL only; makes no LLM calls and writes NO data
@@ -49,6 +55,10 @@ on:
         options: ["", anthropic, ovh, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7]
       only:
         description: "Optional: limit to a single city (matches seeds.json 'city')"
+        required: false
+        type: string
+      budget:
+        description: "Max jurisdictions to scrape/refresh this run (blank = repo variable SCRAPER_BUDGET, else 50). Ignored when 'only' is set."
         required: false
         type: string
 
@@ -127,8 +137,10 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           # Used when LLM_PRESET=anthropic.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCRAPER_BUDGET: ${{ inputs.budget || vars.SCRAPER_BUDGET || '50' }}
+          SCRAPER_REFRESH_DAYS: ${{ vars.SCRAPER_REFRESH_DAYS || '30' }}
         run: |
-          echo "Provider: $LLM_PRESET"
+          echo "Provider: $LLM_PRESET | Budget: $SCRAPER_BUDGET | Refresh days: $SCRAPER_REFRESH_DAYS"
           if [ -n "${{ inputs.only }}" ]; then
             node scraper/src/run.js --only "${{ inputs.only }}"
           else
