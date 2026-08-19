@@ -260,6 +260,11 @@ the bio-page follow-up pass described below. Coverage varies by source:
   defeated it outright. It only ever had one seed, and no state-level record ever reached a
   shard. Open States covers all 50 states with no seeding, so `seeds.json` is now local and
   county jurisdictions only.
+- **State executives** (Governor, Lt. Governor, Attorney General, ...): same source as state
+  legislators, but a different query — `/people?org_classification=executive`, not `people.geo`,
+  since a statewide office has no district for a point-in-polygon lookup to match. See the main
+  `README.md` and `src/stateExecutives.js`. Coverage is curated per state rather than
+  comprehensive — see that file's header comment for specifics.
 - **Federal reps**: photo and `field_offices` (phone + city, no address) come from 5calls, merged
   into `offices[]` by the frontend (`src/App.js`'s `officesFromFieldOffices()`). Everything else
   — social links, term dates, committee assignments, the DC office, and (usually) full

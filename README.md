@@ -8,6 +8,7 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | --- | --- | --- | --- |
 | US House / Senate | [5calls](https://5calls.org/representatives-api/) | free | token in `src/App.js` |
 | State legislators | [Open States v3](https://docs.openstates.org/api-v3/) `people.geo` | free | `OPENSTATES_API_KEY` (server-side) |
+| State executives (Governor, Lt. Governor, AG, ...) | [Open States v3](https://docs.openstates.org/api-v3/) `/people?org_classification=executive` | free | `OPENSTATES_API_KEY` (server-side) |
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
 
@@ -37,20 +38,38 @@ So both are used: 5calls for Congress, Open States for the statehouse. If Open S
 unconfigured or returns nothing, whatever state reps 5calls found are kept as-is — the app never
 ends up with fewer reps than before.
 
+### State executives (Governor, Lt. Governor, Attorney General, ...)
+
+5calls doesn't return these at all (it's federal-only), and neither does `people.geo` — that
+endpoint's own docs say so explicitly: "Currently limited to state legislators and US Congress.
+Governors & mayors are not included." (a statewide office has no district geometry for a
+point-in-polygon lookup to match against). `src/stateExecutives.js` instead queries Open States'
+general `/people` endpoint, filtered to `org_classification=executive` and cached **per state**
+rather than per coordinate, since every address in a state has the same Governor.
+
+**Coverage is curated, not comprehensive, and varies by state.** Checked directly against Open
+States' source data: Texas has exactly four executive officials on file — Governor, Lieutenant
+Governor, Attorney General, Secretary of State — no Comptroller, no Land/Agriculture
+Commissioner, and no Railroad Commissioner (an elected regulatory body outside what this dataset
+models at all). Most states have 3-4; a few have as many as 6-7. This app shows whatever a state
+has rather than assuming every state has the same set of offices.
+
 ## Configuration
 
 The app runs without any setup; each key only improves one layer.
 
 ```
-OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators
+OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators + executives
 LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md)
 LLM_API_KEY=...
 ```
 
 Set these in the Netlify site's *Site configuration → Environment variables*. `OPENSTATES_API_KEY`
-is read only by `netlify/functions/state-legislators.mjs` and never reaches the browser: Open
-States keys carry a per-account daily quota, and v3 doesn't serve CORS for browser requests
-anyway. Coordinate lookups are cached in Netlify Blobs for 30 days to stay well inside that quota.
+is read only by `netlify/functions/state-legislators.mjs` and `netlify/functions/state-executives.mjs`
+— never by the browser: Open States keys carry a per-account daily quota, and v3 doesn't serve
+CORS for browser requests anyway. Legislator lookups are cached in Netlify Blobs for 30 days
+(per coordinate) to stay well inside that quota; executive lookups for 90 days (per state — a
+much smaller, much slower-changing dataset, so a longer window is safe).
 
 ## Tests
 
