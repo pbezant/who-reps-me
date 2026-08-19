@@ -15,10 +15,14 @@
 # 15-jurisdiction budget slow (same trade-off scraper/README.md documents for the on-demand
 # Netlify discovery path). Set the repository variable LLM_PRESET to switch providers.
 #
-# Requires scraper/data/jurisdictions/<STATE>.json to exist for a state before this workflow can
-# find anything new in it — build that once (and re-build occasionally as Census updates its
-# annual Gazetteer Files) with scraper/scripts/build-jurisdiction-universe.js; see that script's
-# own header comment for why it takes local files rather than downloading them itself.
+# Before discovering, this workflow downloads (via scraper/scripts/fetch-census-data.js) and
+# commits scraper/data/jurisdictions/<STATE>.json for each state in DISCOVER_STATES — the
+# Census Gazetteer (place/county names) + Population Estimates (for population-weighted
+# ordering — see selectDiscoveryCandidates() in discover-jurisdictions.js) joined together. Those
+# files are refreshed every run, so they stay current without a separate maintenance step. The
+# download URLs are pinned to a specific Census data vintage (GAZETTEER_YEAR/POPEST_VINTAGE/
+# POPEST_YEAR repo variables); see fetch-census-data.js's own header comment for what to do when
+# Census publishes a new one and these start 404ing.
 #
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
 # repository's default branch. Until this file is merged there, run it locally instead:
@@ -91,6 +95,21 @@ jobs:
           npm install --no-audit --no-fund
           npx playwright install chromium
 
+      # Refreshes scraper/data/jurisdictions/<STATE>.json for each target state — see this
+      # workflow's own header comment. Network failures here degrade gracefully (a state with no
+      # universe file is just skipped by the discovery step below, same as today) rather than
+      # failing the whole job, EXCEPT when every requested state fails, which usually means the
+      # pinned Census vintage has gone stale — that case exits non-zero so it's visible in the
+      # Actions tab instead of silently discovering nothing forever.
+      - name: Fetch Census jurisdiction data
+        working-directory: scraper
+        env:
+          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES || 'TX' }}
+          GAZETTEER_YEAR: ${{ vars.GAZETTEER_YEAR || '2025' }}
+          POPEST_VINTAGE: ${{ vars.POPEST_VINTAGE || '2020-2025' }}
+          POPEST_YEAR: ${{ vars.POPEST_YEAR || '2025' }}
+        run: node scripts/fetch-census-data.js
+
       - name: Discover jurisdictions
         env:
           LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'gemini' }}
@@ -103,14 +122,14 @@ jobs:
           echo "Provider: $LLM_PRESET | States: $DISCOVER_STATES | Budget: $DISCOVER_BUDGET"
           node scraper/src/discover-jurisdictions.js
 
-      - name: Commit updated seeds.discovered.json
+      - name: Commit updated seeds.discovered.json and jurisdiction universe files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add scraper/config/seeds.discovered.json
+          git add scraper/config/seeds.discovered.json scraper/data/jurisdictions
           if git diff --staged --quiet; then
-            echo "No newly discovered jurisdictions."
+            echo "No newly discovered jurisdictions or Census data changes."
           else
-            git commit -m "chore(data): discover new jurisdictions [skip ci]"
+            git commit -m "chore(data): discover new jurisdictions, refresh Census jurisdiction data [skip ci]"
             git push
           fi

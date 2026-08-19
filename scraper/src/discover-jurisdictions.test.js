@@ -53,6 +53,25 @@ test("selectDiscoveryCandidates() treats a county and a like-named city as diffe
   assert.deepEqual(kept.map((j) => j.city), ["Bastrop County"]);
 });
 
+test("selectDiscoveryCandidates() orders survivors population-weighted, biggest first", () => {
+  const candidates = [
+    { city: "Elgin", state: "TX", level: "local", population: 12000 },
+    { city: "Austin", state: "TX", level: "local", population: 990000 },
+    { city: "Bastrop", state: "TX", level: "local", population: 10000 },
+  ];
+  const kept = selectDiscoveryCandidates(candidates, { seededKeys: new Set(), discoveredKeys: new Set(), misses: [], now: NOW });
+  assert.deepEqual(kept.map((j) => j.city), ["Austin", "Elgin", "Bastrop"]);
+});
+
+test("selectDiscoveryCandidates() sorts a candidate with unknown population last, not dropped", () => {
+  const candidates = [
+    { city: "Unknown Pop", state: "TX", level: "local", population: null },
+    { city: "Elgin", state: "TX", level: "local", population: 12000 },
+  ];
+  const kept = selectDiscoveryCandidates(candidates, { seededKeys: new Set(), discoveredKeys: new Set(), misses: [], now: NOW });
+  assert.deepEqual(kept.map((j) => j.city), ["Elgin", "Unknown Pop"]);
+});
+
 test("selectDiscoveryCandidates() respects a custom cooldown window", () => {
   const candidates = [{ city: "Nowhere", state: "TX", level: "local" }];
   const misses = [{ city: "Nowhere", state: "TX", level: "local", checked_at: "2026-08-18T00:00:00.000Z" }]; // 1 day ago
