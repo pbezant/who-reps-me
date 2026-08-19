@@ -140,6 +140,14 @@ export async function geocode(address) {
   if (!address || !address.trim()) return null;
   const trimmed = address.trim();
 
+  // A bare ZIP can never match the address-RANGE geocoder (see the module comment: address=78640
+  // alone returns addressMatches: []), so go straight to the ZIP path. Previously this call was
+  // made first and its result discarded, which cost a round trip on every ZIP search and — worse
+  // — meant a jsonp reject took the fallback down with it: the `catch` below returns null, so a
+  // slow or failing Census request left a bare ZIP with no coordinates at all, and therefore no
+  // state legislators and no local officials.
+  if (BARE_ZIP_RE.test(trimmed)) return geocodeByZip(trimmed.slice(0, 5));
+
   const url =
     `${GEOCODER_BASE}?address=${encodeURIComponent(trimmed)}` +
     `&benchmark=Public_AR_Current&vintage=Current_Current&returntype=geographies`;
@@ -153,11 +161,7 @@ export async function geocode(address) {
   }
 
   const match = data?.result?.addressMatches?.[0];
-  if (!match) {
-    // The address-range matcher needs a real street address and returns nothing for a bare
-    // ZIP — try the ZIP-centroid fallback when that's what we were given.
-    return BARE_ZIP_RE.test(trimmed) ? geocodeByZip(trimmed.slice(0, 5)) : null;
-  }
+  if (!match) return null;
 
   const g = match.geographies || {};
   const place = firstLayer(g, "Incorporated Places");

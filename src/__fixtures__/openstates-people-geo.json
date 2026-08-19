@@ -1,0 +1,172 @@
+{
+  "results": [
+    {
+      "id": "ocd-person/1f9ed42e-27de-4cd1-b2bf-f890ee33cb49",
+      "name": "Gina Hinojosa",
+      "party": "Democratic",
+      "current_role": {
+        "title": "Representative",
+        "org_classification": "lower",
+        "district": "49",
+        "division_id": "ocd-division/country:us/state:tx/sldl:49"
+      },
+      "jurisdiction": {
+        "id": "j",
+        "name": "Texas",
+        "classification": "state"
+      },
+      "image": "https://house.texas.gov/images/members/3210.jpg?v=1",
+      "email": "gina.hinojosa@house.texas.gov",
+      "openstates_url": "https://openstates.org/person/gina-hinojosa-xfLWJ5Zor5hbGpZ6gzLVx/",
+      "links": [
+        {
+          "url": "https://house.texas.gov/members/member-page/?district=49",
+          "note": ""
+        }
+      ],
+      "offices": [
+        {
+          "name": "Capitol Office",
+          "fax": "",
+          "voice": "512-463-0668",
+          "address": "Room 4S.2",
+          "classification": "capitol"
+        }
+      ]
+    },
+    {
+      "id": "ocd-person/d274933a",
+      "name": "John Cornyn",
+      "party": "Republican",
+      "current_role": {
+        "title": "Senator",
+        "org_classification": "upper",
+        "district": "Texas",
+        "division_id": "ocd-division/country:us/state:tx"
+      },
+      "jurisdiction": {
+        "id": "j2",
+        "name": "United States",
+        "classification": "country"
+      },
+      "image": "x.jpg",
+      "email": "https://www.cornyn.senate.gov/contact-john-cornyn/",
+      "openstates_url": "https://openstates.org/person/john-cornyn/",
+      "links": [
+        {
+          "url": "https://www.cornyn.senate.gov",
+          "note": "website"
+        }
+      ],
+      "offices": [
+        {
+          "name": "Capitol Office",
+          "fax": "",
+          "voice": "202-224-2934",
+          "address": "517 Hart",
+          "classification": "capitol"
+        }
+      ]
+    },
+    {
+      "id": "ocd-person/09fc76c2",
+      "name": "Lloyd Doggett",
+      "party": "Democratic",
+      "current_role": {
+        "title": "Representative",
+        "org_classification": "lower",
+        "district": "TX-37",
+        "division_id": "ocd-division/country:us/state:tx/cd:37"
+      },
+      "jurisdiction": {
+        "id": "j3",
+        "name": "United States",
+        "classification": "country"
+      },
+      "image": "y.jpg",
+      "email": "https://doggett.house.gov/",
+      "openstates_url": "https://openstates.org/person/lloyd-doggett/",
+      "links": [],
+      "offices": [
+        {
+          "name": "Capitol Office",
+          "fax": "",
+          "voice": "202-225-4865",
+          "address": "2307 Rayburn",
+          "classification": "capitol"
+        }
+      ]
+    },
+    {
+      "id": "ocd-person/20cda9bf",
+      "name": "Sarah Eckhardt",
+      "party": "Democratic",
+      "current_role": {
+        "title": "Senator",
+        "org_classification": "upper",
+        "district": "14",
+        "division_id": "ocd-division/country:us/state:tx/sldu:14"
+      },
+      "jurisdiction": {
+        "id": "j4",
+        "name": "Texas",
+        "classification": "state"
+      },
+      "image": "https://senate.texas.gov/members/d14/img/SE_headshot_2020.jpg",
+      "email": "sarah.eckhardt@senate.texas.gov",
+      "openstates_url": "https://openstates.org/person/sarah-eckhardt/",
+      "links": [
+        {
+          "url": "https://senate.texas.gov/member.php?d=14",
+          "note": ""
+        }
+      ],
+      "offices": [
+        {
+          "name": "Capitol Office",
+          "fax": "",
+          "voice": "512-463-0114",
+          "address": "Room E1.804",
+          "classification": "capitol"
+        },
+        {
+          "name": "District-Mail Office",
+          "fax": "",
+          "voice": "",
+          "address": "PO Box",
+          "classification": "district-mail"
+        }
+      ]
+    },
+    {
+      "id": "ocd-person/c4d35f64",
+      "name": "Ted Cruz",
+      "party": "Republican",
+      "current_role": {
+        "title": "Senator",
+        "org_classification": "upper",
+        "district": "Texas",
+        "division_id": "ocd-division/country:us/state:tx"
+      },
+      "jurisdiction": {
+        "id": "j5",
+        "name": "United States",
+        "classification": "country"
+      },
+      "image": "z.jpg",
+      "email": "https://www.cruz.senate.gov/contact/write-ted",
+      "openstates_url": "https://openstates.org/person/ted-cruz/",
+      "links": [],
+      "offices": [
+        {
+          "name": "Capitol Office",
+          "fax": "202-228-0755",
+          "voice": "202-224-5922",
+          "address": "167 Russell",
+          "classification": "capitol"
+        }
+      ]
+    }
+  ],
+  "source": "openstates"
+}
