@@ -10,10 +10,10 @@
 # from each other: own schedule, own failure domain, so a bad run here never blocks the batch
 # scrape or the federal-details refresh.
 #
-# Needs a real LLM_PRESET/LLM_API_KEY to be useful in a reasonable amount of time — each
-# discovery attempt is up to 7 LLM calls, so the keyless `ovh` default (2 RPM) makes even a
+# Defaults to LLM_PRESET=gemini (needs the repo SECRET LLM_API_KEY), same as scrape.yml — each
+# discovery attempt is up to 7 LLM calls, so a slow keyless provider makes even a
 # 15-jurisdiction budget slow (same trade-off scraper/README.md documents for the on-demand
-# Netlify discovery path). Set the same repository variable/secret pair scrape.yml uses.
+# Netlify discovery path). Set the repository variable LLM_PRESET to switch providers.
 #
 # Requires scraper/data/jurisdictions/<STATE>.json to exist for a state before this workflow can
 # find anything new in it — build that once (and re-build occasionally as Census updates its
@@ -22,7 +22,7 @@
 #
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
 # repository's default branch. Until this file is merged there, run it locally instead:
-#   cd scraper && DISCOVER_STATES=TX LLM_PRESET=groq LLM_API_KEY=... npm run discover-jurisdictions
+#   cd scraper && DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
 
 name: Discover new jurisdictions
 
@@ -42,7 +42,7 @@ on:
         required: false
         type: string
       provider:
-        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else ovh). github is retired."
+        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else gemini). github is retired."
         required: false
         type: choice
         options: ["", anthropic, ovh, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7]
@@ -68,11 +68,11 @@ jobs:
       # scrape.yml uses.
       - name: Check provider
         env:
-          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'gemini' }}
         run: |
           echo "Provider: $LLM_PRESET"
           if [ "$LLM_PRESET" = "github" ]; then
-            echo "::error::LLM_PRESET=github is retired: GitHub Models returns HTTP 410. Change the repository variable LLM_PRESET (Settings -> Secrets and variables -> Actions -> Variables) to ovh (needs no key), groq/gemini/mistral (needs the LLM_API_KEY secret), or anthropic (needs the ANTHROPIC_API_KEY secret)."
+            echo "::error::LLM_PRESET=github is retired: GitHub Models returns HTTP 410. Change the repository variable LLM_PRESET (Settings -> Secrets and variables -> Actions -> Variables) to gemini/groq/mistral (needs the LLM_API_KEY secret), ovh (needs no key), or anthropic (needs the ANTHROPIC_API_KEY secret)."
             exit 1
           fi
 
@@ -93,7 +93,7 @@ jobs:
 
       - name: Discover jurisdictions
         env:
-          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'gemini' }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}

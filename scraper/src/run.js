@@ -7,7 +7,9 @@
 // scale (thousands of jurisdictions, once discover-jurisdictions.js has been building up
 // config/seeds.discovered.json) it isn't: GitHub Actions caps a job at 6 hours, and even a
 // generous free-tier LLM rate limit can't push that many pages through in one run. So unless
-// --only targets a single jurisdiction, this run is budget-capped (SCRAPER_BUDGET, default 50)
+// --only targets a single jurisdiction, this run is budget-capped (SCRAPER_BUDGET, default 100 —
+// sized for the Gemini free tier's 1,500 requests/day cap, worst case ~11 requests per
+// jurisdiction counting the bio-page follow-up pass: 100 * 11 = 1,100, with headroom to spare)
 // and prioritized (selectScrapeCandidates() below) — never-scraped jurisdictions first, then
 // whichever previously-scraped ones are most overdue for a refresh (SCRAPER_REFRESH_DAYS,
 // default 30 — officials rarely change, so there's no value re-confirming a jurisdiction that
@@ -94,7 +96,7 @@ async function main() {
     jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
     dueCount = jurisdictions.length;
   } else {
-    const budget = Number(process.env.SCRAPER_BUDGET || 50);
+    const budget = Number(process.env.SCRAPER_BUDGET || 100);
     const refreshDays = Number(process.env.SCRAPER_REFRESH_DAYS || 30);
     const now = new Date().toISOString();
     const lastScrapedByKey = await loadLastScrapedByKey(jurisdictions, PUBLIC_OFFICIALS_DIR);

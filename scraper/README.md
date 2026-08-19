@@ -18,7 +18,7 @@ BallotReady) are paid commercial data. This scraper is the DIY alternative.
 | Data store | Per-state JSON shards committed to the repo | $0 |
 | Runner | GitHub Actions cron | $0 |
 | Geocoding | US Census Geocoder (no API key) | $0 |
-| Extraction | `ovh` free tier, no API key (default) | $0 |
+| Extraction | `gemini` free tier (scheduled workflows' default; `ovh` needs no key at all if you'd rather not set one) | $0 |
 
 No database server and no always-on worker. For read-only, batch-updated data, a per-state
 JSON file *is* the database — the frontend already fetches JSON and knows the state from
@@ -204,7 +204,7 @@ netlify dev
   `public/officials/index.json` (coverage).
 - **run.js** — CLI entry; writes shards + a scratch `data/problems.json` (gitignored). Loads its
   jurisdiction list via `seeds.js`, not `config/seeds.json` directly. Unless `--only` targets a
-  single city, each run is budget-capped (`SCRAPER_BUDGET`, default 50) and prioritized via
+  single city, each run is budget-capped (`SCRAPER_BUDGET`, default 100) and prioritized via
   `selectScrapeCandidates()` — never-scraped jurisdictions first, then whichever previously-
   scraped ones are most overdue for a refresh (`SCRAPER_REFRESH_DAYS`, default 30). At nationwide
   scale a full sweep every run doesn't fit GitHub Actions' 6-hour job limit or a free-tier LLM
@@ -357,8 +357,9 @@ bio-page fetches per jurisdiction per run it's allowed, or `SCRAPER_ENRICH_BUDGE
 it entirely (roster-page-only, the old behavior).
 
 At nationwide scale, `npm run scrape` (without `--only`) doesn't attempt every known
-jurisdiction in one run — it picks up to `SCRAPER_BUDGET` (default 50) of them, never-scraped
-ones first, then whichever previously-scraped ones are most overdue for a refresh
+jurisdiction in one run — it picks up to `SCRAPER_BUDGET` (default 100 — sized against the
+Gemini free tier's 1,500 requests/day cap, see below) of them, never-scraped ones first, then
+whichever previously-scraped ones are most overdue for a refresh
 (`SCRAPER_REFRESH_DAYS`, default 30 — officials rarely change, so there's no value re-confirming
 one scraped last week). A run reports how many jurisdictions were due vs. how many it actually
 got to; anything left over just gets picked up next run, the same resumable pattern
@@ -371,22 +372,25 @@ got to; anything left over just gets picked up next run, the same resumable patt
 shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
 weekly is usually plenty since officials rarely change.
 
-**Setup: none required.** Extraction defaults to the `ovh` preset, whose anonymous tier needs no
-key — but at 2 requests/minute a full run (roster pass + the bio-page follow-up pass, which adds
-up to `SCRAPER_ENRICH_BUDGET` more LLM calls per jurisdiction — see "Run locally" above) takes
-well over the ~15 minutes a roster-only run used to. `SCRAPER_BUDGET` (repo variable, default 50)
-keeps a single run bounded regardless of how many jurisdictions are known in total — see "Run
-locally" above — so a slow provider means more weeks to cycle through the full list, not a run
-that blows past GitHub Actions' 6-hour job limit. For faster and better extraction, add a repo
-secret (`LLM_API_KEY` for a free provider, or `ANTHROPIC_API_KEY` for Claude) under
-*Settings → Secrets and variables → Actions*, and set the repo **variable** `LLM_PRESET` to that
-provider's name.
+**Setup: add the `LLM_API_KEY` repo secret** (Settings → Secrets and variables → Actions →
+Secrets) with a free Gemini key from aistudio.google.com — extraction defaults to the `gemini`
+preset (15 requests/minute, 1,500/day), which `SCRAPER_BUDGET` (repo variable, default 100) is
+sized against: worst case ~11 LLM calls per jurisdiction (roster pass + up to
+`SCRAPER_ENRICH_BUDGET` bio-page follow-ups, see "Run locally" above), so 100 * 11 = 1,100 stays
+under the daily cap with headroom, and the run finishes in well under an hour instead of
+bumping into GitHub Actions' 6-hour job limit. Without that secret, a scheduled run fails
+outright — either add it, or set the repo **variable** `LLM_PRESET` to `ovh` to fall back to its
+keyless anonymous tier (2 requests/minute; expect a run to take much longer and cover fewer
+jurisdictions per week at the same `SCRAPER_BUDGET`). To use a different provider entirely, set
+`LLM_PRESET` to its name and add the matching secret (`LLM_API_KEY`, or `ANTHROPIC_API_KEY` for
+Claude).
 
 > **GitHub Models is retired.** It was the original default and now returns
 > `HTTP 410 github_models_retirement_brownout` for every request. It has been removed from the
 > workflow's provider dropdown, and a run whose `LLM_PRESET` variable still says `github` fails
 > in the first seconds with a message naming the working alternatives — check that repository
-> **variable** if a run aborts this way, since a variable overrides the `ovh` default.
+> **variable** if a run aborts this way, since a variable overrides the workflow's `gemini`
+> default.
 
 The **Run workflow** button takes a `mode`:
 
