@@ -210,13 +210,13 @@ Every official record carries `photo_url` and a `social` object
   state entries (which often go missing entirely on ZIP-only searches, since it geocodes the
   search string rather than coordinates) and the roster-scraping path described below.
 
-  The scraper *can* still seed a state chamber's own member roster
-  (`level: "state-upper"`/`"state-lower"`), and the frontend still matches those onto 5calls
-  records by `(state, chamber, district)` as a fallback for when Open States is unconfigured or
-  returns nothing. But it was never a good fit and is no longer the primary path: it needs one
-  hand-vetted roster URL per chamber per state, and plenty of chambers have no single page
-  carrying districts *and* photos/socials — see `_needs_verified_url` in `seeds.json` for the
-  Texas House, which defeated it outright. Open States covers all 50 states with no seeding.
+  The scraper used to seed state chamber rosters (`level: "state-upper"`/`"state-lower"`) and
+  the frontend matched them onto 5calls records by `(state, chamber, district)`. **That path has
+  been removed.** It needed one hand-vetted roster URL per chamber per state, and plenty of
+  chambers have no single page carrying districts *and* photos/socials — the Texas House
+  defeated it outright. It only ever had one seed, and no state-level record ever reached a
+  shard. Open States covers all 50 states with no seeding, so `seeds.json` is now local and
+  county jurisdictions only.
 - **Federal reps**: also come from 5calls (which already includes a photo). Social links are
   merged in separately by the frontend from `public/federal-social.json`
   (`npm run federal-social` to rebuild it — see below), keyed by bioguide ID, which is the same
