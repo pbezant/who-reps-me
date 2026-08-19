@@ -36,11 +36,9 @@ function SearchBar({ apiKey, setRepList }) {
     if (!location.trim() || loading) return;
     setLoading(true);
     try {
-      // Geocode first (authoritative city/county/state), then fetch federal+state reps
-      // (5calls), our per-state officials shard, and the federal social-links shard in
-      // parallel. The officials shard is fetched once here (not inside getLocalOfficials)
-      // so it can also supply state-legislator social links below, instead of re-fetching
-      // the same file twice.
+      // Geocode first (authoritative city/county/state + the coordinates the state-legislator
+      // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
+      // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(location);
       const [fedState, shard, federalSocial, stateCards] = await Promise.all([
         getRepList(apiKey, location),
@@ -56,11 +54,7 @@ function SearchBar({ apiKey, setRepList }) {
       // mergeStateLegislators runs LAST so it can drop 5calls' state entries in favour of the
       // Open States ones — but only when Open States actually returned some, so a missing key
       // or an uncovered state leaves the previous behaviour untouched.
-      const withSocial = mergeSocialLinks(fedState?.representatives || [], {
-        federalSocial,
-        shard,
-        state: geo?.state,
-      });
+      const withSocial = mergeFederalSocial(fedState?.representatives || [], federalSocial);
       const representatives = [...locals, ...mergeStateLegislators(withSocial, stateCards)];
       setRepList({ ...(fedState || {}), representatives, geo });
     } catch (error) {
@@ -127,41 +121,8 @@ function toRepCard(o, state) {
   };
 }
 
-// Pull the leading run of digits out of a district value ("District 45", "HD 45", "45",
-// "District 045") so scraped text and 5calls' bare-digit district ("45") can be compared
-// regardless of how each source formats it.
-function districtDigits(value) {
-  if (!value) return null;
-  const match = String(value).match(/\d+/);
-  return match ? match[0].replace(/^0+(?=\d)/, '') : null;
-}
-
-function chamberForArea(area) {
-  if (area === 'StateUpper') return 'state-upper';
-  if (area === 'StateLower') return 'state-lower';
-  return null;
-}
-
-// Find this state legislator's own record in the officials shard (scraped from the state
-// chamber's roster page — see scraper/config/seeds.json), matched by (state, chamber,
-// district) rather than name: 5calls gives no bio-page URL for state legislators to key
-// off of, but district numbers are unique per chamber per state, so that triple is a
-// reliable join key without any fuzzy name matching.
-function findStateChamberRecord(shard, { chamber, state, district }) {
-  const wantDistrict = districtDigits(district);
-  if (!shard?.officials || !chamber || !state || !wantDistrict) return null;
-  return (
-    shard.officials.find(
-      (o) =>
-        o.level === chamber &&
-        (o.jurisdiction?.state || '').toUpperCase() === state.toUpperCase() &&
-        districtDigits(o.district) === wantDistrict
-    ) || null
-  );
-}
-
-// Fetch the per-state officials shard once so both local-officials matching and
-// state-legislator social-link matching can use the same payload.
+// Fetch the per-state officials shard once so it can be passed to local-officials matching
+// without getLocalOfficials re-fetching the same file.
 async function getOfficialsShard(state) {
   if (!state) return null;
   try {
@@ -190,29 +151,15 @@ async function getFederalSocial() {
   return {};
 }
 
-// Merge social links onto 5calls' own federal/state representative records (they're used
-// as-is elsewhere, not passed through toRepCard). Federal reps match by bioguide id against
-// federalSocial; state legislators match against the officials shard by chamber+district
-// (see findStateChamberRecord). A state legislator's own scraped photo only fills in when
-// 5calls didn't already give us one — 5calls is the more authoritative source for that field.
-function mergeSocialLinks(representatives, { federalSocial, shard, state }) {
+// Merge social links onto 5calls' own representative records (they're used as-is elsewhere,
+// not passed through toRepCard), matched by bioguide id against federalSocial. Only Congress
+// needs this: state legislators come from Open States, which supplies their links directly —
+// see src/stateLegislators.js.
+function mergeFederalSocial(representatives, federalSocial) {
   return representatives.map((rep) => {
-    if (rep.area === 'US House' || rep.area === 'US Senate') {
-      const social = federalSocial?.[rep.id];
-      return social ? { ...rep, social } : rep;
-    }
-    const chamber = chamberForArea(rep.area);
-    if (chamber) {
-      const match = findStateChamberRecord(shard, { chamber, state, district: rep.district });
-      if (match) {
-        return {
-          ...rep,
-          social: match.social,
-          photoURL: rep.photoURL || match.photo_url || '',
-        };
-      }
-    }
-    return rep;
+    if (rep.area !== 'US House' && rep.area !== 'US Senate') return rep;
+    const social = federalSocial?.[rep.id];
+    return social ? { ...rep, social } : rep;
   });
 }
 
@@ -290,9 +237,7 @@ async function getLocalOfficials(geo, shard) {
     // Match by level, not by name alone: normalizePlace strips the "County" suffix, so a
     // county and a like-named city collide ("Bastrop County" and the city of Bastrop both
     // reduce to "bastrop"). Without this an Elgin resident would be shown Bastrop's mayor.
-    // State chambers (level 'state-upper'/'state-lower') are matched separately by district,
-    // not by place name — see mergeSocialLinks/findStateChamberRecord — so they're excluded
-    // here rather than falling through to the place-name branch.
+    // Any other level is ignored — the shard holds only local and county records.
     const name = normalizePlace(o.jurisdiction?.city);
     if (o.level === 'county') return Boolean(wantCounty) && name === wantCounty;
     if (o.level === 'local') return Boolean(wantPlace) && name === wantPlace;
