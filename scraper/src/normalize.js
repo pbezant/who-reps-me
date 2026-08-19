@@ -123,9 +123,137 @@ export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
     social: normalizeSocial(raw.social, sourceUrl),
     address: raw.address ? String(raw.address).trim() : null,
     offices: normalizeOffices(raw.offices),
+    // Only ever populated by the bio-page follow-up pass (see pipeline.js/extractOfficialDetail
+    // in extract.js) — a roster-page-only extraction always leaves these null.
+    hours: raw.hours ? String(raw.hours).trim() : null,
+    bio: raw.bio ? String(raw.bio).trim() : null,
+    // Stamped whenever a bio-page enrichment attempt was made for this official, whether or not
+    // it found anything new — lets pipeline.js skip a record that was recently checked and
+    // genuinely has nothing further to find, instead of re-fetching its bio page (and spending
+    // budget on it) every single run. See mergeEnrichment() below.
+    bio_checked_at: null,
     jurisdiction: { city: jurisdiction.city, state: jurisdiction.state },
     source_url: sourceUrl,
     extracted_at: extractedAt,
     confidence: typeof raw.confidence === "number" ? raw.confidence : null,
   };
+}
+
+// Fields that always take the incoming record's value on a merge, never falling back to an
+// existing value: they describe *this* extraction (provenance/identity), not accumulated
+// knowledge about the official, so an older value here would be actively wrong, not just less
+// complete. Every other field is treated as "accumulated knowledge" — see mergeRecordFields().
+const ALWAYS_INCOMING_FIELDS = new Set([
+  "id",
+  "name",
+  "office",
+  "level",
+  "body",
+  "district",
+  "jurisdiction",
+  "source_url",
+  "extracted_at",
+  "confidence",
+  "bio_checked_at",
+]);
+
+// Merges one scalar value under either precedence direction: `incomingWins` is a normal
+// re-scrape's "newer data wins, but a null finding never erases an old value" rule (used by
+// mergeRecordFields()); the opposite direction is mergeEnrichment()'s "the roster page is the
+// authoritative source, a bio-page follow-up only fills in what's still missing" rule — a bio
+// page is never allowed to override data the roster page already found, even if it disagrees.
+function mergeScalar(existingVal, incomingVal, incomingWins) {
+  const has = (v) => v != null && v !== "";
+  if (incomingWins) return has(incomingVal) ? incomingVal : existingVal;
+  return has(existingVal) ? existingVal : incomingVal;
+}
+
+function mergeSocialWithPrecedence(existing, incoming, incomingWins) {
+  const merged = { ...(existing || {}) };
+  for (const [platform, url] of Object.entries(incoming || {})) {
+    merged[platform] = mergeScalar(merged[platform], url, incomingWins);
+  }
+  return merged;
+}
+
+// Dedup key for one office entry. Two offices from different sources/passes are treated as
+// "the same physical office" when they share a classification and the same address/city/phone/
+// name (in that priority order, first non-empty wins) — deliberately NOT always phone: phone is
+// often exactly the field a later pass is filling in, so keying on it would make an office an
+// existing record already has (address known, phone null) look like a brand new one once a
+// later pass supplies the phone, instead of the same office being enriched in place.
+function officeKey(o) {
+  const identity = o?.address || o?.city || o?.phone || o?.name || "";
+  return `${o?.classification || ""}|${String(identity).toLowerCase()}`;
+}
+
+function mergeOfficeListsWithPrecedence(existing, incoming, incomingWins) {
+  const byKey = new Map((existing || []).map((o) => [officeKey(o), o]));
+  for (const inc of incoming || []) {
+    const key = officeKey(inc);
+    const prev = byKey.get(key);
+    byKey.set(key, prev ? mergeFieldsWithPrecedence(prev, inc, incomingWins, EMPTY_SET) : inc);
+  }
+  return [...byKey.values()];
+}
+
+const EMPTY_SET = new Set();
+
+function mergeFieldsWithPrecedence(existing, incoming, incomingWins, alwaysIncomingFields) {
+  const merged = { ...existing };
+  for (const key of Object.keys(incoming)) {
+    if (alwaysIncomingFields.has(key)) {
+      merged[key] = incoming[key];
+      continue;
+    }
+    if (key === "social") {
+      merged.social = mergeSocialWithPrecedence(existing.social, incoming.social, incomingWins);
+      continue;
+    }
+    if (key === "offices") {
+      merged.offices = mergeOfficeListsWithPrecedence(existing.offices, incoming.offices, incomingWins);
+      continue;
+    }
+    merged[key] = mergeScalar(existing[key], incoming[key], incomingWins);
+  }
+  return merged;
+}
+
+// Merges an incoming record onto an existing one field-by-field, instead of a full replace: a
+// field the incoming pass legitimately found nothing new for (null) keeps whatever the existing
+// record already had, so a later run can never silently erase enrichment a previous pass already
+// discovered. Used by output.js's upsertById() (a later scheduled run re-scraping this
+// jurisdiction) — see scraper/README.md's "Photos and social links" section for why this exists.
+// mergeEnrichment() below is the *opposite*-precedence sibling for a bio-page follow-up within
+// the same run, not a use of this function — see its own comment for why they must differ.
+export function mergeRecordFields(existing, incoming) {
+  if (!existing) return incoming;
+  if (!incoming) return existing;
+  return mergeFieldsWithPrecedence(existing, incoming, true, ALWAYS_INCOMING_FIELDS);
+}
+
+// Merges a bio-page extraction (see extractOfficialDetail() in extract.js — photo_url/address/
+// phone/email/hours/bio/offices/social for ONE already-known official, not a full record) onto
+// an existing normalized record. Cleans/absolutizes the raw fields the same way normalize()
+// does, then fills in only whatever the existing record still has null — the REVERSE precedence
+// from mergeRecordFields(): the roster page is the human-vetted-URL, authoritative source, and a
+// bio-page follow-up is a supplementary lookup for gaps, never a second opinion that overrides
+// what the roster page already said. bio_checked_at is stamped unconditionally (even when
+// nothing new was found) so pipeline.js can skip re-fetching a bio page that was recently
+// checked and genuinely had nothing further to give.
+export function mergeEnrichment(record, raw, { sourceUrl, extractedAt }) {
+  const detail = {
+    phone: cleanPhone(raw?.phone),
+    email: raw?.email ? String(raw.email).trim() : null,
+    url: absolutize(raw?.url, sourceUrl),
+    photo_url: absolutize(raw?.photo_url, sourceUrl),
+    social: normalizeSocial(raw?.social, sourceUrl),
+    address: raw?.address ? String(raw.address).trim() : null,
+    offices: normalizeOffices(raw?.offices),
+    hours: raw?.hours ? String(raw.hours).trim() : null,
+    bio: raw?.bio ? String(raw.bio).trim() : null,
+  };
+  const merged = mergeFieldsWithPrecedence(record, detail, false, EMPTY_SET);
+  merged.bio_checked_at = extractedAt;
+  return merged;
 }

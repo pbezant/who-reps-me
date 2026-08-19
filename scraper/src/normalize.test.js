@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { normalize, buildId, normalizeOffices } from "./normalize.js";
+import { normalize, buildId, normalizeOffices, mergeRecordFields, mergeEnrichment } from "./normalize.js";
 
 const AUSTIN = { state: "TX", city: "Austin", level: "local", body: "Austin City Council" };
 
@@ -123,4 +123,85 @@ test("normalizeOffices() keeps an entry that has only an address, or only a phon
     { classification: "district", phone: "5125550000" },
   ]);
   assert.equal(offices.length, 2);
+});
+
+test("mergeRecordFields() keeps an existing value when the incoming record has null for it", () => {
+  const existing = { id: "x", name: "Pat Example", photo_url: "https://example.com/p.jpg", hours: "9-5 M-F" };
+  const incoming = { id: "x", name: "Pat Example", photo_url: null, hours: null };
+  const merged = mergeRecordFields(existing, incoming);
+  assert.equal(merged.photo_url, "https://example.com/p.jpg");
+  assert.equal(merged.hours, "9-5 M-F");
+});
+
+test("mergeRecordFields() lets a non-null incoming value win over an existing one", () => {
+  const existing = { id: "x", phone: "512-555-0000" };
+  const incoming = { id: "x", phone: "512-555-9999" };
+  assert.equal(mergeRecordFields(existing, incoming).phone, "512-555-9999");
+});
+
+test("mergeRecordFields() always takes the incoming value for provenance/identity fields, even if falsy", () => {
+  const existing = { id: "x", office: "Council Member", extracted_at: "2026-01-01T00:00:00.000Z", confidence: 1 };
+  const incoming = { id: "x", office: "City Council Member", extracted_at: "2026-02-01T00:00:00.000Z", confidence: 0.5 };
+  const merged = mergeRecordFields(existing, incoming);
+  assert.equal(merged.office, "City Council Member");
+  assert.equal(merged.extracted_at, "2026-02-01T00:00:00.000Z");
+  assert.equal(merged.confidence, 0.5);
+});
+
+test("mergeRecordFields() merges social per-platform rather than replacing the whole object", () => {
+  const existing = { id: "x", social: { twitter: "https://twitter.com/a", facebook: null } };
+  const incoming = { id: "x", social: { twitter: null, facebook: "https://facebook.com/a" } };
+  assert.deepEqual(mergeRecordFields(existing, incoming).social, {
+    twitter: "https://twitter.com/a",
+    facebook: "https://facebook.com/a",
+  });
+});
+
+test("mergeRecordFields() merges offices by dedup key instead of replacing the whole list", () => {
+  const existing = { id: "x", offices: [{ classification: "capitol", address: "100 Main St", phone: null }] };
+  const incoming = {
+    id: "x",
+    offices: [
+      { classification: "capitol", address: "100 Main St", phone: "512-555-0000" },
+      { classification: "district", address: "200 Oak St", phone: "512-555-1111" },
+    ],
+  };
+  const merged = mergeRecordFields(existing, incoming);
+  assert.equal(merged.offices.length, 2);
+  const capitol = merged.offices.find((o) => o.classification === "capitol");
+  assert.equal(capitol.phone, "512-555-0000"); // filled in by the incoming pass
+  assert.equal(capitol.address, "100 Main St"); // kept from the existing entry
+});
+
+test("mergeRecordFields() tolerates a missing existing or incoming record", () => {
+  const rec = { id: "x", name: "Pat" };
+  assert.deepEqual(mergeRecordFields(null, rec), rec);
+  assert.deepEqual(mergeRecordFields(rec, null), rec);
+});
+
+test("mergeEnrichment() fills a null photo_url from a bio page without touching an already-populated phone", () => {
+  const record = normalize(
+    { name: "Vanessa Fuentes", office: "Council Member", phone: "5125551234" },
+    { jurisdiction: AUSTIN, sourceUrl: "https://example.com", extractedAt: "2026-01-01T00:00:00.000Z" }
+  );
+  assert.equal(record.photo_url, null);
+
+  const merged = mergeEnrichment(
+    record,
+    { photo_url: "headshot.jpg", phone: "5129999999" },
+    { sourceUrl: "https://example.com/bio/fuentes", extractedAt: "2026-02-01T00:00:00.000Z" }
+  );
+  assert.equal(merged.photo_url, "https://example.com/bio/headshot.jpg");
+  assert.equal(merged.phone, "512-555-1234"); // roster-page phone survives, not overwritten
+  assert.equal(merged.bio_checked_at, "2026-02-01T00:00:00.000Z");
+});
+
+test("mergeEnrichment() stamps bio_checked_at even when the bio page had nothing new", () => {
+  const record = normalize(
+    { name: "Vanessa Fuentes", office: "Council Member" },
+    { jurisdiction: AUSTIN, sourceUrl: "https://example.com", extractedAt: "2026-01-01T00:00:00.000Z" }
+  );
+  const merged = mergeEnrichment(record, {}, { sourceUrl: "https://example.com/bio", extractedAt: "2026-02-01T00:00:00.000Z" });
+  assert.equal(merged.photo_url, null);
+  assert.equal(merged.bio_checked_at, "2026-02-01T00:00:00.000Z");
 });

@@ -27,8 +27,15 @@ import { buildId } from "../src/normalize.js";
 
 // Fields worth backfilling from an older duplicate when the newest one hasn't got them yet.
 // Deliberately excludes identity/provenance fields (name, office, jurisdiction, source_url,
-// extracted_at, confidence) — those always come from whichever record is newest.
-const BACKFILL_FIELDS = ["phone", "email", "url", "photo_url", "address", "district"];
+// extracted_at, confidence) — those always come from whichever record is newest. `hours`/`bio`/
+// `bio_checked_at` are the bio-page follow-up crawl's own fields (see ../src/pipeline.js) —
+// backfilling them the same way as photo_url means a duplicate-group merge never loses
+// enrichment an older record already found, same principle as normalize.js's mergeRecordFields()
+// (not reused directly here: this script's "oldest non-null wins" is a slightly different rule
+// than mergeRecordFields' two-record precedence, and keeping this file's own small, explicit
+// merge is clearer for a rarely-run one-off tool than threading a third merge direction through
+// the shared helper).
+const BACKFILL_FIELDS = ["phone", "email", "url", "photo_url", "address", "district", "hours", "bio", "bio_checked_at"];
 
 // `social` (added alongside photo_url — see normalize.js's normalizeSocial()) is an object with
 // one key per platform, always present but usually all-null, so it needs its own per-platform
@@ -54,6 +61,14 @@ function mergeGroup(records) {
       if (donor) social[platform] = donor.social[platform];
     }
     merged.social = social;
+  }
+  // offices[] (see ../src/normalize.js's normalizeOffices()) — older committed records won't
+  // have this key at all. A simple "take the first non-empty list" is good enough here: unlike
+  // social's fixed platform keys, offices has no stable per-entry identity to merge finer than
+  // that within this one-off tool.
+  if (!merged.offices?.length) {
+    const donor = rest.find((r) => r.offices?.length);
+    if (donor) merged.offices = donor.offices;
   }
   return merged;
 }

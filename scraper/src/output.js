@@ -5,10 +5,15 @@
 //
 // Writes are UPSERT-MERGE, not overwrite: a scoped run (e.g. only Austin) must not wipe
 // the other cities already stored for that state. Records are matched by `id` (the stable
-// key produced in normalize.js).
+// key produced in normalize.js), and merged onto the existing record field-by-field rather
+// than replaced wholesale — see normalize.js's mergeRecordFields() for why: a later run that
+// re-scrapes a jurisdiction's roster page but doesn't re-reach a given official's bio page
+// (budget exhausted) must not silently erase enrichment (photo/hours/bio/offices) a previous
+// run already found.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { join } from "node:path";
+import { mergeRecordFields } from "./normalize.js";
 
 async function readJsonIfExists(path) {
   try {
@@ -20,10 +25,11 @@ async function readJsonIfExists(path) {
 }
 
 function upsertById(existing, incoming) {
-  // Keep every existing record; replace one only when an incoming record shares its id.
-  // Incoming wins (it's the fresher scrape).
+  // Keep every existing record; merge one only when an incoming record shares its id. Incoming
+  // is the fresher scrape, so its non-null fields win, but a field it legitimately found
+  // nothing new for keeps the existing record's value instead of being nulled out.
   const byId = new Map(existing.map((r) => [r.id, r]));
-  for (const rec of incoming) byId.set(rec.id, rec);
+  for (const rec of incoming) byId.set(rec.id, mergeRecordFields(byId.get(rec.id), rec));
   return [...byId.values()].sort((a, b) => a.id.localeCompare(b.id));
 }
 

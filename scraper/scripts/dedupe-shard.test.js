@@ -77,3 +77,50 @@ test("dedupe-shard.js merges an office-phrasing duplicate and backfills photo_ur
     await rm(dir, { recursive: true, force: true });
   }
 });
+
+test("dedupe-shard.js backfills hours/bio/offices from an older bio-page-enriched duplicate", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "who-reps-me-dedupe-test-"));
+  const shardPath = join(dir, "TX.json");
+  try {
+    const older = official({
+      id: "tx:austin:council-member:vanessa-fuentes",
+      office: "Council Member",
+      extracted_at: "2026-08-18T16:54:37.375Z",
+      confidence: 0.9,
+      hours: "9-5 M-F",
+      bio: "A short bio.",
+      bio_checked_at: "2026-08-18T16:54:37.375Z",
+      offices: [{ classification: "district", name: null, city: "Austin", address: "200 Oak St", phone: null, fax: null, hours: null }],
+    });
+    const newer = official({
+      id: "tx:austin:city-council-member:vanessa-fuentes",
+      office: "City Council Member",
+      extracted_at: "2026-08-18T18:11:02.875Z",
+      confidence: 1,
+      // A roster-only re-scrape never touches these — normalize() defaults them to null/[].
+      hours: null,
+      bio: null,
+      bio_checked_at: null,
+      offices: [],
+    });
+    await writeFile(
+      shardPath,
+      JSON.stringify(
+        { state: "TX", generated_at: newer.extracted_at, count: 2, cities: ["Austin"], officials: [older, newer] },
+        null,
+        2
+      )
+    );
+
+    execFileSync("node", [SCRIPT, shardPath], { encoding: "utf8" });
+
+    const [merged] = JSON.parse(await readFile(shardPath, "utf8")).officials;
+    assert.equal(merged.hours, "9-5 M-F", "backfilled from the older, bio-enriched record");
+    assert.equal(merged.bio, "A short bio.");
+    assert.equal(merged.bio_checked_at, "2026-08-18T16:54:37.375Z");
+    assert.equal(merged.offices.length, 1);
+    assert.equal(merged.offices[0].address, "200 Oak St");
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
