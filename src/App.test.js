@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials, localScrapeNote } from './App';
+import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials, localScrapeNote, toRepCard } from './App';
 
 test('renders the search page', () => {
   render(<App />);
@@ -22,6 +22,44 @@ describe('officesFromFieldOffices', () => {
   test('tolerates a missing/empty field_offices list', () => {
     expect(officesFromFieldOffices(undefined)).toEqual([]);
     expect(officesFromFieldOffices([])).toEqual([]);
+  });
+});
+
+describe('toRepCard', () => {
+  const base = { id: 'tx:austin:mayor:kirk-watson', name: 'Kirk Watson', office: 'Mayor' };
+
+  test('carries body through only when office is also present', () => {
+    expect(toRepCard({ ...base, body: 'Austin City Council' }, 'TX').body).toBe('Austin City Council');
+    // area already falls back to body when office is absent — repeating it as a separate
+    // field would just show the same text twice.
+    expect(toRepCard({ name: 'Kirk Watson', body: 'Austin City Council' }, 'TX').body).toBe('');
+  });
+
+  test('carries hours/bio through from the bio-page enrichment pass', () => {
+    const card = toRepCard({ ...base, hours: 'Mon-Fri 8am-5pm', bio: 'Longtime Austin official.' }, 'TX');
+    expect(card.hours).toBe('Mon-Fri 8am-5pm');
+    expect(card.bio).toBe('Longtime Austin official.');
+  });
+
+  test('maps extracted_at/source_url to verifiedAt/sourceUrl for provenance display', () => {
+    const card = toRepCard({ ...base, extracted_at: '2026-08-18T18:11:02.875Z', source_url: 'https://austintexas.gov/council' }, 'TX');
+    expect(card.verifiedAt).toBe('2026-08-18T18:11:02.875Z');
+    expect(card.sourceUrl).toBe('https://austintexas.gov/council');
+  });
+
+  test('passes confidence through as a number, or null when absent/non-numeric', () => {
+    expect(toRepCard({ ...base, confidence: 0.5 }, 'TX').confidence).toBe(0.5);
+    expect(toRepCard(base, 'TX').confidence).toBeNull();
+  });
+
+  test('defaults body/hours/bio/sourceUrl to empty string and verifiedAt/confidence to null', () => {
+    const card = toRepCard(base, 'TX');
+    expect(card.body).toBe('');
+    expect(card.hours).toBe('');
+    expect(card.bio).toBe('');
+    expect(card.sourceUrl).toBe('');
+    expect(card.verifiedAt).toBeNull();
+    expect(card.confidence).toBeNull();
   });
 });
 

@@ -259,6 +259,15 @@
   font-size:0.85em;
   opacity:0.85;
 }
+.rep-body{
+  font-size:0.85em;
+  font-style:italic;
+  opacity:0.75;
+}
+.rep-hours{
+  font-size:0.85em;
+  opacity:0.85;
+}
 .offices-list{
   margin-top:0.5em;
   font-size:0.85em;
@@ -308,6 +317,19 @@
 }
 .rep-committees li{
   padding:0.15em 0;
+}
+.rep-low-confidence{
+  font-size:0.8em;
+  color:#ffb4b4;
+  margin-top:0.25em;
+}
+.rep-verified{
+  font-size:0.75em;
+  opacity:0.6;
+  margin-top:0.25em;
+}
+.rep-verified a{
+  text-decoration:underline;
 }
 
 /* Shown while a search falls through to a genuinely slow live on-demand scrape (see
