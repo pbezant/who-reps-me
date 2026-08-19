@@ -16,10 +16,23 @@
 // 78640, which lands in unincorporated county land with no "Incorporated Places" layer at
 // all), so the fallback below uses the ZIP's USPS-associated city name instead of a strict
 // boundary match — an approximation, not exact, but far better than silently showing nothing.
+//
+// SECOND KNOWN GAP, SAME FIX SHAPE: a bare "City, State" query (no street number, not a ZIP —
+// e.g. "Durango, CO") ALSO returns zero matches from onelineaddress, for the same reason: it's
+// still not a real street address. Before the geocodeByPlaceName() fallback below existed, this
+// made geocode() return null for any bare city search — which silently killed local officials
+// AND state legislators (both keyed off geo.state/county/place), while federal reps kept working
+// because 5calls geocodes the raw text itself server-side. That made "only federal reps show up"
+// look like an on-demand-scraper problem when the scraper was never even being asked — geocode()
+// had already given up. geocodeByPlaceName() closes this the same way the ZIP fallback does:
+// resolve approximate coordinates from a source that DOES handle place names (Nominatim/
+// OpenStreetMap — free, keyless, CORS-enabled), then feed those coordinates to the same Census
+// coordinates endpoint for the authoritative county/place/district data.
 
 const GEOCODER_BASE = "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress";
 const COORDS_BASE = "https://geocoding.geo.census.gov/geocoder/geographies/coordinates";
 const ZIP_BASE = "https://api.zippopotam.us/us";
+const NOMINATIM_BASE = "https://nominatim.openstreetmap.org/search";
 
 // Minimal JSONP: inject a <script> with a one-shot global callback; resolve when the
 // geocoder invokes it, reject on network error or timeout, and always clean up.
@@ -135,6 +148,59 @@ async function geocodeByZip(zip5) {
   };
 }
 
+// Place-name fallback for when the primary address-range geocoder can't resolve the input at
+// all — a bare "City, State" (or "County, State") with no street number, e.g. "Durango, CO" —
+// see the module's "SECOND KNOWN GAP" comment above for why onelineaddress can't handle this on
+// its own. Nominatim (OpenStreetMap; free, keyless, CORS-enabled — the standard free option for
+// resolving a place name to coordinates) supplies approximate coordinates; those are fed to the
+// same Census coordinates endpoint geocodeByZip() already uses, for the authoritative
+// county/place/district data a point lookup can answer reliably. Returns null on any failure —
+// bad response, no results, or the point landing nowhere Census recognizes — so the caller just
+// treats it as "no match", same as every other path here.
+async function geocodeByPlaceName(query) {
+  const url = `${NOMINATIM_BASE}?q=${encodeURIComponent(query)}&format=json&countrycodes=us&limit=1`;
+  let results;
+  try {
+    const res = await fetch(url, { headers: { Accept: "application/json" } });
+    if (!res.ok) return null;
+    results = await res.json();
+  } catch (err) {
+    console.error("Place-name lookup failed:", err);
+    return null;
+  }
+
+  const hit = results?.[0];
+  const lat = Number(hit?.lat);
+  const lon = Number(hit?.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+
+  const coordsUrl =
+    `${COORDS_BASE}?x=${lon}&y=${lat}&benchmark=Public_AR_Current&vintage=Current_Current`;
+  let coordsData;
+  try {
+    coordsData = await jsonp(coordsUrl);
+  } catch (err) {
+    console.error("Place-name-centroid geography lookup failed:", err);
+    return null;
+  }
+
+  const g = coordsData?.result?.geographies || {};
+  const place = firstLayer(g, "Incorporated Places");
+  const county = firstLayer(g, "Counties");
+  // Neither layer present means the point landed somewhere Census doesn't recognize (e.g. a
+  // Nominatim mismatch) — treat it as no match rather than returning an empty-looking result.
+  if (!place && !county) return null;
+
+  return {
+    lat,
+    lon,
+    state: firstLayer(g, "States")?.STUSAB || null,
+    county: county?.BASENAME || county?.NAME || null,
+    place: place?.BASENAME || place?.NAME || null,
+    districts: districtsFrom(g),
+  };
+}
+
 // Returns { lat, lon, state, county, place, districts } or null if nothing could be resolved.
 export async function geocode(address) {
   if (!address || !address.trim()) return null;
@@ -157,11 +223,16 @@ export async function geocode(address) {
     data = await jsonp(url);
   } catch (err) {
     console.error("Geocoding failed:", err);
-    return null;
+    // Same reasoning as the ZIP path above: a jsonp failure shouldn't take the place-name
+    // fallback down with it, since that's an independent request with its own success/failure.
+    return geocodeByPlaceName(trimmed);
   }
 
   const match = data?.result?.addressMatches?.[0];
-  if (!match) return null;
+  // No match isn't necessarily a bad address — it's also what a bare "City, State" query
+  // produces (see the module's "SECOND KNOWN GAP" comment), so try that fallback before
+  // giving up entirely.
+  if (!match) return geocodeByPlaceName(trimmed);
 
   const g = match.geographies || {};
   const place = firstLayer(g, "Incorporated Places");

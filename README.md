@@ -9,7 +9,21 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | US House / Senate | [5calls](https://5calls.org/representatives-api/) | free | token in `src/App.js` |
 | State legislators | [Open States v3](https://docs.openstates.org/api-v3/) `people.geo` | free | `OPENSTATES_API_KEY` (server-side) |
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
-| Geocoding | US Census Geocoder | free | none |
+| Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
+
+### Why geocoding needs a fallback at all
+
+The Census Geocoder's `onelineaddress` endpoint is an address-**range** matcher — it needs an
+actual street address and returns zero matches for a bare city name or ZIP code alone, even
+though the search box invites "address or zip code" (confirmed directly: `address=78640` alone
+returns `addressMatches: []`; the same is true for a bare "Durango, CO"). `src/geocode.js` already
+has a dedicated fallback for a bare ZIP (via [zippopotam.us](https://zippopotam.us/)); a bare
+"City, State" (or "County, State") query is resolved the same way, via Nominatim for approximate
+coordinates and then the Census coordinates endpoint for the authoritative county/place/district
+data — see `geocodeByPlaceName()`'s own header comment in that file for the full reasoning
+(including the observed symptom: without this fallback, a bare-city search silently degrades to
+federal-only results, since 5calls geocodes the raw search text itself and doesn't depend on this
+module, while local officials and state legislators both do).
 
 ### Why state legislators don't come from 5calls
 
