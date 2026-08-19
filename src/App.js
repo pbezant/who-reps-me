@@ -146,7 +146,7 @@ async function getRepList(apiKey, location) {
 
 // Map a scraped official record (static shard or on-demand response — same shape, see
 // scraper/src/normalize.js) into the card shape the 5calls reps use.
-function toRepCard(o, state) {
+export function toRepCard(o, state) {
   return {
     id: o.id,
     name: o.name,
@@ -160,6 +160,23 @@ function toRepCard(o, state) {
     address: o.address || '',
     social: o.social || {},
     offices: o.offices || [],
+    // Governing body (e.g. "Austin City Council"), for context alongside the office title.
+    // Only surfaced when `office` is present — when it's absent, `area` above already fell
+    // back to `body` itself, so repeating it here would just show the same text twice.
+    body: o.office ? (o.body || '') : '',
+    // hours/bio are only ever populated by the bio-page follow-up pass (see normalize.js) — a
+    // roster-page-only record always has both null.
+    hours: o.hours || '',
+    bio: o.bio || '',
+    // Provenance: when this record was last (re)confirmed, and the page it came from — lets
+    // the frontend show a "verified on" date instead of presenting scraped data as evergreen.
+    // See normalize.js's own header comment for the same intent.
+    verifiedAt: o.extracted_at || null,
+    sourceUrl: o.source_url || '',
+    // LLM self-reported extraction confidence, 0-1 (local officials only — state/federal come
+    // from structured APIs, not extraction). Not shown as a raw number; used to flag a record
+    // worth double-checking instead.
+    confidence: typeof o.confidence === 'number' ? o.confidence : null,
     isLocal: true,
   };
 }
@@ -497,12 +514,20 @@ function OfficesList({ offices, topLevelPhone }) {
 
 // term_end/committees/bio only ever come from public/federal-details.json (federal reps), so
 // these are always empty/absent for state and local reps — every render below is conditional.
+// Handles both a bare date (term_end, "2029-01-03" — normalized to UTC midnight so it doesn't
+// shift a day depending on the viewer's timezone) and a full timestamp (verifiedAt, already
+// carrying its own time/zone, e.g. "2026-08-18T18:11:02.875Z") without double-appending one.
 function formatDate(iso) {
   if (!iso) return '';
-  const d = new Date(`${iso}T00:00:00Z`);
+  const d = new Date(iso.includes('T') ? iso : `${iso}T00:00:00Z`);
   if (Number.isNaN(d.getTime())) return iso;
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
+
+// Below this, a local-officials record (see scraper/src/extract.js's "confidence" prompt field)
+// is flagged as worth double-checking rather than shown as a bare, potentially misleading
+// number — most extractions land at 1 (or close to it); this only catches real outliers.
+const LOW_CONFIDENCE_THRESHOLD = 0.7;
 
 function CommitteesList({ committees }) {
   if (!committees?.length) return null;
@@ -534,15 +559,28 @@ function Results({ repList }) {
                 {rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}
                 {rep.district && ` — ${rep.district}`}
               </li>
+              {rep.body && <li className="rep-body">{rep.body}</li>}
               {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
               {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
               {rep.address && <li className="rep-address">{rep.address}</li>}
+              {rep.hours && <li className="rep-hours">{rep.hours}</li>}
               {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
               <SocialLinks social={rep.social} />
               {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
               {rep.bio && <li className="rep-bio">{rep.bio}</li>}
               <CommitteesList committees={rep.committees} />
               <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
+              {rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD && (
+                <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
+              )}
+              {rep.verifiedAt && (
+                <li className="rep-verified">
+                  Verified {formatDate(rep.verifiedAt)}
+                  {rep.sourceUrl && (
+                    <> · <a href={rep.sourceUrl} target="_blank" rel="noreferrer noopener">source</a></>
+                  )}
+                </li>
+              )}
             </ul>
           </div>
 
