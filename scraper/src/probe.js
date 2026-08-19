@@ -12,12 +12,13 @@
 //   npm run probe
 //   npm run probe -- --only Kyle
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { fetchPage } from "./fetch.js";
 import { closeBrowser } from "./browser.js";
 import { suggestLinks } from "./suggest.js";
+import { loadJurisdictions } from "./seeds.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -33,8 +34,10 @@ async function main() {
   const onlyIdx = args.indexOf("--only");
   const only = onlyIdx !== -1 ? args[onlyIdx + 1] : null;
 
-  const seeds = JSON.parse(await readFile(join(ROOT, "config", "seeds.json"), "utf8"));
-  let jurisdictions = seeds.jurisdictions;
+  // config/seeds.json (hand-authored) merged with config/seeds.discovered.json (auto-discovered
+  // by discover-jurisdictions.js, when it exists) — seeds.json always wins a conflict. See
+  // seeds.js's own header comment.
+  let jurisdictions = await loadJurisdictions();
   if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
 
   const allowBrowser = process.env.SCRAPER_BROWSER !== "0";

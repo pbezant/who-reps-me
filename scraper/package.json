@@ -12,6 +12,7 @@
     "scrape": "node src/run.js",
     "federal-social": "node src/federal-social.js",
     "federal-details": "node src/federal-details.js",
+    "discover-jurisdictions": "node src/discover-jurisdictions.js",
     "test": "node --test 'src/**/*.test.js' 'scripts/**/*.test.js'"
   },
   "dependencies": {
