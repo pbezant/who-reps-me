@@ -8,8 +8,9 @@
 # repository, and needs no secrets: it only installs and runs tests, so it's safe to run on
 # every PR including from forks.
 #
-# NOTE: GitHub registers workflows from the default branch, so this only starts running on PRs
-# once it is merged to master. Until then, run the same commands locally:
+# Note: unlike the cron/dispatch workflows in this directory, a pull_request-triggered workflow
+# DOES run from the pull request's own branch, so this validates the PR that introduces it.
+# The equivalent local commands:
 #   npm ci && CI=true npm test -- --watchAll=false && CI=true npm run build
 #   cd scraper && npm ci && npm test
 
