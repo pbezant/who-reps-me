@@ -7,12 +7,13 @@
 //   ANTHROPIC_API_KEY=sk-... node src/run.js
 //   ANTHROPIC_API_KEY=sk-... node src/run.js --only Kyle
 
-import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
+import { writeFile, mkdir, appendFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { scrapeJurisdiction } from "./pipeline.js";
 import { writeShards } from "./output.js";
 import { closeBrowser, browserStatus } from "./browser.js";
+import { loadJurisdictions } from "./seeds.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -26,8 +27,10 @@ async function main() {
   const onlyIdx = args.indexOf("--only");
   const only = onlyIdx !== -1 ? args[onlyIdx + 1] : null;
 
-  const seeds = JSON.parse(await readFile(join(ROOT, "config", "seeds.json"), "utf8"));
-  let jurisdictions = seeds.jurisdictions;
+  // config/seeds.json (hand-authored) merged with config/seeds.discovered.json (auto-discovered
+  // by discover-jurisdictions.js, when it exists) — seeds.json always wins a conflict. See
+  // seeds.js's own header comment.
+  let jurisdictions = await loadJurisdictions();
   if (only) jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
 
   // Browser fallback is on unless explicitly disabled; it degrades to static-only when

@@ -141,6 +141,46 @@ describe('toStateRepCards', () => {
     expect(toStateRepCards(undefined, 'TX')).toEqual([]);
     expect(toStateRepCards([], 'TX')).toEqual([]);
   });
+
+  test('maps the full offices array, not just one phone', () => {
+    const [card] = toStateRepCards(
+      [
+        person({
+          offices: [
+            { classification: 'district', voice: '512-555-0000' },
+            { classification: 'capitol', voice: '512-463-0647' },
+          ],
+        }),
+      ],
+      'TX'
+    );
+    expect(card.offices).toHaveLength(2);
+    expect(card.offices.map((o) => o.classification)).toEqual(['district', 'capitol']);
+    expect(card.offices[0].phone).toBe('512-555-0000');
+    // Open States' office schema carries no city/hours field for state legislators.
+    expect(card.offices[0].city).toBeNull();
+    expect(card.offices[0].hours).toBeNull();
+  });
+
+  test('maps a blank voice on an office to phone: null, not an empty string', () => {
+    const [card] = toStateRepCards(
+      [person({ offices: [{ classification: 'district-mail', voice: '', address: 'PO Box' }] })],
+      'TX'
+    );
+    expect(card.offices).toHaveLength(1);
+    expect(card.offices[0].phone).toBeNull();
+    expect(card.offices[0].address).toBe('PO Box');
+  });
+
+  test('drops an office with nothing usable at all', () => {
+    const [card] = toStateRepCards([person({ offices: [{ classification: 'capitol' }] })], 'TX');
+    expect(card.offices).toEqual([]);
+  });
+
+  test('defaults offices to [] when the person has none', () => {
+    const [card] = toStateRepCards([person()], 'TX');
+    expect(card.offices).toEqual([]);
+  });
 });
 
 describe('mergeStateLegislators', () => {
@@ -234,6 +274,15 @@ describe('against a real people.geo response', () => {
       phone: '512-463-0114', // capitol office, not the district-mail one with an empty voice
       email: 'sarah.eckhardt@senate.texas.gov',
     });
+  });
+
+  test('a real two-office legislator (Sarah Eckhardt) keeps both offices, not just the phone', () => {
+    const [, senate] = toStateRepCards(liveResponse.results, 'TX');
+    expect(senate.offices).toHaveLength(2);
+    expect(senate.offices).toEqual([
+      { classification: 'capitol', name: 'Capitol Office', city: null, address: 'Room E1.804', phone: '512-463-0114', fax: null, hours: null },
+      { classification: 'district-mail', name: 'District-Mail Office', city: null, address: 'PO Box', phone: null, fax: null, hours: null },
+    ]);
   });
 
   test('end to end, federal reps come from 5calls and are not duplicated', () => {

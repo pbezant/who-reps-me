@@ -1,3 +1,10 @@
 node_modules/
-data/
+# data/ holds scratch/per-run output (problems.json, probe.json, discover-jurisdictions' own
+# cursor file) that shouldn't be committed — except data/jurisdictions/, which is committed
+# reference data (see scripts/build-jurisdiction-universe.js), so only ignore data/'s direct
+# children and explicitly re-include that one subdirectory. (Negating files inside an ignored
+# directory doesn't work in gitignore — the directory itself must not be ignored — hence `data/*`
+# here rather than `data/`.)
+data/*
+!data/jurisdictions
 .env

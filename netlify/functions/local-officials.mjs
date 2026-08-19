@@ -23,12 +23,7 @@
 // for the batch scraper (which does have the browser fallback) to pick up later.
 
 import { getStore } from "@netlify/blobs";
-import { fetchPage } from "../../scraper/src/fetch.js";
-import { discoverJurisdictionSite } from "../../scraper/src/discover.js";
-import { suggestLinks } from "../../scraper/src/suggest.js";
-import { extractOfficials } from "../../scraper/src/extract.js";
-import { normalize } from "../../scraper/src/normalize.js";
-import { findMediaCandidates, stripSharedMedia } from "../../scraper/src/media.js";
+import { discoverJurisdictionSite, findRosterPage } from "../../scraper/src/discover.js";
 
 const STORE_NAME = "local-officials-ondemand";
 const HIT_TTL_MS = 1000 * 60 * 60 * 24 * 90; // 90 days: officials rarely change
@@ -103,87 +98,38 @@ export default async (req) => {
   }
 
   // The discovered page is usually a homepage or a general "Government" hub, not the roster
-  // itself, and how far the real roster sits from there varies by site — sometimes one hop
-  // (Boulder, CO: homepage -> /government/city-council), sometimes two (Asheville, NC:
-  // homepage -> /government/ -> /government/meet-city-council/, which never showed up as a
-  // candidate when we only looked one level deep). So this is a small breadth-first crawl, not
-  // a fixed list: each page that doesn't already look like a roster contributes its own
-  // same-origin "council"-ish links as further candidates, bounded by FETCH_BUDGET so a site
-  // that never converges can't run the request past Netlify's own function ceiling (confirmed
+  // itself — findRosterPage() (discover.js) does the actual breadth-first crawl looking for it,
+  // bounded so it can't run the request past Netlify's own function ceiling (confirmed
   // directly: ~30s, via a plain request that timed out server-side rather than in our code).
-  //
-  // Same-origin only: suggestLinks' keyword match ("government", "council", ...) can catch a
-  // jurisdiction's own social-media links too (confirmed for Ann Arbor, MI: its own Instagram
-  // account matched and got offered as a candidate). A roster page is never on a third-party
-  // domain, and fetching one just adds latency/risk for a page that was never going to work.
-  const origin = new URL(discovery.url).origin;
-  const FETCH_BUDGET = 6;
-  const visited = new Set([discovery.url]);
-  const queue = [discovery.url];
-
+  // Shared with the batch discovery script (discover-jurisdictions.js) so this crawl logic and
+  // its edge-case fixes (Boulder, Ann Arbor — see findRosterPage()'s own comment) only live once.
   const now = new Date().toISOString();
-  // Dedupe by id (pipeline.js's approach for the batch scraper, which visits every seed URL
-  // for a jurisdiction rather than stopping at the first hit) — a person can legitimately turn
-  // up on more than one candidate page. A single stray match doesn't necessarily mean the real
-  // roster page: confirmed against Boulder, CO, where a NEWS ARTICLE mentioning the city
-  // council got tried before the actual roster page and yielded one name (the city clerk),
-  // which would have looked like a "successful" scrape if we'd stopped there. So keep crawling
-  // until either the budget runs out or the count looks like an actual roster (3+), not just
-  // any non-zero result.
-  const byId = new Map();
-  let extractError;
-  let fetched = 0;
-  while (queue.length && fetched < FETCH_BUDGET && byId.size < 3) {
-    const url = queue.shift();
-    const page =
-      url === discovery.url ? discovery.page : await fetchPage(url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
-    fetched += 1;
-    if (!page?.ok) continue;
-
-    // Regex-only, no extra fetch or LLM call — safe to run here despite the tight ~30s
-    // budget this endpoint already fights. See scraper/src/media.js for why this is what
-    // makes photo_url/social reachable at all (fetch.js strips <img>/<a> out of page.text).
-    const media = findMediaCandidates(page.html, url);
-
-    let raw;
-    try {
-      raw = await extractOfficials({ text: page.text, url, jurisdiction, media });
-    } catch (err) {
-      extractError = err.message;
-      continue;
-    }
-    for (const r of raw) {
-      const rec = normalize(r, { jurisdiction, sourceUrl: url, extractedAt: now });
-      if (rec) byId.set(rec.id, rec);
-    }
-    if (byId.size >= 3) break;
-
-    // This page wasn't the roster — queue its own same-origin candidate links for the next
-    // round, so a hub-of-hubs structure gets followed rather than giving up after one hop.
-    for (const [link] of suggestLinks(page.html, url, 4)) {
-      if (visited.has(link)) continue;
-      try {
-        if (new URL(link).origin === origin) {
-          visited.add(link);
-          queue.push(link);
-        }
-      } catch {
-        /* skip unparseable */
-      }
-    }
+  let officials = [];
+  let sourceUrl = null;
+  let error;
+  try {
+    ({ officials, sourceUrl, error } = await findRosterPage({
+      startUrl: discovery.url,
+      startPage: discovery.page,
+      jurisdiction,
+    }));
+  } catch (err) {
+    // findRosterPage() rethrows a fatal (misconfigured/retired provider) error rather than
+    // swallowing it, so a batch caller can stop early — but this is a live user-facing request,
+    // not a batch, so there is nothing further to stop; degrade to the same graceful empty
+    // response every other failure mode here already returns, same as the discovery step above.
+    error = err.message;
   }
-  const results = stripSharedMedia([...byId.values()]);
 
-  const reason = results.length === 0 ? extractError : undefined;
   await store.setJSON(key, {
-    ok: results.length > 0,
-    officials: results,
-    source_url: discovery.url,
+    ok: officials.length > 0,
+    officials,
+    source_url: sourceUrl || discovery.url,
     checked_at: now,
-    ...(reason ? { error: reason } : {}),
+    ...(error ? { error } : {}),
   });
 
-  return jsonResponse({ officials: results, source: "scraped-now", ...(reason ? { error: reason } : {}) });
+  return jsonResponse({ officials, source: "scraped-now", ...(error ? { error } : {}) });
 };
 
 export const config = { path: "/api/local-officials" };

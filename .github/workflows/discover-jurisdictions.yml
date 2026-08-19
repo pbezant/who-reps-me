@@ -1,0 +1,116 @@
+# Budget-capped batch jurisdiction discovery — the automated half of "which cities/counties get
+# scraped" (see scraper/config/seeds.json's own header comment and scraper/README.md's "Dynamic
+# jurisdiction discovery" section). Finds and verifies roster-page URLs for jurisdictions not
+# yet in scraper/config/seeds.json, writing scraper/config/seeds.discovered.json.
+#
+# This workflow does NOT extract or commit officials data — it only finds URLs. The next
+# scheduled scrape.yml run picks up anything newly discovered here automatically.
+#
+# Decoupled from scrape.yml and federal-social.yml the same way those two are already decoupled
+# from each other: own schedule, own failure domain, so a bad run here never blocks the batch
+# scrape or the federal-details refresh.
+#
+# Needs a real LLM_PRESET/LLM_API_KEY to be useful in a reasonable amount of time — each
+# discovery attempt is up to 7 LLM calls, so the keyless `ovh` default (2 RPM) makes even a
+# 15-jurisdiction budget slow (same trade-off scraper/README.md documents for the on-demand
+# Netlify discovery path). Set the same repository variable/secret pair scrape.yml uses.
+#
+# Requires scraper/data/jurisdictions/<STATE>.json to exist for a state before this workflow can
+# find anything new in it — build that once (and re-build occasionally as Census updates its
+# annual Gazetteer Files) with scraper/scripts/build-jurisdiction-universe.js; see that script's
+# own header comment for why it takes local files rather than downloading them itself.
+#
+# IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
+# repository's default branch. Until this file is merged there, run it locally instead:
+#   cd scraper && DISCOVER_STATES=TX LLM_PRESET=groq LLM_API_KEY=... npm run discover-jurisdictions
+
+name: Discover new jurisdictions
+
+on:
+  schedule:
+    # Weekly, offset from scrape.yml's Monday 07:00 UTC slot so the two never compete for the
+    # same free-tier LLM rate-limit window in the same hour.
+    - cron: "0 7 * * 4"
+  workflow_dispatch:
+    inputs:
+      states:
+        description: "Comma-separated USPS state codes to discover in (blank = repo variable DISCOVER_STATES, else TX)"
+        required: false
+        type: string
+      budget:
+        description: "Max new jurisdictions to attempt this run (blank = repo variable DISCOVER_BUDGET, else 15)"
+        required: false
+        type: string
+      provider:
+        description: "LLM provider for this run (blank = repo variable LLM_PRESET, else ovh). github is retired."
+        required: false
+        type: choice
+        options: ["", anthropic, ovh, groq, gemini, mistral, cerebras, openrouter, nvidia, samba, llm7]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-jurisdictions
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Catch a retired/removed provider before spending minutes on browser setup — same guard
+      # scrape.yml uses.
+      - name: Check provider
+        env:
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
+        run: |
+          echo "Provider: $LLM_PRESET"
+          if [ "$LLM_PRESET" = "github" ]; then
+            echo "::error::LLM_PRESET=github is retired: GitHub Models returns HTTP 410. Change the repository variable LLM_PRESET (Settings -> Secrets and variables -> Actions -> Variables) to ovh (needs no key), groq/gemini/mistral (needs the LLM_API_KEY secret), or anthropic (needs the ANTHROPIC_API_KEY secret)."
+            exit 1
+          fi
+
+      # Browser fallback: same optional Playwright setup scrape.yml uses, for sites that are
+      # client-rendered or WAF-block plain HTTP. Free (just CI minutes); cached so most runs
+      # skip the download.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Install Playwright
+        working-directory: scraper
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install chromium
+
+      - name: Discover jurisdictions
+        env:
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'ovh' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
+          DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES || 'TX' }}
+          DISCOVER_BUDGET: ${{ inputs.budget || vars.DISCOVER_BUDGET || '15' }}
+        run: |
+          echo "Provider: $LLM_PRESET | States: $DISCOVER_STATES | Budget: $DISCOVER_BUDGET"
+          node scraper/src/discover-jurisdictions.js
+
+      - name: Commit updated seeds.discovered.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scraper/config/seeds.discovered.json
+          if git diff --staged --quiet; then
+            echo "No newly discovered jurisdictions."
+          else
+            git commit -m "chore(data): discover new jurisdictions [skip ci]"
+            git push
+          fi

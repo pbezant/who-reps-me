@@ -40,10 +40,11 @@ function SearchBar({ apiKey, setRepList }) {
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(location);
-      const [fedState, shard, federalSocial, stateCards] = await Promise.all([
+      const [fedState, shard, federalSocial, federalDetails, stateCards] = await Promise.all([
         getRepList(apiKey, location),
         getOfficialsShard(geo?.state),
         getFederalSocial(),
+        getFederalDetails(),
         getStateLegislators(geo),
       ]);
       const locals = await getLocalOfficials(geo, shard);
@@ -54,7 +55,7 @@ function SearchBar({ apiKey, setRepList }) {
       // mergeStateLegislators runs LAST so it can drop 5calls' state entries in favour of the
       // Open States ones — but only when Open States actually returned some, so a missing key
       // or an uncovered state leaves the previous behaviour untouched.
-      const withSocial = mergeFederalSocial(fedState?.representatives || [], federalSocial);
+      const withSocial = mergeFederalSocial(fedState?.representatives || [], { federalSocial, federalDetails });
       const representatives = [...locals, ...mergeStateLegislators(withSocial, stateCards)];
       setRepList({ ...(fedState || {}), representatives, geo });
     } catch (error) {
@@ -116,9 +117,46 @@ function toRepCard(o, state) {
     photoURL: o.photo_url || '',
     email: o.email || '',
     district: o.district || '',
+    address: o.address || '',
     social: o.social || {},
+    offices: o.offices || [],
     isLocal: true,
   };
+}
+
+// Maps 5calls' field_offices (phone + city, no street address) onto the shared cross-tier
+// office shape (see scraper/src/normalize.js's normalizeOffices() for the same shape used by
+// the scraper and state legislators). Still worth surfacing phone+city even without an
+// address — strictly better than not rendering field_offices at all, which is what happened
+// before this (5calls already returns it on every federal rep, see src/response.json).
+export function officesFromFieldOffices(fieldOffices) {
+  return (fieldOffices || []).map((fo) => ({
+    classification: 'district',
+    name: null,
+    city: fo.city || null,
+    address: null,
+    phone: fo.phone || null,
+    fax: null,
+    hours: null,
+  }));
+}
+
+// Combines offices from multiple sources for the same rep (5calls' field_offices-derived list
+// + public/federal-details.json's dc_office/district_offices) into one list, deduping an office
+// that's clearly the same physical one reported by two sources — matched on city+phone, per the
+// plan's "same office shouldn't render twice across sources" rule — by keeping whichever
+// occurrence has an address (5calls never has one; the crowdsourced federal-details shard
+// usually does), so a district office named by both sources shows once, with the fuller data.
+export function mergeOffices(...lists) {
+  const byKey = new Map();
+  for (const list of lists) {
+    for (const office of list || []) {
+      const key = `${(office.city || '').toLowerCase()}|${office.phone || ''}`;
+      const existing = byKey.get(key);
+      if (!existing || (!existing.address && office.address)) byKey.set(key, office);
+    }
+  }
+  return [...byKey.values()];
 }
 
 // Fetch the per-state officials shard once so it can be passed to local-officials matching
@@ -151,15 +189,46 @@ async function getFederalSocial() {
   return {};
 }
 
-// Merge social links onto 5calls' own representative records (they're used as-is elsewhere,
-// not passed through toRepCard), matched by bioguide id against federalSocial. Only Congress
-// needs this: state legislators come from Open States, which supplies their links directly —
-// see src/stateLegislators.js.
-function mergeFederalSocial(representatives, federalSocial) {
+// public/federal-details.json is built by scraper/src/federal-details.js from the public
+// unitedstates/congress-legislators project (term dates, committees, DC office, crowdsourced
+// district offices) plus a Wikipedia bio blurb — keyed by bioguide id, same key
+// federal-social.json and 5calls both use. Missing/unreachable file just means these fields
+// stay empty, same fail-soft posture as getFederalSocial().
+async function getFederalDetails() {
+  try {
+    const res = await fetch(`${process.env.PUBLIC_URL}/federal-details.json`);
+    if (res.ok) {
+      const data = await res.json();
+      return data.legislators || {};
+    }
+  } catch (error) {
+    console.error('Error fetching federal details:', error);
+  }
+  return {};
+}
+
+// Merge social links, term/committee/bio details, and offices onto 5calls' own representative
+// records (they're used as-is elsewhere, not passed through toRepCard), matched by bioguide id
+// against federalSocial/federalDetails. Only Congress needs this: state legislators come from
+// Open States, which supplies their links/offices directly — see src/stateLegislators.js.
+export function mergeFederalSocial(representatives, { federalSocial, federalDetails }) {
   return representatives.map((rep) => {
     if (rep.area !== 'US House' && rep.area !== 'US Senate') return rep;
     const social = federalSocial?.[rep.id];
-    return social ? { ...rep, social } : rep;
+    const details = federalDetails?.[rep.id];
+    const offices = mergeOffices(
+      officesFromFieldOffices(rep.field_offices),
+      details?.district_offices,
+      details?.dc_office ? [details.dc_office] : []
+    );
+    return {
+      ...rep,
+      ...(social ? { social } : {}),
+      offices,
+      term_end: details?.term_end || null,
+      committees: details?.committees || [],
+      bio: details?.bio || null,
+    };
   });
 }
 
@@ -313,6 +382,77 @@ function SocialLinks({ social }) {
   );
 }
 
+// Human label for an office's classification string. Sources disagree on the exact wording
+//("capitol", "district-mail", "dc", ...) so normalize.js/stateLegislators.js pass it through
+// as-is rather than validating against a fixed enum — this is where that gets turned into
+// something readable, falling back to a title-cased version of whatever string showed up.
+const OFFICE_LABELS = {
+  capitol: 'Capitol Office',
+  dc: 'DC Office',
+  district: 'District Office',
+  'district-mail': 'District Office',
+  primary: 'Main Office',
+  other: 'Office',
+};
+
+function labelForClassification(classification) {
+  if (OFFICE_LABELS[classification]) return OFFICE_LABELS[classification];
+  return String(classification || 'Office')
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+// Renders a rep's `offices[]` (district/field/capitol offices beyond the single top-level
+// phone already shown above it) — see scraper/src/normalize.js's normalizeOffices() for the
+// shared shape. Skips an entry that would just repeat the top-level phone with nothing else
+// to add (address/fax/hours), so a federal rep's DC office doesn't show up twice.
+function OfficesList({ offices, topLevelPhone }) {
+  const extra = (offices || []).filter((o) => {
+    const addsNothingNew = !o.address && !o.hours && !o.fax;
+    const sameAsTopLevel = topLevelPhone && o.phone === topLevelPhone;
+    return !(addsNothingNew && sameAsTopLevel);
+  });
+  if (!extra.length) return null;
+  return (
+    <li className="offices-list">
+      <span className="offices-label">Other offices</span>
+      <ul>
+        {extra.map((o, i) => (
+          <li key={i} className="office-entry">
+            <strong>{o.name || o.city || labelForClassification(o.classification)}</strong>
+            {o.address && <span className="office-address">{o.address}</span>}
+            {o.phone && <a href={`tel:${o.phone}`}>{o.phone}</a>}
+            {o.hours && <span className="office-hours">{o.hours}</span>}
+          </li>
+        ))}
+      </ul>
+    </li>
+  );
+}
+
+// term_end/committees/bio only ever come from public/federal-details.json (federal reps), so
+// these are always empty/absent for state and local reps — every render below is conditional.
+function formatDate(iso) {
+  if (!iso) return '';
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
+
+function CommitteesList({ committees }) {
+  if (!committees?.length) return null;
+  return (
+    <li className="rep-committees">
+      <span className="offices-label">Committees</span>
+      <ul>
+        {committees.map((c) => (
+          <li key={c.id}>{c.name}{c.role && ` — ${c.role}`}</li>
+        ))}
+      </ul>
+    </li>
+  );
+}
+
 function Results({ repList }) {
   return (
     <section className="results">
@@ -331,8 +471,13 @@ function Results({ repList }) {
               </li>
               {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
               {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
+              {rep.address && <li className="rep-address">{rep.address}</li>}
               {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
               <SocialLinks social={rep.social} />
+              {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
+              {rep.bio && <li className="rep-bio">{rep.bio}</li>}
+              <CommitteesList committees={rep.committees} />
+              <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
             </ul>
           </div>
 
