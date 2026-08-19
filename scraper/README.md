@@ -247,16 +247,13 @@ the bio-page follow-up pass described below. Coverage varies by source:
   States' office schema has no `hours` field — that's a permanent gap for this tier, not
   unpopulated data.
 
-  The scraper *can* still seed a state chamber's own member roster
-  (`level: "state-upper"`/`"state-lower"`), and the frontend still matches those onto 5calls
-  records by `(state, chamber, district)` as a fallback for when Open States is unconfigured or
-  returns nothing. But it was never a good fit and is no longer the primary path: it needs one
-  hand-vetted roster URL per chamber per state, and plenty of chambers have no single page
-  carrying districts *and* photos/socials — see `_needs_verified_url` in `seeds.json` for the
-  Texas House, which defeated it outright (the bio-page follow-up above doesn't fix this specific
-  case — it fills photo/address/phone/etc., not `district`, and the Texas House index page needs
-  a district per row to be useful in the first place). Open States covers all 50 states with no
-  seeding.
+  The scraper used to seed state chamber rosters (`level: "state-upper"`/`"state-lower"`) and
+  the frontend matched them onto 5calls records by `(state, chamber, district)`. **That path has
+  been removed.** It needed one hand-vetted roster URL per chamber per state, and plenty of
+  chambers have no single page carrying districts *and* photos/socials — the Texas House
+  defeated it outright. It only ever had one seed, and no state-level record ever reached a
+  shard. Open States covers all 50 states with no seeding, so `seeds.json` is now local and
+  county jurisdictions only.
 - **Federal reps**: photo and `field_offices` (phone + city, no address) come from 5calls, merged
   into `offices[]` by the frontend (`src/App.js`'s `officesFromFieldOffices()`). Everything else
   — social links, term dates, committee assignments, the DC office, and (usually) full

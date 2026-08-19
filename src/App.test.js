@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App, { officesFromFieldOffices, mergeOffices, mergeSocialLinks } from './App';
+import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial } from './App';
 
 test('renders the search page', () => {
   render(<App />);
@@ -48,7 +48,7 @@ describe('mergeOffices', () => {
   });
 });
 
-describe('mergeSocialLinks', () => {
+describe('mergeFederalSocial', () => {
   test('surfaces field_offices as offices[] on a federal rep, even with no social match', () => {
     const reps = [
       {
@@ -57,7 +57,7 @@ describe('mergeSocialLinks', () => {
         field_offices: [{ phone: '210-580-7000', city: 'San Antonio' }],
       },
     ];
-    const [rep] = mergeSocialLinks(reps, { federalSocial: {}, federalDetails: {}, shard: null, state: 'TX' });
+    const [rep] = mergeFederalSocial(reps, { federalSocial: {}, federalDetails: {} });
     expect(rep.offices).toEqual([
       { classification: 'district', name: null, city: 'San Antonio', address: null, phone: '210-580-7000', fax: null, hours: null },
     ]);
@@ -66,7 +66,7 @@ describe('mergeSocialLinks', () => {
   test('still merges social links onto a federal rep alongside offices', () => {
     const reps = [{ id: 'C001131', area: 'US Senate', field_offices: [] }];
     const federalSocial = { C001131: { twitter: 'https://twitter.com/rep' } };
-    const [rep] = mergeSocialLinks(reps, { federalSocial, federalDetails: {}, shard: null, state: 'TX' });
+    const [rep] = mergeFederalSocial(reps, { federalSocial, federalDetails: {} });
     expect(rep.social).toEqual({ twitter: 'https://twitter.com/rep' });
     expect(rep.offices).toEqual([]);
   });
@@ -82,7 +82,7 @@ describe('mergeSocialLinks', () => {
         district_offices: [{ classification: 'district', city: 'Seattle', address: '915 Second Ave.', phone: '206-220-6400', name: null, fax: null, hours: null }],
       },
     };
-    const [rep] = mergeSocialLinks(reps, { federalSocial: {}, federalDetails, shard: null, state: 'WA' });
+    const [rep] = mergeFederalSocial(reps, { federalSocial: {}, federalDetails });
     expect(rep.term_end).toBe('2031-01-03');
     expect(rep.committees).toEqual(federalDetails.C000127.committees);
     expect(rep.bio).toBe('A US Senator from Washington.');
@@ -92,15 +92,15 @@ describe('mergeSocialLinks', () => {
 
   test('defaults term_end/committees/bio when federalDetails has nothing for this bioguide', () => {
     const reps = [{ id: 'C999999', area: 'US House', field_offices: [] }];
-    const [rep] = mergeSocialLinks(reps, { federalSocial: {}, federalDetails: {}, shard: null, state: 'TX' });
+    const [rep] = mergeFederalSocial(reps, { federalSocial: {}, federalDetails: {} });
     expect(rep.term_end).toBeNull();
     expect(rep.committees).toEqual([]);
     expect(rep.bio).toBeNull();
   });
 
-  test('leaves a non-federal, non-state-chamber rep untouched', () => {
+  test('leaves a non-federal rep untouched', () => {
     const reps = [{ id: 'local-1', area: 'Mayor', offices: [{ classification: 'main' }] }];
-    const [rep] = mergeSocialLinks(reps, { federalSocial: {}, federalDetails: {}, shard: null, state: 'TX' });
+    const [rep] = mergeFederalSocial(reps, { federalSocial: {}, federalDetails: {} });
     expect(rep.offices).toEqual([{ classification: 'main' }]);
   });
 });
