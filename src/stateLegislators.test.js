@@ -1,10 +1,15 @@
 import { classifySocial, toStateRepCards, mergeStateLegislators } from './stateLegislators';
+import liveResponse from './__fixtures__/openstates-people-geo.json';
 
+// `people.geo` returns federal members alongside state ones, so a state jurisdiction is part
+// of the minimum shape a renderable state legislator has — see the federal/state separation
+// tests at the bottom for the cases where it is absent or "country".
 const person = (overrides = {}) => ({
   id: 'ocd-person/abc',
   name: 'Erin Zwiener',
   party: 'Democratic',
   current_role: { org_classification: 'lower', district: 45 },
+  jurisdiction: { classification: 'state' },
   ...overrides,
 });
 
@@ -180,5 +185,89 @@ describe('mergeStateLegislators', () => {
 
   test('tolerates a missing representatives list', () => {
     expect(mergeStateLegislators(undefined, [])).toEqual([]);
+  });
+});
+
+// A verbatim capture of a real `people.geo` response for Austin, TX (30.2672, -97.7431). It is
+// here because the first version of this module was built on a wrong assumption — that Open
+// States returns only state legislators — and this payload is what disproved it: three of the
+// five people in it are members of Congress.
+describe('against a real people.geo response', () => {
+  test('the payload really does mix federal members in with state ones', () => {
+    const classifications = liveResponse.results.map((p) => p.jurisdiction.classification);
+    expect(classifications).toContain('country');
+    expect(classifications).toContain('state');
+  });
+
+  test('keeps only the state legislators', () => {
+    const cards = toStateRepCards(liveResponse.results, 'TX');
+    expect(cards.map((c) => c.name)).toEqual(['Gina Hinojosa', 'Sarah Eckhardt']);
+  });
+
+  test('excludes every member of Congress', () => {
+    const names = toStateRepCards(liveResponse.results, 'TX').map((c) => c.name);
+    for (const federal of ['John Cornyn', 'Ted Cruz', 'Lloyd Doggett']) {
+      expect(names).not.toContain(federal);
+    }
+  });
+
+  test('a US Senator is not promoted into the state upper chamber', () => {
+    // org_classification is "upper" for a US Senator exactly as it is for a state senator, so
+    // chamber alone can never separate them — jurisdiction.classification is the only signal.
+    const senator = liveResponse.results.find((p) => p.name === 'John Cornyn');
+    expect(senator.current_role.org_classification).toBe('upper');
+    expect(toStateRepCards([senator], 'TX')).toEqual([]);
+  });
+
+  test('maps the surviving state legislators correctly', () => {
+    const [house, senate] = toStateRepCards(liveResponse.results, 'TX');
+    expect(house).toMatchObject({
+      area: 'StateLower',
+      district: 'District 49',
+      phone: '512-463-0668',
+      email: 'gina.hinojosa@house.texas.gov',
+      state: 'TX',
+    });
+    expect(senate).toMatchObject({
+      area: 'StateUpper',
+      district: 'District 14',
+      phone: '512-463-0114', // capitol office, not the district-mail one with an empty voice
+      email: 'sarah.eckhardt@senate.texas.gov',
+    });
+  });
+
+  test('end to end, federal reps come from 5calls and are not duplicated', () => {
+    const fiveCalls = [
+      { id: 'C001131', name: 'Gregorio Casar', area: 'US House' },
+      { id: 'C001056', name: 'John Cornyn', area: 'US Senate' },
+      { id: 'C001098', name: 'Ted Cruz', area: 'US Senate' },
+    ];
+    const merged = mergeStateLegislators(fiveCalls, toStateRepCards(liveResponse.results, 'TX'));
+
+    expect(merged.map((r) => r.name)).toEqual([
+      'Gregorio Casar', 'John Cornyn', 'Ted Cruz', 'Gina Hinojosa', 'Sarah Eckhardt',
+    ]);
+    const counts = merged.reduce((acc, r) => ({ ...acc, [r.name]: (acc[r.name] || 0) + 1 }), {});
+    expect(Object.values(counts).every((n) => n === 1)).toBe(true);
+  });
+});
+
+describe('federal/state separation', () => {
+  const statePerson = {
+    id: 'ocd-person/x',
+    name: 'State Rep',
+    current_role: { org_classification: 'lower', district: '5' },
+    jurisdiction: { classification: 'state' },
+  };
+
+  test('drops a person with no jurisdiction rather than guessing', () => {
+    // Safe direction: losing a state rep falls back to 5calls, whereas guessing "state" would
+    // render a US Senator as a state senator.
+    const { jurisdiction, ...noJurisdiction } = statePerson;
+    expect(toStateRepCards([noJurisdiction], 'TX')).toEqual([]);
+  });
+
+  test('keeps a legitimate state legislator', () => {
+    expect(toStateRepCards([statePerson], 'TX')).toHaveLength(1);
   });
 });

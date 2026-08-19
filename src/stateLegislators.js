@@ -6,9 +6,13 @@
 // Open States instead takes a lat/lng and does a real point-in-polygon lookup, and
 // src/geocode.js already produces exactly those coordinates from the US Census geocoder.
 //
-// Open States is STATE-ONLY (no Congress), so this supplements 5calls rather than replacing
-// it: federal reps still come from 5calls, and 5calls' own state entries are only dropped
-// when Open States actually returned something better (see mergeStateLegislators).
+// `people.geo` returns EVERY legislator at a point, federal included — a US Senator and US
+// Representative come back alongside the statehouse ones. They are only distinguishable by
+// `jurisdiction.classification` ("country" vs "state"); `current_role.org_classification` says
+// "upper"/"lower" for both, so a US Senator reads as an upper-chamber member exactly like a
+// state senator does. Everything federal is discarded here (see isStateJurisdiction) and still
+// comes from 5calls, which is authoritative for Congress and supplies the field offices and
+// bioguide ids the rest of the app keys on.
 //
 // The API key never reaches the browser — netlify/functions/state-legislators.mjs injects it
 // server-side. This module is pure so it can be unit-tested without network or Netlify.
@@ -44,6 +48,17 @@ export function classifySocial(links) {
   return social;
 }
 
+// The one reliable federal/state discriminator in the payload. Confirmed against a live
+// response: US members carry jurisdiction.classification "country" with a non-numeric district
+// ("Texas" for a Senator, "TX-37" for a Representative) and a `cd:`/bare-state division_id,
+// while state legislators carry "state" and an `sldl:`/`sldu:` division. Requiring an explicit
+// "state" — rather than merely excluding "country" — is the safe direction: if this field ever
+// goes missing, the caller keeps 5calls' state reps instead of promoting a US Senator into the
+// statehouse.
+function isStateJurisdiction(person) {
+  return person?.jurisdiction?.classification === 'state';
+}
+
 // Nebraska's unicameral legislature classifies as "legislature" rather than upper/lower; it is
 // a senate in everything but name, so render it on the upper-chamber card instead of dropping
 // the state's only legislator.
@@ -75,6 +90,7 @@ function emailFrom(person) {
 // Map one Open States person onto the same card shape 5calls' reps use, so Results renders
 // every level uniformly and needs no branch for where a record came from.
 function toCard(person, state) {
+  if (!isStateJurisdiction(person)) return null;
   const role = person?.current_role || {};
   const area = areaForChamber(role.org_classification);
   if (!area) return null;
@@ -99,8 +115,9 @@ function toCard(person, state) {
   };
 }
 
-// Open States returns members whose term has ended alongside current ones in some payloads;
-// only a person with a current_role we can place on a chamber is renderable.
+// Keeps only the state legislators: federal members share the endpoint (see
+// isStateJurisdiction) and a person without a current_role we can place on a chamber has
+// nothing renderable.
 export function toStateRepCards(results, state) {
   return (results || []).map((p) => toCard(p, state)).filter(Boolean);
 }
