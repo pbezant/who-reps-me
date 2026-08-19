@@ -1,16 +1,21 @@
 # Refreshes public/federal-social.json — a small { bioguideId: {twitter, facebook,
-# instagram, youtube} } map for members of Congress, sourced from the public-domain
-# unitedstates/congress-legislators project (scraper/src/federal-social.js).
+# instagram, youtube} } map for members of Congress — and public/federal-details.json (term
+# dates, committees, DC office, crowdsourced district offices, a Wikipedia bio blurb), both
+# sourced from the public-domain unitedstates/congress-legislators project
+# (scraper/src/federal-social.js, scraper/src/federal-details.js).
 #
 # Unlike scrape.yml this makes no LLM calls and touches no rate-limited provider, so it's
 # cheap enough to run more often and lives in its own workflow rather than as another step
 # in scrape.yml — a failure here should never block the officials scrape, and vice versa.
+# Both scripts share this one workflow (rather than a third file) since they pull from the
+# same source project on the same cadence and neither depends on the other's output.
 #
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
-# repository's default branch. Until this file is merged there, run it locally instead:
+# repository's default branch. Until this file is merged there, run these locally instead:
 #   cd scraper && npm install && npm run federal-social
+#   cd scraper && npm install && node src/federal-details.js
 
-name: Refresh federal social links
+name: Refresh federal social links and details
 
 on:
   schedule:
@@ -43,14 +48,17 @@ jobs:
       - name: Build federal-social.json
         run: node scraper/src/federal-social.js
 
+      - name: Build federal-details.json
+        run: node scraper/src/federal-details.js
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/federal-social.json
+          git add public/federal-social.json public/federal-details.json
           if git diff --staged --quiet; then
-            echo "No changes to federal social links."
+            echo "No changes to federal social links or details."
           else
-            git commit -m "chore(data): refresh federal social links [skip ci]"
+            git commit -m "chore(data): refresh federal social links and details [skip ci]"
             git push
           fi

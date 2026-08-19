@@ -87,6 +87,30 @@ function emailFrom(person) {
   return legacy ? legacy.value : '';
 }
 
+// Maps Open States' full `offices` array onto the shared cross-tier office shape (see
+// scraper/src/normalize.js's normalizeOffices() for the same shape used by the scraper and
+// federal enrichment) — purely additive alongside phoneFrom() above, which stays the single
+// top-level `phone` convenience field (still prefers the capitol office). Confirmed against a
+// real response (src/__fixtures__/openstates-people-geo.json): `classification` values include
+// "capitol" and "district-mail" (not a fixed enum, passed through as-is); there is no `city` or
+// `hours` field anywhere in this API's office schema, so those always come through null. An
+// empty-string `voice` (seen on a real district-mail office with no phone) maps to null, not "".
+function officesFrom(person) {
+  const offices = person?.offices || [];
+  return offices
+    .map((o) => ({
+      classification: o?.classification || 'other',
+      name: o?.name || null,
+      city: null,
+      address: o?.address || null,
+      phone: o?.voice || null,
+      fax: o?.fax || null,
+      hours: null,
+    }))
+    // Drop an office row with nothing usable at all rather than rendering an empty entry.
+    .filter((o) => o.address || o.phone || o.fax);
+}
+
 // Map one Open States person onto the same card shape 5calls' reps use, so Results renders
 // every level uniformly and needs no branch for where a record came from.
 function toCard(person, state) {
@@ -111,6 +135,7 @@ function toCard(person, state) {
     url: person.openstates_url || firstNonSocial?.url || '',
     photoURL: person.image || '',
     social: classifySocial(links),
+    offices: officesFrom(person),
     isStateLegislator: true,
   };
 }

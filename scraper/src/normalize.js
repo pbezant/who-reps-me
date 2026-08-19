@@ -75,6 +75,37 @@ function normalizeSocial(raw, base) {
   return social;
 }
 
+// Canonical shape for one physical office (capitol, district, field, DC, ...) — the same shape
+// is reused identically across local (this scraper), state (Open States' `offices`, see
+// src/stateLegislators.js), and federal (5calls' `field_offices` + the congress-legislators
+// YAML files, see src/App.js) so the frontend renders every tier's "other offices" the same
+// way. `classification` is deliberately not validated against a fixed enum — sources disagree
+// on the exact string ("capitol", "district-mail", "dc", ...) and passing it through as-is is
+// more useful than collapsing it. `address`/`hours` are free text, not URLs, so unlike `url`/
+// `photo_url` elsewhere in this module they are never absolutized.
+//
+// Nothing populates this from the roster-page extraction yet (raw.offices is undefined for
+// every call today) — this is schema groundwork for the bio-page follow-up crawl and the
+// state/federal enrichment that read it. Every consumer must read `record.offices || []`,
+// never assume the key is present, since committed records scraped before this change won't
+// have it at all.
+export function normalizeOffices(rawOffices) {
+  if (!Array.isArray(rawOffices)) return [];
+  return rawOffices
+    .map((o) => ({
+      classification: o?.classification ? String(o.classification).trim() : "other",
+      name: o?.name ? String(o.name).trim() : null,
+      city: o?.city ? String(o.city).trim() : null,
+      address: o?.address ? String(o.address).trim() : null,
+      phone: cleanPhone(o?.phone),
+      fax: o?.fax ? String(o.fax).trim() : null,
+      hours: o?.hours ? String(o.hours).trim() : null,
+    }))
+    // Drop an entry that carried nothing usable at all (e.g. a source's placeholder row) —
+    // never render an office row with every field blank.
+    .filter((o) => o.address || o.phone || o.fax || o.hours);
+}
+
 export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
   const name = (raw.name || "").trim();
   if (!name) return null;
@@ -91,6 +122,7 @@ export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
     photo_url: absolutize(raw.photo_url, sourceUrl),
     social: normalizeSocial(raw.social, sourceUrl),
     address: raw.address ? String(raw.address).trim() : null,
+    offices: normalizeOffices(raw.offices),
     jurisdiction: { city: jurisdiction.city, state: jurisdiction.state },
     source_url: sourceUrl,
     extracted_at: extractedAt,
