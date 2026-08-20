@@ -58,6 +58,25 @@
 //                           REACT_APP_TURNSTILE_SITE_KEY (see src/ReportBug.js) — a build-time,
 //                           not runtime, variable, since Create React App inlines it into the
 //                           bundle at build time.
+//
+// TURNSTILE IS NOT CURRENTLY ENABLED IN PRODUCTION — unresolved as of 2026-08-20, deliberately
+// left off rather than half-working. Symptom: with a sitekey configured the widget renders
+// (turnstile.render() returns a widget id) but every challenge request to
+// challenges.cloudflare.com/cdn-cgi/challenge-platform/... returns HTTP 400, and NEITHER the
+// success nor the error callback fires — so there is no Cloudflare error code to look up.
+// Already ruled out by direct testing; do not re-check these:
+//   - the sitekey (a second, freshly-created key failed identically)
+//   - the hostname allowlist (Cloudflare's always-pass test key 1x00000000000000000000AA, valid
+//     from ANY domain including localhost, fails exactly the same way)
+//   - Netlify as the host (Turnstile works on another Netlify site in the same Cloudflare account)
+//   - DNS proxy mode, browser extensions, network filtering (fails un-proxied, in a clean
+//     incognito window, and on a different network)
+//   - anything this repo serves (no CSP, no _headers, no Referrer-Policy, no service worker)
+// Next step when picking this back up: read the 400's RESPONSE BODY in the Network tab. That's
+// the one piece of evidence never captured, and every cheaper hypothesis is already eliminated.
+// Until then both env vars stay unset, which is a supported state: the form behaves exactly as it
+// did before Turnstile existed, still covered by the per-IP cap and the data-not-instructions
+// triage prompt.
 
 import { getStore } from "@netlify/blobs";
 import { createHash } from "node:crypto";
