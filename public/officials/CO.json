@@ -1,11 +1,173 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 3,
+  "generated_at": "2026-08-20T04:12:47.563Z",
+  "count": 17,
   "cities": [
-    "Denver County"
+    "Boulder",
+    "Denver County",
+    "Durango"
   ],
   "officials": [
+    {
+      "id": "co:boulder:city-council-member:matt-benjamin",
+      "name": "Matt Benjamin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:city-council-member:nicole-speer",
+      "name": "Nicole Speer",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:city-council-member:rob-kaplan",
+      "name": "Rob Kaplan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:city-council-member:ryan-schuchard",
+      "name": "Ryan Schuchard",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:city-council-member:taishya-adams",
+      "name": "Taishya Adams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:city-council-member:tina-marquis",
+      "name": "Tina Marquis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:mayor-pro-tem:tara-winer",
+      "name": "Tara Winer",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:boulder:mayor:aaron-brockett",
+      "name": "Aaron Brockett",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Boulder City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Boulder",
+        "state": "CO"
+      },
+      "source_url": "https://bouldercolorado.gov/government/city-council",
+      "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
     {
       "id": "co:denver-county:auditor:timothy-obrien",
       "name": "Timothy O'Brien",
@@ -97,6 +259,192 @@
       },
       "source_url": "https://www.denvergov.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:council-member:gilda-yazzie",
+      "name": "Gilda Yazzie",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": "970-375-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org/27/Local-Government",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:council-member:jessika-loyer",
+      "name": "Jessika Loyer",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": "970-375-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org/27/Local-Government",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:council-member:kip-koso",
+      "name": "Kip Koso",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": "970-375-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org/27/Local-Government",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:council-member:shirley-gonzales",
+      "name": "Shirley Gonzales",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": "970-375-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org/27/Local-Government",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:councilor:kip-koso",
+      "name": "Kip Koso",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:mayor:dave-woodruff",
+      "name": "Dave Woodruff",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": "970-375-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "949 E 2nd Avenue Durango, CO 81301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org/27/Local-Government",
+      "extracted_at": "2026-08-19T20:54:54.783Z",
       "confidence": 1
     }
   ]

@@ -1,11 +1,232 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 6,
+  "generated_at": "2026-08-20T04:12:47.563Z",
+  "count": 17,
   "cities": [
+    "Ann Arbor",
     "Macomb County"
   ],
   "officials": [
+    {
+      "id": "mi:ann-arbor:council-member:ayesha-ghazi-edwin",
+      "name": "Ayesha Ghazi Edwin",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:ann-arbor:council-member:chris-watson",
+      "name": "Chris Watson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 2",
+      "phone": "734-436-1504",
+      "email": "cwatson@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:council-member:cynthia-harrison",
+      "name": "Cynthia Harrison",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 1",
+      "phone": "734-386-1221",
+      "email": "charrison@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:council-member:dharma-akmon",
+      "name": "Dharma Akmon",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:ann-arbor:council-member:erica-briggs",
+      "name": "Erica Briggs",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 5",
+      "phone": "734-355-3931",
+      "email": "ebriggs@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:council-member:jen-eyer",
+      "name": "Jen Eyer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:ann-arbor:council-member:jenn-cornell",
+      "name": "Jenn Cornell",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 5",
+      "phone": "734-765-0174",
+      "email": "jcornell@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:council-member:jon-mallek",
+      "name": "Jon Mallek",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 2",
+      "phone": "734-418-8143",
+      "email": "jmallek@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:council-member:lisa-disch",
+      "name": "Lisa Disch",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:ann-arbor:council-member:travis-radina",
+      "name": "Travis Radina",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": "Ward 3",
+      "phone": "734-219-6551",
+      "email": "tradina@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:ann-arbor:mayor:christopher-taylor",
+      "name": "Christopher Taylor",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Ann Arbor City Council",
+      "district": null,
+      "phone": "734-794-6161",
+      "email": "ctaylor@a2gov.org",
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Ann Arbor",
+        "state": "MI"
+      },
+      "source_url": "https://www.a2gov.org/city-council/",
+      "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
     {
       "id": "mi:macomb-county:clerk/register-of-deeds:anthony-g.-forlini",
       "name": "Anthony G. Forlini",

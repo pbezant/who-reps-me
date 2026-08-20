@@ -1,12 +1,153 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 14,
+  "generated_at": "2026-08-20T04:12:47.563Z",
+  "count": 21,
   "cities": [
+    "Asheville",
     "Charlotte",
     "Mecklenburg County"
   ],
   "officials": [
+    {
+      "id": "nc:asheville:council-member:bo-hess",
+      "name": "Bo Hess",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:council-member:kim-roney",
+      "name": "Kim Roney",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:council-member:maggie-ullman",
+      "name": "Maggie Ullman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:council-member:sage-turner",
+      "name": "Sage Turner",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:council-member:sheneika-smith",
+      "name": "Sheneika Smith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:mayor:esther-manheimer",
+      "name": "Esther Manheimer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": "esthermanheimer@avlcouncil.com",
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:asheville:vice-mayor:s.-antanette-mosley",
+      "name": "S. Antanette Mosley",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Asheville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": "70 Court Plaza, P.O. Box 7148, Asheville, NC 28802",
+      "jurisdiction": {
+        "city": "Asheville",
+        "state": "NC"
+      },
+      "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
+      "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
     {
       "id": "nc:charlotte:city-attorney:andrea-leslie-fite",
       "name": "Andrea Leslie-Fite",

@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 129,
+  "generated_at": "2026-08-20T05:29:14.908Z",
+  "count": 160,
   "cities": [
     "Austin",
     "Bastrop",
@@ -13,16 +13,21 @@
     "Dallas County",
     "Denton County",
     "El Paso County",
+    "Elgin",
     "Fort Bend County",
+    "Granbury",
     "Harris County",
     "Hays County",
     "Hidalgo County",
     "Hutto",
     "Kyle",
+    "Lakeway",
     "Leander",
     "Lockhart",
     "Montgomery County",
+    "New Braunfels",
     "Round Rock",
+    "San Marcos",
     "Smithville",
     "Tarrant County",
     "Travis County",
@@ -650,8 +655,11 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:caldwell-county:commissioner:dyral-thomas",
@@ -670,8 +678,11 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:caldwell-county:commissioner:edward-ed-theriot",
@@ -690,8 +701,11 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:caldwell-county:commissioner:rusty-horne",
@@ -710,8 +724,11 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:caldwell-county:commissioners-court-coordinator:stephanie-mckee",
@@ -1372,6 +1389,285 @@
       "confidence": 1
     },
     {
+      "id": "tx:elgin:council-member:agatha-mayfield",
+      "name": "Agatha Mayfield",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:council-member:arthur-gibson-iii",
+      "name": "Arthur Gibson III",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:council-member:brenda-piña",
+      "name": "Brenda Piña",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:council-member:jessica-jaimes",
+      "name": "Jessica Jaimes",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:council-member:liston-crim",
+      "name": "Liston Crim",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:council-member:roland-silva",
+      "name": "Roland Silva",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:deputy-mayor-pro-tem:tiffany-st.-pierre",
+      "name": "Tiffany St. Pierre",
+      "office": "Deputy Mayor Pro Tem",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:mayor-at-large:theresa-y-mcshan",
+      "name": "Theresa Y McShan",
+      "office": "Mayor At-Large",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": null,
+      "phone": "512-229-3222",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.elgintx.com/ImageRepository/Document?documentID=14163",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 310 N Main Street P.O. Box 591 Elgin, TX 78621",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:elgin:mayor-pro-tem:yalecia-love",
+      "name": "YaLecia Love",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Elgin City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elgin",
+        "state": "TX"
+      },
+      "source_url": "https://www.elgintx.com/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:fort-bend-county:commissioner:andy-meyers",
       "name": "Andy Meyers",
       "office": "Commissioner",
@@ -1524,6 +1820,99 @@
       },
       "source_url": "https://www.fortbendcountytx.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:granbury:city-manager:chris-coffman",
+      "name": "Chris Coffman",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Granbury City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Granbury",
+        "state": "TX"
+      },
+      "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
+      "extracted_at": "2026-08-19T20:57:24.860Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:granbury:council-member:greg-corrigan",
+      "name": "Greg Corrigan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Granbury City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Granbury",
+        "state": "TX"
+      },
+      "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
+      "extracted_at": "2026-08-19T20:57:24.860Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:granbury:council-member:skip-overdier",
+      "name": "Skip Overdier",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Granbury City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Granbury",
+        "state": "TX"
+      },
+      "source_url": "https://www.granbury.org/CivicAlerts.aspx?AID=1615",
+      "extracted_at": "2026-08-19T20:57:24.860Z",
       "confidence": 1
     },
     {
@@ -2177,6 +2566,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:lakeway:council-member:christopher-forton",
+      "name": "Christopher Forton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "christopherforton@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:council-member:kelly-brynteson",
+      "name": "Kelly Brynteson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "kellybrynteson@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:council-member:kent-obrien",
+      "name": "Kent O'Brien",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "kentobrien@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:council-member:logan-brown",
+      "name": "Logan Brown",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "loganbrown@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:council-member:wes-hook",
+      "name": "Wes Hook",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "weshook@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:mayor-pro-tem:louis-mastrangelo",
+      "name": "Louis Mastrangelo",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "louismastrangelo@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lakeway:mayor:thomas-kilgore",
+      "name": "Thomas Kilgore",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lakeway City Council",
+      "district": null,
+      "phone": null,
+      "email": "mayorkilgore@lakeway-tx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lakeway",
+        "state": "TX"
+      },
+      "source_url": "https://lakeway-tx.gov/100/Mayor-City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:leander:council-member:andrew-naudin",
       "name": "Andrew Naudin",
       "office": "Council Member",
@@ -2612,6 +3218,161 @@
       "confidence": 1
     },
     {
+      "id": "tx:new-braunfels:city-manager:robert-camareno",
+      "name": "Robert Camareno",
+      "office": "City Manager",
+      "level": "local",
+      "body": "New Braunfels City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Braunfels",
+        "state": "TX"
+      },
+      "source_url": "https://www.newbraunfels.gov",
+      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:new-braunfels:council-member:d.-lee-edwards",
+      "name": "D. Lee Edwards",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "New Braunfels City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Braunfels",
+        "state": "TX"
+      },
+      "source_url": "https://www.newbraunfels.gov",
+      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:new-braunfels:council-member:mary-ann-labowski",
+      "name": "Mary Ann Labowski",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "New Braunfels City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Braunfels",
+        "state": "TX"
+      },
+      "source_url": "https://www.newbraunfels.gov",
+      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:new-braunfels:council-member:michael-capizzi",
+      "name": "Michael Capizzi",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "New Braunfels City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Braunfels",
+        "state": "TX"
+      },
+      "source_url": "https://www.newbraunfels.gov",
+      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:new-braunfels:council-member:toni-carter",
+      "name": "Toni Carter",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "New Braunfels City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Braunfels",
+        "state": "TX"
+      },
+      "source_url": "https://www.newbraunfels.gov",
+      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:round-rock:council-member:frank-ortega",
       "name": "Frank Ortega",
       "office": "Councilmember",
@@ -2749,6 +3510,223 @@
       },
       "source_url": "https://www.roundrocktexas.gov/city-about-round-rock/city-council/city-council-members/",
       "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:alyssa-garza",
+      "name": "Alyssa Garza",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=34551",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:amanda-rodriguez",
+      "name": "Amanda Rodriguez",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=42859",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:josh-paselk",
+      "name": "Josh Paselk",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=45579",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:lorenzo-gonzalez",
+      "name": "Lorenzo Gonzalez",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=42884",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:matthew-mendoza",
+      "name": "Matthew Mendoza",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=34559",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:council-member:shane-scott",
+      "name": "Shane Scott",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=34557",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:san-marcos:mayor:jane-hughson",
+      "name": "Jane Hughson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "San Marcos City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sanmarcostx.gov/ImageRepository/Document?documentId=34552",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Marcos",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanmarcostx.gov/149/City-Council",
+      "extracted_at": "2026-08-20T04:12:57.525Z",
       "confidence": 1
     },
     {

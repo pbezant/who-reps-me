@@ -1,9 +1,10 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 8,
+  "generated_at": "2026-08-20T04:12:47.563Z",
+  "count": 23,
   "cities": [
-    "Multnomah County"
+    "Multnomah County",
+    "Portland"
   ],
   "officials": [
     {
@@ -252,6 +253,306 @@
       },
       "source_url": "https://www.multco.us",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:city-administrator:raymond-c.-lee-iii",
+      "name": "Raymond C. Lee III",
+      "office": "City Administrator",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:city-auditor:simone-rede",
+      "name": "Simone Rede",
+      "office": "City Auditor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:city-council-president:jamie-dunphy",
+      "name": "Jamie Dunphy",
+      "office": "City Council President",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:city-council-vice-president:olivia-clark",
+      "name": "Olivia Clark",
+      "office": "City Council Vice President",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-1-councilor:candace-avalos",
+      "name": "Candace Avalos",
+      "office": "District 1 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-1-councilor:loretta-smith",
+      "name": "Loretta Smith",
+      "office": "District 1 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-2-councilor:dan-ryan",
+      "name": "Dan Ryan",
+      "office": "District 2 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-2-councilor:elana-pirtle-guiney",
+      "name": "Elana Pirtle-Guiney",
+      "office": "District 2 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-2-councilor:sameer-kanal",
+      "name": "Sameer Kanal",
+      "office": "District 2 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-3-councilor:angelita-morillo",
+      "name": "Angelita Morillo",
+      "office": "District 3 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-3-councilor:steve-novick",
+      "name": "Steve Novick",
+      "office": "District 3 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-3-councilor:tiffany-koyama-lane",
+      "name": "Tiffany Koyama Lane",
+      "office": "District 3 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-4-councilor:eric-zimmerman",
+      "name": "Eric Zimmerman",
+      "office": "District 4 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:district-4-councilor:mitch-green",
+      "name": "Mitch Green",
+      "office": "District 4 Councilor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:portland:mayor:keith-wilson",
+      "name": "Keith Wilson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Portland City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "address": null,
+      "jurisdiction": {
+        "city": "Portland",
+        "state": "OR"
+      },
+      "source_url": "https://www.portland.gov",
+      "extracted_at": "2026-08-18T18:03:04.879Z",
       "confidence": 1
     }
   ]

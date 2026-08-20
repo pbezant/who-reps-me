@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T02:51:45.007Z",
+  "generated_at": "2026-08-20T05:29:14.908Z",
   "states": {
     "TX": {
-      "count": 129,
+      "count": 160,
       "cities": [
         "Austin",
         "Bastrop",
@@ -14,27 +14,33 @@
         "Dallas County",
         "Denton County",
         "El Paso County",
+        "Elgin",
         "Fort Bend County",
+        "Granbury",
         "Harris County",
         "Hays County",
         "Hidalgo County",
         "Hutto",
         "Kyle",
+        "Lakeway",
         "Leander",
         "Lockhart",
         "Montgomery County",
+        "New Braunfels",
         "Round Rock",
+        "San Marcos",
         "Smithville",
         "Tarrant County",
         "Travis County",
         "Williamson County"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T05:29:14.908Z"
     },
     "CA": {
-      "count": 44,
+      "count": 46,
       "cities": [
         "Alameda County",
+        "Contra Costa County",
         "Fresno County",
         "Los Angeles County",
         "Orange County",
@@ -43,7 +49,7 @@
         "San Diego County",
         "Ventura County"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T04:12:57.525Z"
     },
     "IL": {
       "count": 1,
@@ -113,12 +119,13 @@
       "updated": "2026-08-20T02:51:45.007Z"
     },
     "NC": {
-      "count": 14,
+      "count": 21,
       "cities": [
+        "Asheville",
         "Charlotte",
         "Mecklenburg County"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T04:12:47.563Z"
     },
     "UT": {
       "count": 16,
@@ -183,11 +190,12 @@
       "updated": "2026-08-20T02:51:45.007Z"
     },
     "MI": {
-      "count": 6,
+      "count": 17,
       "cities": [
+        "Ann Arbor",
         "Macomb County"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T04:12:47.563Z"
     },
     "OK": {
       "count": 9,
@@ -197,18 +205,21 @@
       "updated": "2026-08-20T02:51:45.007Z"
     },
     "OR": {
-      "count": 8,
+      "count": 23,
       "cities": [
-        "Multnomah County"
+        "Multnomah County",
+        "Portland"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T04:12:47.563Z"
     },
     "CO": {
-      "count": 3,
+      "count": 17,
       "cities": [
-        "Denver County"
+        "Boulder",
+        "Denver County",
+        "Durango"
       ],
-      "updated": "2026-08-20T02:51:45.007Z"
+      "updated": "2026-08-20T04:12:47.563Z"
     },
     "MA": {
       "count": 3,
