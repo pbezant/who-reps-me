@@ -19,9 +19,11 @@ missing or outdated official, plus a quick note. Each submission is triaged by a
 spot: it checks the note against currently-open `user-reported` issues to catch duplicates
 (commenting on the existing issue instead of filing a new one), then either opens a new GitHub
 issue or comments on the matching one, and appends a row to [`BUG_REPORTS.md`](BUG_REPORTS.md)
-either way. This files the report for a human to review — it doesn't itself trigger a scrape; see
-`netlify/functions/report-bug.mjs`'s own header comment for the full flow and required
-`GITHUB_TOKEN` setup.
+either way. This files the report for a human to review — it doesn't itself trigger a scrape. A
+per-IP daily cap and an optional Cloudflare Turnstile bot check guard the fact that this is the
+one form in the project that creates real public content from anonymous input; see
+`netlify/functions/report-bug.mjs`'s own header comment for the full flow, the abuse-mitigation
+reasoning, and required `GITHUB_TOKEN`/`TURNSTILE_SECRET_KEY` setup.
 
 ### Why geocoding needs a fallback at all
 
@@ -77,9 +79,20 @@ GITHUB_TOKEN=...         # bug-report triage (netlify/functions/report-bug.mjs) 
                           # + Contents:write on this repo (fine-grained PAT), or classic `repo` scope
 GITHUB_OWNER=pbezant     # only needed if forking — defaults to pbezant/who-reps-me
 GITHUB_REPO=who-reps-me
+TURNSTILE_SECRET_KEY=... # optional — Cloudflare Turnstile bot check on the bug-report form.
+                          # Unset = verification is skipped entirely (soft-fail-open, not a
+                          # security guarantee — set this before relying on it as real abuse
+                          # protection). Free from a Cloudflare account: dash.cloudflare.com →
+                          # Turnstile → Add site → get a sitekey + secret key pair.
 ```
 
-Set these in the Netlify site's *Site configuration → Environment variables*. `OPENSTATES_API_KEY`
+Set these in the Netlify site's *Site configuration → Environment variables*, **except**
+`REACT_APP_TURNSTILE_SITE_KEY` (Turnstile's public sitekey, paired with `TURNSTILE_SECRET_KEY`
+above) — that one is a **build-time** variable: Create React App inlines any `REACT_APP_*`
+variable into the JS bundle when the site is built, so it must be set wherever the build runs
+(Netlify's *Site configuration → Build & deploy → Environment*, not just the general Environment
+variables page most other keys here use — Netlify's UI does distinguish these, but it's an easy
+place to set the wrong one and see no effect). `OPENSTATES_API_KEY`
 is read only by `netlify/functions/state-legislators.mjs` and `netlify/functions/state-executives.mjs`
 — never by the browser: Open States keys carry a per-account daily quota, and v3 doesn't serve
 CORS for browser requests anyway. Legislator lookups are cached in Netlify Blobs for 30 days

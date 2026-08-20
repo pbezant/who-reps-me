@@ -25,14 +25,37 @@
 // closing the issue with a specific label could fire the on-demand scraper against it) but isn't
 // wired up yet; today "we'll check it and add it" means a person reads the filed issue.
 //
+// This is also the only public form in the project that creates real, immediately-visible public
+// content (a GitHub issue) from anonymous input, with no human in the loop before it's posted —
+// worth more abuse-resistance than a form that just returns JSON. Two layers, on top of the
+// per-IP daily cap below:
+//   - Cloudflare Turnstile (optional — see TURNSTILE_SECRET_KEY below): raises the bar against
+//     scripted/bot submissions specifically. Skipped entirely if unconfigured, so this repo's own
+//     CI and a plain local dev setup never need Cloudflare credentials.
+//   - The LLM triage prompt (see TRIAGE_SYSTEM_PROMPT) treats the submitted note/link as DATA,
+//     never as instructions — bounds what a hostile submission can actually influence to the
+//     title/category/severity of one issue, never code execution or access to anything else.
+// Neither stops a determined human working through the UI by hand — that residual risk is
+// accepted, same trade-off as rate limiting: this cuts automated/casual abuse, not a targeted one.
+//
 // Requires (Netlify site environment variables):
-//   GITHUB_TOKEN    a token (fine-grained, scoped to this repo with Issues:write +
-//                   Contents:write; or a classic token with `repo`) — used for both reading
-//                   open issues and writing new ones/comments/the log file.
-//   GITHUB_OWNER    defaults to "pbezant"
-//   GITHUB_REPO     defaults to "who-reps-me"
-//   LLM_PRESET, LLM_API_KEY   same as local-officials.mjs/submit-official.mjs — pick a FAST
-//                   preset (groq/gemini/mistral), this runs synchronously inside the request.
+//   GITHUB_TOKEN            a token (fine-grained, scoped to this repo with Issues:write +
+//                           Contents:write; or a classic token with `repo`) — used for both
+//                           reading open issues and writing new ones/comments/the log file.
+//   GITHUB_OWNER            defaults to "pbezant"
+//   GITHUB_REPO             defaults to "who-reps-me"
+//   LLM_PRESET, LLM_API_KEY same as local-officials.mjs/submit-official.mjs — pick a FAST
+//                           preset (groq/gemini/mistral), this runs synchronously in the request.
+//   TURNSTILE_SECRET_KEY    optional — from a free Cloudflare account's Turnstile widget. When
+//                           set, a valid token is REQUIRED on every submission (see
+//                           verifyTurnstile()). When unset, verification is skipped entirely —
+//                           this is a soft-fail-open default so the feature still works without
+//                           Cloudflare credentials, not a security guarantee; set this before
+//                           relying on it as a real abuse mitigation. The matching public sitekey
+//                           goes in the FRONTEND's build environment as
+//                           REACT_APP_TURNSTILE_SITE_KEY (see src/ReportBug.js) — a build-time,
+//                           not runtime, variable, since Create React App inlines it into the
+//                           bundle at build time.
 
 import { getStore } from "@netlify/blobs";
 import { createHash } from "node:crypto";
@@ -46,6 +69,7 @@ const MAX_URL_LENGTH = 500;
 const ISSUE_LABEL = "user-reported";
 const BUG_REPORTS_PATH = "BUG_REPORTS.md";
 const GITHUB_API = "https://api.github.com";
+const TURNSTILE_VERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
 
 function jsonResponse(data, status = 200) {
   return new Response(JSON.stringify(data), {
@@ -54,12 +78,45 @@ function jsonResponse(data, status = 200) {
   });
 }
 
-function hashedClientIp(req) {
-  const ip =
+// Netlify sets this on every function invocation; x-forwarded-for is the fallback for local
+// `netlify dev`. Used both to build the rate-limit key (hashed — see hashedClientIp() below) and
+// as Turnstile's optional `remoteip` verification parameter (raw — Cloudflare's own API wants
+// the real address, not a hash).
+function clientIp(req) {
+  return (
     req.headers.get("x-nf-client-connection-ip") ||
     req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
-    "unknown";
+    "unknown"
+  );
+}
+
+// Hashed (not stored raw) — this is only ever used as an abuse-rate counter key, never displayed
+// or matched back to a person.
+function hashedClientIp(ip) {
   return createHash("sha256").update(ip).digest("hex").slice(0, 16);
+}
+
+// Verifies a Turnstile response token against Cloudflare's siteverify endpoint. Returns
+// { ok: true } when verification passed OR when TURNSTILE_SECRET_KEY isn't configured (soft-fail
+// open by design — see this file's own header comment); { ok: false, reason } otherwise. Never
+// throws — a network hiccup talking to Cloudflare degrades to a rejected submission (the visitor
+// can just retry), not an unhandled error.
+async function verifyTurnstile(token, ip) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) return { ok: true };
+  if (!token) return { ok: false, reason: "no token provided" };
+  try {
+    const res = await fetch(TURNSTILE_VERIFY_URL, {
+      method: "POST",
+      headers: { "content-type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({ secret, response: token, ...(ip && ip !== "unknown" ? { remoteip: ip } : {}) }),
+    });
+    const data = await res.json().catch(() => null);
+    if (!data?.success) return { ok: false, reason: (data?.["error-codes"] || []).join(", ") || "verification failed" };
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, reason: `siteverify request failed: ${err.message}` };
+  }
 }
 
 function githubConfig() {
@@ -216,15 +273,22 @@ export default async (req) => {
   if (!note) return jsonResponse({ error: "Tell us what's missing or wrong." }, 400);
   const url = String(body.url || "").trim().slice(0, MAX_URL_LENGTH);
   const context = body.context && typeof body.context === "object" ? body.context : {};
+  const ip = clientIp(req);
 
   const rateLimitStore = getStore(RATE_LIMIT_STORE);
   const today = new Date().toISOString().slice(0, 10);
-  const rateLimitKey = `${today}:${hashedClientIp(req)}`;
+  const rateLimitKey = `${today}:${hashedClientIp(ip)}`;
   const usedToday = (await rateLimitStore.get(rateLimitKey, { type: "json" }).catch(() => null)) || 0;
   if (usedToday >= DAILY_LIMIT_PER_IP) {
     return jsonResponse({ status: "error", error: "You've submitted a lot of these today — try again tomorrow." }, 429);
   }
   await rateLimitStore.setJSON(rateLimitKey, usedToday + 1);
+
+  const turnstileCheck = await verifyTurnstile(String(body.turnstileToken || ""), ip);
+  if (!turnstileCheck.ok) {
+    console.error("report-bug: Turnstile verification failed:", turnstileCheck.reason);
+    return jsonResponse({ status: "error", message: "Verification failed — please try again." }, 400);
+  }
 
   const { token, owner, repo } = githubConfig();
   if (!token) {

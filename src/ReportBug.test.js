@@ -1,9 +1,34 @@
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
 import ReportBug from './ReportBug';
+
+const ORIGINAL_SITE_KEY = process.env.REACT_APP_TURNSTILE_SITE_KEY;
 
 afterEach(() => {
   delete global.fetch;
+  delete window.turnstile;
+  if (ORIGINAL_SITE_KEY === undefined) delete process.env.REACT_APP_TURNSTILE_SITE_KEY;
+  else process.env.REACT_APP_TURNSTILE_SITE_KEY = ORIGINAL_SITE_KEY;
 });
+
+// Stands in for the real Cloudflare script — the component only reaches for window.turnstile
+// (never loads its own <script> tag) when one is already present, so this is enough to exercise
+// the widget-rendering path without any real network/script loading in tests.
+function mockTurnstile() {
+  let captured = null;
+  const render = jest.fn((container, options) => {
+    captured = options;
+    return 'widget-1';
+  });
+  const remove = jest.fn();
+  const reset = jest.fn();
+  window.turnstile = { render, remove, reset };
+  return {
+    render,
+    remove,
+    reset,
+    triggerSuccess: (token = 'fake-turnstile-token') => act(() => captured.callback(token)),
+  };
+}
 
 test('renders only the floating button until clicked', () => {
   render(<ReportBug />);
@@ -117,4 +142,63 @@ test('reopening after a submission starts from a blank form', async () => {
   fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
   expect(screen.getByLabelText(/link to where you saw it/i)).toHaveValue('');
   expect(screen.getByLabelText(/what's missing or wrong/i)).toHaveValue('');
+});
+
+describe('Turnstile (Cloudflare bot check)', () => {
+  test('renders no widget and submits an empty token when no site key is configured', async () => {
+    delete process.env.REACT_APP_TURNSTILE_SITE_KEY;
+    global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: async () => ({ status: 'found', message: 'Thanks!' }) }));
+    render(<ReportBug />);
+    fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+    fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+    fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
+
+    await waitFor(() => expect(global.fetch).toHaveBeenCalled());
+    const sentBody = JSON.parse(global.fetch.mock.calls[0][1].body);
+    expect(sentBody.turnstileToken).toBe('');
+    // Never reached for window.turnstile at all — nothing to render without a site key.
+    expect(window.turnstile).toBeUndefined();
+  });
+
+  test('renders the widget and submits the token once the challenge succeeds', async () => {
+    process.env.REACT_APP_TURNSTILE_SITE_KEY = 'test-site-key';
+    const turnstile = mockTurnstile();
+    global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: async () => ({ status: 'found', message: 'Thanks!' }) }));
+
+    render(<ReportBug />);
+    fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+    expect(turnstile.render).toHaveBeenCalledWith(expect.anything(), expect.objectContaining({ sitekey: 'test-site-key' }));
+
+    turnstile.triggerSuccess('real-looking-token');
+    fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+    fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
+
+    await waitFor(() => expect(global.fetch).toHaveBeenCalled());
+    const sentBody = JSON.parse(global.fetch.mock.calls[0][1].body);
+    expect(sentBody.turnstileToken).toBe('real-looking-token');
+  });
+
+  test('removes the widget on close', () => {
+    process.env.REACT_APP_TURNSTILE_SITE_KEY = 'test-site-key';
+    const turnstile = mockTurnstile();
+    render(<ReportBug />);
+    fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+    fireEvent.click(screen.getByRole('button', { name: /close/i }));
+    expect(turnstile.remove).toHaveBeenCalledWith('widget-1');
+  });
+
+  test('resets the widget after a failed submission so a retry gets a fresh token', async () => {
+    process.env.REACT_APP_TURNSTILE_SITE_KEY = 'test-site-key';
+    const turnstile = mockTurnstile();
+    global.fetch = jest.fn(() => Promise.resolve({ ok: false, status: 400, json: async () => ({ message: 'Verification failed — please try again.' }) }));
+
+    render(<ReportBug />);
+    fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+    turnstile.triggerSuccess();
+    fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+    fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
+
+    await waitFor(() => expect(screen.getByText(/verification failed/i)).toBeInTheDocument());
+    expect(turnstile.reset).toHaveBeenCalledWith('widget-1');
+  });
 });

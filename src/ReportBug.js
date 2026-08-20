@@ -19,6 +19,8 @@ const STATUS_DONE = 'done';
 const MAX_NOTE_LENGTH = 2000;
 const MAX_URL_LENGTH = 500;
 
+const TURNSTILE_SCRIPT_URL = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+
 // Whatever the current search (if any) already tells us — passed along as context so a report
 // like "no results showed up" carries the location that failed, without asking the visitor to
 // retype it. Best-effort: a report made before any search still submits fine with this null.
@@ -35,16 +37,44 @@ export default function ReportBug({ repList }) {
   const [status, setStatus] = useState(STATUS_IDLE);
   // { message, ok, issueUrl? } once a submission has resolved — null before then.
   const [result, setResult] = useState(null);
+  const [turnstileToken, setTurnstileToken] = useState('');
   const urlRef = useRef(null);
+  const turnstileContainerRef = useRef(null);
+  const turnstileWidgetIdRef = useRef(null);
+
+  // Read at render time (not hoisted to a module-level const) so a test can set/clear
+  // process.env.REACT_APP_TURNSTILE_SITE_KEY per-test — Create React App still inlines this via
+  // webpack at build time either way, since that's a straight text substitution wherever the
+  // reference appears, so production behavior is identical.
+  const siteKey = process.env.REACT_APP_TURNSTILE_SITE_KEY;
+
+  // Cloudflare Turnstile (a lightweight, mostly-invisible bot check) in front of a form that
+  // creates real public GitHub content from anonymous input — see report-bug.mjs's own header
+  // comment for why. Resetting the widget on a failed submit gets a fresh token for the retry,
+  // since a token is single-use and the failed attempt likely already spent it against
+  // Cloudflare's siteverify.
+  const resetTurnstile = () => {
+    setTurnstileToken('');
+    if (turnstileWidgetIdRef.current != null && window.turnstile) {
+      window.turnstile.reset(turnstileWidgetIdRef.current);
+    }
+  };
 
   const openDialog = () => {
     setUrl('');
     setNote('');
     setStatus(STATUS_IDLE);
     setResult(null);
+    setTurnstileToken('');
     setOpen(true);
   };
-  const closeDialog = () => setOpen(false);
+  const closeDialog = () => {
+    if (turnstileWidgetIdRef.current != null && window.turnstile) {
+      window.turnstile.remove(turnstileWidgetIdRef.current);
+      turnstileWidgetIdRef.current = null;
+    }
+    setOpen(false);
+  };
 
   useEffect(() => {
     if (!open) return;
@@ -54,7 +84,44 @@ export default function ReportBug({ repList }) {
     };
     document.addEventListener('keydown', onKeyDown);
     return () => document.removeEventListener('keydown', onKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
+
+  // Loaded lazily (only once the dialog actually opens, not on every page view of the app) and
+  // only when a site key is configured — with none set, this does nothing at all, and the
+  // server-side check skips verification too (see report-bug.mjs), so local dev and this repo's
+  // own CI never need Cloudflare credentials. Deliberately does NOT gate the submit button on
+  // having a token: if the script is slow, blocked by an ad-blocker, or Cloudflare has an
+  // outage, a hard client-side gate would lock out a genuine visitor with no way to know why.
+  // The server is the real enforcement point — an empty/invalid token there just surfaces as a
+  // normal "verification failed, try again" result, same as any other submit error.
+  useEffect(() => {
+    if (!open || !siteKey) return;
+    const renderWidget = () => {
+      if (!turnstileContainerRef.current || !window.turnstile || turnstileWidgetIdRef.current != null) return;
+      turnstileWidgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
+        sitekey: siteKey,
+        callback: (token) => setTurnstileToken(token),
+        'expired-callback': () => setTurnstileToken(''),
+        'error-callback': () => setTurnstileToken(''),
+      });
+    };
+    if (window.turnstile) {
+      renderWidget();
+      return;
+    }
+    const existing = document.querySelector(`script[src="${TURNSTILE_SCRIPT_URL}"]`);
+    if (existing) {
+      existing.addEventListener('load', renderWidget, { once: true });
+      return () => existing.removeEventListener('load', renderWidget);
+    }
+    const script = document.createElement('script');
+    script.src = TURNSTILE_SCRIPT_URL;
+    script.async = true;
+    script.addEventListener('load', renderWidget, { once: true });
+    document.head.appendChild(script);
+    return () => script.removeEventListener('load', renderWidget);
+  }, [open, siteKey]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -69,6 +136,7 @@ export default function ReportBug({ repList }) {
         body: JSON.stringify({
           note: trimmedNote,
           url: url.trim(),
+          turnstileToken,
           context: {
             page: `${window.location.pathname}${window.location.search}`,
             userAgent: navigator.userAgent,
@@ -79,12 +147,14 @@ export default function ReportBug({ repList }) {
       const data = await res.json().catch(() => ({}));
       if (!res.ok || data.status === 'error') {
         setResult({ ok: false, message: data.error || data.message || `Something went wrong (HTTP ${res.status}).` });
+        resetTurnstile();
       } else {
         setResult({ ok: true, message: data.message || 'Thanks for the help!', issueUrl: data.issueUrl || null });
       }
     } catch (error) {
       console.error('Contribution submission failed:', error);
       setResult({ ok: false, message: "Couldn't reach the server — check your connection and try again." });
+      resetTurnstile();
     } finally {
       setStatus(STATUS_DONE);
     }
@@ -138,6 +208,7 @@ export default function ReportBug({ repList }) {
                 required
                 disabled={status === STATUS_SUBMITTING}
               />
+              {siteKey && <div className="report-bug-turnstile" ref={turnstileContainerRef} />}
               <button type="submit" className="report-bug-submit" disabled={status === STATUS_SUBMITTING || !note.trim()}>
                 {status === STATUS_SUBMITTING ? 'Sending…' : 'Send it in'}
               </button>
