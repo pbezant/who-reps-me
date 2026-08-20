@@ -1,5 +1,6 @@
-# One daily pipeline: promote -> scrape -> discover -> QA-check, sharing one daily LLM-call
-# budget across all four phases instead of each having its own fixed, independent cap.
+# One daily pipeline: promote -> scrape -> discover -> QA-check -> dedupe, sharing one daily
+# LLM-call budget across the four LLM-calling phases instead of each having its own fixed,
+# independent cap. (Dedupe is the exception — zero LLM calls, see phase 5 below.)
 #
 # Replaces the separate scrape.yml, discover-jurisdictions.yml, and promote-blob-finds.yml
 # workflows (deleted — this supersedes all three). Collapsing them into one sequential job does
@@ -24,8 +25,18 @@
 #   3. Discover (src/discover-jurisdictions.js) — grows tomorrow's scrape queue with whatever
 #      budget scraping didn't need today.
 #   4. QA check (scripts/qa-check.js) — re-verifies a small, budget-aware sample of already-
-#      scraped roster pages against a fresh extraction, correcting/flagging drift. Runs last and
-#      stays capped small (QA_SAMPLE_SIZE) on purpose — a spot-check, not a big budget sink.
+#      scraped roster pages against a fresh extraction, correcting/flagging drift. Runs last of
+#      the LLM-calling phases and stays capped small (QA_SAMPLE_SIZE) on purpose — a spot-check,
+#      not a big budget sink.
+#   5. Dedupe (scripts/dedupe-shard.js) — zero LLM calls, so no budget interaction with phases
+#      2-4; runs last purely so it cleans up whatever those phases just wrote this run, not
+#      because it depends on their budget. Re-derives every record's id with normalize.js's
+#      current buildId() and merges any records that land on the same id — the safety net for the
+#      duplicate-id bug documented in that script's own header (two scrape runs extracting the
+#      same person under slightly different office phrasing used to produce two permanent
+#      records instead of one upserted one). That bug is believed fixed at the source now, but
+#      shards are static committed data, not re-validated on every push, so this catches any
+#      straggler or future regression of the same shape before it accumulates.
 #
 # Each phase reads scraper/data/llm-usage.json (src/usage-ledger.js) for how much of today's
 # shared cap is left, converts that into its own jurisdiction/sample budget via its own observed
@@ -52,6 +63,7 @@
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run scrape
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
 #   LLM_PRESET=gemini LLM_API_KEY=... node scripts/qa-check.js
+#   for shard in ../public/officials/*.json; do node scripts/dedupe-shard.js "$shard"; done
 
 name: Daily data pipeline
 
@@ -200,6 +212,14 @@ jobs:
           QA_SAMPLE_SIZE: ${{ inputs.qa_sample_size || vars.QA_SAMPLE_SIZE }}
         run: node scraper/scripts/qa-check.js
 
+      - name: "Phase 5: dedupe shards"
+        working-directory: scraper
+        run: |
+          for shard in ../public/officials/*.json; do
+            [ "$(basename "$shard")" = "index.json" ] && continue
+            node scripts/dedupe-shard.js "$shard"
+          done
+
       - name: Commit updated data to a branch
         id: commit_data
         run: |
@@ -212,7 +232,7 @@ jobs:
           else
             branch="data/daily-run-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
             git checkout -b "$branch"
-            git commit -m "chore(data): daily pipeline run (promote/scrape/discover/qa)"
+            git commit -m "chore(data): daily pipeline run (promote/scrape/discover/qa/dedupe)"
             git push -u origin "$branch"
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
             echo "branch=$branch" >> "$GITHUB_OUTPUT"
@@ -239,7 +259,7 @@ jobs:
         run: |
           pr_url=$(gh pr create \
             --title "chore(data): daily pipeline run ($(date -u +%Y-%m-%d))" \
-            --body "Automated daily pipeline run (promote/scrape/discover/qa). See this run's job summary for phase-by-phase logs." \
+            --body "Automated daily pipeline run (promote/scrape/discover/qa/dedupe). See this run's job summary for phase-by-phase logs." \
             --base "$GITHUB_REF_NAME" \
             --head "$BRANCH")
           echo "Opened $pr_url — waiting on CI before merging..."
