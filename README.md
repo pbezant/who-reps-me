@@ -12,13 +12,14 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
 
-### Report a bug
+### Help us grow this map
 
-A floating button (bottom-right, always visible) opens a short form for reporting a problem —
-wrong data, something broken, whatever. Each submission is triaged by an LLM on the spot: it
-checks the report against currently-open `user-reported` issues to catch duplicates (commenting
-on the existing issue instead of filing a new one), then either opens a new GitHub issue or logs
-it, and appends a row to [`BUG_REPORTS.md`](BUG_REPORTS.md) either way. See
+A floating button (bottom-right, always visible) lets a visitor drop a link to where they saw a
+missing or outdated official, plus a quick note. Each submission is triaged by an LLM on the
+spot: it checks the note against currently-open `user-reported` issues to catch duplicates
+(commenting on the existing issue instead of filing a new one), then either opens a new GitHub
+issue or comments on the matching one, and appends a row to [`BUG_REPORTS.md`](BUG_REPORTS.md)
+either way. This files the report for a human to review — it doesn't itself trigger a scrape; see
 `netlify/functions/report-bug.mjs`'s own header comment for the full flow and required
 `GITHUB_TOKEN` setup.
 

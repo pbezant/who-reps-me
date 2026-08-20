@@ -7,50 +7,60 @@ afterEach(() => {
 
 test('renders only the floating button until clicked', () => {
   render(<ReportBug />);
-  expect(screen.getByRole('button', { name: /report a bug/i })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /help us grow this map/i })).toBeInTheDocument();
   expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
 });
 
-test('opens the dialog on click, focused on the description field', () => {
+test('opens the dialog on click, focused on the link field', () => {
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
   expect(screen.getByRole('dialog')).toBeInTheDocument();
-  expect(screen.getByLabelText(/what went wrong/i)).toHaveFocus();
+  expect(screen.getByLabelText(/link to where you saw it/i)).toHaveFocus();
 });
 
 test('Escape closes the dialog', () => {
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
   fireEvent.keyDown(document, { key: 'Escape' });
   expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
 });
 
-test('the submit button stays disabled with no description entered', () => {
+test('the submit button stays disabled with no note entered, even with a link', () => {
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  expect(screen.getByRole('button', { name: /submit/i })).toBeDisabled();
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/link to where you saw it/i), { target: { value: 'https://example.gov/council' } });
+  expect(screen.getByRole('button', { name: /send it in/i })).toBeDisabled();
 });
 
-test('submits the description plus page/search context to /api/report-bug', async () => {
+test('the link field is optional — a note alone enables submit', () => {
+  render(<ReportBug />);
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'The mayor shown is wrong' } });
+  expect(screen.getByRole('button', { name: /send it in/i })).not.toBeDisabled();
+});
+
+test('submits the note, link, and page/search context to /api/report-bug', async () => {
   global.fetch = jest.fn(() =>
     Promise.resolve({
       ok: true,
-      json: async () => ({ status: 'found', message: 'Thanks! We filed this.', issueUrl: 'https://github.com/pbezant/who-reps-me/issues/7' }),
+      json: async () => ({ status: 'found', message: "Thanks for the help! We'll get it added.", issueUrl: 'https://github.com/pbezant/who-reps-me/issues/7' }),
     })
   );
   const repList = { geo: { place: 'Elgin', county: null, state: 'TX' } };
   render(<ReportBug repList={repList} />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  fireEvent.change(screen.getByLabelText(/what went wrong/i), { target: { value: 'The mayor shown is wrong' } });
-  fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/link to where you saw it/i), { target: { value: 'https://www.elgintx.com/149/City-Council' } });
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'The mayor shown is wrong' } });
+  fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
 
-  await waitFor(() => expect(screen.getByText(/thanks! we filed this/i)).toBeInTheDocument());
+  await waitFor(() => expect(screen.getByText(/thanks for the help/i)).toBeInTheDocument());
 
   expect(global.fetch).toHaveBeenCalledTimes(1);
-  const [url, options] = global.fetch.mock.calls[0];
-  expect(url).toBe('/api/report-bug');
+  const [calledUrl, options] = global.fetch.mock.calls[0];
+  expect(calledUrl).toBe('/api/report-bug');
   const sentBody = JSON.parse(options.body);
-  expect(sentBody.description).toBe('The mayor shown is wrong');
+  expect(sentBody.note).toBe('The mayor shown is wrong');
+  expect(sentBody.url).toBe('https://www.elgintx.com/149/City-Council');
   expect(sentBody.context.search).toEqual({ place: 'Elgin', county: null, state: 'TX' });
 
   expect(screen.getByRole('link', { name: /view the issue/i })).toHaveAttribute(
@@ -59,36 +69,37 @@ test('submits the description plus page/search context to /api/report-bug', asyn
   );
 });
 
-test('omits search context when no search has run yet', async () => {
+test('submits an empty url when no link was entered', async () => {
   global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: async () => ({ status: 'found', message: 'Thanks!' }) }));
   render(<ReportBug repList={null} />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  fireEvent.change(screen.getByLabelText(/what went wrong/i), { target: { value: 'Page is blank' } });
-  fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Page is blank' } });
+  fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
 
   await waitFor(() => expect(global.fetch).toHaveBeenCalled());
   const sentBody = JSON.parse(global.fetch.mock.calls[0][1].body);
+  expect(sentBody.url).toBe('');
   expect(sentBody.context.search).toBeNull();
 });
 
 test('shows the backend error message on a validation/rate-limit failure', async () => {
   global.fetch = jest.fn(() =>
-    Promise.resolve({ ok: false, status: 429, json: async () => ({ error: "You've submitted a lot of reports today — try again tomorrow." }) })
+    Promise.resolve({ ok: false, status: 429, json: async () => ({ error: "You've submitted a lot of these today — try again tomorrow." }) })
   );
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  fireEvent.change(screen.getByLabelText(/what went wrong/i), { target: { value: 'Something broke' } });
-  fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+  fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
 
-  await waitFor(() => expect(screen.getByText(/submitted a lot of reports today/i)).toBeInTheDocument());
+  await waitFor(() => expect(screen.getByText(/submitted a lot of these today/i)).toBeInTheDocument());
 });
 
 test('shows a network-failure message when the request itself throws', async () => {
   global.fetch = jest.fn(() => Promise.reject(new Error('network down')));
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  fireEvent.change(screen.getByLabelText(/what went wrong/i), { target: { value: 'Something broke' } });
-  fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+  fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
 
   await waitFor(() => expect(screen.getByText(/couldn't reach the server/i)).toBeInTheDocument());
 });
@@ -96,12 +107,14 @@ test('shows a network-failure message when the request itself throws', async () 
 test('reopening after a submission starts from a blank form', async () => {
   global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: async () => ({ status: 'found', message: 'Thanks!' }) }));
   render(<ReportBug />);
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  fireEvent.change(screen.getByLabelText(/what went wrong/i), { target: { value: 'Something broke' } });
-  fireEvent.click(screen.getByRole('button', { name: /submit/i }));
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  fireEvent.change(screen.getByLabelText(/link to where you saw it/i), { target: { value: 'https://example.gov/council' } });
+  fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+  fireEvent.click(screen.getByRole('button', { name: /send it in/i }));
   await waitFor(() => expect(screen.getByText(/^thanks!$/i)).toBeInTheDocument());
 
   fireEvent.click(screen.getByRole('button', { name: /close/i }));
-  fireEvent.click(screen.getByRole('button', { name: /report a bug/i }));
-  expect(screen.getByLabelText(/what went wrong/i)).toHaveValue('');
+  fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+  expect(screen.getByLabelText(/link to where you saw it/i)).toHaveValue('');
+  expect(screen.getByLabelText(/what's missing or wrong/i)).toHaveValue('');
 });

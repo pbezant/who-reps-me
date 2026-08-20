@@ -7,9 +7,9 @@ test('renders the search page', () => {
   expect(screen.getByPlaceholderText(/address or zip code/i)).toBeInTheDocument();
 });
 
-test('shows the "report a bug" button even before any search has run', () => {
+test('shows the "help us grow this map" button even before any search has run', () => {
   render(<App />);
-  expect(screen.getByRole('button', { name: /report a bug/i })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /help us grow this map/i })).toBeInTheDocument();
 });
 
 describe('officesFromFieldOffices', () => {
