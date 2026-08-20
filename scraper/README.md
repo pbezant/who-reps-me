@@ -230,6 +230,58 @@ netlify dev
   builds `public/federal-details.json` (term dates, committee assignments, DC office,
   crowdsourced district offices, a Wikipedia bio blurb). See "Photos and social links" below.
 
+## Suggested-official URL submissions ("suggest an official")
+
+A third way coverage grows, alongside the batch scraper and on-demand scraping above: the
+frontend shows a floating button (bottom-right, once a search has produced results) that lets a
+visitor paste a URL pointing at an elected official — a roster page or a single official's own
+bio page. This is the ONE place in the project that fetches a URL supplied by an anonymous
+visitor rather than one an LLM recalled (`discover.js`) or a contributor hand-authored
+(`config/seeds.json`), which is why it gets its own SSRF guard (`src/urlSafety.js`) that the
+other two paths don't need.
+
+```
+visitor pastes a URL
+        │
+        ▼
+netlify/functions/submit-official.mjs  (POST /api/submit-official)
+        │
+        ├─ 1. src/urlSafety.js: reject non-http(s) schemes, embedded credentials, localhost,
+        │     and private/loopback/link-local IPv4+IPv6 literals (best-effort — no DNS
+        │     resolution/pinning, see that file's own header comment for the honest gap)
+        │
+        ├─ 2. per-IP daily rate limit (Netlify Blobs counter) — this path spends a real fetch
+        │     + LLM call per submission, unlike a shard/cache lookup
+        │
+        ├─ 3. same fetch pipeline (fetch.js, no browser fallback — same reasoning as
+        │     on-demand scraping above) + a THIRD extraction prompt, extractOfficialSubmission()
+        │     in extract.js — unlike extractOfficials()/extractOfficialDetail(), the
+        │     jurisdiction isn't known ahead of time, so this one has to infer city/county/
+        │     state/level from the page itself, alongside deciding whether it even looks like a
+        │     legitimate government source at all
+        │
+        └─ 4. save the full result to Netlify Blobs (store "official-url-submissions", keyed by
+              a hash of the URL) and tell the visitor what was found — never written to
+              public/officials/<STATE>.json directly from this unauthenticated endpoint
+```
+
+- **Not promoted into the committed shard automatically — unless `promote-url-submissions.js`
+  runs.** Same shape as `promote-blob-finds.js` (see above), and zero additional LLM calls for
+  the same reason: the submission was already fully extracted at submit time.
+  `scripts/promote-url-submissions.js` auto-promotes a submission only when it cleared every bar:
+  the extraction reported `is_government_source`, resolved a city+state, is local/county level
+  (this dataset's scope — state legislators/executives and federal reps are sourced elsewhere,
+  see the root README's "Data sources" table), and at least one official cleared a confidence
+  floor. Everything else is left in Blobs, unpromoted, and printed in that script's "needs a
+  manual look" output instead of silently discarded or silently added. Runs as phase 1b of
+  `.github/workflows/run-daily.yml`, right after `promote-blob-finds.js`, or by hand:
+  ```bash
+  cd scraper
+  NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-url-submissions
+  ```
+- **Setup**: same Netlify environment variables as on-demand scraping above (`LLM_PRESET`,
+  `LLM_API_KEY` — pick a fast preset, this also runs synchronously inside a request).
+
 ## Photos and social links
 
 Every official record carries `photo_url`, a `social` object
