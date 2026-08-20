@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
 import { geocode, normalizePlace } from './geocode';
@@ -25,6 +25,13 @@ function App() {
 }
 export default App;
 
+// Free, keyless address-suggestion API (Komoot's public Photon instance, built on
+// OpenStreetMap data). It's a shared demo server — no SLA, rate-limited — which is fine for
+// a low-traffic personal project but worth knowing if this ever gets busy.
+const PHOTON_URL = 'https://photon.komoot.io/api/';
+const MIN_SUGGEST_CHARS = 3;
+const SUGGEST_DEBOUNCE_MS = 300;
+
 // 'idle' -> 'searching' (normal fetch, usually well under a second) -> possibly 'scraping'
 // (this search fell through to a live on-demand scrape that's taking a while — see
 // scrapeLocalOfficials()'s SLOW_THRESHOLD_MS) -> back to 'idle'.
@@ -37,22 +44,98 @@ function SearchBar({ apiKey, setRepList }) {
   // note from a previous city never lingers onto this one.
   const [scrapeNote, setScrapeNote] = useState(null);
   const loading = status !== 'idle';
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(-1);
+  const containerRef = useRef(null);
+  const debounceRef = useRef(null);
+  const abortRef = useRef(null);
 
-  const handleChange = (event) => {
-    setLocation(event.target.value);
+  // Close the suggestion dropdown on outside click, and clean up in-flight
+  // timers/requests when the component unmounts.
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (containerRef.current && !containerRef.current.contains(e.target)) {
+        setShowSuggestions(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      clearTimeout(debounceRef.current);
+      if (abortRef.current) abortRef.current.abort();
+    };
+  }, []);
+
+  const fetchSuggestions = (value) => {
+    clearTimeout(debounceRef.current);
+    if (abortRef.current) abortRef.current.abort();
+
+    if (value.trim().length < MIN_SUGGEST_CHARS) {
+      setSuggestions([]);
+      setShowSuggestions(false);
+      return;
+    }
+
+    debounceRef.current = setTimeout(async () => {
+      const controller = new AbortController();
+      abortRef.current = controller;
+      try {
+        // Ask for more than we'll show — Photon is a global index, so a plain place name
+        // often ranks non-US matches first; over-fetch and filter down to US results below.
+        const res = await fetch(
+          `${PHOTON_URL}?q=${encodeURIComponent(value)}&limit=10&lang=en`,
+          { signal: controller.signal }
+        );
+        if (!res.ok) return;
+        const data = await res.json();
+        const results = (data.features || [])
+          .filter((f) => {
+            const { countrycode, country } = f.properties || {};
+            if (countrycode) return countrycode === 'US';
+            if (country) return country === 'United States';
+            return true;
+          })
+          .map((f) => formatAddress(f.properties))
+          .filter(Boolean);
+        // Multiple POIs (e.g. separate venues in one building) can share an address, which
+        // formatAddress collapses to the same string — de-dupe before capping the list.
+        const deduped = [...new Set(results)].slice(0, 5);
+        setSuggestions(deduped);
+        setShowSuggestions(deduped.length > 0);
+        setHighlightIndex(-1);
+      } catch (error) {
+        if (error.name !== 'AbortError') console.error('Address suggestion lookup failed:', error);
+      }
+    }, SUGGEST_DEBOUNCE_MS);
   };
 
-  const executeSearch = async () => {
-    if (!location.trim() || loading) return;
+  const handleChange = (event) => {
+    const value = event.target.value;
+    setLocation(value);
+    fetchSuggestions(value);
+  };
+
+  const selectSuggestion = (label) => {
+    setSuggestions([]);
+    setShowSuggestions(false);
+    setLocation(label);
+    executeSearch(label);
+  };
+
+  const executeSearch = async (overrideLocation) => {
+    const query = (overrideLocation ?? location).trim();
+    if (!query || loading) return;
+    setShowSuggestions(false);
     setStatus('searching');
     setScrapeNote(null);
     try {
       // Geocode first (authoritative city/county/state + the coordinates the state-legislator
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
-      const geo = await geocode(location);
+      const geo = await geocode(query);
       const [fedState, shard, federalSocial, federalDetails, stateCards, executiveCards] = await Promise.all([
-        getRepList(apiKey, location),
+        getRepList(apiKey, query),
         getOfficialsShard(geo?.state),
         getFederalSocial(),
         getFederalDetails(),
@@ -88,19 +171,77 @@ function SearchBar({ apiKey, setRepList }) {
     }
   }
 
+  // Arrow keys move through suggestions; Escape closes the list. Enter is handled directly
+  // here (rather than left to the browser's implicit submit-on-Enter) so it reliably fires
+  // the search — with or without a highlighted suggestion — across browsers.
+  const handleKeyDown = (e) => {
+    if (showSuggestions && suggestions.length) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setHighlightIndex((i) => (i + 1) % suggestions.length);
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setHighlightIndex((i) => (i - 1 + suggestions.length) % suggestions.length);
+        return;
+      }
+      if (e.key === 'Escape') {
+        setShowSuggestions(false);
+        return;
+      }
+      if (e.key === 'Enter' && highlightIndex >= 0) {
+        e.preventDefault();
+        selectSuggestion(suggestions[highlightIndex]);
+        return;
+      }
+    }
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      executeSearch();
+    }
+  };
+
   return (
-    <div className='search-bar'>
-      <input
-        type="text"
-        className="search"
-        value={location}
-        onChange={handleChange}
-        onKeyDown={(e) => e.key === 'Enter' && executeSearch()}
-        placeholder="Enter your address or zip code"
-      />
+    <div className='search-bar' ref={containerRef}>
+      <div className="search-input-wrap">
+        <input
+          type="text"
+          className="search"
+          name="address"
+          value={location}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          onFocus={() => suggestions.length && setShowSuggestions(true)}
+          placeholder="Enter your address or zip code"
+          // "street-address" lets the browser's own saved-address autofill offer to fill
+          // this field, alongside the live Photon suggestions below.
+          autoComplete="street-address"
+          role="combobox"
+          aria-expanded={showSuggestions}
+          aria-autocomplete="list"
+          aria-controls="address-suggestions-list"
+        />
+        {showSuggestions && (
+          <ul className="address-suggestions" role="listbox" id="address-suggestions-list">
+            {suggestions.map((label, i) => (
+              <li
+                key={`${label}-${i}`}
+                role="option"
+                aria-selected={i === highlightIndex}
+                className={i === highlightIndex ? 'active' : ''}
+                onMouseDown={(e) => { e.preventDefault(); selectSuggestion(label); }}
+                onMouseEnter={() => setHighlightIndex(i)}
+              >
+                {label}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
       <button
         className='button-cta'
-        onClick={executeSearch}
+        onClick={() => executeSearch()}
         disabled={loading}
       >
         <span className="text">{status === 'scraping' ? 'Gathering local data…' : loading ? 'Searching…' : 'Search'}</span>
@@ -130,6 +271,19 @@ export function localScrapeNote({ city, found, error, source }) {
     return `No local officials found for ${city} in our last check — this is retried automatically within the week.`;
   }
   return `No local officials found for ${city} yet.`;
+}
+
+// Build a human-readable address string from a Photon feature's properties.
+function formatAddress(props) {
+  const parts = [];
+  const line1 = [props.housenumber, props.street].filter(Boolean).join(' ');
+  if (line1) parts.push(line1);
+  else if (props.name) parts.push(props.name);
+  if (props.city) parts.push(props.city);
+  else if (props.county) parts.push(props.county);
+  if (props.state) parts.push(props.state);
+  if (props.postcode) parts.push(props.postcode);
+  return parts.join(', ');
 }
 
 async function getRepList(apiKey, location) {
@@ -567,49 +721,74 @@ function CommitteesList({ committees }) {
   );
 }
 
+// Local officials go first (see the comment in executeSearch above for why), then federal,
+// then state — each rendered as its own labeled section.
+const GROUP_ORDER = ['Local', 'Federal', 'State'];
+
+function repGroup(rep) {
+  if (rep.isLocal) return 'Local';
+  if (rep.area === 'US House' || rep.area === 'US Senate') return 'Federal';
+  return 'State';
+}
+
 function Results({ repList }) {
+  const reps = repList?.representatives;
+  if (!reps?.length) return null;
+
+  const groups = { Local: [], Federal: [], State: [] };
+  reps.forEach((rep) => groups[repGroup(rep)].push(rep));
+
   return (
     <section className="results">
-      {/* <pre>{JSON.stringify(repList, null, 2)}</pre> */}
-      {repList?.representatives?.map((rep) => (
-        <section key={rep.id} className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-
-
-          <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
-          <div>
-            <h2>{rep.name}</h2>
-            <ul>
-              <li>
-                {rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}
-                {rep.district && ` — ${rep.district}`}
-              </li>
-              {rep.body && <li className="rep-body">{rep.body}</li>}
-              {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
-              {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
-              {rep.address && <li className="rep-address">{rep.address}</li>}
-              {rep.hours && <li className="rep-hours">{rep.hours}</li>}
-              {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
-              <SocialLinks social={rep.social} />
-              {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
-              {rep.bio && <li className="rep-bio">{rep.bio}</li>}
-              <CommitteesList committees={rep.committees} />
-              <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
-              {rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD && (
-                <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
-              )}
-              {rep.verifiedAt && (
-                <li className="rep-verified">
-                  Verified {formatDate(rep.verifiedAt)}
-                  {rep.sourceUrl && (
-                    <> · <a href={rep.sourceUrl} target="_blank" rel="noreferrer noopener">source</a></>
-                  )}
-                </li>
-              )}
-            </ul>
+      {GROUP_ORDER.filter((name) => groups[name].length).map((name) => (
+        <section key={name} className="rep-group">
+          <h2 className="rep-group-heading">{name}</h2>
+          <div className="rep-group-cards">
+            {groups[name].map((rep) => (
+              <RepCard key={rep.id} rep={rep} />
+            ))}
           </div>
-
         </section>
       ))}
+    </section>
+  );
+}
+
+function RepCard({ rep }) {
+  return (
+    <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
+      <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
+      <div>
+        <h2>{rep.name}</h2>
+        <ul>
+          <li>
+            {rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}
+            {rep.district && ` — ${rep.district}`}
+          </li>
+          {rep.body && <li className="rep-body">{rep.body}</li>}
+          {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
+          {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
+          {rep.address && <li className="rep-address">{rep.address}</li>}
+          {rep.hours && <li className="rep-hours">{rep.hours}</li>}
+          {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
+          <SocialLinks social={rep.social} />
+          {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
+          {rep.bio && <li className="rep-bio">{rep.bio}</li>}
+          <CommitteesList committees={rep.committees} />
+          <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
+          {rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD && (
+            <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
+          )}
+          {rep.verifiedAt && (
+            <li className="rep-verified">
+              Verified {formatDate(rep.verifiedAt)}
+              {rep.sourceUrl && (
+                <> · <a href={rep.sourceUrl} target="_blank" rel="noreferrer noopener">source</a></>
+              )}
+            </li>
+          )}
+        </ul>
+      </div>
     </section>
   );
 }
