@@ -24,11 +24,15 @@
 // via seeds.js's loadJurisdictions() (config/seeds.json ∪ config/seeds.discovered.json).
 //
 // Needs a real LLM_PRESET/LLM_API_KEY to be useful in a reasonable amount of time — each
-// discovery attempt is up to 1 + fetchBudget LLM calls, so a slow keyless provider makes even a
-// modest budget slow (same trade-off already documented for the on-demand Netlify path in
-// scraper/README.md). Defaults to gemini — see this workflow's own defaults in
-// discover-jurisdictions.yml. At DISCOVER_BUDGET=100 and up to 7 LLM calls each, a run's worst
-// case (700 calls) stays comfortably under Gemini's 1,500 requests/day free-tier cap.
+// discovery attempt is up to 1 + fetchBudget LLM calls (9 at findRosterPage()'s current default,
+// see discover.js), so a slow keyless provider makes even a modest budget slow (same trade-off
+// already documented for the on-demand Netlify path in scraper/README.md). Defaults to gemini —
+// see this workflow's own defaults in discover-jurisdictions.yml. At DISCOVER_BUDGET=100 and up
+// to 9 LLM calls each, a run's worst case (900 calls) stays under Gemini's 1,500 requests/day
+// free-tier cap on its own — but with less headroom than before, and combined with the same
+// day's scrape.yml run (up to another 1,100), the shared daily cap can genuinely be hit; extract.js
+// already throttles/retries on 429 rather than failing outright, so a day that hits the cap just
+// makes less progress, not an error.
 //
 // Usage:
 //   DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... node src/discover-jurisdictions.js

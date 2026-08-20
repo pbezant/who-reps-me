@@ -11,7 +11,7 @@
 # scrape or the federal-details refresh.
 #
 # Defaults to LLM_PRESET=gemini (needs the repo SECRET LLM_API_KEY), same as scrape.yml — each
-# discovery attempt is up to 7 LLM calls, so a slow keyless provider makes even a modest budget
+# discovery attempt is up to 9 LLM calls, so a slow keyless provider makes even a modest budget
 # slow (same trade-off scraper/README.md documents for the on-demand Netlify discovery path). Set
 # the repository variable LLM_PRESET to switch providers.
 #
@@ -37,9 +37,12 @@ name: Discover new jurisdictions
 
 on:
   schedule:
-    # Weekly, offset from scrape.yml's Monday 07:00 UTC slot so the two never compete for the
-    # same free-tier LLM rate-limit window in the same hour.
-    - cron: "0 7 * * 4"
+    # TEMPORARY: daily through 2026-09-04 (a 15-day nationwide coverage push agreed on
+    # 2026-08-20, budget 100/day), 3 hours ahead of scrape.yml's own daily 09:00 UTC slot so a
+    # day's newly discovered jurisdictions are committed before scrape.yml looks for what's due
+    # — and so the two never compete for the same free-tier LLM rate-limit window at once.
+    # Revert to "0 7 * * 4" (weekly Thursday) after that date.
+    - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       states:

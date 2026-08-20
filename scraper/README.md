@@ -146,13 +146,20 @@ netlify/functions/local-officials.mjs  (POST /api/local-officials)
   request/response function. A jurisdiction that needs it fails soft here and stays eligible
   for the batch scraper (which does have the browser fallback, via `browser.js`) to pick up
   later if it's ever added to `seeds.json`/discovered by `discover-jurisdictions.js`.
-- **Not promoted into the committed shard automatically.** An on-demand find lives only in
-  Blobs, separate from `public/officials/<STATE>.json`. It works (the frontend checks Blobs
-  whenever the shard misses), but the batch scraper never sees it, and Blobs isn't backed up —
-  if you want the URL it found in the permanent, git-committed dataset too, copy it into
-  `config/seeds.json` by hand (or let `discover-jurisdictions.js` find the same jurisdiction on
-  its own schedule — see "Dynamic jurisdiction discovery" below, which *does* write into a
-  committed file).
+- **Not promoted into the committed shard automatically — unless `promote-blob-finds.js` runs.**
+  An on-demand find lives only in Blobs by default, separate from `public/officials/<STATE>.json`.
+  It works on its own (the frontend checks Blobs whenever the shard misses), but the batch
+  scraper never sees it and Blobs isn't backed up. `scripts/promote-blob-finds.js` closes this
+  gap: it reads every cached hit in the Blobs store and writes anything not already in
+  `seeds.json`/`seeds.discovered.json` into `seeds.discovered.json`, in the exact shape
+  `discover-jurisdictions.js`'s own hits use — so a promoted find gets the same 30-day refresh
+  cycle as everything else from then on. Needs live Netlify credentials (`NETLIFY_AUTH_TOKEN`,
+  `NETLIFY_SITE_ID` — see the script's own header comment for where to get them); runs weekly via
+  `.github/workflows/promote-blob-finds.yml` once those two repo secrets are set, or by hand:
+  ```bash
+  cd scraper
+  NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-blob-finds
+  ```
 
 ### Setup: Netlify environment variables
 
@@ -504,10 +511,14 @@ both queues, not just within whichever state happens to sort first.
 scheduled `scrape.yml` run) picks up anything newly discovered automatically via `seeds.js`.
 
 Needs a real `LLM_PRESET`/`LLM_API_KEY` to be useful in a reasonable time — each attempt is up to
-7 LLM calls, so a slow keyless provider makes even a 15-jurisdiction budget slow (same trade-off
-as the on-demand Netlify path). Defaults to `gemini`, same as `scrape.yml`. Runs on its own
-schedule via `.github/workflows/discover-jurisdictions.yml`, decoupled from
-`scrape.yml`/`federal-social.yml` the same way those two are decoupled from each other.
+9 LLM calls (1 site-recall call + up to `findRosterPage()`'s `fetchBudget`, 8 — see that
+function's own header comment in `discover.js` for why it's tuned this high: a lower bar
+(`minOfficials`) was accepting a page with 1-2 names as "the roster" for jurisdictions whose real
+council/commission has far more members), so a slow keyless provider makes even a 15-jurisdiction
+budget slow (same trade-off as the on-demand Netlify path). Defaults to `gemini`, same as
+`scrape.yml`. Runs on its own schedule via `.github/workflows/discover-jurisdictions.yml`,
+decoupled from `scrape.yml`/`federal-social.yml` the same way those two are decoupled from each
+other.
 
 ## Seed list
 

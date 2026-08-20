@@ -117,6 +117,18 @@ export function sameOriginNewLinks(links, origin, visited) {
 // crawl had stopped there. So keep crawling until either the budget runs out or the count looks
 // like an actual roster (>= minOfficials), not just any non-zero result.
 //
+// minOfficials=3 (the original default) was too low in practice: a nationwide discovery run
+// logged plenty of "hits" that were really just an early, partial page — Cook County, IL (a
+// 17-member Board of Commissioners) stopped at 1; Philadelphia (17-member City Council) stopped
+// at 1; Davidson County/Nashville (40-member Metro Council) stopped at 1 — because the crawl
+// accepted the very first page that cleared the bar instead of continuing toward the actual
+// full roster. Raised to 7 so a small city council (5-9 members, common) still converges quickly
+// while a page that's obviously just an office/department listing no longer passes as "done".
+// byId accumulates across every hop rather than resetting, so a higher bar only ever costs a
+// few extra fetches on a jurisdiction that's genuinely small — it never discards what an earlier
+// hop already found. fetchBudget raised alongside it (6 -> 8) so there's room for those extra
+// hops on a real multi-level site instead of exhausting the budget with nothing to show for it.
+//
 // Returns { officials, sourceUrl, error }. `sourceUrl` is the specific page officials were
 // actually found on (which may be several hops past `startUrl`) — not just the homepage — since
 // the batch discovery script needs the real roster URL to seed future weekly scrapes with,
@@ -125,7 +137,7 @@ export function sameOriginNewLinks(links, origin, visited) {
 // (Playwright doesn't fit a synchronous Netlify request/response function — see
 // netlify/functions/local-officials.mjs's own header comment). The batch discovery script
 // isn't under that constraint and can opt in.
-export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchBudget = 6, minOfficials = 3, allowBrowser = false }) {
+export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchBudget = 8, minOfficials = 7, allowBrowser = false }) {
   const origin = new URL(startUrl).origin;
   const visited = new Set([startUrl]);
   const queue = [startUrl];
