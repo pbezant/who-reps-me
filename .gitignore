@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Output from record-search-video.js (generated demo recordings)
+/video-out
