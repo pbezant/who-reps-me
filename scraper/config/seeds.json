@@ -3,6 +3,10 @@
   "_scope": "central-texas",
   "_needs_verified_url": {
     "Luling": "www.lulingtx.org does not resolve; the city's real domain is unknown. Removed until confirmed.",
+    "Cedar Park": "cedarparktexas.gov/government/city-council 404s and none of probe's homepage-link suggestions (Government hub, a Careers page, a news alert) was confidently the roster page itself — pipeline.js extracts from exactly the seeded URL with no further crawl, so a wrong guess here would silently keep returning 0 officials forever. Removed so discover-jurisdictions.js's own multi-hop roster crawl (findRosterPage()) can find the real page instead.",
+    "Georgetown": "georgetown.org does not resolve (wrong domain, real one unconfirmed). Removed so discoverJurisdictionSite() can recall + verify the actual homepage instead of us guessing one we can't fetch to check.",
+    "Manor": "cityofmanor.org is a bare homepage, not a roster page — every scrape found 0 officials there. Removed so discover-jurisdictions.js's roster crawl (which starts from exactly this homepage and hops onward) can find the real council page.",
+    "Wimberley": "cityofwimberley.com/27/Government is a generic department hub, not a roster page — every scrape found 0 officials there. Same fix as Manor: removed for the auto-discovery crawl to find the real page.",
     "note": "Anything still failing after the next probe run needs its URL replaced from the probe suggestions."
   },
   "jurisdictions": [
@@ -97,15 +101,6 @@
       ]
     },
     {
-      "city": "Wimberley",
-      "state": "TX",
-      "level": "local",
-      "body": "Wimberley City Council",
-      "urls": [
-        "https://www.cityofwimberley.com/27/Government"
-      ]
-    },
-    {
       "city": "Lockhart",
       "state": "TX",
       "level": "local",
@@ -120,16 +115,7 @@
       "level": "local",
       "body": "Lakeway City Council",
       "urls": [
-        "https://www.lakeway-tx.gov/148/City-Council"
-      ]
-    },
-    {
-      "city": "Cedar Park",
-      "state": "TX",
-      "level": "local",
-      "body": "Cedar Park City Council",
-      "urls": [
-        "https://www.cedarparktexas.gov/government/city-council"
+        "https://lakeway-tx.gov/100/Mayor-City-Council"
       ]
     },
     {
@@ -156,7 +142,7 @@
       "level": "local",
       "body": "San Marcos City Council",
       "urls": [
-        "https://www.sanmarcostx.gov/155/City-Council"
+        "https://www.sanmarcostx.gov/149/City-Council"
       ]
     },
     {
@@ -165,7 +151,7 @@
       "level": "local",
       "body": "Elgin City Council",
       "urls": [
-        "https://www.elgintx.com/155/City-Council"
+        "https://www.elgintx.com/149/City-Council"
       ]
     },
     {
@@ -196,30 +182,12 @@
       ]
     },
     {
-      "city": "Manor",
-      "state": "TX",
-      "level": "local",
-      "body": "Manor City Council",
-      "urls": [
-        "https://www.cityofmanor.org/"
-      ]
-    },
-    {
       "city": "Hays County",
       "state": "TX",
       "level": "county",
       "body": "Hays County Commissioners Court",
       "urls": [
         "https://hayscountytx.gov/"
-      ]
-    },
-    {
-      "city": "Georgetown",
-      "state": "TX",
-      "level": "local",
-      "body": "Georgetown City Council",
-      "urls": [
-        "https://georgetown.org/"
       ]
     },
     {
