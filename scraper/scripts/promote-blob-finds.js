@@ -25,6 +25,15 @@
 // anything already in config/seeds.json (hand-vetted always wins) or already in
 // config/seeds.discovered.json (already permanent some other way).
 //
+// Also writes the officials the on-demand scrape already extracted straight into
+// public/officials/<STATE>.json (writeShards() — same upsert-merge run.js itself uses), not
+// just the URL. Without this, a promoted jurisdiction would just sit in seeds.discovered.json
+// until some future run.js run happened to re-fetch and re-extract it from scratch — paying
+// LLM calls again for an extraction we already have sitting in Blobs for free. Since this whole
+// script makes zero LLM calls, it's deliberately the first phase in run-daily.yml: every
+// jurisdiction it resolves this way is one run.js and discover-jurisdictions.js never need to
+// spend today's shared budget on.
+//
 // Needs live Netlify credentials — this reads Netlify's own runtime storage, which has no
 // filesystem/git access from outside the Netlify site itself:
 //   NETLIFY_AUTH_TOKEN   a personal/team API token (User settings -> Applications -> New access token)
@@ -36,8 +45,13 @@
 import { getStore } from "@netlify/blobs";
 import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
 import { readJsonIfExists, jurisdictionKey, loadJurisdictions, CONFIG_DIR } from "../src/seeds.js";
+import { writeShards } from "../src/output.js";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = join(__dirname, "..", "..");
+const PUBLIC_OFFICIALS_DIR = join(REPO_ROOT, "public", "officials");
 
 const STORE_NAME = "local-officials-ondemand";
 const DISCOVERED_PATH = join(CONFIG_DIR, "seeds.discovered.json");
@@ -90,6 +104,7 @@ async function main() {
   let scanned = 0;
   let promoted = 0;
   let skippedBadEntry = 0;
+  const promotedOfficials = [];
 
   const { blobs } = await store.list();
   for (const { key } of blobs) {
@@ -106,6 +121,7 @@ async function main() {
 
     discoveredFile.jurisdictions.push(j);
     discoveredKeys.add(jKey);
+    promotedOfficials.push(...entry.officials);
     promoted++;
     console.log(`  PROMOTED  ${j.city}, ${j.state}: ${j.urls[0] || "(no source url)"} (${entry.officials.length} officials)`);
   }
@@ -114,6 +130,11 @@ async function main() {
     discoveredFile.generated_at = now;
     await mkdir(CONFIG_DIR, { recursive: true });
     await writeFile(DISCOVERED_PATH, JSON.stringify(discoveredFile, null, 2));
+
+    // Already-extracted officials, written straight to the shard — no LLM calls spent
+    // re-scraping what Blobs already gave us for free (see this file's own header comment).
+    const { states } = await writeShards(promotedOfficials, { publicDir: PUBLIC_OFFICIALS_DIR, now });
+    console.log(`Wrote ${promotedOfficials.length} officials across ${states.length} state shard(s) at zero LLM cost.`);
   }
 
   console.log(
