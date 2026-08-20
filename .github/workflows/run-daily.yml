@@ -6,7 +6,11 @@
 # two things at once: it lets a phase that needs less than its "fair share" some days (e.g.
 # scrape running out of due jurisdictions) leave the rest for the next phase instead of it going
 # unused, and it removes the cross-workflow git-push race those three used to have to guard
-# against (rebase-retry) — one job, one linear sequence, nothing else pushing at the same time.
+# against — one job, one linear sequence, nothing else pushing at the same time.
+#
+# The day's changes land via a pull request (push a dedicated branch, open a PR, wait for CI,
+# squash-merge) rather than a direct commit to master — see "Open and merge data PR" below for
+# why, and federal-social.yml for the same treatment applied there.
 #
 # Phase order and why:
 #   1. Promote on-demand finds (scripts/promote-blob-finds.js) — zero LLM calls. Every
@@ -76,6 +80,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: run-daily
@@ -181,29 +186,53 @@ jobs:
           QA_SAMPLE_SIZE: ${{ inputs.qa_sample_size || vars.QA_SAMPLE_SIZE }}
         run: node scraper/scripts/qa-check.js
 
-      - name: Commit updated data
+      - name: Commit updated data to a branch
+        id: commit_data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/officials scraper/config/seeds.discovered.json scraper/data/jurisdictions scraper/data/llm-usage.json
           if git diff --staged --quiet; then
             echo "No changes from today's run."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore(data): daily pipeline run (promote/scrape/discover/qa) [skip ci]"
-            # federal-social.yml (own weekly cron, disjoint public/federal-*.json paths) is the
-            # only other workflow that can still push to this branch while this job runs — same
-            # rebase-retry the other data workflows already use, kept here as a low-cost safety
-            # net even though this job's own four phases no longer race each other.
-            for attempt in 1 2 3; do
-              if git push; then
-                break
-              fi
-              echo "Push rejected (attempt $attempt/3) — fetching and rebasing onto the latest remote..."
-              git fetch origin "$GITHUB_REF_NAME"
-              git rebase "origin/$GITHUB_REF_NAME"
-              if [ "$attempt" = 3 ]; then
-                echo "::error::Failed to push today's data after 3 attempts."
-                exit 1
-              fi
-            done
+            branch="data/daily-run-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+            git checkout -b "$branch"
+            git commit -m "chore(data): daily pipeline run (promote/scrape/discover/qa)"
+            git push -u origin "$branch"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Opens a PR for the branch above instead of committing straight to master. A dedicated,
+      # uniquely-named branch per run can never collide with federal-social.yml's own branch (its
+      # own disjoint public/federal-*.json paths, see that workflow) or a previous day's — so
+      # this needs no fetch+rebase-retry loop at all; GitHub serializes the actual merge into
+      # master for us. It also means the "CI" workflow (ci.yml, pull_request-triggered) actually
+      # validates the day's data — e.g. a truncated/malformed shard failing `npm run build` or
+      # a scraper test — before it reaches master, which a direct `git push` with `[skip ci]`
+      # never got. `gh pr checks --watch` blocks on that CI run rather than using GitHub's own
+      # "auto-merge" queue feature, so this needs no repo-setting change (Allow auto-merge) to
+      # work. timeout-minutes bounds a hung/stuck CI run so it can't block tomorrow's run (same
+      # concurrency group) indefinitely; the branch and open PR survive a timeout for manual
+      # follow-up, so nothing is lost either way.
+      - name: Open and merge data PR
+        if: steps.commit_data.outputs.has_changes == 'true'
+        timeout-minutes: 15
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.commit_data.outputs.branch }}
+        run: |
+          pr_url=$(gh pr create \
+            --title "chore(data): daily pipeline run ($(date -u +%Y-%m-%d))" \
+            --body "Automated daily pipeline run (promote/scrape/discover/qa). See this run's job summary for phase-by-phase logs." \
+            --base "$GITHUB_REF_NAME" \
+            --head "$BRANCH")
+          echo "Opened $pr_url — waiting on CI before merging..."
+          sleep 5 # give ci.yml's pull_request-triggered checks a moment to register before polling
+          if gh pr checks "$BRANCH" --watch --fail-fast; then
+            gh pr merge "$BRANCH" --squash --delete-branch --subject "chore(data): daily pipeline run ($(date -u +%Y-%m-%d)) [skip ci]"
+            echo "Merged into $GITHUB_REF_NAME."
+          else
+            echo "::warning::CI failed (or didn't report) on $pr_url — leaving it open for manual review instead of merging."
           fi

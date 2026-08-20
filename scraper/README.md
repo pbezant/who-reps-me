@@ -390,6 +390,13 @@ See `src/usage-ledger.js`'s own header comment for the full reasoning, and that 
 own header comment for the phase order and why. Scheduled for 10pm Central (03:00 UTC) so it
 runs when it's least likely to compete with real user searches for the same provider rate limit.
 
+**Data lands via a pull request, not a direct commit.** The run's changes are pushed to a
+dedicated `data/daily-run-<date>-<run id>` branch, opened as a PR against the default branch, and
+squash-merged automatically once the `CI` workflow passes on it — see `run-daily.yml`'s own
+"Open and merge data PR" step for why (mainly: it lets CI actually validate a day's data before
+it lands, and needs no rebase-retry logic since branches never collide). If CI fails, the PR is
+left open for manual review instead of merging. `federal-social.yml` (below) does the same.
+
 **Setup: add the `LLM_API_KEY` repo secret** (Settings → Secrets and variables → Actions →
 Secrets) with a free Gemini key from aistudio.google.com — extraction defaults to the `gemini`
 preset (15 requests/minute, 1,500/day). Without that secret, a scheduled run fails outright —
