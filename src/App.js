@@ -4,6 +4,7 @@ import axios from 'axios';
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
+import SubmitOfficial from './SubmitOfficial';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,9 @@ function App() {
         <SearchBar apiKey={apiKey} setRepList={setRepList} />
         <Results repList={repList} />
       </main>
+      {/* Only worth offering once a search has actually produced something to add to — see
+          SubmitOfficial.js's own header comment. */}
+      {repList?.representatives?.length > 0 && <SubmitOfficial />}
     </div>
   );
 }

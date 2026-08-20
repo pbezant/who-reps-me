@@ -7,6 +7,11 @@ test('renders the search page', () => {
   expect(screen.getByPlaceholderText(/address or zip code/i)).toBeInTheDocument();
 });
 
+test('does not show the "suggest an official" button before any search has run', () => {
+  render(<App />);
+  expect(screen.queryByRole('button', { name: /suggest an official/i })).not.toBeInTheDocument();
+});
+
 describe('officesFromFieldOffices', () => {
   test('maps 5calls field_offices (phone + city, no address) onto the shared office shape', () => {
     const offices = officesFromFieldOffices([

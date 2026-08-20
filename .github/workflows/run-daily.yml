@@ -12,6 +12,9 @@
 #   1. Promote on-demand finds (scripts/promote-blob-finds.js) — zero LLM calls. Every
 #      jurisdiction it resolves from Netlify Blobs (someone already searched it live) is one
 #      the next two phases never need to spend budget re-discovering/re-scraping.
+#   1b. Promote suggested-official URL submissions (scripts/promote-url-submissions.js) — same
+#      zero-LLM-call shape as phase 1, for the "suggest an official" form
+#      (netlify/functions/submit-official.mjs) instead of on-demand searches.
 #   2. Scrape (src/run.js) — cheapest per-jurisdiction (~2.5 calls avg), and "finish what's
 #      already been found" is more immediately valuable than growing the queue further.
 #   3. Discover (src/discover-jurisdictions.js) — grows tomorrow's scrape queue with whatever
@@ -41,6 +44,7 @@
 # repository's default branch. Until this file is merged there, run the phases locally instead:
 #   cd scraper && npm install
 #   NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-blob-finds
+#   NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-url-submissions
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run scrape
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
 #   LLM_PRESET=gemini LLM_API_KEY=... node scripts/qa-check.js
@@ -135,6 +139,16 @@ jobs:
       - name: "Phase 1: promote on-demand finds"
         if: steps.netlify_check.outputs.ready == 'true'
         run: node scraper/scripts/promote-blob-finds.js
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      # Same zero-LLM-call shape as phase 1 above, for the "suggest an official" URL submission
+      # form (netlify/functions/submit-official.mjs) instead of on-demand searches — see
+      # scripts/promote-url-submissions.js's own header comment.
+      - name: "Phase 1b: promote suggested-official URL submissions"
+        if: steps.netlify_check.outputs.ready == 'true'
+        run: node scraper/scripts/promote-url-submissions.js
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

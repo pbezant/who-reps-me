@@ -449,3 +449,148 @@
   text-align:left;
   opacity:0.9;
 }
+
+/* "Suggest an official" floating button + dialog (src/SubmitOfficial.js) — only rendered once a
+   search has produced results, bottom-right so it never sits over the hero search box. */
+.suggest-official-fab{
+  position: fixed;
+  right: 1.5em;
+  bottom: 1.5em;
+  z-index: 30;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  border: 0;
+  background-image: linear-gradient(144deg, #cf252b, #355fc1);
+  color: var(--white);
+  font-size: 1.5rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.4) 0 10px 25px -5px;
+  transition: transform 150ms ease;
+}
+.suggest-official-fab:hover,
+.suggest-official-fab:focus-visible{
+  transform: scale(1.08);
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
+}
+.suggest-official-fab span{
+  transform: translateY(-0.05em);
+}
+
+.suggest-official-overlay{
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  background: rgba(0,0,0,0.6);
+}
+
+.suggest-official-dialog{
+  position: relative;
+  width: 100%;
+  max-width: 26em;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 2em;
+  border-radius: 1rem;
+  color: var(--white);
+  background: rgb(20 22 60 / 95%);
+  border: 3px solid rgb(5, 6, 45, 40%);
+  box-shadow: rgba(0,0,0,0.5) 0 20px 40px -10px;
+  text-align: left;
+}
+.suggest-official-dialog h2{
+  margin: 0 0 0.4em;
+  font-size: 1.25rem;
+  padding-right: 1.5em;
+}
+.suggest-official-intro{
+  margin: 0 0 1.25em;
+  font-size: 0.9em;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+.suggest-official-dialog form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.suggest-official-dialog label{
+  font-size: 0.85em;
+  opacity: 0.9;
+  margin-top: 0.6em;
+}
+.suggest-official-dialog input{
+  border: 2px solid var(--light-grey);
+  border-radius: 0.6em;
+  padding: 0.6em 0.8em;
+  font-size: 1rem;
+  background-color: rgba(255,255,255,90%);
+  color: var(--black);
+}
+.suggest-official-dialog input:focus{
+  outline: none;
+  border-color: var(--blue);
+}
+.suggest-official-submit{
+  margin-top: 1.25em;
+  align-self: flex-start;
+  border: 0;
+  border-radius: 0.7em;
+  padding: 0.7em 1.5em;
+  font-size: 1rem;
+  color: var(--white);
+  background-image: linear-gradient(144deg, #cf252b, #355fc1);
+  cursor: pointer;
+}
+.suggest-official-submit:disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.suggest-official-close{
+  position: absolute;
+  top: 0.75em;
+  right: 0.75em;
+  width: 2em;
+  height: 2em;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  color: var(--white);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.suggest-official-close:hover{
+  background: rgba(255,255,255,0.22);
+}
+.suggest-official-result{
+  margin: 1.25em 0 0;
+  padding: 0.7em 0.9em;
+  border-radius: 0.6em;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+.suggest-official-result.ok{
+  background: rgba(60, 180, 100, 0.25);
+}
+.suggest-official-result.error{
+  background: rgba(207, 37, 43, 0.3);
+}
+
+@media screen and (max-width: 600px){
+  .suggest-official-fab{
+    right: 1em;
+    bottom: 1em;
+    width: 3.25em;
+    height: 3.25em;
+  }
+}

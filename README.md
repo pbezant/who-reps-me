@@ -12,6 +12,14 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
 
+### Missing an official? Suggest one
+
+After a search, a floating button (bottom-right) lets you paste a URL to a city/county
+official's page — a roster page or their own bio page. It's validated and scraped on the spot
+(same pipeline the scraper itself uses) and, once confirmed, folded into the dataset. See
+[`scraper/README.md`](scraper/README.md)'s "Suggested-official URL submissions" section for the
+full pipeline.
+
 ### Why geocoding needs a fallback at all
 
 The Census Geocoder's `onelineaddress` endpoint is an address-**range** matcher — it needs an

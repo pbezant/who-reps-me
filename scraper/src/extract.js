@@ -145,6 +145,95 @@ Rules:
   the page only shows one office's worth of contact info — that belongs in the top-level
   phone/address/hours fields, not duplicated into offices.`;
 
+// Third variant, for the "suggest an official" submission form (netlify/functions/
+// submit-official.mjs): unlike extractOfficials() above, the jurisdiction is NOT known ahead
+// of time — a visitor just pastes a URL, so this has to figure out both "who is this" AND
+// "what jurisdiction/level are they part of" from the page itself in one call, rather than
+// being told the jurisdiction up front. Kept as its own prompt/function (not a mode flag on
+// extractOfficials()) since the two have genuinely different jobs: one extracts a roster
+// already scoped to a known city, the other first has to decide whether the page is even a
+// legitimate government source at all before extracting anything from it.
+const SUBMISSION_SYSTEM_PROMPT = `You look at a web page a member of the public submitted, claiming it shows one or more current US
+elected/appointed government officials, and extract what's really there.
+Return ONLY valid JSON matching this schema, no prose:
+{
+  "is_government_source": "boolean — true only if this looks like an official government site/page (a city/county/state/federal government domain or a page clearly published by one), or another clearly authoritative source (e.g. an official press release). False for a news article, blog, campaign site, Wikipedia, or anything else that isn't the official's own government source.",
+  "jurisdiction": {
+    "city": "string or null — the city/town/village name, if this is a municipal or county official (do not include 'County' here if county-level; put that in county below)",
+    "county": "string or null — the county name, when this is a county-level office or the page states the county",
+    "state": "string or null, 2-letter USPS code",
+    "level": "one of 'local', 'county', 'state', 'federal', or null if you can't tell",
+    "body": "string or null, the governing body, e.g. 'Austin City Council' or 'Travis County Commissioners Court'"
+  },
+  "officials": [
+    {
+      "name": "string, full name",
+      "office": "string, e.g. 'Mayor', 'City Council Member', 'County Commissioner'",
+      "district": "string or null",
+      "phone": "string or null",
+      "email": "string or null",
+      "url": "string or null, their official page if present",
+      "photo_url": "string or null, absolute URL if present",
+      "social": {
+        "twitter": "string or null, absolute profile URL",
+        "facebook": "string or null, absolute profile URL",
+        "instagram": "string or null, absolute profile URL",
+        "linkedin": "string or null, absolute profile URL",
+        "youtube": "string or null, absolute channel URL"
+      },
+      "address": "string or null, office address",
+      "confidence": "number 0-1, how sure you are this is a real current official from this page"
+    }
+  ]
+}
+Rules:
+- Only include people who are CURRENT officials clearly shown on this page. Do not invent data,
+  and do not include a former official, a candidate who hasn't taken office, or someone merely
+  mentioned in passing (e.g. quoted in a news story about someone else).
+- If a field is not on the page, use null. Never guess phone numbers, emails, or social links.
+- Convert relative photo/link URLs to absolute using the page URL provided.
+- Use the images/social links list the same way extractOfficials() does elsewhere in this
+  project: as candidates to match to a specific named official via their surrounding text, never
+  attaching a shared jurisdiction-wide logo/account to any one person.
+- If the page is not a legitimate government (or otherwise clearly authoritative) source, set
+  is_government_source to false. You may still report what you see, but a lower confidence is
+  appropriate for anything sourced from a non-government page.
+- If you cannot determine the jurisdiction with reasonable confidence, leave the unclear
+  jurisdiction fields null rather than guessing.
+- If the page has no officials at all (wrong page, navigation only, a general news topic page),
+  return an empty officials list.`;
+
+export async function extractOfficialSubmission({ text, url, media }) {
+  const cfg = resolveLLMConfig();
+  const maxChars = Number(process.env.LLM_MAX_CHARS || cfg.preset.maxChars || 24000);
+  const clipped = text.slice(0, maxChars);
+  const user = `Page URL: ${url}
+
+Images and social links found on this page:
+${formatMediaBlock(media)}
+
+Page text:
+"""
+${clipped}
+"""`;
+
+  const raw = await callLLM({ system: SUBMISSION_SYSTEM_PROMPT, user });
+  const parsed = extractJson(raw);
+  const officials = Array.isArray(parsed?.officials) ? parsed.officials : [];
+  const jurisdiction = parsed?.jurisdiction && typeof parsed.jurisdiction === "object" ? parsed.jurisdiction : {};
+  return {
+    isGovernmentSource: parsed?.is_government_source === true,
+    jurisdiction: {
+      city: jurisdiction.city || null,
+      county: jurisdiction.county || null,
+      state: jurisdiction.state || null,
+      level: jurisdiction.level || null,
+      body: jurisdiction.body || null,
+    },
+    officials,
+  };
+}
+
 export async function extractOfficialDetail({ text, url, name, office, media }) {
   const cfg = resolveLLMConfig();
   const maxChars = Number(process.env.LLM_MAX_CHARS || cfg.preset.maxChars || 24000);
