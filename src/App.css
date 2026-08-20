@@ -227,7 +227,12 @@
   flex-direction: column;
   align-items: center;
   gap: 3em;
-  margin:2em;
+  /* Horizontal spacing has to be padding, not margin: box-sizing:border-box (see index.css)
+     only pulls padding/border inside a percentage width, never margin, so a margin here would
+     still push this past its container's width and reintroduce the mobile overflow this is
+     fixing. Vertical spacing stays a margin since that doesn't affect width either way. */
+  margin: 2em 0;
+  padding: 0 2em;
   width: 100%;
   max-width: 1166px;
 }
@@ -288,7 +293,10 @@
   order:4;
 }
 .rep-card img{
-  width:256px;
+  /* Fluid up to the old fixed size, not a fixed 256px — a card narrower than 256px would
+     otherwise force the image past the card's edge instead of shrinking with it. */
+  width:100%;
+  max-width:256px;
   border-radius: 1rem;
   border: 3px solid rgb(5, 6, 45, 40%);
 

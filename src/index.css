@@ -1,3 +1,13 @@
+/* Without this, elements that set both a percentage width and their own padding/border/margin
+   (e.g. .results, .rep-card in App.css) size themselves in content-box terms — the padding/
+   border/margin then add ON TOP of that width instead of being absorbed by it, so those
+   elements end up wider than their container. That's what was causing the mobile horizontal
+   scroll/misalignment: harmless on wide screens where there's slack to spare, but on a phone
+   viewport there's no slack, so the overflow becomes visible and scrollable. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
