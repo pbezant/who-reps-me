@@ -1,0 +1,41 @@
+{
+  "state": "NV",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 1,
+  "cities": [
+    "Clark County"
+  ],
+  "officials": [
+    {
+      "id": "nv:clark-county:county-manager:kevin-schiller",
+      "name": "Kevin Schiller",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": "702-455-3530",
+      "email": "ccmgr@ClarkCountyNV.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 S. Grand Central Parkway, 6th Floor Las Vegas, NV 89155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "NV"
+      },
+      "source_url": "https://www.clarkcountynv.gov/government/county_managers_office/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

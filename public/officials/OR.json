@@ -1,0 +1,258 @@
+{
+  "state": "OR",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 8,
+  "cities": [
+    "Multnomah County"
+  ],
+  "officials": [
+    {
+      "id": "or:multnomah-county:auditor:jennifer-mcguirk",
+      "name": "Jennifer McGuirk",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2019-01/Auditor-%2528Jennifer-McGuirk%2529-full-frame.jpg.webp?itok=NjOer2uI",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:commissioner:julia-brim-edwards",
+      "name": "Julia Brim-Edwards",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2023-06/20230526-D3-Commissioner-Jullia-Brim-Edwards-MN-%252816x9%2529.jpg.webp?itok=mJwiplBp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:commissioner:meghan-moyer",
+      "name": "Meghan Moyer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2026-01/moyer-2026-portrait-a2_0.jpg.webp?itok=JS66ErM7",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:commissioner:shannon-singleton",
+      "name": "Shannon Singleton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2024-12/20241202-commissioner-shannon-singleton-mn-04-4x3.jpg.webp?itok=RQXGW-UE",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:commissioner:vince-jones-dixon",
+      "name": "Vince Jones-Dixon",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2024-12/20241217-commissioner-vince-jones-dixon-mn-4x6.jpg.webp?itok=R9weAYKd",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:district-attorney:nathan-vasquez",
+      "name": "Nathan Vasquez",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2024-12/20241216-da-nathan-vasquez-mn-4x6.jpg.webp?itok=G76uLwgX",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:multnomah-county-chair:jessica-vega-pederson",
+      "name": "Jessica Vega Pederson",
+      "office": "Multnomah County Chair",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2026-01/54a2249-edit-chair-8x10-1.jpg.webp?itok=ybQaGPQ5",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:multnomah-county:sheriff:nicole-morrisey-odonnell",
+      "name": "Nicole Morrisey O'Donnell",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.multco.us/sites/default/files/styles/1_1_thumbnail/public/2023-12/Sheriff-Morrisey-ODonnell-resize.png.webp?itok=tvcuZdNL",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Multnomah County",
+        "state": "OR"
+      },
+      "source_url": "https://www.multco.us",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

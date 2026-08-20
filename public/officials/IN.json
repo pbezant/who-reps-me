@@ -1,0 +1,320 @@
+{
+  "state": "IN",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 10,
+  "cities": [
+    "Marion County"
+  ],
+  "officials": [
+    {
+      "id": "in:marion-county:assessor:joseph-p.-oconnor",
+      "name": "Joseph P. O'Connor",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/oconnor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:auditor:julie-voorhies",
+      "name": "Julie Voorhies",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/voorhies.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:clerk:myla-eldridge",
+      "name": "Myla Eldridge",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/eldridge.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:coroner:leeandrea-sloan",
+      "name": "Leeandrea Sloan",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/sloan.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:mayor:joe-hogsett",
+      "name": "Joe Hogsett",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/hogsett.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:prosecutor:ryan-mears",
+      "name": "Ryan Mears",
+      "office": "Prosecutor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/prosecutor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:recorder:kate-sweeney-bell",
+      "name": "Kate Sweeney Bell",
+      "office": "Recorder",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/bell.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:sheriff:kerry-j.-forestal",
+      "name": "Kerry J. Forestal",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/sheriff.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:surveyor:debra-s.-jenkins",
+      "name": "Debra S. Jenkins",
+      "office": "Surveyor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.indy.gov/images/people/jenkins.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:marion-county:treasurer:barbara-a.-lawrence",
+      "name": "Barbara A. Lawrence",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://citybase-cms-prod.s3.amazonaws.com/3a8d594998524a648fcfa3cdfc607004.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "IN"
+      },
+      "source_url": "https://www.indy.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

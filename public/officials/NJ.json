@@ -1,0 +1,73 @@
+{
+  "state": "NJ",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 2,
+  "cities": [
+    "Essex County",
+    "Hudson County"
+  ],
+  "officials": [
+    {
+      "id": "nj:essex-county:essex-county-executive:joseph-n.-divincenzo,-jr.",
+      "name": "Joseph N. DiVincenzo, Jr.",
+      "office": "Essex County Executive",
+      "level": "county",
+      "body": "Essex County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/EssexCountyExecJoeD/",
+        "instagram": "https://www.instagram.com/joedessexcounty/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "465 Dr. Martin Luther King, Jr. Boulevard\nNewark, NJ 07102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Essex County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.essexcountynj.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hudson-county:county-executive:craig-guy",
+      "name": "Craig Guy",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Hudson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hudson County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hudsoncountynj.org/#",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

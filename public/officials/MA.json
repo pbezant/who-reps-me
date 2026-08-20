@@ -1,0 +1,103 @@
+{
+  "state": "MA",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 3,
+  "cities": [
+    "Norfolk County"
+  ],
+  "officials": [
+    {
+      "id": "ma:norfolk-county:chairman-of-the-county-commission:joseph-p.-shea",
+      "name": "Joseph P. Shea",
+      "office": "Chairman of the County Commission",
+      "level": "county",
+      "body": "Norfolk County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Norfolk County",
+        "state": "MA"
+      },
+      "source_url": "https://www.norfolkcounty.org/county_commission/commissioners.php",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:norfolk-county:commissioner:peter-h.-collins",
+      "name": "Peter H. Collins",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Norfolk County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Norfolk County",
+        "state": "MA"
+      },
+      "source_url": "https://www.norfolkcounty.org/county_commission/commissioners.php",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:norfolk-county:commissioner:richard-r.-staiti",
+      "name": "Richard R. Staiti",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Norfolk County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Norfolk County",
+        "state": "MA"
+      },
+      "source_url": "https://www.norfolkcounty.org/county_commission/commissioners.php",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

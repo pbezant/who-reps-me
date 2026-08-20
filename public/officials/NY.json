@@ -1,0 +1,882 @@
+{
+  "state": "NY",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 28,
+  "cities": [
+    "Erie County",
+    "Monroe County",
+    "Nassau County",
+    "Suffolk County",
+    "Westchester County"
+  ],
+  "officials": [
+    {
+      "id": "ny:erie-county:comptroller:dr.-kevin-r.-hardwick",
+      "name": "Dr. Kevin R. Hardwick",
+      "office": "Comptroller",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Erie County",
+        "state": "NY"
+      },
+      "source_url": "https://www.erie.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:erie-county:county-clerk:michael-p.-kearns",
+      "name": "Michael P. Kearns",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Erie County",
+        "state": "NY"
+      },
+      "source_url": "https://www.erie.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:erie-county:county-executive:mark-poloncarz",
+      "name": "Mark Poloncarz",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.erie.gov/sites/default/files/styles/large/public/2025-01/mcp_photo.jpg?itok=ykpos_gc",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Erie County",
+        "state": "NY"
+      },
+      "source_url": "https://www.erie.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:erie-county:district-attorney:michael-j.-keane",
+      "name": "Michael J. Keane",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Erie County",
+        "state": "NY"
+      },
+      "source_url": "https://www.erie.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:erie-county:sheriff:john-c.-garcia",
+      "name": "John C. Garcia",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Erie County",
+        "state": "NY"
+      },
+      "source_url": "https://www.erie.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:monroe-county:county-executive:adam-j.-bello",
+      "name": "Adam J. Bello",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "NY"
+      },
+      "source_url": "https://www.monroecounty.gov/planning-cog",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:arnold-w.-drucker",
+      "name": "Arnold W. Drucker",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 16",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:carrié-solages",
+      "name": "Carrié Solages",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:cynthia-nunez",
+      "name": "Cynthia Nunez",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 14",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:debra-mulé",
+      "name": "Debra Mulé",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:delia-deriggi-whitton",
+      "name": "Delia DeRiggi-Whitton",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 11",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:howard-j.-kopel",
+      "name": "Howard J. Kopel",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:james-kennedy",
+      "name": "James Kennedy",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 19",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:john-j.-giuffre",
+      "name": "John J. Giuffre",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:kayla-knight",
+      "name": "Kayla Knight",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 15",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:mazi-melesa-pilip",
+      "name": "Mazi Melesa Pilip",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 10",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:michael-giangregorio",
+      "name": "Michael Giangregorio",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 12",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:olena-nicks",
+      "name": "Olena Nicks",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:patrick-mullaney",
+      "name": "Patrick Mullaney",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:rose-marie-walker",
+      "name": "Rose Marie Walker",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 17",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:samantha-goetz",
+      "name": "Samantha Goetz",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 18",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:scott-davis",
+      "name": "Scott Davis",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:scott-strauss",
+      "name": "Scott Strauss",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:thomas-mckevitt",
+      "name": "Thomas McKevitt",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 13",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:nassau-county:county-legislator:viviana-l.-russell",
+      "name": "Viviana L. Russell",
+      "office": "County Legislator",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "NY"
+      },
+      "source_url": "https://www.nassaucountyny.gov/2106/Elected-Officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:suffolk-county:county-executive:edward-p.-romaine",
+      "name": "Edward P. Romaine",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Suffolk County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": "https://twitter.com/ExecEdRomaine",
+        "facebook": "https://www.facebook.com/ExecEdRomaine",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "H. Lee Dennison Bldg\n100 Veterans Memorial Hwy\nP.O. Box 6100\nHauppauge, NY 11788",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suffolk County",
+        "state": "NY"
+      },
+      "source_url": "https://www.suffolkcountyny.gov/#",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:westchester-county:county-clerk:thomas-m.-roach",
+      "name": "Thomas M. Roach",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Westchester County Commissioners Court",
+      "district": null,
+      "phone": "914-995-3081",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "110 Dr. Martin Luther King Jr. Blvd. White Plains, NY 10601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Westchester County",
+        "state": "NY"
+      },
+      "source_url": "https://www.westchestergov.com/contact-us/elected-officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:westchester-county:district-attorney:susan-cacace",
+      "name": "Susan Cacace",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Westchester County Commissioners Court",
+      "district": null,
+      "phone": "914-995-4200",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 Dr. Martin Luther King Jr. Blvd. White Plains, NY 10601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Westchester County",
+        "state": "NY"
+      },
+      "source_url": "https://www.westchestergov.com/contact-us/elected-officials",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

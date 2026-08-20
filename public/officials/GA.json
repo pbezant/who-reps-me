@@ -1,0 +1,602 @@
+{
+  "state": "GA",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 19,
+  "cities": [
+    "Cobb County",
+    "DeKalb County",
+    "Fulton County",
+    "Gwinnett County"
+  ],
+  "officials": [
+    {
+      "id": "ga:cobb-county:cobb-county-tax-commissioner:carla-jackson",
+      "name": "Carla Jackson",
+      "office": "Cobb County Tax Commissioner",
+      "level": "county",
+      "body": "Cobb County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Cherokee Street Marietta, GA 30090",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cobb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.cobbcounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:chakira-johnson",
+      "name": "Chakira Johnson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "cjjohnson2@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_4_chakira_johnson.jpg.avif?itok=Z-h5EuCD",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:edward-terry",
+      "name": "Edward Terry",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "Super District 6",
+      "phone": null,
+      "email": "Ted@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_6_edward_terry.jpg.avif?itok=sJh1-Js0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:ladena-bolton",
+      "name": "LaDena Bolton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "Super District 7",
+      "phone": null,
+      "email": "labolton@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_7_ladena_bolton.jpg.avif?itok=_Jsgy9F_",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:mereda-davis-johnson",
+      "name": "Mereda Davis Johnson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "mdjohnson@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-06/District_5_Mereda_Davis_Johnson_Revised_1.png.avif?itok=hFcz_4zT",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:michelle-long-spears",
+      "name": "Michelle Long Spears",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "mlspears@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_2_michelle_long_spears.jpg.avif?itok=k8n22CG0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:nicole-massiah",
+      "name": "Nicole Massiah",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "namassiah@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_3_nicole_massiah.jpg.avif?itok=ht71lmR3",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dekalb-county:commissioner:robert-patrick",
+      "name": "Robert Patrick",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "rjpatrick@dekalbcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.dekalbcountyga.gov/sites/default/files/styles/default/public/2026-01/district_1_robert_patrick.jpg.avif?itok=E2F4FbAE",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dekalbcountyga.gov/government/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:chairman:robb-pitts",
+      "name": "Robb Pitts",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:commissioner:bob-ellis",
+      "name": "Bob Ellis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.fultoncountyga.gov/-/media/Commissioners/Ellis/Web-Size--Mens-Health-Tailgate.jpg?la=en&amp;h=324&amp;w=584&amp;hash=C9A5F0383496CDC77E8973522BBE12BD",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:commissioner:bridget-thorne",
+      "name": "Bridget Thorne",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.fultoncountyga.gov/-/media/Commissioners/Thorne/WEB-GRAPHICS---BT-_NacO-Honors_WEB.jpg?la=en&amp;h=675&amp;w=1217&amp;hash=28C8505DCB40321CB34F06E4391C194A",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:commissioner:dana-barrett",
+      "name": "Dana Barrett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:commissioner:marvin-s.-arrington,-jr.",
+      "name": "Marvin S. Arrington, Jr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.fultoncountyga.gov/-/media/Commissioners/Arrington/Marvin-S-Arrington-Jr-NACo-Committee-Graphic.jpg?la=en&amp;h=676&amp;w=1218&amp;hash=B9AFF57D0A8AF4D1032347EE1B036A8F",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:fulton-county:vice-chair:khadijah-abdur-rahman",
+      "name": "Khadijah Abdur-Rahman",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.fultoncountyga.gov/-/media/Commissioners/Abdur-Rahman/WEB-GRAPHICS---KAR-_NacO-Honors-2026_WEB.jpg?la=en&amp;h=675&amp;w=1217&amp;hash=4A0EEAF044A4DDEEFBB9820A83F9EFA6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fulton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.fultoncountyga.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gwinnett-county:chairwoman:nicole-love-hendrickson",
+      "name": "Nicole Love Hendrickson",
+      "office": "Chairwoman",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 Langley Drive Lawrenceville, GA 30046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gwinnett County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gwinnett-county:commissioner:ben-ku",
+      "name": "Ben Ku",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 Langley Drive Lawrenceville, GA 30046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gwinnett County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gwinnett-county:commissioner:jasper-watkins-iii",
+      "name": "Jasper Watkins III",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 Langley Drive Lawrenceville, GA 30046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gwinnett County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gwinnett-county:commissioner:kirkland-carden",
+      "name": "Kirkland Carden",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 Langley Drive Lawrenceville, GA 30046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gwinnett County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gwinnett-county:commissioner:matthew-holtkamp",
+      "name": "Matthew Holtkamp",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 Langley Drive Lawrenceville, GA 30046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gwinnett County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "state": "OK",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 9,
+  "cities": [
+    "Oklahoma County"
+  ],
+  "officials": [
+    {
+      "id": "ok:oklahoma-county:assessor:larry-stein",
+      "name": "Larry Stein",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/assessor_LarryStein-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:commissioner:brian-maughan",
+      "name": "Brian Maughan",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/maughanfinal2021-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:commissioner:jason-lowe",
+      "name": "Jason Lowe",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/commissionerD1_JasonLowe-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:county-clerk:maressa-treat",
+      "name": "Maressa Treat",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/5/20/MaressaTreat_CountyClerk.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:court-clerk:rick-warren",
+      "name": "Rick Warren",
+      "office": "Court Clerk",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/RickWarren_CourtClerk-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:district-attorney:vicki-behenna",
+      "name": "Vicki Behenna",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/1/28/VickiBehenna_DistrictAttorney-OklahomaCounty_2026.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:interim-commissioner:paul-foster",
+      "name": "Paul Foster",
+      "office": "Interim Commissioner",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2026/5/13/PaulPhoto-min-2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:sheriff:tommie-johnson-iii",
+      "name": "Tommie Johnson III",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/TommieJohnson_sheriff-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:oklahoma-county:treasurer:forrest-(butch)-freeman",
+      "name": "Forrest (Butch) Freeman",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.oklahomacounty.org/Portals/0/DNNGalleryPro/uploads/2025/12/22/butchFreeman_treasurer-25.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oklahoma County",
+        "state": "OK"
+      },
+      "source_url": "https://www.oklahomacounty.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

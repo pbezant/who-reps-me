@@ -1,0 +1,228 @@
+{
+  "state": "TN",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 7,
+  "cities": [
+    "Davidson County",
+    "Shelby County"
+  ],
+  "officials": [
+    {
+      "id": "tn:davidson-county:mayor:freddie-oconnell",
+      "name": "Freddie O'Connell",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": "615-862-6000",
+      "email": "mayor@nashville.gov",
+      "url": "https://www.nashville.gov/departments/mayor",
+      "photo_url": "https://www.nashville.gov/sites/default/files/styles/max_size/public/2023-11/Mayor_Freddie_OConnell_150x200.jpg?itok=n_DBfWIm",
+      "social": {
+        "twitter": "https://x.com/metronashville",
+        "facebook": "https://www.facebook.com/MetroNashville/",
+        "instagram": "https://www.instagram.com/metronashville",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Metro Courthouse\n1 Public Square\nSuite 100, Mayor's Office\nNashville, TN 37201",
+      "offices": [],
+      "hours": null,
+      "bio": "Freddie O'Connell is the tenth mayor of the Metropolitan Government of Nashville and Davidson County. He served on the Metro Council from 2015 to 2023 representing District 19, which includes the downtown core, Germantown, and parts of North Nashville.",
+      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "TN"
+      },
+      "source_url": "https://www.nashville.gov/departments/mayor",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:mayor:lee-harris",
+      "name": "Lee Harris",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.shelbycountytn.gov/ImageRepository/Document?documentId=44502",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:shelby-county-commissioner:charlie-caswell-jr.",
+      "name": "Charlie Caswell Jr.",
+      "office": "Shelby County Commissioner",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:shelby-county-commissioner:matthew-szalaj",
+      "name": "Matthew Szalaj",
+      "office": "Shelby County Commissioner",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:shelby-county-commissioner:michael-whaley",
+      "name": "Michael Whaley",
+      "office": "Shelby County Commissioner",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:shelby-county-commissioner:mickell-lowery",
+      "name": "Mickell Lowery",
+      "office": "Shelby County Commissioner",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:shelby-county:shelby-county-commissioner:shante-avant",
+      "name": "Shante Avant",
+      "office": "Shelby County Commissioner",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shelby County",
+        "state": "TN"
+      },
+      "source_url": "https://www.shelbycountytn.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

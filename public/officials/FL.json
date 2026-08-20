@@ -1,0 +1,383 @@
+{
+  "state": "FL",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 12,
+  "cities": [
+    "Lee County",
+    "Palm Beach County"
+  ],
+  "officials": [
+    {
+      "id": "fl:lee-county:county-commissioner,-chairman:cecil-pendergrass",
+      "name": "Cecil Pendergrass",
+      "office": "County Commissioner, Chairman",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": "District 2",
+      "phone": "239-533-2227",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2120 Main St. Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "FL"
+      },
+      "source_url": "https://www.leegov.com/bocc",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lee-county:county-commissioner,-vice-chairman:david-mulicka",
+      "name": "David Mulicka",
+      "office": "County Commissioner, Vice Chairman",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": "District 3",
+      "phone": "239-533-2223",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2120 Main St. Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "FL"
+      },
+      "source_url": "https://www.leegov.com/bocc",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lee-county:county-commissioner:brian-hamman",
+      "name": "Brian Hamman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": "District 4",
+      "phone": "239-533-2226",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2120 Main St. Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "FL"
+      },
+      "source_url": "https://www.leegov.com/bocc",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lee-county:county-commissioner:kevin-ruane",
+      "name": "Kevin Ruane",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": "District 1",
+      "phone": "239-533-2224",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2120 Main St. Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "FL"
+      },
+      "source_url": "https://www.leegov.com/bocc",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lee-county:county-commissioner:trish-petrosky",
+      "name": "Trish Petrosky",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": "District 5",
+      "phone": "239-533-2225",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2120 Main St. Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "FL"
+      },
+      "source_url": "https://www.leegov.com/bocc",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:bobby-powell-jr.",
+      "name": "Bobby Powell Jr.",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:gregg-k.-weiss",
+      "name": "Gregg K. Weiss",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:joel-g.-flores",
+      "name": "Joel G. Flores",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:marci-woodward",
+      "name": "Marci Woodward",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:maria-g.-marino",
+      "name": "Maria G. Marino",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:maria-sachs",
+      "name": "Maria Sachs",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:palm-beach-county:county-commissioner:sara-baxter",
+      "name": "Sara Baxter",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Palm Beach County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pbcgov.com",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

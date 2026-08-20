@@ -1,0 +1,507 @@
+{
+  "state": "WA",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 16,
+  "cities": [
+    "King County",
+    "Pierce County"
+  ],
+  "officials": [
+    {
+      "id": "wa:king-county:king-county-council-member:claudia-balducci",
+      "name": "Claudia Balducci",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-claudia-balducci24_600x600.jpg?rev=15a4ae6ef3ff40998f368e35ab3eeeca&amp;hash=CD37F35EC861FDF35AA79C085EFD0AA2",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:jorge-l.-barón",
+      "name": "Jorge L. Barón",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-jorge-l-baron24_600x600.jpg?rev=7091c6a7529c49d083fa7078debf70ab&amp;hash=97477B46D8DDB1C6609551EE1FC7226B",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:pete-von-reichbauer",
+      "name": "Pete von Reichbauer",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-pete-vonreichbauer_600x600.jpg?rev=888e7b9d972049f289b8e7d28e61548f&amp;hash=FF98519C3FFCE4C0488A43FA10B85FCB",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:reagan-dunn",
+      "name": "Reagan Dunn",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-reagan-dunn_600x600.jpg?rev=6f8477a1c38c494e9e43ae98ef4ec462&amp;hash=A9C9CE4523BB7784F46B260CFC63E8BA",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:rhonda-lewis",
+      "name": "Rhonda Lewis",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2025/councilmember-rhonda-lewis.jpg?rev=0d966ecf6779430385ca54ba9b5eb673&amp;hash=BE4CCB0E2CE183305CB5A18AC8D7A084",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:rod-dembowski",
+      "name": "Rod Dembowski",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-rod-dembowski_600x600.jpg?rev=4b90850dc6d6416681e23795950a5d4f&amp;hash=CCD91C274D3E8E468E6902CC61B9340C",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:sarah-perry",
+      "name": "Sarah Perry",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-sarah-perry24_600x600.jpg?rev=353bd812291144e987fb72515f776739&amp;hash=8057EDC93768A7B73AC5A4551F66C7E4",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:steffanie-fain",
+      "name": "Steffanie Fain",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2025/fain_600x600.jpg?rev=63d26e638ff74c218222d65863dda4d2&amp;hash=5EF5807A9D961F25471156DE5B05E9A6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-council-member:teresa-mosqueda",
+      "name": "Teresa Mosqueda",
+      "office": "King County Councilmember",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-teresa-mosequeda_600x600.jpg?rev=35ac75a399184f409c629adc13557fad&amp;hash=B6A74690F6595EC03594DE33F665FE75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:king-county:king-county-executive:girmay-zahilay",
+      "name": "Girmay Zahilay",
+      "office": "King County Executive",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/images/elec-officials/2024/councilmember-girmay-zahilay2_600x600.jpg?rev=e713d3982233403695df77b533d90c16&amp;hash=23EB87AA184896B9252AC4120845A716",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "King County",
+        "state": "WA"
+      },
+      "source_url": "https://kingcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pierce-county:assessor-treasurer:marty-campbell",
+      "name": "Marty Campbell",
+      "office": "Assessor-Treasurer",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pierce-county:auditor:linda-farmer",
+      "name": "Linda Farmer",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pierce-county:council-member:jani-hitchen",
+      "name": "Jani Hitchen",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "wa:pierce-county:executive:ryan-n.-mello",
+      "name": "Ryan N. Mello",
+      "office": "Executive",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pierce-county:prosecuting-attorney:mary-robnett",
+      "name": "Mary Robnett",
+      "office": "Prosecuting Attorney",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pierce-county:sheriff:keith-swank",
+      "name": "Keith Swank",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "state": "UT",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 16,
+  "cities": [
+    "Salt Lake County",
+    "Utah County"
+  ],
+  "officials": [
+    {
+      "id": "ut:salt-lake-county:chief-of-staff:andrew-roberts",
+      "name": "Andrew Roberts",
+      "office": "Chief of Staff",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://slco.org/globalassets/1-site-files/mayor/contact/andrew_roberts_profile.jpg?&quality=90&rxy=0.5,0.5&width=136&height=136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salt Lake County",
+        "state": "UT"
+      },
+      "source_url": "https://slco.org/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:salt-lake-county:deputy-mayor-of-finance-&-chief-financial-officer:darrin-casper",
+      "name": "Darrin Casper",
+      "office": "Deputy Mayor of Finance & Chief Financial Officer",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://slco.org/globalassets/1-site-files/mayor/home/darrin-casper.jpg?&quality=90&rxy=0.5,0.5&width=136&height=136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salt Lake County",
+        "state": "UT"
+      },
+      "source_url": "https://slco.org/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:salt-lake-county:deputy-mayor-of-regional-operations:catherine-kanter",
+      "name": "Catherine Kanter",
+      "office": "Deputy Mayor of Regional Operations",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://slco.org/globalassets/1-site-files/mayor/home/catherine-kanter.jpg?&quality=90&rxy=0.5,0.5&width=136&height=136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salt Lake County",
+        "state": "UT"
+      },
+      "source_url": "https://slco.org/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:salt-lake-county:deputy-mayor/chief-administrative-officer:erin-litvack",
+      "name": "Erin Litvack",
+      "office": "Deputy Mayor/Chief Administrative Officer",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://slco.org/globalassets/1-site-files/mayor/home/erin-litvack.jpg?&quality=90&rxy=0.5,0.5&width=136&height=136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salt Lake County",
+        "state": "UT"
+      },
+      "source_url": "https://slco.org/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:salt-lake-county:mayor:jenny-wilson",
+      "name": "Jenny Wilson",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "district": null,
+      "phone": "385-468-7000",
+      "email": "mayor@saltlakecounty.gov",
+      "url": "https://slco.org/mayor/",
+      "photo_url": "https://slco.org/globalassets/1-site-files/mayor/home/jenny-wilson_-headshot_.jpg?&quality=90&rxy=0.5,0.5&width=136&height=136",
+      "social": {
+        "twitter": "https://twitter.com/SLCoMayor",
+        "facebook": "https://www.facebook.com/SaltLakeCountyMayor/",
+        "instagram": "https://www.instagram.com/slcomayor/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCb33ObQH1z-70ZofR7Qt29g"
+      },
+      "address": "2001 South State Street , Ste N2-100 Salt Lake City, Utah 84114",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 AM- 5:00 PM",
+      "bio": "Mayor Jenny Wilson is a 5th-generation Utahn and the first female Democratic mayor of Salt Lake County, serving since 2019 after ten years on the Salt Lake County Council. She seeks to ensure the amazing quality of life in Salt Lake County continues and is accessible to all, focusing on the changing needs of citizens, businesses, and the community.",
+      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "jurisdiction": {
+        "city": "Salt Lake County",
+        "state": "UT"
+      },
+      "source_url": "https://slco.org/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:assessor:burt-garfield",
+      "name": "Burt Garfield",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FBurtGarfield.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:attorney:jeffrey-s.-gray",
+      "name": "Jeffrey S. Gray",
+      "office": "Attorney",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FJeffGray.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:auditor:rodney-w.-mann",
+      "name": "Rodney W. Mann",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FRodMann.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:clerk:aaron-r.-davidson",
+      "name": "Aaron R. Davidson",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FAaronDavidson.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:commission-chair:skyler-beltran",
+      "name": "Skyler Beltran",
+      "office": "Commission Chair",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FBeltran.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:commissioner:amelia-powers-gardner",
+      "name": "Amelia Powers Gardner",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FAmeliaPowersGardner.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:commissioner:brandon-gordon",
+      "name": "Brandon Gordon",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FBrandonGordon.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:recorder:andrea-allen",
+      "name": "Andrea Allen",
+      "office": "Recorder",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FAndreaAllen.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:sheriff:mike-smith",
+      "name": "Mike Smith",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FMikeSmith.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:surveyor:anthony-canto",
+      "name": "Anthony Canto",
+      "office": "Surveyor",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FAnthonyCanto.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:utah-county:treasurer:kim-jackson",
+      "name": "Kim Jackson",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.utahcounty.gov/_next/image?url=%2Fimgs%2FelectedOfficials%2FKimJackson.webp&w=3840&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Utah County",
+        "state": "UT"
+      },
+      "source_url": "https://www.utahcounty.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

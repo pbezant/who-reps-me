@@ -1,0 +1,229 @@
+{
+  "state": "OH",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 7,
+  "cities": [
+    "Columbus",
+    "Franklin County",
+    "Hamilton County"
+  ],
+  "officials": [
+    {
+      "id": "oh:columbus:mayor:andrew-j.-ginther",
+      "name": "Andrew J. Ginther",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "90 West Broad Street\nColumbus, Ohio 43215",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "OH"
+      },
+      "source_url": "https://www.columbus.gov/Government/Mayors-Office/Extreme-Weather-August-2026?OC_EA_EmergencyAnnouncementList_Dismiss=f993283f-1a4d-4603-a895-a6d277660abb",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:franklin-county:commissioner:erica-c.-crawley",
+      "name": "Erica C. Crawley",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://franklincountyohio.gov/files/assets/public/v/1/news/images/almanac-news.jpg?dimension=homepagelisting&w=496&h=328",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Government Tower 373 S. High Street, Columbus, OH 43215",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "OH"
+      },
+      "source_url": "https://franklincountyohio.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:franklin-county:commissioner:john-ogrady",
+      "name": "John O'Grady",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Government Tower 373 S. High Street, Columbus, OH 43215",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "OH"
+      },
+      "source_url": "https://franklincountyohio.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:franklin-county:commissioner:kevin-l.-boyce",
+      "name": "Kevin L. Boyce",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Government Tower 373 S. High Street, Columbus, OH 43215",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "OH"
+      },
+      "source_url": "https://franklincountyohio.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:hamilton-county:county-commissioner:driehaus",
+      "name": "Driehaus",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "138 E. Court Street, Cincinnati, OH 45202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "OH"
+      },
+      "source_url": "https://www.hamiltoncountyohio.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:hamilton-county:county-commissioner:reece",
+      "name": "Reece",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "138 E. Court Street, Cincinnati, OH 45202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "OH"
+      },
+      "source_url": "https://www.hamiltoncountyohio.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:hamilton-county:county-commissioner:summerow-dumas",
+      "name": "Summerow Dumas",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "138 E. Court Street, Cincinnati, OH 45202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "OH"
+      },
+      "source_url": "https://www.hamiltoncountyohio.gov/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

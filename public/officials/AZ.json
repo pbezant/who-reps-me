@@ -1,0 +1,321 @@
+{
+  "state": "AZ",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 10,
+  "cities": [
+    "Maricopa County",
+    "Pima County"
+  ],
+  "officials": [
+    {
+      "id": "az:maricopa-county:supervisor:debbie-lesko",
+      "name": "Debbie Lesko",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 West Jefferson Street Phoenix, Arizona 85003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Maricopa County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.maricopa.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:maricopa-county:supervisor:kate-brophy-mcgee",
+      "name": "Kate Brophy McGee",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 West Jefferson Street Phoenix, Arizona 85003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Maricopa County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.maricopa.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:maricopa-county:supervisor:mark-stewart",
+      "name": "Mark Stewart",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 West Jefferson Street Phoenix, Arizona 85003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Maricopa County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.maricopa.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:maricopa-county:supervisor:steve-gallardo",
+      "name": "Steve Gallardo",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 West Jefferson Street Phoenix, Arizona 85003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Maricopa County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.maricopa.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:maricopa-county:supervisor:thomas-galvin",
+      "name": "Thomas Galvin",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 West Jefferson Street Phoenix, Arizona 85003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Maricopa County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.maricopa.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:pima-county:supervisor:andrés-cano",
+      "name": "Andrés Cano",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pima County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pima.gov/27/Government",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:pima-county:supervisor:dr.-matt-heinz",
+      "name": "Dr. Matt Heinz",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pima County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pima.gov/27/Government",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:pima-county:supervisor:jennifer-allen",
+      "name": "Jennifer Allen",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pima County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pima.gov/27/Government",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:pima-county:supervisor:rex-scott",
+      "name": "Rex Scott",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pima County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pima.gov/27/Government",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:pima-county:supervisor:steve-christy",
+      "name": "Steve Christy",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pima County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pima.gov/27/Government",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

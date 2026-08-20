@@ -1,0 +1,445 @@
+{
+  "state": "NC",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 14,
+  "cities": [
+    "Charlotte",
+    "Mecklenburg County"
+  ],
+  "officials": [
+    {
+      "id": "nc:charlotte:city-attorney:andrea-leslie-fite",
+      "name": "Andrea Leslie-Fite",
+      "office": "City Attorney",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:charlotte:city-clerk:stephanie-c.-kel​ly",
+      "name": "Stephanie C. Kel​ly",
+      "office": "City Clerk",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:charlotte:city-manager:marcus-d.-jones",
+      "name": "Marcus D. Jones",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:charlotte:council-member:dimple-ajmera",
+      "name": "Dimple Ajmera",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.charlottenc.gov/files/assets/city/v/1/cm-dimple-ajmera.jpg?dimension=homepagelisting&w=496&h=295",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:charlotte:mayor:rob-harrington",
+      "name": "Rob Harrington",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:arthur-griffin",
+      "name": "Arthur Griffin",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/3c5q0mmwiv/web/Arthur-Griffin-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=cA4KX02i",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:elaine-powell",
+      "name": "Elaine Powell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/mddz0xa0oy/web/Elaine-Powell-hor.jpg?crop=yes&amp;w=328&amp;h=184&amp;itok=kdaqUjjm",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:george-dunlap",
+      "name": "George Dunlap",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/sb44nqty6q/web/Commissioner%20George%20Dunlap%20NACo%20Headshots-8.jpg?crop=yes&amp;w=328&amp;h=184&amp;v=6aa6b934-aeae-4b9f-b7c8-cba58276449&amp;itok=YOKcT8nW",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:laura-meier",
+      "name": "Laura Meier",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/avmtw59ang/web/Laura-Meier-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=RqneEpxP",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:leigh-altman",
+      "name": "Leigh Altman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/z836yqbi7t/web/Leigh-Altman-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=ykRkHHz9",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:mark-jerrell",
+      "name": "Mark Jerrell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/bhamsqpq2n/web/Mark-Jerrell-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=2zgjMvjJ",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:susan-rodriguez-mcdowell",
+      "name": "Susan Rodriguez-McDowell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/volsayxzfu/web/Susan-Rodriguez-McDowell-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=SW1EUo_M",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:vilma-d.-leake",
+      "name": "Vilma D. Leake",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/i8oinbl7nb/web/Vilma-Leake-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=E7Yc8ddP",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:mecklenburg-county:county-commissioner:yvette-townsend-ingram",
+      "name": "Yvette Townsend-Ingram",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://mecknc.widen.net/content/t3qw2n4mbf/web/Yvette-Townsend-Ingram-hor.png?crop=yes&amp;w=328&amp;h=184&amp;itok=L5S3jVf-",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Charlotte-Mecklenburg Government Center\n600 E. Fourth St.\nCharlotte, NC 28202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecklenburg County",
+        "state": "NC"
+      },
+      "source_url": "https://www.mecknc.gov",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

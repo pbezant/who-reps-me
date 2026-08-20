@@ -1,0 +1,167 @@
+{
+  "state": "PA",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 5,
+  "cities": [
+    "Montgomery County",
+    "Philadelphia",
+    "Philadelphia County"
+  ],
+  "officials": [
+    {
+      "id": "pa:montgomery-county:chair-of-the-board-of-commissioners:jamila-h.-winder",
+      "name": "Jamila H. Winder",
+      "office": "Chair of the Board of Commissioners",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.montcopa.org/_next/image?url=https%3A%2F%2Fassets.montgomerycountypa.gov%2Ffiles%2F2026-03%2FCommissioner%2520Jamila%2520Winder.png&w=1920&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "PA"
+      },
+      "source_url": "https://www.montcopa.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:montgomery-county:commissioner:neil-k.-makhija",
+      "name": "Neil K. Makhija",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.montcopa.org/_next/image?url=https%3A%2F%2Fassets.montgomerycountypa.gov%2Ffiles%2F2026-03%2FCommissioner%2520Neil%2520Makhija.png&w=1920&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "PA"
+      },
+      "source_url": "https://www.montcopa.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:montgomery-county:commissioner:thomas-dibello",
+      "name": "Thomas DiBello",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.montcopa.org/_next/image?url=https%3A%2F%2Fassets.montgomerycountypa.gov%2Ffiles%2F2026-03%2FCommissioner%2520Thomas%2520DiBello.png&w=1920&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "PA"
+      },
+      "source_url": "https://www.montcopa.org",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:philadelphia-county:mayor:cherelle-l.-parker",
+      "name": "Cherelle L. Parker",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Philadelphia County Commissioners Court",
+      "district": null,
+      "phone": "215-686-2181",
+      "email": null,
+      "url": "https://www.phila.gov/ar/departments/mayor/",
+      "photo_url": "https://www.phila.gov/media/20231231160357/Cherelle-Parker-headshot-2.jpg",
+      "social": {
+        "twitter": "https://twitter.com/phillymayor",
+        "facebook": "https://facebook.com/phillymayor",
+        "instagram": "https://instagram.com/phillymayor",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "قاعة المدينة، المكتب 215 فيلادلفيا ، بنسلفانيا 19107",
+      "offices": [],
+      "hours": null,
+      "bio": "بالاعتماد على أكثر من ثلاثة عقود من الخدمة العامة، تتميز مسيرة العمدة شيريل إل باركر المهنية بالتزامها العميق تجاه مدينة فيلادلفيا. إن رحلتها من متدربة في المدرسة الثانوية في مجلس المدينة إلى أعلى منصب في المدينة هي شهادة على تفانيها وقيادتها.",
+      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "jurisdiction": {
+        "city": "Philadelphia County",
+        "state": "PA"
+      },
+      "source_url": "https://www.phila.gov/ar/departments/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:philadelphia:mayor:cherelle-l.-parker",
+      "name": "Cherelle L. Parker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Philadelphia City Council",
+      "district": null,
+      "phone": "215-686-2181",
+      "email": null,
+      "url": "https://www.phila.gov/ar/departments/mayor/",
+      "photo_url": "https://www.phila.gov/media/20231231160357/Cherelle-Parker-headshot-2.jpg",
+      "social": {
+        "twitter": "https://twitter.com/phillymayor",
+        "facebook": "https://facebook.com/phillymayor",
+        "instagram": "https://instagram.com/phillymayor",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Office 215 Philadelphia, PA 19107",
+      "offices": [],
+      "hours": null,
+      "bio": "في 2 يناير 2024، تم تنصيب شيريل باركر كعمدة رقم 100 لفيلادلفيا، لتصبح أول امرأة تقود المدينة وتتولى المنصب منذ 341 عامًا. العمدة باركر هي معلمة سابقة في مدرسة عامة، ومشرعة الولاية التي ترأست وفد فيلادلفيا، وعضو مجلس مدينة فيلادلفيا، حيث مثلت المقاطعة التاسعة وترقت لتصبح زعيمة الأغلبية. بصفتها فيلادلفية مدى الحياة، فهي ملتزمة بالقتال كل يوم من أجل سكان فيلادلفيا.",
+      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "jurisdiction": {
+        "city": "Philadelphia",
+        "state": "PA"
+      },
+      "source_url": "https://www.phila.gov/ar/departments/mayor/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

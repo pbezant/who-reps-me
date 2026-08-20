@@ -1,0 +1,134 @@
+{
+  "state": "MD",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 4,
+  "cities": [
+    "Montgomery County"
+  ],
+  "officials": [
+    {
+      "id": "md:montgomery-county:council-member:dawn-luedtke",
+      "name": "Dawn Luedtke",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "MD"
+      },
+      "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:montgomery-county:council-member:shebra-evans",
+      "name": "Shebra Evans",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "MD"
+      },
+      "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:montgomery-county:council-member:sidney-katz",
+      "name": "Sidney Katz",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "MD"
+      },
+      "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:montgomery-county:council-president:fani-gonzalez",
+      "name": "Fani Gonzalez",
+      "office": "Council President",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.montgomerycountymd.gov/_next/image?url=https%3A%2F%2Fassets.montgomerycountymd.gov%2Ffiles%2F2026-04%2FNatali-CP-690_0.jpg&w=1920&q=75",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "MD"
+      },
+      "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}

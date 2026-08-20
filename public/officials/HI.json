@@ -1,0 +1,196 @@
+{
+  "state": "HI",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 6,
+  "cities": [
+    "Honolulu County"
+  ],
+  "officials": [
+    {
+      "id": "hi:honolulu-county:csd-director:kim-hashiro",
+      "name": "Kim Hashiro",
+      "office": "CSD Director",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/08/kim-300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "hi:honolulu-county:honolulu-zoo-director:john-berry",
+      "name": "John Berry",
+      "office": "Honolulu Zoo Director",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/06/john-berry-1-300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "hi:honolulu-county:hpd-chief:david-lazar",
+      "name": "David Lazar",
+      "office": "HPD Chief",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/chief-lazar-300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "hi:honolulu-county:mayor:rick-blangiardi",
+      "name": "Rick Blangiardi",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": "808-768-4141",
+      "email": null,
+      "url": "https://www.honolulu.gov/mayor/",
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/08/mayor-300x169.jpg",
+      "social": {
+        "twitter": "https://www.twitter.com/MayorRickHNL",
+        "facebook": "https://www.facebook.com/MayorRickBlangiardi",
+        "instagram": "https://www.instagram.com/mayorrickhnl/",
+        "linkedin": "https://www.linkedin.com/in/rick-blangiardi-23104521",
+        "youtube": "https://www.youtube.com/channel/UCvvTb1M5u_R2NeUf6eW1JVA"
+      },
+      "address": "530 South King Street, Room 300 Honolulu, Hawaii 96813",
+      "offices": [],
+      "hours": "Monday to Friday, 7:45 a.m. to 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:honolulu-county:youth-commissioner:kalena-cooke-shae",
+      "name": "Kalena Cooke Shae",
+      "office": "Youth Commissioner",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/youth-commissioners--300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "hi:honolulu-county:youth-commissioner:tanya-paia",
+      "name": "Tanya Paia",
+      "office": "Youth Commissioner",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/youth-commissioners--300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 0.8
+    }
+  ]
+}

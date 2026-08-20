@@ -1,0 +1,41 @@
+{
+  "state": "IL",
+  "generated_at": "2026-08-20T02:51:45.007Z",
+  "count": 1,
+  "cities": [
+    "Cook County"
+  ],
+  "officials": [
+    {
+      "id": "il:cook-county:county-board-president:toni-preckwinkle",
+      "name": "Toni Preckwinkle",
+      "office": "County Board President",
+      "level": "county",
+      "body": "Cook County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/images/2021-09-20/Toni%20Preckwinkle.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cook County",
+        "state": "IL"
+      },
+      "source_url": "https://www.cookcountyil.gov/service/sec-34-40-use-contingency-funds-commissioners-018-890",
+      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    }
+  ]
+}
