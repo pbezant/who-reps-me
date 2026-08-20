@@ -37,10 +37,12 @@ name: Scrape local officials
 
 on:
   schedule:
-    # Overnight so the run never competes with daytime API usage.
-    # 07:00 UTC = 2:00 AM CDT / 1:00 AM CST. Weekly on Monday — officials change rarely, so
-    # weekly is plenty; use "0 7 * * *" for nightly if you ever need fresher data.
-    - cron: "0 7 * * 1"
+    # TEMPORARY: daily through 2026-09-04 (a 15-day nationwide coverage push agreed on
+    # 2026-08-20), offset from discover-jurisdictions.yml's own daily 06:00 UTC slot so a day's
+    # newly discovered jurisdictions are already committed before this run looks for what's due.
+    # Revert to "0 7 * * 1" (weekly Monday) after that date — the daily budget-100/day cadence
+    # was for the initial coverage push, not a permanent schedule.
+    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       mode:
