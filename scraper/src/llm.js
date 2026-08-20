@@ -135,6 +135,19 @@ function extractJson(text) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Process-lifetime count of actual HTTP requests made to the provider (every attempt, not just
+// the successful one — a 429 retry still spends a real request against the provider's rate
+// limit/daily cap, so it counts). Lets a CLI entry point (run.js, discover-jurisdictions.js)
+// report exactly how much of the shared daily budget it used, for usage-ledger.js to record —
+// see that file's own header comment for why a real count beats an estimated one.
+let callCount = 0;
+export function getCallCount() {
+  return callCount;
+}
+export function resetCallCount() {
+  callCount = 0;
+}
+
 // A provider that is retired, unauthorized or missing will fail identically on every call.
 // Marking those errors fatal lets callers stop after the first one instead of grinding
 // through retries that can't possibly succeed.
@@ -234,6 +247,7 @@ export async function callLLM({ system, user, maxOutput, jsonMode = true, maxAtt
     let res;
     try {
       res = await fetch(endpoint, { method: "POST", headers, body: JSON.stringify(body) });
+      callCount++;
     } catch (err) {
       lastErr = new Error(`network error: ${err.message}`);
       await sleep(1000 * 2 ** (attempt - 1));

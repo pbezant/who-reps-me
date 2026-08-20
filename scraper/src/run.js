@@ -7,14 +7,19 @@
 // scale (thousands of jurisdictions, once discover-jurisdictions.js has been building up
 // config/seeds.discovered.json) it isn't: GitHub Actions caps a job at 6 hours, and even a
 // generous free-tier LLM rate limit can't push that many pages through in one run. So unless
-// --only targets a single jurisdiction, this run is budget-capped (SCRAPER_BUDGET, default 100 —
-// sized for the Gemini free tier's 1,500 requests/day cap, worst case ~11 requests per
-// jurisdiction counting the bio-page follow-up pass: 100 * 11 = 1,100, with headroom to spare)
-// and prioritized (selectScrapeCandidates() below) — never-scraped jurisdictions first, then
-// whichever previously-scraped ones are most overdue for a refresh (SCRAPER_REFRESH_DAYS,
-// default 30 — officials rarely change, so there's no value re-confirming a jurisdiction that
-// was scraped last week). A run that doesn't get through everything due just picks up where it
-// left off next time, the same resumable pattern discover-jurisdictions.js already established.
+// --only targets a single jurisdiction, this run is budget-capped and prioritized
+// (selectScrapeCandidates() below) — never-scraped jurisdictions first, then whichever
+// previously-scraped ones are most overdue for a refresh (SCRAPER_REFRESH_DAYS, default 30 —
+// officials rarely change, so there's no value re-confirming a jurisdiction that was scraped
+// last week). A run that doesn't get through everything due just picks up where it left off next
+// time, the same resumable pattern discover-jurisdictions.js already established.
+//
+// The budget itself defaults to however much of the shared daily LLM-call cap
+// (usage-ledger.js) is left when this run starts, converted to a jurisdiction count via this
+// phase's own observed average cost (AVG_SCRAPE_CALLS_PER_JURISDICTION below) — see
+// run-daily.yml, which runs this after promote-blob-finds.js and before
+// discover-jurisdictions.js in one shared-budget job. Set SCRAPER_BUDGET explicitly to override
+// that (a fixed number, ignoring the ledger) for a standalone/local run.
 //
 // Usage:
 //   ANTHROPIC_API_KEY=sk-... node src/run.js
@@ -28,6 +33,14 @@ import { scrapeJurisdiction } from "./pipeline.js";
 import { writeShards } from "./output.js";
 import { closeBrowser, browserStatus } from "./browser.js";
 import { loadJurisdictions, jurisdictionKey, readJsonIfExists } from "./seeds.js";
+import { getCallCount } from "./llm.js";
+import { readUsedToday, remainingBudget, estimateBudgetFromRemaining, recordUsage } from "./usage-ledger.js";
+
+// Observed average across a real nationwide run (78 jurisdictions in ~13 minutes of "Run
+// scraper" wall time at Gemini's 15 RPM throttle) — most jurisdictions cost 1 call (roster pass
+// only); enrichment's own budget-capped bio-page follow-ups push the average up a bit, not to
+// the documented worst case of ~11. Used only when SCRAPER_BUDGET isn't set explicitly.
+const AVG_SCRAPE_CALLS_PER_JURISDICTION = 2.5;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -96,7 +109,9 @@ async function main() {
     jurisdictions = jurisdictions.filter((j) => j.city.toLowerCase() === only.toLowerCase());
     dueCount = jurisdictions.length;
   } else {
-    const budget = Number(process.env.SCRAPER_BUDGET || 100);
+    const remaining = remainingBudget(await readUsedToday());
+    const ledgerBudget = estimateBudgetFromRemaining(remaining, AVG_SCRAPE_CALLS_PER_JURISDICTION);
+    const budget = Number(process.env.SCRAPER_BUDGET || ledgerBudget);
     const refreshDays = Number(process.env.SCRAPER_REFRESH_DAYS || 30);
     const now = new Date().toISOString();
     const lastScrapedByKey = await loadLastScrapedByKey(jurisdictions, PUBLIC_OFFICIALS_DIR);
@@ -145,6 +160,11 @@ async function main() {
   const { states } = await writeShards(allOfficials, { publicDir: PUBLIC_OFFICIALS_DIR, now });
   console.log(`\nWrote ${allOfficials.length} officials across ${states.length} state shard(s):`);
   for (const s of states) console.log(`  - ${s.state}: ${s.count} total (${s.cities.length} cities)`);
+
+  // Record real usage regardless of --only/fatal/problems — every branch above already made
+  // whatever LLM calls it made, so the shared ledger needs to reflect that either way.
+  const usage = await recordUsage(getCallCount(), { phase: "scrape" });
+  console.log(`\nLLM calls this run: ${getCallCount()} (today's running total: ${usage.calls_used}).`);
 
   // Problems go to a scratch file (gitignored), not the committed data.
   await mkdir(join(ROOT, "data"), { recursive: true });

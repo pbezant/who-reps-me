@@ -1,0 +1,60 @@
+# Free reachability check for every known seed URL (config/seeds.json + config/seeds.discovered.json)
+# — no LLM calls, writes no officials data. Reports each URL as OK / OK (via browser) / FAIL /
+# NEEDS-BROWSER / NO-ROSTER-KEYWORDS, and for anything not OK, prints candidate replacement links
+# scraped from that site's homepage. Split out of run-daily.yml (which used to have this as a
+# scrape.yml mode) since it shares nothing with the four budget-tracked phases there — it's a
+# diagnostic you reach for on demand, not part of the daily pipeline.
+#
+# IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
+# repository's default branch. Until this file is merged there, run it locally instead:
+#   cd scraper && npm run probe
+#   cd scraper && npm run probe -- --only Austin
+
+name: Probe seed URLs
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Optional: limit to a single city (matches seeds.json/seeds.discovered.json 'city')"
+        required: false
+        type: string
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install chromium
+
+      - name: Probe seed URLs
+        env:
+          SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node scraper/src/probe.js --only "${{ inputs.only }}"
+          else
+            node scraper/src/probe.js
+          fi
+
+      - name: Upload probe report
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-probe-report
+          path: scraper/data/probe.json
+          if-no-files-found: warn

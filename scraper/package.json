@@ -14,9 +14,11 @@
     "federal-details": "node src/federal-details.js",
     "discover-jurisdictions": "node src/discover-jurisdictions.js",
     "fetch-census-data": "node scripts/fetch-census-data.js",
+    "promote-blob-finds": "node scripts/promote-blob-finds.js",
     "test": "node --test"
   },
   "dependencies": {
+    "@netlify/blobs": "^8.2.0",
     "js-yaml": "^4.1.0"
   },
   "optionalDependencies": {

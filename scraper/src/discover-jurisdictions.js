@@ -24,11 +24,16 @@
 // via seeds.js's loadJurisdictions() (config/seeds.json ∪ config/seeds.discovered.json).
 //
 // Needs a real LLM_PRESET/LLM_API_KEY to be useful in a reasonable amount of time — each
-// discovery attempt is up to 1 + fetchBudget LLM calls, so a slow keyless provider makes even a
-// modest budget slow (same trade-off already documented for the on-demand Netlify path in
-// scraper/README.md). Defaults to gemini — see this workflow's own defaults in
-// discover-jurisdictions.yml. At DISCOVER_BUDGET=100 and up to 7 LLM calls each, a run's worst
-// case (700 calls) stays comfortably under Gemini's 1,500 requests/day free-tier cap.
+// discovery attempt is up to 1 + fetchBudget LLM calls (9 at findRosterPage()'s current default,
+// see discover.js), so a slow keyless provider makes even a modest budget slow (same trade-off
+// already documented for the on-demand Netlify path in scraper/README.md). Defaults to gemini —
+// see this workflow's own defaults in discover-jurisdictions.yml.
+//
+// DISCOVER_BUDGET defaults to however much of the shared daily LLM-call cap (usage-ledger.js) is
+// left when this run starts, converted to a candidate-count budget via this phase's own observed
+// average cost (AVG_DISCOVER_CALLS_PER_CANDIDATE below) — see run-daily.yml, which runs this
+// after run.js (scrape) in the same shared-budget job, so discovery only spends what scraping
+// didn't need that day. Set DISCOVER_BUDGET explicitly to override that for a standalone run.
 //
 // Usage:
 //   DISCOVER_STATES=TX LLM_PRESET=gemini LLM_API_KEY=... node src/discover-jurisdictions.js
@@ -39,6 +44,15 @@ import { writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 import { discoverJurisdictionSite, findRosterPage } from "./discover.js";
+import { getCallCount } from "./llm.js";
+import { readUsedToday, remainingBudget, estimateBudgetFromRemaining, recordUsage } from "./usage-ledger.js";
+
+// Observed average across a real nationwide run (100 candidates in ~33 minutes of wall time at
+// Gemini's 15 RPM throttle -> ~495 calls possible in that window -> ~5/candidate). Measured
+// under the pre-bump minOfficials=3/fetchBudget=6; nudged up slightly for the current
+// minOfficials=7/fetchBudget=8 (see discover.js), which digs a bit deeper before accepting a
+// hit. Used only when DISCOVER_BUDGET isn't set explicitly.
+const AVG_DISCOVER_CALLS_PER_CANDIDATE = 6;
 import { loadJurisdictions, readJsonIfExists, jurisdictionKey, CONFIG_DIR } from "./seeds.js";
 import { closeBrowser } from "./browser.js";
 import { resolveStateList } from "./stateFips.js";
@@ -90,7 +104,9 @@ export function selectDiscoveryCandidates(candidates, { seededKeys, discoveredKe
 
 async function main() {
   const states = resolveStateList(process.env.DISCOVER_STATES);
-  const budget = Number(process.env.DISCOVER_BUDGET || 100);
+  const remaining = remainingBudget(await readUsedToday());
+  const ledgerBudget = estimateBudgetFromRemaining(remaining, AVG_DISCOVER_CALLS_PER_CANDIDATE);
+  const budget = Number(process.env.DISCOVER_BUDGET || ledgerBudget);
   // Unlike the on-demand Netlify path (no time budget to spend on a real browser), a scheduled
   // batch run can afford the Playwright fallback for client-rendered/WAF-blocked sites — same
   // opt-out convention as run.js/probe.js.
@@ -190,7 +206,9 @@ async function main() {
   await mkdir(CONFIG_DIR, { recursive: true });
   await writeFile(DISCOVERED_PATH, JSON.stringify(discoveredFile, null, 2));
 
+  const usage = await recordUsage(getCallCount(), { phase: "discover" });
   console.log(`\n${attempted} attempted, ${hits} hit(s), ${attempted - hits} miss(es). Wrote ${DISCOVERED_PATH}.`);
+  console.log(`LLM calls this run: ${getCallCount()} (today's running total: ${usage.calls_used}).`);
   console.log(`Total auto-discovered jurisdictions so far: ${discoveredFile.jurisdictions.length}.`);
 }
 

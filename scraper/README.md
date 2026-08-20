@@ -146,13 +146,23 @@ netlify/functions/local-officials.mjs  (POST /api/local-officials)
   request/response function. A jurisdiction that needs it fails soft here and stays eligible
   for the batch scraper (which does have the browser fallback, via `browser.js`) to pick up
   later if it's ever added to `seeds.json`/discovered by `discover-jurisdictions.js`.
-- **Not promoted into the committed shard automatically.** An on-demand find lives only in
-  Blobs, separate from `public/officials/<STATE>.json`. It works (the frontend checks Blobs
-  whenever the shard misses), but the batch scraper never sees it, and Blobs isn't backed up —
-  if you want the URL it found in the permanent, git-committed dataset too, copy it into
-  `config/seeds.json` by hand (or let `discover-jurisdictions.js` find the same jurisdiction on
-  its own schedule — see "Dynamic jurisdiction discovery" below, which *does* write into a
-  committed file).
+- **Not promoted into the committed shard automatically — unless `promote-blob-finds.js` runs.**
+  An on-demand find lives only in Blobs by default, separate from `public/officials/<STATE>.json`.
+  It works on its own (the frontend checks Blobs whenever the shard misses), but the batch
+  scraper never sees it and Blobs isn't backed up. `scripts/promote-blob-finds.js` closes this
+  gap: it reads every cached hit in the Blobs store, writes its already-extracted officials
+  straight into the relevant `public/officials/<STATE>.json` shard (zero LLM calls — see the
+  script's own header comment), and writes anything not already in
+  `seeds.json`/`seeds.discovered.json` into `seeds.discovered.json`, in the exact shape
+  `discover-jurisdictions.js`'s own hits use — so a promoted find gets the same 30-day refresh
+  cycle as everything else from then on. Needs live Netlify credentials (`NETLIFY_AUTH_TOKEN`,
+  `NETLIFY_SITE_ID` — see the script's own header comment for where to get them); runs as the
+  first phase of `.github/workflows/run-daily.yml` once those two repo secrets are set (see "Run
+  on a schedule" below), or by hand:
+  ```bash
+  cd scraper
+  NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-blob-finds
+  ```
 
 ### Setup: Netlify environment variables
 
@@ -372,23 +382,31 @@ got to; anything left over just gets picked up next run, the same resumable patt
 
 ## Run on a schedule (free)
 
-`.github/workflows/scrape.yml` runs **overnight** — weekly, Monday at 07:00 UTC
-(2:00 AM CDT / 1:00 AM CST) — so it never competes with daytime API usage. It commits changed
-shards and Netlify auto-deploys on the push. Change the cron to `0 7 * * *` for nightly, though
-weekly is usually plenty since officials rarely change.
+`.github/workflows/run-daily.yml` runs one job through four phases in order — promote
+(`scripts/promote-blob-finds.js`), scrape (`src/run.js`), discover
+(`src/discover-jurisdictions.js`), QA check (`scripts/qa-check.js`) — sharing **one daily
+LLM-call budget** across all four instead of each phase having its own fixed, independent cap.
+See `src/usage-ledger.js`'s own header comment for the full reasoning, and that workflow file's
+own header comment for the phase order and why. Scheduled for 10pm Central (03:00 UTC) so it
+runs when it's least likely to compete with real user searches for the same provider rate limit.
 
 **Setup: add the `LLM_API_KEY` repo secret** (Settings → Secrets and variables → Actions →
 Secrets) with a free Gemini key from aistudio.google.com — extraction defaults to the `gemini`
-preset (15 requests/minute, 1,500/day), which `SCRAPER_BUDGET` (repo variable, default 100) is
-sized against: worst case ~11 LLM calls per jurisdiction (roster pass + up to
-`SCRAPER_ENRICH_BUDGET` bio-page follow-ups, see "Run locally" above), so 100 * 11 = 1,100 stays
-under the daily cap with headroom, and the run finishes in well under an hour instead of
-bumping into GitHub Actions' 6-hour job limit. Without that secret, a scheduled run fails
-outright — either add it, or set the repo **variable** `LLM_PRESET` to `ovh` to fall back to its
-keyless anonymous tier (2 requests/minute; expect a run to take much longer and cover fewer
-jurisdictions per week at the same `SCRAPER_BUDGET`). To use a different provider entirely, set
-`LLM_PRESET` to its name and add the matching secret (`LLM_API_KEY`, or `ANTHROPIC_API_KEY` for
-Claude).
+preset (15 requests/minute, 1,500/day). Without that secret, a scheduled run fails outright —
+either add it, or set the repo **variable** `LLM_PRESET` to `ovh` to fall back to its keyless
+anonymous tier (2 requests/minute; expect a run to cover far less per day at the same shared
+budget). To use a different provider entirely, set `LLM_PRESET` to its name and add the matching
+secret (`LLM_API_KEY`, or `ANTHROPIC_API_KEY` for Claude).
+
+`SCRAPER_BUDGET`/`DISCOVER_BUDGET`/`QA_SAMPLE_SIZE` (repo variables, or the matching
+`workflow_dispatch` inputs) still work as **fixed overrides** for a phase — set one to pin that
+phase to an exact jurisdiction/sample count regardless of the shared ledger. Leave them unset
+(the normal case) and each phase derives its own budget from however much of today's shared cap
+is left when it starts.
+
+**Promoting on-demand finds** (phase 1) additionally needs `NETLIFY_AUTH_TOKEN`/`NETLIFY_SITE_ID`
+repo secrets — see "On-demand scraping" above for where to get them. Without those two, phase 1
+logs why and skips cleanly; the other three phases still run.
 
 > **GitHub Models is retired.** It was the original default and now returns
 > `HTTP 410 github_models_retirement_brownout` for every request. It has been removed from the
@@ -397,20 +415,16 @@ Claude).
 > **variable** if a run aborts this way, since a variable overrides the workflow's `gemini`
 > default.
 
-The **Run workflow** button takes a `mode`:
+A separate, free `.github/workflows/probe.yml` checks every seed URL's reachability with **no
+LLM calls and no data written** — split out from the daily pipeline since it shares nothing with
+its budget tracking; run it any time via its own **Run workflow** button, downloads a
+`seed-probe-report` artifact.
 
-| mode | Cost | Use |
-| --- | --- | --- |
-| `scrape` ← default | free | The real run: extracts officials and commits the data |
-| `probe` | free | Only checks seed URLs and **writes no data**; downloads a `seed-probe-report` artifact |
-
-Scheduled runs always scrape.
-
-> **The workflow only appears in the Actions tab once this file is on the repository's default
-> branch.** GitHub registers workflows from the default branch only, so while it lives on a
+> **A workflow only appears in the Actions tab once its file is on the repository's default
+> branch.** GitHub registers workflows from the default branch only, so while one lives on a
 > feature branch there is nothing to run — no **Run workflow** button and no cron, and switching
-> branches in the UI won't reveal it. Until it's merged, run the scraper locally (see above).
-> GitHub also disables schedules after ~60 days of repo inactivity.
+> branches in the UI won't reveal it. Until it's merged, run the phases locally instead (see
+> above). GitHub also disables schedules after ~60 days of repo inactivity.
 
 ## Browser fallback (headless Chromium)
 
@@ -466,9 +480,9 @@ DISCOVER_STATES=TX,CA npm run fetch-census-data
 
 Downloads both per state (plus one shared national county-population file), joins population
 onto each place/county by its Census GEOID, and writes `scraper/data/jurisdictions/<STATE>.json`
-— **committed reference data**. `discover-jurisdictions.yml` runs this automatically before every
-discovery run, so it's always current without a separate manual step; it also still works run by
-hand for local testing. **The Census data vintage (which year's files to fetch) is
+— **committed reference data**. `run-daily.yml` runs this automatically before every discovery
+phase, so it's always current without a separate manual step; it also still works run by hand
+for local testing. **The Census data vintage (which year's files to fetch) is
 auto-detected fresh each run**, not pinned to a hardcoded year — `fetch-census-data.js` lists the
 Census directory itself and picks the newest one published (`detectLatestGazetteerYear()`/
 `detectLatestPopestVintage()`), the same technique used to confirm the URL shape by hand in the
@@ -500,14 +514,17 @@ than trusting the automation blindly. This population-weighted arrival order is 
 its header comment) — so the biggest cities/counties **in the whole country** reach the front of
 both queues, not just within whichever state happens to sort first.
 
-**This does not extract or commit officials data** — only URLs. The next `npm run scrape` (or
-scheduled `scrape.yml` run) picks up anything newly discovered automatically via `seeds.js`.
+**This does not extract or commit officials data** — only URLs. The next `npm run scrape` (or the
+scrape phase of a scheduled `run-daily.yml` run) picks up anything newly discovered automatically
+via `seeds.js`.
 
 Needs a real `LLM_PRESET`/`LLM_API_KEY` to be useful in a reasonable time — each attempt is up to
-7 LLM calls, so a slow keyless provider makes even a 15-jurisdiction budget slow (same trade-off
-as the on-demand Netlify path). Defaults to `gemini`, same as `scrape.yml`. Runs on its own
-schedule via `.github/workflows/discover-jurisdictions.yml`, decoupled from
-`scrape.yml`/`federal-social.yml` the same way those two are decoupled from each other.
+9 LLM calls (1 site-recall call + up to `findRosterPage()`'s `fetchBudget`, 8 — see that
+function's own header comment in `discover.js` for why it's tuned this high: a lower bar
+(`minOfficials`) was accepting a page with 1-2 names as "the roster" for jurisdictions whose real
+council/commission has far more members), so a slow keyless provider makes even a 15-jurisdiction
+budget slow (same trade-off as the on-demand Netlify path). Defaults to `gemini`. Runs as the
+third phase of `.github/workflows/run-daily.yml` — see "Run on a schedule" below.
 
 ## Seed list
 
