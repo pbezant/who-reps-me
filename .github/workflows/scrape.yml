@@ -158,5 +158,23 @@ jobs:
             echo "No changes to officials data."
           else
             git commit -m "chore(data): refresh local officials shards [skip ci]"
-            git push
+            # A concurrent push to the same branch (e.g. discover-jurisdictions.yml finishing
+            # its own long run mid-way through this one — different concurrency group, so
+            # nothing here serializes against it) makes a bare `git push` fail non-fast-forward
+            # and silently discard this run's work. Rebase onto the latest remote and retry a
+            # few times before giving up for real — the two workflows touch disjoint paths
+            # (public/officials/ here vs scraper/config + scraper/data/jurisdictions/ there), so
+            # the rebase is always a clean replay, never a real content conflict.
+            for attempt in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (attempt $attempt/3) — fetching and rebasing onto the latest remote..."
+              git fetch origin "$GITHUB_REF_NAME"
+              git rebase "origin/$GITHUB_REF_NAME"
+              if [ "$attempt" = 3 ]; then
+                echo "::error::Failed to push updated shards after 3 attempts."
+                exit 1
+              fi
+            done
           fi

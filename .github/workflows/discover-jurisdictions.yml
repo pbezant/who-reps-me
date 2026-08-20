@@ -138,5 +138,24 @@ jobs:
             echo "No newly discovered jurisdictions or Census data changes."
           else
             git commit -m "chore(data): discover new jurisdictions, refresh Census jurisdiction data [skip ci]"
-            git push
+            # This step runs after the slow, budget-capped discovery pass above (up to ~45 min
+            # nationwide) — plenty of time for scrape.yml (own concurrency group, so nothing
+            # serializes against it) to push its own commit first and make this push a
+            # non-fast-forward rejection, silently discarding the whole run's discoveries.
+            # Confirmed happening in practice, not just theoretical. Rebase onto the latest
+            # remote and retry — the two workflows touch disjoint paths (scraper/config +
+            # scraper/data/jurisdictions/ here vs public/officials/ there), so the rebase is
+            # always a clean replay, never a real content conflict.
+            for attempt in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (attempt $attempt/3) — fetching and rebasing onto the latest remote..."
+              git fetch origin "$GITHUB_REF_NAME"
+              git rebase "origin/$GITHUB_REF_NAME"
+              if [ "$attempt" = 3 ]; then
+                echo "::error::Failed to push discovered jurisdictions after 3 attempts."
+                exit 1
+              fi
+            done
           fi

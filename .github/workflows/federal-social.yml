@@ -60,5 +60,21 @@ jobs:
             echo "No changes to federal social links or details."
           else
             git commit -m "chore(data): refresh federal social links and details [skip ci]"
-            git push
+            # Same non-fast-forward race scrape.yml and discover-jurisdictions.yml guard
+            # against: a concurrent push from either of those (own concurrency group, so
+            # nothing here serializes against them) would otherwise make a bare `git push`
+            # fail and silently discard this run. Disjoint paths (public/federal-*.json here),
+            # so the rebase is always a clean replay.
+            for attempt in 1 2 3; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (attempt $attempt/3) — fetching and rebasing onto the latest remote..."
+              git fetch origin "$GITHUB_REF_NAME"
+              git rebase "origin/$GITHUB_REF_NAME"
+              if [ "$attempt" = 3 ]; then
+                echo "::error::Failed to push federal social/details data after 3 attempts."
+                exit 1
+              fi
+            done
           fi
