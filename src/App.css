@@ -458,9 +458,9 @@
   opacity:0.9;
 }
 
-/* "Suggest an official" floating button + dialog (src/SubmitOfficial.js) — only rendered once a
-   search has produced results, bottom-right so it never sits over the hero search box. */
-.suggest-official-fab{
+/* "Report a bug" floating button + dialog (src/ReportBug.js) — always available, bottom-right so
+   it never sits over the hero search box. */
+.report-bug-fab{
   position: fixed;
   right: 1.5em;
   bottom: 1.5em;
@@ -480,17 +480,17 @@
   box-shadow: rgba(0,0,0,0.4) 0 10px 25px -5px;
   transition: transform 150ms ease;
 }
-.suggest-official-fab:hover,
-.suggest-official-fab:focus-visible{
+.report-bug-fab:hover,
+.report-bug-fab:focus-visible{
   transform: scale(1.08);
   outline: 2px solid var(--white);
   outline-offset: 2px;
 }
-.suggest-official-fab span{
+.report-bug-fab span{
   transform: translateY(-0.05em);
 }
 
-.suggest-official-overlay{
+.report-bug-overlay{
   position: fixed;
   inset: 0;
   z-index: 40;
@@ -501,7 +501,7 @@
   background: rgba(0,0,0,0.6);
 }
 
-.suggest-official-dialog{
+.report-bug-dialog{
   position: relative;
   width: 100%;
   max-width: 26em;
@@ -515,40 +515,47 @@
   box-shadow: rgba(0,0,0,0.5) 0 20px 40px -10px;
   text-align: left;
 }
-.suggest-official-dialog h2{
+.report-bug-dialog h2{
   margin: 0 0 0.4em;
   font-size: 1.25rem;
   padding-right: 1.5em;
 }
-.suggest-official-intro{
+.report-bug-intro{
   margin: 0 0 1.25em;
   font-size: 0.9em;
   opacity: 0.85;
   line-height: 1.4;
 }
-.suggest-official-dialog form{
+.report-bug-dialog form{
   display: flex;
   flex-direction: column;
   gap: 0.4em;
 }
-.suggest-official-dialog label{
+.report-bug-dialog label{
   font-size: 0.85em;
   opacity: 0.9;
   margin-top: 0.6em;
 }
-.suggest-official-dialog input{
+.report-bug-dialog input,
+.report-bug-dialog textarea{
   border: 2px solid var(--light-grey);
   border-radius: 0.6em;
   padding: 0.6em 0.8em;
   font-size: 1rem;
+  font-family: inherit;
   background-color: rgba(255,255,255,90%);
   color: var(--black);
+  resize: vertical;
 }
-.suggest-official-dialog input:focus{
+.report-bug-dialog textarea{
+  min-height: 6em;
+}
+.report-bug-dialog input:focus,
+.report-bug-dialog textarea:focus{
   outline: none;
   border-color: var(--blue);
 }
-.suggest-official-submit{
+.report-bug-submit{
   margin-top: 1.25em;
   align-self: flex-start;
   border: 0;
@@ -559,11 +566,11 @@
   background-image: linear-gradient(144deg, #cf252b, #355fc1);
   cursor: pointer;
 }
-.suggest-official-submit:disabled{
+.report-bug-submit:disabled{
   opacity: 0.6;
   cursor: not-allowed;
 }
-.suggest-official-close{
+.report-bug-close{
   position: absolute;
   top: 0.75em;
   right: 0.75em;
@@ -577,25 +584,29 @@
   line-height: 1;
   cursor: pointer;
 }
-.suggest-official-close:hover{
+.report-bug-close:hover{
   background: rgba(255,255,255,0.22);
 }
-.suggest-official-result{
+.report-bug-result{
   margin: 1.25em 0 0;
   padding: 0.7em 0.9em;
   border-radius: 0.6em;
   font-size: 0.9em;
   line-height: 1.4;
 }
-.suggest-official-result.ok{
+.report-bug-result.ok{
   background: rgba(60, 180, 100, 0.25);
 }
-.suggest-official-result.error{
+.report-bug-result.error{
   background: rgba(207, 37, 43, 0.3);
+}
+.report-bug-result a{
+  color: var(--white);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px){
-  .suggest-official-fab{
+  .report-bug-fab{
     right: 1em;
     bottom: 1em;
     width: 3.25em;

@@ -4,7 +4,7 @@ import axios from 'axios';
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
-import SubmitOfficial from './SubmitOfficial';
+import ReportBug from './ReportBug';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -21,9 +21,9 @@ function App() {
         <SearchBar apiKey={apiKey} setRepList={setRepList} />
         <Results repList={repList} />
       </main>
-      {/* Only worth offering once a search has actually produced something to add to — see
-          SubmitOfficial.js's own header comment. */}
-      {repList?.representatives?.length > 0 && <SubmitOfficial />}
+      {/* Always available, unlike the officials-suggestion button it replaced — a bug can
+          happen before a search ever completes. See ReportBug.js's own header comment. */}
+      <ReportBug repList={repList} />
     </div>
   );
 }
