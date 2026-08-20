@@ -555,6 +555,9 @@
   outline: none;
   border-color: var(--blue);
 }
+.report-bug-turnstile{
+  margin-top: 0.8em;
+}
 .report-bug-submit{
   margin-top: 1.25em;
   align-self: flex-start;
