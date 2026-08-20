@@ -1,0 +1,736 @@
+{
+  "state": "MT",
+  "generated_at": "2026-08-20T02:10:56.765Z",
+  "places": [
+    {
+      "name": "Alberton",
+      "population": 551
+    },
+    {
+      "name": "Anaconda-Deer Lodge County",
+      "population": 9709
+    },
+    {
+      "name": "Bainville",
+      "population": 266
+    },
+    {
+      "name": "Baker",
+      "population": 1776
+    },
+    {
+      "name": "Bearcreek",
+      "population": 106
+    },
+    {
+      "name": "Belgrade",
+      "population": 13107
+    },
+    {
+      "name": "Belt",
+      "population": 523
+    },
+    {
+      "name": "Big Sandy",
+      "population": 598
+    },
+    {
+      "name": "Big Timber",
+      "population": 1686
+    },
+    {
+      "name": "Billings",
+      "population": 121239
+    },
+    {
+      "name": "Boulder",
+      "population": 1305
+    },
+    {
+      "name": "Bozeman",
+      "population": 58814
+    },
+    {
+      "name": "Bridger",
+      "population": 709
+    },
+    {
+      "name": "Broadus",
+      "population": 477
+    },
+    {
+      "name": "Broadview",
+      "population": 136
+    },
+    {
+      "name": "Cascade",
+      "population": 577
+    },
+    {
+      "name": "Chester",
+      "population": 844
+    },
+    {
+      "name": "Chinook",
+      "population": 1155
+    },
+    {
+      "name": "Choteau",
+      "population": 1825
+    },
+    {
+      "name": "Circle",
+      "population": 590
+    },
+    {
+      "name": "Clyde Park",
+      "population": 348
+    },
+    {
+      "name": "Colstrip",
+      "population": 2091
+    },
+    {
+      "name": "Columbia Falls",
+      "population": 5753
+    },
+    {
+      "name": "Columbus",
+      "population": 1964
+    },
+    {
+      "name": "Conrad",
+      "population": 2393
+    },
+    {
+      "name": "Culbertson",
+      "population": 715
+    },
+    {
+      "name": "Cut Bank",
+      "population": 2976
+    },
+    {
+      "name": "Darby",
+      "population": 888
+    },
+    {
+      "name": "Deer Lodge",
+      "population": 3025
+    },
+    {
+      "name": "Denton",
+      "population": 207
+    },
+    {
+      "name": "Dillon",
+      "population": 4271
+    },
+    {
+      "name": "Dodson",
+      "population": 123
+    },
+    {
+      "name": "Drummond",
+      "population": 298
+    },
+    {
+      "name": "Dutton",
+      "population": 318
+    },
+    {
+      "name": "East Helena",
+      "population": 2325
+    },
+    {
+      "name": "Ekalaka",
+      "population": 398
+    },
+    {
+      "name": "Ennis",
+      "population": 1126
+    },
+    {
+      "name": "Eureka",
+      "population": 1562
+    },
+    {
+      "name": "Fairfield",
+      "population": 797
+    },
+    {
+      "name": "Fairview",
+      "population": 882
+    },
+    {
+      "name": "Flaxville",
+      "population": 58
+    },
+    {
+      "name": "Forsyth",
+      "population": 1652
+    },
+    {
+      "name": "Fort Benton",
+      "population": 1416
+    },
+    {
+      "name": "Fort Peck",
+      "population": 232
+    },
+    {
+      "name": "Froid",
+      "population": 184
+    },
+    {
+      "name": "Fromberg",
+      "population": 422
+    },
+    {
+      "name": "Geraldine",
+      "population": 204
+    },
+    {
+      "name": "Glasgow",
+      "population": 3145
+    },
+    {
+      "name": "Glendive",
+      "population": 4736
+    },
+    {
+      "name": "Grass Range",
+      "population": 114
+    },
+    {
+      "name": "Great Falls",
+      "population": 60208
+    },
+    {
+      "name": "Hamilton",
+      "population": 5451
+    },
+    {
+      "name": "Hardin",
+      "population": 3696
+    },
+    {
+      "name": "Harlem",
+      "population": 750
+    },
+    {
+      "name": "Harlowton",
+      "population": 976
+    },
+    {
+      "name": "Havre",
+      "population": 9264
+    },
+    {
+      "name": "Helena",
+      "population": 35138
+    },
+    {
+      "name": "Hingham",
+      "population": 127
+    },
+    {
+      "name": "Hobson",
+      "population": 191
+    },
+    {
+      "name": "Hot Springs",
+      "population": 630
+    },
+    {
+      "name": "Hysham",
+      "population": 262
+    },
+    {
+      "name": "Ismay",
+      "population": 21
+    },
+    {
+      "name": "Joliet",
+      "population": 613
+    },
+    {
+      "name": "Jordan",
+      "population": 348
+    },
+    {
+      "name": "Judith Gap",
+      "population": 111
+    },
+    {
+      "name": "Kalispell",
+      "population": 31851
+    },
+    {
+      "name": "Kevin",
+      "population": 164
+    },
+    {
+      "name": "Laurel",
+      "population": 7205
+    },
+    {
+      "name": "Lavina",
+      "population": 141
+    },
+    {
+      "name": "Lewistown",
+      "population": 6179
+    },
+    {
+      "name": "Libby",
+      "population": 3274
+    },
+    {
+      "name": "Lima",
+      "population": 221
+    },
+    {
+      "name": "Livingston",
+      "population": 9290
+    },
+    {
+      "name": "Lodge Grass",
+      "population": 422
+    },
+    {
+      "name": "Malta",
+      "population": 1846
+    },
+    {
+      "name": "Manhattan",
+      "population": 2073
+    },
+    {
+      "name": "Medicine Lake",
+      "population": 241
+    },
+    {
+      "name": "Melstone",
+      "population": 147
+    },
+    {
+      "name": "Miles City",
+      "population": 8450
+    },
+    {
+      "name": "Missoula",
+      "population": 78903
+    },
+    {
+      "name": "Moore",
+      "population": 203
+    },
+    {
+      "name": "Nashua",
+      "population": 292
+    },
+    {
+      "name": "Neihart",
+      "population": 41
+    },
+    {
+      "name": "Opheim",
+      "population": 73
+    },
+    {
+      "name": "Outlook",
+      "population": 83
+    },
+    {
+      "name": "Philipsburg",
+      "population": 926
+    },
+    {
+      "name": "Pinesdale",
+      "population": 882
+    },
+    {
+      "name": "Plains",
+      "population": 1261
+    },
+    {
+      "name": "Plentywood",
+      "population": 1619
+    },
+    {
+      "name": "Plevna",
+      "population": 171
+    },
+    {
+      "name": "Polson",
+      "population": 5653
+    },
+    {
+      "name": "Poplar",
+      "population": 722
+    },
+    {
+      "name": "Red Lodge",
+      "population": 2723
+    },
+    {
+      "name": "Rexford",
+      "population": 87
+    },
+    {
+      "name": "Richey",
+      "population": 160
+    },
+    {
+      "name": "Ronan",
+      "population": 2209
+    },
+    {
+      "name": "Roundup",
+      "population": 2075
+    },
+    {
+      "name": "Ryegate",
+      "population": 228
+    },
+    {
+      "name": "Saco",
+      "population": 159
+    },
+    {
+      "name": "Scobey",
+      "population": 972
+    },
+    {
+      "name": "Shelby",
+      "population": 3313
+    },
+    {
+      "name": "Sheridan",
+      "population": 779
+    },
+    {
+      "name": "Sidney",
+      "population": 6217
+    },
+    {
+      "name": "St. Ignatius",
+      "population": 828
+    },
+    {
+      "name": "Stanford",
+      "population": 427
+    },
+    {
+      "name": "Stevensville",
+      "population": 2259
+    },
+    {
+      "name": "Sunburst",
+      "population": 356
+    },
+    {
+      "name": "Superior",
+      "population": 935
+    },
+    {
+      "name": "Terry",
+      "population": 574
+    },
+    {
+      "name": "Thompson Falls",
+      "population": 1543
+    },
+    {
+      "name": "Three Forks",
+      "population": 1920
+    },
+    {
+      "name": "Townsend",
+      "population": 2272
+    },
+    {
+      "name": "Troy",
+      "population": 916
+    },
+    {
+      "name": "Twin Bridges",
+      "population": 430
+    },
+    {
+      "name": "Valier",
+      "population": 537
+    },
+    {
+      "name": "Virginia City",
+      "population": 260
+    },
+    {
+      "name": "Walkerville",
+      "population": 649
+    },
+    {
+      "name": "West Yellowstone",
+      "population": 1191
+    },
+    {
+      "name": "Westby",
+      "population": 162
+    },
+    {
+      "name": "White Sulphur Springs",
+      "population": 1056
+    },
+    {
+      "name": "Whitefish",
+      "population": 9358
+    },
+    {
+      "name": "Whitehall",
+      "population": 1131
+    },
+    {
+      "name": "Wibaux",
+      "population": 441
+    },
+    {
+      "name": "Winifred",
+      "population": 178
+    },
+    {
+      "name": "Winnett",
+      "population": 205
+    },
+    {
+      "name": "Wolf Point",
+      "population": 2531
+    }
+  ],
+  "counties": [
+    {
+      "name": "Beaverhead County",
+      "population": 10043
+    },
+    {
+      "name": "Big Horn County",
+      "population": 12752
+    },
+    {
+      "name": "Blaine County",
+      "population": 6860
+    },
+    {
+      "name": "Broadwater County",
+      "population": 8493
+    },
+    {
+      "name": "Carbon County",
+      "population": 11466
+    },
+    {
+      "name": "Carter County",
+      "population": 1383
+    },
+    {
+      "name": "Cascade County",
+      "population": 85029
+    },
+    {
+      "name": "Chouteau County",
+      "population": 5865
+    },
+    {
+      "name": "Custer County",
+      "population": 12034
+    },
+    {
+      "name": "Daniels County",
+      "population": 1612
+    },
+    {
+      "name": "Dawson County",
+      "population": 8692
+    },
+    {
+      "name": "Deer Lodge County",
+      "population": 9709
+    },
+    {
+      "name": "Fallon County",
+      "population": 2959
+    },
+    {
+      "name": "Fergus County",
+      "population": 11825
+    },
+    {
+      "name": "Flathead County",
+      "population": 115429
+    },
+    {
+      "name": "Gallatin County",
+      "population": 128740
+    },
+    {
+      "name": "Garfield County",
+      "population": 1148
+    },
+    {
+      "name": "Glacier County",
+      "population": 13463
+    },
+    {
+      "name": "Golden Valley County",
+      "population": 844
+    },
+    {
+      "name": "Granite County",
+      "population": 3658
+    },
+    {
+      "name": "Hill County",
+      "population": 16167
+    },
+    {
+      "name": "Jefferson County",
+      "population": 13329
+    },
+    {
+      "name": "Judith Basin County",
+      "population": 2162
+    },
+    {
+      "name": "Lake County",
+      "population": 33392
+    },
+    {
+      "name": "Lewis and Clark County",
+      "population": 75331
+    },
+    {
+      "name": "Liberty County",
+      "population": 1957
+    },
+    {
+      "name": "Lincoln County",
+      "population": 22328
+    },
+    {
+      "name": "Madison County",
+      "population": 10026
+    },
+    {
+      "name": "McCone County",
+      "population": 1720
+    },
+    {
+      "name": "Meagher County",
+      "population": 2137
+    },
+    {
+      "name": "Mineral County",
+      "population": 5185
+    },
+    {
+      "name": "Missoula County",
+      "population": 123513
+    },
+    {
+      "name": "Musselshell County",
+      "population": 5582
+    },
+    {
+      "name": "Park County",
+      "population": 18214
+    },
+    {
+      "name": "Petroleum County",
+      "population": 548
+    },
+    {
+      "name": "Phillips County",
+      "population": 4203
+    },
+    {
+      "name": "Pondera County",
+      "population": 6072
+    },
+    {
+      "name": "Powder River County",
+      "population": 1781
+    },
+    {
+      "name": "Powell County",
+      "population": 7157
+    },
+    {
+      "name": "Prairie County",
+      "population": 1112
+    },
+    {
+      "name": "Ravalli County",
+      "population": 48582
+    },
+    {
+      "name": "Richland County",
+      "population": 11377
+    },
+    {
+      "name": "Roosevelt County",
+      "population": 10242
+    },
+    {
+      "name": "Rosebud County",
+      "population": 8253
+    },
+    {
+      "name": "Sanders County",
+      "population": 14062
+    },
+    {
+      "name": "Sheridan County",
+      "population": 3436
+    },
+    {
+      "name": "Silver Bow County",
+      "population": 36118
+    },
+    {
+      "name": "Stillwater County",
+      "population": 9445
+    },
+    {
+      "name": "Sweet Grass County",
+      "population": 3762
+    },
+    {
+      "name": "Teton County",
+      "population": 6496
+    },
+    {
+      "name": "Toole County",
+      "population": 5211
+    },
+    {
+      "name": "Treasure County",
+      "population": 728
+    },
+    {
+      "name": "Valley County",
+      "population": 7385
+    },
+    {
+      "name": "Wheatland County",
+      "population": 2100
+    },
+    {
+      "name": "Wibaux County",
+      "population": 885
+    },
+    {
+      "name": "Yellowstone County",
+      "population": 172692
+    }
+  ]
+}

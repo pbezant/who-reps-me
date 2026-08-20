@@ -1,0 +1,976 @@
+{
+  "state": "ID",
+  "generated_at": "2026-08-20T02:10:55.653Z",
+  "places": [
+    {
+      "name": "Aberdeen",
+      "population": 1852
+    },
+    {
+      "name": "Acequia",
+      "population": 134
+    },
+    {
+      "name": "Albion",
+      "population": 267
+    },
+    {
+      "name": "American Falls",
+      "population": 4785
+    },
+    {
+      "name": "Ammon",
+      "population": 20119
+    },
+    {
+      "name": "Arco",
+      "population": 918
+    },
+    {
+      "name": "Arimo",
+      "population": 362
+    },
+    {
+      "name": "Ashton",
+      "population": 977
+    },
+    {
+      "name": "Athol",
+      "population": 738
+    },
+    {
+      "name": "Bancroft",
+      "population": 317
+    },
+    {
+      "name": "Basalt",
+      "population": 376
+    },
+    {
+      "name": "Bellevue",
+      "population": 2597
+    },
+    {
+      "name": "Blackfoot",
+      "population": 13361
+    },
+    {
+      "name": "Bliss",
+      "population": 262
+    },
+    {
+      "name": "Bloomington",
+      "population": 212
+    },
+    {
+      "name": "Boise City",
+      "population": 238429
+    },
+    {
+      "name": "Bonners Ferry",
+      "population": 2797
+    },
+    {
+      "name": "Bovill",
+      "population": 195
+    },
+    {
+      "name": "Buhl",
+      "population": 4801
+    },
+    {
+      "name": "Burley",
+      "population": 356
+    },
+    {
+      "name": "Butte City",
+      "population": 87
+    },
+    {
+      "name": "Caldwell",
+      "population": 76629
+    },
+    {
+      "name": "Cambridge",
+      "population": 357
+    },
+    {
+      "name": "Carey",
+      "population": 727
+    },
+    {
+      "name": "Cascade",
+      "population": 1018
+    },
+    {
+      "name": "Castleford",
+      "population": 230
+    },
+    {
+      "name": "Challis",
+      "population": 959
+    },
+    {
+      "name": "Chubbuck",
+      "population": 16823
+    },
+    {
+      "name": "Clark Fork",
+      "population": 579
+    },
+    {
+      "name": "Clayton",
+      "population": 11
+    },
+    {
+      "name": "Clifton",
+      "population": 466
+    },
+    {
+      "name": "Coeur d'Alene",
+      "population": 58179
+    },
+    {
+      "name": "Cottonwood",
+      "population": 921
+    },
+    {
+      "name": "Council",
+      "population": 985
+    },
+    {
+      "name": "Craigmont",
+      "population": 469
+    },
+    {
+      "name": "Crouch",
+      "population": 181
+    },
+    {
+      "name": "Culdesac",
+      "population": 417
+    },
+    {
+      "name": "Dalton Gardens",
+      "population": 2496
+    },
+    {
+      "name": "Dayton",
+      "population": 545
+    },
+    {
+      "name": "Deary",
+      "population": 531
+    },
+    {
+      "name": "Declo",
+      "population": 372
+    },
+    {
+      "name": "Dietrich",
+      "population": 313
+    },
+    {
+      "name": "Donnelly",
+      "population": 255
+    },
+    {
+      "name": "Dover",
+      "population": 1164
+    },
+    {
+      "name": "Downey",
+      "population": 583
+    },
+    {
+      "name": "Driggs",
+      "population": 2403
+    },
+    {
+      "name": "Drummond",
+      "population": 15
+    },
+    {
+      "name": "Dubois",
+      "population": 516
+    },
+    {
+      "name": "Eagle",
+      "population": 34658
+    },
+    {
+      "name": "East Hope",
+      "population": 252
+    },
+    {
+      "name": "Eden",
+      "population": 406
+    },
+    {
+      "name": "Elk River",
+      "population": 144
+    },
+    {
+      "name": "Emmett",
+      "population": 8900
+    },
+    {
+      "name": "Fairfield",
+      "population": 501
+    },
+    {
+      "name": "Ferdinand",
+      "population": 141
+    },
+    {
+      "name": "Fernan Lake Village",
+      "population": 163
+    },
+    {
+      "name": "Filer",
+      "population": 3026
+    },
+    {
+      "name": "Firth",
+      "population": 545
+    },
+    {
+      "name": "Franklin",
+      "population": 1155
+    },
+    {
+      "name": "Fruitland",
+      "population": 7213
+    },
+    {
+      "name": "Garden City",
+      "population": 13047
+    },
+    {
+      "name": "Genesee",
+      "population": 1094
+    },
+    {
+      "name": "Georgetown",
+      "population": 492
+    },
+    {
+      "name": "Glenns Ferry",
+      "population": 1256
+    },
+    {
+      "name": "Gooding",
+      "population": 3855
+    },
+    {
+      "name": "Grace",
+      "population": 938
+    },
+    {
+      "name": "Grand View",
+      "population": 461
+    },
+    {
+      "name": "Grangeville",
+      "population": 3621
+    },
+    {
+      "name": "Greenleaf",
+      "population": 788
+    },
+    {
+      "name": "Hagerman",
+      "population": 994
+    },
+    {
+      "name": "Hailey",
+      "population": 10053
+    },
+    {
+      "name": "Hansen",
+      "population": 1109
+    },
+    {
+      "name": "Harrison",
+      "population": 222
+    },
+    {
+      "name": "Hauser",
+      "population": 915
+    },
+    {
+      "name": "Hayden",
+      "population": 17363
+    },
+    {
+      "name": "Hayden Lake",
+      "population": 668
+    },
+    {
+      "name": "Hazelton",
+      "population": 827
+    },
+    {
+      "name": "Heyburn",
+      "population": 3783
+    },
+    {
+      "name": "Hollister",
+      "population": 265
+    },
+    {
+      "name": "Homedale",
+      "population": 3138
+    },
+    {
+      "name": "Hope",
+      "population": 108
+    },
+    {
+      "name": "Horseshoe Bend",
+      "population": 816
+    },
+    {
+      "name": "Huetter",
+      "population": 105
+    },
+    {
+      "name": "Idaho City",
+      "population": 531
+    },
+    {
+      "name": "Idaho Falls",
+      "population": 71785
+    },
+    {
+      "name": "Inkom",
+      "population": 862
+    },
+    {
+      "name": "Iona",
+      "population": 3179
+    },
+    {
+      "name": "Irwin",
+      "population": 302
+    },
+    {
+      "name": "Island Park",
+      "population": 190
+    },
+    {
+      "name": "Jerome",
+      "population": 13731
+    },
+    {
+      "name": "Juliaetta",
+      "population": 644
+    },
+    {
+      "name": "Kamiah",
+      "population": 1128
+    },
+    {
+      "name": "Kellogg",
+      "population": 2456
+    },
+    {
+      "name": "Kendrick",
+      "population": 300
+    },
+    {
+      "name": "Ketchum",
+      "population": 3643
+    },
+    {
+      "name": "Kimberly",
+      "population": 5798
+    },
+    {
+      "name": "Kooskia",
+      "population": 550
+    },
+    {
+      "name": "Kootenai",
+      "population": 1091
+    },
+    {
+      "name": "Kuna",
+      "population": 31525
+    },
+    {
+      "name": "Lapwai",
+      "population": 1251
+    },
+    {
+      "name": "Lava Hot Springs",
+      "population": 374
+    },
+    {
+      "name": "Leadore",
+      "population": 99
+    },
+    {
+      "name": "Lewiston",
+      "population": 34717
+    },
+    {
+      "name": "Lewisville",
+      "population": 437
+    },
+    {
+      "name": "Mackay",
+      "population": 480
+    },
+    {
+      "name": "Malad City",
+      "population": 2338
+    },
+    {
+      "name": "Malta",
+      "population": 181
+    },
+    {
+      "name": "Marsing",
+      "population": 1230
+    },
+    {
+      "name": "McCall",
+      "population": 4133
+    },
+    {
+      "name": "McCammon",
+      "population": 828
+    },
+    {
+      "name": "Melba",
+      "population": 630
+    },
+    {
+      "name": "Menan",
+      "population": 719
+    },
+    {
+      "name": "Meridian",
+      "population": 142988
+    },
+    {
+      "name": "Middleton",
+      "population": 12600
+    },
+    {
+      "name": "Midvale",
+      "population": 213
+    },
+    {
+      "name": "Minidoka",
+      "population": 95
+    },
+    {
+      "name": "Montpelier",
+      "population": 2710
+    },
+    {
+      "name": "Moore",
+      "population": 176
+    },
+    {
+      "name": "Moscow",
+      "population": 26721
+    },
+    {
+      "name": "Mountain Home",
+      "population": 16779
+    },
+    {
+      "name": "Moyie Springs",
+      "population": 1317
+    },
+    {
+      "name": "Mud Lake",
+      "population": 364
+    },
+    {
+      "name": "Mullan",
+      "population": 663
+    },
+    {
+      "name": "Murtaugh",
+      "population": 124
+    },
+    {
+      "name": "Nampa",
+      "population": 120384
+    },
+    {
+      "name": "New Meadows",
+      "population": 684
+    },
+    {
+      "name": "New Plymouth",
+      "population": 1629
+    },
+    {
+      "name": "Newdale",
+      "population": 329
+    },
+    {
+      "name": "Nezperce",
+      "population": 471
+    },
+    {
+      "name": "Notus",
+      "population": 605
+    },
+    {
+      "name": "Oakley",
+      "population": 835
+    },
+    {
+      "name": "Oldtown",
+      "population": 262
+    },
+    {
+      "name": "Onaway",
+      "population": 218
+    },
+    {
+      "name": "Orofino",
+      "population": 3259
+    },
+    {
+      "name": "Osburn",
+      "population": 1673
+    },
+    {
+      "name": "Oxford",
+      "population": 43
+    },
+    {
+      "name": "Paris",
+      "population": 541
+    },
+    {
+      "name": "Parker",
+      "population": 289
+    },
+    {
+      "name": "Parma",
+      "population": 2203
+    },
+    {
+      "name": "Paul",
+      "population": 1722
+    },
+    {
+      "name": "Payette",
+      "population": 8813
+    },
+    {
+      "name": "Peck",
+      "population": 174
+    },
+    {
+      "name": "Pierce",
+      "population": 516
+    },
+    {
+      "name": "Pinehurst",
+      "population": 1780
+    },
+    {
+      "name": "Placerville",
+      "population": 48
+    },
+    {
+      "name": "Plummer",
+      "population": 1130
+    },
+    {
+      "name": "Pocatello",
+      "population": 0
+    },
+    {
+      "name": "Ponderay",
+      "population": 2024
+    },
+    {
+      "name": "Post Falls",
+      "population": 46715
+    },
+    {
+      "name": "Potlatch",
+      "population": 797
+    },
+    {
+      "name": "Preston",
+      "population": 6177
+    },
+    {
+      "name": "Priest River",
+      "population": 1851
+    },
+    {
+      "name": "Rathdrum",
+      "population": 13227
+    },
+    {
+      "name": "Reubens",
+      "population": 52
+    },
+    {
+      "name": "Rexburg",
+      "population": 40334
+    },
+    {
+      "name": "Richfield",
+      "population": 483
+    },
+    {
+      "name": "Rigby",
+      "population": 5757
+    },
+    {
+      "name": "Riggins",
+      "population": 396
+    },
+    {
+      "name": "Ririe",
+      "population": 641
+    },
+    {
+      "name": "Roberts",
+      "population": 572
+    },
+    {
+      "name": "Rockland",
+      "population": 257
+    },
+    {
+      "name": "Rupert",
+      "population": 6460
+    },
+    {
+      "name": "Salmon",
+      "population": 3286
+    },
+    {
+      "name": "Sandpoint",
+      "population": 10645
+    },
+    {
+      "name": "Shelley",
+      "population": 5303
+    },
+    {
+      "name": "Shoshone",
+      "population": 1767
+    },
+    {
+      "name": "Smelterville",
+      "population": 813
+    },
+    {
+      "name": "Soda Springs",
+      "population": 3165
+    },
+    {
+      "name": "Spencer",
+      "population": 29
+    },
+    {
+      "name": "Spirit Lake",
+      "population": 2485
+    },
+    {
+      "name": "St. Anthony",
+      "population": 3990
+    },
+    {
+      "name": "St. Charles",
+      "population": 185
+    },
+    {
+      "name": "St. Maries",
+      "population": 2457
+    },
+    {
+      "name": "Stanley",
+      "population": 124
+    },
+    {
+      "name": "Star",
+      "population": 70
+    },
+    {
+      "name": "State Line",
+      "population": 38
+    },
+    {
+      "name": "Stites",
+      "population": 184
+    },
+    {
+      "name": "Sugar City",
+      "population": 2476
+    },
+    {
+      "name": "Sun Valley",
+      "population": 1776
+    },
+    {
+      "name": "Swan Valley",
+      "population": 321
+    },
+    {
+      "name": "Tensed",
+      "population": 99
+    },
+    {
+      "name": "Teton",
+      "population": 831
+    },
+    {
+      "name": "Tetonia",
+      "population": 274
+    },
+    {
+      "name": "Troy",
+      "population": 925
+    },
+    {
+      "name": "Twin Falls",
+      "population": 56216
+    },
+    {
+      "name": "Ucon",
+      "population": 1196
+    },
+    {
+      "name": "Victor",
+      "population": 2589
+    },
+    {
+      "name": "Wallace",
+      "population": 844
+    },
+    {
+      "name": "Wardner",
+      "population": 205
+    },
+    {
+      "name": "Warm River",
+      "population": 1
+    },
+    {
+      "name": "Weippe",
+      "population": 409
+    },
+    {
+      "name": "Weiser",
+      "population": 6249
+    },
+    {
+      "name": "Wendell",
+      "population": 3090
+    },
+    {
+      "name": "Weston",
+      "population": 586
+    },
+    {
+      "name": "White Bird",
+      "population": 83
+    },
+    {
+      "name": "Wilder",
+      "population": 1734
+    },
+    {
+      "name": "Winchester",
+      "population": 363
+    },
+    {
+      "name": "Worley",
+      "population": 248
+    }
+  ],
+  "counties": [
+    {
+      "name": "Ada County",
+      "population": 546141
+    },
+    {
+      "name": "Adams County",
+      "population": 5013
+    },
+    {
+      "name": "Bannock County",
+      "population": 91591
+    },
+    {
+      "name": "Bear Lake County",
+      "population": 6727
+    },
+    {
+      "name": "Benewah County",
+      "population": 10508
+    },
+    {
+      "name": "Bingham County",
+      "population": 51153
+    },
+    {
+      "name": "Blaine County",
+      "population": 25517
+    },
+    {
+      "name": "Boise County",
+      "population": 8545
+    },
+    {
+      "name": "Bonner County",
+      "population": 54420
+    },
+    {
+      "name": "Bonneville County",
+      "population": 135771
+    },
+    {
+      "name": "Boundary County",
+      "population": 13997
+    },
+    {
+      "name": "Butte County",
+      "population": 2783
+    },
+    {
+      "name": "Camas County",
+      "population": 1316
+    },
+    {
+      "name": "Canyon County",
+      "population": 275123
+    },
+    {
+      "name": "Caribou County",
+      "population": 7252
+    },
+    {
+      "name": "Cassia County",
+      "population": 26397
+    },
+    {
+      "name": "Clark County",
+      "population": 783
+    },
+    {
+      "name": "Clearwater County",
+      "population": 9118
+    },
+    {
+      "name": "Custer County",
+      "population": 4636
+    },
+    {
+      "name": "Elmore County",
+      "population": 29465
+    },
+    {
+      "name": "Franklin County",
+      "population": 15889
+    },
+    {
+      "name": "Fremont County",
+      "population": 14208
+    },
+    {
+      "name": "Gem County",
+      "population": 21773
+    },
+    {
+      "name": "Gooding County",
+      "population": 16446
+    },
+    {
+      "name": "Idaho County",
+      "population": 17874
+    },
+    {
+      "name": "Jefferson County",
+      "population": 35297
+    },
+    {
+      "name": "Jerome County",
+      "population": 26362
+    },
+    {
+      "name": "Kootenai County",
+      "population": 191864
+    },
+    {
+      "name": "Latah County",
+      "population": 41842
+    },
+    {
+      "name": "Lemhi County",
+      "population": 8474
+    },
+    {
+      "name": "Lewis County",
+      "population": 3704
+    },
+    {
+      "name": "Lincoln County",
+      "population": 5603
+    },
+    {
+      "name": "Madison County",
+      "population": 55172
+    },
+    {
+      "name": "Minidoka County",
+      "population": 22911
+    },
+    {
+      "name": "Nez Perce County",
+      "population": 42905
+    },
+    {
+      "name": "Oneida County",
+      "population": 5085
+    },
+    {
+      "name": "Owyhee County",
+      "population": 12661
+    },
+    {
+      "name": "Payette County",
+      "population": 27824
+    },
+    {
+      "name": "Power County",
+      "population": 8246
+    },
+    {
+      "name": "Shoshone County",
+      "population": 14130
+    },
+    {
+      "name": "Teton County",
+      "population": 13254
+    },
+    {
+      "name": "Twin Falls County",
+      "population": 97539
+    },
+    {
+      "name": "Valley County",
+      "population": 12831
+    },
+    {
+      "name": "Washington County",
+      "population": 11583
+    }
+  ]
+}

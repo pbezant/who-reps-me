@@ -1,0 +1,2632 @@
+{
+  "state": "NY",
+  "generated_at": "2026-08-20T02:10:57.210Z",
+  "places": [
+    {
+      "name": "Adams",
+      "population": 1636
+    },
+    {
+      "name": "Addison",
+      "population": 1541
+    },
+    {
+      "name": "Afton",
+      "population": 772
+    },
+    {
+      "name": "Airmont",
+      "population": 10634
+    },
+    {
+      "name": "Akron",
+      "population": 2867
+    },
+    {
+      "name": "Albany",
+      "population": 101698
+    },
+    {
+      "name": "Albion",
+      "population": 1391
+    },
+    {
+      "name": "Alden",
+      "population": 2755
+    },
+    {
+      "name": "Alexander",
+      "population": 489
+    },
+    {
+      "name": "Alexandria Bay",
+      "population": 922
+    },
+    {
+      "name": "Alfred",
+      "population": 5147
+    },
+    {
+      "name": "Allegany",
+      "population": 1615
+    },
+    {
+      "name": "Almond",
+      "population": 42
+    },
+    {
+      "name": "Altamont",
+      "population": 1648
+    },
+    {
+      "name": "Ames",
+      "population": 138
+    },
+    {
+      "name": "Amityville",
+      "population": 9799
+    },
+    {
+      "name": "Amsterdam",
+      "population": 18093
+    },
+    {
+      "name": "Andover",
+      "population": 882
+    },
+    {
+      "name": "Angelica",
+      "population": 706
+    },
+    {
+      "name": "Angola",
+      "population": 2029
+    },
+    {
+      "name": "Antwerp",
+      "population": 503
+    },
+    {
+      "name": "Arcade",
+      "population": 1911
+    },
+    {
+      "name": "Ardsley",
+      "population": 5007
+    },
+    {
+      "name": "Argyle",
+      "population": 284
+    },
+    {
+      "name": "Arkport",
+      "population": 758
+    },
+    {
+      "name": "Asharoken",
+      "population": 624
+    },
+    {
+      "name": "Athens",
+      "population": 1581
+    },
+    {
+      "name": "Atlantic Beach",
+      "population": 1723
+    },
+    {
+      "name": "Attica",
+      "population": 2295
+    },
+    {
+      "name": "Auburn",
+      "population": 25947
+    },
+    {
+      "name": "Aurora",
+      "population": 329
+    },
+    {
+      "name": "Avoca",
+      "population": 836
+    },
+    {
+      "name": "Avon",
+      "population": 3434
+    },
+    {
+      "name": "Babylon",
+      "population": 12281
+    },
+    {
+      "name": "Bainbridge",
+      "population": 1248
+    },
+    {
+      "name": "Baldwinsville",
+      "population": 3090
+    },
+    {
+      "name": "Ballston Spa",
+      "population": 3978
+    },
+    {
+      "name": "Barker",
+      "population": 566
+    },
+    {
+      "name": "Batavia",
+      "population": 15168
+    },
+    {
+      "name": "Bath",
+      "population": 5545
+    },
+    {
+      "name": "Baxter Estates",
+      "population": 1014
+    },
+    {
+      "name": "Bayville",
+      "population": 6780
+    },
+    {
+      "name": "Beacon",
+      "population": 14931
+    },
+    {
+      "name": "Belle Terre",
+      "population": 796
+    },
+    {
+      "name": "Bellerose",
+      "population": 1169
+    },
+    {
+      "name": "Bellport",
+      "population": 2220
+    },
+    {
+      "name": "Belmont",
+      "population": 826
+    },
+    {
+      "name": "Bemus Point",
+      "population": 305
+    },
+    {
+      "name": "Bergen",
+      "population": 1242
+    },
+    {
+      "name": "Binghamton",
+      "population": 46418
+    },
+    {
+      "name": "Black River",
+      "population": 471
+    },
+    {
+      "name": "Blasdell",
+      "population": 2562
+    },
+    {
+      "name": "Bloomfield",
+      "population": 1326
+    },
+    {
+      "name": "Bloomingburg",
+      "population": 978
+    },
+    {
+      "name": "Bolivar",
+      "population": 1005
+    },
+    {
+      "name": "Boonville",
+      "population": 1986
+    },
+    {
+      "name": "Brewster",
+      "population": 2509
+    },
+    {
+      "name": "Briarcliff Manor",
+      "population": 6789
+    },
+    {
+      "name": "Brightwaters",
+      "population": 3208
+    },
+    {
+      "name": "Broadalbin",
+      "population": 44
+    },
+    {
+      "name": "Brockport",
+      "population": 7602
+    },
+    {
+      "name": "Brocton",
+      "population": 1310
+    },
+    {
+      "name": "Bronxville",
+      "population": 6504
+    },
+    {
+      "name": "Brookville",
+      "population": 3037
+    },
+    {
+      "name": "Brownville",
+      "population": 911
+    },
+    {
+      "name": "Brushton",
+      "population": 429
+    },
+    {
+      "name": "Buchanan",
+      "population": 2629
+    },
+    {
+      "name": "Buffalo",
+      "population": 274613
+    },
+    {
+      "name": "Burdett",
+      "population": 313
+    },
+    {
+      "name": "Burke",
+      "population": 164
+    },
+    {
+      "name": "Caledonia",
+      "population": 2089
+    },
+    {
+      "name": "Cambridge",
+      "population": 1384
+    },
+    {
+      "name": "Camden",
+      "population": 2124
+    },
+    {
+      "name": "Camillus",
+      "population": 1258
+    },
+    {
+      "name": "Canajoharie",
+      "population": 2059
+    },
+    {
+      "name": "Canandaigua",
+      "population": 10347
+    },
+    {
+      "name": "Canaseraga",
+      "population": 451
+    },
+    {
+      "name": "Canastota",
+      "population": 4400
+    },
+    {
+      "name": "Candor",
+      "population": 739
+    },
+    {
+      "name": "Canisteo",
+      "population": 2140
+    },
+    {
+      "name": "Canton",
+      "population": 6894
+    },
+    {
+      "name": "Cape Vincent",
+      "population": 713
+    },
+    {
+      "name": "Carthage",
+      "population": 3196
+    },
+    {
+      "name": "Cassadaga",
+      "population": 553
+    },
+    {
+      "name": "Castile",
+      "population": 978
+    },
+    {
+      "name": "Castleton-on-Hudson",
+      "population": 1463
+    },
+    {
+      "name": "Castorland",
+      "population": 341
+    },
+    {
+      "name": "Cato",
+      "population": 296
+    },
+    {
+      "name": "Catskill",
+      "population": 3697
+    },
+    {
+      "name": "Cattaraugus",
+      "population": 951
+    },
+    {
+      "name": "Cayuga",
+      "population": 551
+    },
+    {
+      "name": "Cayuga Heights",
+      "population": 3860
+    },
+    {
+      "name": "Cazenovia",
+      "population": 2722
+    },
+    {
+      "name": "Cedarhurst",
+      "population": 7334
+    },
+    {
+      "name": "Celoron",
+      "population": 1049
+    },
+    {
+      "name": "Central Square",
+      "population": 1852
+    },
+    {
+      "name": "Centre Island",
+      "population": 394
+    },
+    {
+      "name": "Champlain",
+      "population": 1122
+    },
+    {
+      "name": "Chateaugay",
+      "population": 741
+    },
+    {
+      "name": "Chatham",
+      "population": 946
+    },
+    {
+      "name": "Chaumont",
+      "population": 581
+    },
+    {
+      "name": "Cherry Valley",
+      "population": 477
+    },
+    {
+      "name": "Chester",
+      "population": 0
+    },
+    {
+      "name": "Chestnut Ridge",
+      "population": 10987
+    },
+    {
+      "name": "Chittenango",
+      "population": 4753
+    },
+    {
+      "name": "Churchville",
+      "population": 2134
+    },
+    {
+      "name": "Clayton",
+      "population": 1656
+    },
+    {
+      "name": "Clayville",
+      "population": 332
+    },
+    {
+      "name": "Cleveland",
+      "population": 729
+    },
+    {
+      "name": "Clifton Springs",
+      "population": 483
+    },
+    {
+      "name": "Clinton",
+      "population": 1599
+    },
+    {
+      "name": "Clyde",
+      "population": 2127
+    },
+    {
+      "name": "Cobleskill",
+      "population": 4623
+    },
+    {
+      "name": "Cohocton",
+      "population": 709
+    },
+    {
+      "name": "Cohoes",
+      "population": 18518
+    },
+    {
+      "name": "Cold Brook",
+      "population": 255
+    },
+    {
+      "name": "Cold Spring",
+      "population": 1998
+    },
+    {
+      "name": "Colonie",
+      "population": 7679
+    },
+    {
+      "name": "Constableville",
+      "population": 303
+    },
+    {
+      "name": "Cooperstown",
+      "population": 1606
+    },
+    {
+      "name": "Copenhagen",
+      "population": 659
+    },
+    {
+      "name": "Corfu",
+      "population": 708
+    },
+    {
+      "name": "Corinth",
+      "population": 2626
+    },
+    {
+      "name": "Corning",
+      "population": 10514
+    },
+    {
+      "name": "Cornwall-on-Hudson",
+      "population": 2990
+    },
+    {
+      "name": "Cortland",
+      "population": 17394
+    },
+    {
+      "name": "Cove Neck",
+      "population": 293
+    },
+    {
+      "name": "Coxsackie",
+      "population": 2662
+    },
+    {
+      "name": "Croghan",
+      "population": 256
+    },
+    {
+      "name": "Croton-on-Hudson",
+      "population": 8282
+    },
+    {
+      "name": "Cuba",
+      "population": 1490
+    },
+    {
+      "name": "Dannemora",
+      "population": 398
+    },
+    {
+      "name": "Dansville",
+      "population": 0
+    },
+    {
+      "name": "Deferiet",
+      "population": 247
+    },
+    {
+      "name": "Delanson",
+      "population": 306
+    },
+    {
+      "name": "Delevan",
+      "population": 1023
+    },
+    {
+      "name": "Delhi",
+      "population": 3526
+    },
+    {
+      "name": "Depew",
+      "population": 5770
+    },
+    {
+      "name": "Deposit",
+      "population": 662
+    },
+    {
+      "name": "Dering Harbor",
+      "population": 36
+    },
+    {
+      "name": "DeRuyter",
+      "population": 414
+    },
+    {
+      "name": "Dexter",
+      "population": 989
+    },
+    {
+      "name": "Dobbs Ferry",
+      "population": 11645
+    },
+    {
+      "name": "Dolgeville",
+      "population": 1877
+    },
+    {
+      "name": "Dresden",
+      "population": 296
+    },
+    {
+      "name": "Dryden",
+      "population": 1820
+    },
+    {
+      "name": "Dundee",
+      "population": 1672
+    },
+    {
+      "name": "Dunkirk",
+      "population": 12326
+    },
+    {
+      "name": "Earlville",
+      "population": 486
+    },
+    {
+      "name": "East Aurora",
+      "population": 5949
+    },
+    {
+      "name": "East Hampton",
+      "population": 1552
+    },
+    {
+      "name": "East Hills",
+      "population": 22
+    },
+    {
+      "name": "East Nassau",
+      "population": 512
+    },
+    {
+      "name": "East Rochester",
+      "population": 6132
+    },
+    {
+      "name": "East Rockaway",
+      "population": 10096
+    },
+    {
+      "name": "East Syracuse",
+      "population": 2973
+    },
+    {
+      "name": "East Williston",
+      "population": 2616
+    },
+    {
+      "name": "Elba",
+      "population": 592
+    },
+    {
+      "name": "Elbridge",
+      "population": 950
+    },
+    {
+      "name": "Ellenville",
+      "population": 4201
+    },
+    {
+      "name": "Ellicottville",
+      "population": 283
+    },
+    {
+      "name": "Ellisburg",
+      "population": 207
+    },
+    {
+      "name": "Elmira",
+      "population": 26089
+    },
+    {
+      "name": "Elmira Heights",
+      "population": 2751
+    },
+    {
+      "name": "Elmsford",
+      "population": 5203
+    },
+    {
+      "name": "Endicott",
+      "population": 13068
+    },
+    {
+      "name": "Esperance",
+      "population": 347
+    },
+    {
+      "name": "Evans Mills",
+      "population": 604
+    },
+    {
+      "name": "Fabius",
+      "population": 321
+    },
+    {
+      "name": "Fair Haven",
+      "population": 770
+    },
+    {
+      "name": "Fairport",
+      "population": 5326
+    },
+    {
+      "name": "Falconer",
+      "population": 2210
+    },
+    {
+      "name": "Farmingdale",
+      "population": 8584
+    },
+    {
+      "name": "Farnham",
+      "population": 359
+    },
+    {
+      "name": "Fayetteville",
+      "population": 4126
+    },
+    {
+      "name": "Fishkill",
+      "population": 2147
+    },
+    {
+      "name": "Fleischmanns",
+      "population": 223
+    },
+    {
+      "name": "Floral Park",
+      "population": 2498
+    },
+    {
+      "name": "Florida",
+      "population": 2844
+    },
+    {
+      "name": "Flower Hill",
+      "population": 4860
+    },
+    {
+      "name": "Fonda",
+      "population": 688
+    },
+    {
+      "name": "Fort Ann",
+      "population": 473
+    },
+    {
+      "name": "Fort Edward",
+      "population": 3128
+    },
+    {
+      "name": "Fort Plain",
+      "population": 1995
+    },
+    {
+      "name": "Frankfort",
+      "population": 2275
+    },
+    {
+      "name": "Franklin",
+      "population": 269
+    },
+    {
+      "name": "Franklinville",
+      "population": 1632
+    },
+    {
+      "name": "Fredonia",
+      "population": 9283
+    },
+    {
+      "name": "Freeport",
+      "population": 44174
+    },
+    {
+      "name": "Freeville",
+      "population": 443
+    },
+    {
+      "name": "Fulton",
+      "population": 11188
+    },
+    {
+      "name": "Fultonville",
+      "population": 790
+    },
+    {
+      "name": "Gainesville",
+      "population": 220
+    },
+    {
+      "name": "Galway",
+      "population": 206
+    },
+    {
+      "name": "Garden City",
+      "population": 4
+    },
+    {
+      "name": "Geneseo",
+      "population": 7759
+    },
+    {
+      "name": "Geneva",
+      "population": 63
+    },
+    {
+      "name": "Gilbertsville",
+      "population": 326
+    },
+    {
+      "name": "Glen Cove",
+      "population": 28190
+    },
+    {
+      "name": "Glen Park",
+      "population": 23
+    },
+    {
+      "name": "Glens Falls",
+      "population": 14383
+    },
+    {
+      "name": "Gloversville",
+      "population": 14782
+    },
+    {
+      "name": "Goshen",
+      "population": 5744
+    },
+    {
+      "name": "Gouverneur",
+      "population": 3560
+    },
+    {
+      "name": "Gowanda",
+      "population": 739
+    },
+    {
+      "name": "Grand View-on-Hudson",
+      "population": 278
+    },
+    {
+      "name": "Granville",
+      "population": 2416
+    },
+    {
+      "name": "Great Neck",
+      "population": 11141
+    },
+    {
+      "name": "Great Neck Estates",
+      "population": 3139
+    },
+    {
+      "name": "Great Neck Plaza",
+      "population": 7889
+    },
+    {
+      "name": "Green Island",
+      "population": 2966
+    },
+    {
+      "name": "Greene",
+      "population": 1420
+    },
+    {
+      "name": "Greenport",
+      "population": 2590
+    },
+    {
+      "name": "Greenwich",
+      "population": 1492
+    },
+    {
+      "name": "Greenwood Lake",
+      "population": 2975
+    },
+    {
+      "name": "Groton",
+      "population": 2077
+    },
+    {
+      "name": "Hagaman",
+      "population": 1119
+    },
+    {
+      "name": "Hamburg",
+      "population": 9840
+    },
+    {
+      "name": "Hamilton",
+      "population": 0
+    },
+    {
+      "name": "Hammond",
+      "population": 281
+    },
+    {
+      "name": "Hammondsport",
+      "population": 567
+    },
+    {
+      "name": "Hancock",
+      "population": 885
+    },
+    {
+      "name": "Hannibal",
+      "population": 536
+    },
+    {
+      "name": "Harriman",
+      "population": 648
+    },
+    {
+      "name": "Harrison",
+      "population": 32273
+    },
+    {
+      "name": "Hastings-on-Hudson",
+      "population": 8440
+    },
+    {
+      "name": "Haverstraw",
+      "population": 12791
+    },
+    {
+      "name": "Head of the Harbor",
+      "population": 1481
+    },
+    {
+      "name": "Hempstead",
+      "population": 59819
+    },
+    {
+      "name": "Herkimer",
+      "population": 7195
+    },
+    {
+      "name": "Heuvelton",
+      "population": 706
+    },
+    {
+      "name": "Hewlett Bay Park",
+      "population": 480
+    },
+    {
+      "name": "Hewlett Harbor",
+      "population": 1332
+    },
+    {
+      "name": "Hewlett Neck",
+      "population": 574
+    },
+    {
+      "name": "Highland Falls",
+      "population": 3631
+    },
+    {
+      "name": "Hillburn",
+      "population": 950
+    },
+    {
+      "name": "Hilton",
+      "population": 5873
+    },
+    {
+      "name": "Hobart",
+      "population": 384
+    },
+    {
+      "name": "Holland Patent",
+      "population": 390
+    },
+    {
+      "name": "Holley",
+      "population": 1726
+    },
+    {
+      "name": "Homer",
+      "population": 3016
+    },
+    {
+      "name": "Honeoye Falls",
+      "population": 2841
+    },
+    {
+      "name": "Hoosick Falls",
+      "population": 3171
+    },
+    {
+      "name": "Hornell",
+      "population": 8024
+    },
+    {
+      "name": "Horseheads",
+      "population": 6275
+    },
+    {
+      "name": "Hudson",
+      "population": 5721
+    },
+    {
+      "name": "Hudson Falls",
+      "population": 7333
+    },
+    {
+      "name": "Hunter",
+      "population": 0
+    },
+    {
+      "name": "Huntington Bay",
+      "population": 1459
+    },
+    {
+      "name": "Ilion",
+      "population": 7454
+    },
+    {
+      "name": "Interlaken",
+      "population": 606
+    },
+    {
+      "name": "Irvington",
+      "population": 6533
+    },
+    {
+      "name": "Island Park",
+      "population": 5069
+    },
+    {
+      "name": "Islandia",
+      "population": 3733
+    },
+    {
+      "name": "Ithaca",
+      "population": 33632
+    },
+    {
+      "name": "Jamestown",
+      "population": 27663
+    },
+    {
+      "name": "Jeffersonville",
+      "population": 389
+    },
+    {
+      "name": "Johnson City",
+      "population": 14580
+    },
+    {
+      "name": "Johnstown",
+      "population": 8021
+    },
+    {
+      "name": "Jordan",
+      "population": 1194
+    },
+    {
+      "name": "Kaser",
+      "population": 6121
+    },
+    {
+      "name": "Kenmore",
+      "population": 14808
+    },
+    {
+      "name": "Kensington",
+      "population": 1278
+    },
+    {
+      "name": "Kinderhook",
+      "population": 1134
+    },
+    {
+      "name": "Kings Point",
+      "population": 5710
+    },
+    {
+      "name": "Kingston",
+      "population": 23942
+    },
+    {
+      "name": "Kiryas Joel",
+      "population": 47147
+    },
+    {
+      "name": "Lackawanna",
+      "population": 19452
+    },
+    {
+      "name": "Lacona",
+      "population": 662
+    },
+    {
+      "name": "Lake George",
+      "population": 975
+    },
+    {
+      "name": "Lake Grove",
+      "population": 11168
+    },
+    {
+      "name": "Lake Placid",
+      "population": 2258
+    },
+    {
+      "name": "Lake Success",
+      "population": 2849
+    },
+    {
+      "name": "Lakewood",
+      "population": 2922
+    },
+    {
+      "name": "Lancaster",
+      "population": 9995
+    },
+    {
+      "name": "Lansing",
+      "population": 3814
+    },
+    {
+      "name": "Larchmont",
+      "population": 6750
+    },
+    {
+      "name": "Lattingtown",
+      "population": 1881
+    },
+    {
+      "name": "Laurel Hollow",
+      "population": 1949
+    },
+    {
+      "name": "Laurens",
+      "population": 216
+    },
+    {
+      "name": "Lawrence",
+      "population": 6847
+    },
+    {
+      "name": "Le Roy",
+      "population": 4296
+    },
+    {
+      "name": "Leicester",
+      "population": 458
+    },
+    {
+      "name": "Lewiston",
+      "population": 2492
+    },
+    {
+      "name": "Liberty",
+      "population": 5097
+    },
+    {
+      "name": "Lima",
+      "population": 2115
+    },
+    {
+      "name": "Lindenhurst",
+      "population": 27258
+    },
+    {
+      "name": "Lisle",
+      "population": 323
+    },
+    {
+      "name": "Little Falls",
+      "population": 4481
+    },
+    {
+      "name": "Little Valley",
+      "population": 1077
+    },
+    {
+      "name": "Liverpool",
+      "population": 2231
+    },
+    {
+      "name": "Livonia",
+      "population": 1469
+    },
+    {
+      "name": "Lloyd Harbor",
+      "population": 3587
+    },
+    {
+      "name": "Lockport",
+      "population": 20248
+    },
+    {
+      "name": "Lodi",
+      "population": 274
+    },
+    {
+      "name": "Long Beach",
+      "population": 34918
+    },
+    {
+      "name": "Lowville",
+      "population": 3309
+    },
+    {
+      "name": "Lynbrook",
+      "population": 20855
+    },
+    {
+      "name": "Lyndonville",
+      "population": 771
+    },
+    {
+      "name": "Lyons Falls",
+      "population": 525
+    },
+    {
+      "name": "Madison",
+      "population": 313
+    },
+    {
+      "name": "Malone",
+      "population": 5315
+    },
+    {
+      "name": "Malverne",
+      "population": 8476
+    },
+    {
+      "name": "Mamaroneck",
+      "population": 7753
+    },
+    {
+      "name": "Manchester",
+      "population": 1628
+    },
+    {
+      "name": "Manlius",
+      "population": 4583
+    },
+    {
+      "name": "Mannsville",
+      "population": 318
+    },
+    {
+      "name": "Manorhaven",
+      "population": 7135
+    },
+    {
+      "name": "Marathon",
+      "population": 874
+    },
+    {
+      "name": "Marcellus",
+      "population": 1761
+    },
+    {
+      "name": "Margaretville",
+      "population": 485
+    },
+    {
+      "name": "Massapequa Park",
+      "population": 16997
+    },
+    {
+      "name": "Massena",
+      "population": 0
+    },
+    {
+      "name": "Matinecock",
+      "population": 854
+    },
+    {
+      "name": "Maybrook",
+      "population": 3163
+    },
+    {
+      "name": "Mayfield",
+      "population": 768
+    },
+    {
+      "name": "Mayville",
+      "population": 1474
+    },
+    {
+      "name": "McGraw",
+      "population": 970
+    },
+    {
+      "name": "Mechanicville",
+      "population": 5021
+    },
+    {
+      "name": "Medina",
+      "population": 2519
+    },
+    {
+      "name": "Menands",
+      "population": 4615
+    },
+    {
+      "name": "Meridian",
+      "population": 285
+    },
+    {
+      "name": "Mexico",
+      "population": 1553
+    },
+    {
+      "name": "Middleburgh",
+      "population": 1153
+    },
+    {
+      "name": "Middleport",
+      "population": 1514
+    },
+    {
+      "name": "Middletown",
+      "population": 30098
+    },
+    {
+      "name": "Middleville",
+      "population": 123
+    },
+    {
+      "name": "Milford",
+      "population": 387
+    },
+    {
+      "name": "Mill Neck",
+      "population": 1010
+    },
+    {
+      "name": "Millbrook",
+      "population": 1442
+    },
+    {
+      "name": "Millerton",
+      "population": 880
+    },
+    {
+      "name": "Millport",
+      "population": 274
+    },
+    {
+      "name": "Mineola",
+      "population": 21376
+    },
+    {
+      "name": "Minoa",
+      "population": 3624
+    },
+    {
+      "name": "Mohawk",
+      "population": 2350
+    },
+    {
+      "name": "Monroe",
+      "population": 9462
+    },
+    {
+      "name": "Montebello",
+      "population": 4828
+    },
+    {
+      "name": "Montgomery",
+      "population": 3757
+    },
+    {
+      "name": "Monticello",
+      "population": 7195
+    },
+    {
+      "name": "Montour Falls",
+      "population": 1369
+    },
+    {
+      "name": "Moravia",
+      "population": 1233
+    },
+    {
+      "name": "Morris",
+      "population": 513
+    },
+    {
+      "name": "Morrisville",
+      "population": 1795
+    },
+    {
+      "name": "Mount Kisco",
+      "population": 10757
+    },
+    {
+      "name": "Mount Morris",
+      "population": 2857
+    },
+    {
+      "name": "Mount Vernon",
+      "population": 72304
+    },
+    {
+      "name": "Munnsville",
+      "population": 435
+    },
+    {
+      "name": "Munsey Park",
+      "population": 2787
+    },
+    {
+      "name": "Muttontown",
+      "population": 3568
+    },
+    {
+      "name": "Naples",
+      "population": 945
+    },
+    {
+      "name": "Nassau",
+      "population": 54
+    },
+    {
+      "name": "Nelliston",
+      "population": 564
+    },
+    {
+      "name": "Nelsonville",
+      "population": 635
+    },
+    {
+      "name": "New Berlin",
+      "population": 906
+    },
+    {
+      "name": "New Hartford",
+      "population": 1842
+    },
+    {
+      "name": "New Hempstead",
+      "population": 5657
+    },
+    {
+      "name": "New Hyde Park",
+      "population": 5995
+    },
+    {
+      "name": "New Paltz",
+      "population": 8689
+    },
+    {
+      "name": "New Rochelle",
+      "population": 85864
+    },
+    {
+      "name": "New Square",
+      "population": 10214
+    },
+    {
+      "name": "New York",
+      "population": 501290
+    },
+    {
+      "name": "New York Mills",
+      "population": 1594
+    },
+    {
+      "name": "Newark",
+      "population": 8919
+    },
+    {
+      "name": "Newark Valley",
+      "population": 888
+    },
+    {
+      "name": "Newburgh",
+      "population": 28059
+    },
+    {
+      "name": "Newport",
+      "population": 550
+    },
+    {
+      "name": "Niagara Falls",
+      "population": 47255
+    },
+    {
+      "name": "Nichols",
+      "population": 442
+    },
+    {
+      "name": "Nissequogue",
+      "population": 1638
+    },
+    {
+      "name": "North Collins",
+      "population": 1252
+    },
+    {
+      "name": "North Haven",
+      "population": 1215
+    },
+    {
+      "name": "North Hills",
+      "population": 5481
+    },
+    {
+      "name": "North Hornell",
+      "population": 765
+    },
+    {
+      "name": "North Syracuse",
+      "population": 4653
+    },
+    {
+      "name": "North Tonawanda",
+      "population": 29806
+    },
+    {
+      "name": "Northport",
+      "population": 7336
+    },
+    {
+      "name": "Northville",
+      "population": 993
+    },
+    {
+      "name": "Norwich",
+      "population": 6538
+    },
+    {
+      "name": "Norwood",
+      "population": 1444
+    },
+    {
+      "name": "Nunda",
+      "population": 1155
+    },
+    {
+      "name": "Nyack",
+      "population": 6606
+    },
+    {
+      "name": "Oakfield",
+      "population": 1794
+    },
+    {
+      "name": "Ocean Beach",
+      "population": 175
+    },
+    {
+      "name": "Odessa",
+      "population": 71
+    },
+    {
+      "name": "Ogdensburg",
+      "population": 9123
+    },
+    {
+      "name": "Old Brookville",
+      "population": 2098
+    },
+    {
+      "name": "Old Field",
+      "population": 947
+    },
+    {
+      "name": "Old Westbury",
+      "population": 2256
+    },
+    {
+      "name": "Olean",
+      "population": 13508
+    },
+    {
+      "name": "Oneida",
+      "population": 10009
+    },
+    {
+      "name": "Oneida Castle",
+      "population": 579
+    },
+    {
+      "name": "Oneonta",
+      "population": 15665
+    },
+    {
+      "name": "Orchard Park",
+      "population": 3079
+    },
+    {
+      "name": "Oriskany",
+      "population": 1329
+    },
+    {
+      "name": "Oriskany Falls",
+      "population": 633
+    },
+    {
+      "name": "Ossining",
+      "population": 27579
+    },
+    {
+      "name": "Oswego",
+      "population": 17024
+    },
+    {
+      "name": "Otego",
+      "population": 903
+    },
+    {
+      "name": "Otisville",
+      "population": 988
+    },
+    {
+      "name": "Ovid",
+      "population": 13
+    },
+    {
+      "name": "Owego",
+      "population": 4268
+    },
+    {
+      "name": "Oxford",
+      "population": 1322
+    },
+    {
+      "name": "Oyster Bay Cove",
+      "population": 2288
+    },
+    {
+      "name": "Painted Post",
+      "population": 1704
+    },
+    {
+      "name": "Palatine Bridge",
+      "population": 792
+    },
+    {
+      "name": "Palmyra",
+      "population": 3257
+    },
+    {
+      "name": "Panama",
+      "population": 449
+    },
+    {
+      "name": "Parish",
+      "population": 445
+    },
+    {
+      "name": "Patchogue",
+      "population": 12486
+    },
+    {
+      "name": "Pawling",
+      "population": 2070
+    },
+    {
+      "name": "Peekskill",
+      "population": 25891
+    },
+    {
+      "name": "Pelham",
+      "population": 7608
+    },
+    {
+      "name": "Pelham Manor",
+      "population": 5631
+    },
+    {
+      "name": "Penn Yan",
+      "population": 4458
+    },
+    {
+      "name": "Perry",
+      "population": 3186
+    },
+    {
+      "name": "Phelps",
+      "population": 1850
+    },
+    {
+      "name": "Philadelphia",
+      "population": 1125
+    },
+    {
+      "name": "Philmont",
+      "population": 1466
+    },
+    {
+      "name": "Phoenix",
+      "population": 2192
+    },
+    {
+      "name": "Piermont",
+      "population": 2607
+    },
+    {
+      "name": "Pittsford",
+      "population": 1323
+    },
+    {
+      "name": "Plandome",
+      "population": 1482
+    },
+    {
+      "name": "Plandome Heights",
+      "population": 1019
+    },
+    {
+      "name": "Plandome Manor",
+      "population": 823
+    },
+    {
+      "name": "Plattsburgh",
+      "population": 19744
+    },
+    {
+      "name": "Pleasantville",
+      "population": 7391
+    },
+    {
+      "name": "Poland",
+      "population": 339
+    },
+    {
+      "name": "Pomona",
+      "population": 1709
+    },
+    {
+      "name": "Poquott",
+      "population": 932
+    },
+    {
+      "name": "Port Byron",
+      "population": 1215
+    },
+    {
+      "name": "Port Chester",
+      "population": 32303
+    },
+    {
+      "name": "Port Dickinson",
+      "population": 1654
+    },
+    {
+      "name": "Port Jefferson",
+      "population": 8306
+    },
+    {
+      "name": "Port Jervis",
+      "population": 8518
+    },
+    {
+      "name": "Port Leyden",
+      "population": 196
+    },
+    {
+      "name": "Port Washington North",
+      "population": 3154
+    },
+    {
+      "name": "Portville",
+      "population": 875
+    },
+    {
+      "name": "Potsdam",
+      "population": 8019
+    },
+    {
+      "name": "Poughkeepsie",
+      "population": 32499
+    },
+    {
+      "name": "Pulaski",
+      "population": 2269
+    },
+    {
+      "name": "Quogue",
+      "population": 1703
+    },
+    {
+      "name": "Ravena",
+      "population": 3253
+    },
+    {
+      "name": "Red Creek",
+      "population": 481
+    },
+    {
+      "name": "Red Hook",
+      "population": 1956
+    },
+    {
+      "name": "Remsen",
+      "population": 14
+    },
+    {
+      "name": "Rensselaer",
+      "population": 9421
+    },
+    {
+      "name": "Rensselaer Falls",
+      "population": 318
+    },
+    {
+      "name": "Rhinebeck",
+      "population": 2588
+    },
+    {
+      "name": "Richburg",
+      "population": 283
+    },
+    {
+      "name": "Richfield Springs",
+      "population": 1092
+    },
+    {
+      "name": "Richmondville",
+      "population": 873
+    },
+    {
+      "name": "Richville",
+      "population": 257
+    },
+    {
+      "name": "Riverside",
+      "population": 420
+    },
+    {
+      "name": "Rochester",
+      "population": 206108
+    },
+    {
+      "name": "Rockville Centre",
+      "population": 25770
+    },
+    {
+      "name": "Rome",
+      "population": 31682
+    },
+    {
+      "name": "Roslyn",
+      "population": 3025
+    },
+    {
+      "name": "Roslyn Estates",
+      "population": 1333
+    },
+    {
+      "name": "Roslyn Harbor",
+      "population": 291
+    },
+    {
+      "name": "Round Lake",
+      "population": 849
+    },
+    {
+      "name": "Rouses Point",
+      "population": 2179
+    },
+    {
+      "name": "Rushville",
+      "population": 478
+    },
+    {
+      "name": "Russell Gardens",
+      "population": 900
+    },
+    {
+      "name": "Rye",
+      "population": 16614
+    },
+    {
+      "name": "Rye Brook",
+      "population": 9955
+    },
+    {
+      "name": "Sackets Harbor",
+      "population": 1337
+    },
+    {
+      "name": "Saddle Rock",
+      "population": 1008
+    },
+    {
+      "name": "Sag Harbor",
+      "population": 1475
+    },
+    {
+      "name": "Sagaponack",
+      "population": 752
+    },
+    {
+      "name": "Salamanca",
+      "population": 5719
+    },
+    {
+      "name": "Saltaire",
+      "population": 111
+    },
+    {
+      "name": "Sands Point",
+      "population": 2764
+    },
+    {
+      "name": "Sandy Creek",
+      "population": 618
+    },
+    {
+      "name": "Saranac Lake",
+      "population": 3465
+    },
+    {
+      "name": "Saratoga Springs",
+      "population": 28768
+    },
+    {
+      "name": "Saugerties",
+      "population": 3853
+    },
+    {
+      "name": "Savona",
+      "population": 667
+    },
+    {
+      "name": "Scarsdale",
+      "population": 18194
+    },
+    {
+      "name": "Schaghticoke",
+      "population": 547
+    },
+    {
+      "name": "Schenectady",
+      "population": 69471
+    },
+    {
+      "name": "Schoharie",
+      "population": 941
+    },
+    {
+      "name": "Schuylerville",
+      "population": 1348
+    },
+    {
+      "name": "Scotia",
+      "population": 7295
+    },
+    {
+      "name": "Scottsville",
+      "population": 1994
+    },
+    {
+      "name": "Sea Cliff",
+      "population": 5031
+    },
+    {
+      "name": "Sharon Springs",
+      "population": 498
+    },
+    {
+      "name": "Sherburne",
+      "population": 1359
+    },
+    {
+      "name": "Sherman",
+      "population": 649
+    },
+    {
+      "name": "Sherrill",
+      "population": 2973
+    },
+    {
+      "name": "Shoreham",
+      "population": 530
+    },
+    {
+      "name": "Shortsville",
+      "population": 1358
+    },
+    {
+      "name": "Sidney",
+      "population": 3588
+    },
+    {
+      "name": "Silver Creek",
+      "population": 2575
+    },
+    {
+      "name": "Silver Springs",
+      "population": 708
+    },
+    {
+      "name": "Sinclairville",
+      "population": 85
+    },
+    {
+      "name": "Skaneateles",
+      "population": 2503
+    },
+    {
+      "name": "Sleepy Hollow",
+      "population": 11474
+    },
+    {
+      "name": "Sloan",
+      "population": 3699
+    },
+    {
+      "name": "Sloatsburg",
+      "population": 3120
+    },
+    {
+      "name": "Smyrna",
+      "population": 202
+    },
+    {
+      "name": "Sodus",
+      "population": 1692
+    },
+    {
+      "name": "Sodus Point",
+      "population": 828
+    },
+    {
+      "name": "Solvay",
+      "population": 6427
+    },
+    {
+      "name": "South Blooming Grove",
+      "population": 3810
+    },
+    {
+      "name": "South Corning",
+      "population": 1068
+    },
+    {
+      "name": "South Dayton",
+      "population": 545
+    },
+    {
+      "name": "South Floral Park",
+      "population": 1773
+    },
+    {
+      "name": "South Glens Falls",
+      "population": 3704
+    },
+    {
+      "name": "Southampton",
+      "population": 4730
+    },
+    {
+      "name": "Speculator",
+      "population": 398
+    },
+    {
+      "name": "Spencer",
+      "population": 688
+    },
+    {
+      "name": "Spencerport",
+      "population": 3592
+    },
+    {
+      "name": "Spring Valley",
+      "population": 31192
+    },
+    {
+      "name": "Springville",
+      "population": 4194
+    },
+    {
+      "name": "St. Johnsville",
+      "population": 1706
+    },
+    {
+      "name": "Stamford",
+      "population": 702
+    },
+    {
+      "name": "Stewart Manor",
+      "population": 1925
+    },
+    {
+      "name": "Stillwater",
+      "population": 1751
+    },
+    {
+      "name": "Suffern",
+      "population": 11796
+    },
+    {
+      "name": "Sylvan Beach",
+      "population": 890
+    },
+    {
+      "name": "Syracuse",
+      "population": 144896
+    },
+    {
+      "name": "Tannersville",
+      "population": 563
+    },
+    {
+      "name": "Tarrytown",
+      "population": 11890
+    },
+    {
+      "name": "Theresa",
+      "population": 727
+    },
+    {
+      "name": "Thomaston",
+      "population": 2776
+    },
+    {
+      "name": "Tivoli",
+      "population": 1019
+    },
+    {
+      "name": "Tonawanda",
+      "population": 14848
+    },
+    {
+      "name": "Troy",
+      "population": 50912
+    },
+    {
+      "name": "Trumansburg",
+      "population": 1755
+    },
+    {
+      "name": "Tuckahoe",
+      "population": 7029
+    },
+    {
+      "name": "Tully",
+      "population": 890
+    },
+    {
+      "name": "Tupper Lake",
+      "population": 3288
+    },
+    {
+      "name": "Turin",
+      "population": 214
+    },
+    {
+      "name": "Tuxedo",
+      "population": 3116
+    },
+    {
+      "name": "Tuxedo Park",
+      "population": 619
+    },
+    {
+      "name": "Unadilla",
+      "population": 1091
+    },
+    {
+      "name": "Union Springs",
+      "population": 1057
+    },
+    {
+      "name": "Unionville",
+      "population": 628
+    },
+    {
+      "name": "Upper Brookville",
+      "population": 1778
+    },
+    {
+      "name": "Upper Nyack",
+      "population": 2087
+    },
+    {
+      "name": "Utica",
+      "population": 62978
+    },
+    {
+      "name": "Valatie",
+      "population": 1705
+    },
+    {
+      "name": "Valley Falls",
+      "population": 59
+    },
+    {
+      "name": "Valley Stream",
+      "population": 40379
+    },
+    {
+      "name": "Vernon",
+      "population": 1151
+    },
+    {
+      "name": "Victor",
+      "population": 2906
+    },
+    {
+      "name": "Victory",
+      "population": 676
+    },
+    {
+      "name": "Village of the Branch",
+      "population": 1764
+    },
+    {
+      "name": "Voorheesville",
+      "population": 2846
+    },
+    {
+      "name": "Waddington",
+      "population": 925
+    },
+    {
+      "name": "Walden",
+      "population": 6935
+    },
+    {
+      "name": "Walton",
+      "population": 2824
+    },
+    {
+      "name": "Wampsville",
+      "population": 569
+    },
+    {
+      "name": "Wappingers Falls",
+      "population": 5127
+    },
+    {
+      "name": "Warsaw",
+      "population": 3592
+    },
+    {
+      "name": "Warwick",
+      "population": 6534
+    },
+    {
+      "name": "Washingtonville",
+      "population": 5640
+    },
+    {
+      "name": "Waterford",
+      "population": 1999
+    },
+    {
+      "name": "Waterloo",
+      "population": 3865
+    },
+    {
+      "name": "Watertown",
+      "population": 23517
+    },
+    {
+      "name": "Waterville",
+      "population": 1269
+    },
+    {
+      "name": "Watervliet",
+      "population": 10242
+    },
+    {
+      "name": "Watkins Glen",
+      "population": 328
+    },
+    {
+      "name": "Waverly",
+      "population": 4191
+    },
+    {
+      "name": "Wayland",
+      "population": 1676
+    },
+    {
+      "name": "Webster",
+      "population": 5761
+    },
+    {
+      "name": "Weedsport",
+      "population": 1760
+    },
+    {
+      "name": "Wellsburg",
+      "population": 457
+    },
+    {
+      "name": "Wellsville",
+      "population": 4504
+    },
+    {
+      "name": "Wesley Hills",
+      "population": 6477
+    },
+    {
+      "name": "West Carthage",
+      "population": 1721
+    },
+    {
+      "name": "West Hampton Dunes",
+      "population": 120
+    },
+    {
+      "name": "West Haverstraw",
+      "population": 11025
+    },
+    {
+      "name": "West Winfield",
+      "population": 724
+    },
+    {
+      "name": "Westbury",
+      "population": 15981
+    },
+    {
+      "name": "Westfield",
+      "population": 2888
+    },
+    {
+      "name": "Westhampton Beach",
+      "population": 2273
+    },
+    {
+      "name": "White Plains",
+      "population": 62871
+    },
+    {
+      "name": "Whitehall",
+      "population": 2479
+    },
+    {
+      "name": "Whitesboro",
+      "population": 3559
+    },
+    {
+      "name": "Whitney Point",
+      "population": 900
+    },
+    {
+      "name": "Williamsville",
+      "population": 16
+    },
+    {
+      "name": "Williston Park",
+      "population": 7524
+    },
+    {
+      "name": "Wilson",
+      "population": 1210
+    },
+    {
+      "name": "Windsor",
+      "population": 857
+    },
+    {
+      "name": "Wolcott",
+      "population": 1244
+    },
+    {
+      "name": "Woodbury",
+      "population": 11571
+    },
+    {
+      "name": "Woodridge",
+      "population": 736
+    },
+    {
+      "name": "Woodsburgh",
+      "population": 885
+    },
+    {
+      "name": "Wurtsboro",
+      "population": 1081
+    },
+    {
+      "name": "Wyoming",
+      "population": 376
+    },
+    {
+      "name": "Yonkers",
+      "population": 212603
+    },
+    {
+      "name": "Yorkville",
+      "population": 2572
+    },
+    {
+      "name": "Youngstown",
+      "population": 1822
+    }
+  ],
+  "counties": [
+    {
+      "name": "Albany County",
+      "population": 321225
+    },
+    {
+      "name": "Allegany County",
+      "population": 46800
+    },
+    {
+      "name": "Bronx County",
+      "population": 1406332
+    },
+    {
+      "name": "Broome County",
+      "population": 195736
+    },
+    {
+      "name": "Cattaraugus County",
+      "population": 75390
+    },
+    {
+      "name": "Cayuga County",
+      "population": 74365
+    },
+    {
+      "name": "Chautauqua County",
+      "population": 124126
+    },
+    {
+      "name": "Chemung County",
+      "population": 80415
+    },
+    {
+      "name": "Chenango County",
+      "population": 45715
+    },
+    {
+      "name": "Clinton County",
+      "population": 78138
+    },
+    {
+      "name": "Columbia County",
+      "population": 60168
+    },
+    {
+      "name": "Cortland County",
+      "population": 45850
+    },
+    {
+      "name": "Delaware County",
+      "population": 44305
+    },
+    {
+      "name": "Dutchess County",
+      "population": 300708
+    },
+    {
+      "name": "Erie County",
+      "population": 946741
+    },
+    {
+      "name": "Essex County",
+      "population": 36438
+    },
+    {
+      "name": "Franklin County",
+      "population": 46500
+    },
+    {
+      "name": "Fulton County",
+      "population": 52216
+    },
+    {
+      "name": "Genesee County",
+      "population": 58416
+    },
+    {
+      "name": "Greene County",
+      "population": 47238
+    },
+    {
+      "name": "Hamilton County",
+      "population": 5006
+    },
+    {
+      "name": "Herkimer County",
+      "population": 59219
+    },
+    {
+      "name": "Jefferson County",
+      "population": 111540
+    },
+    {
+      "name": "Kings County",
+      "population": 2653963
+    },
+    {
+      "name": "Lewis County",
+      "population": 26479
+    },
+    {
+      "name": "Livingston County",
+      "population": 61438
+    },
+    {
+      "name": "Madison County",
+      "population": 67120
+    },
+    {
+      "name": "Monroe County",
+      "population": 750506
+    },
+    {
+      "name": "Montgomery County",
+      "population": 50046
+    },
+    {
+      "name": "Nassau County",
+      "population": 1398939
+    },
+    {
+      "name": "New York County",
+      "population": 1664862
+    },
+    {
+      "name": "Niagara County",
+      "population": 208912
+    },
+    {
+      "name": "Oneida County",
+      "population": 226392
+    },
+    {
+      "name": "Onondaga County",
+      "population": 466584
+    },
+    {
+      "name": "Ontario County",
+      "population": 113130
+    },
+    {
+      "name": "Orange County",
+      "population": 417669
+    },
+    {
+      "name": "Orleans County",
+      "population": 39825
+    },
+    {
+      "name": "Oswego County",
+      "population": 118569
+    },
+    {
+      "name": "Otsego County",
+      "population": 60589
+    },
+    {
+      "name": "Putnam County",
+      "population": 99028
+    },
+    {
+      "name": "Queens County",
+      "population": 2358182
+    },
+    {
+      "name": "Rensselaer County",
+      "population": 160510
+    },
+    {
+      "name": "Richmond County",
+      "population": 501290
+    },
+    {
+      "name": "Rockland County",
+      "population": 357397
+    },
+    {
+      "name": "Saratoga County",
+      "population": 241343
+    },
+    {
+      "name": "Schenectady County",
+      "population": 162581
+    },
+    {
+      "name": "Schoharie County",
+      "population": 30176
+    },
+    {
+      "name": "Schuyler County",
+      "population": 16924
+    },
+    {
+      "name": "Seneca County",
+      "population": 32883
+    },
+    {
+      "name": "St. Lawrence County",
+      "population": 105488
+    },
+    {
+      "name": "Steuben County",
+      "population": 91855
+    },
+    {
+      "name": "Suffolk County",
+      "population": 1546090
+    },
+    {
+      "name": "Sullivan County",
+      "population": 80586
+    },
+    {
+      "name": "Tioga County",
+      "population": 47453
+    },
+    {
+      "name": "Tompkins County",
+      "population": 104047
+    },
+    {
+      "name": "Ulster County",
+      "population": 183330
+    },
+    {
+      "name": "Warren County",
+      "population": 65020
+    },
+    {
+      "name": "Washington County",
+      "population": 59353
+    },
+    {
+      "name": "Wayne County",
+      "population": 91250
+    },
+    {
+      "name": "Westchester County",
+      "population": 1015743
+    },
+    {
+      "name": "Wyoming County",
+      "population": 39741
+    },
+    {
+      "name": "Yates County",
+      "population": 24547
+    }
+  ]
+}

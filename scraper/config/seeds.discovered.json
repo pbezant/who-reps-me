@@ -1,0 +1,941 @@
+{
+  "jurisdictions": [
+    {
+      "city": "Los Angeles County",
+      "state": "CA",
+      "level": "county",
+      "body": "Los Angeles County Commissioners Court",
+      "urls": [
+        "https://www.lacounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Cook County",
+      "state": "IL",
+      "level": "county",
+      "body": "Cook County Commissioners Court",
+      "urls": [
+        "https://www.cookcountyil.gov/service/sec-34-40-use-contingency-funds-commissioners-018-890"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Harris County",
+      "state": "TX",
+      "level": "county",
+      "body": "Harris County Commissioners Court",
+      "urls": [
+        "https://harriscountytx.gov/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Maricopa County",
+      "state": "AZ",
+      "level": "county",
+      "body": "Maricopa County Commissioners Court",
+      "urls": [
+        "https://www.maricopa.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "San Diego County",
+      "state": "CA",
+      "level": "county",
+      "body": "San Diego County Commissioners Court",
+      "urls": [
+        "https://www.sandiegocounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Orange County",
+      "state": "CA",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "urls": [
+        "https://www.ocgov.com"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Dallas County",
+      "state": "TX",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "urls": [
+        "https://www.dallascounty.org/government/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Clark County",
+      "state": "NV",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "urls": [
+        "https://www.clarkcountynv.gov/government/county_managers_office/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "King County",
+      "state": "WA",
+      "level": "county",
+      "body": "King County Commissioners Court",
+      "urls": [
+        "https://kingcounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Tarrant County",
+      "state": "TX",
+      "level": "county",
+      "body": "Tarrant County Commissioners Court",
+      "urls": [
+        "https://www.tarrantcounty.com/en/commissioners-court.html"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "San Bernardino County",
+      "state": "CA",
+      "level": "county",
+      "body": "San Bernardino County Commissioners Court",
+      "urls": [
+        "https://sbcounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Bexar County",
+      "state": "TX",
+      "level": "county",
+      "body": "Bexar County Commissioners Court",
+      "urls": [
+        "https://www.bexar.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Alameda County",
+      "state": "CA",
+      "level": "county",
+      "body": "Alameda County Commissioners Court",
+      "urls": [
+        "https://www.acgov.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Sacramento County",
+      "state": "CA",
+      "level": "county",
+      "body": "Sacramento County Commissioners Court",
+      "urls": [
+        "https://www.saccounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Palm Beach County",
+      "state": "FL",
+      "level": "county",
+      "body": "Palm Beach County Commissioners Court",
+      "urls": [
+        "https://www.pbcgov.com"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "level": "local",
+      "body": "Philadelphia City Council",
+      "urls": [
+        "https://www.phila.gov/ar/departments/mayor/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Philadelphia County",
+      "state": "PA",
+      "level": "county",
+      "body": "Philadelphia County Commissioners Court",
+      "urls": [
+        "https://www.phila.gov/ar/departments/mayor/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Suffolk County",
+      "state": "NY",
+      "level": "county",
+      "body": "Suffolk County Commissioners Court",
+      "urls": [
+        "https://www.suffolkcountyny.gov/#"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Nassau County",
+      "state": "NY",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "urls": [
+        "https://www.nassaucountyny.gov/2106/Elected-Officials"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Franklin County",
+      "state": "OH",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "urls": [
+        "https://franklincountyohio.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Collin County",
+      "state": "TX",
+      "level": "county",
+      "body": "Collin County Commissioners Court",
+      "urls": [
+        "https://www.collincountytx.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Wake County",
+      "state": "NC",
+      "level": "county",
+      "body": "Wake County Commissioners Court",
+      "urls": [
+        "https://www.wakegov.com/departments-government/advisory-boards"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Mecklenburg County",
+      "state": "NC",
+      "level": "county",
+      "body": "Mecklenburg County Commissioners Court",
+      "urls": [
+        "https://www.mecknc.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Cuyahoga County",
+      "state": "OH",
+      "level": "county",
+      "body": "Cuyahoga County Commissioners Court",
+      "urls": [
+        "https://www.cuyahogacounty.gov/council#collapseContainer"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Allegheny County",
+      "state": "PA",
+      "level": "county",
+      "body": "Allegheny County Commissioners Court",
+      "urls": [
+        "https://www.alleghenycounty.us/Government/Employment?oc_lang=en-US"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Salt Lake County",
+      "state": "UT",
+      "level": "county",
+      "body": "Salt Lake County Commissioners Court",
+      "urls": [
+        "https://slco.org/mayor/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Contra Costa County",
+      "state": "CA",
+      "level": "county",
+      "body": "Contra Costa County Commissioners Court",
+      "urls": [
+        "https://www.contracosta.ca.gov/#tab400c9fd5-9e8f-4a7a-a381-57271bf24ce9_4"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Fairfax County",
+      "state": "VA",
+      "level": "county",
+      "body": "Fairfax County Commissioners Court",
+      "urls": [
+        "https://www.fairfaxcounty.gov/cableconsumer/channel-16/fairfax-county-government-television#"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Fulton County",
+      "state": "GA",
+      "level": "county",
+      "body": "Fulton County Commissioners Court",
+      "urls": [
+        "https://www.fultoncountyga.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Pima County",
+      "state": "AZ",
+      "level": "county",
+      "body": "Pima County Commissioners Court",
+      "urls": [
+        "https://www.pima.gov/27/Government"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Montgomery County",
+      "state": "MD",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "urls": [
+        "https://www.montgomerycountymd.gov/government/legislative-branch/county-council"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Denton County",
+      "state": "TX",
+      "level": "county",
+      "body": "Denton County Commissioners Court",
+      "urls": [
+        "https://www.dentoncounty.gov/165/Commissioners-Court"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Fresno County",
+      "state": "CA",
+      "level": "county",
+      "body": "Fresno County Commissioners Court",
+      "urls": [
+        "https://www.fresnocountyca.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Gwinnett County",
+      "state": "GA",
+      "level": "county",
+      "body": "Gwinnett County Commissioners Court",
+      "urls": [
+        "https://www.gwinnettcounty.com/government/departments/board-of-commissioners"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "urls": [
+        "https://www.coj.net/city-council.aspx"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Westchester County",
+      "state": "NY",
+      "level": "county",
+      "body": "Westchester County Commissioners Court",
+      "urls": [
+        "https://www.westchestergov.com/contact-us/elected-officials"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Marion County",
+      "state": "IN",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "urls": [
+        "https://www.indy.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Honolulu County",
+      "state": "HI",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "urls": [
+        "https://www.honolulu.gov/mayor/podcast/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Fort Bend County",
+      "state": "TX",
+      "level": "county",
+      "body": "Fort Bend County Commissioners Court",
+      "urls": [
+        "https://www.fortbendcountytx.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "urls": [
+        "https://www.charlottenc.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Erie County",
+      "state": "NY",
+      "level": "county",
+      "body": "Erie County Commissioners Court",
+      "urls": [
+        "https://www.erie.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Pierce County",
+      "state": "WA",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "urls": [
+        "https://www.piercecountywa.gov/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "DuPage County",
+      "state": "IL",
+      "level": "county",
+      "body": "DuPage County Commissioners Court",
+      "urls": [
+        "https://www.dupageco.org/government/county_board/appointed_agencies.php"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Hidalgo County",
+      "state": "TX",
+      "level": "county",
+      "body": "Hidalgo County Commissioners Court",
+      "urls": [
+        "https://www.hidalgocounty.us/79/Commissioners-Court"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "level": "local",
+      "body": "Columbus City Council",
+      "urls": [
+        "https://www.columbus.gov/Government/Mayors-Office/Extreme-Weather-August-2026?OC_EA_EmergencyAnnouncementList_Dismiss=f993283f-1a4d-4603-a895-a6d277660abb"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Shelby County",
+      "state": "TN",
+      "level": "county",
+      "body": "Shelby County Commissioners Court",
+      "urls": [
+        "https://www.shelbycountytn.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Essex County",
+      "state": "NJ",
+      "level": "county",
+      "body": "Essex County Commissioners Court",
+      "urls": [
+        "https://www.essexcountynj.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Macomb County",
+      "state": "MI",
+      "level": "county",
+      "body": "Macomb County Commissioners Court",
+      "urls": [
+        "https://macombgov.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "El Paso County",
+      "state": "TX",
+      "level": "county",
+      "body": "El Paso County Commissioners Court",
+      "urls": [
+        "https://www.epcounty.com/165/Commissioners-Court"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Montgomery County",
+      "state": "PA",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "urls": [
+        "https://www.montcopa.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Lee County",
+      "state": "FL",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "urls": [
+        "https://www.leegov.com/bocc"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Snohomish County",
+      "state": "WA",
+      "level": "county",
+      "body": "Snohomish County Commissioners Court",
+      "urls": [
+        "https://snohomishcountywa.gov/142/Council-On-Aging"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Hamilton County",
+      "state": "OH",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "urls": [
+        "https://www.hamiltoncountyohio.gov/"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Ventura County",
+      "state": "CA",
+      "level": "county",
+      "body": "Ventura County Commissioners Court",
+      "urls": [
+        "https://www.ventura.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "San Joaquin County",
+      "state": "CA",
+      "level": "county",
+      "body": "San Joaquin County Commissioners Court",
+      "urls": [
+        "https://www.sjgov.org/department/agricultural-commissioner-new/agricultural-programs/ag-resources/agventure"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Oklahoma County",
+      "state": "OK",
+      "level": "county",
+      "body": "Oklahoma County Commissioners Court",
+      "urls": [
+        "https://www.oklahomacounty.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Multnomah County",
+      "state": "OR",
+      "level": "county",
+      "body": "Multnomah County Commissioners Court",
+      "urls": [
+        "https://www.multco.us"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Cobb County",
+      "state": "GA",
+      "level": "county",
+      "body": "Cobb County Commissioners Court",
+      "urls": [
+        "https://www.cobbcounty.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "level": "local",
+      "body": "Seattle City Council",
+      "urls": [
+        "https://www.seattle.gov/council"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Montgomery County",
+      "state": "TX",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "urls": [
+        "https://www.mctx.org/departments/departments_a_-_c/commissioner_s_court/index.php"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "DeKalb County",
+      "state": "GA",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "urls": [
+        "https://www.dekalbcountyga.gov/government/board-of-commissioners"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Utah County",
+      "state": "UT",
+      "level": "county",
+      "body": "Utah County Commissioners Court",
+      "urls": [
+        "https://www.utahcounty.gov"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Monroe County",
+      "state": "NY",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "urls": [
+        "https://www.monroecounty.gov/planning-cog"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Davidson County",
+      "state": "TN",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "urls": [
+        "https://www.nashville.gov/departments/mayor"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Denver County",
+      "state": "CO",
+      "level": "county",
+      "body": "Denver County Commissioners Court",
+      "urls": [
+        "https://www.denvergov.org"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Norfolk County",
+      "state": "MA",
+      "level": "county",
+      "body": "Norfolk County Commissioners Court",
+      "urls": [
+        "https://www.norfolkcounty.org/county_commission/commissioners.php"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    },
+    {
+      "city": "Hudson County",
+      "state": "NJ",
+      "level": "county",
+      "body": "Hudson County Commissioners Court",
+      "urls": [
+        "https://www.hudsoncountynj.org/#"
+      ],
+      "discovered_at": "2026-08-20T02:10:58.518Z"
+    }
+  ],
+  "misses": [
+    {
+      "city": "Miami-Dade County",
+      "state": "FL",
+      "level": "county",
+      "population": 2802029,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Kings County",
+      "state": "NY",
+      "level": "county",
+      "population": 2653963,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Riverside County",
+      "state": "CA",
+      "level": "county",
+      "population": 2544916,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Queens County",
+      "state": "NY",
+      "level": "county",
+      "population": 2358182,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Broward County",
+      "state": "FL",
+      "level": "county",
+      "population": 2013317,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Santa Clara County",
+      "state": "CA",
+      "level": "county",
+      "population": 1914391,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Wayne County",
+      "state": "MI",
+      "level": "county",
+      "population": 1769038,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "roster page not found"
+    },
+    {
+      "city": "Middlesex County",
+      "state": "MA",
+      "level": "county",
+      "population": 1669979,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "New York County",
+      "state": "NY",
+      "level": "county",
+      "population": 1664862,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Hillsborough County",
+      "state": "FL",
+      "level": "county",
+      "population": 1574115,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Orange County",
+      "state": "FL",
+      "level": "county",
+      "population": 1528002,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Bronx County",
+      "state": "NY",
+      "level": "county",
+      "population": 1406332,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Oakland County",
+      "state": "MI",
+      "level": "county",
+      "population": 1288337,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Hennepin County",
+      "state": "MN",
+      "level": "county",
+      "population": 1284784,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Duval County",
+      "state": "FL",
+      "level": "county",
+      "population": 1062963,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Capitol Planning Region",
+      "state": "CT",
+      "level": "county",
+      "population": 994115,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "St. Louis County",
+      "state": "MO",
+      "level": "county",
+      "population": 990911,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Bergen County",
+      "state": "NJ",
+      "level": "county",
+      "population": 977026,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "roster page not found"
+    },
+    {
+      "city": "Prince George's County",
+      "state": "MD",
+      "level": "county",
+      "population": 970374,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Pinellas County",
+      "state": "FL",
+      "level": "county",
+      "population": 948563,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "roster page not found"
+    },
+    {
+      "city": "Kern County",
+      "state": "CA",
+      "level": "county",
+      "population": 927068,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Milwaukee County",
+      "state": "WI",
+      "level": "county",
+      "population": 924216,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Worcester County",
+      "state": "MA",
+      "level": "county",
+      "population": 888502,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Middlesex County",
+      "state": "NJ",
+      "level": "county",
+      "population": 883335,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Polk County",
+      "state": "FL",
+      "level": "county",
+      "population": 874790,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Baltimore County",
+      "state": "MD",
+      "level": "county",
+      "population": 847650,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Essex County",
+      "state": "MA",
+      "level": "county",
+      "population": 826653,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "San Francisco County",
+      "state": "CA",
+      "level": "county",
+      "population": 826079,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Jefferson County",
+      "state": "KY",
+      "level": "county",
+      "population": 795222,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Suffolk County",
+      "state": "MA",
+      "level": "county",
+      "population": 791891,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "El Paso County",
+      "state": "CO",
+      "level": "county",
+      "population": 757040,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "San Mateo County",
+      "state": "CA",
+      "level": "county",
+      "population": 743568,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "roster page not found"
+    },
+    {
+      "city": "Jackson County",
+      "state": "MO",
+      "level": "county",
+      "population": 732994,
+      "checked_at": "2026-08-20T02:10:58.518Z",
+      "reason": "no site found"
+    }
+  ],
+  "generated_at": "2026-08-20T02:10:58.518Z"
+}

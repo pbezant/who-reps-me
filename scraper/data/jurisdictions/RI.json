@@ -1,0 +1,60 @@
+{
+  "state": "RI",
+  "generated_at": "2026-08-20T02:10:57.598Z",
+  "places": [
+    {
+      "name": "Central Falls",
+      "population": 23124
+    },
+    {
+      "name": "Cranston",
+      "population": 84647
+    },
+    {
+      "name": "East Providence",
+      "population": 48249
+    },
+    {
+      "name": "Newport",
+      "population": 24251
+    },
+    {
+      "name": "Pawtucket",
+      "population": 77065
+    },
+    {
+      "name": "Providence",
+      "population": 195310
+    },
+    {
+      "name": "Warwick",
+      "population": 84187
+    },
+    {
+      "name": "Woonsocket",
+      "population": 44580
+    }
+  ],
+  "counties": [
+    {
+      "name": "Bristol County",
+      "population": 50001
+    },
+    {
+      "name": "Kent County",
+      "population": 173495
+    },
+    {
+      "name": "Newport County",
+      "population": 83051
+    },
+    {
+      "name": "Providence County",
+      "population": 678179
+    },
+    {
+      "name": "Washington County",
+      "population": 129795
+    }
+  ]
+}

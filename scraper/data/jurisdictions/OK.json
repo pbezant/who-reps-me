@@ -1,0 +1,2680 @@
+{
+  "state": "OK",
+  "generated_at": "2026-08-20T02:10:57.440Z",
+  "places": [
+    {
+      "name": "Achille",
+      "population": 434
+    },
+    {
+      "name": "Ada",
+      "population": 16660
+    },
+    {
+      "name": "Adair",
+      "population": 750
+    },
+    {
+      "name": "Addington",
+      "population": 85
+    },
+    {
+      "name": "Afton",
+      "population": 753
+    },
+    {
+      "name": "Agra",
+      "population": 330
+    },
+    {
+      "name": "Albion",
+      "population": 61
+    },
+    {
+      "name": "Alderson",
+      "population": 220
+    },
+    {
+      "name": "Alex",
+      "population": 513
+    },
+    {
+      "name": "Aline",
+      "population": 168
+    },
+    {
+      "name": "Allen",
+      "population": 658
+    },
+    {
+      "name": "Altus",
+      "population": 18707
+    },
+    {
+      "name": "Alva",
+      "population": 4880
+    },
+    {
+      "name": "Amber",
+      "population": 466
+    },
+    {
+      "name": "Ames",
+      "population": 189
+    },
+    {
+      "name": "Amorita",
+      "population": 39
+    },
+    {
+      "name": "Anadarko",
+      "population": 5448
+    },
+    {
+      "name": "Antlers",
+      "population": 2186
+    },
+    {
+      "name": "Apache",
+      "population": 996
+    },
+    {
+      "name": "Arapaho",
+      "population": 660
+    },
+    {
+      "name": "Arcadia",
+      "population": 187
+    },
+    {
+      "name": "Ardmore",
+      "population": 24956
+    },
+    {
+      "name": "Arkoma",
+      "population": 1863
+    },
+    {
+      "name": "Armstrong",
+      "population": 123
+    },
+    {
+      "name": "Arnett",
+      "population": 483
+    },
+    {
+      "name": "Asher",
+      "population": 374
+    },
+    {
+      "name": "Ashland",
+      "population": 33
+    },
+    {
+      "name": "Atoka",
+      "population": 2975
+    },
+    {
+      "name": "Atwood",
+      "population": 85
+    },
+    {
+      "name": "Avant",
+      "population": 302
+    },
+    {
+      "name": "Barnsdall",
+      "population": 974
+    },
+    {
+      "name": "Bartlesville",
+      "population": 38276
+    },
+    {
+      "name": "Bearden",
+      "population": 137
+    },
+    {
+      "name": "Beaver",
+      "population": 1213
+    },
+    {
+      "name": "Beggs",
+      "population": 1188
+    },
+    {
+      "name": "Bennington",
+      "population": 326
+    },
+    {
+      "name": "Bernice",
+      "population": 434
+    },
+    {
+      "name": "Bessie",
+      "population": 182
+    },
+    {
+      "name": "Bethany",
+      "population": 20315
+    },
+    {
+      "name": "Bethel Acres",
+      "population": 3301
+    },
+    {
+      "name": "Big Cabin",
+      "population": 185
+    },
+    {
+      "name": "Billings",
+      "population": 571
+    },
+    {
+      "name": "Binger",
+      "population": 434
+    },
+    {
+      "name": "Bixby",
+      "population": 219
+    },
+    {
+      "name": "Blackburn",
+      "population": 68
+    },
+    {
+      "name": "Blackwell",
+      "population": 6029
+    },
+    {
+      "name": "Blair",
+      "population": 711
+    },
+    {
+      "name": "Blanchard",
+      "population": 7655
+    },
+    {
+      "name": "Bluejacket",
+      "population": 244
+    },
+    {
+      "name": "Boise City",
+      "population": 1040
+    },
+    {
+      "name": "Bokchito",
+      "population": 631
+    },
+    {
+      "name": "Bokoshe",
+      "population": 408
+    },
+    {
+      "name": "Boley",
+      "population": 1087
+    },
+    {
+      "name": "Boswell",
+      "population": 570
+    },
+    {
+      "name": "Bowlegs",
+      "population": 358
+    },
+    {
+      "name": "Boynton",
+      "population": 165
+    },
+    {
+      "name": "Bradley",
+      "population": 85
+    },
+    {
+      "name": "Braggs",
+      "population": 265
+    },
+    {
+      "name": "Braman",
+      "population": 163
+    },
+    {
+      "name": "Bray",
+      "population": 988
+    },
+    {
+      "name": "Breckenridge",
+      "population": 212
+    },
+    {
+      "name": "Bridge Creek",
+      "population": 316
+    },
+    {
+      "name": "Bridgeport",
+      "population": 99
+    },
+    {
+      "name": "Bristow",
+      "population": 4381
+    },
+    {
+      "name": "Broken Arrow",
+      "population": 23216
+    },
+    {
+      "name": "Broken Bow",
+      "population": 4211
+    },
+    {
+      "name": "Bromide",
+      "population": 98
+    },
+    {
+      "name": "Brooksville",
+      "population": 74
+    },
+    {
+      "name": "Buffalo",
+      "population": 1002
+    },
+    {
+      "name": "Burbank",
+      "population": 125
+    },
+    {
+      "name": "Burlington",
+      "population": 118
+    },
+    {
+      "name": "Burns Flat",
+      "population": 1918
+    },
+    {
+      "name": "Butler",
+      "population": 207
+    },
+    {
+      "name": "Byars",
+      "population": 209
+    },
+    {
+      "name": "Byng",
+      "population": 1414
+    },
+    {
+      "name": "Byron",
+      "population": 39
+    },
+    {
+      "name": "Cache",
+      "population": 3239
+    },
+    {
+      "name": "Caddo",
+      "population": 1093
+    },
+    {
+      "name": "Calera",
+      "population": 3145
+    },
+    {
+      "name": "Calumet",
+      "population": 524
+    },
+    {
+      "name": "Calvin",
+      "population": 313
+    },
+    {
+      "name": "Camargo",
+      "population": 182
+    },
+    {
+      "name": "Cameron",
+      "population": 334
+    },
+    {
+      "name": "Canadian",
+      "population": 142
+    },
+    {
+      "name": "Caney",
+      "population": 190
+    },
+    {
+      "name": "Canton",
+      "population": 450
+    },
+    {
+      "name": "Canute",
+      "population": 488
+    },
+    {
+      "name": "Carlton Landing",
+      "population": 138
+    },
+    {
+      "name": "Carmen",
+      "population": 354
+    },
+    {
+      "name": "Carnegie",
+      "population": 1366
+    },
+    {
+      "name": "Carney",
+      "population": 575
+    },
+    {
+      "name": "Carrier",
+      "population": 91
+    },
+    {
+      "name": "Carter",
+      "population": 182
+    },
+    {
+      "name": "Cashion",
+      "population": 286
+    },
+    {
+      "name": "Castle",
+      "population": 173
+    },
+    {
+      "name": "Catoosa",
+      "population": 1889
+    },
+    {
+      "name": "Cedar Valley",
+      "population": 440
+    },
+    {
+      "name": "Cement",
+      "population": 419
+    },
+    {
+      "name": "Centrahoma",
+      "population": 82
+    },
+    {
+      "name": "Central High",
+      "population": 1229
+    },
+    {
+      "name": "Chandler",
+      "population": 2963
+    },
+    {
+      "name": "Chattanooga",
+      "population": 0
+    },
+    {
+      "name": "Checotah",
+      "population": 3096
+    },
+    {
+      "name": "Chelsea",
+      "population": 1999
+    },
+    {
+      "name": "Cherokee",
+      "population": 1439
+    },
+    {
+      "name": "Cheyenne",
+      "population": 725
+    },
+    {
+      "name": "Chickasha",
+      "population": 17313
+    },
+    {
+      "name": "Choctaw",
+      "population": 12549
+    },
+    {
+      "name": "Chouteau",
+      "population": 2175
+    },
+    {
+      "name": "Cimarron City",
+      "population": 162
+    },
+    {
+      "name": "Claremore",
+      "population": 20681
+    },
+    {
+      "name": "Clayton",
+      "population": 556
+    },
+    {
+      "name": "Clearview",
+      "population": 36
+    },
+    {
+      "name": "Cleo Springs",
+      "population": 276
+    },
+    {
+      "name": "Cleveland",
+      "population": 3271
+    },
+    {
+      "name": "Clinton",
+      "population": 0
+    },
+    {
+      "name": "Coalgate",
+      "population": 1735
+    },
+    {
+      "name": "Colbert",
+      "population": 1118
+    },
+    {
+      "name": "Colcord",
+      "population": 758
+    },
+    {
+      "name": "Cole",
+      "population": 669
+    },
+    {
+      "name": "Collinsville",
+      "population": 9952
+    },
+    {
+      "name": "Colony",
+      "population": 106
+    },
+    {
+      "name": "Comanche",
+      "population": 1393
+    },
+    {
+      "name": "Commerce",
+      "population": 2260
+    },
+    {
+      "name": "Cooperton",
+      "population": 4
+    },
+    {
+      "name": "Copan",
+      "population": 735
+    },
+    {
+      "name": "Corn",
+      "population": 589
+    },
+    {
+      "name": "Cornish",
+      "population": 112
+    },
+    {
+      "name": "Council Hill",
+      "population": 112
+    },
+    {
+      "name": "Covington",
+      "population": 466
+    },
+    {
+      "name": "Coweta",
+      "population": 11472
+    },
+    {
+      "name": "Coyle",
+      "population": 342
+    },
+    {
+      "name": "Crescent",
+      "population": 1429
+    },
+    {
+      "name": "Cromwell",
+      "population": 228
+    },
+    {
+      "name": "Crowder",
+      "population": 295
+    },
+    {
+      "name": "Cushing",
+      "population": 8390
+    },
+    {
+      "name": "Custer City",
+      "population": 371
+    },
+    {
+      "name": "Cyril",
+      "population": 797
+    },
+    {
+      "name": "Dacoma",
+      "population": 106
+    },
+    {
+      "name": "Davenport",
+      "population": 861
+    },
+    {
+      "name": "Davidson",
+      "population": 238
+    },
+    {
+      "name": "Davis",
+      "population": 2836
+    },
+    {
+      "name": "Deer Creek",
+      "population": 78
+    },
+    {
+      "name": "Del City",
+      "population": 21138
+    },
+    {
+      "name": "Delaware",
+      "population": 272
+    },
+    {
+      "name": "Depew",
+      "population": 412
+    },
+    {
+      "name": "Devol",
+      "population": 94
+    },
+    {
+      "name": "Dewar",
+      "population": 771
+    },
+    {
+      "name": "Dewey",
+      "population": 3450
+    },
+    {
+      "name": "Dibble",
+      "population": 992
+    },
+    {
+      "name": "Dickson",
+      "population": 1363
+    },
+    {
+      "name": "Dill City",
+      "population": 417
+    },
+    {
+      "name": "Disney",
+      "population": 229
+    },
+    {
+      "name": "Dougherty",
+      "population": 195
+    },
+    {
+      "name": "Douglas",
+      "population": 53
+    },
+    {
+      "name": "Dover",
+      "population": 410
+    },
+    {
+      "name": "Drummond",
+      "population": 457
+    },
+    {
+      "name": "Drumright",
+      "population": 73
+    },
+    {
+      "name": "Duncan",
+      "population": 23238
+    },
+    {
+      "name": "Durant",
+      "population": 21552
+    },
+    {
+      "name": "Dustin",
+      "population": 339
+    },
+    {
+      "name": "Eakly",
+      "population": 284
+    },
+    {
+      "name": "Earlsboro",
+      "population": 620
+    },
+    {
+      "name": "East Duke",
+      "population": 399
+    },
+    {
+      "name": "Edmond",
+      "population": 100479
+    },
+    {
+      "name": "El Reno",
+      "population": 20730
+    },
+    {
+      "name": "Eldorado",
+      "population": 318
+    },
+    {
+      "name": "Elgin",
+      "population": 3653
+    },
+    {
+      "name": "Elk City",
+      "population": 11335
+    },
+    {
+      "name": "Elmer",
+      "population": 64
+    },
+    {
+      "name": "Elmore City",
+      "population": 766
+    },
+    {
+      "name": "Empire City",
+      "population": 741
+    },
+    {
+      "name": "Enid",
+      "population": 50297
+    },
+    {
+      "name": "Erick",
+      "population": 979
+    },
+    {
+      "name": "Etowah",
+      "population": 162
+    },
+    {
+      "name": "Eufaula",
+      "population": 2882
+    },
+    {
+      "name": "Fair Oaks",
+      "population": 63
+    },
+    {
+      "name": "Fairfax",
+      "population": 1106
+    },
+    {
+      "name": "Fairland",
+      "population": 1100
+    },
+    {
+      "name": "Fairmont",
+      "population": 129
+    },
+    {
+      "name": "Fairview",
+      "population": 2632
+    },
+    {
+      "name": "Fallis",
+      "population": 20
+    },
+    {
+      "name": "Fanshawe",
+      "population": 306
+    },
+    {
+      "name": "Fargo",
+      "population": 303
+    },
+    {
+      "name": "Faxon",
+      "population": 117
+    },
+    {
+      "name": "Fitzhugh",
+      "population": 186
+    },
+    {
+      "name": "Fletcher",
+      "population": 1274
+    },
+    {
+      "name": "Foraker",
+      "population": 17
+    },
+    {
+      "name": "Forest Park",
+      "population": 1035
+    },
+    {
+      "name": "Forgan",
+      "population": 435
+    },
+    {
+      "name": "Fort Cobb",
+      "population": 498
+    },
+    {
+      "name": "Fort Coffee",
+      "population": 348
+    },
+    {
+      "name": "Fort Gibson",
+      "population": 3802
+    },
+    {
+      "name": "Fort Supply",
+      "population": 314
+    },
+    {
+      "name": "Fort Towson",
+      "population": 489
+    },
+    {
+      "name": "Foss",
+      "population": 105
+    },
+    {
+      "name": "Foster",
+      "population": 252
+    },
+    {
+      "name": "Foyil",
+      "population": 459
+    },
+    {
+      "name": "Francis",
+      "population": 257
+    },
+    {
+      "name": "Frederick",
+      "population": 3371
+    },
+    {
+      "name": "Freedom",
+      "population": 177
+    },
+    {
+      "name": "Friendship",
+      "population": 24
+    },
+    {
+      "name": "Gage",
+      "population": 416
+    },
+    {
+      "name": "Gans",
+      "population": 253
+    },
+    {
+      "name": "Garber",
+      "population": 732
+    },
+    {
+      "name": "Garvin",
+      "population": 178
+    },
+    {
+      "name": "Gate",
+      "population": 58
+    },
+    {
+      "name": "Geary",
+      "population": 145
+    },
+    {
+      "name": "Gene Autry",
+      "population": 156
+    },
+    {
+      "name": "Geronimo",
+      "population": 1188
+    },
+    {
+      "name": "Gerty",
+      "population": 97
+    },
+    {
+      "name": "Glencoe",
+      "population": 512
+    },
+    {
+      "name": "Glenpool",
+      "population": 14705
+    },
+    {
+      "name": "Goldsby",
+      "population": 3591
+    },
+    {
+      "name": "Goltry",
+      "population": 248
+    },
+    {
+      "name": "Goodwell",
+      "population": 915
+    },
+    {
+      "name": "Gore",
+      "population": 996
+    },
+    {
+      "name": "Gotebo",
+      "population": 165
+    },
+    {
+      "name": "Gould",
+      "population": 95
+    },
+    {
+      "name": "Gracemont",
+      "population": 271
+    },
+    {
+      "name": "Grainola",
+      "population": 35
+    },
+    {
+      "name": "Grand Lake Towne",
+      "population": 80
+    },
+    {
+      "name": "Grandfield",
+      "population": 889
+    },
+    {
+      "name": "Granite",
+      "population": 1609
+    },
+    {
+      "name": "Grayson",
+      "population": 134
+    },
+    {
+      "name": "Greenfield",
+      "population": 113
+    },
+    {
+      "name": "Grove",
+      "population": 7399
+    },
+    {
+      "name": "Guthrie",
+      "population": 12257
+    },
+    {
+      "name": "Guymon",
+      "population": 12241
+    },
+    {
+      "name": "Haileyville",
+      "population": 702
+    },
+    {
+      "name": "Hallett",
+      "population": 114
+    },
+    {
+      "name": "Hammon",
+      "population": 440
+    },
+    {
+      "name": "Hanna",
+      "population": 108
+    },
+    {
+      "name": "Hardesty",
+      "population": 196
+    },
+    {
+      "name": "Harrah",
+      "population": 7212
+    },
+    {
+      "name": "Hartshorne",
+      "population": 1877
+    },
+    {
+      "name": "Haskell",
+      "population": 1740
+    },
+    {
+      "name": "Hastings",
+      "population": 109
+    },
+    {
+      "name": "Haworth",
+      "population": 280
+    },
+    {
+      "name": "Headrick",
+      "population": 73
+    },
+    {
+      "name": "Healdton",
+      "population": 2350
+    },
+    {
+      "name": "Heavener",
+      "population": 3070
+    },
+    {
+      "name": "Helena",
+      "population": 1527
+    },
+    {
+      "name": "Hendrix",
+      "population": 67
+    },
+    {
+      "name": "Hennessey",
+      "population": 2207
+    },
+    {
+      "name": "Henryetta",
+      "population": 5620
+    },
+    {
+      "name": "Hickory",
+      "population": 83
+    },
+    {
+      "name": "Hillsdale",
+      "population": 70
+    },
+    {
+      "name": "Hinton",
+      "population": 4975
+    },
+    {
+      "name": "Hitchcock",
+      "population": 99
+    },
+    {
+      "name": "Hitchita",
+      "population": 67
+    },
+    {
+      "name": "Hobart",
+      "population": 3257
+    },
+    {
+      "name": "Hochatown",
+      "population": 268
+    },
+    {
+      "name": "Hoffman",
+      "population": 84
+    },
+    {
+      "name": "Holdenville",
+      "population": 5923
+    },
+    {
+      "name": "Hollis",
+      "population": 1673
+    },
+    {
+      "name": "Hollister",
+      "population": 38
+    },
+    {
+      "name": "Hominy",
+      "population": 3293
+    },
+    {
+      "name": "Hooker",
+      "population": 1706
+    },
+    {
+      "name": "Horntown",
+      "population": 93
+    },
+    {
+      "name": "Howe",
+      "population": 643
+    },
+    {
+      "name": "Hugo",
+      "population": 5082
+    },
+    {
+      "name": "Hulbert",
+      "population": 498
+    },
+    {
+      "name": "Hunter",
+      "population": 143
+    },
+    {
+      "name": "Hydro",
+      "population": 597
+    },
+    {
+      "name": "Idabel",
+      "population": 6934
+    },
+    {
+      "name": "Indiahoma",
+      "population": 276
+    },
+    {
+      "name": "Indianola",
+      "population": 144
+    },
+    {
+      "name": "Inola",
+      "population": 1888
+    },
+    {
+      "name": "IXL",
+      "population": 62
+    },
+    {
+      "name": "Jay",
+      "population": 2507
+    },
+    {
+      "name": "Jefferson",
+      "population": 11
+    },
+    {
+      "name": "Jenks",
+      "population": 28175
+    },
+    {
+      "name": "Jennings",
+      "population": 295
+    },
+    {
+      "name": "Jet",
+      "population": 193
+    },
+    {
+      "name": "Johnson",
+      "population": 467
+    },
+    {
+      "name": "Jones",
+      "population": 3222
+    },
+    {
+      "name": "Kansas",
+      "population": 756
+    },
+    {
+      "name": "Katie",
+      "population": 347
+    },
+    {
+      "name": "Kaw City",
+      "population": 321
+    },
+    {
+      "name": "Kellyville",
+      "population": 1052
+    },
+    {
+      "name": "Kemp",
+      "population": 135
+    },
+    {
+      "name": "Kendrick",
+      "population": 96
+    },
+    {
+      "name": "Kenefic",
+      "population": 161
+    },
+    {
+      "name": "Keota",
+      "population": 442
+    },
+    {
+      "name": "Ketchum",
+      "population": 37
+    },
+    {
+      "name": "Keyes",
+      "population": 244
+    },
+    {
+      "name": "Kiefer",
+      "population": 2310
+    },
+    {
+      "name": "Kildare",
+      "population": 92
+    },
+    {
+      "name": "Kingfisher",
+      "population": 5201
+    },
+    {
+      "name": "Kingston",
+      "population": 1480
+    },
+    {
+      "name": "Kinta",
+      "population": 279
+    },
+    {
+      "name": "Kiowa",
+      "population": 621
+    },
+    {
+      "name": "Knowles",
+      "population": 5
+    },
+    {
+      "name": "Konawa",
+      "population": 1242
+    },
+    {
+      "name": "Krebs",
+      "population": 2068
+    },
+    {
+      "name": "Kremlin",
+      "population": 248
+    },
+    {
+      "name": "Lahoma",
+      "population": 527
+    },
+    {
+      "name": "Lake Aluma",
+      "population": 87
+    },
+    {
+      "name": "Lamar",
+      "population": 128
+    },
+    {
+      "name": "Lambert",
+      "population": 6
+    },
+    {
+      "name": "Lamont",
+      "population": 293
+    },
+    {
+      "name": "Langley",
+      "population": 646
+    },
+    {
+      "name": "Langston",
+      "population": 1787
+    },
+    {
+      "name": "Laverne",
+      "population": 1189
+    },
+    {
+      "name": "Lawrence Creek",
+      "population": 128
+    },
+    {
+      "name": "Lawton",
+      "population": 90503
+    },
+    {
+      "name": "Le Flore",
+      "population": 158
+    },
+    {
+      "name": "Leedey",
+      "population": 384
+    },
+    {
+      "name": "Lehigh",
+      "population": 281
+    },
+    {
+      "name": "Lenapah",
+      "population": 281
+    },
+    {
+      "name": "Leon",
+      "population": 82
+    },
+    {
+      "name": "Lexington",
+      "population": 2046
+    },
+    {
+      "name": "Liberty",
+      "population": 84
+    },
+    {
+      "name": "Lima",
+      "population": 62
+    },
+    {
+      "name": "Lindsay",
+      "population": 2929
+    },
+    {
+      "name": "Loco",
+      "population": 110
+    },
+    {
+      "name": "Locust Grove",
+      "population": 1397
+    },
+    {
+      "name": "Lone Chimney",
+      "population": 74
+    },
+    {
+      "name": "Lone Grove",
+      "population": 5244
+    },
+    {
+      "name": "Lone Wolf",
+      "population": 356
+    },
+    {
+      "name": "Longdale",
+      "population": 181
+    },
+    {
+      "name": "Lookeba",
+      "population": 109
+    },
+    {
+      "name": "Lotsee",
+      "population": 7
+    },
+    {
+      "name": "Loveland",
+      "population": 15
+    },
+    {
+      "name": "Loyal",
+      "population": 70
+    },
+    {
+      "name": "Luther",
+      "population": 1694
+    },
+    {
+      "name": "Macomb",
+      "population": 25
+    },
+    {
+      "name": "Madill",
+      "population": 4181
+    },
+    {
+      "name": "Manchester",
+      "population": 92
+    },
+    {
+      "name": "Mangum",
+      "population": 2683
+    },
+    {
+      "name": "Manitou",
+      "population": 171
+    },
+    {
+      "name": "Mannford",
+      "population": 46
+    },
+    {
+      "name": "Mannsville",
+      "population": 753
+    },
+    {
+      "name": "Maramec",
+      "population": 69
+    },
+    {
+      "name": "Marble City",
+      "population": 186
+    },
+    {
+      "name": "Marietta",
+      "population": 2982
+    },
+    {
+      "name": "Marland",
+      "population": 187
+    },
+    {
+      "name": "Marlow",
+      "population": 4514
+    },
+    {
+      "name": "Marshall",
+      "population": 233
+    },
+    {
+      "name": "Martha",
+      "population": 166
+    },
+    {
+      "name": "Maud",
+      "population": 284
+    },
+    {
+      "name": "May",
+      "population": 28
+    },
+    {
+      "name": "Maysville",
+      "population": 2
+    },
+    {
+      "name": "McAlester",
+      "population": 18044
+    },
+    {
+      "name": "McCurtain",
+      "population": 358
+    },
+    {
+      "name": "McLoud",
+      "population": 4564
+    },
+    {
+      "name": "Mead",
+      "population": 248
+    },
+    {
+      "name": "Medford",
+      "population": 901
+    },
+    {
+      "name": "Medicine Park",
+      "population": 497
+    },
+    {
+      "name": "Meeker",
+      "population": 1031
+    },
+    {
+      "name": "Meno",
+      "population": 188
+    },
+    {
+      "name": "Meridian",
+      "population": 17
+    },
+    {
+      "name": "Miami",
+      "population": 12893
+    },
+    {
+      "name": "Midwest City",
+      "population": 58799
+    },
+    {
+      "name": "Milburn",
+      "population": 253
+    },
+    {
+      "name": "Mill Creek",
+      "population": 296
+    },
+    {
+      "name": "Millerton",
+      "population": 213
+    },
+    {
+      "name": "Minco",
+      "population": 1580
+    },
+    {
+      "name": "Moffett",
+      "population": 34
+    },
+    {
+      "name": "Moore",
+      "population": 63609
+    },
+    {
+      "name": "Mooreland",
+      "population": 1122
+    },
+    {
+      "name": "Morris",
+      "population": 1340
+    },
+    {
+      "name": "Morrison",
+      "population": 725
+    },
+    {
+      "name": "Mounds",
+      "population": 5
+    },
+    {
+      "name": "Mountain Park",
+      "population": 310
+    },
+    {
+      "name": "Mountain View",
+      "population": 716
+    },
+    {
+      "name": "Muldrow",
+      "population": 3375
+    },
+    {
+      "name": "Mule Barn",
+      "population": 0
+    },
+    {
+      "name": "Mulhall",
+      "population": 0
+    },
+    {
+      "name": "Muskogee",
+      "population": 36760
+    },
+    {
+      "name": "Mustang",
+      "population": 24571
+    },
+    {
+      "name": "Mutual",
+      "population": 59
+    },
+    {
+      "name": "Nash",
+      "population": 183
+    },
+    {
+      "name": "New Alluwe",
+      "population": 87
+    },
+    {
+      "name": "New Cordell",
+      "population": 2746
+    },
+    {
+      "name": "Newcastle",
+      "population": 15198
+    },
+    {
+      "name": "Newkirk",
+      "population": 2246
+    },
+    {
+      "name": "Nichols Hills",
+      "population": 3864
+    },
+    {
+      "name": "Nicoma Park",
+      "population": 2294
+    },
+    {
+      "name": "Ninnekah",
+      "population": 833
+    },
+    {
+      "name": "Noble",
+      "population": 7748
+    },
+    {
+      "name": "Norge",
+      "population": 126
+    },
+    {
+      "name": "Norman",
+      "population": 130943
+    },
+    {
+      "name": "North Enid",
+      "population": 999
+    },
+    {
+      "name": "North Miami",
+      "population": 294
+    },
+    {
+      "name": "Nowata",
+      "population": 3584
+    },
+    {
+      "name": "Oakland",
+      "population": 927
+    },
+    {
+      "name": "Oaks",
+      "population": 271
+    },
+    {
+      "name": "Oakwood",
+      "population": 69
+    },
+    {
+      "name": "Ochelata",
+      "population": 435
+    },
+    {
+      "name": "Oilton",
+      "population": 904
+    },
+    {
+      "name": "Okarche",
+      "population": 902
+    },
+    {
+      "name": "Okay",
+      "population": 600
+    },
+    {
+      "name": "Okeene",
+      "population": 1047
+    },
+    {
+      "name": "Okemah",
+      "population": 3091
+    },
+    {
+      "name": "Oklahoma City",
+      "population": 85
+    },
+    {
+      "name": "Okmulgee",
+      "population": 11386
+    },
+    {
+      "name": "Oktaha",
+      "population": 348
+    },
+    {
+      "name": "Olustee",
+      "population": 466
+    },
+    {
+      "name": "Oologah",
+      "population": 1358
+    },
+    {
+      "name": "Optima",
+      "population": 313
+    },
+    {
+      "name": "Orlando",
+      "population": 5
+    },
+    {
+      "name": "Osage",
+      "population": 180
+    },
+    {
+      "name": "Owasso",
+      "population": 38400
+    },
+    {
+      "name": "Paden",
+      "population": 427
+    },
+    {
+      "name": "Panama",
+      "population": 1314
+    },
+    {
+      "name": "Paoli",
+      "population": 593
+    },
+    {
+      "name": "Paradise Hill",
+      "population": 70
+    },
+    {
+      "name": "Pauls Valley",
+      "population": 6157
+    },
+    {
+      "name": "Pawhuska",
+      "population": 2923
+    },
+    {
+      "name": "Pawnee",
+      "population": 1974
+    },
+    {
+      "name": "Pensacola",
+      "population": 109
+    },
+    {
+      "name": "Peoria",
+      "population": 131
+    },
+    {
+      "name": "Perkins",
+      "population": 3271
+    },
+    {
+      "name": "Perry",
+      "population": 4448
+    },
+    {
+      "name": "Phillips",
+      "population": 128
+    },
+    {
+      "name": "Piedmont",
+      "population": 9
+    },
+    {
+      "name": "Pink",
+      "population": 2200
+    },
+    {
+      "name": "Pittsburg",
+      "population": 176
+    },
+    {
+      "name": "Pocasset",
+      "population": 196
+    },
+    {
+      "name": "Pocola",
+      "population": 4660
+    },
+    {
+      "name": "Ponca City",
+      "population": 24225
+    },
+    {
+      "name": "Pond Creek",
+      "population": 878
+    },
+    {
+      "name": "Porter",
+      "population": 656
+    },
+    {
+      "name": "Porum",
+      "population": 609
+    },
+    {
+      "name": "Poteau",
+      "population": 9171
+    },
+    {
+      "name": "Prague",
+      "population": 5
+    },
+    {
+      "name": "Prue",
+      "population": 399
+    },
+    {
+      "name": "Pryor Creek",
+      "population": 9723
+    },
+    {
+      "name": "Purcell",
+      "population": 7030
+    },
+    {
+      "name": "Putnam",
+      "population": 26
+    },
+    {
+      "name": "Quapaw",
+      "population": 838
+    },
+    {
+      "name": "Quinton",
+      "population": 845
+    },
+    {
+      "name": "Ralston",
+      "population": 277
+    },
+    {
+      "name": "Ramona",
+      "population": 547
+    },
+    {
+      "name": "Randlett",
+      "population": 291
+    },
+    {
+      "name": "Ratliff City",
+      "population": 65
+    },
+    {
+      "name": "Rattan",
+      "population": 280
+    },
+    {
+      "name": "Ravia",
+      "population": 472
+    },
+    {
+      "name": "Red Oak",
+      "population": 535
+    },
+    {
+      "name": "Red Rock",
+      "population": 248
+    },
+    {
+      "name": "Redbird",
+      "population": 103
+    },
+    {
+      "name": "Renfrow",
+      "population": 20
+    },
+    {
+      "name": "Rentiesville",
+      "population": 106
+    },
+    {
+      "name": "Reydon",
+      "population": 130
+    },
+    {
+      "name": "Ringling",
+      "population": 887
+    },
+    {
+      "name": "Ringwood",
+      "population": 395
+    },
+    {
+      "name": "Ripley",
+      "population": 353
+    },
+    {
+      "name": "Rock Island",
+      "population": 757
+    },
+    {
+      "name": "Rocky",
+      "population": 126
+    },
+    {
+      "name": "Roff",
+      "population": 628
+    },
+    {
+      "name": "Roland",
+      "population": 4146
+    },
+    {
+      "name": "Roosevelt",
+      "population": 247
+    },
+    {
+      "name": "Rosedale",
+      "population": 68
+    },
+    {
+      "name": "Rosston",
+      "population": 50
+    },
+    {
+      "name": "Rush Springs",
+      "population": 1020
+    },
+    {
+      "name": "Ryan",
+      "population": 678
+    },
+    {
+      "name": "Salina",
+      "population": 1127
+    },
+    {
+      "name": "Sallisaw",
+      "population": 8790
+    },
+    {
+      "name": "Sand Springs",
+      "population": 20007
+    },
+    {
+      "name": "Sapulpa",
+      "population": 112
+    },
+    {
+      "name": "Sasakwa",
+      "population": 78
+    },
+    {
+      "name": "Savanna",
+      "population": 611
+    },
+    {
+      "name": "Sawyer",
+      "population": 332
+    },
+    {
+      "name": "Sayre",
+      "population": 4783
+    },
+    {
+      "name": "Schulter",
+      "population": 430
+    },
+    {
+      "name": "Seiling",
+      "population": 0
+    },
+    {
+      "name": "Seminole",
+      "population": 7393
+    },
+    {
+      "name": "Sentinel",
+      "population": 756
+    },
+    {
+      "name": "Shady Point",
+      "population": 1010
+    },
+    {
+      "name": "Sharon",
+      "population": 130
+    },
+    {
+      "name": "Shattuck",
+      "population": 1194
+    },
+    {
+      "name": "Shawnee",
+      "population": 32474
+    },
+    {
+      "name": "Shidler",
+      "population": 333
+    },
+    {
+      "name": "Silo",
+      "population": 413
+    },
+    {
+      "name": "Skedee",
+      "population": 65
+    },
+    {
+      "name": "Skiatook",
+      "population": 2691
+    },
+    {
+      "name": "Slaughterville",
+      "population": 4332
+    },
+    {
+      "name": "Slick",
+      "population": 151
+    },
+    {
+      "name": "Smith Village",
+      "population": 52
+    },
+    {
+      "name": "Snyder",
+      "population": 1214
+    },
+    {
+      "name": "Soper",
+      "population": 224
+    },
+    {
+      "name": "South Coffeyville",
+      "population": 687
+    },
+    {
+      "name": "Sparks",
+      "population": 120
+    },
+    {
+      "name": "Spaulding",
+      "population": 155
+    },
+    {
+      "name": "Spavinaw",
+      "population": 366
+    },
+    {
+      "name": "Spencer",
+      "population": 3857
+    },
+    {
+      "name": "Sperry",
+      "population": 1138
+    },
+    {
+      "name": "Spiro",
+      "population": 2230
+    },
+    {
+      "name": "Sportsmen Acres",
+      "population": 337
+    },
+    {
+      "name": "Springer",
+      "population": 701
+    },
+    {
+      "name": "St. Louis",
+      "population": 133
+    },
+    {
+      "name": "Sterling",
+      "population": 674
+    },
+    {
+      "name": "Stidham",
+      "population": 16
+    },
+    {
+      "name": "Stigler",
+      "population": 2749
+    },
+    {
+      "name": "Stillwater",
+      "population": 50046
+    },
+    {
+      "name": "Stilwell",
+      "population": 3892
+    },
+    {
+      "name": "Stonewall",
+      "population": 420
+    },
+    {
+      "name": "Strang",
+      "population": 70
+    },
+    {
+      "name": "Stratford",
+      "population": 1437
+    },
+    {
+      "name": "Stringtown",
+      "population": 432
+    },
+    {
+      "name": "Strong City",
+      "population": 31
+    },
+    {
+      "name": "Stroud",
+      "population": 2910
+    },
+    {
+      "name": "Stuart",
+      "population": 197
+    },
+    {
+      "name": "Sugden",
+      "population": 22
+    },
+    {
+      "name": "Sulphur",
+      "population": 4878
+    },
+    {
+      "name": "Summit",
+      "population": 110
+    },
+    {
+      "name": "Sweetwater",
+      "population": 19
+    },
+    {
+      "name": "Taft",
+      "population": 172
+    },
+    {
+      "name": "Tahlequah",
+      "population": 17508
+    },
+    {
+      "name": "Talala",
+      "population": 268
+    },
+    {
+      "name": "Talihina",
+      "population": 938
+    },
+    {
+      "name": "Taloga",
+      "population": 270
+    },
+    {
+      "name": "Tamaha",
+      "population": 149
+    },
+    {
+      "name": "Tatums",
+      "population": 118
+    },
+    {
+      "name": "Tecumseh",
+      "population": 6402
+    },
+    {
+      "name": "Temple",
+      "population": 837
+    },
+    {
+      "name": "Terlton",
+      "population": 82
+    },
+    {
+      "name": "Terral",
+      "population": 284
+    },
+    {
+      "name": "Texhoma",
+      "population": 825
+    },
+    {
+      "name": "Texola",
+      "population": 41
+    },
+    {
+      "name": "Thackerville",
+      "population": 433
+    },
+    {
+      "name": "The Village",
+      "population": 9276
+    },
+    {
+      "name": "Thomas",
+      "population": 1129
+    },
+    {
+      "name": "Tipton",
+      "population": 840
+    },
+    {
+      "name": "Tishomingo",
+      "population": 3123
+    },
+    {
+      "name": "Tonkawa",
+      "population": 2983
+    },
+    {
+      "name": "Tribbey",
+      "population": 342
+    },
+    {
+      "name": "Tryon",
+      "population": 404
+    },
+    {
+      "name": "Tullahassee",
+      "population": 117
+    },
+    {
+      "name": "Tulsa",
+      "population": 37
+    },
+    {
+      "name": "Tupelo",
+      "population": 333
+    },
+    {
+      "name": "Tushka",
+      "population": 425
+    },
+    {
+      "name": "Tuttle",
+      "population": 8708
+    },
+    {
+      "name": "Tyrone",
+      "population": 745
+    },
+    {
+      "name": "Union City",
+      "population": 2129
+    },
+    {
+      "name": "Valley Brook",
+      "population": 636
+    },
+    {
+      "name": "Valley Park",
+      "population": 25
+    },
+    {
+      "name": "Valliant",
+      "population": 798
+    },
+    {
+      "name": "Velma",
+      "population": 570
+    },
+    {
+      "name": "Vera",
+      "population": 320
+    },
+    {
+      "name": "Verden",
+      "population": 521
+    },
+    {
+      "name": "Verdigris",
+      "population": 5888
+    },
+    {
+      "name": "Vernon",
+      "population": 46
+    },
+    {
+      "name": "Vian",
+      "population": 1386
+    },
+    {
+      "name": "Vici",
+      "population": 576
+    },
+    {
+      "name": "Vinita",
+      "population": 19
+    },
+    {
+      "name": "Wagoner",
+      "population": 8405
+    },
+    {
+      "name": "Wainwright",
+      "population": 95
+    },
+    {
+      "name": "Wakita",
+      "population": 304
+    },
+    {
+      "name": "Walters",
+      "population": 2355
+    },
+    {
+      "name": "Wanette",
+      "population": 317
+    },
+    {
+      "name": "Wann",
+      "population": 96
+    },
+    {
+      "name": "Wapanucka",
+      "population": 397
+    },
+    {
+      "name": "Warner",
+      "population": 1587
+    },
+    {
+      "name": "Warr Acres",
+      "population": 10552
+    },
+    {
+      "name": "Warwick",
+      "population": 180
+    },
+    {
+      "name": "Washington",
+      "population": 780
+    },
+    {
+      "name": "Watonga",
+      "population": 2594
+    },
+    {
+      "name": "Watts",
+      "population": 280
+    },
+    {
+      "name": "Waukomis",
+      "population": 1324
+    },
+    {
+      "name": "Waurika",
+      "population": 1867
+    },
+    {
+      "name": "Wayne",
+      "population": 690
+    },
+    {
+      "name": "Waynoka",
+      "population": 698
+    },
+    {
+      "name": "Weatherford",
+      "population": 12005
+    },
+    {
+      "name": "Webb City",
+      "population": 61
+    },
+    {
+      "name": "Webbers Falls",
+      "population": 323
+    },
+    {
+      "name": "Welch",
+      "population": 640
+    },
+    {
+      "name": "Weleetka",
+      "population": 808
+    },
+    {
+      "name": "Wellston",
+      "population": 727
+    },
+    {
+      "name": "West Siloam Springs",
+      "population": 1066
+    },
+    {
+      "name": "Westport",
+      "population": 461
+    },
+    {
+      "name": "Westville",
+      "population": 1413
+    },
+    {
+      "name": "Wetumka",
+      "population": 1133
+    },
+    {
+      "name": "Wewoka",
+      "population": 3046
+    },
+    {
+      "name": "Whitefield",
+      "population": 378
+    },
+    {
+      "name": "Wilburton",
+      "population": 2308
+    },
+    {
+      "name": "Willow",
+      "population": 115
+    },
+    {
+      "name": "Wilson",
+      "population": 1439
+    },
+    {
+      "name": "Winchester",
+      "population": 540
+    },
+    {
+      "name": "Wister",
+      "population": 1068
+    },
+    {
+      "name": "Woodlawn Park",
+      "population": 153
+    },
+    {
+      "name": "Woodward",
+      "population": 11635
+    },
+    {
+      "name": "Wright City",
+      "population": 598
+    },
+    {
+      "name": "Wyandotte",
+      "population": 488
+    },
+    {
+      "name": "Wynnewood",
+      "population": 1957
+    },
+    {
+      "name": "Wynona",
+      "population": 389
+    },
+    {
+      "name": "Yale",
+      "population": 1054
+    },
+    {
+      "name": "Yeager",
+      "population": 60
+    },
+    {
+      "name": "Yukon",
+      "population": 27615
+    }
+  ],
+  "counties": [
+    {
+      "name": "Adair County",
+      "population": 19828
+    },
+    {
+      "name": "Alfalfa County",
+      "population": 5649
+    },
+    {
+      "name": "Atoka County",
+      "population": 14609
+    },
+    {
+      "name": "Beaver County",
+      "population": 4882
+    },
+    {
+      "name": "Beckham County",
+      "population": 22159
+    },
+    {
+      "name": "Blaine County",
+      "population": 8515
+    },
+    {
+      "name": "Bryan County",
+      "population": 51367
+    },
+    {
+      "name": "Caddo County",
+      "population": 26130
+    },
+    {
+      "name": "Canadian County",
+      "population": 187189
+    },
+    {
+      "name": "Carter County",
+      "population": 48910
+    },
+    {
+      "name": "Cherokee County",
+      "population": 49196
+    },
+    {
+      "name": "Choctaw County",
+      "population": 14059
+    },
+    {
+      "name": "Cimarron County",
+      "population": 2059
+    },
+    {
+      "name": "Cleveland County",
+      "population": 303973
+    },
+    {
+      "name": "Coal County",
+      "population": 5436
+    },
+    {
+      "name": "Comanche County",
+      "population": 122158
+    },
+    {
+      "name": "Cotton County",
+      "population": 5432
+    },
+    {
+      "name": "Craig County",
+      "population": 14518
+    },
+    {
+      "name": "Creek County",
+      "population": 74967
+    },
+    {
+      "name": "Custer County",
+      "population": 28175
+    },
+    {
+      "name": "Delaware County",
+      "population": 41910
+    },
+    {
+      "name": "Dewey County",
+      "population": 4207
+    },
+    {
+      "name": "Ellis County",
+      "population": 3613
+    },
+    {
+      "name": "Garfield County",
+      "population": 61779
+    },
+    {
+      "name": "Garvin County",
+      "population": 26377
+    },
+    {
+      "name": "Grady County",
+      "population": 59128
+    },
+    {
+      "name": "Grant County",
+      "population": 4067
+    },
+    {
+      "name": "Greer County",
+      "population": 5373
+    },
+    {
+      "name": "Harmon County",
+      "population": 2327
+    },
+    {
+      "name": "Harper County",
+      "population": 3172
+    },
+    {
+      "name": "Haskell County",
+      "population": 11787
+    },
+    {
+      "name": "Hughes County",
+      "population": 13455
+    },
+    {
+      "name": "Jackson County",
+      "population": 24764
+    },
+    {
+      "name": "Jefferson County",
+      "population": 5431
+    },
+    {
+      "name": "Johnston County",
+      "population": 10448
+    },
+    {
+      "name": "Kay County",
+      "population": 43490
+    },
+    {
+      "name": "Kingfisher County",
+      "population": 15795
+    },
+    {
+      "name": "Kiowa County",
+      "population": 8181
+    },
+    {
+      "name": "Latimer County",
+      "population": 9645
+    },
+    {
+      "name": "Le Flore County",
+      "population": 50196
+    },
+    {
+      "name": "Lincoln County",
+      "population": 35278
+    },
+    {
+      "name": "Logan County",
+      "population": 55473
+    },
+    {
+      "name": "Love County",
+      "population": 10780
+    },
+    {
+      "name": "Major County",
+      "population": 7536
+    },
+    {
+      "name": "Marshall County",
+      "population": 16255
+    },
+    {
+      "name": "Mayes County",
+      "population": 40416
+    },
+    {
+      "name": "McClain County",
+      "population": 49647
+    },
+    {
+      "name": "McCurtain County",
+      "population": 30744
+    },
+    {
+      "name": "McIntosh County",
+      "population": 19758
+    },
+    {
+      "name": "Murray County",
+      "population": 13805
+    },
+    {
+      "name": "Muskogee County",
+      "population": 66708
+    },
+    {
+      "name": "Noble County",
+      "population": 10899
+    },
+    {
+      "name": "Nowata County",
+      "population": 9522
+    },
+    {
+      "name": "Okfuskee County",
+      "population": 11451
+    },
+    {
+      "name": "Oklahoma County",
+      "population": 822125
+    },
+    {
+      "name": "Okmulgee County",
+      "population": 37241
+    },
+    {
+      "name": "Osage County",
+      "population": 46794
+    },
+    {
+      "name": "Ottawa County",
+      "population": 30438
+    },
+    {
+      "name": "Pawnee County",
+      "population": 16029
+    },
+    {
+      "name": "Payne County",
+      "population": 83889
+    },
+    {
+      "name": "Pittsburg County",
+      "population": 43320
+    },
+    {
+      "name": "Pontotoc County",
+      "population": 38528
+    },
+    {
+      "name": "Pottawatomie County",
+      "population": 75102
+    },
+    {
+      "name": "Pushmataha County",
+      "population": 10807
+    },
+    {
+      "name": "Roger Mills County",
+      "population": 3259
+    },
+    {
+      "name": "Rogers County",
+      "population": 102197
+    },
+    {
+      "name": "Seminole County",
+      "population": 23441
+    },
+    {
+      "name": "Sequoyah County",
+      "population": 40842
+    },
+    {
+      "name": "Stephens County",
+      "population": 44310
+    },
+    {
+      "name": "Texas County",
+      "population": 20322
+    },
+    {
+      "name": "Tillman County",
+      "population": 6780
+    },
+    {
+      "name": "Tulsa County",
+      "population": 698782
+    },
+    {
+      "name": "Wagoner County",
+      "population": 93263
+    },
+    {
+      "name": "Washington County",
+      "population": 54037
+    },
+    {
+      "name": "Washita County",
+      "population": 10884
+    },
+    {
+      "name": "Woods County",
+      "population": 8443
+    },
+    {
+      "name": "Woodward County",
+      "population": 19827
+    }
+  ]
+}

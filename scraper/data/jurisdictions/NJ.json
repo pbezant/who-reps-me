@@ -1,0 +1,1384 @@
+{
+  "state": "NJ",
+  "generated_at": "2026-08-20T02:10:57.109Z",
+  "places": [
+    {
+      "name": "Absecon",
+      "population": 9209
+    },
+    {
+      "name": "Allendale",
+      "population": 7116
+    },
+    {
+      "name": "Allenhurst",
+      "population": 470
+    },
+    {
+      "name": "Allentown",
+      "population": 1741
+    },
+    {
+      "name": "Alpha",
+      "population": 2362
+    },
+    {
+      "name": "Alpine",
+      "population": 1759
+    },
+    {
+      "name": "Andover",
+      "population": 614
+    },
+    {
+      "name": "Asbury Park",
+      "population": 15632
+    },
+    {
+      "name": "Atlantic City",
+      "population": 38787
+    },
+    {
+      "name": "Atlantic Highlands",
+      "population": 4417
+    },
+    {
+      "name": "Audubon",
+      "population": 8825
+    },
+    {
+      "name": "Audubon Park",
+      "population": 1004
+    },
+    {
+      "name": "Avalon",
+      "population": 1205
+    },
+    {
+      "name": "Avon-by-the-Sea",
+      "population": 1952
+    },
+    {
+      "name": "Barnegat Light",
+      "population": 641
+    },
+    {
+      "name": "Barrington",
+      "population": 7155
+    },
+    {
+      "name": "Bay Head",
+      "population": 968
+    },
+    {
+      "name": "Bayonne",
+      "population": 74744
+    },
+    {
+      "name": "Beach Haven",
+      "population": 1066
+    },
+    {
+      "name": "Beachwood",
+      "population": 11340
+    },
+    {
+      "name": "Bellmawr",
+      "population": 11874
+    },
+    {
+      "name": "Belmar",
+      "population": 5853
+    },
+    {
+      "name": "Belvidere",
+      "population": 2551
+    },
+    {
+      "name": "Bergenfield",
+      "population": 28754
+    },
+    {
+      "name": "Berlin",
+      "population": 7628
+    },
+    {
+      "name": "Bernardsville",
+      "population": 7966
+    },
+    {
+      "name": "Beverly",
+      "population": 2564
+    },
+    {
+      "name": "Bloomingdale",
+      "population": 7853
+    },
+    {
+      "name": "Bloomsbury",
+      "population": 802
+    },
+    {
+      "name": "Bogota",
+      "population": 9816
+    },
+    {
+      "name": "Boonton",
+      "population": 8920
+    },
+    {
+      "name": "Bordentown",
+      "population": 4108
+    },
+    {
+      "name": "Bound Brook",
+      "population": 13038
+    },
+    {
+      "name": "Bradley Beach",
+      "population": 4163
+    },
+    {
+      "name": "Branchville",
+      "population": 809
+    },
+    {
+      "name": "Bridgeton",
+      "population": 28307
+    },
+    {
+      "name": "Brielle",
+      "population": 4959
+    },
+    {
+      "name": "Brigantine",
+      "population": 7658
+    },
+    {
+      "name": "Brooklawn",
+      "population": 1834
+    },
+    {
+      "name": "Buena",
+      "population": 4529
+    },
+    {
+      "name": "Burlington",
+      "population": 10243
+    },
+    {
+      "name": "Butler",
+      "population": 8184
+    },
+    {
+      "name": "Caldwell",
+      "population": 9375
+    },
+    {
+      "name": "Califon",
+      "population": 1034
+    },
+    {
+      "name": "Camden",
+      "population": 71430
+    },
+    {
+      "name": "Cape May",
+      "population": 2716
+    },
+    {
+      "name": "Cape May Point",
+      "population": 298
+    },
+    {
+      "name": "Carlstadt",
+      "population": 6410
+    },
+    {
+      "name": "Carteret",
+      "population": 25781
+    },
+    {
+      "name": "Chatham",
+      "population": 10027
+    },
+    {
+      "name": "Chesilhurst",
+      "population": 1564
+    },
+    {
+      "name": "Chester",
+      "population": 1689
+    },
+    {
+      "name": "Clayton",
+      "population": 9041
+    },
+    {
+      "name": "Clementon",
+      "population": 5744
+    },
+    {
+      "name": "Cliffside Park",
+      "population": 26539
+    },
+    {
+      "name": "Clifton",
+      "population": 91127
+    },
+    {
+      "name": "Clinton",
+      "population": 2794
+    },
+    {
+      "name": "Closter",
+      "population": 8663
+    },
+    {
+      "name": "Collingswood",
+      "population": 14386
+    },
+    {
+      "name": "Corbin City",
+      "population": 486
+    },
+    {
+      "name": "Cresskill",
+      "population": 9257
+    },
+    {
+      "name": "Deal",
+      "population": 894
+    },
+    {
+      "name": "Demarest",
+      "population": 4893
+    },
+    {
+      "name": "Dover",
+      "population": 18919
+    },
+    {
+      "name": "Dumont",
+      "population": 18501
+    },
+    {
+      "name": "Dunellen",
+      "population": 8337
+    },
+    {
+      "name": "East Newark",
+      "population": 2574
+    },
+    {
+      "name": "East Orange",
+      "population": 72159
+    },
+    {
+      "name": "East Rutherford",
+      "population": 10566
+    },
+    {
+      "name": "Eatontown",
+      "population": 13607
+    },
+    {
+      "name": "Edgewater",
+      "population": 15499
+    },
+    {
+      "name": "Egg Harbor City",
+      "population": 4426
+    },
+    {
+      "name": "Elizabeth",
+      "population": 141675
+    },
+    {
+      "name": "Elmer",
+      "population": 1376
+    },
+    {
+      "name": "Elmwood Park",
+      "population": 21534
+    },
+    {
+      "name": "Emerson",
+      "population": 7371
+    },
+    {
+      "name": "Englewood",
+      "population": 30035
+    },
+    {
+      "name": "Englewood Cliffs",
+      "population": 5384
+    },
+    {
+      "name": "Englishtown",
+      "population": 2407
+    },
+    {
+      "name": "Essex Fells",
+      "population": 2235
+    },
+    {
+      "name": "Estell Manor",
+      "population": 1696
+    },
+    {
+      "name": "Fair Haven",
+      "population": 6096
+    },
+    {
+      "name": "Fair Lawn",
+      "population": 37128
+    },
+    {
+      "name": "Fairview",
+      "population": 15509
+    },
+    {
+      "name": "Fanwood",
+      "population": 8035
+    },
+    {
+      "name": "Far Hills",
+      "population": 974
+    },
+    {
+      "name": "Farmingdale",
+      "population": 1502
+    },
+    {
+      "name": "Fieldsboro",
+      "population": 553
+    },
+    {
+      "name": "Flemington",
+      "population": 4856
+    },
+    {
+      "name": "Florham Park",
+      "population": 14456
+    },
+    {
+      "name": "Folsom",
+      "population": 1834
+    },
+    {
+      "name": "Fort Lee",
+      "population": 40345
+    },
+    {
+      "name": "Franklin",
+      "population": 5083
+    },
+    {
+      "name": "Franklin Lakes",
+      "population": 11180
+    },
+    {
+      "name": "Freehold",
+      "population": 12562
+    },
+    {
+      "name": "Frenchtown",
+      "population": 1500
+    },
+    {
+      "name": "Garfield",
+      "population": 33353
+    },
+    {
+      "name": "Garwood",
+      "population": 5390
+    },
+    {
+      "name": "Gibbsboro",
+      "population": 2257
+    },
+    {
+      "name": "Glassboro",
+      "population": 24483
+    },
+    {
+      "name": "Glen Gardner",
+      "population": 1690
+    },
+    {
+      "name": "Glen Ridge",
+      "population": 8259
+    },
+    {
+      "name": "Glen Rock",
+      "population": 12288
+    },
+    {
+      "name": "Gloucester City",
+      "population": 11643
+    },
+    {
+      "name": "Guttenberg",
+      "population": 11910
+    },
+    {
+      "name": "Hackensack",
+      "population": 46380
+    },
+    {
+      "name": "Hackettstown",
+      "population": 10185
+    },
+    {
+      "name": "Haddon Heights",
+      "population": 7609
+    },
+    {
+      "name": "Haddonfield",
+      "population": 12740
+    },
+    {
+      "name": "Haledon",
+      "population": 9125
+    },
+    {
+      "name": "Hamburg",
+      "population": 3345
+    },
+    {
+      "name": "Hammonton",
+      "population": 15060
+    },
+    {
+      "name": "Hampton",
+      "population": 1443
+    },
+    {
+      "name": "Harrington Park",
+      "population": 5052
+    },
+    {
+      "name": "Harrison",
+      "population": 22105
+    },
+    {
+      "name": "Harvey Cedars",
+      "population": 404
+    },
+    {
+      "name": "Hasbrouck Heights",
+      "population": 12211
+    },
+    {
+      "name": "Haworth",
+      "population": 3422
+    },
+    {
+      "name": "Hawthorne",
+      "population": 20169
+    },
+    {
+      "name": "Helmetta",
+      "population": 2474
+    },
+    {
+      "name": "Hi-Nella",
+      "population": 942
+    },
+    {
+      "name": "High Bridge",
+      "population": 3603
+    },
+    {
+      "name": "Highland Park",
+      "population": 15259
+    },
+    {
+      "name": "Highlands",
+      "population": 4350
+    },
+    {
+      "name": "Hightstown",
+      "population": 6007
+    },
+    {
+      "name": "Hillsdale",
+      "population": 10214
+    },
+    {
+      "name": "Ho-Ho-Kus",
+      "population": 4313
+    },
+    {
+      "name": "Hoboken",
+      "population": 59027
+    },
+    {
+      "name": "Hopatcong",
+      "population": 14824
+    },
+    {
+      "name": "Hopewell",
+      "population": 1944
+    },
+    {
+      "name": "Interlaken",
+      "population": 826
+    },
+    {
+      "name": "Island Heights",
+      "population": 1731
+    },
+    {
+      "name": "Jamesburg",
+      "population": 5819
+    },
+    {
+      "name": "Jersey City",
+      "population": 302013
+    },
+    {
+      "name": "Keansburg",
+      "population": 9818
+    },
+    {
+      "name": "Kearny",
+      "population": 40862
+    },
+    {
+      "name": "Kenilworth",
+      "population": 8602
+    },
+    {
+      "name": "Keyport",
+      "population": 7235
+    },
+    {
+      "name": "Kinnelon",
+      "population": 10138
+    },
+    {
+      "name": "Lake Como",
+      "population": 1677
+    },
+    {
+      "name": "Lakehurst",
+      "population": 2735
+    },
+    {
+      "name": "Lambertville",
+      "population": 4198
+    },
+    {
+      "name": "Laurel Springs",
+      "population": 1999
+    },
+    {
+      "name": "Lavallette",
+      "population": 1869
+    },
+    {
+      "name": "Lawnside",
+      "population": 3340
+    },
+    {
+      "name": "Lebanon",
+      "population": 1676
+    },
+    {
+      "name": "Leonia",
+      "population": 9441
+    },
+    {
+      "name": "Lincoln Park",
+      "population": 10950
+    },
+    {
+      "name": "Linden",
+      "population": 45752
+    },
+    {
+      "name": "Lindenwold",
+      "population": 21952
+    },
+    {
+      "name": "Linwood",
+      "population": 7051
+    },
+    {
+      "name": "Little Ferry",
+      "population": 11099
+    },
+    {
+      "name": "Little Silver",
+      "population": 6124
+    },
+    {
+      "name": "Loch Arbour",
+      "population": 228
+    },
+    {
+      "name": "Lodi",
+      "population": 26187
+    },
+    {
+      "name": "Long Branch",
+      "population": 33321
+    },
+    {
+      "name": "Longport",
+      "population": 879
+    },
+    {
+      "name": "Madison",
+      "population": 16607
+    },
+    {
+      "name": "Magnolia",
+      "population": 4415
+    },
+    {
+      "name": "Manasquan",
+      "population": 5954
+    },
+    {
+      "name": "Mantoloking",
+      "population": 341
+    },
+    {
+      "name": "Manville",
+      "population": 10932
+    },
+    {
+      "name": "Margate City",
+      "population": 5194
+    },
+    {
+      "name": "Matawan",
+      "population": 9768
+    },
+    {
+      "name": "Maywood",
+      "population": 10166
+    },
+    {
+      "name": "Medford Lakes",
+      "population": 4403
+    },
+    {
+      "name": "Mendham",
+      "population": 4985
+    },
+    {
+      "name": "Merchantville",
+      "population": 4241
+    },
+    {
+      "name": "Metuchen",
+      "population": 15363
+    },
+    {
+      "name": "Middlesex",
+      "population": 14740
+    },
+    {
+      "name": "Midland Park",
+      "population": 7039
+    },
+    {
+      "name": "Milford",
+      "population": 1224
+    },
+    {
+      "name": "Millstone",
+      "population": 456
+    },
+    {
+      "name": "Milltown",
+      "population": 7103
+    },
+    {
+      "name": "Millville",
+      "population": 28098
+    },
+    {
+      "name": "Monmouth Beach",
+      "population": 3226
+    },
+    {
+      "name": "Montvale",
+      "population": 10113
+    },
+    {
+      "name": "Moonachie",
+      "population": 3153
+    },
+    {
+      "name": "Morris Plains",
+      "population": 6586
+    },
+    {
+      "name": "Morristown",
+      "population": 20750
+    },
+    {
+      "name": "Mount Arlington",
+      "population": 5985
+    },
+    {
+      "name": "Mount Ephraim",
+      "population": 4716
+    },
+    {
+      "name": "Mountain Lakes",
+      "population": 4649
+    },
+    {
+      "name": "Mountainside",
+      "population": 7346
+    },
+    {
+      "name": "National Park",
+      "population": 3088
+    },
+    {
+      "name": "Neptune City",
+      "population": 4591
+    },
+    {
+      "name": "Netcong",
+      "population": 3924
+    },
+    {
+      "name": "New Brunswick",
+      "population": 57133
+    },
+    {
+      "name": "New Milford",
+      "population": 17133
+    },
+    {
+      "name": "New Providence",
+      "population": 14092
+    },
+    {
+      "name": "Newark",
+      "population": 323808
+    },
+    {
+      "name": "Newfield",
+      "population": 1823
+    },
+    {
+      "name": "Newton",
+      "population": 8486
+    },
+    {
+      "name": "North Arlington",
+      "population": 16601
+    },
+    {
+      "name": "North Caldwell",
+      "population": 6815
+    },
+    {
+      "name": "North Haledon",
+      "population": 9089
+    },
+    {
+      "name": "North Plainfield",
+      "population": 22879
+    },
+    {
+      "name": "North Wildwood",
+      "population": 3518
+    },
+    {
+      "name": "Northfield",
+      "population": 8496
+    },
+    {
+      "name": "Northvale",
+      "population": 4978
+    },
+    {
+      "name": "Norwood",
+      "population": 5817
+    },
+    {
+      "name": "Oakland",
+      "population": 12837
+    },
+    {
+      "name": "Oaklyn",
+      "population": 3985
+    },
+    {
+      "name": "Ocean City",
+      "population": 11101
+    },
+    {
+      "name": "Ocean Gate",
+      "population": 2005
+    },
+    {
+      "name": "Oceanport",
+      "population": 6540
+    },
+    {
+      "name": "Ogdensburg",
+      "population": 2319
+    },
+    {
+      "name": "Old Tappan",
+      "population": 6686
+    },
+    {
+      "name": "Oradell",
+      "population": 8293
+    },
+    {
+      "name": "Palisades Park",
+      "population": 20317
+    },
+    {
+      "name": "Palmyra",
+      "population": 7664
+    },
+    {
+      "name": "Paramus",
+      "population": 26723
+    },
+    {
+      "name": "Park Ridge",
+      "population": 9571
+    },
+    {
+      "name": "Passaic",
+      "population": 71337
+    },
+    {
+      "name": "Paterson",
+      "population": 161793
+    },
+    {
+      "name": "Paulsboro",
+      "population": 6329
+    },
+    {
+      "name": "Peapack and Gladstone",
+      "population": 2587
+    },
+    {
+      "name": "Pemberton",
+      "population": 1406
+    },
+    {
+      "name": "Pennington",
+      "population": 2889
+    },
+    {
+      "name": "Penns Grove",
+      "population": 4934
+    },
+    {
+      "name": "Perth Amboy",
+      "population": 56739
+    },
+    {
+      "name": "Phillipsburg",
+      "population": 15456
+    },
+    {
+      "name": "Pine Beach",
+      "population": 2233
+    },
+    {
+      "name": "Pine Hill",
+      "population": 10909
+    },
+    {
+      "name": "Pitman",
+      "population": 8961
+    },
+    {
+      "name": "Plainfield",
+      "population": 57141
+    },
+    {
+      "name": "Pleasantville",
+      "population": 20853
+    },
+    {
+      "name": "Point Pleasant",
+      "population": 19712
+    },
+    {
+      "name": "Point Pleasant Beach",
+      "population": 4993
+    },
+    {
+      "name": "Pompton Lakes",
+      "population": 11246
+    },
+    {
+      "name": "Port Republic",
+      "population": 1125
+    },
+    {
+      "name": "Princeton",
+      "population": 31469
+    },
+    {
+      "name": "Prospect Park",
+      "population": 6450
+    },
+    {
+      "name": "Rahway",
+      "population": 31010
+    },
+    {
+      "name": "Ramsey",
+      "population": 14925
+    },
+    {
+      "name": "Raritan",
+      "population": 8516
+    },
+    {
+      "name": "Red Bank",
+      "population": 12896
+    },
+    {
+      "name": "Ridgefield",
+      "population": 11547
+    },
+    {
+      "name": "Ridgefield Park",
+      "population": 13372
+    },
+    {
+      "name": "Ridgewood",
+      "population": 26527
+    },
+    {
+      "name": "Ringwood",
+      "population": 11853
+    },
+    {
+      "name": "River Edge",
+      "population": 12159
+    },
+    {
+      "name": "Riverdale",
+      "population": 4144
+    },
+    {
+      "name": "Riverton",
+      "population": 2842
+    },
+    {
+      "name": "Rockaway",
+      "population": 6631
+    },
+    {
+      "name": "Rockleigh",
+      "population": 399
+    },
+    {
+      "name": "Rocky Hill",
+      "population": 751
+    },
+    {
+      "name": "Roosevelt",
+      "population": 807
+    },
+    {
+      "name": "Roseland",
+      "population": 6417
+    },
+    {
+      "name": "Roselle",
+      "population": 23261
+    },
+    {
+      "name": "Roselle Park",
+      "population": 15603
+    },
+    {
+      "name": "Rumson",
+      "population": 7157
+    },
+    {
+      "name": "Runnemede",
+      "population": 8443
+    },
+    {
+      "name": "Rutherford",
+      "population": 19132
+    },
+    {
+      "name": "Saddle River",
+      "population": 3430
+    },
+    {
+      "name": "Salem",
+      "population": 5389
+    },
+    {
+      "name": "Sayreville",
+      "population": 46787
+    },
+    {
+      "name": "Sea Bright",
+      "population": 1460
+    },
+    {
+      "name": "Sea Girt",
+      "population": 1874
+    },
+    {
+      "name": "Sea Isle City",
+      "population": 2114
+    },
+    {
+      "name": "Seaside Heights",
+      "population": 2549
+    },
+    {
+      "name": "Seaside Park",
+      "population": 2135
+    },
+    {
+      "name": "Secaucus",
+      "population": 22640
+    },
+    {
+      "name": "Shiloh",
+      "population": 456
+    },
+    {
+      "name": "Ship Bottom",
+      "population": 1126
+    },
+    {
+      "name": "Shrewsbury",
+      "population": 4178
+    },
+    {
+      "name": "Somerdale",
+      "population": 5823
+    },
+    {
+      "name": "Somers Point",
+      "population": 10590
+    },
+    {
+      "name": "Somerville",
+      "population": 14665
+    },
+    {
+      "name": "South Amboy",
+      "population": 10403
+    },
+    {
+      "name": "South Bound Brook",
+      "population": 4926
+    },
+    {
+      "name": "South Plainfield",
+      "population": 24891
+    },
+    {
+      "name": "South River",
+      "population": 16262
+    },
+    {
+      "name": "South Toms River",
+      "population": 3895
+    },
+    {
+      "name": "Spotswood",
+      "population": 8236
+    },
+    {
+      "name": "Spring Lake",
+      "population": 2769
+    },
+    {
+      "name": "Spring Lake Heights",
+      "population": 4868
+    },
+    {
+      "name": "Stanhope",
+      "population": 3614
+    },
+    {
+      "name": "Stockton",
+      "population": 497
+    },
+    {
+      "name": "Stone Harbor",
+      "population": 778
+    },
+    {
+      "name": "Stratford",
+      "population": 7200
+    },
+    {
+      "name": "Summit",
+      "population": 23314
+    },
+    {
+      "name": "Surf City",
+      "population": 1305
+    },
+    {
+      "name": "Sussex",
+      "population": 2079
+    },
+    {
+      "name": "Swedesboro",
+      "population": 2766
+    },
+    {
+      "name": "Tavistock",
+      "population": 3
+    },
+    {
+      "name": "Tenafly",
+      "population": 15237
+    },
+    {
+      "name": "Teterboro",
+      "population": 70
+    },
+    {
+      "name": "Tinton Falls",
+      "population": 19539
+    },
+    {
+      "name": "Totowa",
+      "population": 11166
+    },
+    {
+      "name": "Trenton",
+      "population": 91506
+    },
+    {
+      "name": "Tuckerton",
+      "population": 3734
+    },
+    {
+      "name": "Union Beach",
+      "population": 5708
+    },
+    {
+      "name": "Union City",
+      "population": 66656
+    },
+    {
+      "name": "Upper Saddle River",
+      "population": 8650
+    },
+    {
+      "name": "Ventnor City",
+      "population": 9345
+    },
+    {
+      "name": "Victory Gardens",
+      "population": 1596
+    },
+    {
+      "name": "Vineland",
+      "population": 62703
+    },
+    {
+      "name": "Waldwick",
+      "population": 10252
+    },
+    {
+      "name": "Wallington",
+      "population": 12092
+    },
+    {
+      "name": "Wanaque",
+      "population": 11418
+    },
+    {
+      "name": "Washington",
+      "population": 7326
+    },
+    {
+      "name": "Watchung",
+      "population": 6583
+    },
+    {
+      "name": "Wenonah",
+      "population": 2330
+    },
+    {
+      "name": "West Cape May",
+      "population": 981
+    },
+    {
+      "name": "West Long Branch",
+      "population": 8625
+    },
+    {
+      "name": "West New York",
+      "population": 53192
+    },
+    {
+      "name": "West Wildwood",
+      "population": 529
+    },
+    {
+      "name": "Westfield",
+      "population": 32595
+    },
+    {
+      "name": "Westville",
+      "population": 4357
+    },
+    {
+      "name": "Westwood",
+      "population": 11365
+    },
+    {
+      "name": "Wharton",
+      "population": 7618
+    },
+    {
+      "name": "Wildwood",
+      "population": 5068
+    },
+    {
+      "name": "Wildwood Crest",
+      "population": 3000
+    },
+    {
+      "name": "Wood-Ridge",
+      "population": 10341
+    },
+    {
+      "name": "Woodbine",
+      "population": 2104
+    },
+    {
+      "name": "Woodbury",
+      "population": 10130
+    },
+    {
+      "name": "Woodbury Heights",
+      "population": 3162
+    },
+    {
+      "name": "Woodcliff Lake",
+      "population": 6193
+    },
+    {
+      "name": "Woodland Park",
+      "population": 13623
+    },
+    {
+      "name": "Woodlynne",
+      "population": 2942
+    },
+    {
+      "name": "Woodstown",
+      "population": 3784
+    },
+    {
+      "name": "Wrightstown",
+      "population": 746
+    }
+  ],
+  "counties": [
+    {
+      "name": "Atlantic County",
+      "population": 278657
+    },
+    {
+      "name": "Bergen County",
+      "population": 977026
+    },
+    {
+      "name": "Burlington County",
+      "population": 481439
+    },
+    {
+      "name": "Camden County",
+      "population": 535799
+    },
+    {
+      "name": "Cape May County",
+      "population": 93390
+    },
+    {
+      "name": "Cumberland County",
+      "population": 157148
+    },
+    {
+      "name": "Essex County",
+      "population": 896379
+    },
+    {
+      "name": "Gloucester County",
+      "population": 312638
+    },
+    {
+      "name": "Hudson County",
+      "population": 735033
+    },
+    {
+      "name": "Hunterdon County",
+      "population": 131781
+    },
+    {
+      "name": "Mercer County",
+      "population": 399289
+    },
+    {
+      "name": "Middlesex County",
+      "population": 883335
+    },
+    {
+      "name": "Monmouth County",
+      "population": 651035
+    },
+    {
+      "name": "Morris County",
+      "population": 524251
+    },
+    {
+      "name": "Ocean County",
+      "population": 673746
+    },
+    {
+      "name": "Passaic County",
+      "population": 531624
+    },
+    {
+      "name": "Salem County",
+      "population": 66280
+    },
+    {
+      "name": "Somerset County",
+      "population": 356486
+    },
+    {
+      "name": "Sussex County",
+      "population": 148063
+    },
+    {
+      "name": "Union County",
+      "population": 601863
+    },
+    {
+      "name": "Warren County",
+      "population": 112953
+    }
+  ]
+}

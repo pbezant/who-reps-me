@@ -1,0 +1,100 @@
+{
+  "state": "NH",
+  "generated_at": "2026-08-20T02:10:57.061Z",
+  "places": [
+    {
+      "name": "Berlin",
+      "population": 9502
+    },
+    {
+      "name": "Claremont",
+      "population": 13032
+    },
+    {
+      "name": "Concord",
+      "population": 44597
+    },
+    {
+      "name": "Dover",
+      "population": 34623
+    },
+    {
+      "name": "Franklin",
+      "population": 8839
+    },
+    {
+      "name": "Keene",
+      "population": 23072
+    },
+    {
+      "name": "Laconia",
+      "population": 17246
+    },
+    {
+      "name": "Lebanon",
+      "population": 15481
+    },
+    {
+      "name": "Manchester",
+      "population": 116818
+    },
+    {
+      "name": "Nashua",
+      "population": 92435
+    },
+    {
+      "name": "Portsmouth",
+      "population": 23028
+    },
+    {
+      "name": "Rochester",
+      "population": 33716
+    },
+    {
+      "name": "Somersworth",
+      "population": 12171
+    }
+  ],
+  "counties": [
+    {
+      "name": "Belknap County",
+      "population": 65147
+    },
+    {
+      "name": "Carroll County",
+      "population": 52784
+    },
+    {
+      "name": "Cheshire County",
+      "population": 78269
+    },
+    {
+      "name": "Coos County",
+      "population": 31343
+    },
+    {
+      "name": "Grafton County",
+      "population": 93225
+    },
+    {
+      "name": "Hillsborough County",
+      "population": 433415
+    },
+    {
+      "name": "Merrimack County",
+      "population": 158078
+    },
+    {
+      "name": "Rockingham County",
+      "population": 324077
+    },
+    {
+      "name": "Strafford County",
+      "population": 135043
+    },
+    {
+      "name": "Sullivan County",
+      "population": 43961
+    }
+  ]
+}
