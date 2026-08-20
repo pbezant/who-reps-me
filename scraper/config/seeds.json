@@ -7,6 +7,10 @@
     "Georgetown": "georgetown.org does not resolve (wrong domain, real one unconfirmed). Removed so discoverJurisdictionSite() can recall + verify the actual homepage instead of us guessing one we can't fetch to check.",
     "Manor": "cityofmanor.org is a bare homepage, not a roster page — every scrape found 0 officials there. Removed so discover-jurisdictions.js's roster crawl (which starts from exactly this homepage and hops onward) can find the real council page.",
     "Wimberley": "cityofwimberley.com/27/Government is a generic department hub, not a roster page — every scrape found 0 officials there. Same fix as Manor: removed for the auto-discovery crawl to find the real page.",
+    "Taylor": "probe.js flags taylortx.gov/155/City-Council NO-ROSTER-KEYWORDS — fetches fine but doesn't read as a roster page, matching the 0-officials result every scrape has gotten from it. Same fix as Manor/Wimberley: removed for the auto-discovery crawl (now tuned to look past a too-small first hit — see discover.js's minOfficials) to find the real page.",
+    "Buda": "Same NO-ROSTER-KEYWORDS signal and 0-officials history as Taylor at budatx.gov/155/City-Council. Removed for the same reason.",
+    "Pflugerville": "Same NO-ROSTER-KEYWORDS signal and 0-officials history as Taylor at pflugervilletx.gov/city-government/city-council. Removed for the same reason.",
+    "Dripping Springs": "cityofdrippingsprings.com/citycouncil only loads via the headless-browser fallback (client-rendered) and still yields 0 officials once rendered — the roster likely isn't on this exact URL. Removed so the auto-discovery crawl (which does have the browser fallback too, via allowBrowser) can find the real page instead of us guessing one we can't verify from here.",
     "note": "Anything still failing after the next probe run needs its URL replaced from the probe suggestions."
   },
   "jurisdictions": [
@@ -119,24 +123,6 @@
       ]
     },
     {
-      "city": "Taylor",
-      "state": "TX",
-      "level": "local",
-      "body": "Taylor City Council",
-      "urls": [
-        "https://www.taylortx.gov/155/City-Council"
-      ]
-    },
-    {
-      "city": "Buda",
-      "state": "TX",
-      "level": "local",
-      "body": "Buda City Council",
-      "urls": [
-        "https://www.budatx.gov/155/City-Council"
-      ]
-    },
-    {
       "city": "San Marcos",
       "state": "TX",
       "level": "local",
@@ -161,24 +147,6 @@
       "body": "Williamson County Commissioners Court",
       "urls": [
         "https://www.wilco.org/Commissioners-Court"
-      ]
-    },
-    {
-      "city": "Dripping Springs",
-      "state": "TX",
-      "level": "local",
-      "body": "Dripping Springs City Council",
-      "urls": [
-        "https://www.cityofdrippingsprings.com/citycouncil"
-      ]
-    },
-    {
-      "city": "Pflugerville",
-      "state": "TX",
-      "level": "local",
-      "body": "Pflugerville City Council",
-      "urls": [
-        "https://www.pflugervilletx.gov/city-government/city-council"
       ]
     },
     {
