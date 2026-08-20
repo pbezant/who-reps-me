@@ -7,9 +7,9 @@ test('renders the search page', () => {
   expect(screen.getByPlaceholderText(/address or zip code/i)).toBeInTheDocument();
 });
 
-test('does not show the "suggest an official" button before any search has run', () => {
+test('shows the "report a bug" button even before any search has run', () => {
   render(<App />);
-  expect(screen.queryByRole('button', { name: /suggest an official/i })).not.toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /report a bug/i })).toBeInTheDocument();
 });
 
 describe('officesFromFieldOffices', () => {

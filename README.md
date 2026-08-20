@@ -12,13 +12,15 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
 
-### Missing an official? Suggest one
+### Report a bug
 
-After a search, a floating button (bottom-right) lets you paste a URL to a city/county
-official's page — a roster page or their own bio page. It's validated and scraped on the spot
-(same pipeline the scraper itself uses) and, once confirmed, folded into the dataset. See
-[`scraper/README.md`](scraper/README.md)'s "Suggested-official URL submissions" section for the
-full pipeline.
+A floating button (bottom-right, always visible) opens a short form for reporting a problem —
+wrong data, something broken, whatever. Each submission is triaged by an LLM on the spot: it
+checks the report against currently-open `user-reported` issues to catch duplicates (commenting
+on the existing issue instead of filing a new one), then either opens a new GitHub issue or logs
+it, and appends a row to [`BUG_REPORTS.md`](BUG_REPORTS.md) either way. See
+`netlify/functions/report-bug.mjs`'s own header comment for the full flow and required
+`GITHUB_TOKEN` setup.
 
 ### Why geocoding needs a fallback at all
 
@@ -68,8 +70,12 @@ The app runs without any setup; each key only improves one layer.
 
 ```
 OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators + executives
-LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md)
+LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md) + bug-report triage
 LLM_API_KEY=...
+GITHUB_TOKEN=...         # bug-report triage (netlify/functions/report-bug.mjs) — needs Issues:write
+                          # + Contents:write on this repo (fine-grained PAT), or classic `repo` scope
+GITHUB_OWNER=pbezant     # only needed if forking — defaults to pbezant/who-reps-me
+GITHUB_REPO=who-reps-me
 ```
 
 Set these in the Netlify site's *Site configuration → Environment variables*. `OPENSTATES_API_KEY`

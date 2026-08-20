@@ -15,7 +15,6 @@
     "discover-jurisdictions": "node src/discover-jurisdictions.js",
     "fetch-census-data": "node scripts/fetch-census-data.js",
     "promote-blob-finds": "node scripts/promote-blob-finds.js",
-    "promote-url-submissions": "node scripts/promote-url-submissions.js",
     "test": "node --test"
   },
   "dependencies": {
