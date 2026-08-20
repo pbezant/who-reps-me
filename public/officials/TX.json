@@ -1,6 +1,6 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-20T05:29:14.908Z",
+  "generated_at": "2026-08-20T20:01:32.381Z",
   "count": 160,
   "cities": [
     "Austin",
@@ -2428,122 +2428,140 @@
     {
       "id": "tx:kyle:council-member:claudia-zapata",
       "name": "Claudia Zapata",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 3",
       "phone": null,
       "email": "czapata@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/r1wgrspj/zapata-15-crop.jpg?rxy=0.46965538632166137,0.45083101646900475&width=400&height=400&v=1dca93743916610&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:council-member:courtney-goza",
       "name": "Courtney Goza",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 1",
       "phone": null,
       "email": "cgoza@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/qedadc21/courtney-goza.png?width=400&height=400&v=1dc73569fbcbb40&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:council-member:dr.-lauralee-harris",
       "name": "Dr. Lauralee Harris",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 4",
       "phone": null,
       "email": "lharris@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/pojf3pxh/harris-14.jpg?rxy=0.5088208413016597,0.4573876319097714&width=400&height=400&v=1dca935025ccfb0&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:council-member:marc-mckinney",
       "name": "Marc McKinney",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 5",
       "phone": null,
       "email": "mmckinney@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/zhmprmnu/mckinney_cropped.png?width=400&height=400&v=1dc4505e26cb3c0&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:council-member:melisa-medina",
       "name": "Melisa Medina",
-      "office": "Council Member",
+      "office": "City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 2",
       "phone": null,
       "email": "mmedina@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/3lvasguj/melisamedina-firefly-upscaler-2x-scale-1.jpg?width=400&height=400&v=1dc57fdb985d350&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:mayor-pro-tem,-council-member:michael-tobias",
       "name": "Michael Tobias",
-      "office": "Mayor Pro Tem, Council Member",
+      "office": "Mayor Pro Tem, City Council Member",
       "level": "local",
       "body": "Kyle City Council",
       "district": "District 6",
       "phone": null,
       "email": "mtobias@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/io2lplju/michaeltobias_dsc07420_ps.png?width=400&height=400&v=1dc4505f05a3930&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:kyle:mayor:yvonne-flores-cale",
@@ -2555,15 +2573,18 @@
       "phone": null,
       "email": "ycale@cityofkyle.com",
       "url": null,
-      "photo_url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/cityofkyle-us/media/dk3h5kl3/mayor-flores-cale.jpg?width=360&height=360&format=webp",
       "address": "100 W. Center Street, Kyle, TX 78640",
       "jurisdiction": {
         "city": "Kyle",
         "state": "TX"
       },
-      "source_url": "https://www.cityofkyle.com/city-hall/mayor-and-council/",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "source_url": "https://www.cityofkyle.gov/city-hall/mayor-and-council/",
+      "extracted_at": "2026-08-20T20:01:16.714Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:lakeway:council-member:christopher-forton",
