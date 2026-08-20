@@ -19,9 +19,15 @@ missing or outdated official, plus a quick note. Each submission is triaged by a
 spot: it checks the note against currently-open `user-reported` issues to catch duplicates
 (commenting on the existing issue instead of filing a new one), then either opens a new GitHub
 issue or comments on the matching one, and appends a row to [`BUG_REPORTS.md`](BUG_REPORTS.md)
-either way. This files the report for a human to review — it doesn't itself trigger a scrape; see
-`netlify/functions/report-bug.mjs`'s own header comment for the full flow and required
-`GITHUB_TOKEN` setup.
+either way. See `netlify/functions/report-bug.mjs`'s own header comment for the full flow and
+required `GITHUB_TOKEN` setup.
+
+A submitted link doesn't stop at filing an issue: `scraper/scripts/scrape-reported-links.js` (run
+daily, or on demand via the `.github/workflows/scrape-link.yml` Actions workflow) fetches it,
+extracts whatever officials are on the page, and — for a confident, government-sourced,
+jurisdiction-resolved find — opens a pull request adding them to the map. That PR never
+auto-merges; a human always reviews and merges it by hand. See
+[`scraper/README.md`](scraper/README.md)'s "Reported-link scraping" section for the full pipeline.
 
 ### Why geocoding needs a fallback at all
 

@@ -1,0 +1,89 @@
+# On-demand version of run-daily.yml's "Phase 1a" — scrapes ONE specific URL right now, instead
+# of waiting for the next scheduled daily run to pick it up from an open user-reported GitHub
+# issue. Useful for testing a submission, or acting on a report immediately rather than waiting
+# for the cron. See scraper/scripts/scrape-reported-links.js's own header comment for what the
+# scrape itself does (SSRF-checks the URL, fetches it, runs extractOfficialSubmission()).
+#
+# Same "never auto-merge" rule as the daily pipeline's phase 1a: this opens a pull request for a
+# human to review and merge by hand — a link is untrusted input regardless of which workflow
+# scraped it. See run-daily.yml's own header comment for the full reasoning.
+#
+# Standalone (not folded into run-daily.yml itself) so running it doesn't also trigger the
+# scrape/discover/QA phases (each of which spends real LLM budget and can run long) just to check
+# one link — this is meant to be fast and cheap.
+#
+# Usage: Actions tab -> "Scrape one reported link" -> Run workflow -> paste the URL.
+
+name: Scrape one reported link
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "The page to scrape (a roster page or a single official's own bio page)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Same browser fallback as run-daily.yml — lets this reach client-rendered rosters and get
+      # past WAFs that 403 plain HTTP requests, which a synchronous Netlify function (the old
+      # /api/submit-official this replaces) never had room for. See fetch.js's own comment.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Install dependencies
+        working-directory: scraper
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install chromium
+
+      - name: Scrape the link
+        env:
+          LINK_URL: ${{ inputs.url }}
+          LLM_PRESET: ${{ vars.LLM_PRESET || 'gemini' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scraper/scripts/scrape-reported-links.js
+
+      # No branch isolation/reset dance needed here (unlike run-daily.yml's own phase 1a step) —
+      # this workflow does nothing else afterward, so there's nothing downstream that needs the
+      # working tree reset back to a clean base. scraper/data/llm-usage.json's bump is included in
+      # this commit too, for the same reason: nothing else in THIS run reads it afterward, so
+      # there's no "stays uncommitted for a later step" need — it's just informational once merged.
+      - name: Open review PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/officials scraper/config/seeds.discovered.json scraper/data/llm-usage.json
+          if git diff --staged --quiet; then
+            echo "Nothing promotable came out of that link — see the job log above for why."
+          else
+            branch="data/scrape-link-${GITHUB_RUN_ID}"
+            git checkout -b "$branch"
+            git commit -m "chore(data): scraped ${{ inputs.url }}"
+            git push -u origin "$branch"
+            pr_url=$(gh pr create \
+              --title "Review: scraped $(echo '${{ inputs.url }}' | cut -c1-80)" \
+              --body "On-demand scrape of ${{ inputs.url }} via the \"Scrape one reported link\" workflow (\`scraper/scripts/scrape-reported-links.js\`). **This never auto-merges — review the diff and merge it by hand once it looks right.**" \
+              --base "$GITHUB_REF_NAME" \
+              --head "$branch")
+            echo "Opened $pr_url for manual review (not auto-merged)."
+          fi

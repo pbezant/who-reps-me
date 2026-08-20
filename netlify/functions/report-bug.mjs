@@ -20,10 +20,12 @@
 //   4. Either way, a row appended to BUG_REPORTS.md (GitHub Contents API) — a single running log
 //      that's readable without opening GitHub at all, alongside the Issues themselves.
 //
-// This files an issue for a human to review — it does NOT itself trigger a scrape. Turning a
-// confirmed report straight into a scrape of the linked URL would be a natural follow-up (e.g.
-// closing the issue with a specific label could fire the on-demand scraper against it) but isn't
-// wired up yet; today "we'll check it and add it" means a person reads the filed issue.
+// This function itself only files an issue — it does NOT scrape the linked URL synchronously.
+// That follow-up now happens out-of-band: scraper/scripts/scrape-reported-links.js (run daily as
+// phase 1a of run-daily.yml, or on demand via the scrape-link.yml Actions workflow) scans open
+// `user-reported` issues for a `**Link:**` line, scrapes it, and — for a confident result — opens
+// a pull request adding it to the map. See that script's own header comment for the full pipeline
+// and why it's a separate PR that always needs a human to merge, not an automatic write.
 //
 // Requires (Netlify site environment variables):
 //   GITHUB_TOKEN    a token (fine-grained, scoped to this repo with Issues:write +
