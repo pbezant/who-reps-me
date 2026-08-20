@@ -26,6 +26,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: refresh-federal-social
@@ -51,30 +52,45 @@ jobs:
       - name: Build federal-details.json
         run: node scraper/src/federal-details.js
 
-      - name: Commit if changed
+      - name: Commit updated data to a branch
+        id: commit_data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/federal-social.json public/federal-details.json
           if git diff --staged --quiet; then
             echo "No changes to federal social links or details."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore(data): refresh federal social links and details [skip ci]"
-            # Same non-fast-forward race scrape.yml and discover-jurisdictions.yml guard
-            # against: a concurrent push from either of those (own concurrency group, so
-            # nothing here serializes against them) would otherwise make a bare `git push`
-            # fail and silently discard this run. Disjoint paths (public/federal-*.json here),
-            # so the rebase is always a clean replay.
-            for attempt in 1 2 3; do
-              if git push; then
-                break
-              fi
-              echo "Push rejected (attempt $attempt/3) — fetching and rebasing onto the latest remote..."
-              git fetch origin "$GITHUB_REF_NAME"
-              git rebase "origin/$GITHUB_REF_NAME"
-              if [ "$attempt" = 3 ]; then
-                echo "::error::Failed to push federal social/details data after 3 attempts."
-                exit 1
-              fi
-            done
+            branch="data/federal-social-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+            git checkout -b "$branch"
+            git commit -m "chore(data): refresh federal social links and details"
+            git push -u origin "$branch"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Opens a PR instead of committing straight to master — same treatment as run-daily.yml's
+      # "Open and merge data PR" step, see its comment for the full reasoning. A uniquely-named
+      # branch per run and disjoint public/federal-*.json paths mean this can never collide with
+      # run-daily.yml's own branch/PR, so no fetch+rebase-retry loop is needed here either.
+      - name: Open and merge data PR
+        if: steps.commit_data.outputs.has_changes == 'true'
+        timeout-minutes: 15
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.commit_data.outputs.branch }}
+        run: |
+          pr_url=$(gh pr create \
+            --title "chore(data): refresh federal social links and details ($(date -u +%Y-%m-%d))" \
+            --body "Automated weekly refresh of federal social links and details from unitedstates/congress-legislators." \
+            --base "$GITHUB_REF_NAME" \
+            --head "$BRANCH")
+          echo "Opened $pr_url — waiting on CI before merging..."
+          sleep 5 # give ci.yml's pull_request-triggered checks a moment to register before polling
+          if gh pr checks "$BRANCH" --watch --fail-fast; then
+            gh pr merge "$BRANCH" --squash --delete-branch --subject "chore(data): refresh federal social links and details ($(date -u +%Y-%m-%d)) [skip ci]"
+            echo "Merged into $GITHUB_REF_NAME."
+          else
+            echo "::warning::CI failed (or didn't report) on $pr_url — leaving it open for manual review instead of merging."
           fi
