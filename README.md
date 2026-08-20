@@ -85,7 +85,10 @@ GITHUB_TOKEN=...         # bug-report triage (netlify/functions/report-bug.mjs) 
                           # + Contents:write on this repo (fine-grained PAT), or classic `repo` scope
 GITHUB_OWNER=pbezant     # only needed if forking — defaults to pbezant/who-reps-me
 GITHUB_REPO=who-reps-me
-TURNSTILE_SECRET_KEY=... # optional — Cloudflare Turnstile bot check on the bug-report form.
+TURNSTILE_SECRET_KEY=... # optional, and NOT currently enabled — wiring is in place but a live
+                          # 400 from Cloudflare's challenge endpoint is unresolved; see
+                          # netlify/functions/report-bug.mjs's header for what's already ruled out.
+                          # Cloudflare Turnstile bot check on the bug-report form.
                           # Unset = verification is skipped entirely (soft-fail-open, not a
                           # security guarantee — set this before relying on it as real abuse
                           # protection). Free from a Cloudflare account: dash.cloudflare.com →

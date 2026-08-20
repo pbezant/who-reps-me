@@ -103,7 +103,16 @@ export default function ReportBug({ repList }) {
         sitekey: siteKey,
         callback: (token) => setTurnstileToken(token),
         'expired-callback': () => setTurnstileToken(''),
-        'error-callback': () => setTurnstileToken(''),
+        // Cloudflare's own errorCode covers things like a domain/hostname mismatch (the widget's
+        // Cloudflare-side config doesn't list the hostname it's actually running on) — logged so
+        // a failure here is diagnosable from the browser console instead of just "nothing shows
+        // up and I don't know why" (see who-reps-me issue #28's own debugging thread for exactly
+        // that experience). Never surfaced to the visitor beyond this — the submit flow still
+        // works, it'll just get the server's normal "verification failed" rejection.
+        'error-callback': (errorCode) => {
+          console.error(`Turnstile widget error (code ${errorCode}) — see https://developers.cloudflare.com/turnstile/troubleshooting/client-side-errors/ for what it means. A common cause: the sitekey's configured domain list in the Cloudflare dashboard doesn't include this exact hostname (${window.location.hostname}).`);
+          setTurnstileToken('');
+        },
       });
     };
     if (window.turnstile) {

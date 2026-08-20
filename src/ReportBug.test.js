@@ -27,6 +27,7 @@ function mockTurnstile() {
     remove,
     reset,
     triggerSuccess: (token = 'fake-turnstile-token') => act(() => captured.callback(token)),
+    triggerError: (errorCode = '110200') => act(() => captured['error-callback'](errorCode)),
   };
 }
 
@@ -185,6 +186,22 @@ describe('Turnstile (Cloudflare bot check)', () => {
     fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
     fireEvent.click(screen.getByRole('button', { name: /close/i }));
     expect(turnstile.remove).toHaveBeenCalledWith('widget-1');
+  });
+
+  test('logs a diagnosable error when the widget itself fails (e.g. a domain mismatch)', () => {
+    process.env.REACT_APP_TURNSTILE_SITE_KEY = 'test-site-key';
+    const turnstile = mockTurnstile();
+    const consoleError = jest.spyOn(console, 'error').mockImplementation(() => {});
+    render(<ReportBug />);
+    fireEvent.click(screen.getByRole('button', { name: /help us grow this map/i }));
+
+    turnstile.triggerError('110200');
+
+    expect(consoleError).toHaveBeenCalledWith(expect.stringContaining('110200'));
+    // A failed widget doesn't block the form — the submit button only cares about the note.
+    fireEvent.change(screen.getByLabelText(/what's missing or wrong/i), { target: { value: 'Something is off' } });
+    expect(screen.getByRole('button', { name: /send it in/i })).not.toBeDisabled();
+    consoleError.mockRestore();
   });
 
   test('resets the widget after a failed submission so a retry gets a fresh token', async () => {
