@@ -1,6 +1,6 @@
-# One daily pipeline: promote -> scrape -> discover -> QA-check -> dedupe, sharing one daily
-# LLM-call budget across the four LLM-calling phases instead of each having its own fixed,
-# independent cap. (Dedupe is the exception — zero LLM calls, see phase 5 below.)
+# One daily pipeline: link-scrape -> promote -> scrape -> discover -> QA-check -> dedupe, sharing
+# one daily LLM-call budget across the five LLM-calling phases instead of each having its own
+# fixed, independent cap. (Dedupe is the exception — zero LLM calls, see phase 5 below.)
 #
 # Replaces the separate scrape.yml, discover-jurisdictions.yml, and promote-blob-finds.yml
 # workflows (deleted — this supersedes all three). Collapsing them into one sequential job does
@@ -11,9 +11,21 @@
 #
 # The day's changes land via a pull request (push a dedicated branch, open a PR, wait for CI,
 # squash-merge) rather than a direct commit to master — see "Open and merge data PR" below for
-# why, and federal-social.yml for the same treatment applied there.
+# why, and federal-social.yml for the same treatment applied there. Phase 1a is the one exception
+# to the auto-merge part of that — see its own steps below for why.
 #
 # Phase order and why:
+#   1a. Scrape reported links (scripts/scrape-reported-links.js) — turns a link someone dropped
+#      into the site's "help us grow this map" form into scraped officials data, same fetch ->
+#      extract -> normalize pipeline the batch scraper uses. Runs FIRST, before any other phase
+#      touches public/officials/*.json, so its own git diff is clean and can be isolated into its
+#      own branch — see "Open review PR for scraped-link data" below. Unlike every other phase
+#      here, this one's output is NEVER auto-merged: a link a random visitor typed into a public
+#      form is a materially different trust level than a hand-vetted seed or the batch scraper's
+#      own discovery search, so it lands in its own pull request that always waits for a human to
+#      read and merge it, whatever CI says. See that script's own header comment for the full
+#      design (and the git history of PR #22/#25 for why this capability was built, reverted, and
+#      is now back in this shape).
 #   1. Promote on-demand finds (scripts/promote-blob-finds.js) — zero LLM calls. Every
 #      jurisdiction it resolves from Netlify Blobs (someone already searched it live) is one
 #      the next two phases never need to spend budget re-discovering/re-scraping.
@@ -40,7 +52,14 @@
 # average call cost, and records its real usage (llm.js's own call counter, not an estimate)
 # before the next phase runs. See usage-ledger.js's own header comment for why this tracks our
 # own usage rather than querying the provider's remaining quota — Gemini's free API-key tier
-# doesn't expose that in real time.
+# doesn't expose that in real time. Phase 1a's own budget bump is deliberately still recorded here
+# (see "Open review PR for scraped-link data" below for how it survives that branch's isolation)
+# so phases 2-4 see an accurate remaining balance even though phase 1a's data itself isn't merged
+# yet.
+#
+# For scraping ONE specific link on demand (testing a submission, or acting on a report without
+# waiting for the next scheduled run) use the separate scrape-link.yml workflow instead — it runs
+# just this one phase, standalone, against a URL you give it.
 #
 # Scheduled for 10pm Central (currently CDT, UTC-5) so it runs when real user searches are least
 # likely to be competing for the same LLM-provider rate limit — 03:00 UTC the following day.
@@ -55,6 +74,7 @@
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
 # repository's default branch. Until this file is merged there, run the phases locally instead:
 #   cd scraper && npm install
+#   GITHUB_TOKEN=... LLM_PRESET=gemini LLM_API_KEY=... npm run scrape-reported-links
 #   NETLIFY_AUTH_TOKEN=... NETLIFY_SITE_ID=... npm run promote-blob-finds
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run scrape
 #   LLM_PRESET=gemini LLM_API_KEY=... npm run discover-jurisdictions
@@ -93,6 +113,9 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  # Phase 1a comments on and labels the GitHub issues the "help us grow this map" form files —
+  # see scripts/scrape-reported-links.js.
+  issues: write
 
 concurrency:
   group: run-daily
@@ -133,6 +156,58 @@ jobs:
         run: |
           npm install --no-audit --no-fund
           npx playwright install chromium
+
+      # Phase 1a: scrape links people submitted via the "help us grow this map" form. Runs first
+      # (before any other phase writes to public/officials/*.json) so the very next step can
+      # capture a clean, isolated diff of just what this phase found. continue-on-error: a failure
+      # here (e.g. GitHub API hiccup) shouldn't take down the rest of the day's pipeline — it's a
+      # supplementary phase, not the main event.
+      - name: "Phase 1a: scrape reported links"
+        id: scrape_links
+        continue-on-error: true
+        run: node scraper/scripts/scrape-reported-links.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'gemini' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
+
+      # Stages whatever phase 1a wrote into its OWN branch and pull request — deliberately never
+      # auto-merged, unlike "Open and merge data PR" below (see this workflow's own header comment
+      # for why a reported link needs a human to click merge). Only public/officials and
+      # seeds.discovered.json are staged/committed here; scraper/data/llm-usage.json's bump is left
+      # as an uncommitted working-tree change on purpose — since neither this branch's new commit
+      # nor $BASE_SHA touch that file, checking back out to $BASE_SHA below carries the
+      # modification forward untouched, so it flows into the *main* combined commit later in this
+      # same job (which does include llm-usage.json) instead of getting stuck on an unmerged
+      # branch — phases 2-4 need to see today's real remaining budget, not a stale one.
+      # if: always() so this still runs (and safely finds nothing to stage) even if phase 1a above
+      # partially failed.
+      - name: "Open review PR for scraped-link data"
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BASE_SHA=$(git rev-parse HEAD)
+          git add public/officials scraper/config/seeds.discovered.json
+          if git diff --staged --quiet; then
+            echo "No reported-link data to review this run."
+          else
+            branch="data/reported-links-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+            git checkout -b "$branch"
+            git commit -m "chore(data): officials scraped from reported links ($(date -u +%Y-%m-%d))"
+            git push -u origin "$branch"
+            pr_url=$(gh pr create \
+              --title "Review: officials scraped from reported links ($(date -u +%Y-%m-%d))" \
+              --body "Automated scrape of links submitted through the site's \"help us grow this map\" form (\`scraper/scripts/scrape-reported-links.js\`) — see this run's job summary for which issue(s) contributed data, and the comments left on those issues. **This never auto-merges — review the diff and merge it by hand once it looks right.**" \
+              --base "$GITHUB_REF_NAME" \
+              --head "$branch")
+            echo "Opened $pr_url for manual review (not auto-merged)."
+            git checkout "$BASE_SHA"
+          fi
 
       # Phase 1: promote on-demand finds — zero LLM calls, so this always runs regardless of
       # today's remaining budget. Skips cleanly (not a failure) without the two Netlify secrets.
