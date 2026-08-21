@@ -1,6 +1,6 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-20T20:15:13.467Z",
+  "generated_at": "2026-08-21T00:06:48.245Z",
   "count": 160,
   "cities": [
     "Austin",
@@ -137,22 +137,25 @@
     {
       "id": "tx:austin:council-member:natasha-harper-madison",
       "name": "Natasha Harper-Madison",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 1",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-1",
+      "photo_url": "https://austin.widen.net/content/6ownj6z5sv/web/Austin%20District%201%20-%20Web_D1-Headshot.jpg?crop=yes&w=1312&h=1168&itok=iajRecr4",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
-      "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "source_url": "https://www.austintexas.gov/district-1",
+      "extracted_at": "2026-08-21T00:06:43.923Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:paige-ellis",
