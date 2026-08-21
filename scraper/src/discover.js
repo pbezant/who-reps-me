@@ -15,8 +15,9 @@ import { callLLM } from "./llm.js";
 import { fetchPage } from "./fetch.js";
 import { extractOfficials } from "./extract.js";
 import { normalize } from "./normalize.js";
-import { suggestLinks } from "./suggest.js";
+import { suggestLinks, NOISE_HREF_RE } from "./suggest.js";
 import { findMediaCandidates, stripSharedMedia } from "./media.js";
+import { webSearch } from "./search.js";
 
 const SYSTEM_PROMPT = `You know the official government website for US cities and counties.
 Respond with ONLY the homepage URL (e.g. "https://www.cityofelgin.us"), nothing else.
@@ -63,13 +64,55 @@ What is the official ${kind} government homepage URL?`;
   // get the response cut off mid-thought with nothing usable left ("https" and nothing else).
   const raw = await callLLM({ system: SYSTEM_PROMPT, user, maxOutput: 200, jsonMode: false });
 
-  const url = extractUrl(raw);
-  if (!url) return null;
+  const recalled = extractUrl(raw);
+  if (recalled) {
+    const page = await fetchPage(recalled, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
+    if (looksLikeGovSite(page, city)) return { url: recalled, page };
+  }
 
-  const page = await fetchPage(url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
-  if (!looksLikeGovSite(page, city)) return null;
+  // Recall came up empty (UNKNOWN) or didn't verify — a real search grounds the answer in the
+  // current web instead of the model's training data, which is the only fix for a city the model
+  // has genuinely never seen, or whose domain changed since its training cutoff. See search.js's
+  // own header comment for why this stays a fallback rather than the primary lookup: recall is
+  // free and already resolves well-known cities, so only the tail that needs it spends a query.
+  return searchForGovSite({ city, state, kind });
+}
 
-  return { url, page };
+async function searchForGovSite({ city, state, kind }) {
+  let results;
+  try {
+    results = await webSearch(`${city} ${state} official ${kind} government website`, { count: 5 });
+  } catch {
+    // No SEARCH_API_KEY configured, an unknown SEARCH_PRESET, or the provider itself erroring —
+    // all degrade to today's behavior (a soft miss), never a crash. See webSearch()'s own doc.
+    return null;
+  }
+  const triedOrigins = new Set();
+  for (const r of results) {
+    // Prefer the bare origin over whatever specific page the search ranked first — this
+    // function's whole job is finding the homepage (see its own doc comment above), and a
+    // search hit is often a deep subpage that still passes looksLikeGovSite() (same real
+    // domain, still government-sounding text) without actually being the homepage callers
+    // expect back. Confirmed against Miami-Dade County, FL: the top result was a specific
+    // service page (.../global/service.page?Mduid_service=...), not miamidade.gov itself.
+    let origin;
+    try {
+      origin = new URL(r.url).origin;
+    } catch {
+      origin = null;
+    }
+    if (origin && !triedOrigins.has(origin)) {
+      triedOrigins.add(origin);
+      const homePage = await fetchPage(origin, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
+      if (looksLikeGovSite(homePage, city)) return { url: origin, page: homePage };
+    }
+    // The homepage itself didn't verify (thin/JS-rendered, or something odd about that
+    // domain's root) — fall back to the specific result page rather than losing the hit
+    // entirely.
+    const page = await fetchPage(r.url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
+    if (looksLikeGovSite(page, city)) return { url: r.url, page };
+  }
+  return null;
 }
 
 // Filters suggestLinks() candidates down to ones worth queuing: same-origin (never a
@@ -141,6 +184,38 @@ export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchB
   const origin = new URL(startUrl).origin;
   const visited = new Set([startUrl]);
   const queue = [startUrl];
+
+  // Search-assisted seeding: ask a real search engine for this site's roster page and queue any
+  // same-origin hits AHEAD of startUrl itself — the homepage "is usually a homepage or a general
+  // 'Government' hub, not the roster itself" (see this function's own comment above), so a direct
+  // hit here can save most of fetchBudget's hops. Reuses sameOriginNewLinks() so a search result
+  // is filtered exactly like any other candidate link this crawl considers. Purely additive: no
+  // SEARCH_API_KEY configured, or the provider erroring, leaves the queue exactly as it already
+  // was — see search.js's own header comment.
+  //
+  // Also drops NOISE_HREF_RE matches (agenda/minutes/news/press/...) — confirmed necessary
+  // against Wayne County, MI: a "city council OR commissioners" query returned nothing but press
+  // releases ("Commissioners honor pioneering former Chair...", "Commissioners Killeen, Haidous
+  // appointed to..."), which would otherwise have gone straight to the FRONT of the queue and
+  // burned most of fetchBudget on dead ends before startUrl's own real navigation links were ever
+  // tried — the exact same failure mode this crawl already guards against for suggestLinks()
+  // candidates (see the Boulder, CO case in this function's own comment above), just reached via
+  // a different route.
+  try {
+    const results = await webSearch(`site:${origin.replace(/^https?:\/\//, "")} city council OR commissioners OR "board of" members`, {
+      count: 5,
+    });
+    const clean = results.filter((r) => !NOISE_HREF_RE.test(r.url));
+    const seeded = sameOriginNewLinks(
+      clean.map((r) => [r.url, r.title]),
+      origin,
+      visited
+    );
+    queue.unshift(...seeded);
+    for (const link of seeded) visited.add(link);
+  } catch {
+    /* no search configured, or the provider errored — crawl exactly as before */
+  }
 
   const now = new Date().toISOString();
   const byId = new Map();

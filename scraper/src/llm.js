@@ -109,7 +109,15 @@ export function resolveLLMConfig() {
   // SCRAPER_MODEL kept for backwards compatibility with the original Anthropic-only version.
   const model = process.env.LLM_MODEL || process.env.SCRAPER_MODEL || preset.model;
   const rpm = Number(process.env.LLM_RPM || preset.rpm || 0);
-  const maxOutput = Number(process.env.LLM_MAX_OUTPUT || preset.maxOutput || 4096);
+  // 4096 (the previous default) turned out too tight once extract.js's prompt started asking
+  // for (and getting) a `url`/`photo_url` on every official instead of mostly nulls — confirmed
+  // against Austin, TX's 11-member council: a real Gemini response cut off mid-JSON after ~6.5
+  // officials, well short of 4096 tokens including whatever "thinking" overhead Gemini 2.5
+  // Flash spends from the same budget (see discoverJurisdictionSite()'s own comment on that
+  // model doing this for a much smaller response). 8192 comfortably covers a typical council;
+  // see callLLM()'s truncation check below for what happens on a jurisdiction big enough to
+  // still overflow it (Nashville's 40-member Metro Council, for instance).
+  const maxOutput = Number(process.env.LLM_MAX_OUTPUT || preset.maxOutput || 8192);
   const apiKey =
     process.env.LLM_API_KEY ||
     (api === "anthropic" ? process.env.ANTHROPIC_API_KEY : null) ||
@@ -219,6 +227,19 @@ function readModelText(data, api) {
   return data?.choices?.[0]?.message?.content || "";
 }
 
+// "Why did the model stop" — "max_tokens"/"length" means the provider cut the response off to
+// respect maxOutput, not that the model chose to stop. Exported (and kept pure/no I/O) so this
+// mapping is directly testable without a network call, matching how the rest of this module's
+// non-network logic is tested.
+export function isTruncatedFinish(reason) {
+  return reason === "length" || reason === "max_tokens";
+}
+
+function finishReason(data, api) {
+  if (api === "anthropic") return data?.stop_reason;
+  return data?.choices?.[0]?.finish_reason;
+}
+
 // Low-level call: system + user text in, raw model text out. Retries on 429/5xx with backoff
 // (honoring Retry-After), throttled to the preset's RPM. Callers parse the response shape
 // they expect (extract.js wants JSON officials, discover.js wants a bare URL).
@@ -236,10 +257,8 @@ export async function callLLM({ system, user, maxOutput, jsonMode = true, maxAtt
     );
   }
 
-  const { endpoint, headers, body } = buildRequest(
-    { system, user, maxOutput: maxOutput || cfg.maxOutput, jsonMode },
-    cfg
-  );
+  const effectiveMaxOutput = maxOutput || cfg.maxOutput;
+  const { endpoint, headers, body } = buildRequest({ system, user, maxOutput: effectiveMaxOutput, jsonMode }, cfg);
 
   let lastErr;
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
@@ -273,7 +292,25 @@ export async function callLLM({ system, user, maxOutput, jsonMode = true, maxAtt
     }
 
     const data = await res.json();
-    return readModelText(data, cfg.api);
+    const text = readModelText(data, cfg.api);
+
+    // A truncated response is never a legitimate "the model looked and found nothing" — it's
+    // valid JSON getting cut off mid-object, which extractJson() (llm.js's own helper) then
+    // fails to parse and callers silently treat as "0 officials, 0 problems" (confirmed against
+    // Austin, TX: exactly this happened once url/photo_url started actually getting filled in,
+    // lengthening the response past the old 4096-token default — see maxOutput's comment above).
+    // Only throw for jsonMode callers (extractOfficials/extractOfficialDetail): discover.js's
+    // bare-URL recall call already treats a garbled/truncated answer as an expected soft miss
+    // (extractUrl() returns null), which is the right behavior there and shouldn't become a
+    // thrown error just because this now exists.
+    if (jsonMode && isTruncatedFinish(finishReason(data, cfg.api))) {
+      throw new Error(
+        `${cfg.presetName} response truncated at the ${effectiveMaxOutput}-token output limit ` +
+          `before finishing valid JSON. Set LLM_MAX_OUTPUT higher for a jurisdiction this large.`
+      );
+    }
+
+    return text;
   }
   throw lastErr || new Error("LLM call failed");
 }
