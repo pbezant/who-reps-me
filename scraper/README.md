@@ -247,6 +247,70 @@ netlify dev
   builds `public/federal-details.json` (term dates, committee assignments, DC office,
   crowdsourced district offices, a Wikipedia bio blurb). See "Photos and social links" below.
 
+## Reported-link scraping (human-in-the-loop)
+
+A third way coverage grows, alongside the batch scraper and on-demand scraping above: the site's
+"help us grow this map" form (`src/ReportBug.js` → `netlify/functions/report-bug.mjs`) already
+lets a visitor drop a link plus a short note, which gets filed as a GitHub issue labeled
+`user-reported`. `scripts/scrape-reported-links.js` is what turns that link into scraped data.
+
+```
+open "user-reported" GitHub issue with a **Link:** line
+        │
+        ▼
+scripts/scrape-reported-links.js
+        │
+        ├─ 1. src/urlSafety.js: same SSRF guard the (now-reverted) "suggest an official" form
+        │     used — reject non-http(s) schemes, embedded credentials, localhost, and
+        │     private/loopback/link-local IPv4+IPv6 literals
+        │
+        ├─ 2. same fetch pipeline as the batch scraper (fetch.js, browser fallback allowed — this
+        │     runs in GitHub Actions, not a synchronous Netlify function, so it isn't under that
+        │     path's ~30s ceiling) + extractOfficialSubmission() in extract.js — unlike
+        │     extractOfficials(), the jurisdiction isn't known ahead of time, so this one has to
+        │     infer city/county/state/level from the page itself, alongside deciding whether it
+        │     even looks like a legitimate government source at all. This is also the one
+        │     extraction prompt in the project with an explicit "write it in English" rule, since
+        │     a visitor-linked page (unlike anything the batch scraper's own English-biased
+        │     discovery picks) has no guaranteed source language.
+        │
+        └─ 3. comment on the issue with what it found (or why it didn't qualify), and label it
+              `link-checked` so a future run doesn't re-spend an LLM call re-checking it — remove
+              that label by hand to force a retry
+```
+
+**Never auto-merged.** A link a random visitor typed into a public form is a materially different
+trust level than a hand-vetted seed or the batch scraper's own discovery search, so — unlike every
+other phase in `run-daily.yml` — this one's output always lands in its own dedicated pull request
+that a human has to read and merge by hand, whatever CI says. Two ways it runs:
+
+- **Daily, automatic**: phase 1a of `.github/workflows/run-daily.yml`, scanning every open
+  `user-reported` issue for a link. Only officials that clear the same bar the old "suggest an
+  official" feature used (`is_government_source`, a resolved city+state, local/county level — this
+  dataset's scope, state legislators/executives and federal reps are sourced elsewhere — and at
+  least one official above a confidence floor) get staged into the review PR at all; anything
+  short of that is left as a comment on the issue for a person to act on directly, not silently
+  added or silently dropped.
+- **On demand, manual**: the separate `.github/workflows/scrape-link.yml` workflow
+  (`workflow_dispatch`, paste a URL) — scrapes just that one link right now instead of waiting for
+  the next scheduled run, and opens the same kind of review-only PR.
+
+Run either by hand:
+
+```bash
+cd scraper
+GITHUB_TOKEN=... LLM_PRESET=gemini LLM_API_KEY=... npm run scrape-reported-links   # issue scan
+LINK_URL=https://... LLM_PRESET=gemini LLM_API_KEY=... npm run scrape-reported-links  # one URL
+```
+
+(`GITHUB_TOKEN` here needs `issues:write` on this repo — in CI this is the workflow's own
+`secrets.GITHUB_TOKEN`, scoped via `run-daily.yml`'s `permissions:` block, not a separate secret.)
+
+This capability previously existed as a dedicated "suggest an official" form
+(`src/SubmitOfficial.js` + `netlify/functions/submit-official.mjs`, PR #22), which was reverted in
+favor of the bug-report form alone (PR #25) and is now folded into that form's own links instead
+of a second, separate submission UI — see this script's own header comment for that history.
+
 ## Photos and social links
 
 Every official record carries `photo_url`, a `social` object
