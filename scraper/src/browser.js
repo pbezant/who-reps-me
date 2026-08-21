@@ -72,7 +72,12 @@ export async function renderPage(url, { timeoutMs = 30000 } = {}) {
     await page.waitForLoadState("networkidle", { timeout: 5000 }).catch(() => {});
     const html = await page.content();
     const status = response?.status() ?? null;
-    return { ok: true, html, status };
+    // page.url() reads the browser's own current-document URL, so it reflects both the HTTP
+    // redirect chain goto() already followed AND any client-side (JS) redirect that fired during
+    // the networkidle wait above — response.url() alone would miss that second kind. Same
+    // "don't trust the originally-requested url" reasoning as fetch.js's fetchStatic(); a caller
+    // needing this most is exactly the site that landed here (WAF-gated or client-rendered).
+    return { ok: true, html, status, url: page.url() };
   } catch (err) {
     return { ok: false, error: `browser render failed: ${err.message}` };
   } finally {

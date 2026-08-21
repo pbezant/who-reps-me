@@ -67,7 +67,10 @@ What is the official ${kind} government homepage URL?`;
   const recalled = extractUrl(raw);
   if (recalled) {
     const page = await fetchPage(recalled, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
-    if (looksLikeGovSite(page, city)) return { url: recalled, page };
+    // page.url, not recalled: fetchPage() follows redirects, and the model's recalled URL can
+    // itself 30x to the real site's actual domain (see fetch.js's fetchStatic() for the
+    // confirmed Wayne County, MI case) — callers need the address the page actually lives at.
+    if (looksLikeGovSite(page, city)) return { url: page.url, page };
   }
 
   // Recall came up empty (UNKNOWN) or didn't verify — a real search grounds the answer in the
@@ -104,13 +107,15 @@ async function searchForGovSite({ city, state, kind }) {
     if (origin && !triedOrigins.has(origin)) {
       triedOrigins.add(origin);
       const homePage = await fetchPage(origin, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
-      if (looksLikeGovSite(homePage, city)) return { url: origin, page: homePage };
+      // homePage.url, not origin: this same origin can itself redirect on to a different domain
+      // (the same fetchStatic() behavior this whole file works around elsewhere).
+      if (looksLikeGovSite(homePage, city)) return { url: homePage.url, page: homePage };
     }
     // The homepage itself didn't verify (thin/JS-rendered, or something odd about that
     // domain's root) — fall back to the specific result page rather than losing the hit
     // entirely.
     const page = await fetchPage(r.url, { allowBrowser: false, timeoutMs: 8000 }).catch(() => null);
-    if (looksLikeGovSite(page, city)) return { url: r.url, page };
+    if (looksLikeGovSite(page, city)) return { url: page.url, page };
   }
   return null;
 }
@@ -181,9 +186,21 @@ export function sameOriginNewLinks(links, origin, visited) {
 // netlify/functions/local-officials.mjs's own header comment). The batch discovery script
 // isn't under that constraint and can opt in.
 export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchBudget = 8, minOfficials = 7, allowBrowser = false }) {
-  const origin = new URL(startUrl).origin;
-  const visited = new Set([startUrl]);
-  const queue = [startUrl];
+  // Resolve startUrl to where it actually lives before trusting it for anything origin-related:
+  // a seed/discovered/recalled URL can itself redirect to a different domain entirely (confirmed
+  // for Wayne County, MI: waynecounty.com -> waynecountymi.gov, live via fetchPage()). Computing
+  // `origin` from the requested startUrl instead of the fetched page's real url made
+  // sameOriginNewLinks() below reject every genuinely-same-origin link on the real site as
+  // "off-site" — the confirmed root cause of Wayne County staying unfound even with the
+  // search-fallback seeding this function also does. startPage, when the caller already has one
+  // (discoverJurisdictionSite() hands its own fetch straight through), avoids a redundant second
+  // fetch here — and after that function's own fix, discovery.url/discovery.page already agree,
+  // so effectiveStartUrl below just confirms what startUrl already says in that case.
+  const firstPage = startPage || (await fetchPage(startUrl, { allowBrowser, timeoutMs: 8000 }).catch(() => null));
+  const effectiveStartUrl = firstPage?.ok ? firstPage.url : startUrl;
+  const origin = new URL(effectiveStartUrl).origin;
+  const visited = new Set([startUrl, effectiveStartUrl]);
+  const queue = [effectiveStartUrl];
 
   // Search-assisted seeding: ask a real search engine for this site's roster page and queue any
   // same-origin hits AHEAD of startUrl itself — the homepage "is usually a homepage or a general
@@ -224,19 +241,24 @@ export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchB
   let fetched = 0;
   while (queue.length && fetched < fetchBudget && byId.size < minOfficials) {
     const url = queue.shift();
-    const page =
-      url === startUrl && startPage ? startPage : await fetchPage(url, { allowBrowser, timeoutMs: 8000 }).catch(() => null);
+    const page = url === effectiveStartUrl ? firstPage : await fetchPage(url, { allowBrowser, timeoutMs: 8000 }).catch(() => null);
     fetched += 1;
     if (!page?.ok) continue;
+
+    // page.url, not the queued url, from here down: a link discovered mid-crawl can itself
+    // redirect elsewhere by the time it's fetched (same root cause as startUrl above), and using
+    // the pre-fetch url would resolve this page's relative links against the wrong base and
+    // misattribute its officials' sourceUrl to a page they weren't actually found on.
+    const pageUrl = page.url;
 
     // Regex-only, no extra fetch or LLM call — safe to run even under a tight time budget. See
     // media.js for why this is what makes photo_url/social reachable at all (fetch.js strips
     // <img>/<a> out of page.text).
-    const media = findMediaCandidates(page.html, url);
+    const media = findMediaCandidates(page.html, pageUrl);
 
     let raw;
     try {
-      raw = await extractOfficials({ text: page.text, url, jurisdiction, media });
+      raw = await extractOfficials({ text: page.text, url: pageUrl, jurisdiction, media });
     } catch (err) {
       // A misconfigured/retired provider fails identically on every subsequent call — let the
       // caller decide whether to abort (the batch script does; a single live request has
@@ -246,15 +268,15 @@ export async function findRosterPage({ startUrl, startPage, jurisdiction, fetchB
       continue;
     }
     for (const r of raw) {
-      const rec = normalize(r, { jurisdiction, sourceUrl: url, extractedAt: now });
+      const rec = normalize(r, { jurisdiction, sourceUrl: pageUrl, extractedAt: now });
       if (rec) byId.set(rec.id, rec);
     }
-    if (byId.size) sourceUrl = url;
+    if (byId.size) sourceUrl = pageUrl;
     if (byId.size >= minOfficials) break;
 
     // This page wasn't the roster — queue its own same-origin candidate links for the next
     // round, so a hub-of-hubs structure gets followed rather than giving up after one hop.
-    for (const link of sameOriginNewLinks(suggestLinks(page.html, url, 4), origin, visited)) {
+    for (const link of sameOriginNewLinks(suggestLinks(page.html, pageUrl, 4), origin, visited)) {
       visited.add(link);
       queue.push(link);
     }

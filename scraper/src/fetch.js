@@ -44,14 +44,25 @@ async function fetchStatic(url, timeoutMs) {
       signal: controller.signal,
       redirect: "follow",
     });
+    // `redirect: "follow"` above means fetch() already chased any 30x chain, but a Response
+    // only tells you where it actually landed via res.url — the fetch() call still resolves
+    // with whatever `url` string was passed in, not the post-redirect address, unless we read
+    // it explicitly. Getting this right matters beyond diagnostics: callers use the returned
+    // `url` to resolve relative links and check same-origin, and a stale pre-redirect value
+    // makes both wrong. Confirmed concretely for Wayne County, MI: fetching
+    // "https://www.waynecounty.com" actually lands on the unrelated domain
+    // waynecountymi.gov, and code that trusted the requested url as the page's origin rejected
+    // every genuinely-same-origin link on the real (rendered) page as "off-site" — see
+    // discover.js's findRosterPage() for where that bit us. res.url costs nothing extra; the
+    // Fetch API already computes it as part of following the redirect.
     if (!res.ok) {
-      return { ok: false, url, status: res.status, error: `HTTP ${res.status}` };
+      return { ok: false, url: res.url, status: res.status, error: `HTTP ${res.status}` };
     }
     const html = await res.text();
     const text = htmlToText(html);
     // Heuristic: very little text usually means a client-rendered SPA we couldn't read.
     const needsBrowser = text.length < 500;
-    return { ok: true, url, status: res.status, html, text, needsBrowser };
+    return { ok: true, url: res.url, status: res.status, html, text, needsBrowser };
   } catch (err) {
     // AbortError's own message ("This operation was aborted") hides the real cause, which is
     // almost always our own timeout on a slow municipal server.
@@ -83,7 +94,9 @@ export async function fetchPage(url, { timeoutMs = 30000, allowBrowser = false }
   if (text.length < 500) {
     return {
       ok: false,
-      url,
+      // rendered.url is the browser's post-navigation URL (see renderPage()'s own comment);
+      // fall back to the requested url only for a renderPage() version too old to set it.
+      url: rendered.url ?? url,
       status: rendered.status ?? staticResult.status,
       error: "needs-browser (empty even after browser render)",
       viaBrowser: true,
@@ -91,7 +104,7 @@ export async function fetchPage(url, { timeoutMs = 30000, allowBrowser = false }
   }
   return {
     ok: true,
-    url,
+    url: rendered.url ?? url,
     status: rendered.status ?? 200,
     html: rendered.html,
     text,

@@ -13,7 +13,10 @@ async function findSuggestions(url, allowBrowser) {
   try {
     const origin = new URL(url).origin;
     const home = await fetchPage(origin, { allowBrowser });
-    return home.ok ? suggestLinks(home.html, origin) : [];
+    // home.url, not origin: fetchPage() follows redirects, so the bare origin can itself land
+    // elsewhere (see fetch.js's fetchStatic()) — resolving suggestLinks()'s relative hrefs
+    // against the pre-redirect origin would suggest a broken URL.
+    return home.ok ? suggestLinks(home.html, home.url) : [];
   } catch {
     return [];
   }
@@ -90,12 +93,15 @@ async function enrichFromBioPages(records, { now, allowBrowser }) {
     const page = await fetchPage(record.url, { allowBrowser }).catch(() => null);
     if (!page?.ok) continue;
 
-    const media = findMediaCandidates(page.html, record.url);
+    // page.url, not record.url: same fetchPage()-follows-redirects reasoning as the roster pass
+    // in scrapeJurisdiction() above — a bio-page url pulled off the roster page can itself
+    // redirect elsewhere by the time it's fetched here.
+    const media = findMediaCandidates(page.html, page.url);
     let raw;
     try {
       raw = await extractOfficialDetail({
         text: page.text,
-        url: record.url,
+        url: page.url,
         name: record.name,
         office: record.office,
         media,
@@ -108,7 +114,7 @@ async function enrichFromBioPages(records, { now, allowBrowser }) {
     }
     if (!raw) continue;
 
-    enriched[i] = mergeEnrichment(record, raw, { sourceUrl: record.url, extractedAt: now });
+    enriched[i] = mergeEnrichment(record, raw, { sourceUrl: page.url, extractedAt: now });
   }
   return enriched;
 }
@@ -138,13 +144,19 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
       continue;
     }
 
+    // page.url, not the seed url above: fetchPage() follows redirects, and a seed URL can itself
+    // land on a different domain by the time it's actually fetched (confirmed for Wayne County,
+    // MI: waynecounty.com -> waynecountymi.gov — see fetch.js's fetchStatic()). Using the seed url
+    // here would resolve this page's relative photo/social/profile links against the wrong base,
+    // silently producing broken URLs rather than erroring.
+    //
     // Regex-scanned from the raw HTML (fetch.js already stripped tags out of page.text for
     // the LLM) — see media.js for why this is what makes photo_url/social reachable at all.
-    const media = findMediaCandidates(page.html, url);
+    const media = findMediaCandidates(page.html, page.url);
 
     let raw;
     try {
-      raw = await extractOfficials({ text: page.text, url, jurisdiction, media });
+      raw = await extractOfficials({ text: page.text, url: page.url, jurisdiction, media });
     } catch (err) {
       if (err?.fatal) {
         err.jurisdiction = `${jurisdiction.city}, ${jurisdiction.state}`;
@@ -155,7 +167,7 @@ export async function scrapeJurisdiction(jurisdiction, { now, allowBrowser = fal
     }
 
     for (const r of raw) {
-      const rec = normalize(r, { jurisdiction, sourceUrl: url, extractedAt: now });
+      const rec = normalize(r, { jurisdiction, sourceUrl: page.url, extractedAt: now });
       if (rec) results.push(rec);
     }
   }
