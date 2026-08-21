@@ -70,7 +70,10 @@ async function main() {
         try {
           const origin = new URL(url).origin;
           const home = await fetchPage(origin, { timeoutMs: TIMEOUT_MS, allowBrowser });
-          if (home.ok) suggestions = suggestLinks(home.html, origin);
+          // home.url, not origin: fetchPage() follows redirects, so the bare origin can itself
+          // land elsewhere (see fetch.js's fetchStatic()) — resolving suggestLinks()'s relative
+          // hrefs against the pre-redirect origin would print a broken "try:" suggestion.
+          if (home.ok) suggestions = suggestLinks(home.html, home.url);
         } catch {
           /* ignore */
         }
