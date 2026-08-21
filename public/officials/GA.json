@@ -1,14 +1,294 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 19,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 28,
   "cities": [
+    "Chatham County",
     "Cobb County",
     "DeKalb County",
     "Fulton County",
     "Gwinnett County"
   ],
   "officials": [
+    {
+      "id": "ga:chatham-county:chairman:chester-a.-ellis",
+      "name": "Chester A. Ellis",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": null,
+      "phone": "912-652-7175",
+      "email": "chairman@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/Chairman",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/ed277905-c01f-4969-a079-d2deddb24fbe?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Chatham County, Chairman Chester A. Ellis is committed to investing in this community and its citizens. He is a proud graduate of Sophronia Tompkins High School and Savannah State University, holding a Master's Degree from Cambridge College. Elected Commissioner for District 8 in 2017, he now serves as Chairman and is the pastor of St. Paul Missionary Baptist Church.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:aaron-adot-whitely",
+      "name": "Aaron \"Adot\" Whitely",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "6th District",
+      "phone": null,
+      "email": "district6@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/6th",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/c1be6223-c933-4791-9dec-2a2b5a907ed7?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "Aaron “Adot” Whitely is a dedicated father, visionary community advocate, accomplished entrepreneur, and a leader in small business development. He currently serves as the District 6 Commissioner on the Chatham County Board of Commissioners, where he works tirelessly to champion equitable development, expand access to opportunity, and uplift the voices of his constituents.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:anthony-wayne-noha",
+      "name": "Anthony Wayne Noha",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "1st District",
+      "phone": "912-652-7175",
+      "email": "district1@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/1st",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/40bc8c14-0621-4d4f-ba2e-a538393ad67d?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "Biographical Information Coming Soon.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:bobby-lockett",
+      "name": "Bobby Lockett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "3rd District",
+      "phone": "912-652-7175",
+      "email": "district3@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/3rd",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/9acc35cf-6c59-4ffa-a603-1cede67f99b5?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:brian-m.-hussey",
+      "name": "Brian M. Hussey",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "4th District",
+      "phone": "912-652-7175",
+      "email": "district4@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/4th",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/8487ea57-89da-48ce-b438-01e92a176d48?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:dean-kicklighter",
+      "name": "Dean Kicklighter",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "7th District",
+      "phone": "912-652-7175",
+      "email": "deankicklighter@yahoo.com",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/7th",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/f70d0cd9-b7f9-4ddd-9dbc-298fffa62cd3?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "Dean Kicklighter is married to Tammy Bower Kicklighter and they are proud parents of four children and five grandchildren. A lifelong resident of West Chatham County, he grew up in Garden City and now resides in Pooler, GA. Commissioner Kicklighter owns and operates two family businesses, Randell & Dean’s and Hardcore 24 and Randell’s 24 Hour Gym, both located in Garden City.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:malinda-scott-hodge",
+      "name": "Malinda Scott Hodge",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "2nd District",
+      "phone": "912-652-7175",
+      "email": "district2@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/2nd",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/a9a10364-bd57-4d3f-a8d0-ab456e469dc3?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Hodge was elected to the Chatham County Commission in 2023. She is a lifelong resident of Chatham County and holds a degree in Marketing from Harris University. Malinda is committed to serving her community with humility, focusing on infrastructure, progression, and economic development.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:marsha-buford",
+      "name": "Marsha Buford",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "8th District",
+      "phone": "912-652-7175",
+      "email": "district8@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/8th",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/a6001d64-a3bb-437e-6eb79db1c83a?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "Reverend Marsha Buford is the Founder and Pastor of The House of Favor Full Gospel Ministries, Inc., where she has served in ministry leadership for the past 19 years. From 2010 to 2023, she also worked as a Job Coach with the Family Restoration Network’s Workforce Development Program. She currently teaches the Fatherhood Program at the Smith Transitional Center in Claxton, Georgia.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:chatham-county:commissioner:tanya-milton",
+      "name": "Tanya Milton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Chatham County Commissioners Court",
+      "district": "5th District",
+      "phone": "912-652-7175",
+      "email": "district5@chathamcounty.org",
+      "url": "https://www.chathamcountyga.gov/Commission/Detail/5th",
+      "photo_url": "https://cms.chathamcountyga.gov/api/assets/main-website/3550a2fa-a909-44eb-a6d7-3f5d1b2cd2c7?download=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 Bull Street, Suite 210 Savannah, GA 31401",
+      "offices": [],
+      "hours": null,
+      "bio": "A Savannah, Georgia native, Tanya Milton has a long career in the newspaper business, currently serving as Vice President and Advertising Director of The Savannah Tribune. She is in her 2nd term as 5th District Chatham County Commissioner, actively involved in community leadership and several service organizations. She is married to Walter Thomas and has two daughters and two grandchildren.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Chatham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.chathamcountyga.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "ga:cobb-county:cobb-county-tax-commissioner:carla-jackson",
       "name": "Carla Jackson",

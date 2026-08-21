@@ -1,13 +1,356 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-20T04:12:47.563Z",
-  "count": 17,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 30,
   "cities": [
+    "Arapahoe County",
     "Boulder",
     "Denver County",
-    "Durango"
+    "Durango",
+    "Jefferson County"
   ],
   "officials": [
+    {
+      "id": "co:arapahoe-county:arapahoe-county-commissioner:leslie-summey",
+      "name": "Leslie Summey",
+      "office": "Arapahoe County Commissioner",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/your_county/board_of_county_commissioners/commissioner_leslie_summey.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-commissioner:rhonda-fields",
+      "name": "Rhonda Fields",
+      "office": "Arapahoe County Commissioner",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/your_county/board_of_county_commissioners/commissioner_rhonda_fields.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-human-services-director:dan-makelky",
+      "name": "Dan Makelky",
+      "office": "Arapahoe County Human Services Director",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-public-health-director:jennifer-ludwig",
+      "name": "Jennifer Ludwig",
+      "office": "Arapahoe County Public Health Director",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-sheriff:tyler-brown",
+      "name": "Tyler Brown",
+      "office": "Arapahoe County Sheriff",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-city-of-aurora:francoise-bergan",
+      "name": "Francoise Bergan",
+      "office": "Councilmember, City of Aurora",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-city-of-centennial:amy-tharp",
+      "name": "Amy Tharp",
+      "office": "Councilmember, City of Centennial",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-englewood:steve-ward",
+      "name": "Steve Ward",
+      "office": "Councilmember, Englewood",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:district-attorney:amy-padden",
+      "name": "Amy Padden",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "18th Judicial District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:lieutenant,-aurora-police-department:lonnie-eddy",
+      "name": "Lonnie Eddy",
+      "office": "Lieutenant, Aurora Police Department",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:town-administrator,-bennett:trish-stiles",
+      "name": "Trish Stiles",
+      "office": "Town Administrator, Bennett",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "co:boulder:city-council-member:matt-benjamin",
       "name": "Matt Benjamin",
@@ -445,6 +788,68 @@
       },
       "source_url": "https://www.durangogov.org/27/Local-Government",
       "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:jefferson-county:board-chair,-board-of-county-commissioners:andy-kerr",
+      "name": "Andy Kerr",
+      "office": "Board Chair, Board of County Commissioners",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "303-271-6511",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Jefferson County Parkway Golden, CO 80419",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "CO"
+      },
+      "source_url": "https://www.jeffco.us/m/newsflash/home/detail/2642",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:jefferson-county:county-manager:laura-e.-aldrete",
+      "name": "Laura E. Aldrete",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "303-271-6511",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.jeffco.us/ImageRepository/Document?documentID=58607",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Jefferson County Parkway Golden, CO 80419",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "CO"
+      },
+      "source_url": "https://www.jeffco.us/m/newsflash/home/detail/2642",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

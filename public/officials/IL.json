@@ -1,11 +1,44 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 1,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 21,
   "cities": [
-    "Cook County"
+    "Chicago",
+    "Cook County",
+    "Lake County"
   ],
   "officials": [
+    {
+      "id": "il:chicago:mayor:brandon-johnson",
+      "name": "Brandon Johnson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Chicago City Council",
+      "district": null,
+      "phone": "311",
+      "email": null,
+      "url": "https://www.chicago.gov/city/en/depts/mayor.html",
+      "photo_url": "https://www.chicago.gov/content/dam/city/depts/mayor/MayorBrandonJohnson/MBJ_UIC_20230515_1.jpg",
+      "social": {
+        "twitter": "https://twitter.com/chicagosmayor",
+        "facebook": "https://www.facebook.com/profile.php?id=100092157126212",
+        "instagram": "https://www.instagram.com/chicagosmayor/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "121 N LaSalle Street Chicago City Hall 4th Floor Chicago, IL 60602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "source_url": "https://www.chicago.gov/city/en/depts/mayor.html",
+      "extracted_at": "2026-08-20T16:45:55.383Z",
+      "confidence": 1
+    },
     {
       "id": "il:cook-county:county-board-president:toni-preckwinkle",
       "name": "Toni Preckwinkle",
@@ -35,6 +68,595 @@
       },
       "source_url": "https://www.cookcountyil.gov/service/sec-34-40-use-contingency-funds-commissioners-018-890",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:adam-schlick",
+      "name": "Adam Schlick",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 2",
+      "phone": "847-313-9155",
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4783/District-2-Adam-Schlick",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=49827",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Adam Schlick (District 2) is a Lake County Board Member with a current term from 2024-2028. Board Member Schlick represents District 2, which includes Wauconda and portions of Hawthorn Woods, Mundelein, Round Lake, and Round Lake Park.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:angelo-d.-kyle",
+      "name": "Angelo D. Kyle",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 14",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4795/District-14-Angelo-D-Kyle",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:ann-maine",
+      "name": "Ann Maine",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 3",
+      "phone": "847-857-1732",
+      "email": "annmaine@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4784/District-3-Ann-Maine",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=9745",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Ann-Maine-1679050235665758/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Ann Maine has served on the Lake County Board since 2002, representing District 3. Her priorities include fiscal responsibility, sustainability, and protecting natural resources. She holds a B.A., M.S., and Ph.D. in Biochemistry and is an Assistant Professor of Biology at Lake Forest College.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:brandon-x.-ewing",
+      "name": "Brandon X. Ewing",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": "bewing@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4790/District-9-Brandon-X-Ewing",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentId=91386",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Lake County Board Member. Current Term: August-December 2026. Board Member Ewing represents portions of Waukegan and North Chicago.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:carissa-casbon",
+      "name": "Carissa Casbon",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 7",
+      "phone": "224-501-5323",
+      "email": "ccasbon@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4788/District-7-Carissa-Casbon",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=37579",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Casbon represents the District 7, which includes portions of Gurnee and Waukegan. She has been on the board since 2020.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:diane-hewitt",
+      "name": "Diane Hewitt",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 8",
+      "phone": "224-627-0883",
+      "email": "dhewitt@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4789/District-8-Diane-Hewitt",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=26659",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CountyBoardDianeHewitt",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Hewitt represents District 8, which includes portions of Beach Park and Waukegan. She has been on the board since 2008. Her main priorities are ﬁscal responsibility, transportation, and economic growth.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:esiah-campos",
+      "name": "Esiah Campos",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 16",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4797/District-16-Esiah-Campos",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:gina-roberts",
+      "name": "Gina Roberts",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 4",
+      "phone": "847-946-7475",
+      "email": "groberts@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4785/District-4-Gina-Roberts",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=37580",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Roberts represents District 4, which includes Winthrop Harbor, Zion and portions of Beach Park. She has been on the board since 2020.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:j.-kevin-hunter",
+      "name": "J. Kevin Hunter",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "countyboard@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4786/District-5-J-Kevin-Hunter",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=41269",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "J. Kevin Hunter represents District 5, which includes the Villages of Fox Lake and Lake Villa, and portions of Antioch, Grant, and Lake Villa Townships. He has been involved in the community through various elected, appointed, and volunteer activities, including serving as a village trustee, high school board member, and a retired Firefighter/EMT. He is committed to serving the community he has resided in for 31 years with passion and integrity.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:jennifer-clark",
+      "name": "Jennifer Clark",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 15",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4796/District-15-Jennifer-Clark",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:jessica-vealitzek",
+      "name": "Jessica Vealitzek",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 10",
+      "phone": "224-406-3250",
+      "email": "JVealitzek@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4791/District-10-Jessica-Vealitzek",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=26668",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Vealitzek represents District 10, which includes Indian Creek and portions of Hawthorn Woods, Lake Zurich, Long Grove, Mundelein, and Vernon Hills. She has been on the board since 2018, with priorities including environmental stewardship, infrastructure investment, and responsible government. She holds a B.A. from Lake Forest College, an M.F.A. from Roosevelt University, and a certification in Secondary English Education.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:john-wasik",
+      "name": "John Wasik",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 6",
+      "phone": "224-406-6357",
+      "email": "JWasik@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4787/District-6-John-Wasik",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=27005",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Wasik represents District 6, which includes Grayslake, Hainesville, Round Lake, Highland Lake and Third Lake, and portions of Fremont and Lake Villa Townships (West Miltmore and Venetian Village). He resides in Grayslake with his wife and two daughters, owns a small business called JK Enterprises and is a professional speaker and journalist who has authored 19 books. He is also an environmental steward, musician and avid hiker and cyclist. He has a B.A. and M.A. from the University of Illinois, Chicago.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:linda-pedersen",
+      "name": "Linda Pedersen",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 1",
+      "phone": "847-445-5504",
+      "email": "lpedersen@lakecountyil.gov",
+      "url": "https://www.lakecountyil.gov/4782/District-1-Linda-Pedersen",
+      "photo_url": "https://www.lakecountyil.gov/ImageRepository/Document?documentID=26658",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 N County Street, 10th Floor, Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Board member Pedersen represents District 1, which includes Antioch, Lindenhurst, Old Mill Creek and Wadsworth. She has been on the board since 2008. Her main priorities are fiscal responsibility, economic growth and business expansion, and smart growth and development.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:marah-altenberg",
+      "name": "Marah Altenberg",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 19",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4800/District-19-Marah-Altenberg",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:michael-danforth",
+      "name": "Michael Danforth",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 17",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4798/District-17-Michael-Danforth",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:paras-parekh",
+      "name": "Paras Parekh",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 12",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4793/District-12-Paras-Parekh",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:paul-frank",
+      "name": "Paul Frank",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 11",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4792/District-11-Paul-Frank",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:sandy-hart",
+      "name": "Sandy Hart",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 13",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4794/District-13-Sandy-Hart",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:lake-county:county-board-member:sara-knizhnik",
+      "name": "Sara Knizhnik",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Lake County Commissioners Court",
+      "district": "District 18",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lakecountyil.gov/4799/District-18-Sara-Knizhnik",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake County",
+        "state": "IL"
+      },
+      "source_url": "https://www.lakecountyil.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

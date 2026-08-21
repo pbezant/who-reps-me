@@ -1,11 +1,43 @@
 {
   "state": "OK",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 9,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 10,
   "cities": [
+    "Cleveland County",
     "Oklahoma County"
   ],
   "officials": [
+    {
+      "id": "ok:cleveland-county:chairman,-board-of-county-commissioners:rusty-grissom",
+      "name": "Rusty Grissom",
+      "office": "Chairman, Board of County Commissioners",
+      "level": "county",
+      "body": "Cleveland County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 S. Jones Ave.\nNorman, OK 73069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cleveland County",
+        "state": "OK"
+      },
+      "source_url": "https://www.clevelandcountyok.com/m/newsflash/home/detail/126",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "ok:oklahoma-county:assessor:larry-stein",
       "name": "Larry Stein",

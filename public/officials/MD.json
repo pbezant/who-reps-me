@@ -1,11 +1,943 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 4,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 33,
   "cities": [
+    "Anne Arundel County",
+    "Frederick County",
+    "Howard County",
     "Montgomery County"
   ],
   "officials": [
+    {
+      "id": "md:anne-arundel-county:clerk-of-the-court:scott-poyer",
+      "name": "Scott Poyer",
+      "office": "Clerk of the Court",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-04/scott-poyer.jpg?itok=13e44Tf9",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member---chair:julie-hummer",
+      "name": "Julie Hummer",
+      "office": "Councilmember - Chair",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 4",
+      "phone": "410-222-1401",
+      "email": "jhummer@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-4",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/julie-hummer.jpeg?itok=yIY1lLNl",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": "Julie Hummer represents District 4 in the western part of Anne Arundel County and resides in the Laurel portion of her district with her husband Jon and their 5 children. Julie is a strong advocate on issues of housing affordability, transportation, parks and recreation, and economic growth.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member-vice-chair:peter-smith",
+      "name": "Peter Smith",
+      "office": "Councilmember Vice Chair",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 1",
+      "phone": "410-222-1401",
+      "email": "petersmith@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-1",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-02/pete-fw.png?itok=YR3MroHs",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Office",
+          "city": null,
+          "address": null,
+          "phone": "410-222-2411",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Pete Smith is a long-time advocate for District 1 who pledges to serve the residents with vigor and heart. He has two children and lives in Jessup. As a Major in the Marines, he is an Intelligence Officer and the regional coordinator for Toys for Tots in addition to serving on the board of several other community organizations.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member:allison-m.-pickard",
+      "name": "Allison M. Pickard",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 2",
+      "phone": "410-222-1401",
+      "email": "allison.pickard@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-2",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/Pickard%20Headshot_2_pyramid.jpg?itok=EiXTobbt",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Office",
+          "city": null,
+          "address": null,
+          "phone": "410-222-2412",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Allison Pickard represents District 2 and resides in the Millersville portion of her district with her husband and three children. Allison is a passionate advocate for revitalization, housing, equity, and environmental issues.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member:amanda-fiedler",
+      "name": "Amanda Fiedler",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 5",
+      "phone": "410-222-1401",
+      "email": "amanda.fiedler@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-5",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/amanda-fiedler.jpg?itok=BB0CZu8b",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Office",
+          "city": null,
+          "address": null,
+          "phone": "410-222-2415",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "As the representative for District 5, Amanda Fiedler strives to serve her constituents with deep compassion and care. Ms. Fielder is proud to call District 5 home and everyone who lives there a neighbor.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member:lisa-d.-b.-rodvien",
+      "name": "Lisa D. B. Rodvien",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 6",
+      "phone": "410-222-1401",
+      "email": "lisa.rodvien@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-6",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/lisa-rodvien.jpg?itok=-OWPPF9P",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": "Lisa Rodvien is proud and honored to represent Anne Arundel County's 6th District. During her time on the County Council, she has worked hard to pass laws that will protect our environment, strengthen our schools, and address our County's housing crisis.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member:nathan-volke",
+      "name": "Nathan Volke",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 3",
+      "phone": "410-222-1401",
+      "email": "nathan.volke@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-3",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/Nathan%20Volke%20Headshot_2_pyramid.jpg?itok=S9lrRy79",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": "Nathan Volke represents District 3 and resides in Pasadena with his wife and two children. Nathan strives to bring transparency and financial responsibility, providing a connection between the constituents of District 3 and all county, state, federal & private agencies. He has proved his reputation as a vocal council member on protecting Anne Arundel County and District 3 from special interest groups and tax increases.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:council-member:shannon-leadbetter",
+      "name": "Shannon Leadbetter",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": "District 7",
+      "phone": "410-222-1401",
+      "email": "SLeadbetter@aacounty.org",
+      "url": "https://www.aacounty.org/county-council/council-districts/district-7",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/leadbetter-profile.png?itok=08SsRr5L",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 Calvert Street, 1st Floor Annapolis, MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": "Shannon Leadbetter is honored to serve the residents of District 7 in Anne Arundel County as the District 7 Councilmember. She encourages residents to reach out to introduce themselves and their community.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:county-executive:steuart-pittman",
+      "name": "Steuart Pittman",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": null,
+      "phone": "410-222-1821",
+      "email": null,
+      "url": "https://www.aacounty.org/county-executive",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/county-executive.jpg?itok=9UNu2wTk",
+      "social": {
+        "twitter": "https://twitter.com/AACoExec",
+        "facebook": "https://www.facebook.com/2216223231926341",
+        "instagram": "https://www.instagram.com/AACoExec/",
+        "linkedin": "https://www.linkedin.com/in/steuart-pittman-aa4829333/",
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:register-of-wills:jasmine-jackson",
+      "name": "Jasmine Jackson",
+      "office": "Register of Wills",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2024-06/jasmine-jackson.png?itok=_3RfQwdu",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:sheriff:everett-sesker",
+      "name": "Everett Sesker",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.aacounty.org/sheriff/about-us/everett-sesker",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2023-03/Everett-Sesker.jpg?itok=JDZZP6U6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8 Church Circle Annapolis, MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Everett L. Sesker is a proud son of Anne Arundel County. He served 22 years with the Prince George's County Police Department, rising to the rank of Major, and later became Executive Director of the Maryland Police Training and Standards Commission. Sworn in on December 6th, 2022, Sheriff Sesker is the first African American Sheriff for Anne Arundel County.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:anne-arundel-county:states-attorney:anne-colt-leitess",
+      "name": "Anne Colt Leitess",
+      "office": "State's Attorney",
+      "level": "county",
+      "body": "Anne Arundel County Commissioners Court",
+      "district": null,
+      "phone": "410-222-1740",
+      "email": "asksao@aacounty.org",
+      "url": "https://www.aacounty.org/sao/about-us/anne-colt-leitess",
+      "photo_url": "https://www.aacounty.org/sites/default/files/styles/large/public/2026-03/state-s-attorney-anne-colt-leitess-profile.jpg?itok=VZX7jyIz",
+      "social": {
+        "twitter": "https://twitter.com/AnneArundelSAO",
+        "facebook": "https://www.facebook.com/aacosao",
+        "instagram": "https://www.instagram.com/annearundelsao/",
+        "linkedin": "https://www.linkedin.com/company/office-of-the-state-s-attorney-for-anne-arundel-county",
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Anne Colt Leitess is the Elected State’s Attorney for Anne Arundel County since 2018, serving her second term. She began her career in Baltimore City in 1988 and later served as an Assistant State’s Attorney in Anne Arundel County from 1990-2013. A graduate of University of Baltimore Law School, she has focused most of her career on prosecuting homicides, violent crime, child homicide, and sexual assault cases.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anne Arundel County",
+        "state": "MD"
+      },
+      "source_url": "https://www.aacounty.org/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:county-council-member:jerry-donald",
+      "name": "Jerry Donald",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "District 1",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:county-council-member:m.c.-keegan-ayer",
+      "name": "M.C. Keegan-Ayer",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "District 3",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:county-council-member:mason-carter",
+      "name": "Mason Carter",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "District 5",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:county-council-member:renee-knapp",
+      "name": "Renee Knapp",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "At-Large",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:county-council-member:steve-mckay",
+      "name": "Steve McKay",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "District 2",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:president,-county-council-member:brad-young",
+      "name": "Brad Young",
+      "office": "President, County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "At-Large",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick-county:vice-president,-county-council-member:kavonté-duckett",
+      "name": "Kavonté Duckett",
+      "office": "Vice-President, County Council Member",
+      "level": "county",
+      "body": "Frederick County Commissioners Court",
+      "district": "District 4",
+      "phone": "301-600-9000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 E. Church St. Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Frederick County",
+        "state": "MD"
+      },
+      "source_url": "https://frederickcountymd.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:alcoholic-beverage-hearing-board-member:beth-johnson",
+      "name": "Beth Johnson",
+      "office": "Alcoholic Beverage Hearing Board Member",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:howard-county:alcoholic-beverage-hearing-board-member:claire-kim",
+      "name": "Claire Kim",
+      "office": "Alcoholic Beverage Hearing Board Member",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:howard-county:alcoholic-beverage-hearing-board-member:ed-coleman",
+      "name": "Ed Coleman",
+      "office": "Alcoholic Beverage Hearing Board Member",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:howard-county:chair-of-alcoholic-beverage-hearing-board:steven-chen",
+      "name": "Steven Chen",
+      "office": "Chair of Alcoholic Beverage Hearing Board",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:howard-county:county-council-member,-board-of-license-commissioners:christiana-rigby",
+      "name": "Christiana Rigby",
+      "office": "County Council Member, Board of License Commissioners",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": "District 3",
+      "phone": "410-313-2001",
+      "email": null,
+      "url": "https://cc.howardcountymd.gov/council-members/district-3",
+      "photo_url": "https://cc.howardcountymd.gov/sites/default/files/styles/wide/public/2023-03/Christiana%20Rigby.png?itok=hJgqcvky",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/councilwomancmr",
+        "instagram": "http://www.instagram.com/councilwomancmr",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "George Howard Building, 3430 Court House Drive, Ellicott City, MD 21043",
+      "offices": [],
+      "hours": null,
+      "bio": "My office's mission is to serve the community and create positive change. My vision for District 3 is a connected, empowered, resilient, and vibrant community that is economically healthy and collaboratively engaged.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:county-council-member,-board-of-license-commissioners:liz-walsh",
+      "name": "Liz Walsh",
+      "office": "County Council Member, Board of License Commissioners",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": "District 1",
+      "phone": "410-313-2001",
+      "email": null,
+      "url": "https://cc.howardcountymd.gov/council-members/district-1",
+      "photo_url": "https://cc.howardcountymd.gov/sites/default/files/styles/wide/public/2023-03/Liz%20Walsh.png?itok=XFfJWOQb",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/LizWalshHoCo",
+        "instagram": "http://www.instagram.com/LizWalshHoCo",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "George Howard Building, 3430 Court House Drive, Ellicott City, MD 21043",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:county-council-member,-board-of-license-commissioners:opel-jones",
+      "name": "Opel Jones",
+      "office": "County Council Member, Board of License Commissioners",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": "District 2",
+      "phone": "410-313-2001",
+      "email": null,
+      "url": "https://cc.howardcountymd.gov/council-members/district-2",
+      "photo_url": "https://cc.howardcountymd.gov/sites/default/files/styles/wide/public/2023-03/Opel%20Jones.png?itok=UF67YyFe",
+      "social": {
+        "twitter": "https://www.twitter.com/opeljones_hoco",
+        "facebook": "https://www.facebook.com/councilmanopeljones",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "George Howard Building, 3430 Court House Drive, Ellicott City, MD 21043",
+      "offices": [],
+      "hours": null,
+      "bio": "On November 6, 2018, Opel Jones was elected to be the Councilman representing the Second District of Howard County. He is honored to serve as Councilman and is looking forward to following in the steps of prior leaders by continuing their fine legacy of leadership. His focus is to enhance education, assure public and personal safety, and champion community vibrancy.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:county-council-member,-chair-of-board-of-license-commissioners:david-yungmann",
+      "name": "David Yungmann",
+      "office": "County Council Member, Chair of Board of License Commissioners",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": "District 5",
+      "phone": "410-313-2001",
+      "email": "dyungmann@howardcountymd.gov",
+      "url": "https://cc.howardcountymd.gov/council-members/district-5",
+      "photo_url": "https://cc.howardcountymd.gov/sites/default/files/styles/wide/public/2023-03/David_Yungmann_400x313.png?itok=YQC46KM6",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/HoCoCouncilD5",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "George Howard Building, 3430 Court House Drive, Ellicott City, MD 21043",
+      "offices": [],
+      "hours": null,
+      "bio": "Proudly serving District 5 since my first term installation in December 2018.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:county-council-member,-vice-chair-of-board-of-license-commissioners:deb-jung",
+      "name": "Deb Jung",
+      "office": "County Council Member, Vice Chair of Board of License Commissioners",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": "District 4",
+      "phone": "410-313-2001",
+      "email": null,
+      "url": "https://cc.howardcountymd.gov/council-members/district-4",
+      "photo_url": "https://cc.howardcountymd.gov/sites/default/files/styles/wide/public/2023-03/Deb%20Jung.png?itok=nC0MQlaf",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/councilD4",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "George Howard Building, 3430 Court House Drive, Ellicott City, MD 21043",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:howard-county:vice-chair-of-alcoholic-beverage-hearing-board:steve-hunt",
+      "name": "Steve Hunt",
+      "office": "Vice Chair of Alcoholic Beverage Hearing Board",
+      "level": "county",
+      "body": "Howard County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Howard County",
+        "state": "MD"
+      },
+      "source_url": "https://cc.howardcountymd.gov/liquor-license",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
     {
       "id": "md:montgomery-county:council-member:dawn-luedtke",
       "name": "Dawn Luedtke",

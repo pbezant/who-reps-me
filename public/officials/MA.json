@@ -1,11 +1,415 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 3,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 16,
   "cities": [
+    "Boston",
     "Norfolk County"
   ],
   "officials": [
+    {
+      "id": "ma:boston:city-council-president;-city-councilor:liz-breadon",
+      "name": "Liz Breadon",
+      "office": "City Council President; City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 9",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/liz-breadon",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/breadon-headshot.jpg?itok=Yoj06f9_",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "First elected in 2020, Liz Breadon is serving her fourth term as District 9 City Councilor, and is honored to represent all residents of Allston-Brighton at City Hall. In 2026, Councilor Breadon was elected as Boston City Council President. She is the first openly LGBTQ+ woman elected to the Boston City Council, the first openly LGBTQ+ woman to serve as Boston City Council President, and the first Council President to represent Allston-Brighton.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:benjamin-j.-weber",
+      "name": "Benjamin J. Weber",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 6",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/benjamin-j-weber",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/weber-headshot.jpg?itok=KcETIqYI",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:brian-worrell",
+      "name": "Brian Worrell",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 4",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/brian-worrell",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/worrell-headshot.png?itok=lE03uYXT",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Worrell is the Boston City Councilor for District 4, which includes Mattapan, Dorchester, and parts of Jamaica Plain and Roslindale. He has served as Vice President of the Boston City Council and Chair of the Council’s Committee on Ways and Means, where he led the Council’s review of the City’s FY25 and FY26 budgets. A native Bostonian, Councilor Worrell is the son of parents who immigrated from Jamaica and Barbados and is a small business owner.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:edward-m.-flynn",
+      "name": "Edward M. Flynn",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 2",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/edward-m-flynn",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/person_profile/photos/2018/01/flynn-headshot.jpg?itok=AEvrGpZr",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "In January 2022, Councilor Edward M. Flynn was unanimously elected by his colleagues to serve as Council President. A resident of District 2, he previously served as a Probation Officer and for 24 years in the U.S. Navy and U.S. Navy reserve, including Operation ENDURING FREEDOM. He also worked for five years in the U.S. Department of Labor under President Clinton.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:enrique-j.-pepén",
+      "name": "Enrique J. Pepén",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 5",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/enrique-j-pepen",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/pepen-headshot.png?itok=LPrX8zJF",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Enrique J. Pepén is the Boston City Councilor for District 5, representing Hyde Park, Mattapan, Readville, and Roslindale, and is entering his second term. He is a solutions-driven leader focused on transportation safety, housing affordability, immigrant protections, and responsive constituent services. Born and raised in Boston, he is the proud son of two Dominican immigrants.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:erin-j.-murphy",
+      "name": "Erin J. Murphy",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "At-Large",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/erin-j-murphy",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/murphy-headshot.png?itok=fibo2t-Z",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Erin J. Murphy is a Boston City Councilor At-Large and a dedicated public servant, currently serving her third full term on the Council. Prior to her election, she spent over two decades as a teacher in Boston Public Schools. Councilor Murphy is a strong advocate for public health, recovery, and effective city governance, focusing on education, housing, and public safety.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:gabriela-coletta-zapata",
+      "name": "Gabriela Coletta Zapata",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 1",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/gabriela-coletta-zapata",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/coletta-headshot.png?itok=HQeJ7uCI",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Fighting on behalf of her community is the only thing Councilor Gabriela “Gigi” Coletta Zapata has ever known. Raised by community advocates in East Boston, Councilor Coletta Zapata grew up attending civic association meetings, neighborhood events, and even multiple protests against airport runway expansion alongside her mother, Nina. Those early experiences shaped a lifelong commitment to advocacy, equity, and public service — a commitment she has carried into every stage of her career and leadership on the Boston City Council.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:henry-santana",
+      "name": "Henry Santana",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "At-Large",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/henry-santana",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/santana-headshot.jpg?itok=Rx8AEG-6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Henry Santana, an At-Large City Councilor, brings a unique blend of experiences and a deep commitment to community upliftment, having grown up in Mission Hill after moving to Boston from the Dominican Republic. Dedicated to community service from a young age, he previously served as the inaugural director for Mayor Michelle Wu's Office of Civic Organizing and as Director of Operations for Councilor Kenzie Bok. Councilor Santana is committed to representing every resident of Boston and creating a more accessible and equitable city.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:john-fitzgerald",
+      "name": "John FitzGerald",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 3",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/john-fitzgerald",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/fitzgerald-headshot.png?itok=N-yoXZRc",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "John FitzGerald was elected to the Boston City Council on November 7, 2023, representing District 3 which includes most of Dorchester and a portion of the South End. He grew up in a tight-knit Boston family where serving others was an important value, and has a long history of public service with the City of Boston.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:julia-m.-mejia",
+      "name": "Julia M. Mejia",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "At-Large",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/julia-mejia",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/mejia-headshot.png?itok=1f7Fd3wx",
+      "social": {
+        "twitter": "https://twitter.com/Juliaforboston",
+        "facebook": "https://facebook.com/Juliaforboston",
+        "instagram": "https://instagram.com/Juliaforboston",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Boston City Councilor At-Large Julia Mejia is a trailblazer and a dedicated community advocate. Making history in 2019 by winning her first term with a single vote, she became the first Afro-Latina to hold a seat on the Boston City Council. In her fourth term as a City Councilor At-Large, Councilor Mejia is a proven barrier breaker, independent voice, and someone who speaks truth to power while creating space for others to step into their power.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:miniard-culpepper",
+      "name": "Miniard Culpepper",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 7",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/miniard-culpepper",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/culpepper-headshot.png?itok=bgXeN_BY",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:ruthzee-louijeune",
+      "name": "Ruthzee Louijeune",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "At-Large",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/ruthzee-louijeune",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/ruthzee-headshot.png?itok=251EXLEF",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": "Ruthzee Louijeune, serving her third term as City Councilor At-Large, is a grounded, thoughtful, and inclusive leader. A dedicated public servant, Councilor Louijeune is committed to fostering shared prosperity in Boston with a focus on justice and equity. Born and raised in Mattapan and Hyde Park to working-class Haitian immigrants, Councilor Louijeune's journey is deeply rooted in the fabric of Boston.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:boston:city-councilor:sharon-durkan",
+      "name": "Sharon Durkan",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Boston City Council",
+      "district": "District 8",
+      "phone": "617-635-3040",
+      "email": "city.council@boston.gov",
+      "url": "https://www.boston.gov/departments/city-council/sharon-durkan",
+      "photo_url": "https://www.boston.gov/sites/default/files/styles/person_photo_a_mobile_1x/public/img/library/photos/2026/02/durkan-headshot.png?itok=wl89SCeI",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 City Hall Square Room 550 Boston, MA 02201-2043 United States",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "source_url": "https://www.boston.gov/departments/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "ma:norfolk-county:chairman-of-the-county-commission:joseph-p.-shea",
       "name": "Joseph P. Shea",

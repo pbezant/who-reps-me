@@ -1,12 +1,171 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 16,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 43,
   "cities": [
+    "Clark County",
     "King County",
-    "Pierce County"
+    "Kitsap County",
+    "Pierce County",
+    "Spokane County",
+    "Thurston County"
   ],
   "officials": [
+    {
+      "id": "wa:clark-county:chair/councilor:sue-marshall",
+      "name": "Sue Marshall",
+      "office": "Chair / Councilor",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://clark.wa.gov/sites/default/files/media/image/2022-12/Marshall_400_300_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WA"
+      },
+      "source_url": "https://clark.wa.gov/councilors",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clark-county:councilor:glen-yung",
+      "name": "Glen Yung",
+      "office": "Councilor",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://clark.wa.gov/sites/default/files/media/image/2023-02/Yung_400_300_webREV.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WA"
+      },
+      "source_url": "https://clark.wa.gov/councilors",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clark-county:councilor:matt-little",
+      "name": "Matt Little",
+      "office": "Councilor",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://clark.wa.gov/sites/default/files/media/image/2025-01/little_matt_council4_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WA"
+      },
+      "source_url": "https://clark.wa.gov/councilors",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clark-county:councilor:michelle-belkot",
+      "name": "Michelle Belkot",
+      "office": "Councilor",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://clark.wa.gov/sites/default/files/media/image/2023-01/Belkot_Michelle_400_300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WA"
+      },
+      "source_url": "https://clark.wa.gov/councilors",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clark-county:councilor:wil-fuentes",
+      "name": "Wil Fuentes",
+      "office": "Councilor",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://clark.wa.gov/sites/default/files/media/image/2025-01/fuentes_will_council3.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WA"
+      },
+      "source_url": "https://clark.wa.gov/councilors",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "wa:king-county:king-county-council-member:claudia-balducci",
       "name": "Claudia Balducci",
@@ -318,6 +477,285 @@
       "confidence": 1
     },
     {
+      "id": "wa:kitsap-county:assessor:phil-cook",
+      "name": "Phil Cook",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7160",
+      "email": "assessor@kitsap.gov",
+      "url": "https://www.kitsap.gov/assessor/Pages/default.aspx",
+      "photo_url": "https://www.kitsap.gov/assessor/PublishingImages/philcook_flag_2023.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-22 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": "Monday – Thursday: 9 AM to 4 PM Fridays: 9 AM to Noon",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:auditor:paul-andrews",
+      "name": "Paul Andrews",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7129",
+      "email": "auditor@kitsap.gov",
+      "url": "https://www.kitsap.gov/auditor/Pages/auditor-bio.aspx",
+      "photo_url": "https://www.kitsap.gov/auditor/PublishingImages/PaulAndrews2019.jpg",
+      "social": {
+        "twitter": "https://twitter.com/KitsapAuditor",
+        "facebook": "https://www.facebook.com/KitsapCountyAuditor",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-31 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": "As Kitsap County Auditor, Paul Andrews oversees elections, document recording, payroll, county finances, and licensing. He is President of the Washington State Association of County Auditors and serves on the Washington State Recording Standards Commission and the VoteWA Executive Steering Committee. Prior to his election, Paul spent over 25 years as an IT professional, focusing on modernization, transparency, and accessibility.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:clerk:david-lewis",
+      "name": "David Lewis",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7164",
+      "email": null,
+      "url": "https://www.kitsap.gov/clerk/Pages/default.aspx",
+      "photo_url": "https://www.kitsap.gov/clerk/PublishingImages/David%20T.%20Lewis%20III.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-34 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 a.m. - 12:15 p.m. and 1:15 p.m. - 4:30 p.m. The office is closed for lunch from 12:15-1:15pm daily.",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:county-commissioner:christine-rolfes",
+      "name": "Christine Rolfes",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": "District 1",
+      "phone": "360-337-7080",
+      "email": "crolfes@kitsap.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-4 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:county-commissioner:katie-walters",
+      "name": "Katie Walters",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": "District 3",
+      "phone": "360-337-7080",
+      "email": "kwalters@kitsap.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-4 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:county-commissioner:oran-root",
+      "name": "Oran Root",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": "District 2",
+      "phone": "360-337-7080",
+      "email": "oroot@kitsap.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-4 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:prosecuting-attorney:chad-m.-enright",
+      "name": "Chad M. Enright",
+      "office": "Prosecuting Attorney",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7174",
+      "email": null,
+      "url": "https://www.kitsap.gov/pros/Pages/Chad_Enright-Biography.aspx",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-35 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": "Chad M. Enright took office as the 21st Kitsap County Prosecuting Attorney in January of 2019. He was raised in Poulsbo and attended North Kitsap High School, graduating from the University of Washington and Seattle University School of Law. He began his career with the Kitsap County Prosecutor's Office in 2008 as a felony trial attorney, focusing on special assault and mental health issues, and later served as Chief of the Felony and Juvenile Division.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:sheriff:john-gese",
+      "name": "John Gese",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7101",
+      "email": null,
+      "url": "https://www.kitsap.gov/sheriff/Pages/default.aspx",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-37 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kitsap-county:treasurer:pete-boissonneau",
+      "name": "Pete Boissonneau",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Kitsap County Commissioners Court",
+      "district": null,
+      "phone": "360-337-7135",
+      "email": "treasurer@kitsap.gov",
+      "url": "https://www.kitsap.gov/treasurer/Pages/default.aspx",
+      "photo_url": "https://www.kitsap.gov/treasurer/PublishingImages/Treasurer%20Peter%20J.%20Boissonneau.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "614 Division Street, MS-32 Port Orchard, WA 98366",
+      "offices": [],
+      "hours": "Monday - Friday 9:00 am - 4:00 pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Kitsap County",
+        "state": "WA"
+      },
+      "source_url": "https://www.kitsap.gov/auditor/Pages/Elected_Officials.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:pierce-county:assessor-treasurer:marty-campbell",
       "name": "Marty Campbell",
       "office": "Assessor-Treasurer",
@@ -501,6 +939,409 @@
       },
       "source_url": "https://www.piercecountywa.gov/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:board-of-equalization-member:david-crosby",
+      "name": "David Crosby",
+      "office": "Board of Equalization Member",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": "509-477-2250",
+      "email": null,
+      "url": "https://www.spokanecounty.gov/163/David-Crosby",
+      "photo_url": "https://www.spokanecounty.gov/ImageRepository/Document?documentID=47",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "721 N Jefferson Street Suite 201 Spokane , WA 99260",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4 p.m. Closed for lunch: 12:30 p.m. - 1:30 p.m. By appointment only, please call to schedule.",
+      "bio": "David Crosby has been in the real estate industry since 1988, specializing in all facets of real estate. He is a Member of Spokane County Board of Equalization and has served on the Board since May 2015.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:board-of-equalization-member:frank-gebhardt",
+      "name": "Frank Gebhardt",
+      "office": "Board of Equalization Member",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": "509-477-2250",
+      "email": null,
+      "url": "https://www.spokanecounty.gov/3853/Frank-Gebhardt",
+      "photo_url": "https://www.spokanecounty.gov/ImageRepository/Document?documentID=16487",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "721 N Jefferson Street\nSuite 201\nSpokane, WA 99260",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4 p.m.\nClosed for lunch: 12:30 p.m. - 1:30 p.m.\nBy appointment only, please call to schedule.",
+      "bio": "Frank Gebhardt was appointed to the Board of Equalization in May 2017. Frank has practiced law in Spokane since 1972, concentrating his practice in the areas of business and commercial law; and real estate and banking law.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:board-of-equalization-member:ken-garceau",
+      "name": "Ken Garceau",
+      "office": "Board of Equalization Member",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": "509-477-2250",
+      "email": null,
+      "url": "https://www.spokanecounty.gov/4130/Ken-Garceau",
+      "photo_url": "https://www.spokanecounty.gov/ImageRepository/Document?documentID=20388",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "721 N Jefferson Street Suite 201 Spokane, WA 99260",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4 p.m. Closed for lunch: 12:30 p.m. - 1:30 p.m. By appointment only, please call to schedule.",
+      "bio": "Ken Garceau is our newest member and was appointed to the Board of Equalization in April 2018. He is currently a real estate broker for Windermere Manito representing both buyers and sellers in residential home and land transactions with 16 years of experience.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:board-of-equalization-member:larry-howes",
+      "name": "Larry Howes",
+      "office": "Board of Equalization Member",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": "509-477-2250",
+      "email": null,
+      "url": "https://www.spokanecounty.gov/164/Larry-Howes",
+      "photo_url": "https://www.spokanecounty.gov/ImageRepository/Document?documentID=42",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "721 N Jefferson Street\nSuite 201\nSpokane , WA 99260",
+      "offices": [],
+      "hours": "Monday - Friday\n8:30 a.m. - 4 p.m.\nClosed for lunch:\n12:30 p.m. - 1:30 p.m.\nBy appointment only, please call to schedule.",
+      "bio": "Larry Howes is a Washington State Certified Residential Appraiser, and has been in the Real Estate business since 1969.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:board-of-equalization-member:lisa-miller",
+      "name": "Lisa Miller",
+      "office": "Board of Equalization Member",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": "509-477-2250",
+      "email": null,
+      "url": "https://www.spokanecounty.gov/5785/Lisa-Miller",
+      "photo_url": "https://www.spokanecounty.gov/ImageRepository/Document?documentId=57443",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "721 N Jefferson Street Suite 201 Spokane , WA 99260",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4 p.m. Closed for lunch: 12:30 p.m. - 1:30 p.m. By appointment only, please call to schedule.",
+      "bio": "Board Member Lisa Miller hears appeals in the tax, commercial, and finance sectors and is an expert in administrative law. She has heard 300 tax and finance matters totaling $150m. Ms. Miller decided $200m in claims in 10 years arbitrating securities, commodities, and commercial disputes.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:spokane-county:county-commissioner:chris-jordan",
+      "name": "Chris Jordan",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CommissionerChrisJordan",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "wa:spokane-county:county-commissioner:kerns",
+      "name": "Kerns",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CommissionerKerns/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "wa:spokane-county:county-commissioner:kuney",
+      "name": "Kuney",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Spokane County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CommissionerKuney/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane County",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanecounty.gov/27/Your-Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "wa:thurston-county:commissioner:carolina-mejia",
+      "name": "Carolina Mejia",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Thurston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "carolina.mejia@co.thurston.wa.us",
+      "url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/commissioner-district-1",
+      "photo_url": "https://s3.us-west-2.amazonaws.com/thurstoncountywa.gov.if-us-west-2/s3fs-public/styles/max_width_800/public/2024-03/Carolina.jpg?itok=B4z3ryIr",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Commissioner.Carolina.Mejia/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Carolina Mejia is a dedicated resident of Thurston County, serving her second term as Commissioner, which expires in 2028. She holds a Bachelor of Arts in Business Administration and previously worked as a Judicial Assistant with Thurston County Superior Court. Elected to the Board of County Commissioners in 2021, she is committed to volunteering and advocating for diverse communities.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Thurston County",
+        "state": "WA"
+      },
+      "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:thurston-county:commissioner:emily-clouse",
+      "name": "Emily Clouse",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Thurston County Commissioners Court",
+      "district": "District 5",
+      "phone": "360-480-7884",
+      "email": "emily.clouse@co.thurston.wa.us",
+      "url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/commissioner-emily-clouse-district-5",
+      "photo_url": "https://s3.us-west-2.amazonaws.com/thurstoncountywa.gov.if-us-west-2/s3fs-public/styles/max_width_800/public/2025-06/Com%20Clouse%20Photo.png?itok=U1mnXaCx",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/emily.clousethurstoncounty/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Emily is a lifelong resident of Thurston County and a proud alumna of North Thurston High School. Her journey of service began in the Army, where she served as a Military Intelligence Analyst. After her military service, Emily returned to Thurston County to manage two of her family's small businesses.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Thurston County",
+        "state": "WA"
+      },
+      "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:thurston-county:commissioner:rachel-grant",
+      "name": "Rachel Grant",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Thurston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "rachel.grant@co.thurston.wa.us",
+      "url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/commissioner-district-2",
+      "photo_url": "https://s3.us-west-2.amazonaws.com/thurstoncountywa.gov.if-us-west-2/s3fs-public/styles/max_width_800/public/2025-01/Rachel%20Grant%203x4.jpg?itok=5qk7GiDt",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=61573202783750",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Thurston and Mason counties, Rachel Grant brings over a decade of public service leadership to her role as Thurston County Commissioner. She has built her career on a strong foundation in behavioral health policy, finance, operations, and workforce investments, with a commitment to strengthening the systems that support those facing mental health and substance use challenges. Her extensive experience includes senior roles at the Health Care Authority and the Department of Social and Health Services.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Thurston County",
+        "state": "WA"
+      },
+      "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:thurston-county:commissioner:tye-menser",
+      "name": "Tye Menser",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Thurston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "tye.menser@co.thurston.wa.us",
+      "url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/commissioner-district-3",
+      "photo_url": "https://s3.us-west-2.amazonaws.com/thurstoncountywa.gov.if-us-west-2/s3fs-public/styles/max_width_800/public/2024-09/Tye%20Menser%203x4.jpg?itok=IzmGDK1P",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/TyeMenserThurstonCountyCommissioner",
+        "instagram": "https://www.instagram.com/commissioner_tye_menser/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Tye has lived in Thurston County for nearly two decades with his wife, an elementary school teacher, and two children. In 1993, Tye graduated with honors from Harvard College, with a degree in Government. In 1997, he graduated from law school at the University of California at Berkeley.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Thurston County",
+        "state": "WA"
+      },
+      "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:thurston-county:commissioner:wayne-fournier",
+      "name": "Wayne Fournier",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Thurston County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "wayne.fournier@co.thurston.wa.us",
+      "url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/commissioner-wayne-fournier-district-4",
+      "photo_url": "https://s3.us-west-2.amazonaws.com/thurstoncountywa.gov.if-us-west-2/s3fs-public/styles/max_width_800/public/2024-03/Fournier%20resized.jpg?itok=NpiRFH7s",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=61554797083154",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3000 Pacific Avenue SE Olympia, WA 98501",
+      "offices": [],
+      "hours": null,
+      "bio": "Wayne was born and raised in Tenino, Washington, graduating from Tenino High School in 1998 and later earning a Bachelor of Arts in Philosophy and Psychology from Washington State University in 2005. He has dedicated over 25 years to public service as a firefighter, serving as a mentor and instructor. Wayne previously served on the Tenino City Council and as Mayor of Tenino from 2015-2023 before being elected to the Thurston County Board of County Commissioners for District 4 in 2023.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Thurston County",
+        "state": "WA"
+      },
+      "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

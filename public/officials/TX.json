@@ -1,8 +1,9 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-21T00:06:48.245Z",
-  "count": 160,
+  "generated_at": "2026-08-21T05:32:50.234Z",
+  "count": 165,
   "cities": [
+    "Arlington",
     "Austin",
     "Bastrop",
     "Bastrop County",
@@ -10,8 +11,10 @@
     "Bexar County",
     "Caldwell County",
     "Collin County",
+    "Corpus Christi",
     "Dallas County",
     "Denton County",
+    "El Paso",
     "El Paso County",
     "Elgin",
     "Fort Bend County",
@@ -35,104 +38,150 @@
   ],
   "officials": [
     {
+      "id": "tx:arlington:mayor:jim-ross",
+      "name": "Jim Ross",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Arlington City Council",
+      "district": null,
+      "phone": "817-459-6122",
+      "email": null,
+      "url": "https://www.arlingtontx.gov/Government/City-Government/Mayor-Jim-Ross",
+      "photo_url": "https://www.arlingtontx.gov/files/assets/city/v/5/city-council/images/mayor-jim-ross-horizontal.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 90231\nArlington, TX 76004-3231",
+      "offices": [],
+      "hours": "Monday to Friday\n8:00am - 5:00pm",
+      "bio": "Mayor Jim Ross was elected to the office of Mayor at the City of Arlington in June 2021. Jim has spent decades serving his community and his country. As a proud resident of Arlington for forty years, he has witnessed the growth and growing pains this community has endured.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Arlington",
+        "state": "TX"
+      },
+      "source_url": "https://www.arlingtontx.gov/Government/Contact-Us?OC_EA_EmergencyAnnouncementList_Dismiss=d6384cea-be50-47fe-925b-431c024cdd64",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.8
+    },
+    {
       "id": "tx:austin:council-member:josé-chito-vela",
       "name": "José “Chito” Vela",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 4",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-4",
+      "photo_url": "https://austin.widen.net/content/spldtxxmzu/web/Austin%20City%20Council%20-%20Web_Council_Jose_Chito_Vela_Crop.jpg?crop=yes&w=304&h=304&itok=9-F83vkg",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:josé-velásquez",
       "name": "José Velásquez",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 3",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-3",
+      "photo_url": "https://austin.widen.net/content/ufcm3olplb/web/Austin%20District%203%20-%20Web_jose-velasquez-headshot-opt.jpg?crop=yes&w=304&h=304&itok=dPbfDkmG",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:krista-laine",
       "name": "Krista Laine",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 6",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-6",
+      "photo_url": "https://austin.widen.net/content/fpdakcaplq/web/Austin%20District%206%20-%20Web_laine-headshot-opt.jpg?crop=yes&w=304&h=304&itok=PsGsTdIh",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:marc-duchen",
       "name": "Marc Duchen",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 10",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-10",
+      "photo_url": "https://austin.widen.net/content/3cfmz0sep2/web/Austin%20City%20Council%20-%20Web_Council_Duchen_Marc_Crop2.jpg?crop=yes&w=304&h=304&itok=Kf3A_DQT",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:mike-siegel",
       "name": "Mike Siegel",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 7",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-7",
+      "photo_url": "https://austin.widen.net/content/f41j8akw29/web/Austin%20District%207%20-%20Web_mike-headshot.jpg?crop=yes&w=304&h=304&itok=lJ7G3gAC",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:natasha-harper-madison",
@@ -144,14 +193,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.austintexas.gov/district-1",
-      "photo_url": "https://austin.widen.net/content/6ownj6z5sv/web/Austin%20District%201%20-%20Web_D1-Headshot.jpg?crop=yes&w=1312&h=1168&itok=iajRecr4",
+      "photo_url": "https://austin.widen.net/content/6ownj6z5sv/web/Austin%20District%201%20-%20Web_D1-Headshot.jpg?crop=yes&w=304&h=304&itok=mnU5UNkO",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
-      "source_url": "https://www.austintexas.gov/district-1",
-      "extracted_at": "2026-08-21T00:06:43.923Z",
+      "source_url": "https://www.austintexas.gov/department/city-council",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -160,82 +209,94 @@
     {
       "id": "tx:austin:council-member:paige-ellis",
       "name": "Paige Ellis",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 8",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-8",
+      "photo_url": "https://austin.widen.net/content/ldixhspulc/web/Austin%20District%208%20-%20Web_PJE-profiledetail-opt.png?crop=yes&w=304&h=304&itok=05ZmPDnL",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:ryan-alter",
       "name": "Ryan Alter",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 5",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-5",
+      "photo_url": "https://austin.widen.net/content/4ifdat3608/web/Austin%20District%205%20-%20Web_ryan-headshot.jpg?crop=yes&w=304&h=304&itok=bBStM1HM",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:vanessa-fuentes",
       "name": "Vanessa Fuentes",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 2",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-2",
+      "photo_url": "https://austin.widen.net/content/6grhqgjq6j/web/Austin%20District%202%20-%20Web_vanessa-headshot-council.jpg?crop=yes&w=304&h=304&itok=NoTe9pVe",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:council-member:zohaib-zo-qadri",
       "name": "Zohaib \"Zo\" Qadri",
-      "office": "City Council Member",
+      "office": "Council Member",
       "level": "local",
       "body": "Austin City Council",
       "district": "District 9",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/district-9",
+      "photo_url": "https://austin.widen.net/content/n58pj80chm/web/Austin%20District%209%20-%20Web_zo-headshot-opt.jpg?crop=yes&w=304&h=304&itok=8DdBhz9i",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:austin:mayor:kirk-watson",
@@ -246,16 +307,19 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
+      "url": "https://www.austintexas.gov/mayor",
+      "photo_url": "https://austin.widen.net/content/sy9elcnoc3/web/Austin%20Mayor%20-%20Web_mayor-headshot-optimized.jpg?crop=yes&w=304&h=304&itok=c6t6HmZi",
       "address": null,
       "jurisdiction": {
         "city": "Austin",
         "state": "TX"
       },
       "source_url": "https://www.austintexas.gov/department/city-council",
-      "extracted_at": "2026-08-18T18:11:02.875Z",
-      "confidence": 1
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:bastrop-county:county-commissioner:null",
@@ -649,7 +713,7 @@
       "body": "Caldwell County Commissioners Court",
       "district": "Precinct 1",
       "phone": "512-376-1507",
-      "email": null,
+      "email": "bj.westmoreland@co.caldwell.tx.us",
       "url": null,
       "photo_url": null,
       "address": "110 S. Main St., Room 103 Lockhart, TX 78644",
@@ -658,7 +722,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -672,7 +736,7 @@
       "body": "Caldwell County Commissioners Court",
       "district": "Precinct 4",
       "phone": "512-359-4649",
-      "email": null,
+      "email": "dyral.thomas@co.caldwell.tx.us",
       "url": null,
       "photo_url": null,
       "address": "110 S. Main St., Room 103 Lockhart, TX 78644",
@@ -681,7 +745,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -711,6 +775,37 @@
       "bio_checked_at": null
     },
     {
+      "id": "tx:caldwell-county:commissioner:edward-theriot",
+      "name": "Edward Theriot",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Caldwell County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "512-618-2865",
+      "email": "ed.theriot@co.caldwell.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "110 S. Main St., Room 103 Lockhart, TX 78644",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Caldwell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:caldwell-county:commissioner:rusty-horne",
       "name": "Rusty Horne",
       "office": "Commissioner",
@@ -718,7 +813,7 @@
       "body": "Caldwell County Commissioners Court",
       "district": "Precinct 2",
       "phone": "512-359-4647",
-      "email": null,
+      "email": "rusty.horne@co.caldwell.tx.us",
       "url": null,
       "photo_url": null,
       "address": "110 S. Main St., Room 103 Lockhart, TX 78644",
@@ -727,7 +822,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -924,6 +1019,68 @@
       },
       "source_url": "https://www.collincountytx.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:corpus-christi:city-manager:peter-zanoni",
+      "name": "Peter Zanoni",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Corpus Christi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Corpus Christi",
+        "state": "TX"
+      },
+      "source_url": "https://www.cctexas.com/#",
+      "extracted_at": "2026-08-20T21:18:56.640Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:corpus-christi:mayor:paulette-guajardo",
+      "name": "Paulette Guajardo",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Corpus Christi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Corpus Christi",
+        "state": "TX"
+      },
+      "source_url": "https://www.cctexas.com/#",
+      "extracted_at": "2026-08-20T21:18:56.640Z",
       "confidence": 1
     },
     {
@@ -1389,6 +1546,37 @@
       },
       "source_url": "https://www.epcounty.com/165/Commissioners-Court",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:el-paso:city-representative:dr.-josh-acevedo",
+      "name": "Dr. Josh Acevedo",
+      "office": "City Representative",
+      "level": "local",
+      "body": "El Paso City Council",
+      "district": "District 2",
+      "phone": "915-212-0002",
+      "email": "jacevedo@elpasotexas.gov",
+      "url": "https://www.elpasotexas.gov/government/district-2",
+      "photo_url": "https://www.elpasotexas.gov/assets/Images/CoEP/District-2/District-2-Josh-Acevedo.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CityRepAcevedo/",
+        "instagram": "https://www.instagram.com/cityrepacevedo/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 N. Campbell El Paso, Texas 79901",
+      "offices": [],
+      "hours": "Mon-Fri | 8:00 a.m. to 5:00 p.m.",
+      "bio": "Representative Josh Acevedo was born and raised in the Five Points neighborhood of Central El Paso and has dedicated his career to public service. A four-time graduate of UTEP, he previously served on the El Paso Independent School District Board of Trustees from 2019 to 2024 before being elected to the City Council.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "El Paso",
+        "state": "TX"
+      },
+      "source_url": "https://www.elpasotexas.gov/government/district-2",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {
@@ -3300,13 +3488,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:mary-ann-labowski",
       "name": "Mary Ann Labowski",
-      "office": "City Councilmember",
+      "office": "Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 5",
@@ -3331,13 +3519,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:michael-capizzi",
       "name": "Michael Capizzi",
-      "office": "City Councilmember",
+      "office": "Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 2",
@@ -3362,13 +3550,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:toni-carter",
       "name": "Toni Carter",
-      "office": "City Councilmember",
+      "office": "Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 1",
@@ -3393,7 +3581,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-19T21:57:11.300Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1
     },
     {
