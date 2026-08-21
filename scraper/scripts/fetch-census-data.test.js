@@ -6,7 +6,20 @@ import {
   popestYearFromVintage,
   parseGazetteerYears,
   parsePopestVintages,
+  detectLatestGazetteerYear,
+  detectLatestPopestVintage,
 } from "./fetch-census-data.js";
+
+// detectLatestGazetteerYear()/detectLatestPopestVintage() call the bare global `fetch` (both to
+// list the parent directory and to probe a candidate before trusting it), so stubbing
+// globalThis.fetch here reaches them without any refactor — same pattern as fetch.test.js.
+function stubFetch(impl) {
+  const original = globalThis.fetch;
+  globalThis.fetch = impl;
+  return () => {
+    globalThis.fetch = original;
+  };
+}
 
 const OPTS = { gazetteerYear: "2025", popestVintage: "2020-2025" };
 
@@ -84,4 +97,126 @@ test("parsePopestVintages() extracts every vintage folder with its start/end yea
     { start: 2020, end: 2024 },
     { start: 2020, end: 2025 },
   ]);
+});
+
+// Regression coverage for the 2026-08-21 incident: Census had already listed "2026_Gazetteer/" in
+// the directory index, but every per-state file inside it 404'd (the folder was created before
+// being populated) — detectLatestGazetteerYear() must probe a candidate before trusting it, not
+// just trust whatever's newest in the listing.
+function fakeRes(status, body = "") {
+  return { ok: status >= 200 && status < 300, status, text: async () => body };
+}
+
+const GAZETTEER_INDEX_WITH_UNPOPULATED_YEAR = `
+<a href="2024_Gazetteer/">2024_Gazetteer/</a>
+<a href="2025_Gazetteer/">2025_Gazetteer/</a>
+<a href="2026_Gazetteer/">2026_Gazetteer/</a>
+`;
+
+test("detectLatestGazetteerYear() trusts the newest listed year when its probe file exists", async () => {
+  const restore = stubFetch(async (url, opts) => {
+    if (url.endsWith("/gazetteer/")) return fakeRes(200, GAZETTEER_INDEX_HTML);
+    if (opts?.method === "HEAD" && url.endsWith("2025_Gazetteer/2025_gaz_place_44.txt")) return fakeRes(200);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestGazetteerYear("2020"), "2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestGazetteerYear() falls through to an older listed year when the newest is listed but not yet populated", async () => {
+  const restore = stubFetch(async (url, opts) => {
+    if (url.endsWith("/gazetteer/")) return fakeRes(200, GAZETTEER_INDEX_WITH_UNPOPULATED_YEAR);
+    if (opts?.method === "HEAD" && url.endsWith("2026_Gazetteer/2026_gaz_place_44.txt")) return fakeRes(404);
+    if (opts?.method === "HEAD" && url.endsWith("2025_Gazetteer/2025_gaz_place_44.txt")) return fakeRes(200);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestGazetteerYear("2020"), "2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestGazetteerYear() falls back to the fallback value when every listed year fails its probe", async () => {
+  const restore = stubFetch(async (url) => {
+    if (url.endsWith("/gazetteer/")) return fakeRes(200, `<a href="2026_Gazetteer/">2026_Gazetteer/</a>`);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestGazetteerYear("2025"), "2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestGazetteerYear() falls back to the fallback value when the directory listing itself fails", async () => {
+  const restore = stubFetch(async () => {
+    throw new Error("network down");
+  });
+  try {
+    assert.equal(await detectLatestGazetteerYear("2025"), "2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestGazetteerYear() treats a HEAD 405 as unsupported and retries the probe with GET", async () => {
+  const restore = stubFetch(async (url, opts) => {
+    if (url.endsWith("/gazetteer/")) return fakeRes(200, `<a href="2025_Gazetteer/">2025_Gazetteer/</a>`);
+    if (url.endsWith("2025_Gazetteer/2025_gaz_place_44.txt")) return fakeRes(opts?.method === "HEAD" ? 405 : 200);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestGazetteerYear("2020"), "2025");
+  } finally {
+    restore();
+  }
+});
+
+const POPEST_INDEX_WITH_UNPOPULATED_VINTAGE = `
+<a href="2020-2024/">2020-2024/</a>
+<a href="2020-2025/">2020-2025/</a>
+<a href="2020-2026/">2020-2026/</a>
+`;
+
+test("detectLatestPopestVintage() trusts the newest listed vintage when its probe file exists", async () => {
+  const restore = stubFetch(async (url, opts) => {
+    if (url.endsWith("/datasets/")) return fakeRes(200, POPEST_INDEX_HTML);
+    if (opts?.method === "HEAD" && url.endsWith("2020-2025/counties/totals/co-est2025-alldata.csv")) return fakeRes(200);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestPopestVintage("2020-2020"), "2020-2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestPopestVintage() falls through to an older listed vintage when the newest is listed but not yet populated", async () => {
+  const restore = stubFetch(async (url, opts) => {
+    if (url.endsWith("/datasets/")) return fakeRes(200, POPEST_INDEX_WITH_UNPOPULATED_VINTAGE);
+    if (opts?.method === "HEAD" && url.endsWith("2020-2026/counties/totals/co-est2026-alldata.csv")) return fakeRes(404);
+    if (opts?.method === "HEAD" && url.endsWith("2020-2025/counties/totals/co-est2025-alldata.csv")) return fakeRes(200);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestPopestVintage("2020-2020"), "2020-2025");
+  } finally {
+    restore();
+  }
+});
+
+test("detectLatestPopestVintage() falls back to the fallback value when every listed vintage fails its probe", async () => {
+  const restore = stubFetch(async (url) => {
+    if (url.endsWith("/datasets/")) return fakeRes(200, `<a href="2020-2026/">2020-2026/</a>`);
+    return fakeRes(404);
+  });
+  try {
+    assert.equal(await detectLatestPopestVintage("2020-2025"), "2020-2025");
+  } finally {
+    restore();
+  }
 });
