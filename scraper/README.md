@@ -95,7 +95,7 @@ jurisdiction discovery" below) — not writing new code. Any provider works — 
 seeds.json ∪ seeds.discovered.json ─> fetch ──> AI extract ─> normalize ─> bio-page follow-up ─> dedupe ─> per-state shards
    (config, via seeds.js)              fetch.js  extract.js   normalize.js   pipeline.js            pipeline.js  output.js
                   │                    └─ browser.js  ^                          │                              -> ../public/officials/<ST>.json
-                  │                       (fallback)  └── media.js (photo/social candidates from the raw HTML)
+                  │                       (fallback)  └── media.js (photo/social/email/profile-link candidates from the raw HTML)
                   │
                   └── config/seeds.discovered.json is grown by discover-jurisdictions.js (batch)
                       or netlify/functions/local-officials.mjs (on-demand) — see "Dynamic
@@ -135,10 +135,13 @@ netlify/functions/local-officials.mjs  (POST /api/local-officials)
   - `discoverJurisdictionSite()` — ask the configured LLM to recall the official homepage, then
     **fetch it and check it actually looks like that jurisdiction's government site** before
     trusting it — models confidently hallucinate plausible `.gov`-shaped URLs for small towns,
-    so recall alone isn't enough. A city the model doesn't know fails soft (empty result), not
-    with an error.
+    so recall alone isn't enough. If recall comes up empty (`UNKNOWN`) or doesn't verify, it falls
+    back to a real web search (`src/search.js`, see "Search fallback" below) before giving up. A
+    city neither recall nor search can confirm fails soft (empty result), not with an error.
   - `findRosterPage()` — a small breadth-first crawl from that confirmed homepage looking for
-    the actual roster page (the homepage rarely is one), bounded by a fetch budget.
+    the actual roster page (the homepage rarely is one), bounded by a fetch budget. Also tries a
+    site-scoped search first (same `search.js`) and queues any hit ahead of the homepage itself,
+    since a direct hit can skip most of that crawl.
 - **`netlify/functions/local-officials.mjs`** — the endpoint, using Netlify Blobs
   (`@netlify/blobs`) as the cache/save layer. Blobs, not a real database, to keep the same $0
   model as the rest of this project — no server to provision, included in Netlify's free tier.
@@ -193,17 +196,31 @@ netlify dev
   page is client-rendered or WAF-blocked.
 - **browser.js** — optional Playwright fallback, lazily imported and shared across the run.
 - **media.js** — regex scan of the page's *raw* HTML (before fetch.js strips it to text) for
-  photo `<img>` and social-link `<a>` candidates, plus a post-hoc `stripSharedMedia()` pass that
-  nulls out a photo/link repeated across several officials (a jurisdiction-wide logo/account, not
-  a personal one). Without this, `extract.js`'s `photo_url`/`social` fields have nothing to work
-  with — `htmlToText()` removes every `src`/`href` before the LLM ever sees the page.
+  photo `<img>`, social-link `<a>`, `mailto:` email, and same-origin plain-`<a>` ("this official's
+  own page") candidates, plus a post-hoc `stripSharedMedia()` pass that nulls out a photo/link
+  repeated across several officials (a jurisdiction-wide logo/account, not a personal one).
+  Without this, `extract.js`'s `photo_url`/`social`/`email`/`url` fields have nothing to work
+  with — `htmlToText()` removes every `src`/`href` before the LLM ever sees the page. The
+  `mailto:` candidates are pulled out *before* the plain-link same-origin check, since a
+  `mailto:` URL's origin is the string `"null"` and would otherwise be silently dropped — see the
+  function's own header comment for the austintexas.gov/mayor case (Kirk Watson's `email` ending
+  up as a contact-form URL) that motivated splitting them out. The plain-link candidates (capped
+  by `linkLimit`, default 80 — much higher than photos/social/email's 40, since a profile link
+  tends to sit deep behind a full site nav; see the function's own header comment for the
+  austintexas.gov/council case that motivated it) are what let the bio-page follow-up pass below
+  find a page to follow at all on a roster that links each official's name to their own subpage
+  instead of showing their contact info inline.
 - **extract.js** — provider-agnostic LLM call (raw fetch, no SDK) with RPM throttle and 429 retry.
-  Also builds the "images and social links found on this page" block from `media.js`'s output.
+  Also builds the "images, social links, emails, and other page links found on this page" block
+  from `media.js`'s output.
 - **normalize.js** — canonical record with provenance (`source_url`, `extracted_at`) and `confidence`.
   Its `id` (`state:city:office:name`) canonicalizes the office string and strips quote characters
   before building the id, so two runs that extract the same person with slightly different office
   phrasing ("City Council Member" vs "Council Member") or nickname-quote style don't get upserted
-  as two different people (`output.js`'s upsert is keyed on `id`) — see `buildId()`.
+  as two different people (`output.js`'s upsert is keyed on `id`) — see `buildId()`. Also holds a
+  belt-and-suspenders check on `email`: a value that isn't even shaped like `x@y.z` (e.g. a
+  contact-form URL the LLM mistook for an email) is dropped to `null` rather than stored, as a
+  second line of defense behind `media.js`'s `emails` candidate list.
 - **pipeline.js** — per-jurisdiction orchestration: roster-page fetch/extract/normalize, dedupe,
   then a budget-capped bio-page follow-up pass (`enrichFromBioPages()`) — see "Photos and social
   links" below.
@@ -305,9 +322,11 @@ the bio-page follow-up pass described below. Coverage varies by source:
 
 - **Local officials (this scraper)**: extracted from whatever roster page is already being
   fetched, via `media.js` + the extended `extract.js` prompt — this alone rarely shows a photo
-  or personal social links. `pipeline.js` then runs a second pass, `enrichFromBioPages()`: for
-  each official who still has a gap (no photo, address, phone, email, hours, or bio) **and** has
-  their own bio-page `url`, it fetches that page and asks `extractOfficialDetail()` (`extract.js`)
+  or personal social links, though it's usually where each official's own bio-page `url` comes
+  from (`media.js`'s same-origin plain-link candidates — see that file's header comment). `pipeline.js`
+  then runs a second pass, `enrichFromBioPages()`: for each official who still has a gap (no
+  photo, address, phone, email, hours, or bio) **and** has their own bio-page `url`, it fetches
+  that page and asks `extractOfficialDetail()` (`extract.js`)
   for just that one person's details, merging in whatever it finds via `mergeEnrichment()`
   (`normalize.js`) — which only ever fills a null field, never overrides what the roster page
   already found. Budget-capped per jurisdiction per run (`SCRAPER_ENRICH_BUDGET`, default 10) so
@@ -596,6 +615,34 @@ function's own header comment in `discover.js` for why it's tuned this high: a l
 council/commission has far more members), so a slow keyless provider makes even a 15-jurisdiction
 budget slow (same trade-off as the on-demand Netlify path). Defaults to `gemini`. Runs as the
 third phase of `.github/workflows/run-daily.yml` — see "Run on a schedule" below.
+
+### Search fallback (optional)
+
+Both `discoverJurisdictionSite()` and `findRosterPage()` (`discover.js`) can fall back to a real
+web search instead of relying only on the LLM's memory — see `src/search.js`. **This is entirely
+optional**: with no `SEARCH_API_KEY` set, both functions behave exactly as they did before this
+existed (LLM recall only, plain breadth-first crawl only). Set it to unlock two things recall
+alone can't do: resolve a jurisdiction the model's training data never covered, and resolve one
+whose domain changed since that training cutoff.
+
+```bash
+SEARCH_PRESET=brave SEARCH_API_KEY=... npm run discover-jurisdictions
+```
+
+| Preset | Free tier | Extra config | Notes |
+| --- | --- | --- | --- |
+| `brave` ← default | $5/mo in free credits at $5/1,000 requests → **1,000 free searches/month**, 50 req/sec cap | — | Requires a credit card to sign up even for free-tier-only use (never charged while under the monthly credit) — confirmed at [brave.com/search/api](https://brave.com/search/api) |
+| `google` | 100 queries/day | `SEARCH_CX` (Programmable Search Engine id) | **Not recommended for a new setup** — closed to new customers as of writing, and the whole API is being sunset 2027-01-01. Kept only for anyone with an existing key — see [developers.google.com/custom-search/v1/overview](https://developers.google.com/custom-search/v1/overview) |
+
+Search only ever fires as a *fallback* — for `discoverJurisdictionSite()`, when the LLM's recall
+returns `UNKNOWN` or the recalled URL doesn't verify as a real gov site; for `findRosterPage()`,
+as a site-scoped query (`site:<domain> city council ...`) tried before the homepage's own links,
+since a direct hit can skip most of the crawl. A missing key, an unknown `SEARCH_PRESET`, or the
+provider erroring all degrade the same way: `webSearch()` (`search.js`) throws, and both callers
+catch it and fall through to exactly what they already did without it — never a crash, and never
+a reason a scheduled run would abort. Like the LLM presets, this is swappable specifically because
+a free search API's terms/limits can change without notice — see the LLM provider table's own
+"Honest trade-offs" above for why nothing here is hard-coded to one vendor.
 
 ## Seed list
 

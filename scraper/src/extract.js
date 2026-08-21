@@ -8,7 +8,11 @@
 // Config:
 //   LLM_PRESET, LLM_API_KEY, LLM_MODEL, LLM_BASE_URL, LLM_RPM   — see llm.js
 //   LLM_MAX_CHARS   how much of a page's text to send (default 24000)
-//   LLM_MAX_OUTPUT  max response tokens (default 4096, less on tighter presets)
+//   LLM_MAX_OUTPUT  max response tokens (default 8192, less on tighter presets) — a jurisdiction
+//                   with an unusually large council can still overflow this; callLLM() (llm.js)
+//                   throws a clear "response truncated" error rather than silently returning
+//                   nothing when that happens, so it shows up in problems.json, not as a
+//                   quiet 0-officials result.
 
 import { callLLM, extractJson, resolveLLMConfig } from "./llm.js";
 
@@ -21,7 +25,7 @@ Return ONLY valid JSON matching this schema, no prose:
       "office": "string, e.g. 'Mayor', 'City Council Member', 'Council Member At-Large'",
       "district": "string or null, e.g. 'District 4', 'Ward 2', 'Place 5', 'Seat A'",
       "phone": "string or null, digits/format as shown",
-      "email": "string or null",
+      "email": "string or null, a real email address only — see the email rule below",
       "url": "string or null, their official page if present",
       "photo_url": "string or null, absolute URL if present",
       "social": {
@@ -40,10 +44,18 @@ Rules:
 - Only include people who are officials of THIS jurisdiction shown on the page. Do not invent data.
 - If a field is not on the page, use null. Never guess phone numbers, emails, or social links.
 - Convert relative photo/link URLs to absolute using the page URL provided.
-- You are given a separate list of images and social links found on the page (with a short text
-  snippet from around where each one appears) since the page text below has had all markup
-  stripped out. Use those candidates plus their surrounding text to match a photo/social link to
-  the specific official it belongs to — do not invent a match with no supporting textual link.
+- You are given a separate list of images, social links, emails, and other page links found on
+  the page (with a short text snippet from around where each one appears) since the page text
+  below has had all markup stripped out. Use those candidates plus their surrounding text to
+  match a photo/social link/email/own-page link to the specific official it belongs to — do not
+  invent a match with no supporting textual link.
+- For the "url" field specifically: check the "Other page links" candidates for one whose own
+  visible text (or nearby context) is that official's name, office, or district — a roster page
+  commonly links each person's name or "District N" straight to their own page.
+- For the "email" field specifically: only use an address from the "Emails" candidates (real
+  mailto: links) — never substitute a contact-form URL, a profile/bio page link, or anything else
+  from "Other page links" as someone's email. If no Emails candidate textually matches this
+  official, leave email null rather than guessing.
 - If the same photo or social link would apply to every official on the page (a shared city
   seal/logo, or a jurisdiction-wide "Follow us" account), it is NOT a personal photo/account —
   leave it null for everyone rather than attaching it to any one person.
@@ -52,7 +64,11 @@ Rules:
 // Compact, token-light rendering of media.js's candidates for the prompt. Numbered so the
 // model can reference "candidate 3" internally if useful, though we only need the final match.
 function formatMediaBlock(media) {
-  if (!media || (!media.images?.length && !media.socialLinks?.length)) return "(none found)";
+  if (
+    !media ||
+    (!media.images?.length && !media.socialLinks?.length && !media.emails?.length && !media.links?.length)
+  )
+    return "(none found)";
   const lines = [];
   if (media.images?.length) {
     lines.push("Images:");
@@ -64,6 +80,22 @@ function formatMediaBlock(media) {
     lines.push("Social links:");
     media.socialLinks.forEach((link, i) => {
       lines.push(`${i + 1}. [${link.platform}] ${link.url} | text="${link.text}" | near: "${link.context}"`);
+    });
+  }
+  if (media.emails?.length) {
+    // Candidates for the `email` field — real mailto: addresses only. See media.js's own header
+    // comment for why these are surfaced separately (the austintexas.gov/mayor / Kirk Watson case).
+    lines.push("Emails (from mailto: links):");
+    media.emails.forEach((email, i) => {
+      lines.push(`${i + 1}. ${email.email} | text="${email.text}" | near: "${email.context}"`);
+    });
+  }
+  if (media.links?.length) {
+    // Candidates for the `url` field — an official's own page, same-origin, not a social
+    // account or an email. See media.js's own header comment for why this list exists.
+    lines.push("Other page links (not photos, social accounts, or emails):");
+    media.links.forEach((link, i) => {
+      lines.push(`${i + 1}. ${link.url} | text="${link.text}" | near: "${link.context}"`);
     });
   }
   return lines.join("\n");
@@ -82,7 +114,7 @@ export async function extractOfficials({ text, url, jurisdiction, media }) {
   const user = `Page URL: ${url}
 Jurisdiction: ${jurisdiction.body} (${jurisdiction.city}, ${jurisdiction.state})
 
-Images and social links found on this page:
+Images, social links, emails, and other page links found on this page:
 ${formatMediaBlock(media)}
 
 Page text:
@@ -107,7 +139,7 @@ Return ONLY valid JSON matching this schema, no prose:
   "photo_url": "string or null, absolute URL if present",
   "address": "string or null, office address",
   "phone": "string or null",
-  "email": "string or null",
+  "email": "string or null, a real email address only — see the email rule below",
   "hours": "string or null, office hours if stated",
   "bio": "string or null, a short 1-3 sentence biographical summary if the page has one",
   "offices": [
@@ -136,10 +168,13 @@ Rules:
   list rather than guessing.
 - If a field is not on the page, use null. Never guess phone numbers, emails, or social links.
 - Convert relative photo/link URLs to absolute using the page URL provided.
-- You are given a separate list of images and social links found on the page (with a short text
-  snippet from around where each one appears) since the page text below has had all markup
-  stripped out. Use those candidates plus their surrounding text to find this specific person's
-  photo/social links — do not invent a match with no supporting textual link.
+- You are given a separate list of images, social links, and emails found on the page (with a
+  short text snippet from around where each one appears) since the page text below has had all
+  markup stripped out. Use those candidates plus their surrounding text to find this specific
+  person's photo/social links/email — do not invent a match with no supporting textual link.
+- For the "email" field specifically: only use an address from the "Emails" candidates (real
+  mailto: links) — never substitute a contact-form URL or any other link as this person's email.
+  If no Emails candidate matches, leave email null rather than guessing.
 - "offices" is for any ADDITIONAL office beyond the page's own main contact info that this
   official's page separately lists (e.g. a district or field office). Leave it an empty list if
   the page only shows one office's worth of contact info — that belongs in the top-level
@@ -253,7 +288,7 @@ export async function extractOfficialDetail({ text, url, name, office, media }) 
   const user = `Page URL: ${url}
 Official this page should be about: ${name}${office ? ` (${office})` : ""}
 
-Images and social links found on this page:
+Images, social links, emails, and other page links found on this page:
 ${formatMediaBlock(media)}
 
 Page text:

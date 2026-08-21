@@ -68,6 +68,38 @@ test("normalize() returns null for a blank name (unchanged behavior)", () => {
   assert.equal(rec, null);
 });
 
+test("normalize() drops an email that isn't shaped like x@y.z (e.g. a contact-form URL the LLM mistook for an email)", () => {
+  // Real-world case: Kirk Watson's `email` on austintexas.gov/mayor came back as a contact-form
+  // URL before media.js/extract.js offered the LLM a real mailto: candidate — see media.js's
+  // header comment. This is the belt-and-suspenders check in normalize.js itself.
+  const rec = normalize(
+    { name: "Kirk Watson", office: "Mayor", email: "https://www.austintexas.gov/email/14286" },
+    { jurisdiction: AUSTIN, sourceUrl: "https://example.com", extractedAt: "2026-01-01T00:00:00.000Z" }
+  );
+  assert.equal(rec.email, null);
+});
+
+test("normalize() keeps a well-formed email address", () => {
+  const rec = normalize(
+    { name: "Kirk Watson", office: "Mayor", email: "kwatson@austintexas.gov" },
+    { jurisdiction: AUSTIN, sourceUrl: "https://example.com", extractedAt: "2026-01-01T00:00:00.000Z" }
+  );
+  assert.equal(rec.email, "kwatson@austintexas.gov");
+});
+
+test("mergeEnrichment() drops a bad email from a bio page the same way normalize() does", () => {
+  const record = normalize(
+    { name: "Kirk Watson", office: "Mayor" },
+    { jurisdiction: AUSTIN, sourceUrl: "https://example.com", extractedAt: "2026-01-01T00:00:00.000Z" }
+  );
+  const merged = mergeEnrichment(
+    record,
+    { email: "https://www.austintexas.gov/email/14286" },
+    { sourceUrl: "https://example.com/bio", extractedAt: "2026-02-01T00:00:00.000Z" }
+  );
+  assert.equal(merged.email, null);
+});
+
 test("normalize() defaults offices to [] when the source has none, without touching phone/address", () => {
   const rec = normalize(
     { name: "Vanessa Fuentes", office: "Council Member", phone: "5125551234", address: "301 W 2nd St" },
