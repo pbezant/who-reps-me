@@ -1,9 +1,11 @@
 {
   "state": "NV",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 1,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 13,
   "cities": [
-    "Clark County"
+    "Clark County",
+    "Las Vegas",
+    "Washoe County"
   ],
   "officials": [
     {
@@ -35,6 +37,378 @@
       },
       "source_url": "https://www.clarkcountynv.gov/government/county_managers_office/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:councilman:brian-knudsen",
+      "name": "Brian Knudsen",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 1",
+      "phone": "702-229-2299",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-1",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=i0C-m",
+      "social": {
+        "twitter": "https://x.com/BrianforLV",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "495 S. Main St., 89101",
+      "offices": [],
+      "hours": "7 a.m. – 5:30 p.m.",
+      "bio": "Brian Knudsen was elected to represent Ward 1 in June 2019 and re-elected in the June 2024 Primary Election, enabling him to continue to pursue his passion for public service. Since moving to Las Vegas in 2005, Councilman Knudsen has built programs and services for people and populations in Las Vegas and continues to serve the community as a member of the City Council. Brian served as Mayor Pro Tem Dec. 21, 2022, through June 30, 2026.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:councilwoman:francis-allen-palenske",
+      "name": "Francis Allen-Palenske",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 4",
+      "phone": "702-229-2524",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-4",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=RZwBV",
+      "social": {
+        "twitter": "https://x.com/FrancislovesNV",
+        "facebook": "https://www.facebook.com/FrancislovesNV/",
+        "instagram": "https://www.instagram.com/francislovesnv/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/@FrancislovesNV"
+      },
+      "address": "495 S. Main St., 89101",
+      "offices": [],
+      "hours": "7 a.m. – 5:30 p.m.",
+      "bio": "Councilwoman Francis Allen-Palenske was elected to serve the citizens of Ward 4 and the city of Las Vegas in the November 2022 election. Francis is a lifelong Nevadan and a successful small business owner. She grew up in Reno, Nevada, and holds a bachelor’s degree in Political Science and Business from the University of Nevada, Reno.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:councilwoman:kara-kelley",
+      "name": "Kara Kelley",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 2",
+      "phone": "702-229-2420",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-2",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=bsrSw",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/playlist?list=PLCP2FPXQxg6GoUfabyrVBU70dZwvOdWbl"
+      },
+      "address": "495 S. Main St., 89101",
+      "offices": [],
+      "hours": "7 a.m. – 5:30 p.m.",
+      "bio": "As Las Vegas City Councilwoman for Ward 2, Kara Kelley has advanced community-centered initiatives in education, social well-being and neighborhood engagement. She has promoted free legal, educational and protective resources for women and older adults; created a public-private partnership to establish Ward 2’s first community book-sharing library; and connected residents with city services through neighborhood cleanups, office hours and community gatherings.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:councilwoman:nancy-e.-brune",
+      "name": "Nancy E. Brune",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 6",
+      "phone": null,
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-6",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=QPDJC",
+      "social": {
+        "twitter": "https://x.com/Brune4Vegas",
+        "facebook": "https://www.facebook.com/Brune4Vegas1/",
+        "instagram": "https://www.instagram.com/brune4vegas",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Nancy Brune, Ph.D. and her family chose to call Ward 6 home 16 years ago. Councilwoman Brune was elected on Nov. 8, 2022, to serve a four-year term and represent the residents of Ward 6. She is committed to bringing common-sense solutions to City Hall and restoring public trust in local government.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:councilwoman:shondra-summers-armstrong",
+      "name": "Shondra Summers-Armstrong",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 5",
+      "phone": "702-229-6405",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-5",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=JbLoP",
+      "social": {
+        "twitter": "https://x.com/Shondra4Vegas",
+        "facebook": "https://www.facebook.com/shondra4vegas/",
+        "instagram": "https://www.instagram.com/Shondra4Vegas",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/playlist?list=PLCP2FPXQxg6Hz1LqHGy-O2r8HHKrF3EsC"
+      },
+      "address": "495 S. Main St., 89101",
+      "offices": [],
+      "hours": "7 a.m. – 5:30 p.m.",
+      "bio": "Councilwoman Shondra Summers-Armstrong was elected to serve Ward 5 in Nov. 2024, and sworn into office on Dec. 4, 2024. Summers-Armstrong is a dedicated public servant and longtime advocate for the vibrant and diverse communities of Ward 5 in Las Vegas. This unique region spans culturally significant and historic areas like Fremont Street, the Biltmore Neighborhood and Historic West Las Vegas, as well as parts of the Northwest Rural Preservation Area.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:mayor-pro-tem:olivia-diaz",
+      "name": "Olivia Diaz",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": "Ward 3",
+      "phone": "702-229-6011",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-3",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=_GejM",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/playlist?list=PLCP2FPXQxg6FpAlX1s5OaNr_JrEw_I4nN"
+      },
+      "address": "495 S. Main St. Las Vegas, NV 89101",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Olivia Díaz was born and raised in the east side of Las Vegas. She became the first Latina elected to the Las Vegas City Council in June 2019 and was re-elected in June 2024, and was named mayor pro tem July 1, 2026. She represents Ward 3, a dynamic district with over 109,000 residents that includes downtown Las Vegas and the neighborhoods where she grew up.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:las-vegas:mayor:shelley-berkley",
+      "name": "Shelley Berkley",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Las Vegas City Council",
+      "district": null,
+      "phone": "702-229-6011",
+      "email": null,
+      "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Mayor",
+      "photo_url": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=R3hMsV",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "495 S. Main St. Las Vegas, NV 89101",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Shelley Berkley was elected by the people of Las Vegas in November 2024. Prior to taking office as mayor, she served as senior vice president, CEO, and senior provost at the Touro University system. Before her time at Touro, she represented Nevada in the United States House of Representatives from 1999 to 2013.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Las Vegas",
+        "state": "NV"
+      },
+      "source_url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:washoe-county:chair:clara-andriola",
+      "name": "Clara Andriola",
+      "office": "Chair",
+      "level": "county",
+      "body": "Washoe County Commissioners Court",
+      "district": "District 4",
+      "phone": "775-444-5185",
+      "email": "candriola@washoecounty.gov",
+      "url": null,
+      "photo_url": "https://www.washoecounty.gov/bcc/files/images/clara-andriola1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 E. Ninth Street Reno, NV 89512",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washoe County",
+        "state": "NV"
+      },
+      "source_url": "https://www.washoecounty.gov/bcc/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:washoe-county:commissioner:alexis-hill",
+      "name": "Alexis Hill",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washoe County Commissioners Court",
+      "district": "District 1",
+      "phone": "775-447-3017",
+      "email": "ahill@washoecounty.gov",
+      "url": null,
+      "photo_url": "https://www.washoecounty.gov/bcc/files/images/commissioner-photos_0002_DOW_31903-alexis-bigger-crop-.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 E. Ninth Street Reno, NV 89512",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washoe County",
+        "state": "NV"
+      },
+      "source_url": "https://www.washoecounty.gov/bcc/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:washoe-county:commissioner:jeanne-herman",
+      "name": "Jeanne Herman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washoe County Commissioners Court",
+      "district": "District 5",
+      "phone": "775-358-0555",
+      "email": "jherman@washoecounty.gov",
+      "url": null,
+      "photo_url": "https://www.washoecounty.gov/bcc/files/images/herman_jeanne.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 E. Ninth Street Reno, NV 89512",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washoe County",
+        "state": "NV"
+      },
+      "source_url": "https://www.washoecounty.gov/bcc/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:washoe-county:commissioner:michael-clark",
+      "name": "Michael Clark",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washoe County Commissioners Court",
+      "district": "District 2",
+      "phone": "775-686-0342",
+      "email": "meclark@washoecounty.gov",
+      "url": null,
+      "photo_url": "https://www.washoecounty.gov/bcc/files/images/commissioner-photos_0000_Mike-Clark_High-Res.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 E. Ninth Street Reno, NV 89512",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washoe County",
+        "state": "NV"
+      },
+      "source_url": "https://www.washoecounty.gov/bcc/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nv:washoe-county:vice-chair:mariluz-garcia",
+      "name": "Mariluz Garcia",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Washoe County Commissioners Court",
+      "district": "District 3",
+      "phone": "775-444-0628",
+      "email": "mcgarcia@washoecounty.gov",
+      "url": null,
+      "photo_url": "https://www.washoecounty.gov/bcc/files/images/commissioner-photos_0004_Mariluz-Garcia-3198_High-Res1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 E. Ninth Street Reno, NV 89512",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washoe County",
+        "state": "NV"
+      },
+      "source_url": "https://www.washoecounty.gov/bcc/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

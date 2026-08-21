@@ -1,7 +1,10 @@
 {
   "date": "2026-08-21",
-  "calls_used": 1,
+  "calls_used": 936,
   "by_phase": {
-    "reported-links": 1
+    "reported-links": 1,
+    "scrape": 352,
+    "discover": 558,
+    "qa": 25
   }
 }

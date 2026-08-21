@@ -1,12 +1,354 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-20T04:12:47.563Z",
-  "count": 23,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 34,
   "cities": [
+    "Clackamas County",
     "Multnomah County",
     "Portland"
   ],
   "officials": [
+    {
+      "id": "or:clackamas-county:chair:craig-roberts",
+      "name": "Craig Roberts",
+      "office": "Chair",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8581",
+      "email": null,
+      "url": "https://www.clackamas.us/bcc/roberts",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2025-11/bcc_roberts.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2051 Kaen Road Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 6 p.m.",
+      "bio": "Craig Roberts was born and raised in Clackamas County. He worked in law enforcement at the Clackamas County Sheriff’s Office for over 40 years, serving as the elected Clackamas County Sheriff for 16 years. He was elected in November 2024 to serve as Clackamas County Commission Chair.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:commissioner:ben-west",
+      "name": "Ben West",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8581",
+      "email": "bcc@clackamas.us",
+      "url": "https://www.clackamas.us/bcc/west/",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2025-11/bcc_west.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2051 Kaen Road Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 6 p.m.",
+      "bio": "Ben West began as a Clackamas County Commissioner in 2023. Before entering office, he served as a City of Wilsonville Councilor from 2018-2022 and is a graduate level registered nurse. Ben is also the founder and executive director of the foster care organization Oregon Foster Families First.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:commissioner:diana-helm",
+      "name": "Diana Helm",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8581",
+      "email": "bcc@clackamas.us",
+      "url": "https://www.clackamas.us/bcc/helm",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2025-11/bcc_helm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2051 Kaen Road Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 6 p.m.",
+      "bio": "Diana has been very active in local government and civil organizations, serving as Mayor of the former City of Damascus and as a City Council member. She has also served on numerous boards and committees, demonstrating her passion for public service. As a long-time small business owner, she brings a unique perspective on issues affecting businesses and economic growth in Clackamas County.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:commissioner:martha-schrader",
+      "name": "Martha Schrader",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8581",
+      "email": "bcc@clackamas.us",
+      "url": "https://www.clackamas.us/bcc/schrader",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2025-09/bcc-schrader.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2051 Kaen Road Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 6 p.m.",
+      "bio": "Martha Schrader has served as a Clackamas County Commissioner since January 2013. She previously served as a commissioner from 2003 to 2009 (and during that time as Chair from 2005 to 2007). She took a brief break as commissioner and Martha represented Oregon’s 20th District as state senator from 2009 to 2011.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:commissioner:paul-savas",
+      "name": "Paul Savas",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8581",
+      "email": "bcc@clackamas.us",
+      "url": "https://www.clackamas.us/bcc/savas",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2025-11/bcc_savas.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2051 Kaen Road Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 6 p.m.",
+      "bio": "Paul Savas was elected to the Clackamas County Commission in November 2010. He has been involved in local government and civic organizations for years, and brings experience as the owner of a small business in Clackamas County for over 25 years.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:county-assessor/tax-collector:bronson-rueda",
+      "name": "Bronson Rueda",
+      "office": "County Assessor/Tax Collector",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:county-clerk:catherine-mcmullen",
+      "name": "Catherine McMullen",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8698",
+      "email": "catherinemcmullen@clackamas.us",
+      "url": "https://www.clackamas.us/clerk",
+      "photo_url": "https://www.clackamas.us/sites/default/files/styles/featured_guide/public/location/images/2023-02/catherine-mcmullen.jpg?itok=J5cYfJoY",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ClackamasCountyClerkElections",
+        "instagram": "https://www.instagram.com/clackamascountyclerkelections/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1710 Red Soils Ct., Suite 100 Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday – Friday 8:30 a.m. to 5 p.m.",
+      "bio": "Catherine McMullen began her service as County Clerk in 2023, overseeing the Elections, Recording, and Records Management divisions. She is dedicated to building public trust through good and responsive government, guided by values of accountability, transparency, and community inclusion.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:district-attorney:john-wentworth",
+      "name": "John Wentworth",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-655-8431",
+      "email": "districtattorney@clackamas.us",
+      "url": "https://www.clackamas.us/da/bio.html",
+      "photo_url": "https://www.clackamas.us/sites/default/files/images/da/john-wentworth_1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 Courthouse Road, Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Friday 8 a.m. to 5 p.m.",
+      "bio": "John Wentworth, the Clackamas County District Attorney, has served the community for two and a half decades. A Clackamas High School graduate, he returned home in 1999 after five years as a deputy district attorney in Coos County. With over 30 years of prosecution experience, John has built a reputation as a tough, fair and thoroughly prepared trial attorney.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:justice-of-the-peace:kathleen-rastetter",
+      "name": "Kathleen Rastetter",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-794-3800",
+      "email": "justicecourtinfo@clackamas.us",
+      "url": "https://www.clackamas.us/justice",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11750 SE 82nd Ave., #D. Happy Valley, OR 97086",
+      "offices": [],
+      "hours": "Office Hours: Monday to Friday 8 a.m. to 5 p.m. (Closed from noon to 1 p.m.) Phone Hours: Phones are answered by clerks Monday - Friday 9 a.m. to noon and 1 p.m. to 4 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:sheriff:james-rhodes",
+      "name": "James Rhodes",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.clackamas.us/sheriff",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clackamas-county:treasurer:brian-nava",
+      "name": "Brian Nava",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Clackamas County Commissioners Court",
+      "district": null,
+      "phone": "503-742-5990",
+      "email": "bnava@clackamas.us",
+      "url": "https://www.clackamas.us/treasurer",
+      "photo_url": "https://www.clackamas.us/sites/default/files/2021-03/nava.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Public Services Building, 2051 Kaen Road #460 Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Thursday 7 a.m. to 5 p.m.",
+      "bio": "Brian Nava was elected as Clackamas County’s Treasurer in November of 2018. Brian brings over 20 years of government experience to the office. Prior to his election as County Treasurer, Brian was appointed as Clackamas County's first Internal Auditor in August 2015.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Clackamas County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clackamas.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "or:multnomah-county:auditor:jennifer-mcguirk",
       "name": "Jennifer McGuirk",

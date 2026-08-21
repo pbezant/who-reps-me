@@ -1,12 +1,176 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 12,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 84,
   "cities": [
+    "Alachua County",
     "Lee County",
-    "Palm Beach County"
+    "Leon County",
+    "Miami",
+    "Orlando",
+    "Osceola County",
+    "Palm Beach County",
+    "Pasco County",
+    "Seminole County",
+    "St. Johns County",
+    "Tampa"
   ],
   "officials": [
+    {
+      "id": "fl:alachua-county:chair,-county-commissioner:ken-cornell",
+      "name": "Ken Cornell",
+      "office": "Chair, County Commissioner",
+      "level": "county",
+      "body": "Alachua County Commissioners Court",
+      "district": "District 4",
+      "phone": "352-264-6900",
+      "email": "KCornell@alachuacounty.us",
+      "url": "https://www.alachuacounty.us/Depts/BOCC/Profiles/Pages/Cornell.aspx",
+      "photo_url": "https://www.alachuacounty.us/Depts/BOCC/BOCC%20Image%20Library/cornell.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 SE 1st Street, 2nd Floor, Gainesville, FL 32601",
+      "offices": [],
+      "hours": null,
+      "bio": "Ken Cornell was born and raised in Gainesville, FL, and earned his Master's degree from the University of Florida. A small business owner and Certified Public Accountant, he was first elected to the Alachua County Commission in November 2014 and re-elected in 2018 and 2022. He is actively involved in various community boards and organizations.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Alachua County",
+        "state": "FL"
+      },
+      "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:alachua-county:county-commissioner:charles-chuck-chestnut,-iv",
+      "name": "Charles \"Chuck\" Chestnut, IV",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alachua County Commissioners Court",
+      "district": "District 5",
+      "phone": "352-264-6900",
+      "email": "cschestnut@alachuacounty.us",
+      "url": "https://www.alachuacounty.us/Depts/BOCC/Profiles/Pages/CChestnut.aspx",
+      "photo_url": "https://www.alachuacounty.us/Depts/BOCC/BOCC%20Image%20Library/chestnut.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 SE 1st Street, 2nd Floor, Gainesville, FL 32601",
+      "offices": [],
+      "hours": null,
+      "bio": "Charles \"Chuck\" Chestnut, IV holds a B.S. in Business Administration and an A.S. in Mortuary Science. He is a licensed Funeral Director and Life Insurance Agent. He previously served as a State Representative from 2006-2012 and a Gainesville City Commissioner from 2000-2006.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Alachua County",
+        "state": "FL"
+      },
+      "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:alachua-county:county-commissioner:marihelen-wheeler",
+      "name": "Marihelen Wheeler",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alachua County Commissioners Court",
+      "district": "District 2",
+      "phone": "352-264-6900",
+      "email": "mwheeler@alachuacounty.us",
+      "url": "https://www.alachuacounty.us/Depts/BOCC/Profiles/Pages/Wheeler.aspx",
+      "photo_url": "https://www.alachuacounty.us/Depts/BOCC/BOCC%20Image%20Library/wheeler.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 SE 1st Street, 2nd Floor, Gainesville, FL 32601",
+      "offices": [],
+      "hours": null,
+      "bio": "Marihelen has been married to Dr. Paul Wheeler for 25 years and is mother to 3 sons, also serving as a mentor and host family to many students. She has been involved with various local arts and environmental groups, including the Alachua County Education Association and Florida Wildlife Care. Her activist work includes 8 years dedicated to water quality and conservation, which led her to run for the Florida House of Representatives in 2012.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Alachua County",
+        "state": "FL"
+      },
+      "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:alachua-county:county-commissioner:mary-alford",
+      "name": "Mary Alford",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alachua County Commissioners Court",
+      "district": "District 1",
+      "phone": "352-264-6900",
+      "email": "malford@alachuacounty.us",
+      "url": "https://www.alachuacounty.us/Depts/BOCC/Profiles/Pages/Alford.aspx",
+      "photo_url": "https://www.alachuacounty.us/Depts/BOCC/BOCC%20Image%20Library/alford.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 SE 1st Street, 2nd Floor, Gainesville, FL 32601",
+      "offices": [],
+      "hours": null,
+      "bio": "Mary Alford was first elected to the Alachua County Commission in 2020, after many years of volunteering in the community. She has served on various boards, including the Alachua County Environmental Protection Advisory Board and several local non-profit organizations. A sixth-generation Floridian, she holds degrees in Environmental Engineering from the University of Florida and is a recognized expert in sustainable design and energy-efficient homes.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Alachua County",
+        "state": "FL"
+      },
+      "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:alachua-county:vice-chair,-county-commissioner:anna-prizzia",
+      "name": "Anna Prizzia",
+      "office": "Vice Chair, County Commissioner",
+      "level": "county",
+      "body": "Alachua County Commissioners Court",
+      "district": "District 3",
+      "phone": "352-264-6900",
+      "email": "aprizzia@alachuacounty.us",
+      "url": "https://www.alachuacounty.us/Depts/BOCC/Profiles/Pages/Prizzia.aspx",
+      "photo_url": "https://www.alachuacounty.us/Depts/BOCC/BOCC%20Image%20Library/Anna-Prizzia.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 SE 1st Street, 2nd Floor, Gainesville, FL 32601",
+      "offices": [],
+      "hours": null,
+      "bio": "Anna Prizzia is Commissioner for District 3 in Alachua County. She founded and currently oversees the UF/IFAS Field & Fork Program and works as the campus food systems coordinator for the University of Florida. With two decades of experience in sustainability efforts, she has worked with various non-profits and community organizations, and previously served in the Peace Corps.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Alachua County",
+        "state": "FL"
+      },
+      "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "fl:lee-county:county-commissioner,-chairman:cecil-pendergrass",
       "name": "Cecil Pendergrass",
@@ -160,6 +324,1012 @@
       },
       "source_url": "https://www.leegov.com/bocc",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:bill-proctor",
+      "name": "Bill Proctor",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5361",
+      "email": "ProctorB@LeonCountyFl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Bill-Proctor",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/3kxl1GcflkOq997aIOk85Q/Image/Bill-Proctor.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Bill Proctor has served the citizens of District 1 since 1996. He represents the central city and southside areas of Leon County District 1, and his priorities include affordable housing, quality healthcare, education, and economic development. Commissioner Proctor has also served as Chairman of the Board in 2006 and 2015.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:brian-welch",
+      "name": "Brian Welch",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5364",
+      "email": "WelchB@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Brian-Welch",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/0SD_gGXg5kCYzCFZuQhI2Q/Image/Brian-Welch.webp",
+      "social": {
+        "twitter": "https://twitter.com/CommishWelch",
+        "facebook": "https://facebook.com/CommishWelch",
+        "instagram": "https://instagram.com/CommishWelch",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Brian Welch has served the citizens of District 4 since 2020. He was elected to the Leon County Commission in November of 2020 to represent the residents of Northeast Leon County. Brian’s priorities include protecting the quality of life and property values of neighborhoods, providing adequate recreational and transportation infrastructure, protecting the environment, and keeping communities safe.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:carolyn-d.-cummings",
+      "name": "Carolyn D. Cummings",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5369",
+      "email": "CummingsC@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Carolyn-D-Cummings",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/96Hu2fEqxEGVevcX8aob_Q/Image/Carolyn-Cummings.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Carolyn D. Cummings has served the citizens of Leon County since 2020. She was elected to the Board of County Commissioners on November 3, 2020, and holds a Juris Doctorate from the University of Florida Law School. A Leon County resident for over thirty years, she has been a practicing attorney in both public and private sectors.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:christian-caban",
+      "name": "Christian Caban",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5362",
+      "email": "CabanC@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Christian-Caban",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/e7UlbcwRHEuCAygoblB_gg/Image/Christian-Caban.webp",
+      "social": {
+        "twitter": null,
+        "facebook": "https://facebook.com/CommissionerCaban",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Christian Caban was elected to the Leon County Commission to represent District 2 in 2022 and currently serves as 2025-2026 Chairman. He is most passionate about serving the best interests of District 2 by prioritizing public infrastructure, economic development, community safety, youth services, and environmental issues.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:david-t.-okeefe",
+      "name": "David T. O'Keefe",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5365",
+      "email": "OKeefeD@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/David-T-OKeefe",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/wga-Zljo20mTqDCqOjPHVQ/Image/David-OKeefe.webp",
+      "social": {
+        "twitter": "https://twitter.com/commishokeefe",
+        "facebook": "https://www.facebook.com/commissionerokeefe",
+        "instagram": "https://www.instagram.com/commishokeefe/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner David O’Keefe has served the citizens of Leon County since 2022 and currently serves as 2025-2026 Vice Chairman. Elected in 2022, he previously spent fifteen years overseeing finances for public nonprofits and government organizations. A licensed Certified Public Accountant, he holds degrees from Florida State University and Auburn University and volunteers for various community programs.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:nick-maddox",
+      "name": "Nick Maddox",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5367",
+      "email": "MaddoxN@LeonCountyFl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Nick-Maddox",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/Ziy9UjyprUGKa4GvtoLcbA/Image/Nick-Maddox.webp",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/reelectnickmaddox",
+        "instagram": "http://instagram.com/commishnickmaddox/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Nick Maddox has served the citizens of Leon County since 2010. As the CEO of Family Promise of the Big Bend and Chair of the esteemed Leon County Commission, Nick has proven himself as a visionary leader with a heart of gold, determined to bring about real change and uplift those in need.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:county-commissioner:rick-minor",
+      "name": "Rick Minor",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-5363",
+      "email": "MinorR@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/County-Commission/Rick-Minor",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/Commissioners/xjE-AtuJFk-mxtmUCSGZNw/Image/Rick-Minor.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S Monroe St. Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Rick Minor has served the citizens of District 3 since 2018. He was re-elected in 2022 and is focused on growing the economy, reducing crime, protecting the environment, and ensuring high ethical standards in local government. He also works on projects to improve infrastructure and amenities in northwest Leon County.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:director-of-parks-and-recreation:amanda-heidecker",
+      "name": "Amanda Heidecker",
+      "office": "Director of Parks and Recreation",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-1470",
+      "email": "HeideckerA@leoncountyfl.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/Departments/Resource-Stewardship/Parks-Recreation",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/I%20Want%20To/8xRHuSvjWkOrI2FPTrN35A/Image/Amanda-Heidecker-Square.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1907 South Monroe Street Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:leon-county:library-director:pamela-monroe",
+      "name": "Pamela Monroe",
+      "office": "Library Director",
+      "level": "county",
+      "body": "Leon County Commissioners Court",
+      "district": null,
+      "phone": "850-606-2665",
+      "email": "MonroeP@LeonCountyFL.gov",
+      "url": "https://cms.leoncountyfl.gov/Government/Departments/Library",
+      "photo_url": "https://cms.leoncountyfl.gov/Portals/0/adam/I%20Want%20To/p8Sv8V4Cn0SymGw-mhWVSw/Image/Pamela-Monroe-Edit.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Park Avenue Tallahassee, FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Leon County",
+        "state": "FL"
+      },
+      "source_url": "https://cms.leoncountyfl.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:city-attorney:george-wysong",
+      "name": "George Wysong",
+      "office": "City Attorney",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.miami.gov/My-Government/City-Officials/City-Attorney-George-Wysong",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/attorneys/george-wysong-headshot.jpg?w=200&h=300",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, Florida 33133",
+      "offices": [],
+      "hours": null,
+      "bio": "George K. Wysong, III was appointed as the City Attorney for the City of Miami in April 2024. He began his career with the City as an Assistant City Attorney in November 1994, and has dedicated the majority of his professional life to representing Miami in numerous practice areas. During his time with the Office of the City Attorney, Mr. Wysong has gained extensive experience in nearly every facet of municipal law.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:city-clerk:todd-b.-hannon",
+      "name": "Todd B. Hannon",
+      "office": "City Clerk",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": null,
+      "phone": "305-250-5360",
+      "email": "clerks@miamigov.com",
+      "url": "https://www.miami.gov/My-Government/City-Officials/City-Clerk-Todd-B.-Hannon",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, Florida 33133",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:city-manager:james-reyes",
+      "name": "James Reyes",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": null,
+      "phone": "305-250-5400",
+      "email": null,
+      "url": "https://www.miami.gov/My-Government/City-Officials/City-Manager-James-Reyes",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/jamesreyes_web448x336.jpg?w=299&h=448",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "444 SW 2nd Ave Miami, FL, 33130",
+      "offices": [],
+      "hours": null,
+      "bio": "City Manager James Reyes was sworn in as the new City Manager on January 12th, 2026, nominated by City of Miami Mayor Eileen Higgins. As City Manager, James is the city’s chief administrative officer, overseeing daily operations, more than 5,000 employees, and a $1.8 billion budget. Prior to this role, he served as Chief of Public Safety for Miami-Dade County and held senior leadership positions with the Broward Sheriff’s Office.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:commissioner:christine-king",
+      "name": "Christine King",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": "District 5",
+      "phone": "305-250-5390",
+      "email": "district5@miamigov.com",
+      "url": "https://www.miami.gov/My-Government/City-Officials/District-5-Commissioner-Christine-King",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/king-headshot.jpeg?w=300&h=200",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Liberty City Office",
+          "city": "Miami",
+          "address": "6140 NW 7th Avenue Miami, FL 33127",
+          "phone": "305-960-4920",
+          "fax": null,
+          "hours": "(M-F) 9 AM-5PM"
+        },
+        {
+          "classification": "district",
+          "name": "Little Haiti Office",
+          "city": "Miami",
+          "address": "6301 NE 2nd Avenue Miami, FL 33138",
+          "phone": "305-960-4660",
+          "fax": null,
+          "hours": "(M-F) 9AM-5PM"
+        },
+        {
+          "classification": "district",
+          "name": "Model City Office",
+          "city": "Miami",
+          "address": "1350 NW 50th Street Miami, FL 33150",
+          "phone": "305-960-2990",
+          "fax": null,
+          "hours": "(M-F) 9AM-5PM"
+        },
+        {
+          "classification": "district",
+          "name": "Overtown Office",
+          "city": "Miami",
+          "address": "1490 NW 3rd Avenue, Suite #1112B Miami, FL 33136",
+          "phone": "305-960-5133",
+          "fax": null,
+          "hours": "(M-F) 9AM-5PM"
+        }
+      ],
+      "hours": null,
+      "bio": "City of Miami District 5 Commissioner Christine King is passionate about serving the public and has been since an early age. She represents Liberty City, Little Haiti, Model City, Overtown, Wynwood/Edgewater, and the Upper East Side. In November 2021, she became the first Guyanese American to be elected in the City of Miami and the first female to be named Chairwoman of the Commission.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:commissioner:damian-pardo",
+      "name": "Damian Pardo",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": "District 2",
+      "phone": "305-250-5333",
+      "email": "DPardo@miamigov.com",
+      "url": "https://www.miami.gov/My-Government/City-Officials/District-2-Commissioner-Damian-Pardo",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/pardo-2.jpg?w=1327&h=1939",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, FL. 33133",
+      "offices": [],
+      "hours": null,
+      "bio": "District 2 Commissioner Damian Pardo was elected to represent District 2 in the City of Miami in November 2023. A lifelong resident of District 2, he has been a community activist for over 35 years, advocating for equality, diversity, and inclusion in South Florida.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:commissioner:miguel-angel-gabela",
+      "name": "Miguel Angel Gabela",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": "District 1",
+      "phone": "305-250-5430",
+      "email": "District1office@miamigov.com",
+      "url": "https://www.miami.gov/My-Government/City-Officials/District-1-Miguel-Angel-Gabela",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/gabela-headshot2.jpg?w=300&h=219",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, FL. 33133",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Antonio Maceo Park Office",
+          "city": "Miami",
+          "address": "5135 NW 7th St Miami FL, 33126",
+          "phone": "305-960-2890",
+          "fax": null,
+          "hours": "Monday - Friday: 9:00 AM - 5:00 PM"
+        },
+        {
+          "classification": "district",
+          "name": "Juan P. Duarte Park Office",
+          "city": "Miami",
+          "address": "1776 NW 28th Street Miami, FL 33142",
+          "phone": "305-960-5126",
+          "fax": null,
+          "hours": "Monday - Friday, 9:00 AM. - 5:00 PM"
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Miguel Angel Gabela was elected in November, 2023, to represent District 1, including Flagami, Allapattah, and parts of Little Havana. He immigrated from Cuba at age 6, built a family and business in District 1, and previously served on the City of Miami Zoning Board.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:commissioner:ralph-rafael-rosado",
+      "name": "Ralph \"Rafael\" Rosado",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": "District 4",
+      "phone": "305-960-5131",
+      "email": "rrosado@miami.gov",
+      "url": "https://www.miami.gov/My-Government/City-Officials/District-4-Commissioner-Ralph-Rafael-Rosado",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/1/head-shots/d4/ralph.png?w=264&h=330",
+      "social": {
+        "twitter": "https://x.com/ralphrosado305",
+        "facebook": "https://www.facebook.com/Ralph.Rosado",
+        "instagram": "https://www.instagram.com/rosadoformiami/?hl=en",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1415 SW 32nd Avenue Miami, FL 33145",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Flagami District Office",
+          "city": "Miami",
+          "address": "6030 SW 2nd Street Miami, FL, 33144",
+          "phone": "305-960-2985",
+          "fax": null,
+          "hours": "(M-F), 8a - 4 p"
+        }
+      ],
+      "hours": "(M-F), 8 a - 4 p",
+      "bio": "Ralph Rosado is a dedicated public servant and proud Miami native, now serving as the City of Miami Commissioner for District 4, which includes the neighborhoods of Flagami, West Flagler, Little Havana, Coral Gate, Shenandoah, Golden Pines, and Silver Bluff. A graduate of Belen Jesuit Preparatory School and Florida International University, he was both educated and shaped by this community. Today, he is raising his three children in the heart of the district he now represents.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:commissioner:rolando-escalona",
+      "name": "Rolando Escalona",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": "District 3",
+      "phone": "305-250-5380",
+      "email": "rescalona@miamigov.com",
+      "url": "https://www.miami.gov/My-Government/City-Officials/District-3-Rolando-Escalona",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/2/head-shots/rolando_escalona_d3_438x323.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, FL. 33133",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Little Havana",
+          "city": "Miami",
+          "address": "1300 SW 12th Avenue Miami, FL 33129",
+          "phone": "305-250-5380",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "District 3 Commissioner Rolando Escalona serves as the City of Miami Commissioner for District 3, representing diverse and historic neighborhoods. Elected in December 2025, Commissioner Escalona brings a new generation of leadership focused on accountability, accessibility, and delivering real results for residents. Born in Havana, Cuba, he was raised in Miami, and his story reflects resilience, hard work, and opportunity.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami:mayor:eileen-higgins",
+      "name": "Eileen Higgins",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Miami City Council",
+      "district": null,
+      "phone": "305-250-5300",
+      "email": null,
+      "url": "https://www.miami.gov/My-Government/City-Officials/Mayor-Eileen-Higgins",
+      "photo_url": "https://www.miami.gov/files/sharedassets/public/v/2/050526eileen_higgins290_v3.jpg?w=500&h=750",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "https://www.instagram.com/mayoreileenhiggins/",
+        "linkedin": "https://www.linkedin.com/in/eileen-higgins",
+        "youtube": null
+      },
+      "address": "3500 Pan American Drive Miami, FL, 33133",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Eileen Higgins is the first woman elected Mayor of the City of Miami. She leads a results-driven administration focused on building a safer, more connected, and more resilient city where working families can thrive. Her priorities include accelerating housing delivery, modernizing infrastructure and mobility, strengthening neighborhood services, supporting small businesses, and reforming City Hall to operate with clear standards, transparency, and measurable results residents can see and feel.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.miami.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:bakari-f.-burns",
+      "name": "Bakari F. Burns",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:patty-sheehan",
+      "name": "Patty Sheehan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:roger-chapin",
+      "name": "Roger Chapin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:shan-rose",
+      "name": "Shan Rose",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:tom-keen",
+      "name": "Tom Keen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:council-member:tony-ortiz",
+      "name": "Tony Ortiz",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:orlando:mayor:buddy-dyer",
+      "name": "Buddy Dyer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Orlando City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orlando",
+        "state": "FL"
+      },
+      "source_url": "https://www.orlando.gov/Home",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:osceola-county:chairman,-commissioner:brandon-arrington",
+      "name": "Brandon Arrington",
+      "office": "Chairman, Commissioner",
+      "level": "county",
+      "body": "Osceola County Commissioners Court",
+      "district": "District 3",
+      "phone": "407-742-2000",
+      "email": "Brandon.Arrington@osceola.org",
+      "url": null,
+      "photo_url": "https://www.osceola.org/files/assets/county/v/3/government/board-of-county-commissioners/images/brandon-arrington.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Osceola County",
+        "state": "FL"
+      },
+      "source_url": "https://www.osceola.org/Government/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:osceola-county:commissioner:peggy-choudhry",
+      "name": "Peggy Choudhry",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Osceola County Commissioners Court",
+      "district": "District 1",
+      "phone": "407-742-2000",
+      "email": "Peggy.Choudhry@osceola.org",
+      "url": null,
+      "photo_url": "https://www.osceola.org/files/assets/county/v/3/government/board-of-county-commissioners/images/peggy-choudhry.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Osceola County",
+        "state": "FL"
+      },
+      "source_url": "https://www.osceola.org/Government/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:osceola-county:commissioner:ricky-booth",
+      "name": "Ricky Booth",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Osceola County Commissioners Court",
+      "district": "District 5",
+      "phone": "407-742-2000",
+      "email": "Ricky.Booth@osceola.org",
+      "url": null,
+      "photo_url": "https://www.osceola.org/files/assets/county/v/2/government/board-of-county-commissioners/images/ricky-booth.jpeg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Osceola County",
+        "state": "FL"
+      },
+      "source_url": "https://www.osceola.org/Government/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:osceola-county:commissioner:viviana-janer",
+      "name": "Viviana Janer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Osceola County Commissioners Court",
+      "district": "District 2",
+      "phone": "407-742-2000",
+      "email": "Viviana.Janer@osceola.org",
+      "url": null,
+      "photo_url": "https://www.osceola.org/files/assets/county/v/3/government/board-of-county-commissioners/images/viviana-janer.jpeg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Osceola County",
+        "state": "FL"
+      },
+      "source_url": "https://www.osceola.org/Government/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:osceola-county:vice-chairwoman,-commissioner:cheryl-grieb",
+      "name": "Cheryl Grieb",
+      "office": "Vice Chairwoman, Commissioner",
+      "level": "county",
+      "body": "Osceola County Commissioners Court",
+      "district": "District 4",
+      "phone": "407-742-2000",
+      "email": "Cheryl.Grieb@osceola.org",
+      "url": null,
+      "photo_url": "https://www.osceola.org/files/assets/county/v/1/government/board-of-county-commissioners/images/cheryl-grieb.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Osceola County",
+        "state": "FL"
+      },
+      "source_url": "https://www.osceola.org/Government/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {
@@ -377,6 +1547,1153 @@
       },
       "source_url": "https://www.pbcgov.com",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pasco-county:county-commissioner:jack-mariano",
+      "name": "Jack Mariano",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pasco County Commissioners Court",
+      "district": "District 5",
+      "phone": "727-815-7164",
+      "email": null,
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/government/county_commissioners/district_5.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8731 Citizens Dr New Port Richey, FL 34654-5572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pasco-county:county-commissioner:kathryn-starkey",
+      "name": "Kathryn Starkey",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pasco County Commissioners Court",
+      "district": "District 3",
+      "phone": "727-847-8109",
+      "email": null,
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/government/county_commissioners/district_3.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8731 Citizens Dr New Port Richey, FL 34654-5572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pasco-county:county-commissioner:lisa-yeager",
+      "name": "Lisa Yeager",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pasco County Commissioners Court",
+      "district": "District 4",
+      "phone": "727-847-8100",
+      "email": null,
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/government/county_commissioners/district_4.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8731 Citizens Dr New Port Richey, FL 34654-5572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pasco-county:county-commissioner:ron-oakley",
+      "name": "Ron Oakley",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pasco County Commissioners Court",
+      "district": "District 1",
+      "phone": "352-521-4111",
+      "email": null,
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/government/county_commissioners/district_1.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8731 Citizens Dr New Port Richey, FL 34654-5572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pasco-county:county-commissioner:seth-weightman",
+      "name": "Seth Weightman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pasco County Commissioners Court",
+      "district": "District 2",
+      "phone": "352-521-4357",
+      "email": null,
+      "url": "https://www.pascocountyfl.gov/government/county_commissioners/government/county_commissioners/district_2.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8731 Citizens Dr New Port Richey, FL 34654-5572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco County",
+        "state": "FL"
+      },
+      "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:angela-r.-fleming",
+      "name": "Angela R. Fleming",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:carissa-lawhun",
+      "name": "Carissa Lawhun",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:colleen-hufford",
+      "name": "Colleen Hufford",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:deborah-bauer",
+      "name": "Deborah Bauer",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:dr.-robin-dehlinger",
+      "name": "Dr. Robin Dehlinger",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:emily-tallman",
+      "name": "Emily Tallman",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:john-horan",
+      "name": "John Horan",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:john-richardson",
+      "name": "John Richardson",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:marilyn-e.-crotty",
+      "name": "Marilyn E. Crotty",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:michelle-smith",
+      "name": "Michelle Smith",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:nicole-martz",
+      "name": "Nicole Martz",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:russell-rusty-roberts",
+      "name": "Russell \"Rusty\" Roberts",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:scott-culp",
+      "name": "Scott Culp",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:sean-barth",
+      "name": "Sean Barth",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:seminole-county:charter-review-commission-member:tom-ohanlon",
+      "name": "Tom O'Hanlon",
+      "office": "Charter Review Commission Member",
+      "level": "county",
+      "body": "Seminole County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seminole County",
+        "state": "FL"
+      },
+      "source_url": "https://www.seminolecountyfl.gov/departments-services/board-of-county-commissioners/county-charter",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:assistant-county-administrator:sarah-taylor",
+      "name": "Sarah Taylor",
+      "office": "Assistant County Administrator",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2025/02/sarah-taylor-3-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:st.-johns-county:board-of-county-commissioners:ann-taylor",
+      "name": "Ann Taylor",
+      "office": "Board of County Commissioners",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": "District 5, Vice-Chair",
+      "phone": "904-209-0305",
+      "email": "bcc5ataylor@sjcfl.us",
+      "url": "https://www.sjcfl.us/board-of-county-commissioners/bcc-district-5/",
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2024/11/commissioner-ann-taylor-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": "Ann moved to St. Johns County in 2013 and enthusiastically traded Arizona’s deserts for our beautiful beaches. But her conservative roots run as deep as the Grand Canyon. Ann earned a Bachelor of Science Degree in Business at Arizona State University which she attended on an academic scholarship.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:board-of-county-commissioners:christian-whitehurst",
+      "name": "Christian Whitehurst",
+      "office": "Board of County Commissioners",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": "District 1",
+      "phone": "904-209-0301",
+      "email": "bcc1cwhitehurst@sjcfl.us",
+      "url": "https://www.sjcfl.us/bcc-district-1/",
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2024/12/christian-whitehurst-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": "A life-long Floridian, Christian Whitehurst has been a part of the Northwest St. Johns County community for over twenty years. As a job creator and business owner, he focuses on economic development, infrastructure, and core services, while also supporting youth, veterans, law enforcement, and first responders. He believes communication is key to serving the community at the highest level.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:board-of-county-commissioners:clay-murphy",
+      "name": "Clay Murphy",
+      "office": "Board of County Commissioners",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": "District 3, Chair",
+      "phone": "904-209-0303",
+      "email": "bcc3cmurphy@sjcfl.us",
+      "url": "https://www.sjcfl.us/board-of-county-commissioners/bcc-district-3/",
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2024/12/clay-murphy-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of St. Johns County for over 33 years, Commissioner Murphy is married to Pamela and they have three children and six grandchildren. He served as a Florida State Trooper for 26 years and is now the owner and operator of a local Sonny’s BBQ. He is also active in local charities and has served his church for over 30 years.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:board-of-county-commissioners:krista-joseph",
+      "name": "Krista Joseph",
+      "office": "Board of County Commissioners",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": "District 4",
+      "phone": "904-209-0304",
+      "email": "bcc4kjoseph@sjcfl.us",
+      "url": "https://www.sjcfl.us/board-of-county-commissioners/bcc-district-4/",
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2023/08/Commissioner_Krista_Joseph_600-300x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": "Krista Joseph has lived in Florida since 2007, ten of those years in St. Johns County. She previously served on the Citrus County Hospital Board, helping to turn around a failing hospital. A mother of five, including two U.S. Navy SEALs, Krista is an award-winning author and a frequent speaker to local organizations.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:board-of-county-commissioners:sarah-arnold",
+      "name": "Sarah Arnold",
+      "office": "Board of County Commissioners",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": "District 2",
+      "phone": "904-209-0302",
+      "email": "bcc2sarnold@sjcfl.us",
+      "url": "https://www.sjcfl.us/board-of-county-commissioners/bcc-district-2/",
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2024/12/sarah-arnold-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah Arnold was appointed by Florida Gov. Ron DeSantis in 2021 to serve on the BOCC and was later elected in 2022. She is invested in the St. Johns County community, its schools, its development, and its future, and serves on several boards and volunteers with local organizations. A lifelong Floridian, she and her husband raise their four children in District 2.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-johns-county:county-administrator:joy-andrews",
+      "name": "Joy Andrews",
+      "office": "County Administrator",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2025/02/joy-andrews-v3-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:st.-johns-county:deputy-county-administrator:brad-bradley",
+      "name": "Brad Bradley",
+      "office": "Deputy County Administrator",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2023/08/Brad-Bradley_600-300x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:st.-johns-county:deputy-county-administrator:jesse-dunn",
+      "name": "Jesse Dunn",
+      "office": "Deputy County Administrator",
+      "level": "county",
+      "body": "St. Johns County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.sjcfl.us/wp-content/uploads/2025/01/jesse-dunn-600-2-300x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 San Sebastian View, St. Augustine, FL 32084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Johns County",
+        "state": "FL"
+      },
+      "source_url": "https://www.sjcfl.us/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:tampa:council-member:alan-clendenin",
+      "name": "Alan Clendenin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/alan-clendenin-150x150.jpg?itok=qlwxh3os",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:bill-carlson",
+      "name": "Bill Carlson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/carlson-150x150.jpg?itok=YrdqE5cN",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:charlie-miranda",
+      "name": "Charlie Miranda",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/charlie-miranda-150x150.jpg?itok=NeaMbTbs",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:guido-maniscalco",
+      "name": "Guido Maniscalco",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/guido-maniscalco-150x150.jpg?itok=LHkFwE8i",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:luis-viera",
+      "name": "Luis Viera",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/luis-viera-150x150.jpg?itok=dilW_SWD",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:lynn-hurtak",
+      "name": "Lynn Hurtak",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-12/lynn-hurtak-150x150.jpg?itok=xG08dzLE",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:council-member:naya-young",
+      "name": "Naya Young",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2025-11/naya-young-headshot-4.jpg?itok=4rWxenys",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tampa:mayor:jane-castor",
+      "name": "Jane Castor",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Tampa City Council",
+      "district": null,
+      "phone": "813-274-8211",
+      "email": null,
+      "url": "https://www.tampa.gov/mayor",
+      "photo_url": "https://www.tampa.gov/sites/default/files/styles/max_650x650/public/page-images/2024-05/mayor-castor-headshot-2023.jpg?itok=YqAxGVQ6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "306 East Jackson Street Tampa, Florida 33602",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Jane Castor, the 59th Mayor of the City of Tampa, is a lifelong resident who served as Tampa's first female Chief of Police before being elected mayor in 2019. She was overwhelmingly reelected in 2023 and focuses on improving residents' quality of life through infrastructure, housing, and sustainability initiatives.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Tampa",
+        "state": "FL"
+      },
+      "source_url": "https://www.tampa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

@@ -1,10 +1,11 @@
 {
   "state": "AZ",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 10,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 19,
   "cities": [
     "Maricopa County",
-    "Pima County"
+    "Pima County",
+    "Pinal County"
   ],
   "officials": [
     {
@@ -316,6 +317,285 @@
       "source_url": "https://www.pima.gov/27/Government",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 1
+    },
+    {
+      "id": "az:pinal-county:chairman:jeffrey-mcclure",
+      "name": "Jeffrey McClure",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:county-attorney:brad-miller",
+      "name": "Brad Miller",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:interim-chief-medical-examiner:dr.-andrea-w.-oeinck",
+      "name": "Dr. Andrea W. Oeinck",
+      "office": "Interim Chief Medical Examiner",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:sheriff:ross-teeple",
+      "name": "Ross Teeple",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:supervisor:jeff-serdy",
+      "name": "Jeff Serdy",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:supervisor:mike-goodman",
+      "name": "Mike Goodman",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:supervisor:rich-vitiello",
+      "name": "Rich Vitiello",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:supervisor:stephen-miller",
+      "name": "Stephen Miller",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "az:pinal-county:treasurer:michael-mccord",
+      "name": "Michael McCord",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Pinal County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pinal County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.pinal.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 0.9
     }
   ]
 }

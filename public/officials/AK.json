@@ -1,0 +1,41 @@
+{
+  "state": "AK",
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 1,
+  "cities": [
+    "Anchorage Municipality"
+  ],
+  "officials": [
+    {
+      "id": "ak:anchorage-municipality:mayor:suzanne-lafrance",
+      "name": "Suzanne LaFrance",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Anchorage Municipality Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.muni.org/Departments/Mayor/Pages/ContactTheMayor.aspx",
+      "photo_url": "https://www.muni.org/Departments/Mayor/PublishingImages/MayorLaFrance.jpg",
+      "social": {
+        "twitter": "https://x.com/MayorLaFrance",
+        "facebook": "https://www.facebook.com/profile.php?id=61561969847742",
+        "instagram": "https://www.instagram.com/MayorLaFrance/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anchorage Municipality",
+        "state": "AK"
+      },
+      "source_url": "https://www.muni.org/Departments/Mayor/Pages/default.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    }
+  ]
+}

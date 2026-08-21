@@ -1,9 +1,10 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 7,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 13,
   "cities": [
     "Davidson County",
+    "Hamilton County",
     "Shelby County"
   ],
   "officials": [
@@ -36,6 +37,202 @@
       },
       "source_url": "https://www.nashville.gov/departments/mayor",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:assessor-of-property:marty-haynes",
+      "name": "Marty Haynes",
+      "office": "Assessor of Property",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": "423-209-7300",
+      "email": null,
+      "url": "https://www.hamiltontn.gov/AssessorOfProperty.aspx",
+      "photo_url": "https://www.hamiltontn.gov/images/Portraits/AssessorOfProperty.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6135 Heritage Park Drive, Bonny Oaks, Chattanooga, TN 37416",
+      "offices": [],
+      "hours": "8:00 A.M. to 5:00 P.M. Except for these holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:county-clerk:bill-knowles",
+      "name": "Bill Knowles",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "http://www.countyclerkanytime.com/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:mayor:weston-wamp",
+      "name": "Weston Wamp",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": "423-209-6100",
+      "email": null,
+      "url": "https://www.hamiltontn.gov/mayor.aspx",
+      "photo_url": "https://www.hamiltontn.gov/images/Portraits/Mayor_WestonWamp.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "625 Georgia Avenue, Chattanooga, Tennessee 37402",
+      "offices": [],
+      "hours": "8:00 A.M. to 4:00 P.M. Except for these holidays",
+      "bio": "The County Mayor is elected to a four year term by the citizens of Hamilton County to head the executive branch of Hamilton County Government. As the Chief Fiscal Officer for the County, it is the Mayor’s responsibility to oversee the preparation and administration of official budgets and financial reports. In conjunction with division heads, the Mayor manages the daily operations of County General Government and ensures that all applicable laws, policies, and resolutions are implemented.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:register-of-deeds:marc-gravitt",
+      "name": "Marc Gravitt",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": "423-209-6560",
+      "email": null,
+      "url": "https://www.hamiltontn.gov/RegisterOfDeeds.aspx",
+      "photo_url": "https://www.hamiltontn.gov/images/Portraits/RegisterOfDeeds.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 Courthouse, 625 Georgia Avenue, Chattanooga, Tennessee 37402",
+      "offices": [],
+      "hours": "8:00 A.M. to 4:00 P.M. Except for these holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:sheriff:austin-garrett",
+      "name": "Austin Garrett",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "http://www.hcsheriff.org/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:hamilton-county:trustee:bill-hullander",
+      "name": "Bill Hullander",
+      "office": "Trustee",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": "423-209-7270",
+      "email": null,
+      "url": "https://www.hamiltontn.gov/Trustee.aspx",
+      "photo_url": "https://www.hamiltontn.gov/images/Portraits/Trustee.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "625 Georgia Avenue, Room 210 Chattanooga, TN 37402-1494",
+      "offices": [
+        {
+          "classification": "satellite",
+          "name": null,
+          "city": null,
+          "address": "6125 Preservation Drive",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": "8:00 A.M. to 4:00 P.M. Except for these holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "TN"
+      },
+      "source_url": "https://www.hamiltontn.gov/mayor.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {

@@ -1,0 +1,227 @@
+{
+  "state": "NE",
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 7,
+  "cities": [
+    "Lincoln"
+  ],
+  "officials": [
+    {
+      "id": "ne:lincoln:council-member-(chair):brodey-weber",
+      "name": "Brodey Weber",
+      "office": "City Council Member (CHAIR)",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "NW District 4",
+      "phone": null,
+      "email": "bweber@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-4",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/brodey-weber.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Northwest Lincoln, Brodey Weber was elected to the Lincoln City Council in 2023 at the age of 25. Since assuming office, Brodey has dedicated his efforts to enhancing the accessibility of local government for constituents, prioritizing investments in our infrastructure, and promoting community-centered economic development initiatives. Brodey has earned a Bachelor of Arts in Communication Studies from the University of Nebraska-Lincoln, and a Juris Doctorate from Creighton University School of Law.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member-(vice-chair):tom-duden",
+      "name": "Tom Duden",
+      "office": "City Council Member (VICE CHAIR)",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "SE District 2",
+      "phone": null,
+      "email": "tduden@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-2",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/tom-duden.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 South 10th Street Lincoln, NE 68508",
+      "offices": [],
+      "hours": null,
+      "bio": "Tom Duden had a 26-year career with the Lincoln Police Department and later served as HR Facilities Director for Design Data Corporation. He holds a Bachelor of Arts in Public Administration and a Master of Arts in Management, and currently teaches Criminal Justice courses at Doane University and Southeast Community College. In his free time, he enjoys fishing, camping, sporting events, traveling, and grandparenting with his wife Ronda.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:bennie-shobe",
+      "name": "Bennie Shobe",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "bshobe@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-3",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/shobe480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 South 10th Street Lincoln, NE 68508",
+      "offices": [],
+      "hours": null,
+      "bio": "Bennie earned a Bachelor of General Studies and a Master of Arts from Western Kentucky University. He holds a full-time position as a Program Analyst for the Nebraska Department of Labor.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:james-michael-bowers",
+      "name": "James Michael Bowers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "NE District 1",
+      "phone": null,
+      "email": "jbowers@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-1",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/bowers480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "James Michael Bowers was elected to the Lincoln City Council to represent District 1 in May of 2019, focusing on public safety, neighborhood reinvestment, and affordable housing. Born and raised in Northeast Lincoln, he is a social worker and small business owner, with a background in public service including volunteering at the Northeast Family Center and serving on various boards. He holds Bachelors and Master's degrees in Social Work.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:justin-p.-carlson",
+      "name": "Justin P. Carlson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "SW District 3",
+      "phone": null,
+      "email": "jpcarlson@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-3",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/3/city-council/profile-images/justin-carlson.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Justin P. Carlson was elected to the Lincoln City Council to represent District 3 (Southwest Lincoln) in May of 2023. He is a proud graduate of Lincoln High School and the University of Nebraska-Lincoln College of Business, and an active community volunteer. Professionally, he spent 20 years in insurance and financial services and currently works for the University of Nebraska Foundation.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:sändra-washington",
+      "name": "Sändra Washington",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "swashington@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-1",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/washington480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Sändra Washington, originally from Columbus, Ohio, has lived in Lincoln since 1990. She worked with the National Park Service for 25 years, retiring in 2014 as the Association Regional Director for Cultural Resources, Planning, Construction, Communications, Legislation and Congressional Affairs. Washington currently sits on the board of the Nebraska Trails Foundation and the National Parks Conservation Association.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:tom-beckius",
+      "name": "Tom Beckius",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "tbeckius@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-2",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/beckius480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 S. 10th St., Room 111",
+      "offices": [],
+      "hours": "Monday from 9:00am-1:00pm",
+      "bio": "Tom Beckius was elected to the Lincoln City Council in 2021 and re-elected in 2025. Born and raised in Lincoln, Tom is a graduate of Lincoln Southeast High School and University of Nebraska-Lincoln. Tom owns and operates several small businesses focused on real estate and construction.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    }
+  ]
+}

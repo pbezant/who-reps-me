@@ -1,0 +1,259 @@
+{
+  "state": "WI",
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 8,
+  "cities": [
+    "Dane County",
+    "Madison"
+  ],
+  "officials": [
+    {
+      "id": "wi:dane-county:clerk-of-the-courts:jeff-okazaki",
+      "name": "Jeff Okazaki",
+      "office": "Clerk of the Courts",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4311",
+      "email": "Jeff.Okazaki@WICourts.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Clerk of the Courts",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:county-clerk:scott-mcdonell",
+      "name": "Scott McDonell",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4121",
+      "email": "county.clerk@danecounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Clerk's Office",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:county-executive:melissa-agard",
+      "name": "Melissa Agard",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4114",
+      "email": "county.executive@danecounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Office of the County Executive",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:county-treasurer:adam-gallagher",
+      "name": "Adam Gallagher",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4151",
+      "email": "treasurer@danecounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Treasurer's Office",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:dane-county-sheriff:kalvin-d.-barrett",
+      "name": "Kalvin D. Barrett",
+      "office": "Dane County Sheriff",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-284-6800",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Dane County Sheriff's Office",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:district-attorney:ismael-r.-ozanne",
+      "name": "Ismael R. Ozanne",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4211",
+      "email": "danecoda@da.wi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "District Attorney's Office",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:dane-county:register-of-deeds:kristi-chlebowski",
+      "name": "Kristi Chlebowski",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Dane County Commissioners Court",
+      "district": null,
+      "phone": "608-266-4144",
+      "email": "chlebowski@danecounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Register of Deed's Office",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dane County",
+        "state": "WI"
+      },
+      "source_url": "https://www.danecounty.gov/elected-officials",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:madison:mayor:satya-rhodes-conway",
+      "name": "Satya Rhodes-Conway",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Madison City Council",
+      "district": null,
+      "phone": "608-266-4611",
+      "email": null,
+      "url": "https://www.cityofmadison.com/mayor/about",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Martin Luther King Jr Blvd, Room 403 Madison, WI 53703",
+      "offices": [],
+      "hours": null,
+      "bio": "Satya Rhodes-Conway is the 58th Mayor of Madison. Her administration is focused on providing high quality public services, affordable housing, rapid transit, equitable economic growth, and combating climate change. She has extensive experience in local policy and practice, having worked with mayors across the country for over a decade, and having served three terms on the Madison Common Council.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Madison",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofmadison.com/mayor/about",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    }
+  ]
+}

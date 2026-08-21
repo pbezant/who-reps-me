@@ -1,11 +1,15 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-20T04:12:47.563Z",
-  "count": 21,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 41,
   "cities": [
     "Asheville",
+    "Buncombe County",
     "Charlotte",
-    "Mecklenburg County"
+    "Durham County",
+    "Forsyth County",
+    "Mecklenburg County",
+    "Raleigh"
   ],
   "officials": [
     {
@@ -146,6 +150,37 @@
       },
       "source_url": "https://www.ashevillenc.gov/government/policy-finance-infrastructure-committee/",
       "extracted_at": "2026-08-18T18:59:14.465Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:buncombe-county:commissioner:drew-ball",
+      "name": "Drew Ball",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Buncombe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buncombe County",
+        "state": "NC"
+      },
+      "source_url": "https://www.buncombenc.gov/m/newsflash/home/detail/1106",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {
@@ -301,6 +336,347 @@
       },
       "source_url": "https://www.charlottenc.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:durham-county:commissioner,-chair:dr.-mike-lee",
+      "name": "Dr. Mike Lee",
+      "office": "Commissioner, Chair",
+      "level": "county",
+      "body": "Durham County Commissioners Court",
+      "district": null,
+      "phone": "984-314-6165",
+      "email": "mikelee@dconc.gov",
+      "url": "https://dconc.gov/Board-of-Commissioners/Commissioners/Mike-Lee",
+      "photo_url": "https://dconc.gov/Images/DCo-Michael-Lee-LR-6394.jpg?Medium",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 East Main Street, Second Floor Durham, NC 27701",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Michael 'Mike' Lee was first elected to serve as County Commissioner in 2024 and is currently serving his first term. He was sworn in on December 2, 2024. Lee was voted Chair in 2025. He previously served as Vice Chair.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Durham County",
+        "state": "NC"
+      },
+      "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:durham-county:commissioner,-vice-chair:nida-allam",
+      "name": "Nida Allam",
+      "office": "Commissioner, Vice Chair",
+      "level": "county",
+      "body": "Durham County Commissioners Court",
+      "district": null,
+      "phone": "984-227-9462",
+      "email": "nallam@dconc.gov",
+      "url": "https://dconc.gov/Board-of-Commissioners/Commissioners/Nida-Allam",
+      "photo_url": "https://dconc.gov/Images/DCo-Nida-Allam-LR-6487.jpg?Medium",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 East Main Street, Second Floor Durham, NC 27701",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Nida Allam is Vice Chair of the Durham Board of County Commissioners. Commissioner Nida Allam was sworn in on December 7, 2020. She formerly was the Chair of the BOCC from 2023 to 2025.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Durham County",
+        "state": "NC"
+      },
+      "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:durham-county:commissioner:michelle-burton",
+      "name": "Michelle Burton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Durham County Commissioners Court",
+      "district": null,
+      "phone": "984-314-7587",
+      "email": "mlburton@dconc.gov",
+      "url": "https://dconc.gov/Board-of-Commissioners/Commissioners/Michelle-Burton",
+      "photo_url": "https://dconc.gov/Images/DCo-Michelle-Burton-LR-6371.jpg?Medium",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 East Main Street, Second Floor Durham, NC 27701",
+      "offices": [],
+      "hours": null,
+      "bio": "Michelle Burton was first elected to serve as County Commissioner in 2024 and is currently serving her first term. She was sworn in on December 2, 2024.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Durham County",
+        "state": "NC"
+      },
+      "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:durham-county:commissioner:stephen-valentine",
+      "name": "Stephen Valentine",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Durham County Commissioners Court",
+      "district": null,
+      "phone": "984-314-7582",
+      "email": "svalentine@dconc.gov",
+      "url": "https://dconc.gov/Board-of-Commissioners/Commissioners/Stephen-Valentine",
+      "photo_url": "https://dconc.gov/Images/DCo-Stephen-Valentine-LR-6426.jpg?Medium",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 East Main Street, Second Floor Durham, NC 27701",
+      "offices": [],
+      "hours": null,
+      "bio": "Stephen J. Valentine was first elected to serve as County Commissioner in 2024 and is currently serving his first term. He was sworn in on December 2, 2024.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Durham County",
+        "state": "NC"
+      },
+      "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:durham-county:commissioner:wendy-jacobs",
+      "name": "Wendy Jacobs",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Durham County Commissioners Court",
+      "district": null,
+      "phone": "984-260-5964",
+      "email": "wjacobs@dconc.gov",
+      "url": "https://dconc.gov/Board-of-Commissioners/Commissioners/Wendy-Jacobs",
+      "photo_url": "https://dconc.gov/Images/DCo-Wendy-Jacobs.jpg?Medium",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 East Main Street, Second Floor Durham, NC 27701",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Jacobs is currently in her fourth term with the BOCC, having been first elected in 2012. She served as Vice Chair of the Board of County Commissioners from 2020-2023 and as Chair from 2016-2020.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Durham County",
+        "state": "NC"
+      },
+      "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:chairwoman,-commissioner:gloria-d.-whisenhunt",
+      "name": "Gloria D. Whisenhunt",
+      "office": "Chairwoman, Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "District B",
+      "phone": "336-703-2020",
+      "email": null,
+      "url": "https://www.forsyth.cc/commissioners/meet_whisenhunt.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/gloria_whisenhunt.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": "Gloria Whisenhunt has been a Forsyth County Commissioner since 1996, serving as both Vice Chair and Chair. Prior to this, she served on the Winston-Salem/Forsyth County Board of Education from 1990-1996. A retired cosmetologist, she decided to run for school board after her son left for college.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:commissioner:dan-besse",
+      "name": "Dan Besse",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "At Large",
+      "phone": "336-703-2020",
+      "email": null,
+      "url": "https://www.forsyth.cc/commissioners/meet_besse.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/besse.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": "Dan Besse is an at-large Commissioner for Forsyth County, a former city council member, and a legal aid attorney. He earned his Political Science degree and law degree from UNC Chapel Hill, and has worked extensively in public health and environmental law. He served on the Winston-Salem City Council from 2001-2020 and was elected to the Board of County Commissioners in 2022.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:commissioner:malishai-woodbury",
+      "name": "Malishai Woodbury",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "District A",
+      "phone": "336-703-2020",
+      "email": null,
+      "url": "https://www.forsyth.cc/commissioners/meet_woodbury.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/Malishai_Woodbury.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": "Malishai \"Shai\" Woodbury was elected as a county commissioner for District A in 2022, after serving on the Winston-Salem/Forsyth County Board of Education from 2018-2022. A native of Winston-Salem, she has worked as an educator for more than 25 years and earned her doctorate in Education Leadership.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:commissioner:richard-v.-linville",
+      "name": "Richard V. Linville",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "District B",
+      "phone": "336-703-2020",
+      "email": null,
+      "url": "https://www.forsyth.cc/commissioners/meet_linville.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/linville.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:commissioner:tonya-d.-mcdaniel",
+      "name": "Tonya D. McDaniel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "District A",
+      "phone": "336-703-2020",
+      "email": "mcdanitd@forsyth.cc",
+      "url": "https://www.forsyth.cc/commissioners/meet_mcdaniel.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/Tonya_McDaniel.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": "Tonya D. McDaniel assumed the position of County Commissioner for District A in 2018, holding a Bachelor of Arts in Political Science and a Masters in Public Administration. During her tenure, she has focused on promoting equity in property tax rates and county funding for school systems, inspired by her god-mother, the late community leader Earline Parmon. She also serves on various committees, including the North Carolina State Health Coordinating Council and the National Association of Counties Veterans & Military Services Committee.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:forsyth-county:vice-chairman,-commissioner:g.-gray-wilson",
+      "name": "G. Gray Wilson",
+      "office": "Vice Chairman, Commissioner",
+      "level": "county",
+      "body": "Forsyth County Commissioners Court",
+      "district": "District B",
+      "phone": "336-703-2020",
+      "email": "wilsongg@forsyth.cc",
+      "url": "https://www.forsyth.cc/commissioners/meet_wilson.aspx",
+      "photo_url": "https://www.forsyth.cc/commissioners/assets/img/gray_wilson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Chestnut Street\nWinston-Salem, NC 27101",
+      "offices": [],
+      "hours": null,
+      "bio": "G. Gray Wilson is a full-time practicing trial lawyer in Winston-Salem for 47 years, an author, and a fellow of the American College of Trial Lawyers. He has served as president of both the North Carolina Bar Association and the North Carolina State Bar, and is focused on supporting law enforcement, combating crime, and addressing housing and economic development in Forsyth County.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Forsyth County",
+        "state": "NC"
+      },
+      "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {
@@ -580,6 +956,254 @@
       },
       "source_url": "https://www.mecknc.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member-at-large:jonathan-lambert-melton",
+      "name": "Jonathan Lambert-Melton",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": null,
+      "phone": "919-996-3050",
+      "email": "jonathan.lambert-melton@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/jonathan-lambert-melton",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/jonathan-lambert-melton.jpg?h=04d92ac6&itok=oSHrtXqK",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Jonathan Lambert-Melton has served as an at-large Raleigh City Council member since 2019, where he chairs the Economic Development and Innovation Committee and is Vice-Chair of the Transportation and Transit Committee. An attorney specializing in family law, he is a partner at Soni Brendle Essick Melton and holds degrees from North Carolina State University and North Carolina Central University School of Law. He is the first openly LGBTQ person elected citywide in Raleigh and is a founding board member of Stonewall Sports, Inc.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member-at-large:stormie-d.-forte",
+      "name": "Stormie D. Forte",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": null,
+      "phone": "919-996-3050",
+      "email": "stormie.forte@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/stormie-d-forte",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/stormie-forte-councilmember-2024.jpg?h=04d92ac6&itok=qQC8v1aH",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Stormie Forte was elected as one of two at-large Raleigh City Council members in 2022. Prior to that, she was appointed to represent District D on the Council in 2020. She serves as Vice-Chair of the Housing and Environment Committee and is a member of the Economic Development and Innovation Committee. She currently serves as Mayor Pro Tem.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member,-mayor-pro-tem:jane-harrison",
+      "name": "Jane Harrison",
+      "office": "City Council Member, Mayor Pro Tem",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": "District D",
+      "phone": "919-996-3050",
+      "email": "jane.harrison@raleighnc.gov",
+      "url": "https://raleighnc.gov/mpt-harrison",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/jane-harrison-council-2024.jpg?h=04d92ac6&itok=AFLVZbkl",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Jane Harrison is serving her second term on Raleigh City Council, representing District D. She was appointed to as the Mayor Pro Tem in December 2025. Council Member Harrison serves as Chair of the Growth and Natural Resources Committee and is a member of the Economic Development and Innovation Committee.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member:christina-jones",
+      "name": "Christina Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": "District E",
+      "phone": "919-996-3050",
+      "email": "christina.jones@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/christina-jones",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/christina-jones-council-2024.jpg?h=04d92ac6&itok=NfdAZOMU",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Serving as your District E representative on the Raleigh City Council is one of the greatest honors of my life. I ran for office because I believe city government works best when residents have a real voice in shaping it. My goal has always been to make local government more accessible — to help people understand how decisions are made, who makes them, and how they can get involved.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member:corey-branch",
+      "name": "Corey Branch",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": "District C",
+      "phone": "919-996-3050",
+      "email": "corey.branch@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/corey-branch",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/corey-branch%20-%20councilmember_0.jpg?h=04d92ac6&itok=b7rIRiKh",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Corey Branch represents District C and was first elected to the Raleigh City Council in 2015. He serves as Chair of the Community Safety and Quality of Life Committee and as a member of the Transportation and Transit Committee. He served as Mayor Pro Tem from December 2017 to January 2021 and again in 2023.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member:megan-patton",
+      "name": "Megan Patton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": "District B",
+      "phone": "919-996-3050",
+      "email": "megan.patton@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/megan-patton",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/megan-patton-24.jpg?h=04d92ac6&itok=_9_xcvc5",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Megan Patton was elected to represent District B on the Raleigh City Council in 2022. She serves as Chair of the Transportation and Transit Committee and as a member of the Housing and the Environment Committee. Council Member Patton has a B.A. in education from UNC-Chapel Hill and has worked as an elementary school teacher and factory manager.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:council-member:mitchell-silver",
+      "name": "Mitchell Silver",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": "District A",
+      "phone": "919-996-3050",
+      "email": "mitchell.silver@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/mitchell-silver",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/mitchell-silver_0.jpg?h=04d92ac6&itok=VwKhmbYM",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Mitchell Silver was elected in 2024 to represent District A on the Raleigh City Council. He serves on the Housing and Environment Committee and the Community Safety and Quality of Life Committee. Mitchell is an award-winning planner with over 40 years of experience.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:raleigh:mayor:janet-cowell",
+      "name": "Janet Cowell",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Raleigh City Council",
+      "district": null,
+      "phone": "919-996-3050",
+      "email": "janet.cowell@raleighnc.gov",
+      "url": "https://raleighnc.gov/city-council/janet-cowell",
+      "photo_url": "https://raleighnc.gov/sites/default/files/styles/1_1_600x600/public/2024-12/mayor-janet-cowell.jpg?h=04d92ac6&itok=OM-t6ibs",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Raleigh Municipal Building, 2nd Floor, 222 W. Hargett St., Raleigh, NC 27601",
+      "offices": [],
+      "hours": null,
+      "bio": "Janet Cowell was elected Mayor of Raleigh in 2024, bringing a deep commitment to public service from her family upbringing. She has a history of elected public service, including as Raleigh city councilor, NC State Senator, and State Treasurer. Prior to being elected Mayor, Janet led the Dix Park Conservancy as President & CEO.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Raleigh",
+        "state": "NC"
+      },
+      "source_url": "https://raleighnc.gov/city-council",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]

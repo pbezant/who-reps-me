@@ -1,0 +1,880 @@
+{
+  "state": "SC",
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 28,
+  "cities": [
+    "Greenville County",
+    "Lexington County",
+    "Spartanburg County"
+  ],
+  "officials": [
+    {
+      "id": "sc:greenville-county:chairman:benton-blount",
+      "name": "Benton Blount",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 19",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/BentonBlount.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:alan-mitchell",
+      "name": "Alan Mitchell",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 23",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/AlanMitchell.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:curt-mcgahhey",
+      "name": "Curt McGahhey",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 21",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/CurtMcGahhey.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:dan-tripp",
+      "name": "Dan Tripp",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 28",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/DanTripp.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:ennis-fant",
+      "name": "Ennis Fant",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 25",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/Ennis_Fant.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:frank-farmer",
+      "name": "Frank Farmer",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 22",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/FrankFarmer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:garey-collins",
+      "name": "Garey Collins",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 27",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/GareyCollins.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:joey-russo",
+      "name": "Joey Russo",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 17",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/JoeyRusso.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:kelly-long",
+      "name": "Kelly Long",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 18",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/ThumbKellyLong.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:liz-seman",
+      "name": "Liz Seman",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 24",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/Liz_Seman.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:council-member:steve-shaw",
+      "name": "Steve Shaw",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 20",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/SteveShaw.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville-county:v.-chair:rick-bradley",
+      "name": "Rick Bradley",
+      "office": "V. Chair",
+      "level": "county",
+      "body": "Greenville County Commissioners Court",
+      "district": "District 26",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.greenvillecounty.org/Council/Members/Images/RickBradley.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillecounty.org/Council/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member-chairman:darrell-hudson",
+      "name": "Darrell Hudson",
+      "office": "Council Member Chairman",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 3 - Part of Lexington & Lake Murray",
+      "phone": "803-240-6077",
+      "email": "dhudson@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/Darrell%20Hudson%20Headshot%202024.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "156 Kellers Pond Lane Lexington, SC 29072",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member-vice-chairman:todd-cockrell",
+      "name": "Todd Cockrell",
+      "office": "Council Member Vice Chairman",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 4 - Springdale, Parts of Lexington & Parts of Oak Grove",
+      "phone": "803-849-0295",
+      "email": "toddcockrell@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/Todd%20Cockrell%20-%20Photo%201-2025.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "132 Idlewood Circle West Columbia, SC 29170",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:beth-a.-carrigg",
+      "name": "Beth A. Carrigg",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 7 - Seven Oaks, Parts of Irmo, & Parts of Lexington",
+      "phone": "803-518-8077",
+      "email": "bcarrigg@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/beth.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Pilgrim Church Road Lexington, SC 29072",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:charlene-charli-wessinger",
+      "name": "Charlene \"Charli\" Wessinger",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 6 - Chapin & Parts of Irmo",
+      "phone": "803-730-7254",
+      "email": "cwessinger@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/C%20Wessinger%20Headshot%202024%20Cropped.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "145 Fricks Outlet Road Chapin, SC 29036",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:clifford-p.-fisher,-iii",
+      "name": "Clifford P. Fisher, III",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 5 - Red Bank & Parts of Lexington",
+      "phone": "803-849-4465",
+      "email": "cfisher@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/JMB_7481.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "331 McLee Road Lexington, SC 29073",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:glen-m.-conwell",
+      "name": "Glen M. Conwell",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 8 - West Columbia, Parts of Lexington, & Parts of Oak Grove",
+      "phone": "803-351-7435",
+      "email": "gconwell@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/G.%20Conwell_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2129 Chipmunk Lane West Columbia, SC 29169",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:m.-todd-cullum",
+      "name": "M. Todd Cullum",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 9 - Cayce, Pine Ridge, South Congaree, Dixiana, & Parts of Edmund",
+      "phone": "(803) 794-6930 – Office (803) 518-6412 - Mobile",
+      "email": "tcullum@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/T.%20Cullum.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 Bruce Road Cayce, SC 29033",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:michael-bishop",
+      "name": "Michael Bishop",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 1 - Pelion, Gaston, Swansea, Sandy Run, Parts of Edmund & Fairview",
+      "phone": "803-849-4275",
+      "email": "mbishop@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/Michael%20Bishop%20Photo%20-%201-2025_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 277 Swansea, SC 29160",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lexington-county:council-member:paul-lawrence-larry-brigham,-jr.",
+      "name": "Paul Lawrence \"Larry\" Brigham, Jr.",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Lexington County Commissioners Court",
+      "district": "District 2 - Gilbert, Summit, Batesburg-Leesville, Western Lake Murray & Parts of Fairview",
+      "phone": "803-465-6263",
+      "email": "lbrigham@lexingtoncounty.sc.gov",
+      "url": null,
+      "photo_url": "https://www.lex-co.sc.gov/sites/lexco/files/Documents/Images/L.%20Brigham%20Headshot%202.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "251 Little Creek Drive Leesville, SC 29070",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lexington County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lex-co.sc.gov/council-members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-chairman:a.-manning-lynch",
+      "name": "A. Manning Lynch",
+      "office": "Council Chairman",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": null,
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/194",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105788",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": "Monday through Friday: 8 AM to 5 PM",
+      "bio": "A. Manning Lynch has served as Chairman of Spartanburg County Council since 2019. During his time on Council, he has also served as Chairman of Spartanburg Area Transportation System (SPATS).",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:bob-walker",
+      "name": "Bob Walker",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 5",
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/200",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105789",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": "Monday through Friday: 8 AM to 5 PM",
+      "bio": "Spartanburg County Councilman Bob Walker has spent much of his life in service for others. Born and raised in Landrum, Walker graduated from Landrum High School and the University of South Carolina before serving in the U. S. Air Force as a captain and pilot during the Vietnam War era. When Walker returned to Landrum in 1974, he joined First Baptist Church of Landrum and the Landrum Lions Club. For the past 40 years, he has served in many capacities in both the church and the Lions organization.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:grant-deshields",
+      "name": "Grant DeShields",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 4",
+      "phone": "864-596-2528",
+      "email": "gdeshields@spartanburgcounty.gov",
+      "url": "https://www.spartanburgcounty.gov/199",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105790",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": "Monday through Friday: 8 AM to 5 PM",
+      "bio": "Grant DeShields has lived in Spartanburg County his entire life and loves this community. He has been fortunate enough to work and raise his family in Spartanburg and wants to provide this same opportunity to others. Grant graduated from Byrnes High School and worked for his family’s business for 23 years.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:jack-a.-mabry",
+      "name": "Jack A. Mabry",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 2",
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/197",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105791",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": "Monday through Friday: 8 AM to 5 PM",
+      "bio": "Jack is a lifelong resident of Spartanburg County and has proudly represented District 2 on County Council since 2018. He is the owner of Jack Mabry Allstate, where he has operated his business for more than 27 years. His record of public service includes 12 years.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:jessica-coker,-cpa",
+      "name": "Jessica Coker, CPA",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 6",
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/201",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105792",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": null,
+      "bio": "Jessica Coker, a native of Spartanburg County, is a self-employed CPA with 20 years of experience serving individuals and small businesses. She holds a Bachelors in Accounting and a Masters of Professional Accountancy in Taxation from Clemson. As an advocate for small business, her financial skillset is beneficial in her role as District 6 Representative.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:monier-mo-abusaft",
+      "name": "Monier “Mo” Abusaft",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 1",
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/196",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105793",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": null,
+      "bio": "Monier “Mo” Abusaft is a graduate of Wofford College and Vanderbilt University Law School. At Wofford, his interest in ministry led him to graduate Phi Beta Kappa with a Bachelor of Arts in Religion. He was also awarded an ELI Fellowship, given to emerging leaders in ministry.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg-county:council-member:paul-d.-abbott,-jr.",
+      "name": "Paul D. Abbott, Jr.",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Spartanburg County Commissioners Court",
+      "district": "District 3",
+      "phone": "864-596-2528",
+      "email": null,
+      "url": "https://www.spartanburgcounty.gov/198",
+      "photo_url": "https://www.spartanburgcounty.gov/ImageRepository/Document?documentId=105794",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "366 N Church Street\nSpartanburg, SC 29303",
+      "offices": [],
+      "hours": "Monday through Friday: 8 AM to 5 PM",
+      "bio": "Paul D. Abbott, Jr. is a lifelong resident of Spartanburg County, a graduate of Cowpens High School, USC-Upstate, and Charlotte School of Law. He worked in his family businesses for approximately 30 years before becoming an attorney. He and his wife, Susan, live in the Hillcrest area and have six grandchildren.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Spartanburg County",
+        "state": "SC"
+      },
+      "source_url": "https://www.spartanburgcounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    }
+  ]
+}

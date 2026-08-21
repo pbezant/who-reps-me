@@ -1,0 +1,330 @@
+{
+  "state": "IA",
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 10,
+  "cities": [
+    "Polk County"
+  ],
+  "officials": [
+    {
+      "id": "ia:polk-county:county-attorney:kimberly-graham",
+      "name": "Kimberly Graham",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": null,
+      "phone": "515-286-3737",
+      "email": "ctyatty@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/county-attorney/kimberly-graham/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/tnoakkf5/grahamportrait2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/polkcountyattorney",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Polk County Justice Center\n222 Fifth Avenue\nDes Moines, IA 50309",
+      "offices": [],
+      "hours": "8:00am-4:30pm",
+      "bio": "Kimberly Graham is the Polk County Attorney, working to create a healthy, safer, thriving Polk County with equitable treatment in the criminal legal system. A first-generation college student, she earned her law degree from Drake University Law School in 1999 and assumed her current role on January 3, 2023, as the first woman elected to the position.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:county-auditor:jamie-fitzgerald",
+      "name": "Jamie Fitzgerald",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": null,
+      "phone": "515-286-3080",
+      "email": "auditor@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/county-auditor/jamie-fitzgerald/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/qvsl0c0w/jamie-fitzgerald.jpg",
+      "social": {
+        "twitter": "https://twitter.com/Polkauditorfitz",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Administration Building 111 Court Avenue, Room 230 Des Moines, IA 50309",
+      "offices": [
+        {
+          "classification": "election",
+          "name": "Election Office",
+          "city": "Des Moines",
+          "address": "2309 Euclid Avenue Des Moines, Iowa 50310",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": "Mon-Fri 800 AM - 430 PM",
+      "bio": "Jamie Fitzgerald has served as Polk County Auditor and Commissioner of Elections since January 2007. Fitzgerald manages a staff of 49 full-time employees in five departments. His office is responsible for a wide variety of functions, ranging from paying all of Polk County's bills to conducting elections in Iowa's largest county.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:county-recorder:julie-haggerty",
+      "name": "Julie Haggerty",
+      "office": "County Recorder",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": null,
+      "phone": "515-286-3160",
+      "email": "recorder@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/county-recorder/julie-haggerty/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/z5xf2rej/f2_julie_005.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Polk County Administration Building\n111 Court Avenue Suite 250\nDes Moines, IA 50309",
+      "offices": [],
+      "hours": "Mon - Fri: 8:00am - 4:30pm",
+      "bio": "Julie Haggerty was sworn into office in January 2007 and is a life-long resident of Polk County. She has served the residents by establishing a same-day recording policy, launching Passport Saturdays, and actively participating in various community and county boards. Haggerty has also led efforts to digitize and preserve vital records, enhancing public access to historical documents.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:county-sheriff:kevin-j.-schneider",
+      "name": "Kevin J. Schneider",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": null,
+      "phone": "515-286-3814",
+      "email": "polkcounty.sheriff@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/county-sheriff/kevin-j-schneider/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/ir0cjent/2018-sheriff_schneider.jpg",
+      "social": {
+        "twitter": "https://x.com/polksheriffiowa?lang=en",
+        "facebook": "https://www.facebook.com/PCSOIA",
+        "instagram": "https://www.instagram.com/polksheriffia/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/@polkcountysheriffsofficeio7534/featured"
+      },
+      "address": "5995 NE 14th Street Des Moines, Iowa 50313",
+      "offices": [],
+      "hours": null,
+      "bio": "For over 40 years, Sheriff Kevin J. Schneider has dedicated his life to public safety. Sheriff Schneider is a consummate professional, working his way through all civil service ranks from Deputy to Chief, culminating in his appointment as Polk County Sheriff in 2018, elected to a full term as Sheriff in 2020 and re-elected again in 2024. As Sheriff, Schneider leads by example in providing best practices in public safety, with an emphasis on progressive community policing and continual engagement with the community he serves.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:county-treasurer:mary-l.-wells",
+      "name": "Mary L. Wells",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": null,
+      "phone": "515-286-3030",
+      "email": null,
+      "url": "https://www.polkcountyiowa.gov/treasurer/mary-l-wells/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/ivvbjmdo/wellsm_best_original-dont-alter.jpg",
+      "social": {
+        "twitter": "https://twitter.com/polkcotreasurer?lang=en",
+        "facebook": "https://www.facebook.com/polkcotreasurer",
+        "instagram": "https://www.instagram.com/polk_county_treasurer_iowa",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Polk County Administration Building\n111 Court Avenue, Room 154\nDes Moines, IA 50309",
+      "offices": [],
+      "hours": "7:30 a.m.-4:30 p.m. Mon-Fri. | 9 a.m.-4:30 p.m. on the third Thursday of every month. Closed major holidays. Closed Thursday, September 17, 2026.",
+      "bio": "Polk County Treasurer Mary L. Wells was born and raised in Des Moines, Iowa, and holds a Bachelor of Science degree in business administration. With over 20 years in leadership positions in operations management for Fortune 100 companies, she has served as Polk County Treasurer since March 2021, focusing on customer service, online transactions, and community education. She is also dedicated to the Des Moines community, serving on several boards and as co-founder of Investing In My Future, Inc.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:supervisor:angela-connolly",
+      "name": "Angela Connolly",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": "District 5",
+      "phone": "515-286-3120",
+      "email": "angela.connolly@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/board-of-supervisors/angela-connolly/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/youfwo5d/angela-connolly.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Polk County Administration Building 111 Court Avenue, Room 300 Des Moines, IA 50309",
+      "offices": [],
+      "hours": null,
+      "bio": "Angela Connolly was first elected as a Polk County Supervisor in 1998. She represents the Fifth District which includes Des Moines' North and Northwestern parts of the city, the East Village, parts of downtown, and Saylor 2. Her dedication to community engagement is portrayed through her active involvement in neighborhood organizations and civic activities, with a top priority on ensuring everyone has access to mental health services.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:supervisor:jill-altringer",
+      "name": "Jill Altringer",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "jill.altringer@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/board-of-supervisors/jill-altringer/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/cglkimi4/jill-resized.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jill Altringer grew up in Northwest Iowa and has called Polk County home since 2001. She served on the Grimes City Council for 16 years and was appointed to the Polk County Conservation Board, serving as Chair until her election to the Polk County Board of Supervisors. With degrees in biology, chemistry, and law from the University of Iowa, Jill is dedicated to public service and enjoys outdoor activities with her family.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:supervisor:mark-holm",
+      "name": "Mark Holm",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": "District 3",
+      "phone": "515-286-3120",
+      "email": "mark.holm@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/board-of-supervisors/mark-holm/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/zvtaaf2q/mark-resized.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 Court Avenue, Room 300 Des Moines, IA 50309",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Holm is a life-long Iowan who served as Ankeny's Mayor from 2022 to 2024 before being elected to the Polk County Board of Supervisors, District 3. He previously served on the Ankeny City Council for 10 years and holds a B.A. in Political Science from Iowa State University and a Certified Public Manager certification from Drake University. Mark has worked for the Iowa Department of Transportation for over 25 years and enjoys running and cycling in his spare time.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:supervisor:matt-mccoy",
+      "name": "Matt McCoy",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": "District 1",
+      "phone": "515-286-3120",
+      "email": "matt.mccoy@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/board-of-supervisors/matt-mccoy/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/42yf3lvq/matt-mccoy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 Court Avenue, Room 300\nDes Moines, IA 50309",
+      "offices": [],
+      "hours": null,
+      "bio": "Supervisor Matt McCoy represents Polk County's First District, which includes parts of Des Moines' south side and majority of the west side, Windsor Heights as well as West Des Moines and Clive within Polk County. Matt previously served two terms in the Iowa House and six terms in the Iowa Senate. He has received numerous awards for his legislative and civic participation and serves on several boards.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:polk-county:supervisor:tom-hockensmith",
+      "name": "Tom Hockensmith",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Polk County Commissioners Court",
+      "district": "District 4",
+      "phone": "515-286-3120",
+      "email": "tom.hockensmith@polkcountyiowa.gov",
+      "url": "https://www.polkcountyiowa.gov/board-of-supervisors/tom-hockensmith/",
+      "photo_url": "https://www.polkcountyiowa.gov/media/nnzf34ga/tom-hockensmith.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 Court Avenue, Room 300\nDes Moines, IA 50309",
+      "offices": [],
+      "hours": null,
+      "bio": "Supervisor Tom Hockensmith began serving his first term in January 2003, representing Polk County’s 4th District. His previous professional experience includes roles as a policy advisor for Iowa Governor Thomas J. Vilsack, a union representative for AFSCME, and an electrician for the Iowa Department of Transportation.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Polk County",
+        "state": "IA"
+      },
+      "source_url": "https://www.polkcountyiowa.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    }
+  ]
+}

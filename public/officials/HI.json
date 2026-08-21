@@ -1,6 +1,6 @@
 {
   "state": "HI",
-  "generated_at": "2026-08-20T02:51:45.007Z",
+  "generated_at": "2026-08-21T05:32:50.234Z",
   "count": 6,
   "cities": [
     "Honolulu County"
@@ -108,7 +108,7 @@
       "district": null,
       "phone": "808-768-4141",
       "email": null,
-      "url": "https://www.honolulu.gov/mayor/",
+      "url": "https://www.honolulu.gov/mayor/about/",
       "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/08/mayor-300x169.jpg",
       "social": {
         "twitter": "https://www.twitter.com/MayorRickHNL",
@@ -121,13 +121,13 @@
       "offices": [],
       "hours": "Monday to Friday, 7:45 a.m. to 4:30 p.m.",
       "bio": null,
-      "bio_checked_at": "2026-08-20T02:51:45.007Z",
+      "bio_checked_at": null,
       "jurisdiction": {
         "city": "Honolulu County",
         "state": "HI"
       },
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-21T05:32:50.234Z",
       "confidence": 1
     },
     {

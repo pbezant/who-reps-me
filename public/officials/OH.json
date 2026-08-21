@@ -1,13 +1,326 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 7,
+  "generated_at": "2026-08-21T03:34:25.818Z",
+  "count": 18,
   "cities": [
+    "Cincinnati",
+    "Cleveland",
     "Columbus",
     "Franklin County",
-    "Hamilton County"
+    "Hamilton County",
+    "Summit County"
   ],
   "officials": [
+    {
+      "id": "oh:cincinnati:council-member:anna-albi",
+      "name": "Anna Albi",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-5280",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-anna-albi/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Anna (she/her) is a professional communicator and community advocate. As local group lead for Moms Demand Action in Cincinnati, Anna worked with elected officials, law enforcement, and community partners to promote gun safety and work towards solutions that will reduce gun violence. Anna formerly served as recording secretary for Madisonville Community Council, where she focused on connecting residents with City Council to ensure the needs and preferences of the community are prioritized.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:evan-nolan",
+      "name": "Evan Nolan",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-5243",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-evan-nolan/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Evan Nolan grew up in Cheviot, Cincinnati, and is a graduate of St. Xavier High School, the University of Pennsylvania, and Georgetown University. He began his career as a public sector consultant for IBM and later served as a legal fellow for U.S. Senator Sherrod Brown. He currently practices transactional and real estate law at Katz Teller Law Firm.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:jeff-cramerding",
+      "name": "Jeff Cramerding",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-3640",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-jeff-cramerding/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Jeff Cramerding was born and raised in Cincinnati. Prior to joining council, he served as legislative aide to Councilmember Todd Portune and has been involved in numerous candidate and issue campaigns in Cincinnati. He built his career as a labor lawyer and currently serves as Director of Contract Administration for the American Association of University Professors at UC. Jeff is an active Price Hill community member and a founding board member of Price Hill Will. He has been a long-time advocate of supporting mixed-income neighborhoods in Cincinnati as the affordable housing crisis becomes more prevalent, and serves as the chair of the Equitable Growth and Housing Committee. Jeff lives in Price Hill with his three children and one terrible cat.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:mark-jeffreys",
+      "name": "Mark Jeffreys",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-3464",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-mark-jeffreys/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Jeffreys grew up working poor, eventually earning an MBA from Georgetown. He spent 16 years at Procter & Gamble before launching his own startups. He is active in the community, serving on boards and founding the non-profit go Vibrant, and lives in Clifton with his wife and four children.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:meeka-owens",
+      "name": "Meeka Owens",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-3466",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-meeka-owens/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Meeka D. Owens was elected to City Council in 2021 and chairs the Climate, Environment, and Infrastructure Committee, among other roles. Born and raised in Avondale, she holds a B.S. from Miami University and an M.Ed. from Xavier University. Dedicated to community service, her goals for Cincinnati include increasing safety, creating affordable housing, and fostering a more sustainable city.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:scotty-johnson",
+      "name": "Scotty Johnson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-4610",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/president-pro-tem-scotty-johnson/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A Cincinnati native and beloved public servant, Scotty Johnson strives to exude the impact of unity and integrity within our great city. Mr. Johnson graduated from Woodward High School and Bowling Green State University with a Bachelor of Science in Criminal Law, minoring in Psychology. He also attained certification in Race Relations from Harvard University. Having honorably served the Cincinnati Police Department for 33 years, Councilmember Johnson is passionate about achieving quality and impartial service for every citizen of Cincinnati.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:council-member:seth-walsh",
+      "name": "Seth Walsh",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-5232",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/council-member-seth-walsh/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A native of St. Joseph, Michigan, Seth Walsh moved to Cincinnati to attend Xavier University, where he was elected Student Body President. He has worked for various members of Cincinnati City Council and served as Executive Director of the College Hill CURC. In his free time, Seth founded the Cincy Soccer League and serves on the Board of Directors for the Friends of the Taft Family Legacy.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:president-pro-tem:victoria-parks",
+      "name": "Victoria Parks",
+      "office": "President Pro Tem",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/council/council-members/president-pro-tem-victoria-parks/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cincinnati:vice-mayor:jan-michele-lemon-kearney",
+      "name": "Jan-Michele Lemon Kearney",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Cincinnati City Council",
+      "district": null,
+      "phone": "513-352-5205",
+      "email": null,
+      "url": "https://www.cincinnati-oh.gov/kearney/",
+      "photo_url": "https://www.cincinnati-oh.gov/sites/kearney/cache/file/5BF1C41A-CF29-0083-B1ECA62406DA19E3_ribbonboximage.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/janmichelekearney/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jan-Michele was born in Cincinnati and is a proud graduate of Cincinnati Public Schools (Rockdale Elementary and Walnut Hills High School). Her father, Dr. Luther J. Lemon, was a family physician for more than 50 years, and her mother, Elizabeth M. Lemon was a CPS teacher. She is honored to serve the residents of the city she loves.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cincinnati",
+        "state": "OH"
+      },
+      "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/government/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:cleveland:mayor:justin-m.-bibb",
+      "name": "Justin M. Bibb",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": null,
+      "phone": "216-664-2000",
+      "email": "MayorBibb@clevelandohio.gov",
+      "url": "https://www.clevelandohio.gov/city-hall/office-mayor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "601 Lakeside Ave Cleveland, Ohio 44114",
+      "offices": [],
+      "hours": "Monday - Friday 9 AM to 4:30 PM",
+      "bio": "Justin M. Bibb is the 58th Mayor of Cleveland working to improve public safety, invest in neighborhoods and modernize City Hall. On January 3, 2022, Mayor Bibb took the oath of office as the city’s first millennial mayor.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "OH"
+      },
+      "source_url": "https://www.clevelandohio.gov/city-hall/office-mayor",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "oh:columbus:mayor:andrew-j.-ginther",
       "name": "Andrew J. Ginther",
@@ -223,6 +536,37 @@
       },
       "source_url": "https://www.hamiltoncountyohio.gov/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:summit-county:executive:ilene-shapiro",
+      "name": "Ilene Shapiro",
+      "office": "Executive",
+      "level": "county",
+      "body": "Summit County Commissioners Court",
+      "district": null,
+      "phone": "330-643-2510",
+      "email": null,
+      "url": "https://co.summitoh.net/home/Summit-County-Executive.html",
+      "photo_url": "https://co.summitoh.net/siteflow_exec/images/portal-headshot.png",
+      "social": {
+        "twitter": "https://twitter.com/SummitExecutive",
+        "facebook": "https://www.facebook.com/SummitCountyExecutive",
+        "instagram": "https://www.instagram.com/explore/locations/285485030/summit-county-executive-ilene-shapiro/?hl=en",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCobf0hfESSWZIWlK3rfOx3A"
+      },
+      "address": "Ohio Building - 8th Floor\n175 South Main Street\nAkron, OH 44308",
+      "offices": [],
+      "hours": null,
+      "bio": "Ilene Shapiro, Summit County Executive, focuses on fostering innovation and economic competitiveness. She collaborates with partners to make Summit County an ideal place to live and work, highlighting its vibrant city, communities, a research university, and a national park.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Summit County",
+        "state": "OH"
+      },
+      "source_url": "https://co.summitoh.net/portal/County-of-Summit-Ohio.html",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     }
   ]
