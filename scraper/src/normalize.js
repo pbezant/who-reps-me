@@ -11,6 +11,22 @@ function cleanPhone(phone) {
   return String(phone).trim();
 }
 
+// Loose "x@y.z" sanity check — not full RFC 5322 validation, just enough to catch the specific
+// mistake media.js/extract.js's `emails` candidate list defends against upstream: the LLM
+// grabbing some other URL (a contact-form link, a profile page) and putting it in the `email`
+// field when no real mailto: candidate was offered to it. Confirmed real-world case: Kirk
+// Watson's `email` on austintexas.gov/mayor came back as
+// "https://www.austintexas.gov/email/14286" (see media.js's header comment for the full story).
+// This is the second line of defense, in case a bad value ever gets through for some other
+// reason — drop it to null rather than store something that isn't shaped like an email at all.
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+function cleanEmail(email) {
+  if (!email) return null;
+  const trimmed = String(email).trim();
+  return EMAIL_RE.test(trimmed) ? trimmed : null;
+}
+
 function absolutize(maybeUrl, base) {
   if (!maybeUrl) return null;
   try {
@@ -117,7 +133,7 @@ export function normalize(raw, { jurisdiction, sourceUrl, extractedAt }) {
     body: jurisdiction.body || null,
     district: raw.district || null,
     phone: cleanPhone(raw.phone),
-    email: raw.email ? String(raw.email).trim() : null,
+    email: cleanEmail(raw.email),
     url: absolutize(raw.url, sourceUrl),
     photo_url: absolutize(raw.photo_url, sourceUrl),
     social: normalizeSocial(raw.social, sourceUrl),
@@ -244,7 +260,7 @@ export function mergeRecordFields(existing, incoming) {
 export function mergeEnrichment(record, raw, { sourceUrl, extractedAt }) {
   const detail = {
     phone: cleanPhone(raw?.phone),
-    email: raw?.email ? String(raw.email).trim() : null,
+    email: cleanEmail(raw?.email),
     url: absolutize(raw?.url, sourceUrl),
     photo_url: absolutize(raw?.photo_url, sourceUrl),
     social: normalizeSocial(raw?.social, sourceUrl),
