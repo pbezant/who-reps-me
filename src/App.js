@@ -138,6 +138,7 @@ function SearchBar({ apiKey, setRepList }) {
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(query);
+      logSearch(query, geo);
       const [fedState, shard, federalSocial, federalDetails, stateCards, executiveCards] = await Promise.all([
         getRepList(apiKey, query),
         getOfficialsShard(geo?.state),
@@ -275,6 +276,17 @@ export function localScrapeNote({ city, found, error, source }) {
     return `No local officials found for ${city} in our last check — this is retried automatically within the week.`;
   }
   return `No local officials found for ${city} yet.`;
+}
+
+// Fire-and-forget: logs what was searched (netlify/functions/log-search.mjs) so it can be
+// reviewed later (netlify/functions/search-log.mjs). Never awaited by the caller and never lets
+// a network hiccup surface — a search that can't be logged still works exactly like one that can.
+function logSearch(query, geo) {
+  fetch('/.netlify/functions/log-search', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ query, geo }),
+  }).catch((err) => console.error('logSearch failed:', err));
 }
 
 // Build a human-readable address string from a Photon feature's properties.
