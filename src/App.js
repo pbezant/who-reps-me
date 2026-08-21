@@ -121,13 +121,17 @@ function SearchBar({ apiKey, setRepList }) {
   };
 
   const selectSuggestion = (label) => {
+    // Capture what the user actually typed before this overwrites it with the corrected
+    // suggestion — `location` here is still last render's value (setLocation below hasn't
+    // committed yet), so this is the raw pre-autocomplete text, for logSearch below.
+    const typed = location;
     setSuggestions([]);
     setShowSuggestions(false);
     setLocation(label);
-    executeSearch(label);
+    executeSearch(label, typed);
   };
 
-  const executeSearch = async (overrideLocation) => {
+  const executeSearch = async (overrideLocation, rawTyped) => {
     const query = (overrideLocation ?? location).trim();
     if (!query || loading) return;
     setShowSuggestions(false);
@@ -138,7 +142,7 @@ function SearchBar({ apiKey, setRepList }) {
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(query);
-      logSearch(query, geo);
+      logSearch(query, geo, rawTyped);
       const [fedState, shard, federalSocial, federalDetails, stateCards, executiveCards] = await Promise.all([
         getRepList(apiKey, query),
         getOfficialsShard(geo?.state),
@@ -281,11 +285,18 @@ export function localScrapeNote({ city, found, error, source }) {
 // Fire-and-forget: logs what was searched (netlify/functions/log-search.mjs) so it can be
 // reviewed later (netlify/functions/search-log.mjs). Never awaited by the caller and never lets
 // a network hiccup surface — a search that can't be logged still works exactly like one that can.
-function logSearch(query, geo) {
+//
+// `typedQuery` is what the user had actually typed before an autocomplete suggestion overwrote
+// it (see selectSuggestion) — only sent when it differs from `query`, so the log shows the raw
+// input specifically for the searches where a suggestion corrected it, not a redundant copy of
+// `query` on every other search.
+function logSearch(query, geo, typedQuery) {
+  const typed = typedQuery?.trim();
+  const payload = typed && typed !== query ? { query, geo, typed } : { query, geo };
   fetch('/.netlify/functions/log-search', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ query, geo }),
+    body: JSON.stringify(payload),
   }).catch((err) => console.error('logSearch failed:', err));
 }
 
