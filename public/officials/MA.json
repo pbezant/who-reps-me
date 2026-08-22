@@ -1,10 +1,11 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 16,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 35,
   "cities": [
     "Boston",
-    "Norfolk County"
+    "Norfolk County",
+    "Worcester"
   ],
   "officials": [
     {
@@ -501,6 +502,595 @@
       },
       "source_url": "https://www.norfolkcounty.org/county_commission/commissioners.php",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:gary-rosen",
+      "name": "Gary Rosen",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-799-1049",
+      "email": "RosenG@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/rosen.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:john-p.-fresolo",
+      "name": "John P. Fresolo",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "District 3 (Wards 5 & 6)",
+      "phone": "508-799-1049",
+      "email": "FresoloJ@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/fresolo.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:jose-a.-rivera",
+      "name": "Jose A. Rivera",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "District 5 (Wards 7 & 9)",
+      "phone": "508-799-1049",
+      "email": "RiveraJA@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/rivera.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:kathleen-m.-toomey",
+      "name": "Kathleen M. Toomey",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-799-1049",
+      "email": "ToomeyK@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/toomey.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:khrystian-e.-king",
+      "name": "Khrystian E. King",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "Vice Chairman & At-Large",
+      "phone": "508-799-1049",
+      "email": "KingK@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/king.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:luis-a.-ojeda",
+      "name": "Luis A. Ojeda",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "District 4 (Wards 8 & 10)",
+      "phone": "508-799-1049",
+      "email": "OjedaL@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/ojeda.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:morris-a.-bergman",
+      "name": "Morris A. Bergman",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-799-1049",
+      "email": "BergmanM@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/bergman.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:robert-a.-bilotta",
+      "name": "Robert A. Bilotta",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "District 2 (Wards 3 & 4)",
+      "phone": "508-799-1049",
+      "email": "BilottaR@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/bilotta.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:satya-b.-mitra",
+      "name": "Satya B. Mitra",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-799-1049",
+      "email": "MitraS@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/mitra.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:city-councilor:tony-economou",
+      "name": "Tony Economou",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "District 1 (Wards 1 & 2)",
+      "phone": "508-799-1049",
+      "email": "EconomouT@worcesterma.gov",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/council/economou.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:mayor:joseph-m.-petty",
+      "name": "Joseph M. Petty",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-799-1153",
+      "email": "Mayor@worcesterma.gov",
+      "url": "https://www.worcesterma.gov/mayor",
+      "photo_url": "https://www.worcesterma.gov/media/council/petty.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall Room 305\n455 Main Street\nWorcester, MA 01608",
+      "offices": [],
+      "hours": "Monday - Friday 9 a.m. - 5 p.m.",
+      "bio": "Joseph M. Petty is serving his fifteenth two-year term as Councilor-At-Large and his eighth term as Mayor of the City of Worcester, also serving as Chairman of the Worcester School Committee. He has been Mayor since January 2012 and holds a BS in Business Administration from Nichols College and a law degree from New England School of Law. Mayor Petty prioritizes reliable police and fire services, budgetary prudence, and improving infrastructure in schools and neighborhoods.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:alejandro-guardiola,-jr.",
+      "name": "Alejandro Guardiola, Jr.",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "D",
+      "phone": "774-622-1595",
+      "email": "guardiolaa@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/guardiola.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:dianna-biancheria",
+      "name": "Dianna Biancheria",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "C",
+      "phone": "774-622-1583",
+      "email": "biancheriad@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/biancheria.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:jermaine-l.-johnson",
+      "name": "Jermaine L. Johnson",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "F",
+      "phone": null,
+      "email": "JohnsonJL@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/johnson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:kathleen-l.-roy",
+      "name": "Kathleen L. Roy",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "E",
+      "phone": "774-622-1599",
+      "email": "kroy@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/roy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:maureen-f.-binienda",
+      "name": "Maureen F. Binienda",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "774-622-1596",
+      "email": "biniendamf@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/binienda.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:molly-o.-mccullough",
+      "name": "Molly O. McCullough",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "A",
+      "phone": "774-502-8731",
+      "email": "McCulloughM@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/mccullough.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:susan-m.-mailman",
+      "name": "Susan M. Mailman",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "At-Large",
+      "phone": "508-365-4171",
+      "email": "MailmanS@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/mailman.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:worcester:school-committee:vanessa-z.-alvarez",
+      "name": "Vanessa Z. Alvarez",
+      "office": "School Committee",
+      "level": "local",
+      "body": "Worcester City Council",
+      "district": "B",
+      "phone": "774-622-1581",
+      "email": "alvarezv@worcesterschools.net",
+      "url": null,
+      "photo_url": "https://www.worcesterma.gov/media/officials/alvarez.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Worcester",
+        "state": "MA"
+      },
+      "source_url": "https://www.worcesterma.gov/elections/elected-officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

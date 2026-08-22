@@ -1,13 +1,264 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 13,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 32,
   "cities": [
+    "Chattanooga",
     "Davidson County",
     "Hamilton County",
-    "Shelby County"
+    "Knoxville",
+    "Shelby County",
+    "Williamson County"
   ],
   "officials": [
+    {
+      "id": "tn:chattanooga:council-member:chip-henderson",
+      "name": "Chip Henderson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:cody-harvey",
+      "name": "Cody Harvey",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:dennis-clark",
+      "name": "Dennis Clark",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:jenni-berz",
+      "name": "Jenni Berz",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:jenny-hill",
+      "name": "Jenny Hill",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:marvene-noel",
+      "name": "Marvene Noel",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:raquetta-dotley",
+      "name": "Raquetta Dotley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:chattanooga:council-member:ronald-elliott",
+      "name": "Ronald Elliott",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Chattanooga City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chattanooga",
+        "state": "TN"
+      },
+      "source_url": "https://chattanooga.gov/government/city-council/committees",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "tn:davidson-county:mayor:freddie-oconnell",
       "name": "Freddie O'Connell",
@@ -236,6 +487,316 @@
       "confidence": 1
     },
     {
+      "id": "tn:knoxville:council-member:amelia-parker",
+      "name": "Amelia Parker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "At Large Seat C",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:charles-thomas",
+      "name": "Charles Thomas",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "5th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:debbie-helsley",
+      "name": "Debbie Helsley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "At Large Seat B",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:denzel-grant",
+      "name": "Denzel Grant",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "6th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:doug-lloyd",
+      "name": "Doug Lloyd",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "3rd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:karyn-adams",
+      "name": "Karyn Adams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "1st District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:lynne-fugate",
+      "name": "Lynne Fugate",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "At Large Seat A",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:matthew-debardelaben",
+      "name": "Matthew DeBardelaben",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "4th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:council-member:nathan-honeycutt",
+      "name": "Nathan Honeycutt",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": "2nd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:knoxville:mayor:indya-kincannon",
+      "name": "Indya Kincannon",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Knoxville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.knoxvilletn.gov/government/mayors_office/biography_of_mayor",
+      "photo_url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/Image/MayorsOffice/Indya-Kincannon-2024sm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Knoxville",
+        "state": "TN"
+      },
+      "source_url": "https://www.knoxvilletn.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "tn:shelby-county:mayor:lee-harris",
       "name": "Lee Harris",
       "office": "Mayor",
@@ -419,6 +980,37 @@
       },
       "source_url": "https://www.shelbycountytn.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:williamson-county:county-mayor:rogers-anderson",
+      "name": "Rogers Anderson",
+      "office": "County Mayor",
+      "level": "county",
+      "body": "Williamson County Commissioners Court",
+      "district": null,
+      "phone": "615-790-5700",
+      "email": "County.Mayor@williamsoncounty-tn.gov",
+      "url": "https://www.williamsoncounty-tn.gov/55/County-Mayor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1320 W Main Street Suite 125 Franklin, TN 37064",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 am - 4:30 pm",
+      "bio": "The Tennessee Constitution provides for the election of an executive officer, which is referred to as the County Mayor, in each county. The County Mayor is elected by popular vote at the regular August election every four years, coinciding with the Governor's election, and may serve an unlimited number of terms. The County Mayor, formerly County Executive, is Chief Executive Officer of the county. The County Mayor exercises a role of leadership in county government and is responsible for the county's fiscal management and other executive functions.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Williamson County",
+        "state": "TN"
+      },
+      "source_url": "https://www.williamsoncounty-tn.gov/55/County-Mayor",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

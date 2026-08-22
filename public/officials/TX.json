@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-21T05:32:50.234Z",
-  "count": 165,
+  "generated_at": "2026-08-22T05:11:08.657Z",
+  "count": 198,
   "cities": [
     "Arlington",
     "Austin",
@@ -9,8 +9,11 @@
     "Bastrop County",
     "Bee Cave",
     "Bexar County",
+    "Brownsville",
     "Caldwell County",
+    "Cameron County",
     "Collin County",
+    "Comal County",
     "Corpus Christi",
     "Dallas County",
     "Denton County",
@@ -18,17 +21,24 @@
     "El Paso County",
     "Elgin",
     "Fort Bend County",
+    "Garland",
     "Granbury",
     "Harris County",
     "Hays County",
     "Hidalgo County",
     "Hutto",
+    "Jefferson County",
+    "Kaufman County",
     "Kyle",
     "Lakeway",
     "Leander",
     "Lockhart",
+    "Lubbock",
+    "McKinney",
+    "McLennan County",
     "Montgomery County",
     "New Braunfels",
+    "Parker County",
     "Round Rock",
     "San Marcos",
     "Smithville",
@@ -706,6 +716,37 @@
       "confidence": 1
     },
     {
+      "id": "tx:brownsville:mayor:john-cowen,-jr.",
+      "name": "John Cowen, Jr.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Brownsville City Council",
+      "district": null,
+      "phone": "956-548-6007",
+      "email": "mayor@brownsvilletx.gov",
+      "url": "https://www.brownsvilletx.gov/2566/Mayor",
+      "photo_url": "https://www.brownsvilletx.gov/ImageRepository/Document?documentId=17208",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/johncowenforbrownsville/#",
+        "instagram": "https://www.instagram.com/john.f.cowen",
+        "linkedin": "https://www.linkedin.com/in/johnfcowen/",
+        "youtube": null
+      },
+      "address": "1001 El. Elizabeth Street Brownsville, TX 78520",
+      "offices": [],
+      "hours": null,
+      "bio": "Honorable Mayor John Cowen, Jr. is a distinguished public servant and a 6th generation Brownsvillian. Elected as Mayor in 2023, he leads key initiatives to enhance the city's economy, infrastructure, quality of life, and long-term development.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Brownsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.brownsvilletx.gov/2566/Mayor",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:caldwell-county:commissioner:b.-j.-westmoreland",
       "name": "B. J. Westmoreland",
       "office": "Commissioner",
@@ -722,7 +763,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-22T05:11:08.657Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -745,7 +786,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-22T05:11:08.657Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -802,7 +843,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-22T05:11:08.657Z",
       "confidence": 1
     },
     {
@@ -822,7 +863,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-22T05:11:08.657Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -929,6 +970,161 @@
       "confidence": 0.9
     },
     {
+      "id": "tx:cameron-county:commissioner:david-a.-garza",
+      "name": "David A. Garza",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Cameron County Commissioners Court",
+      "district": "Pct. 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cameroncountytx.gov/wp-content/uploads/2023/02/cccp3-1.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cameron County",
+        "state": "TX"
+      },
+      "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cameron-county:commissioner:gus-ruiz",
+      "name": "Gus Ruiz",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Cameron County Commissioners Court",
+      "district": "Pct. 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cameroncountytx.gov/wp-content/uploads/2023/02/cccp4.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cameron County",
+        "state": "TX"
+      },
+      "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cameron-county:commissioner:joey-lopez",
+      "name": "Joey Lopez",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Cameron County Commissioners Court",
+      "district": "Pct. 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cameroncountytx.gov/wp-content/uploads/2023/02/cccp2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cameron County",
+        "state": "TX"
+      },
+      "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cameron-county:commissioner:sofia-c.-benavides",
+      "name": "Sofia C. Benavides",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Cameron County Commissioners Court",
+      "district": "Pct. 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cameroncountytx.gov/wp-content/uploads/2023/02/cccp1.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cameron County",
+        "state": "TX"
+      },
+      "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cameron-county:county-judge:eddie-treviño,-jr.",
+      "name": "Eddie Treviño, Jr.",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Cameron County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/JudgeTrevino",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cameron County",
+        "state": "TX"
+      },
+      "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:collin-county:district-attorney:greg-willis",
       "name": "Greg Willis",
       "office": "District Attorney",
@@ -1019,6 +1215,37 @@
       },
       "source_url": "https://www.collincountytx.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:comal-county:commissioner:kevin-webb",
+      "name": "Kevin Webb",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Comal County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "830-221-1103",
+      "email": "kwebb@comalcounty.gov",
+      "url": "https://www.comalcounty.gov/m/directory/employee?eid=212",
+      "photo_url": "https://www.comalcounty.gov/ImageRepository/Document?documentID=3423",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Main Plaza New Braunfels, TX 78130",
+      "offices": [],
+      "hours": null,
+      "bio": "Kevin Webb was elected in November of 2012 and has won re-election twice. Born and raised in Comal County, he graduated from New Braunfels High School and Texas A&M with a B.S. in Recreation, Parks, and Tourism. In office, Kevin has primarily focused on transportation and currently serves as the Vice Chairman of the Alamo Area Metropolitan Planning Organization (AAMPO).",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Comal County",
+        "state": "TX"
+      },
+      "source_url": "https://www.comalcounty.gov/171/Commissioner-Precinct-3",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -2014,6 +2241,285 @@
       "confidence": 1
     },
     {
+      "id": "tx:garland:council-member:christina-segoviano",
+      "name": "Christina Segoviano",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=24045",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:council-member:ed-moore",
+      "name": "Ed Moore",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=22425",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:council-member:jimmy-tran",
+      "name": "Jimmy Tran",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 1",
+      "phone": "972-477-3260",
+      "email": "Council1@GarlandTX.gov",
+      "url": "https://www.garlandtx.gov/781/David-Gibbons",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=24034",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "Jimmy Tran was elected to serve as the Garland City Council Member for District 1 in May 2026. A Garland resident of over 24 years, Jimmy is deeply committed to strengthening the community through responsive leadership, public safety and sustainable economic growth.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:council-member:joe-thomas-jr.",
+      "name": "Joe Thomas Jr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 7",
+      "phone": "972-439-6637",
+      "email": "council7@garlandtx.gov",
+      "url": "https://www.garlandtx.gov/777/District-7",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=21830",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Thomas Jr., District 7 Council Member, was elected to his first term on the Garland City Council in May 2025. He retired from full-time work in 2026 to devote more time to the city he loves. As a Council member, he aims to improve city infrastructure and continue Garland’s economic growth.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:council-member:justin-caraway",
+      "name": "Justin Caraway",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=24035",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:council-member:margaret-lucht",
+      "name": "Margaret Lucht",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 5",
+      "phone": "469-264-3556",
+      "email": "Council5@GarlandTX.gov",
+      "url": "https://www.garlandtx.gov/775/Margaret-Lucht",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=22424",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "Margaret Lucht, District 5 City Council member, was sworn in for her first term in 2022. A lifelong resident of District 5, she is a Certified Dental Technician and currently a human resources administrator. She is dedicated to improving District 5 and making Garland a safer, more enjoyable place to live, work, and play.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:deputy-mayor-pro-tem,-council-member:carissa-dutton",
+      "name": "Carissa Dutton",
+      "office": "Deputy Mayor Pro Tem, City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 6",
+      "phone": "972-998-8542",
+      "email": "Council6@GarlandTX.gov",
+      "url": "https://www.garlandtx.gov/787",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=22420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "Carissa Dutton, District 6 Council Member, was elected in May 2023. A 30-year resident of Garland, her extensive community service began as a teenager and includes tornado clean-up efforts, earning her Garland's first-ever Make Your Mark award in 2020. By profession a caretaker, she dedicates her free time to organizations like Garland Overnight Warming Station (GLOWS) and the Garland Optimist Club.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:mayor-pro-tem,-council-member:chris-ott",
+      "name": "Chris Ott",
+      "office": "Mayor Pro Tem, City Council Member",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": "District 8",
+      "phone": "972-987-9149",
+      "email": "Council8@GarlandTX.gov",
+      "url": "https://www.garlandtx.gov/786/District-8",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=14202",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "Chris Ott, District 8 Council Member, was elected to his first term in May 2023 and serves as Mayor Pro Tem. He is an advocate for the business community, open spaces, and the arts, with a history of civic involvement including 13 years on the City's Plan Commission. Chris is also a small business owner, having founded Rotary Performance in Garland in 1988.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:garland:mayor:dylan-hedrick",
+      "name": "Dylan Hedrick",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Garland City Council",
+      "district": null,
+      "phone": "469-560-6099",
+      "email": "Mayor@GarlandTX.gov",
+      "url": "https://www.garlandtx.gov/782/Mayor",
+      "photo_url": "https://www.garlandtx.gov/ImageRepository/Document?documentId=21953",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Fifth St. Garland, TX 75040",
+      "offices": [],
+      "hours": null,
+      "bio": "After serving three consecutive terms as District 7 Council member, Dylan Hedrick was elected to his first term as Garland Mayor in June of 2025. He holds a Bachelor of Science in Civil Engineering and a Masters of Business Administration from Rice University. As mayor, Dylan hopes to combine his engineering background with his business expertise to help rebuild city infrastructure, further Garland's economic development, and promote a better quality of life.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Garland",
+        "state": "TX"
+      },
+      "source_url": "https://www.garlandtx.gov/758/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:granbury:city-manager:chris-coffman",
       "name": "Chris Coffman",
       "office": "City Manager",
@@ -2614,6 +3120,68 @@
       },
       "source_url": "https://www.huttotx.gov/Directory.aspx?DID=30",
       "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:jefferson-county:commissioner:everette-bo-alfred",
+      "name": "Everette \"Bo\" Alfred",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": null,
+      "email": null,
+      "url": "https://jeffersoncountytx.gov/prct4/comm4.htm",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "TX"
+      },
+      "source_url": "https://jeffersoncountytx.gov/comm_crt/commlink.htm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:kaufman-county:commissioner:tommy-moore",
+      "name": "Tommy Moore",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Kaufman County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "469-376-4622",
+      "email": "pct4workrequests@kaufmancounty.net",
+      "url": "https://www.kaufmancounty.net/530/Precinct-4-Commissioner-Tommy-Moore",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Kaufman County",
+        "state": "TX"
+      },
+      "source_url": "https://www.kaufmancounty.net/530/Precinct-4-Commissioner-Tommy-Moore",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -3275,6 +3843,440 @@
       "confidence": 1
     },
     {
+      "id": "tx:lubbock:councilman:david-bruegel",
+      "name": "David Bruegel",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 3",
+      "phone": "806-775-2023",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=9868",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lubbock:councilman:gordon-harris",
+      "name": "Gordon Harris",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 2",
+      "phone": "806-775-2007",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=6482",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lubbock:councilman:tim-collins",
+      "name": "Tim Collins",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 6",
+      "phone": "806-775-2031",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=6480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lubbock:councilman:tim-green",
+      "name": "Tim Green",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 4",
+      "phone": "806-775-2008",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=10286",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lubbock:councilwoman:christy-martinez-garcia",
+      "name": "Christy Martinez-Garcia",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 1",
+      "phone": "806-775-2027",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=6483",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:lubbock:mayor-pro-tem:dr.-jennifer-wilson",
+      "name": "Dr. Jennifer Wilson",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Lubbock City Council",
+      "district": "District 5",
+      "phone": "806-775-2011",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mylubbock.us/ImageRepository/Document?documentID=6485",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1314 Avenue K Lubbock, TX 79401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lubbock",
+        "state": "TX"
+      },
+      "source_url": "https://www.mylubbock.us/835/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:council-member:ernest-lynch",
+      "name": "Ernest Lynch",
+      "office": "Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "At Large 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=36282",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:council-member:geré-feltus",
+      "name": "Geré Feltus",
+      "office": "Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=26357",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:council-member:justin-beller",
+      "name": "Justin Beller",
+      "office": "Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=27499",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:council-member:michael-jones",
+      "name": "Michael Jones",
+      "office": "Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "At Large 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=33007",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:council-member:patrick-cloutier",
+      "name": "Patrick Cloutier",
+      "office": "Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=29161",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:mayor-pro-tem/council-member:rick-franklin",
+      "name": "Rick Franklin",
+      "office": "Mayor Pro Tem / Council Member",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=19916",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mckinney:mayor:bill-cox",
+      "name": "Bill Cox",
+      "office": "Mayor",
+      "level": "local",
+      "body": "McKinney City Council",
+      "district": "At Large",
+      "phone": "972-547-7507",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mckinneytexas.org/ImageRepository/Document?documentId=36272",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 E. Virginia St. McKinney, TX 75069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McKinney",
+        "state": "TX"
+      },
+      "source_url": "https://www.mckinneytexas.org/1167/Council-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mclennan-county:county-commissioner:will-jones",
+      "name": "Will Jones",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "McLennan County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "254-757-5063",
+      "email": "precinct3@mclennan.gov",
+      "url": "https://www.mclennan.gov/792/Commissioner-Will-Jones",
+      "photo_url": "https://www.mclennan.gov/ImageRepository/Document?documentID=16831",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Will Jones moved to Waco in 1990, graduating from Baylor University with a B.B.A. in Finance, and had a successful career in the private sector before being elected County Commissioner for McLennan County, Precinct 3, in 2012. He is married to Merryl, has two sons, Grant and Reid, and is actively involved in his community and church.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "McLennan County",
+        "state": "TX"
+      },
+      "source_url": "https://www.mclennan.gov/240/Precinct-3",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:montgomery-county:commissioner:charlie-riley",
       "name": "Charlie Riley",
       "office": "Commissioner",
@@ -3582,6 +4584,37 @@
       },
       "source_url": "https://www.newbraunfels.gov",
       "extracted_at": "2026-08-21T05:32:50.234Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:parker-county:county-commissioner:jacob-holt",
+      "name": "Jacob Holt",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Parker County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "817-594-4022",
+      "email": "j.holt@parkercountytx.com",
+      "url": "https://www.parkercountytx.gov/m/directory/employee?eid=249",
+      "photo_url": "https://www.parkercountytx.gov/ImageRepository/Document?documentID=13584",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3033 FM 1885 Weatherford, TX 76088",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Parker County",
+        "state": "TX"
+      },
+      "source_url": "https://www.parkercountytx.gov/101/Commissioner-Precinct-2",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

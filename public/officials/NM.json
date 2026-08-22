@@ -1,10 +1,11 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 19,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 29,
   "cities": [
     "Albuquerque",
-    "Bernalillo County"
+    "Bernalillo County",
+    "Doña Ana County"
   ],
   "officials": [
     {
@@ -594,6 +595,316 @@
       },
       "source_url": "https://www.bernco.gov/government/talk-to-us/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:assessor:eugenia-gina-montoya-ortega",
+      "name": "Eugenia \"Gina\" Montoya Ortega",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": null,
+      "phone": "575-647-7400",
+      "email": null,
+      "url": "https://www.donaana.gov/departments/elected_officials/assessors_office/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd. Las Cruces, NM 88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Doña Ana County Assessor Eugenia \"Gina\" Montoya Ortega, was elected in November 2022, and she took office on Jan. 1, 2023.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:clerk:amanda-lopez-askin,-ph.d.",
+      "name": "Amanda Lopez Askin, Ph.D.",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": null,
+      "phone": "575-647-7421",
+      "email": null,
+      "url": "https://www.donaana.gov/departments/elected_officials/clerks_office/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": "https://x.com/dacclerk",
+        "facebook": "https://www.facebook.com/DonaAnaCountyClerksOffice",
+        "instagram": "https://www.instagram.com/dacclerk/?hl=en",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd Las Cruces, New Mexico 88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Amanda López Askin has served as the Doña Ana County Clerk since September 2018, first by appointment and then by election in 2020 and 2024. Her responsibilities include maintaining public records, issuing marriage and business certificates, and administering elections, as well as serving as the Clerk of the Probate Court.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:county-commissioner:christopher-schaljo-hernandez",
+      "name": "Christopher Schaljo Hernandez",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": "District 1",
+      "phone": "575-525-5808",
+      "email": "schaljohernandez@donaana.gov",
+      "url": "https://www.donaana.gov/government/board_of_county_commissioners/district_1.php",
+      "photo_url": "https://www.donaana.gov/government/board_of_county_commissioners/bus-directory/Commissioners/Schaljo.jpg?t=202603311725530",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd, Las Cruces, NM88007",
+      "offices": [],
+      "hours": "Third Monday of each month, 11 a.m. - 1 p.m.",
+      "bio": "Christopher Schaljo-Hernandez was elected to the Doña Ana County Commission District 1 seat in November of 2022, taking office on Jan. 1, 2023. He earned a bachelor’s degree in Government from New Mexico State University in 2012 and has been involved in local and statewide politics. Commissioner Schaljo-Hernandez has served various community nonprofits and is a former chair of The Doña Ana County Democratic Party.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:county-commissioner:gloria-gameros",
+      "name": "Gloria Gameros",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": "District 2",
+      "phone": "575-525-5804",
+      "email": "ggameros@donaana.gov",
+      "url": "https://www.donaana.gov/government/board_of_county_commissioners/district_2.php",
+      "photo_url": "https://www.donaana.gov/government/board_of_county_commissioners/bus-directory/Commissioners/Gameros.jpg?t=202603311750270",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd, Las Cruces, NM88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Gloria Gameros was elected as the District 2 Commissioner in November 2024. Gameros served as a Trustee and Mayor Pro Tem for the City of Anthony, NM, from 2016 to 2021. Her professional background includes small business ownership and finance, having owned a massage therapy practice in Las Cruces for 16 years, worked in payroll and data entry for the Gadsden School District, and held positions in two CPA firms in El Paso. This wide-ranging experience gives Commissioner Gameros a unique perspective on community needs, financial stewardship, and local governance. Committed to improving the quality of life for her constituents, Commissioner Gameros emphasizes open communication and plans to hold regular meetings to address community concerns.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:county-commissioner:manuel-a.-sanchez",
+      "name": "Manuel A. Sanchez",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": "District 5",
+      "phone": "575-525-5809",
+      "email": "msanchez@donaana.gov",
+      "url": "https://www.donaana.gov/government/board_of_county_commissioners/district_5.php",
+      "photo_url": "https://www.donaana.gov/government/board_of_county_commissioners/bus-directory/Commissioners/Sanchez.jpg?t=202603311816000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd, Las Cruces, NM88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Manuel Sanchez was appointed to the commission seat in District 5 on March 28, 2019. He served the remainder of the term vacated by Karen Trujillo. Commissioner Sanchez is originally from Anthony, grew up in El Paso, and studied mechanical engineering at MIT, later working for General Electric.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:county-commissioner:susana-chaparro",
+      "name": "Susana Chaparro",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": "District 4",
+      "phone": "575-525-5810",
+      "email": "schaparro@donaana.gov",
+      "url": "https://www.donaana.gov/government/board_of_county_commissioners/district_4.php",
+      "photo_url": "https://www.donaana.gov/government/board_of_county_commissioners/bus-directory/Commissioners/Chaparro.jpg?t=202603311812490",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd, Las Cruces, NM 88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Susana Chaparro was elected to the District 4 seat on the Doña Ana County Board of Commissioners on Nov. 3, 2020, and assumed duties on Jan. 1, 2021. Her four-year term ends Dec. 31, 2024, and she is eligible to seek re-election. District 4 encompasses most of northeast Doña Ana County, including the East Mesa, Hacienda Acres, Organ, Moongate and the eastern areas of the City of Las Cruces.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:county-commissioner:susie-kimble",
+      "name": "Susie Kimble",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": "District 3",
+      "phone": "575-525-5807",
+      "email": "skimble@donaana.gov",
+      "url": "https://www.donaana.gov/government/board_of_county_commissioners/district_3.php",
+      "photo_url": "https://www.donaana.gov/government/board_of_county_commissioners/bus-directory/Commissioners/Kimble.jpg?t=202603311805480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd, Las Cruces, NM 88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Patricia S. \"Susie\" Kimble was appointed as the District 3 Commissioner by Governor Michelle Lujan Grisham in February 2026. She is completing the term of former Commissioner Shannon Reynolds, which runs through December 31, 2026. Kimble brings extensive experience in behavioral health policy and community collaboration.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:probate-judge:judith-ann-baca",
+      "name": "Judith Ann Baca",
+      "office": "Probate Judge",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": null,
+      "phone": "575-525-6132",
+      "email": "judithb@donaana.gov",
+      "url": "https://www.donaana.gov/departments/elected_officials/probate_judge/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N. Motel Blvd., Rm. 1-201 Las Cruces, NM 88007",
+      "offices": [],
+      "hours": "Tuesday - Thursday: 1 - 5 p.m.",
+      "bio": "Doña Ana County Probate Judge Judith Ann Baca was first elected in November 2022. Her term began Jan. 1, 2023 and runs through Dec. 31, 2027. The Doña Ana County Probate Judge decides legal matters related with estates of deceased persons. Probate cases may be opened for decedents with or without a will.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:sheriff:kim-stewart",
+      "name": "Kim Stewart",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": null,
+      "phone": "575-525-1911",
+      "email": null,
+      "url": "https://www.donaana.gov/departments/law_safety/sheriffs_office/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd Las Cruces, NM 88007",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:doña-ana-county:treasurer:marisol-richardson",
+      "name": "Marisol Richardson",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Doña Ana County Commissioners Court",
+      "district": null,
+      "phone": "575-647-7433",
+      "email": null,
+      "url": "https://www.donaana.gov/departments/elected_officials/treasurers_office/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "845 N Motel Blvd Las Cruces, NM 88007",
+      "offices": [],
+      "hours": null,
+      "bio": "Doña Ana County Treasurer Marisol Richardson became the Chief Financial Officer for Doña Ana County in 2024 after serving for more than two years as Chief Deputy Treasurer. Prior to that role, she held managerial roles in the County's Finance Department for 18 years.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Doña Ana County",
+        "state": "NM"
+      },
+      "source_url": "https://www.donaana.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

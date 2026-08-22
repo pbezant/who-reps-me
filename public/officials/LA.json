@@ -1,13 +1,45 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 17,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 18,
   "cities": [
+    "Lafayette Parish",
     "New Orleans",
     "Orleans Parish",
     "St. Tammany Parish"
   ],
   "officials": [
+    {
+      "id": "la:lafayette-parish:disability-awareness-coordinator:harlon-cowsar",
+      "name": "Harlon Cowsar",
+      "office": "Disability Awareness Coordinator",
+      "level": "county",
+      "body": "Lafayette Parish Commissioners Court",
+      "district": null,
+      "phone": "337-291-8300",
+      "email": "Disability@LafayetteLA.gov",
+      "url": "https://www.lafayettela.gov/your-government/accessibility/disability-awareness-coordinator/",
+      "photo_url": "https://media-002-us.cdn.govstack.com/lafayettela-us/media/mbbjnhm4/harlon-cowsar.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "705 W. University Avenue, Lafayette, LA 70502",
+      "offices": [],
+      "hours": null,
+      "bio": "Harlon has been an advocate for people with disabilities, and works as Adult Program Coordinator and Information/Referrals Specialist with Families Helping Families of Acadiana. He is currently serving his second term as President of the Affiliated Blind of Louisiana Acadiana Chapter. Harlon is a person with a disability and he is the parent of a child with a disability. Harlon is committed to making a difference in the lives of people with disabilities and their families.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Lafayette Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.lafayettela.gov/your-government/accessibility/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "la:new-orleans:council-member:aimee-mccarron",
       "name": "Aimee McCarron",

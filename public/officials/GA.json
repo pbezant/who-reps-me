@@ -1,13 +1,17 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 28,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 66,
   "cities": [
     "Chatham County",
     "Cobb County",
+    "Columbus",
     "DeKalb County",
     "Fulton County",
-    "Gwinnett County"
+    "Gwinnett County",
+    "Hall County",
+    "Muscogee County",
+    "Richmond County"
   ],
   "officials": [
     {
@@ -318,6 +322,347 @@
       },
       "source_url": "https://www.cobbcounty.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:bruce-huff",
+      "name": "Bruce Huff",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "bhuff@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/w8Tgw6tVVEaxT5iv7kCv-g/Picture/Councilor-3.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:cathy-cook",
+      "name": "Cathy Cook",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 9",
+      "phone": null,
+      "email": "Cook.Cathy@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/CathyCook_Square.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:charmaine-crabb",
+      "name": "Charmaine Crabb",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "crabb.charmaine@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Crabb%202.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3237 Maricopa Drive Columbus, GA 31907",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:gary-allen",
+      "name": "Gary Allen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "gallen@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/SJsEPbe3s0eGanXTkCtePg/Picture/Councilor-6.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:glenn-davis",
+      "name": "Glenn Davis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "glenndavis@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/070YH8ZyUE2J8sDtCAdGoA/Picture/Councilor-2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1505 Forston, GA 31808",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:joanne-cogle",
+      "name": "Joanne Cogle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": "cogle.joanne@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/wd5ojwOcbEyI8XZ_1Y-iSQ/Picture/jcogle.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 722 Columbus, GA",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:simi-barnes",
+      "name": "Simi Barnes",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "barnes.simi@columbusa.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Barnes.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:toyia-tucker",
+      "name": "Toyia Tucker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "tucker.toyia@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/YjADVI2vIESYh8_YPMVj9g/Picture/T.%20Tucker%20Picture.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:travis-chambers",
+      "name": "Travis Chambers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 10",
+      "phone": null,
+      "email": "chambers.travis@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Chambers.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:council-member:walker-garrett",
+      "name": "Walker Garrett",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": "District 8",
+      "phone": null,
+      "email": "wgarrett@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/UbVZImNvWkKJYLAextLctA/Picture/Councilor-8.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2202 Springdale Drive Columbus, GA 31906",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:columbus:mayor:skip-henderson",
+      "name": "Skip Henderson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Columbus City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://columbusga.gov/mayor",
+      "photo_url": "https://columbusga.gov/portals/0/resources/images/Mayor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I am Skip Henderson, the 70th Mayor of Columbus Ga. On behalf of our City Council and over 3,000 City Employees, welcome to Columbus, Georgia, a great place to live, do business, work, and play. Columbus Consolidated Government is Georgia's first consolidated government and is proud to serve as a model for other local governments across the nation.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Columbus",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -876,6 +1221,843 @@
       },
       "source_url": "https://www.gwinnettcounty.com/government/departments/board-of-commissioners",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hall-county:commission-chairman:david-gibbs",
+      "name": "David Gibbs",
+      "office": "Commission Chairman",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": null,
+      "phone": "770-535-8288",
+      "email": "dgibbs@hallcounty.org",
+      "url": "https://www.hallcounty.org/Directory.aspx?EID=864",
+      "photo_url": "https://www.hallcounty.org/ImageRepository/Document?documentID=14352",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2875 Browns Bridge Road Gainesville, GA 30504",
+      "offices": [],
+      "hours": null,
+      "bio": "David Gibbs, 55, is a lifelong Hall County resident, retired firefighter, and local business owner. As Commission Chairman, he is committed to improving infrastructure, fostering economic growth, and ensuring fiscal responsibility, while prioritizing community engagement and public safety. He aims to make Hall County a place where families thrive and businesses grow.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "GA"
+      },
+      "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hall-county:commissioner:billy-powell",
+      "name": "Billy Powell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 2",
+      "phone": "770-535-8288",
+      "email": "bpowell@hallcounty.org",
+      "url": "https://www.hallcounty.org/Directory.aspx?EID=126",
+      "photo_url": "https://www.hallcounty.org/ImageRepository/Document?documentID=14302",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2875 Browns Bridge Road Gainesville, GA 30504",
+      "offices": [],
+      "hours": null,
+      "bio": "First elected in 2004, Commissioner Billy Powell is a Hall County native and a commercial realtor. He holds a degree in Industrial Engineering and uses his project management experience to push for efficient government and better service to citizens. As a member of the Hall County Board of Commissioners, he is active in SPLOST infrastructure projects and strives to be a good steward of taxpayer dollars.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "GA"
+      },
+      "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hall-county:commissioner:gregg-poole",
+      "name": "Gregg Poole",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 3",
+      "phone": "770-535-8288",
+      "email": null,
+      "url": "https://www.hallcounty.org/Directory.aspx?EID=127",
+      "photo_url": "https://www.hallcounty.org/ImageRepository/Document?documentID=10723",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2875 Browns Bridge Road Gainesville, GA 30504",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Poole was elected to the Board of Commissioners in 2022. He represents District 3, which covers East Hall and North Hall. Commissioner Poole is a lifelong Hall County resident. He and his wife have one child and they reside in East Hall.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "GA"
+      },
+      "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hall-county:commissioner:jeff-stowe",
+      "name": "Jeff Stowe",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2875 Browns Bridge Road Gainesville, GA 30504",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "GA"
+      },
+      "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hall-county:commissioner:kathy-cooper",
+      "name": "Kathy Cooper",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 1",
+      "phone": "770-535-8288",
+      "email": "email@hallcounty.org",
+      "url": "https://www.hallcounty.org/directory.aspx?EID=125",
+      "photo_url": "https://www.hallcounty.org/ImageRepository/Document?documentID=7132",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2875 Browns Bridge Road Gainesville, GA 30504",
+      "offices": [],
+      "hours": null,
+      "bio": "South Hall farmer and businesswoman Kathy Cooper was elected to her first term on the Hall County Board of Commissioners in 2014. As District 1 Commissioner, she focuses on addressing the needs of her constituents, maintaining smart growth strategies, and family values. She and her husband operate a cattle and chicken operation and a Christmas tree farm.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "GA"
+      },
+      "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:bruce-huff",
+      "name": "Bruce Huff",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "bhuff@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/w8Tgw6tVVEaxT5iv7kCv-g/Picture/Councilor-3.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:cathy-cook",
+      "name": "Cathy Cook",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": "Cook.Cathy@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/CathyCook_Square.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:charmaine-crabb",
+      "name": "Charmaine Crabb",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "crabb.charmaine@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Crabb%202.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3237 Maricopa Drive Columbus, GA 31907",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:gary-allen",
+      "name": "Gary Allen",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": "gallen@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/SJsEPbe3s0eGanXTkCtePg/Picture/Councilor-6.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:glenn-davis",
+      "name": "Glenn Davis",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "glenndavis@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/070YH8ZyUE2J8sDtCAdGoA/Picture/Councilor-2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1505 Forston, GA 31808",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:joanne-cogle",
+      "name": "Joanne Cogle",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": "cogle.joanne@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/wd5ojwOcbEyI8XZ_1Y-iSQ/Picture/jcogle.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 722 Columbus, GA",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:simi-barnes",
+      "name": "Simi Barnes",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "barnes.simi@columbusa.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Barnes.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:toyia-tucker",
+      "name": "Toyia Tucker",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "tucker.toyia@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/YjADVI2vIESYh8_YPMVj9g/Picture/T.%20Tucker%20Picture.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:travis-chambers",
+      "name": "Travis Chambers",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 10",
+      "phone": null,
+      "email": "chambers.travis@columbusga.org",
+      "url": null,
+      "photo_url": "https://cdnresources.blob.core.usgovcloudapi.net/council/councilor-images/Chambers.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1340 Columbus, GA 31902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:muscogee-county:council-member:walker-garrett",
+      "name": "Walker Garrett",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Muscogee County Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": "wgarrett@columbusga.org",
+      "url": null,
+      "photo_url": "https://columbusga.gov/Portals/0/adam/Content/UbVZImNvWkKJYLAextLctA/Picture/Councilor-8.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2202 Springdale Drive Columbus, GA 31906",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muscogee County",
+        "state": "GA"
+      },
+      "source_url": "https://columbusga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:administrator:tameka-allen",
+      "name": "Tameka Allen",
+      "office": "Administrator",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": null,
+      "phone": "706-821-2300",
+      "email": null,
+      "url": "https://www.augustaga.gov/2496/Administrator-Biography",
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19946",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": "8:30 am - 5:00 pm Monday - Friday",
+      "bio": "Tameka Allen is a visionary innovative strategist who has served as Administrator since September 2024, bringing over 30 years of experience in the technology sector and leadership roles, including Chief Information Officer and Deputy County Administrator for the City of Augusta. She holds an MBA from Augusta State University and a BS in Computer Science from Savannah State University, along with various government management certifications. Ms. Allen is actively involved in technology associations and community boards, and is married with two sons.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:brandon-garrett",
+      "name": "Brandon Garrett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 8",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19939",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:catherine-smith-rice",
+      "name": "Catherine Smith-Rice",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 3",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=20930",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:don-clark",
+      "name": "Don Clark",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 5",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19941",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:francine-scott",
+      "name": "Francine Scott",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 9",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19942",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:jordan-johnson",
+      "name": "Jordan Johnson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 1",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19944",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:lonnie-wimberly",
+      "name": "Lonnie Wimberly",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 4",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=21576",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:stacy-pulliam",
+      "name": "Stacy Pulliam",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 2",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19945",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:tina-slendak",
+      "name": "Tina Slendak",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 7",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19948",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:tony-lewis",
+      "name": "Tony Lewis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 6",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19949",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:commissioner:wayne-guilfoyle",
+      "name": "Wayne Guilfoyle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": "District 10",
+      "phone": "706-821-2300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19950",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:richmond-county:mayor:garnett-l.-johnson",
+      "name": "Garnett L. Johnson",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Richmond County Commissioners Court",
+      "district": null,
+      "phone": "706-821-2300",
+      "email": null,
+      "url": "https://www.augustaga.gov/3112/Mayor-Garnett-L-Johnson",
+      "photo_url": "https://www.augustaga.gov/ImageRepository/Document?documentId=19943",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "535 Telfair Street Augusta, GA 30901",
+      "offices": [],
+      "hours": "8:30 am - 5:00 pm Monday - Friday",
+      "bio": "Garnett Johnson is the 85th Mayor of the City of Augusta and the Owner of Augusta Office Solutions and Modern Business Workplace Solutions. With locations in Augusta and Savannah, the company supports a customer base across all sectors of business including private, education, government, and healthcare.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Richmond County",
+        "state": "GA"
+      },
+      "source_url": "https://www.augustaga.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

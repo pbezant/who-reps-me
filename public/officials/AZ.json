@@ -1,9 +1,10 @@
 {
   "state": "AZ",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 19,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 24,
   "cities": [
     "Maricopa County",
+    "Mohave County",
     "Pima County",
     "Pinal County"
   ],
@@ -161,6 +162,171 @@
       },
       "source_url": "https://www.maricopa.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:mohave-county:board-of-supervisors:don-martin",
+      "name": "Don Martin",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Mohave County Commissioners Court",
+      "district": "District 4",
+      "phone": "928-753-8618",
+      "email": null,
+      "url": "https://www.mohave.gov/departments/board-of-supervisors/district-4-don-martin/",
+      "photo_url": "https://www.mohave.gov/media/a0zdz3ou/martin.jpg?rxy=0.509264517294481,0.4295173082661892&width=400&height=400&v=1db76826c0b5670&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mohave County 700 W. Beale Street Kingman, AZ 86401",
+      "offices": [],
+      "hours": null,
+      "bio": "Don moved to Kingman in 1972 to accept a position with the City of Kingman Police Department. Don rose to the rank of sergeant during his 14 1/2 years of service there. In 1979 Martin was selected by the Kingman Chamber of Commerce as the \"Mohave County Law Enforcement Officer of the Year\".",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Mohave County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.mohave.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:mohave-county:board-of-supervisors:rich-lettman",
+      "name": "Rich Lettman",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Mohave County Commissioners Court",
+      "district": "District 2",
+      "phone": "928-758-0713",
+      "email": null,
+      "url": "https://www.mohave.gov/departments/board-of-supervisors/district-2-rich-lettman/",
+      "photo_url": "https://www.mohave.gov/media/fxeej5bn/rich-lettman-city-council.jpg?width=400&amp;height=400&amp;v=1db62c8a5cd2d70&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mohave County 700 W. Beale Street Kingman, AZ 86401",
+      "offices": [],
+      "hours": null,
+      "bio": "Rich Lettman grew up in San Gabriel, California (Los Angeles County) the third of four children in his family. His father grew up on the Navajo Nation near Shiprock, New Mexico before moving as a teenager to Promontory Point, Utah. His mother (the youngest of 12 children) emigrated to California from Eastern Oklahoma during the “Dust Bowl” in the 1930’s.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Mohave County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.mohave.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:mohave-county:board-of-supervisors:ron-gould",
+      "name": "Ron Gould",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Mohave County Commissioners Court",
+      "district": "District 5",
+      "phone": "928-453-0735",
+      "email": null,
+      "url": "https://www.mohave.gov/departments/board-of-supervisors/district-5-ron-gould/",
+      "photo_url": "https://www.mohave.gov/media/pjqendpk/gould-06032025.png?rxy=0.47544994403557955,0.40446796778784083&amp;width=400&amp;height=400&amp;v=1dbd5787bae3d90&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mohave County 700 W. Beale Street Kingman, AZ 86401",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Fort Mohave Office",
+          "city": "Fort Mohave",
+          "address": "5287 Highway 95, Unit K Fort Mohave, AZ 86426",
+          "phone": "928-758-0739",
+          "fax": null,
+          "hours": "Open Mon, Wed and Fri"
+        }
+      ],
+      "hours": "Open Tue and Thu",
+      "bio": "Ron Gould is a small businessman and former four-term State Senator who also served on the Lake Havasu City Council. He has owned and operated an air conditioning contracting business since 1984. As a conservative, he is particularly interested in limited government, increasing personal freedom, and increasing personal responsibility.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Mohave County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.mohave.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:mohave-county:board-of-supervisors:sonny-borrelli",
+      "name": "Sonny Borrelli",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Mohave County Commissioners Court",
+      "district": "District 3",
+      "phone": "928-453-0724",
+      "email": null,
+      "url": "https://www.mohave.gov/departments/board-of-supervisors/district-3-sonny-borrelli/",
+      "photo_url": "https://www.mohave.gov/media/da1h1eg5/bossborrelli.jpg?rxy=0.4109972609423689,0.41382497257739037&width=400&height=400&v=1db832c5f5d20a0&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mohave County 700 W. Beale Street Kingman, AZ 86401",
+      "offices": [],
+      "hours": null,
+      "bio": "Supervisor Sonny Borrelli, a retired USMC GySgt, served in the Marines from 1977 to 1999. After relocating to Arizona in 2000, he pursued small business ownership and served on the Lake Havasu City council from 2010 to 2012. In 2012, Borrelli was elected to the Arizona House of Representatives, serving two terms, and later to the Arizona State Senate in 2016, where he held various leadership and committee positions. In 2020, he was reelected to a third term, serving as Majority Whip and then Majority Leader, and was inducted into the Military Rodeo Hall of Fame.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Mohave County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.mohave.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:mohave-county:board-of-supervisors:travis-lingenfelter",
+      "name": "Travis Lingenfelter",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Mohave County Commissioners Court",
+      "district": "District 1",
+      "phone": "928-753-0722",
+      "email": null,
+      "url": "https://www.mohave.gov/departments/board-of-supervisors/district-1-travis-lingenfelter/",
+      "photo_url": "https://www.mohave.gov/media/gqvlfxc5/travis-lingenfelter-146x156.png?cc=0,0.0026708472686733944,0,0.06143171683389079&width=400&height=400&v=1daef5156d574b0&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mohave County 700 W. Beale Street Kingman, AZ 86401",
+      "offices": [],
+      "hours": null,
+      "bio": "Travis Lingenfelter is the elected County Supervisor for District 1 in Mohave County, serving since January 2021. He holds a Bachelor of Science degree in American Political Studies from Northern Arizona University and a Master of Public Administration degree from Norwich University. Travis has an extensive professional background in public, non-profit, and public sectors, and has spearheaded numerous regional economic development and infrastructure projects.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Mohave County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.mohave.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

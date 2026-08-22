@@ -1,14 +1,17 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 43,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 55,
   "cities": [
     "Clark County",
     "King County",
     "Kitsap County",
     "Pierce County",
+    "Snohomish County",
     "Spokane County",
-    "Thurston County"
+    "Thurston County",
+    "Whatcom County",
+    "Yakima County"
   ],
   "officials": [
     {
@@ -942,6 +945,37 @@
       "confidence": 1
     },
     {
+      "id": "wa:snohomish-county:council-on-aging-contact:linda-vizmanos",
+      "name": "Linda Vizmanos",
+      "office": "Council On Aging Contact",
+      "level": "county",
+      "body": "Snohomish County Commissioners Court",
+      "district": null,
+      "phone": "425-388-7317",
+      "email": "linda.vizmanos@snoco.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Snohomish County",
+        "state": "WA"
+      },
+      "source_url": "https://snohomishcountywa.gov/142/Council-On-Aging",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:spokane-county:board-of-equalization-member:david-crosby",
       "name": "David Crosby",
       "office": "Board of Equalization Member",
@@ -1342,6 +1376,347 @@
       },
       "source_url": "https://www.thurstoncountywa.gov/departments/board-county-commissioners/courthouse-and-regional-administrative-buildings-project",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:at-large-representative:barry-buchanan",
+      "name": "Barry Buchanan",
+      "office": "At-Large Representative",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "At-Large Representative A",
+      "phone": "360-224-4330",
+      "email": null,
+      "url": "https://www.whatcomcounty.us/1975/Barry-Buchanan",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=97228",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Barry Buchanan is currently serving his fourth term on the Whatcom County Council. He was re-elected to the at-large (A) position beginning in January 2026. Councilmember Buchanan's term ends January 2030.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:at-large-representative:jon-scanlon",
+      "name": "Jon Scanlon",
+      "office": "At-Large Representative",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "At-Large Representative B",
+      "phone": "360-935-1523",
+      "email": null,
+      "url": "https://www.whatcomcounty.us/4304/Jon-Scanlon",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=97227",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Jon Scanlon is serving his first term on the Whatcom County Council as the At-Large Position B representative, with his term expiring in January 2028. In 2025, he holds the position of Council Vice-Chairperson and chairs the Public Works & Health Committee, while also serving on other committees and representing the Council on various community boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:county-council-member:ben-elenbaas",
+      "name": "Ben Elenbaas",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "District 5",
+      "phone": "425-395-4833",
+      "email": "Belenbaas@whatcom.wa.us",
+      "url": "https://www.whatcomcounty.us/3321/Ben-Elenbaas",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=97220",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Ben Elenbaas is currently serving his second term on the Whatcom County Council, representing Council District 5. His current term began January 2024 and expires January 2028. In 2025, he chairs the Planning and Development Committee and is a member of the Public Works and Health Committee.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:county-council-member:elizabeth-boyle",
+      "name": "Elizabeth Boyle",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "District 2",
+      "phone": "360-319-2310",
+      "email": null,
+      "url": "https://www.whatcomcounty.us/4752/Elizabeth-Boyle",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=107231",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=61552341662161",
+        "instagram": "https://www.instagram.com/whatcomcountycouncil/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Elizabeth Boyle is currently serving her first term on the Whatcom County Council as the District 2 representative, with her term ending in January 2030. A former small business owner and organizational consultant, she focuses on public health issues like housing and the opioid crisis, and serves on the YWCA board. In 2026, she chairs the Public Works & Health Committee and is Vice-Chair of the Criminal Justice and Public Safety and Finance & Administrative Services Committees.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:county-council-member:jessica-rienstra",
+      "name": "Jessica Rienstra",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "District 3",
+      "phone": "360-319-2535",
+      "email": "jrienstra@whatcom.wa.us",
+      "url": "https://www.whatcomcounty.us/4753/Jessica-Rienstra",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=107232",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Jessica Rienstra is currently serving her first term on the Whatcom County Council as representative of District 3, with her term ending in January 2030. In 2026, she chairs the Planning & Development Committee and is Vice-Chair of the Finance and Administrative Services and Climate Action and Natural Resources Committees. She also represents the County Council on several community boards and committees.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:county-council-member:kaylee-galloway",
+      "name": "Kaylee Galloway",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "District 1",
+      "phone": "360-303-1644",
+      "email": null,
+      "url": "https://www.whatcomcounty.us/3862/Kaylee-Galloway",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=97226",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Kaylee Galloway is serving her second term on the Whatcom County Council, representing District 1, with her term ending in January 2030. She brings a decade of experience across all levels of government, including the U.S. Senate and House, and volunteers on local committees like the Climate Impact Advisory Committee. With a Master's in Policy Studies and a Bachelor's in Politics, Philosophy, and Economics, her policy interests span economic development, climate change, housing, and public safety.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:whatcom-county:county-council-member:mark-stremler",
+      "name": "Mark Stremler",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Whatcom County Commissioners Court",
+      "district": "District 4",
+      "phone": "360-935-1266",
+      "email": null,
+      "url": "https://www.whatcomcounty.us/4305/Mark-Stremler",
+      "photo_url": "https://www.whatcomcounty.us/ImageRepository/Document?documentID=97229",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 Grand Ave., Suite 105 Bellingham, WA 98225",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 a.m. - 4:30 p.m. Closed on holidays",
+      "bio": "Mark Stremler is currently serving his first term on the Whatcom County Council, representing Council District 4, from January 2024 to January 2028. In 2025, he is a member of the Public Works and Health Committee and the Climate Action and Natural Resources Committee, and represents the Council on several community boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Whatcom County",
+        "state": "WA"
+      },
+      "source_url": "https://www.whatcomcounty.us/268/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima-county:clerk-of-the-board:julie-lawrence",
+      "name": "Julie Lawrence",
+      "office": "Clerk of the Board",
+      "level": "county",
+      "body": "Yakima County Commissioners Court",
+      "district": null,
+      "phone": "509-574-1500",
+      "email": "julie.lawrence@co.yakima.wa.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yakima County Courthouse 128 N 2nd Street, Room 232 Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yakima County",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimacounty.us/766/County-Commissioners-Office",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "wa:yakima-county:commissioner:amanda-mckinney",
+      "name": "Amanda McKinney",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Yakima County Commissioners Court",
+      "district": "District 1",
+      "phone": "509-574-1500",
+      "email": "amanda.mckinney@co.yakima.wa.us",
+      "url": "https://www.yakimacounty.us/2315/Amanda-McKinney---District-1",
+      "photo_url": "https://www.yakimacounty.us/ImageRepository/Document?documentId=26578",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CommissionerAmandaMcKinney/?fref=mentions&__tn__=K-R",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yakima County Courthouse 128 N 2nd Street, Room 232 Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Welcome and thank you for visiting our website. It is an honor to represent District 1 and work with Commissioners LaDon Linde and Kyle Curtis on behalf of everyone in our incredible Yakima County. My business background and community involvement have prepared me to deal with the important issues facing the County.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Yakima County",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimacounty.us/766/County-Commissioners-Office",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima-county:commissioner:kyle-curtis",
+      "name": "Kyle Curtis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Yakima County Commissioners Court",
+      "district": "District 2",
+      "phone": "509-574-1500",
+      "email": "kyle.curtis@co.yakima.wa.us",
+      "url": "https://www.yakimacounty.us/1861/Kyle-Curtis---District-2",
+      "photo_url": "https://www.yakimacounty.us/ImageRepository/Document?documentId=33364",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yakima County Courthouse 128 N 2nd Street, Room 232 Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Kyle Curtis grew up in White Swan on the Yakama Indian Reservation and is a graduate of Eisenhower High School and the University of Washington. He returned to the Yakima Valley after working as a Financial Analyst, joining his family's diverse businesses. Currently, he serves as a Yakima County Commissioner, committed to accessibility, transparency, and collaboration.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Yakima County",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimacounty.us/766/County-Commissioners-Office",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "wa:yakima-county:commissioner:ladon-linde",
+      "name": "LaDon Linde",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Yakima County Commissioners Court",
+      "district": "District 3",
+      "phone": "509-574-1500",
+      "email": "ladon.linde@co.yakima.wa.us",
+      "url": "https://www.yakimacounty.us/773/LaDon-Linde---District-3",
+      "photo_url": "https://www.yakimacounty.us/ImageRepository/Document?documentId=31663",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yakima County Courthouse 128 N 2nd Street, Room 232 Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "LaDon Linde has lived in the Yakima Valley since 1976, with a background in agriculture and healthcare. He is a fan of good government, emphasizing transparency, efficiency, and responsiveness to citizens. He has also volunteered extensively in community organizations.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Yakima County",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimacounty.us/766/County-Commissioners-Office",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

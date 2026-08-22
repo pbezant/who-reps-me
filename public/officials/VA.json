@@ -1,13 +1,328 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 12,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 31,
   "cities": [
+    "Arlington County",
+    "Chesapeake",
+    "Chesapeake city",
     "Fairfax County",
     "Henrico County",
+    "Newport News",
+    "Norfolk",
     "Prince William County"
   ],
   "officials": [
+    {
+      "id": "va:arlington-county:clerk-of-the-circuit-court:paul-ferguson",
+      "name": "Paul Ferguson",
+      "office": "Clerk of the Circuit Court",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": "703-228-7010",
+      "email": "CircuitCourt@arlingtonva.us",
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/Clerk-of-the-Circuit-Court",
+      "photo_url": "https://www.arlingtonva.us/files/sharedassets/public/v/1/newsroom/documents/bios/paul-ferguson-square.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 N. Courthouse Rd., Suite 6700 Arlington, VA 22201",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Ferguson was elected to serve as Clerk of the Circuit Court of Arlington County and the City of Falls Church beginning January 1, 2008. He is a 1992 graduate of George Mason Law School. In 2006, Mr. Ferguson was awarded the President’s Award by the Arlington County Bar Association for Outstanding effort, participation, and involvement in the Association.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:arlington-county:commissioner-of-revenue:kim-klingler",
+      "name": "Kim Klingler",
+      "office": "Commissioner of Revenue",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": "703-228-3033",
+      "email": "revenue@arlingtonva.us",
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/Commissioner-of-Revenue",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2100 Clarendon Blvd., Suite 200 Arlington, VA 22201",
+      "offices": [],
+      "hours": null,
+      "bio": "Kim E. Klingler was elected Arlington Commissioner of Revenue in November 2023, and took office on January 1, 2024. Before her election, Kim served as the Executive Director for the Columbia Pike Partnership.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:arlington-county:commonwealths-attorney:parisa-dehghani-tafti",
+      "name": "Parisa Dehghani-Tafti",
+      "office": "Commonwealth's Attorney",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/Commonwealths-Attorney",
+      "photo_url": "https://www.arlingtonva.us/files/sharedassets/public/v/1/building/courts-amp-judicial-services/images/parisa-headshot-blue_edited_1.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Parisa Dehghani-Tafti is the Commonwealth’s Attorney for Arlington County and the City of Falls Church, first elected in November 2019 and re-elected in 2023. She brings a twenty-year record of criminal justice reform as an innocence protection attorney, a public defender, and a law professor. Her core philosophy is that safety and justice are complementary values, with a primary responsibility to treat crime as crime and people as people.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:arlington-county:county-manager:mark-schwartz",
+      "name": "Mark Schwartz",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": "703-228-3414",
+      "email": "countymanager@arlingtonva.us",
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/County-Manager",
+      "photo_url": "https://www.arlingtonva.us/files/sharedassets/public/v/3/newsroom/documents/bios/mark-schwartz-square.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2100 Clarendon Blvd., Suite 302 Arlington, VA 22201",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Schwartz was named County Manager by the Arlington County Board in January 2016 after serving as Acting County Manager the previous six months. He was a Deputy County Manager from October 2010 through June 30, 2015, and was named Acting Deputy County Manager in November 2009. Mark joined County government in December 2005, serving as deputy chief financial officer and later as Director of the Department of Management Finance and Chief Financial Officer before joining the Office of the County Manager.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:arlington-county:election-official:gretchen-reinemeyer",
+      "name": "Gretchen Reinemeyer",
+      "office": "Election Official",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": "703-228-3456",
+      "email": "Greinemeyer@arlingtonva.us",
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/Election-Officials",
+      "photo_url": "https://www.arlingtonva.us/files/sharedassets/public/v/1/newsroom/documents/bios/gretchen-reinemeyer.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2100 Clarendon Blvd., Suite 320 Arlington, VA 22201",
+      "offices": [],
+      "hours": null,
+      "bio": "The Arlington County Electoral Board appointed Gretchen Reinemeyer as General Registrar/Director of Elections for Arlington County in 2019. Gretchen started working in elections as a poll worker in Texas when she was 18. She started her career in public service as an AmeriCorps volunteer with the King County Housing Authority in Seattle.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:arlington-county:sheriff:jose-quiroz",
+      "name": "Jose Quiroz",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Arlington County Commissioners Court",
+      "district": null,
+      "phone": "703-228-4460",
+      "email": "sheriff@arlingtonva.us",
+      "url": "https://www.arlingtonva.us/Government/County-Leadership/Sheriff",
+      "photo_url": "https://www.arlingtonva.us/files/sharedassets/public/v/1/sheriff/images/sheriffheadshot-2026.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 North Courthouse Rd.\nArlington, VA 22201",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Jose Quiroz moved to Arlington with his family when he was 5 years old, and his parents are proud immigrants from Honduras. He served four years in the United States Marine Corps before joining the Arlington County Sheriff’s Office in 2001. In January 2023, he was appointed Sheriff of Arlington County and was elected the 19th Sheriff in November 2023, becoming the first sheriff of Latino descent in Arlington County and Virginia.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Arlington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.arlingtonva.us/Government?lang_update=639228699815686303",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesapeake-city:chair:amy-weber",
+      "name": "Amy Weber",
+      "office": "Chair",
+      "level": "county",
+      "body": "Chesapeake city Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "a.webercmg@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesapeake city",
+        "state": "VA"
+      },
+      "source_url": "https://www.cityofchesapeake.net/1252/Chesapeake-Environmental-Improvement-Cou",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesapeake-city:vice-chair:mike-hoffman",
+      "name": "Mike Hoffman",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Chesapeake city Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "mhoffman@dollartree.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesapeake city",
+        "state": "VA"
+      },
+      "source_url": "https://www.cityofchesapeake.net/1252/Chesapeake-Environmental-Improvement-Cou",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesapeake:chair:amy-weber",
+      "name": "Amy Weber",
+      "office": "Chair",
+      "level": "local",
+      "body": "Chesapeake City Council",
+      "district": null,
+      "phone": null,
+      "email": "a.webercmg@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesapeake",
+        "state": "VA"
+      },
+      "source_url": "https://www.cityofchesapeake.net/1252/Chesapeake-Environmental-Improvement-Cou",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesapeake:vice-chair:mike-hoffman",
+      "name": "Mike Hoffman",
+      "office": "Vice Chair",
+      "level": "local",
+      "body": "Chesapeake City Council",
+      "district": null,
+      "phone": null,
+      "email": "mhoffman@dollartree.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesapeake",
+        "state": "VA"
+      },
+      "source_url": "https://www.cityofchesapeake.net/1252/Chesapeake-Environmental-Improvement-Cou",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "va:fairfax-county:chairman,-board-of-supervisors:jeffrey-c.-mckay",
       "name": "Jeffrey C. McKay",
@@ -347,6 +662,285 @@
       },
       "source_url": "https://henrico.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:newport-news:mayor:phillip-jones",
+      "name": "Phillip Jones",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Newport News City Council",
+      "district": null,
+      "phone": "757-926-8403",
+      "email": null,
+      "url": "https://www.nnva.gov/2965/Office-of-Mayor-Phillip-Jones",
+      "photo_url": "https://www.nnva.gov/ImageRepository/Document?documentId=35757",
+      "social": {
+        "twitter": "https://twitter.com/MayorPhilJones",
+        "facebook": "https://www.facebook.com/phillipjonesformayor",
+        "instagram": "https://www.instagram.com/mayorphillipjones/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2400 Washington Ave. - 10th Floor Newport News, VA 23607",
+      "offices": [],
+      "hours": null,
+      "bio": "Phillip Jones is the 27th Mayor of Newport News, Virginia, and the city’s youngest elected mayor, focused on strengthening education, enhancing public safety, and bringing innovation to City Hall. A graduate of the U.S. Naval Academy with an MBA and MPP from Harvard, he served as a Marine Corps infantry officer and advised Fortune 500 companies as a consultant.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Newport News",
+        "state": "VA"
+      },
+      "source_url": "https://www.nnva.gov/2965/Office-of-Mayor-Phillip-Jones",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:carlos-j.-clanton",
+      "name": "Carlos J. Clanton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "carlos.clanton@norfolk.gov",
+      "url": "https://www.norfolk.gov/6428/Carlos-J-Clanton",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=114074",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Carlos Clanton was elected to the Norfolk City Council beginning January 1, 2025, to represent the residents of Superward 7. A proud native son of Norfolk, he was raised in the Lambert's Point and Park Place communities, developing a strong sense of leadership and a deep understanding of resilience. His lifelong commitment to being a catalyst for positive change has made him a trusted and respected voice for residents across the city.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:courtney-r.-doyle",
+      "name": "Courtney R. Doyle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "courtney.doyle@norfolk.gov",
+      "url": "https://www.norfolk.gov/4111/Courtney-R-Doyle",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=92693",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Courtney R. Doyle was elected to Norfolk City Council on May 1, 2018, representing Ward 2. She also serves as Vice President of Marketing for Sentara Health and is actively involved in various civic organizations and task forces. Ms. Doyle holds a Bachelor's degree from the University of Maryland and an MBA from Old Dominion University.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:jeremy-d.-mcgee",
+      "name": "Jeremy D. McGee",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "jeremy.mcgee@norfolk.gov",
+      "url": "https://www.norfolk.gov/6429/Jeremy-D-McGee",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=92606",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Jeremy D. McGee was elected to represent Superward 6 on November 5, 2024. Mr. McGee is the President and CEO of Radiant Digital, a nationwide digital media company. Together with his wife Malia, Jeremy has founded several Norfolk-based businesses in the residential and commercial real estate sector.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:john-e.-jp-paige",
+      "name": "John E. \"JP\" Paige",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "john.paige@norfolk.gov",
+      "url": "https://www.norfolk.gov/538/John-E-JP-Paige",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=92697",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "John E. “JP” Paige was elected to serve on Norfolk City Council on November 8th, 2022, to represent Ward 4. Councilman Paige's lifelong passion to uplift Norfolk’s underserved communities was the catalyst for his decision to serve in this capacity. As an entrepreneur and accomplished speaker, Mr. Paige consistently advocates the importance of community contribution though determination, personal responsibility, and accountability.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:mamie-b.-johnson",
+      "name": "Mamie B. Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "mamie.johnson@norfolk.gov",
+      "url": "https://www.norfolk.gov/2932/Mamie-B-Johnson",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentID=92692",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Mamie B. Johnson was elected to Norfolk City Council on May 6, 2014, to represent Ward 3. She is a career educator, having served as a teacher and instructional specialist for Norfolk Public Schools and Virginia Beach Public Schools. Ms. Johnson is also a member of several boards and organizations, including Virginia First Cities Coalition and the National Black Caucus of Local Elected Officials.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:council-member:thomas-r.-smigiel-jr",
+      "name": "Thomas R. Smigiel Jr",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "thomas.smigiel@norfolk.gov",
+      "url": "https://www.norfolk.gov/539/Thomas-R-Smigiel-Jr",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=92691",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Thomas \"Tommy\" R. Smigiel Jr. was elected to City Council in 2010 and represents Ward 5. He is the principal of Granby High School and was recognized as the 2008 Virginia Teacher of the Year. He co-chairs the East Little Creek Road Advisory Committee and the Mayor’s Ocean View Advisory Committee, and served as the 100th President of the Virginia Municipal League.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:mayor:kenneth-cooper-alexander,-ph.d.",
+      "name": "Kenneth Cooper Alexander, Ph.D.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "mayor@norfolk.gov",
+      "url": "https://www.norfolk.gov/3515/Mayor-Kenneth-Cooper-Alexander-PhD",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentID=48801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Kenneth Cooper Alexander was elected Mayor of the City of Norfolk on May 3, 2016, and re-elected in May 2020 and November 2024. He is a lifelong resident of Norfolk and has distinguished himself through his civic, business, legislative, and community leadership. Dr. Alexander is president of Metropolitan Funeral Service, and Vice Chancellor for Strategic Partnerships of Virginia Community College System (VCCS).",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:norfolk:vice-mayor:martin-a.-thomas-jr",
+      "name": "Martin A. Thomas Jr",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Norfolk City Council",
+      "district": null,
+      "phone": "757-664-6510",
+      "email": "martin.thomas@norfolk.gov",
+      "url": "https://www.norfolk.gov/542/Vice-Mayor-Martin-A-Thomas-Jr",
+      "photo_url": "https://www.norfolk.gov/ImageRepository/Document?documentId=92696",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "810 Union Street, Norfolk, VA 23510",
+      "offices": [],
+      "hours": null,
+      "bio": "Martin A. Thomas Jr. was elected to represent Ward 1 on August 23, 2016 and was elected Vice Mayor in July 2018. Mr. Thomas is a partner at the Decker Law Firm in downtown Norfolk where he has litigated personal injury cases since 2006. He resides with his wife, Maggie, and their two sons in the Wards Corner area of Norfolk.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Norfolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.norfolk.gov/27/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

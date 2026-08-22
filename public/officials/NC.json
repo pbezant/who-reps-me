@@ -1,17 +1,116 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 41,
+  "generated_at": "2026-08-22T05:11:08.657Z",
+  "count": 82,
   "cities": [
+    "Alamance County",
     "Asheville",
     "Buncombe County",
     "Charlotte",
     "Durham County",
+    "Fayetteville",
     "Forsyth County",
+    "Gaston County",
     "Mecklenburg County",
+    "New Hanover County",
+    "Onslow County",
+    "Pitt County",
     "Raleigh"
   ],
   "officials": [
+    {
+      "id": "nc:alamance-county:assistant-county-manager:brian-baker",
+      "name": "Brian Baker",
+      "office": "Assistant County Manager",
+      "level": "county",
+      "body": "Alamance County Commissioners Court",
+      "district": null,
+      "phone": "336-570-4044",
+      "email": "brian.baker@alamancecountync.gov",
+      "url": null,
+      "photo_url": "https://countymanager.alamancecountync.gov/wp-content/uploads/sites/22/yootheme/cache/c5/Brian-Baker-scaled-c54a97eb.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 West Elm Street Graham, NC 27253",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alamance County",
+        "state": "NC"
+      },
+      "source_url": "https://countymanager.alamancecountync.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:alamance-county:county-manager:heidi-york",
+      "name": "Heidi York",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Alamance County Commissioners Court",
+      "district": null,
+      "phone": "336-570-4044",
+      "email": "heidi.york@alamancecountync.gov",
+      "url": null,
+      "photo_url": "https://countymanager.alamancecountync.gov/wp-content/uploads/sites/22/yootheme/cache/7d/Heidi-York-scaled-7dd83fff.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 West Elm Street Graham, NC 27253",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alamance County",
+        "state": "NC"
+      },
+      "source_url": "https://countymanager.alamancecountync.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:alamance-county:deputy-county-manager:sherry-hook",
+      "name": "Sherry Hook",
+      "office": "Deputy County Manager",
+      "level": "county",
+      "body": "Alamance County Commissioners Court",
+      "district": null,
+      "phone": "336-570-4044",
+      "email": "sherry.hook@alamancecountync.gov",
+      "url": null,
+      "photo_url": "https://countymanager.alamancecountync.gov/wp-content/uploads/sites/22/yootheme/cache/3c/Sherry-Hook-scaled-3c04edc9.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 West Elm Street Graham, NC 27253",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alamance County",
+        "state": "NC"
+      },
+      "source_url": "https://countymanager.alamancecountync.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
     {
       "id": "nc:asheville:council-member:bo-hess",
       "name": "Bo Hess",
@@ -316,7 +415,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.charlottenc.gov/City-Government/Leadership/Mayor",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -335,7 +434,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-22T05:11:08.657Z",
       "confidence": 1
     },
     {
@@ -491,6 +590,316 @@
       },
       "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:antonio-jones",
+      "name": "Antonio Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:brenda-mcnair",
+      "name": "Brenda McNair",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:d.j.-haire",
+      "name": "D.J. Haire",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:deno-hondros",
+      "name": "Deno Hondros",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:lynne-greene",
+      "name": "Lynne Greene",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:malik-davis",
+      "name": "Malik Davis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:shaun-mcmillan",
+      "name": "Shaun McMillan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 8",
+      "phone": "910-433-1992",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:council-member:stephon-ferguson",
+      "name": "Stephon Ferguson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:mayor-pro-tem:derrick-thompson",
+      "name": "Derrick Thompson",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:fayetteville:mayor:mitch-colvin",
+      "name": "Mitch Colvin",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fayetteville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 Hay Street Fayetteville, NC 28301-5537",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Fayetteville",
+        "state": "NC"
+      },
+      "source_url": "https://www.fayettevillenc.gov/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -677,6 +1086,233 @@
       },
       "source_url": "https://www.forsyth.cc/commissioners/notices.aspx",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:chairman,-board-of-commissioners:chad-brown",
+      "name": "Chad Brown",
+      "office": "Chairman, Board of Commissioners",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Riverbend Township",
+      "phone": "704-866-3196",
+      "email": "chad.brown@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=46",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=7008",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Chad Brown is a former professional baseball player and lifelong conservative Republican. He began his political career as mayor of Stanley and is currently serving his fourth term on the County Board of Commissioners, having served six years as chairman.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:commissioner:allen-fraley",
+      "name": "Allen Fraley",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Cherryville Township",
+      "phone": "704-866-3196",
+      "email": "allen.fraley@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=49",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=154",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Allen Fraley has served on the Gaston County Board of Commissioners since 2004, also representing the board on the Gaston/Cleveland/Lincoln Metropolitan Planning Organization. He is the general manager for the Cherryville ABC Board and a licensed Realtor, previously owning an insurance business. Married to Susan for 35 years, he has two children and two grandchildren, and is an active member of the First United Methodist Church in Cherryville.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:commissioner:cathy-cloninger",
+      "name": "Cathy Cloninger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Dallas Township",
+      "phone": "704-866-3196",
+      "email": "Cathy.cloninger@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=430",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=3386",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Cathy Cloninger is a lifelong resident of Gaston County with 34 years of service, primarily in domestic violence advocacy, before her retirement in 2017. In 2022, she was elected as a Dallas Township Commissioner and served one year as Vice-Chair of the Board. She holds a Bachelor’s degree in Social Work and has received numerous awards for her public service and dedication to the community.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:commissioner:jim-bailey",
+      "name": "Jim Bailey",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "South Point Township",
+      "phone": "704-866-3196",
+      "email": "jim.bailey@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=503",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=7009",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Bailey is a Gaston County native who served in the US Air Force for over two decades, including deployments in Desert Storm and Afghan Freedom. He then had a distinguished 30-year career in Law Enforcement at the Gaston County Sheriff's Office, becoming the first deputy sheriff from Gaston County to attend the FBI National Academy. Currently, he works as a training coordinator and is married with two adult children.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:commissioner:scott-shehan",
+      "name": "Scott Shehan",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Gastonia Township",
+      "phone": "704-866-3196",
+      "email": "scott.shehan@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=504",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=7010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Gaston County Main Office",
+          "city": "Gastonia",
+          "address": "128 W. Main Ave. Gastonia, NC 28052\nP.O. Box 1578 Gastonia, NC 28053-1578",
+          "phone": "704-866-3000",
+          "fax": null,
+          "hours": "Monday through Friday 8:30 am to 5:00 pm"
+        }
+      ],
+      "hours": null,
+      "bio": "Scott Shehan is a native of Gaston County and a lifelong citizen of Gastonia. After graduating from North Gaston High School in 1998, he attended Appalachian State University. He is an entrepreneur, having started his first business in 1994, and also manages multiple rental properties and owns Silas Ridge Farms, LLC.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:commissioner:tom-keigher",
+      "name": "Tom Keigher",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Gastonia Township",
+      "phone": "704-866-3196",
+      "email": "tomkcom@aol.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=50",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=153",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Keigher lives in Gastonia with his wife, Donna, and has four adult children and three grandchildren. He graduated from Belmont Abbey College with a degree in Education and has a background in teaching, business, and insurance. He has served on the Gaston County Board of Commissioners for seven terms, including multiple times as chairman and vice-chairman, and is actively involved in numerous state and county boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gaston-county:vice-chair,-board-of-commissioners:bob-hovis",
+      "name": "Bob Hovis",
+      "office": "Vice-Chair, Board of Commissioners",
+      "level": "county",
+      "body": "Gaston County Commissioners Court",
+      "district": "Crowders Mountain Township",
+      "phone": "704-866-3196",
+      "email": "bob.hovis@gastongov.com",
+      "url": "https://www.gastongov.com/Directory.aspx?EID=48",
+      "photo_url": "https://www.gastongov.com/ImageRepository/Document?documentId=7007",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "128 West Main Avenue Gastonia, NC 28053",
+      "offices": [],
+      "hours": null,
+      "bio": "Bob Hovis is a lifelong resident of Gaston County. He has served on the Gaston County Board of Commissioners since 2016, previously serving as mayor of Bessemer City and on numerous county-appointed advisory boards. He has also been recognized for his volunteerism, including being named Gaston County Volunteer of the Year in 2002, and has been involved with the Bessemer City Chamber of Commerce for nearly four decades.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Gaston County",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastongov.com/188/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -956,6 +1592,667 @@
       },
       "source_url": "https://www.mecknc.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:new-hanover-county:county-commissioner,-chair:leann-pierce",
+      "name": "LeAnn Pierce",
+      "office": "County Commissioner, Chair",
+      "level": "county",
+      "body": "New Hanover County Commissioners Court",
+      "district": null,
+      "phone": "910-798-7148",
+      "email": "lpierce@nhcgov.com",
+      "url": "https://www.nhcgov.com/1178/LeAnn-Pierce",
+      "photo_url": "https://www.nhcgov.com/ImageRepository/Document?documentID=3006",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "New Hanover County Government Center 230 Government Center Drive Wilmington, NC 28403",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "New Hanover County Government Center",
+          "city": "Wilmington",
+          "address": "230 Government Center Drive Wilmington, NC 28403",
+          "phone": "910-798-7311",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "LeAnn Pierce was elected to the New Hanover County Board of Commissioners in 2022 and serves as Chair. She previously served as Mayor for the Town of Carolina Beach and owned and operated a hotel for 30 years. She holds a Bachelor of Science degree in Biology from East Carolina University.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "New Hanover County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nhcgov.com/1095/County-Commissioners-Clerk",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:new-hanover-county:county-commissioner,-vice-chair:dane-scalise",
+      "name": "Dane Scalise",
+      "office": "County Commissioner, Vice-Chair",
+      "level": "county",
+      "body": "New Hanover County Commissioners Court",
+      "district": null,
+      "phone": "910-798-7259",
+      "email": "dscalise@nhcgov.com",
+      "url": "https://www.nhcgov.com/2500/Dane-Scalise",
+      "photo_url": "https://www.nhcgov.com/ImageRepository/Document?documentID=4256",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "New Hanover County Government Center 230 Government Center Drive Wilmington, NC 28403",
+      "offices": [],
+      "hours": null,
+      "bio": "Dane Scalise was first appointed to the Board of Commissioners in April 2023 and was elected to a four-year term from December 2024 to December 2028, also serving as Vice-Chair from December 2025. He is a husband, father, small business owner, lawyer, and insurance broker, and a graduate of UNC Greensboro and UNC School of Law. Commissioner Scalise has a background in public service, including as Deputy Commissioner of the NC Industrial Commission, and is actively involved in various community boards and pro bono work.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "New Hanover County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nhcgov.com/1095/County-Commissioners-Clerk",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:new-hanover-county:county-commissioner:bill-rivenbark",
+      "name": "Bill Rivenbark",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "New Hanover County Commissioners Court",
+      "district": null,
+      "phone": "910-798-7260",
+      "email": "brivenbark@nhcgov.com",
+      "url": "https://www.nhcgov.com/1175/Bill-Rivenbark",
+      "photo_url": "https://www.nhcgov.com/ImageRepository/Document?documentID=7373",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "New Hanover County Government Center 230 Government Center Drive Wilmington, NC 28403",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Bill Rivenbark was born and raised in New Hanover County. He is a retired entrepreneur who ran successful businesses in the restaurant and materials management industries and has volunteered extensively in his community, including serving on the New Hanover County Board of Education.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "New Hanover County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nhcgov.com/1095/County-Commissioners-Clerk",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:new-hanover-county:county-commissioner:rob-zapple",
+      "name": "Rob Zapple",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "New Hanover County Commissioners Court",
+      "district": null,
+      "phone": "910-798-7306",
+      "email": "rzapple@nhcgov.com",
+      "url": "https://www.nhcgov.com/1179/Rob-Zapple",
+      "photo_url": "https://www.nhcgov.com/ImageRepository/Document?documentID=7368",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "New Hanover County Government Center 230 Government Center Drive Wilmington, NC 28403",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Rob Zapple and his wife Michele have lived, worked and made a positive contribution in New Hanover County for more than 22 years as community members and small business owners. Rob is a licensed General Contractor, residential and commercial builder, and owner of Rob Zapple Design and Build Inc., and Michele is co-owner of Carolina Gymnastics Academy. He is an advocate for the public process and is active with several non-profit organizations that serve Wilmington and New Hanover County.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "New Hanover County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nhcgov.com/1095/County-Commissioners-Clerk",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:new-hanover-county:county-commissioner:stephanie-walker",
+      "name": "Stephanie Walker",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "New Hanover County Commissioners Court",
+      "district": null,
+      "phone": "910-798-7206",
+      "email": "steph.walker@nhcgov.com",
+      "url": "https://www.nhcgov.com/2758/Stephanie-Walker",
+      "photo_url": "https://www.nhcgov.com/ImageRepository/Document?documentID=9148",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "New Hanover County Government Center 230 Government Center Drive Wilmington, NC 28403",
+      "offices": [],
+      "hours": null,
+      "bio": "Stephanie Walker is a lifelong New Hanover County resident serving her first term as County Commissioner, elected in November 2024. She holds a Bachelor's and Master's degree from UNC Wilmington and previously served four years on the New Hanover County Board of Education.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "New Hanover County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nhcgov.com/1095/County-Commissioners-Clerk",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:chairman:tim-foster",
+      "name": "Tim Foster",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": null,
+      "url": "https://www.onslowcountync.gov/directory.aspx?EID=414",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentId=20618",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": "Monday- Friday 8:00 a.m. - 5:00 p.m.",
+      "bio": "Tim Foster was born and raised in Onslow County and began his public service in 1991 as a teacher in the Onslow County School system. He retired in June 2022 after 31 years, having also served as assistant principal and principal, and was selected as the 2018 Onslow County Schools Principal of the year. Commissioner Foster, who holds a B.A. from UNC Wilmington and a Masters from East Carolina University, is currently in his second term.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:commissioner:john-davis",
+      "name": "John Davis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": "commissioner.davis@onslowcountync.gov",
+      "url": "https://www.onslowcountync.gov/Directory.aspx?EID=692",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentID=23481",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": null,
+      "bio": "John Davis has been a resident of Swansboro for over 20 years. He and his wife, Jennifer, have been married since 1993 and have three grown children who all graduated from Onslow County Schools. John holds a degree in electrical engineering from NC State University.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:commissioner:lisa-carpenter",
+      "name": "Lisa Carpenter",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": null,
+      "url": "https://www.onslowcountync.gov/directory.aspx?EID=602",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentId=20619",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": null,
+      "bio": "Lisa Carpenter brings an eclectic background to the Board of Commissioners, with decades of business experience in sales, client development, leadership, and training, alongside owning successful businesses and homeschooling her sons. Originally from California, she earned a BA in Economics from the University of California at San Diego and moved to Jacksonville in 2011 after living in various coastal cities. A serious advocate for community involvement, Commissioner Carpenter has served in children's ministries, parent organizations, Boy Scouts leadership, and as president of a local women's political organization, which inspired her to serve on the Onslow County Board of Commissioners.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:commissioner:paul-buchanan",
+      "name": "Paul Buchanan",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": "pbuchanan@onslowcountync.gov",
+      "url": "https://www.onslowcountync.gov/Directory.aspx?EID=72",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentId=20621",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": "Monday- Friday 8:00 a.m. - 5:00 p.m.",
+      "bio": "Paul Buchanan has resided in Onslow County since 1969, serving in the United States Marine Corps and later in public service with the Onslow County Sheriff's Department and Jacksonville Police Department. He is a North Carolina Wesleyan College graduate with a B.S. in Criminal Justice and currently directs Law Enforcement Training at Coastal Carolina Community College. Commissioner Buchanan is an active member of the Onslow County community with his wife, June, and focuses on economic development and youth enrichment programs.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:commissioner:royce-bennett",
+      "name": "Royce Bennett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": "rbennett@onslowcountync.gov",
+      "url": "https://www.onslowcountync.gov/directory.aspx?EID=331",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentId=20622",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": null,
+      "bio": "Royce Bennett is a Commissioner who works as a Realtor/Broker Associate and has been an independent businessman in Onslow County for over 30 years. He previously served as a police officer and administrator for 12 years and holds a Bachelor of Science Degree in Criminal Justice. He is actively involved in various community organizations and serves on several advisory boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:commissioner:tony-padgett",
+      "name": "Tony Padgett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": "tpadgett@onslowcountync.gov",
+      "url": "https://www.onslowcountync.gov/Directory.aspx?EID=693",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentID=23482",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": null,
+      "bio": "Tony Padgett is a lifelong resident of Onslow County and a graduate of Jacksonville High School. He served as an Onslow County Commissioner from 1992-2000 and as director of multiple County departments. He advocates for investing in youth, ensuring school safety, and connecting education with local economic needs.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:onslow-county:vice-chairman:robin-knapp",
+      "name": "Robin Knapp",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Onslow County Commissioners Court",
+      "district": null,
+      "phone": "910-347-4717",
+      "email": "rknapp@onslowcountync.gov",
+      "url": "https://www.onslowcountync.gov/directory.aspx?EID=330",
+      "photo_url": "https://www.onslowcountync.gov/ImageRepository/Document?documentId=20617",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Onslow County Government Center, 234 NW Corridor Boulevard, Jacksonville, NC 28540",
+      "offices": [],
+      "hours": null,
+      "bio": "Robin Knapp is a former (veteran) USAF officer and retired Supervisory Special Agent/Special Agent with the U.S. Naval Criminal Investigative Service, with 29 years of U.S. Government service. He was assigned to Camp Lejeune, NC, in 1990 and was heavily involved as a coach for local youth programs. Commissioner Knapp is currently serving as the Vice Chairman of the Board of Commissioners and the Commissioner representative to the Juvenile Crime Prevention Committee (JCPC).",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Onslow County",
+        "state": "NC"
+      },
+      "source_url": "https://www.onslowcountync.gov/244/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:chairman,-county-commissioner:mark-c.-smith",
+      "name": "Mark C. Smith",
+      "office": "Chairman, County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "mcsmith17@yahoo.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16106",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:ann-floyd-huggins",
+      "name": "Ann Floyd Huggins",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "ann.floydhuggins@pittcountync.gov",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16101",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:christopher-nunnally",
+      "name": "Christopher Nunnally",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "Chris.Nunnally@gmail.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16104",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:gary-weaver",
+      "name": "Gary Weaver",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": "Gdweaver522@gmail.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=22429",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:mac-manning",
+      "name": "Mac Manning",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District C (Districts 4 and 5 Combined)",
+      "phone": null,
+      "email": "mac1958@centurylink.net",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16107",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:mary-perkins-williams",
+      "name": "Mary Perkins-Williams",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "pittcounty.commissionerd2@gmail.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16105",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:melvin-c.-mclawhorn",
+      "name": "Melvin C. McLawhorn",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District A (Districts 1 and 2)",
+      "phone": null,
+      "email": "king2006mac@yahoo.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:county-commissioner:rochelle-brown",
+      "name": "Rochelle Brown",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District B (Districts 3 and 6 Combined)",
+      "phone": null,
+      "email": "rochelle@rochellebrown.net",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16100",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pitt-county:vice-chair,-county-commissioner:benji-holloman",
+      "name": "Benji Holloman",
+      "office": "Vice-Chair, County Commissioner",
+      "level": "county",
+      "body": "Pitt County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "CommissionerBenjiHolloman@gmail.com",
+      "url": null,
+      "photo_url": "https://www.pittcountync.gov/ImageRepository/Document?documentID=16102",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1717 W 5th Street Greenville, NC 27834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pitt County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pittcountync.gov/286/Board-of-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

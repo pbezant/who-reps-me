@@ -1,12 +1,14 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 40,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 44,
   "cities": [
     "Bucks County",
+    "Butler County",
     "Chester County",
     "Cumberland County",
     "Dauphin County",
+    "Lackawanna County",
     "Lancaster County",
     "Montgomery County",
     "Philadelphia",
@@ -573,6 +575,37 @@
       "confidence": 1
     },
     {
+      "id": "pa:butler-county:commissioner,-vice-chair:kimberly-d.-geyer",
+      "name": "Kimberly D. Geyer",
+      "office": "Commissioner, Vice Chair",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": null,
+      "phone": "724-284-5101",
+      "email": "kgeyer@co.butler.pa.us",
+      "url": "https://www.butlercountypa.gov/602/Commissioner-Geyer",
+      "photo_url": "https://www.butlercountypa.gov/ImageRepository/Document?documentID=6288",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "124 W Diamond Street, Butler, PA 16001",
+      "offices": [],
+      "hours": null,
+      "bio": "Kimberly Geyer is a 1984 graduate of Butler County Community College and a former business owner. She served on the Mars School Board for twelve years and began her third term as a Butler County Commissioner in 2016. She is actively involved in various county and state-level boards and committees.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "PA"
+      },
+      "source_url": "https://www.butlercountypa.gov/602/Commissioner-Geyer",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:chester-county:commissioner:eric-roe",
       "name": "Eric Roe",
       "office": "Commissioner",
@@ -973,6 +1006,99 @@
       },
       "source_url": "https://www.dauphincounty.gov/government/courts",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lackawanna-county:clerk-of-judicial-records:lauren-mailen",
+      "name": "Lauren Mailen",
+      "office": "Clerk of Judicial Records",
+      "level": "county",
+      "body": "Lackawanna County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.lackawannacounty.org/government/elected_officials/clerk_of_judicial_records/revize_photo_gallery/Government/Elected%20Officials/Clerk%20of%20Judicial%20Records/Mailen%20Lauren.jpg?t=202509221030520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lackawanna County Government Center 123 Wyoming Avenue, First Floor Scranton, PA 18503",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lackawanna County",
+        "state": "PA"
+      },
+      "source_url": "https://www.lackawannacounty.org/government/elected_officials/clerk_of_judicial_records/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lackawanna-county:deputy-of-the-criminal-office:jack-partyka",
+      "name": "Jack Partyka",
+      "office": "Deputy of the Criminal Office",
+      "level": "county",
+      "body": "Lackawanna County Commissioners Court",
+      "district": null,
+      "phone": "570-963-6759 Ext 7188",
+      "email": "partykaj@lackawannacounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lackawanna County Courthouse 200 N. Washington Ave. Scranton, PA 18503",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lackawanna County",
+        "state": "PA"
+      },
+      "source_url": "https://www.lackawannacounty.org/government/elected_officials/clerk_of_judicial_records/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lackawanna-county:deputy,-civil-and-family-courts:stefanie-parry",
+      "name": "Stefanie Parry",
+      "office": "Deputy, Civil and Family Courts",
+      "level": "county",
+      "body": "Lackawanna County Commissioners Court",
+      "district": null,
+      "phone": "570-963-6723 Ext: 7501",
+      "email": "parryst@lackawannacounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lackawanna County Government Center 123 Wyoming Avenue, First Floor Scranton, PA 18503",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lackawanna County",
+        "state": "PA"
+      },
+      "source_url": "https://www.lackawannacounty.org/government/elected_officials/clerk_of_judicial_records/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
