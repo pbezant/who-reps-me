@@ -1,11 +1,43 @@
 {
   "state": "AL",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 3,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 4,
   "cities": [
+    "Lee County",
     "Mobile County"
   ],
   "officials": [
+    {
+      "id": "al:lee-county:weed-commissioner:alicia-haynes",
+      "name": "Alicia Haynes",
+      "office": "Weed Commissioner",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": null,
+      "phone": "515-370-3404",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "North Lee County Administration Building 933 Avenue H Fort Madison, IA 52627",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "AL"
+      },
+      "source_url": "https://www.leecounty.org/pview.aspx?id=20856&catid=0",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "al:mobile-county:county-commissioner:connie-hudson",
       "name": "Connie Hudson",

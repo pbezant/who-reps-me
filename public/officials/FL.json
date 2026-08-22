@@ -1,18 +1,25 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 84,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 137,
   "cities": [
     "Alachua County",
+    "Bay County",
+    "Fort Lauderdale",
+    "Hialeah",
     "Lee County",
     "Leon County",
     "Miami",
+    "Okaloosa County",
     "Orlando",
     "Osceola County",
     "Palm Beach County",
     "Pasco County",
+    "Port St. Lucie",
     "Seminole County",
     "St. Johns County",
+    "St. Petersburg",
+    "Tallahassee",
     "Tampa"
   ],
   "officials": [
@@ -169,6 +176,574 @@
       },
       "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bay-county:chairman:clair-pease",
+      "name": "Clair Pease",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Bay County Commissioners Court",
+      "district": "District 5",
+      "phone": "850-248-8140",
+      "email": "cpease@baycountyfl.gov",
+      "url": "https://www.baycountyfl.gov/669/Clair-Pease",
+      "photo_url": "https://www.baycountyfl.gov/ImageRepository/Document?documentId=11553",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "840 W 11th Street Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Clair Pease represents Bay County Board of County Commissioners, District 5. A self-taught businesswoman, she has lived and worked in the community since 1993 and is currently the CEO of Emerald View Resorts. She is also passionate about protecting children and families, serving as an honorary board member for the Children's Home Society of Florida.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Bay County",
+        "state": "FL"
+      },
+      "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bay-county:county-commissioner:doug-crosby",
+      "name": "Doug Crosby",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Bay County Commissioners Court",
+      "district": "District 3",
+      "phone": "850-248-8140",
+      "email": "dcrosby@baycountyfl.gov",
+      "url": "https://www.baycountyfl.gov/315/Doug-Crosby",
+      "photo_url": "https://www.baycountyfl.gov/ImageRepository/Document?documentId=16648",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "840 W 11th Street Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Doug Crosby represents Bay County Board of County Commissioners, District 3. Elected in November 2024.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Bay County",
+        "state": "FL"
+      },
+      "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bay-county:county-commissioner:douglas-moore",
+      "name": "Douglas Moore",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Bay County Commissioners Court",
+      "district": "District 4",
+      "phone": "850-248-8140",
+      "email": "dmoore@baycountyfl.gov",
+      "url": "https://www.baycountyfl.gov/607/Doug-Moore",
+      "photo_url": "https://www.baycountyfl.gov/ImageRepository/Document?documentId=6626",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "840 W 11th Street Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Douglas Moore represents Bay County’s District 4, which encompasses most of unincorporated Bay County. Doug graduated from the University of Georgia in 1990 with a Bachelor’s of Business Administration in Finance, from Campbell University’s Norman Adrian Wiggins School of Law in 2006 with a Juris Doctorate, and from the Graduate School of Banking at Louisiana State University in 2014.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Bay County",
+        "state": "FL"
+      },
+      "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bay-county:county-commissioner:robert-carroll",
+      "name": "Robert Carroll",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Bay County Commissioners Court",
+      "district": "District 2",
+      "phone": "850-248-8140",
+      "email": "rcarroll@baycountyfl.gov",
+      "url": "https://www.baycountyfl.gov/316/Robert-Carroll",
+      "photo_url": "https://www.baycountyfl.gov/ImageRepository/Document?documentId=6627",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "840 W 11th Street Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Robert Carroll represents Bay County Board of County Commissioners, District 2. He and his wife Sharon have been married for over 20 years and are raising two daughters, Mia and Gianna.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Bay County",
+        "state": "FL"
+      },
+      "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bay-county:vice-chairman:daniel-raffield",
+      "name": "Daniel Raffield",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Bay County Commissioners Court",
+      "district": "District 1",
+      "phone": "850-248-8140",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.baycountyfl.gov/ImageRepository/Document?documentId=16647",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "840 W 11th Street Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bay County",
+        "state": "FL"
+      },
+      "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-lauderdale:commissioner:john-c.-herbst",
+      "name": "John C. Herbst",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Fort Lauderdale City Council",
+      "district": "District 1",
+      "phone": "954-828-5008",
+      "email": "JHerbst@fortlauderdale.gov",
+      "url": "https://www.fortlauderdale.gov/Government/City-Commission/Commissioner-John-C-Herbst-District-1",
+      "photo_url": "https://www.fortlauderdale.gov/files/assets/public/v/2/city-commission/images/commissioner-john-c-herbst.jpeg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Born in New York City, John C. Herbst is a veteran of the United States Marine Corps and holds a Bachelor's degree in Accountancy and an MBA. His diverse career spans investment banking, public accounting, and the insurance industry, and he previously served as the City Auditor for Fort Lauderdale, where he established the City Auditor's Office in 2006.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Fort Lauderdale",
+        "state": "FL"
+      },
+      "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-lauderdale:commissioner:pamela-beasley-pittman",
+      "name": "Pamela Beasley-Pittman",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Fort Lauderdale City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "pbeasleypittman@fortlauderdale.gov",
+      "url": "https://www.fortlauderdale.gov/Government/City-Commission/Commissioner-Pamela-Beasley-Pittman-District-3",
+      "photo_url": "https://www.fortlauderdale.gov/files/assets/public/v/1/city-commission/images/district-3/pamela-beasley-pittman.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/PamBeasleyPittman",
+        "instagram": "https://www.instagram.com/vicemayorpambeasleypittman",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Pam Beasley-Pittman is a tireless advocate of strengthening unity in her community, known for her integrity, diplomacy, honesty, and effective communication. A Fort Lauderdale native, she worked for the Broward County Sheriff's Office for 32 years, starting as a 911 Communications Operator and ending as an Extraditions Specialist.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Fort Lauderdale",
+        "state": "FL"
+      },
+      "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-lauderdale:commissioner:steven-glassman",
+      "name": "Steven Glassman",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Fort Lauderdale City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "SGlassman@fortlauderdale.gov",
+      "url": "https://www.fortlauderdale.gov/Government/City-Commission/Commissioner-Steven-Glassman-District-2",
+      "photo_url": "https://www.fortlauderdale.gov/files/assets/public/v/1/city-commission/images/steven-glassman_1.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/glassman4ftl/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Steven Glassman was sworn in as Fort Lauderdale City Commissioner of District 2 on March 20, 2018, re-elected to a second term on November 3, 2020, and in 2024, he began serving his third and final term. Steve was born in New York City in 1953 and grew up on Long Island. After receiving his BA and EdM Degrees from SUNY Buffalo, he settled in Buffalo, New York where he was an educator for eighteen years.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Fort Lauderdale",
+        "state": "FL"
+      },
+      "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-lauderdale:mayor:dean-j.-trantalis",
+      "name": "Dean J. Trantalis",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fort Lauderdale City Council",
+      "district": null,
+      "phone": "954-828-5314",
+      "email": "dtrantalis@fortlauderdale.gov",
+      "url": "https://www.fortlauderdale.gov/Government/City-Commission/Mayor-Dean-J-Trantalis",
+      "photo_url": "https://www.fortlauderdale.gov/files/assets/public/v/1/city-commission/images/_mayor/dean-trantalis.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": "https://x.com/DeanTrantalis",
+        "facebook": "https://www.facebook.com/mayordeantrantalis",
+        "instagram": "https://www.instagram.com/mayordeanftl",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 East Broward Blvd\nFloor 4\nFort Lauderdale, FL 33311",
+      "offices": [],
+      "hours": null,
+      "bio": "Dean Trantalis has proudly served as mayor of Fort Lauderdale since March 2018. He welcomes visitors to the city, known for its stunning coastline, rich cultural diversity, and endless opportunities for adventure, and is dedicated to creating a brighter future for all who call it home.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Fort Lauderdale",
+        "state": "FL"
+      },
+      "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-lauderdale:vice-mayor,-commissioner:ben-sorensen",
+      "name": "Ben Sorensen",
+      "office": "Vice Mayor, Commissioner",
+      "level": "local",
+      "body": "Fort Lauderdale City Council",
+      "district": "District 4",
+      "phone": "954-828-5028",
+      "email": "BSorensen@fortlauderdale.gov",
+      "url": "https://www.fortlauderdale.gov/Government/City-Commission/Vice-MayorCommissioner-Ben-Sorensen-District-4",
+      "photo_url": "https://www.fortlauderdale.gov/files/assets/public/v/2/city-commission/images/commissioner-ben-sorensen.jpeg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": "https://x.com/BenSorensen",
+        "facebook": "https://www.facebook.com/Ben.Sorensen",
+        "instagram": "https://www.instagram.com/ben.s.sorensen",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Ben Sorensen serves as the City Commissioner for Fort Lauderdale’s District 4. He brings a mix of enthusiasm for public service, faith, and military experience to his role. Ben is a steadfast advocate for ethical and transparent government, and he works diligently to ensure residents’ voices shape city priorities and progress.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Fort Lauderdale",
+        "state": "FL"
+      },
+      "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:mayor:bryan-calvo",
+      "name": "Bryan Calvo",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=21388",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:member:gelien-perez",
+      "name": "Gelien Perez",
+      "office": "Member",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "gperez@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/1183/Gelien-Perez",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=21188",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Gelien Perez is a proud Cuban-American who was raised in the City of Hialeah, where she attended public schools and graduated from Hialeah Senior High School. She holds multiple degrees, including two Bachelor of Arts degrees from St. Thomas University and a Master of Science in Human Resources Management from Florida International University, and has over 11 years of dedicated public service with the City of Hialeah.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:member:luis-gonzalez",
+      "name": "Luis Gonzalez",
+      "office": "Member",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "lgonzalez@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/1190/Luis-Gonzalez",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=21393",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": "Born in Santa Fe, Cuba in 1970, Councilman Luis Gonzalez moved to Hialeah in 1981 and has called it home ever since. After pursuing accounting and earning a degree in Management, he worked in sales and launched a printing company before joining the City's Zoning Board in 2005. He served twelve consecutive years on the Hialeah City Council, including as Council President, and was elected President of the Miami-Dade League of Cities in 2012.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:member:luis-rodriguez",
+      "name": "Luis Rodriguez",
+      "office": "Member",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "lmrodriguez@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/964/Luis-Rodriguez",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=17777",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:member:monica-perez",
+      "name": "Monica Perez",
+      "office": "Member",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "monperez@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/804/Monica-Perez",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=17773",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City Hall",
+          "city": "Hialeah",
+          "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+          "phone": "305-883-5800",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Councilwoman Monica Perez was born and raised in our City of Hialeah. She earned a Bachelor’s of Science in Education from Florida International University and has a background in teaching. She was sworn into office as an elected official on November 8th, 2019.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:member:william-marrero",
+      "name": "William Marrero",
+      "office": "Member",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "wfmarrero@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/1184/William-Marrero",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=21189",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": "William Marrero is a proud son of Hialeah, born and raised in the city he now serves as a City Councilman. A graduate of Hialeah Senior High School and a student of Public Administration at Florida International University, he has been involved in civic life from a young age. As a member of the Hialeah City Council, William is focused on delivering results for residents, supporting working families, and investing in safer streets and parks.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:president:carl-zogby",
+      "name": "Carl Zogby",
+      "office": "President",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "czogbycoh@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/443/Carl-Zogby",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=17778",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Carl Zogby was born in Union City, New Jersey, on March 9th, 1962. He is the third and youngest child of Cuban parents, who had migrated to the United States in the 1930s. His father was a World War 2 U.S. military veteran and his mother was a school teacher.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hialeah:vice-president:melinda-de-la-vega",
+      "name": "Melinda De La Vega",
+      "office": "Vice President",
+      "level": "local",
+      "body": "Hialeah City Council",
+      "district": null,
+      "phone": "305-883-5800",
+      "email": "mdelavega@hialeahfl.gov",
+      "url": "https://www.hialeahfl.gov/1133/Melinda-De-La-Vega",
+      "photo_url": "https://www.hialeahfl.gov/ImageRepository/Document?documentID=19317",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 President Donald J. Trump Avenue, Hialeah, Florida 33010",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Melinda de la Vega was born and raised in the City of Hialeah. She earned a Bachelor’s Degree in Healthcare Management and has worked in health insurance for 20 years. Melinda is actively involved in her community and several nonprofit organizations, including the Hialeah Lions Club.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Hialeah",
+        "state": "FL"
+      },
+      "source_url": "https://www.hialeahfl.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -961,6 +1536,256 @@
       "confidence": 1
     },
     {
+      "id": "fl:okaloosa-county:commissioner,-chairman-2026:trey-goodwin",
+      "name": "Trey Goodwin",
+      "office": "Commissioner, Chairman 2026",
+      "level": "county",
+      "body": "Okaloosa County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "tgoodwin@myokaloosa.com",
+      "url": "https://www.myokaloosa.com/bcc/goodwin",
+      "photo_url": "https://www.myokaloosa.com/sites/default/files/Users/piouser/treyforweb2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536; 1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Okaloosa County Commission Office",
+          "city": "Crestview",
+          "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536",
+          "phone": "850-689-5050 or 850-423-1542",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "main",
+          "name": "Okaloosa County Commission Office",
+          "city": "Shalimar",
+          "address": "1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+          "phone": "850-689-5050 or 850-423-1542",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Robert A. “Trey” Goodwin III is an Okaloosa native, a University of Florida and Florida State University School of Law graduate, and founder of Goodwin Law Group. He has served as a Fort Walton Beach City Council member (2011-2014) and as County Commissioner for District 4 since November 2014, also serving as Chairman in 2023 and 2026. Additionally, Commissioner Goodwin is a personal watercraft safety advocate and lives in Fort Walton Beach with his family.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Okaloosa County",
+        "state": "FL"
+      },
+      "source_url": "https://www.myokaloosa.com/board-county-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:okaloosa-county:commissioner,-vice-chairman-2026:drew-palmer",
+      "name": "Drew Palmer",
+      "office": "Commissioner, Vice Chairman 2026",
+      "level": "county",
+      "body": "Okaloosa County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "dpalmer@myokaloosa.com",
+      "url": "https://www.myokaloosa.com/bcc/palmer",
+      "photo_url": "https://www.myokaloosa.com/sites/default/files/Users/piouser/Palmer_5955_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536; 1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+      "offices": [
+        {
+          "classification": "county commission",
+          "name": "County Commission Office",
+          "city": "Crestview",
+          "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536",
+          "phone": "850-689-5050",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "county commission",
+          "name": "County Commission Office",
+          "city": "Shalimar",
+          "address": "1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+          "phone": "850-423-1542",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Drew Palmer serves District 5, including Destin, Bluewater Bay, and Niceville, having called Okaloosa County home since 2010. With a distinguished two-decade career in Aerospace and Defense, he holds multiple degrees and certifications. As Commissioner, he is committed to driving economic development, improving infrastructure, maintaining low taxes, and enhancing county services.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Okaloosa County",
+        "state": "FL"
+      },
+      "source_url": "https://www.myokaloosa.com/board-county-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:okaloosa-county:commissioner:carolyn-ketchel",
+      "name": "Carolyn Ketchel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Okaloosa County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "cketchel@myokaloosa.com",
+      "url": "https://www.myokaloosa.com/bcc/ketchel",
+      "photo_url": "https://www.myokaloosa.com/sites/default/files/2020-portrati%20KetchelC_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536; 1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+      "offices": [
+        {
+          "classification": "other",
+          "name": "County Commission Office",
+          "city": "Crestview",
+          "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536",
+          "phone": "850-689-5050 / 850-423-1542",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "other",
+          "name": "County Commission Office",
+          "city": "Shalimar",
+          "address": "1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+          "phone": "850-689-5050 / 850-423-1542",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Carolyn Ketchel represents District Two, including Shalimar, Okaloosa Island, and parts of unincorporated Fort Walton Beach. With over 38 years as an Okaloosa County resident, she brings extensive federal, state, and local experience in social services policy and administration. She was recognized as Florida's Social Worker of the Year in 2015 and received the 2020 Presidential Advocacy Award from the Florida Association of Counties.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Okaloosa County",
+        "state": "FL"
+      },
+      "source_url": "https://www.myokaloosa.com/board-county-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:okaloosa-county:commissioner:paul-mixon",
+      "name": "Paul Mixon",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Okaloosa County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "pmixon@myokaloosa.com",
+      "url": "https://www.myokaloosa.com/bcc/mixon",
+      "photo_url": "https://www.myokaloosa.com/sites/default/files/Users/piouser/New-%20MIxon8X10.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536; 1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+      "offices": [
+        {
+          "classification": "district",
+          "name": null,
+          "city": "Crestview",
+          "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "district",
+          "name": null,
+          "city": "Shalimar",
+          "address": "1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Paul Mixon is the County Commissioner for District 1, covering the northeastern quadrant of Okaloosa County. He was elected in August 2020 and took office in November 2020 for a four-year term. Outside of his duties, he serves as a Pastor at Central Baptist Church in Crestview and is committed to responsive, ethical government that protects the quality of life.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Okaloosa County",
+        "state": "FL"
+      },
+      "source_url": "https://www.myokaloosa.com/board-county-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:okaloosa-county:commissioner:sherri-cox",
+      "name": "Sherri Cox",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Okaloosa County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "scox@myokaloosa.com",
+      "url": "https://www.myokaloosa.com/bcc/cox",
+      "photo_url": "https://www.myokaloosa.com/sites/default/files/Users/piouser/SherriCox_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 N. Wilson St. - Suite 302 Crestview, FL 32536; 1250 N. Eglin Parkway, Suite 100 Shalimar, FL 32579",
+      "offices": [
+        {
+          "classification": "district",
+          "name": null,
+          "city": "Crestview",
+          "address": "302 N. Wilson St. - Suite 302, Crestview, FL 32536",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "district",
+          "name": null,
+          "city": "Shalimar",
+          "address": "1250 N. Eglin Parkway, Suite 100, Shalimar, FL 32579",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Sherri Cox is a lifelong resident of Northwest Florida, dedicated to defending constitutional rights and economic opportunity while preserving the region's culture and natural beauty. She holds degrees in Music Performance and Chemistry, and has a successful career in business, political, and real estate development consulting. Deeply rooted in public service, she serves on various committees and is committed to enhancing Okaloosa County's quality of life and economic opportunity.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Okaloosa County",
+        "state": "FL"
+      },
+      "source_url": "https://www.myokaloosa.com/board-county-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:orlando:council-member:bakari-f.-burns",
       "name": "Bakari F. Burns",
       "office": "City Council Member",
@@ -1702,6 +2527,37 @@
       },
       "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:port-st.-lucie:department-head,-human-resources:natalie-cabrera",
+      "name": "Natalie Cabrera",
+      "office": "Department Head, Human Resources",
+      "level": "local",
+      "body": "Port St. Lucie City Council",
+      "district": null,
+      "phone": "772-344-4335",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpsl.com/files/assets/public/v/1/departments/human-resources/images/natalie-cabrera.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Building A\n121 SW Port St. Lucie, Blvd.\nPort St. Lucie\n34984",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port St. Lucie",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Human-Resources?lang_update=639228689410259971",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -2447,6 +3303,905 @@
       "source_url": "https://www.sjcfl.us/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 0.9
+    },
+    {
+      "id": "fl:st.-petersburg:assistant-city-administrator:tom-greene",
+      "name": "Tom Greene",
+      "office": "Assistant City Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:chief-community-impact-officer:george-smith",
+      "name": "George Smith",
+      "office": "Chief Community Impact Officer",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:chief-of-staff:doyle-walsh",
+      "name": "Doyle Walsh",
+      "office": "Chief of Staff",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:city-administrator:robert-gerdes",
+      "name": "Robert Gerdes",
+      "office": "City Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:city-development-administrator:james-corbett",
+      "name": "James Corbett",
+      "office": "City Development Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "james.corbett@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:communications-and-community-engagement-managing-director:alizza-punzalan-randle",
+      "name": "Alizza Punzalan-Randle",
+      "office": "Communications and Community Engagement Managing Director",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "alizza.punzalan-randle@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:community-enrichment-administrator:mike-jefferis",
+      "name": "Mike Jefferis",
+      "office": "Community Enrichment Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:director-–-education-and-youth-opportunities:dr.-sheron-brown",
+      "name": "Dr. Sheron Brown",
+      "office": "Director – Education and Youth Opportunities",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "sheron.brown@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:director-–-government-affairs:david-thompson",
+      "name": "David Thompson",
+      "office": "Director – Government Affairs",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "david.thompson@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:director-–-marketing:carrie-obrion",
+      "name": "Carrie O'Brion",
+      "office": "Director – Marketing",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "carrie.o'brion@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:director-–-stakeholder-and-community-engagement:shelly-loos",
+      "name": "Shelly Loos",
+      "office": "Director – Stakeholder and Community Engagement",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "shelly.loos@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:fire-rescue-department-chief:keith-watts",
+      "name": "Keith Watts",
+      "office": "Fire Rescue Department Chief",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:housing-and-neighborhood-services-administrator:amy-foster",
+      "name": "Amy Foster",
+      "office": "Housing and Neighborhood Services Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:legal-department-city-attorney:jackie-kovilaritch",
+      "name": "Jackie Kovilaritch",
+      "office": "Legal Department City Attorney",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:mayor-of-st.-petersburg:kenneth-t.-welch",
+      "name": "Kenneth T. Welch",
+      "office": "Mayor of St. Petersburg",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": "727-893-7201",
+      "email": "mayor@stpete.org",
+      "url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "photo_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/defaults/Photo%20Tiles/MayorWelch-headshot.png?t=202307211228440",
+      "social": {
+        "twitter": "https://twitter.com/mayorkenwelch",
+        "facebook": "https://www.facebook.com/MayorKenWelch/",
+        "instagram": "https://www.instagram.com/mayorkenwelch/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kenneth T. Welch is the Mayor of St. Petersburg. He is a third generation St. Pete resident, father of two daughters, a graduate of THE Lakewood High School, a fan of the SunRunner and a strong believer that if we keep our eye on Inclusive Progress - it will always lead the way. As Mayor, Ken is working to make St. Pete a city for everyone through his guiding Principles of Accountable Government and Pillars for Progress. You'll often hear him say....\"We Are St. Pete!\"",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:police-department-chief:anthony-holloway",
+      "name": "Anthony Holloway",
+      "office": "Police Department Chief",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:public-information-officer:samantha-bequer",
+      "name": "Samantha Bequer",
+      "office": "Public Information Officer",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "communications@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:public-works-administrator:claude-tankersley",
+      "name": "Claude Tankersley",
+      "office": "Public Works Administrator",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:special-assistant-–-chief-of-staff-doyle-walsh:kali-dambeck",
+      "name": "Kali Dambeck",
+      "office": "Special Assistant – Chief of Staff Doyle Walsh",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "kali.dambeck@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:st.-petersburg:special-assistant-–-mayor-welch:rita-wesley",
+      "name": "Rita Wesley",
+      "office": "Special Assistant – Mayor Welch",
+      "level": "local",
+      "body": "St. Petersburg City Council",
+      "district": null,
+      "phone": null,
+      "email": "rita.wesley@stpete.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Petersburg",
+        "state": "FL"
+      },
+      "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-attorney:amy-m.-toman",
+      "name": "Amy M. Toman",
+      "office": "City Attorney",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-0000",
+      "email": null,
+      "url": "https://www.talgov.com/Main/attorney",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/toman.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-commissioner:curtis-richardson",
+      "name": "Curtis Richardson",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-8181",
+      "email": null,
+      "url": "https://www.talgov.com/cityleadership/richardson",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/richardson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Curtis Richardson, Mayor Pro Tem - Seat 2, was born in Jacksonville and reared in Green Cove Springs, Florida. He graduated with honors in 1974 and obtained a B.S. degree in Psychology from Florida State University, later earning a Masters degree in Counseling Psychology from the University of West Florida and a Master's degree in School Psychology from FSU. His career in public service began with his election to the Leon County School Board in 1990, followed by election to the Florida House of Representatives in 2000.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-commissioner:dianne-williams-cox",
+      "name": "Dianne Williams-Cox",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-8502",
+      "email": null,
+      "url": "https://www.talgov.com/cityleadership/williams-cox",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/Commissioner-DianneWilliamsCox.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Dianne Williams-Cox was born and raised in Quincy, Florida, and graduated with honors from Florida A&M University with a B.S. in Data Processing Technology. She also holds a Master’s in Business Administration from Nova Southeastern University. Her life has been dedicated to community service, voter advocacy, and championing causes for underserved residents in Tallahassee.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-commissioner:jacqueline-jack-porter",
+      "name": "Jacqueline \"Jack\" Porter",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-8191",
+      "email": null,
+      "url": "https://www.talgov.com/cityleadership/porter",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/porter.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Jack was born and raised in São Paulo, Brazil and later moved to South Florida, where she lived until moving to Tallahassee to attend Florida State University. As a longtime community builder, Jack has worked tirelessly to advance progress on the issues that matter to our neighborhoods. Most recently, Jack worked at the Florida Department of Environmental Protection as a Florida Gubernatorial Fellow.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-commissioner:jeremy-matlow",
+      "name": "Jeremy Matlow",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-8188",
+      "email": null,
+      "url": "https://www.talgov.com/cityleadership/matlow",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/Commissioner-JeremyMatlow.jpg",
+      "social": {
+        "twitter": "https://twitter.com/JeremyMatlowTLH",
+        "facebook": "https://www.facebook.com/CommissionerJeremyMatlow/",
+        "instagram": "https://www.instagram.com/commissionermatlow/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Raised on Tallahassee’s south side, Commissioner Jeremy Matlow was elected to City Commissioner in 2018, advocating for citizens and neighborhoods to drive City Hall's priorities. He co-founded Gaines Street Pies and serves on various agencies including the CRA and Capital Regional Transportation Planning Agency.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-manager:reese-goad",
+      "name": "Reese Goad",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-8200",
+      "email": null,
+      "url": "https://www.talgov.com/cityleadership/manager",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/2022reesegoad.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Reese Goad has worked for the City of Tallahassee for more than 26 years. Prior to being appointed as Tallahassee's City Manager in September 2018, Goad served as the interim City Manager and the Deputy City Manager. Goad has fostered a culture within the organization focused on ethics and delivering high quality, affordable municipal services.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:city-treasurer-clerk:jim-cooke",
+      "name": "Jim Cooke",
+      "office": "City Treasurer-Clerk",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:inspector-general:dennis-r.-sutton",
+      "name": "Dennis R. Sutton",
+      "office": "Inspector General",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tallahassee:mayor:john-e.-dailey",
+      "name": "John E. Dailey",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Tallahassee City Council",
+      "district": null,
+      "phone": "850-891-2000",
+      "email": "mayor@talgov.com",
+      "url": "https://www.talgov.com/cityleadership/dailey",
+      "photo_url": "https://www.talgov.com/uploads/public/images/cityleadership/Mayor-JohnDailey.jpg?01",
+      "social": {
+        "twitter": "https://x.com/MayorOfTLH",
+        "facebook": "https://www.facebook.com/MayorOfTLH/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 S. Adams St. Tallahassee FL 32301",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Dailey has dedicated his professional life to building strong, vibrant communities. He began his career working for the Florida League of Cities and the National League of Cities. After founding JDA Strategies, he was elected to the Leon County Commission in 2006 and then Mayor of the City of Tallahassee in 2018.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Tallahassee",
+        "state": "FL"
+      },
+      "source_url": "https://www.talgov.com/Main/Home",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
     },
     {
       "id": "fl:tampa:council-member:alan-clendenin",

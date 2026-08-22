@@ -1,9 +1,10 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 34,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 35,
   "cities": [
     "Clackamas County",
+    "Deschutes County",
     "Multnomah County",
     "Portland"
   ],
@@ -347,6 +348,37 @@
       },
       "source_url": "https://www.clackamas.us/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:deschutes-county:commissioner:tony-debone",
+      "name": "Tony DeBone",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Deschutes County Commissioners Court",
+      "district": null,
+      "phone": "541-388-6568",
+      "email": "Tony.DeBone@deschutes.org",
+      "url": "https://www.deschutescounty.gov/439/Commissioner-Tony-DeBone",
+      "photo_url": "https://www.deschutescounty.gov/ImageRepository/Document?documentId=686",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 NW Wall St. Bend, OR 97703",
+      "offices": [],
+      "hours": null,
+      "bio": "While living on Maui, Tony met his wife Kathy, a Central Oregonian. They married and had their son Michael in Hawaii, then moved to Seattle, Washington for four years where Tony worked as an Associate Computational Scientist doing drug discovery research. The family moved to Southern Deschutes County to seek a more rural lifestyle and to be closer to family. Prior to his job as Commissioner, Tony served on the Board of Directors of the La Pine Park and Recreation District as Board Chair and the La Pine Rodeo Association on Land Acquisition.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Deschutes County",
+        "state": "OR"
+      },
+      "source_url": "https://www.deschutescounty.gov/439/Commissioner-Tony-DeBone",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

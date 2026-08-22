@@ -1,12 +1,261 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 17,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 25,
   "cities": [
+    "Hamilton County",
     "Lake County",
     "Marion County"
   ],
   "officials": [
+    {
+      "id": "in:hamilton-county:judge:andrew-r.-bloch",
+      "name": "Andrew R. Bloch",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:darren-j.-murphy",
+      "name": "Darren J. Murphy",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:david-k.-najjar",
+      "name": "David K. Najjar",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:j.-richard-campbell",
+      "name": "J. Richard Campbell",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:jonathan-m.-brown",
+      "name": "Jonathan M. Brown",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:michael-a.-casati",
+      "name": "Michael A. Casati",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:stephenie-k.-gookins",
+      "name": "Stephenie K. Gookins",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:hamilton-county:judge:william-j.-hughes",
+      "name": "William J. Hughes",
+      "office": "Judge",
+      "level": "county",
+      "body": "Hamilton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hamilton County",
+        "state": "IN"
+      },
+      "source_url": "https://www.hamiltoncounty.in.gov/1497/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
     {
       "id": "in:lake-county:council-president:christine-cid",
       "name": "Christine Cid",

@@ -1,0 +1,41 @@
+{
+  "state": "MS",
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 1,
+  "cities": [
+    "Harrison County"
+  ],
+  "officials": [
+    {
+      "id": "ms:harrison-county:supervisor:rebecca-powers",
+      "name": "Rebecca Powers",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District Two",
+      "phone": "228-865-4122",
+      "email": "RPowers@co.harrison.ms.us",
+      "url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/district_two.php",
+      "photo_url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/Becca_2.jpg?t=202106101328040",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rebecca Powers is one of South Mississippi’s most recognized voices, best known for her long-time career as a news anchor at WLOX. Throughout her distinguished journalism career, she has been honored with a Peabody Award, an Edward R. Murrow Award, a Humanitarian Emmy, and 12 Associated Press awards for journalistic excellence.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "MS"
+      },
+      "source_url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/district_two.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "state": "ID",
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 13,
+  "cities": [
+    "Boise City",
+    "Canyon County"
+  ],
+  "officials": [
+    {
+      "id": "id:boise-city:council-member:colin-nash",
+      "name": "Colin Nash",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 2",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-2/",
+      "photo_url": "https://www.cityofboise.org/media/18339/citycouncil-visionkit-2024-colinnash-web.jpg?center=0.312621359223301,0.52478134110787167&mode=crop&width=350&height=250&rnd=133524933840000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Colin Nash is an attorney who has been twice elected to represent Boise’s West Bench in the Idaho Legislature. As a state lawmaker, Nash strengthened Idaho’s sexual assault laws, defended the City of Boise’s renter protection ordinance, helped advance meaningful housing affordability measures, and developed a track record of fiscal responsibility. Colin and his wife Hailey are renters in Boise’s Winstead Park neighborhood where they live with their two young children.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:boise-city:council-member:jimmy-hallyburton",
+      "name": "Jimmy Hallyburton",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 6",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-6/",
+      "photo_url": "https://www.cityofboise.org/media/18340/citycouncil-visionkit-2024-jimmyhallyburton-web.jpg?crop=0,0.048945147679324987,0.11392405063290974,0.529113924050632&cropmode=percentage&width=350&height=250&rnd=133524957180000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Jimmy Hallyburton was born and raised on the rural edges of NW Boise. After fighting wildfires and graduating from Boise State University, he created a nonprofit called the Boise Bicycle Project (BBP) in 2007. He was elected to Boise City Council in 2019 and reelected in 2023 as the representative for District 6.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:boise-city:council-member:jordan-morales",
+      "name": "Jordan Morales",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 4",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-4/",
+      "photo_url": "https://www.cityofboise.org/media/18341/citycouncil-visionkit-2024-jordanmorales-web.jpg?center=0.28543689320388349,0.51311953352769679&mode=crop&width=350&height=250&rnd=133524687680000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Jordan Morales was elected to the Boise City Council in 2023 as the first representative to serve from District 4, which encompasses Southeast Boise and the Vista Bench. His priorities on the council include housing affordability, safe streets, transportation, and climate action. Professionally, Jordan manages business operations for Boise State University's Department of Computer Science.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:boise-city:council-member:luci-willits",
+      "name": "Luci Willits",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 1",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-1/",
+      "photo_url": "https://www.cityofboise.org/media/18343/citycouncil-visionkit-2024-luciwillits-web.jpg?center=0.26601941747572816,0.50728862973760935&mode=crop&width=350&height=250&rnd=133524686670000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Luci Willits, a lifelong Idahoan, brings a unique blend of experience and dedication to her role as Boise City Council member for District 1. With a background in both private and public sectors and 20 years as a West Boise resident, she has a deep understanding of the issues facing the city. First elected in 2021 and re-elected in 2023, Luci's priorities include public safety, library access, and maintaining and expanding Boise’s beautiful parks.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:boise-city:council-president:meredith-stead",
+      "name": "Meredith Stead",
+      "office": "Council President",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 5",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-5/",
+      "photo_url": "https://www.cityofboise.org/media/18345/citycouncil-visionkit-2024-meredithstead.jpg?crop=0.030379746835443096,0.080675084882647838,0.083544303797466635,0.49738398684730917&cropmode=percentage&width=350&height=250&rnd=133524713370000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Meredith Stead lived in a few different places before calling Boise home, graduating from the University of Colorado with a BA in Communication and English Literature. Her career included work in independent film and launching the San Francisco Ski and Snowboard Festival. Appointed by Mayor McLean in 2023, she was elected to a four-year term and selected by her peers to serve as Council President.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:boise-city:council-pro-tem:kathy-corless",
+      "name": "Kathy Corless",
+      "office": "Council Pro Tem",
+      "level": "local",
+      "body": "Boise City City Council",
+      "district": "Council District 3",
+      "phone": "208-608-7002",
+      "email": null,
+      "url": "https://www.cityofboise.org/departments/city-council/council-district-3/",
+      "photo_url": "https://www.cityofboise.org/media/18342/citycouncil-visionkit-2024-kathycorless-web.jpg?center=0.23300970873786409,0.478134110787172&mode=crop&width=350&height=250&rnd=133524936360000000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N Capitol Blvd, Boise, ID 83702",
+      "offices": [],
+      "hours": "Monday - Friday, 8:00 a.m. - 5:00 p.m. Closed Holidays",
+      "bio": "Kathy Corless is a third-generation Boise resident, hailing from the scenic Boise Bench area. With a rich background deeply rooted in the local community, Kathy brings a wealth of experience and dedication to her role. Kathy was elected to the Boise City Council representing District 3 in November of 2023 and is serving a four-year term.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Boise City",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofboise.org/departments/city-council/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:assessor:brian-stender",
+      "name": "Brian Stender",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": null,
+      "phone": "208-454-7431",
+      "email": "2cAsr@canyoncounty.id.gov",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/assessor",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/11/Headshot-of-Canyon-County-Assessor-Brian-Stender.png",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CC.Assessor/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 N. 11th Ave, Suite 250, Caldwell, ID",
+      "offices": [
+        {
+          "classification": "motor vehicle",
+          "name": "Motor Vehicle Title and Registration Office",
+          "city": "Caldwell",
+          "address": "6107 Graye Lane, Ste. A, Caldwell, ID, 83607",
+          "phone": "208-455-6020",
+          "fax": "208-454-6019",
+          "hours": "Monday through Friday 7 a.m. to 4 a.m., Wednesday 8:30 a.m. to 4 p.m. Please note that we do not close for the lunch hour."
+        }
+      ],
+      "hours": "Weekdays 8am - 5pm (excluding holidays)",
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:clerk:urresti",
+      "name": "Urresti",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": null,
+      "phone": "208-454-7337",
+      "email": "CanyonCountyClerk@canyoncounty.id.gov",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/clerk",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2026/01/Clerk-Urresti.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 N. 11th Ave Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am – 5pm (excluding holidays) Court Clerk (Rm 201) Hours Weekdays 8am-4:30pm",
+      "bio": "Serving all of Canyon County in an efficient, accurate, and friendly manner. Constitutional and statutory laws give this one elective county office (Clerk) five distinct titles: Clerk of the District Court, Auditor, Recorder, Clerk of the Board of County Commissioners, Chief Elections Officer of the County.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:canyon-county:commissioner:brad-holton",
+      "name": "Brad Holton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": "District 2",
+      "phone": "208-454-7507",
+      "email": "BOCC@canyoncounty.id.gov",
+      "url": "https://www.canyoncounty.id.gov/district-2",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2024/03/Holton_2024-for-web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1115 Albany St. Rm101 Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am - 5pm *Closed for lunch 12pm-1pm (excluding holidays)",
+      "bio": "Brad Holton is a lifelong resident of Canyon County, where he has run a local small business for over 46 years and served as Mayor of Greenleaf for 27 years. He is honored to serve as Commissioner for District 2 and Chairman of the Board of County Commissioners, committed to leading with transparency and accountability.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:commissioner:leslie-van-beek",
+      "name": "Leslie Van Beek",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": "District 1",
+      "phone": "208-454-7507",
+      "email": null,
+      "url": "https://www.canyoncounty.id.gov/district-1",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2024/03/Commissioner-Van-Beek_2024-web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1115 Albany St. Rm101 Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am - 5pm *Closed for lunch 12pm-1pm (excluding holidays)",
+      "bio": "Leslie Van Beek is an Idaho native, born and raised in the Treasure Valley. She has a degree in Health Science and a minor in Biology, with work experience in banking, retail, and public relations. She now serves as the District 1 Commissioner for Canyon County, committed to honest and fair representation of its citizens.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:commissioner:zach-brooks",
+      "name": "Zach Brooks",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": "District 3",
+      "phone": "208-454-7507",
+      "email": "BOCC@canyoncounty.id.gov",
+      "url": "https://www.canyoncounty.id.gov/district-3",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2023/01/ZachBrooks-District3.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1115 Albany St. Rm101 Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am - 5pm *Closed for lunch 12pm-1pm (excluding holidays)",
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:prosecuting-attorney:chris-boyd",
+      "name": "Chris Boyd",
+      "office": "Prosecuting Attorney",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": null,
+      "phone": "208-454-7391",
+      "email": null,
+      "url": "https://www.canyoncounty.id.gov/elected-officials/prosecuting-attorney",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2025/01/Chris-Boyd_PA_web.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1115 Albany St Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am - 5pm (excluding holidays)",
+      "bio": "As your Prosecuting Attorney, Chris Boyd's duty is to uphold the law, protect the community, and ensure that justice is served. His office is committed to holding criminals accountable while supporting victims and maintaining the integrity of the legal system. He has built a team of highly skilled professionals dedicated to making Canyon County safer and ensuring effective government functions.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:canyon-county:treasurer:jennifer-watters",
+      "name": "Jennifer Watters",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Canyon County Commissioners Court",
+      "district": null,
+      "phone": "208-454-7354",
+      "email": "treas@canyoncounty.id.gov",
+      "url": "https://www.canyoncounty.id.gov/elected-officials/treasurer",
+      "photo_url": "https://www.canyoncounty.id.gov/wp-content/uploads/2024/09/EO-Jennifer.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 N. 11th Ave Ste 240 Caldwell, ID 83605",
+      "offices": [],
+      "hours": "Weekdays 8am – 5pm (excluding holidays)",
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Canyon County",
+        "state": "ID"
+      },
+      "source_url": "https://www.canyoncounty.id.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    }
+  ]
+}

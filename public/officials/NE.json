@@ -1,9 +1,10 @@
 {
   "state": "NE",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 7,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 12,
   "cities": [
-    "Lincoln"
+    "Lincoln",
+    "Sarpy County"
   ],
   "officials": [
     {
@@ -221,6 +222,180 @@
       },
       "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:angi-l.-burmeister",
+      "name": "Angi L. Burmeister",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 3",
+      "phone": "402-593-4155",
+      "email": "aburmeister@sarpy.gov",
+      "url": "https://www.sarpy.gov/341/District-3",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5224",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Angi L. Burmeister is the Sarpy County Commissioner from the 3rd District, first sworn in on January 29, 2019, and elected to subsequent terms. She is an attorney and managing partner with Berkshire and Burmeister Law Offices, holding degrees from UNL and Creighton School of Law. Burmeister is a long-time resident of Bellevue and has served on various community boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:david-klug",
+      "name": "David Klug",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 2",
+      "phone": "402-593-4155",
+      "email": "dklug@sarpy.gov",
+      "url": "https://www.sarpy.gov/340/District-2",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5223",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner David Klug is the Sarpy County Commissioner from the 2nd District, elected into office in January 2019. He is the 2025 Board Chair and also served as Vice Chair in 2024 and 2021. Klug works for OrthoNebraska and holds a Master's Degree in Public Administration from the University of Nebraska at Omaha.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:don-kelly",
+      "name": "Don Kelly",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 1",
+      "phone": "402-593-4155",
+      "email": "donkelly@sarpy.gov",
+      "url": "https://www.sarpy.gov/338/District-1",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5222",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Sarpy County Courthouse Campus",
+          "city": "Papillion",
+          "address": "1210 Golden Gate Drive, Papillion, NE 68046",
+          "phone": "402-593-2100",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "main",
+          "name": "Sarpy County 1102 Building",
+          "city": "Papillion",
+          "address": "1102 E. 1st Street, Papillion, NE 68046",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Don Kelly is the Sarpy County Commissioner from District 1 and the Board's 2026 Chair. He joined the county board in 2013. His priorities include maintaining public safety, improving local infrastructure, and promoting economic development. Don is a lifelong public servant who retired as a colonel from the U.S. Air Force.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:gary-mixan",
+      "name": "Gary Mixan",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 4",
+      "phone": "402-593-4155",
+      "email": "gmixan@sarpy.gov",
+      "url": "https://www.sarpy.gov/345/District-4",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Gary Mixan is the Sarpy County Commissioner from District 4 who first took office in January 2017. Mixan serves as liaison for the Nebraska Association of County Officials (NACO), Budget and Finance and Merit Commission. He previously served on Sarpy/Cass Department of Health and Wellness and Metropolitan Area Planning Agency Board of Directors.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:jim-warren",
+      "name": "Jim Warren",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 5",
+      "phone": "402-593-4155",
+      "email": "jwarren@sarpy.gov",
+      "url": "https://www.sarpy.gov/346/District-5",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5226",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Jim Warren is the Sarpy County Commissioner for the 5th District who took office on January 11, 2011. Warren previously served on the Gretna City Council and as Gretna's Mayor. He holds a degree from Toccoa Falls College in Georgia and resides in Gretna with his wife, Patti, and their three children.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

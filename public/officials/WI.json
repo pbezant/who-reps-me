@@ -1,10 +1,12 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 8,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 31,
   "cities": [
     "Dane County",
-    "Madison"
+    "Madison",
+    "Outagamie County",
+    "Waukesha County"
   ],
   "officials": [
     {
@@ -253,6 +255,719 @@
       },
       "source_url": "https://www.cityofmadison.com/mayor/about",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:asst-court-commissioner:douglas-fyfe",
+      "name": "Douglas Fyfe",
+      "office": "Asst Court Commissioner",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:asst-court-commissioner:maureen-roberts-budiac",
+      "name": "Maureen Roberts-Budiac",
+      "office": "Asst Court Commissioner",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:court-reporter:gina-anderson",
+      "name": "Gina Anderson",
+      "office": "Court Reporter",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:family-court-commissioner:brian-joseph-bushaw",
+      "name": "Brian Joseph Bushaw",
+      "office": "Family Court Commissioner",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:judicial-assistant:lona-lambie",
+      "name": "Lona Lambie",
+      "office": "Judicial Assistant",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:outagamie-county:judicial-assistant:mindee-terracina",
+      "name": "Mindee Terracina",
+      "office": "Judicial Assistant",
+      "level": "county",
+      "body": "Outagamie County Commissioners Court",
+      "district": null,
+      "phone": "920-832-5057",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Center, 2nd Floor\n320 S Walnut St\nAppleton, WI 54911-5985",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Outagamie County",
+        "state": "WI"
+      },
+      "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:clerk-of-circuit-courts:monica-paz",
+      "name": "Monica Paz",
+      "office": "Clerk of Circuit Courts",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/el5jfcks/paz_monica-headshot-2025.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room AC-1130 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:corporation-counsel:erik-g.-weidig",
+      "name": "Erik G. Weidig",
+      "office": "Corporation Counsel",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7432",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/0b4ahfro/erik.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room AC-330 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:county-board-chair:james-a.-heinrich",
+      "name": "James A. Heinrich",
+      "office": "County Board Chair",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7002",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/bxkjkkeq/heinrich_dsc2030b.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:director,-bridges-library-system:brittany-larson",
+      "name": "Brittany Larson",
+      "office": "Director, Bridges Library System",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-896-8080",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/bxgdebed/2025-brittany-website_600x800.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "741 N. Grand Avenue, #210 Waukesha, WI 53186",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:director,-department-of-administration:andrew-v.-thelke",
+      "name": "Andrew V. Thelke",
+      "office": "Director, Department of Administration",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7020",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/bjjj3alt/andy.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:director,-department-of-health-and-human-services:elizabeth-aldred",
+      "name": "Elizabeth Aldred",
+      "office": "Director, Department of Health and Human Services",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7212",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/yrknwjoa/liz-headshot-2024.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "514 Riverview Avenue, Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:director,-department-of-parks-&-land-use:dale-r.-shaver",
+      "name": "Dale R. Shaver",
+      "office": "Director, Department of Parks & Land Use",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-896-8300",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/mw0mbt1k/daleshaver.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:director,-public-works:allison-bussler",
+      "name": "Allison Bussler",
+      "office": "Director, Public Works",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7740",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/kwckeayr/bussler-2019.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W Moreland Blvd. Room AC220 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:district-attorney:lesli-s.-boese",
+      "name": "Lesli S. Boese",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7076",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/rdwjdedu/leslieboese.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:emergency-preparedness-director:gail-goodchild",
+      "name": "Gail Goodchild",
+      "office": "Emergency Preparedness Director",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7122",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/pnhpjkku/goodchild-photo.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1621 Woodburn Rd Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:extension-area-director:jerry-braatz",
+      "name": "Jerry Braatz",
+      "office": "Extension Area Director",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7770",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/tuvfmi1x/extension-department-photo-1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room ACG22 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:interim-waukesha-county-executive:tom-farley",
+      "name": "Tom Farley",
+      "office": "Interim Waukesha County Executive",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7902",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/1objp4wp/farley-headshot.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room 320 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:medical-examiner:lynda-biedrzycki,-md",
+      "name": "Lynda Biedrzycki, MD",
+      "office": "Medical Examiner",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7575",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:register-of-deeds:james-r.-behrend",
+      "name": "James R. Behrend",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7583",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/5uinzexc/jamesrbehrend.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room AC-110 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:waukesha-county-clerk:georgia-maxwell",
+      "name": "Georgia Maxwell",
+      "office": "Waukesha County Clerk",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7010",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/wp3ntrtd/georgia-maxwell.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room 120 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:waukesha-county-sheriff:eric-j.-severson",
+      "name": "Eric J. Severson",
+      "office": "Waukesha County Sheriff",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7122",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/n1ch2iu0/sheriffseversonprofile.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha-county:waukesha-county-treasurer:jennifer-grant",
+      "name": "Jennifer Grant",
+      "office": "Waukesha County Treasurer",
+      "level": "county",
+      "body": "Waukesha County Commissioners Court",
+      "district": null,
+      "phone": "262-548-7029",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.waukeshacounty.gov/media/et1jbwi4/jg-prof-photo-1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "515 W. Moreland Blvd. Room AC-148 Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

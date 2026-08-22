@@ -1,10 +1,12 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 34,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 48,
   "cities": [
     "Anoka County",
     "Minneapolis",
+    "Ramsey County",
+    "St. Louis County",
     "St. Paul",
     "Washington County"
   ],
@@ -658,6 +660,460 @@
       },
       "source_url": "https://www.minneapolismn.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner,-chair:rafael-e.-ortega",
+      "name": "Rafael E. Ortega",
+      "office": "Board of Commissioner, Chair",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 5",
+      "phone": "651-266-8361",
+      "email": "rafael.ortega@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/rafael-ortega-district-5",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2025-08/Rafael-Ortega-200x250.jpg?v=1755792271",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15 West Kellogg Boulevard, Room 220, Saint Paul, MN 55102",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Rafael E. Ortega is a progressive champion for Ramsey County, working to protect vulnerable residents, build a better transportation network, and redevelop brown fields to create jobs, housing, and increase the tax base. He grew up in poverty in New York City, received his B.A. at Fordham University, and later served as CEO of CLUES, growing the social service agency significantly. Ortega became the first person of color elected to the Ramsey County Board in 1994 and currently serves as Chair.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner,-vice-chair:mai-chong-xiong",
+      "name": "Mai Chong Xiong",
+      "office": "Board of Commissioner, Vice Chair",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 6",
+      "phone": "651-266-8365",
+      "email": "commissioner.xiong@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/mai-chong-xiong-district-6-board-vice-chair",
+      "photo_url": "https://assets.ramseycountymn.gov/files/migrated-files/Mai-Chong-Xiong-200x250.jpg?v=1753925257",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Courthouse Room 220\n15 West Kellogg Boulevard\nSaint Paul, MN 55102",
+      "offices": [],
+      "hours": "Commissioner Xiong hosts monthly and weekly office hours. Register for office hours.",
+      "bio": "Mai Chong Xiong was elected in 2023, becoming the first Asian, first Hmong American, and youngest to serve. She is a public servant, community organizer, working mother of two young children, caregiver to elderly parents, and wife to Dan Yang. She was born and raised in Saint Paul, which her family and extended families have called home the last 35 years.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner:garrison-mcmurtrey",
+      "name": "Garrison McMurtrey",
+      "office": "Board of Commissioner",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 3",
+      "phone": "651-266-8378",
+      "email": "garrison.mcmurtrey@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/garrison-mcmurtrey-district-3",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2025-08/Garrison-McMurtrey-200x250.jpg?v=1755791663",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Courthouse Room 220 15 West Kellogg Boulevard Saint Paul, MN 55102",
+      "offices": [],
+      "hours": null,
+      "bio": "Garrison McMurtrey is the first Black man elected to a county board in the state of Minnesota. Originally from Mississippi, McMurtrey moved to Minnesota to pursue a career in public policy and community engagement. Prior to being elected, McMurtrey served as the district director for the office of U.S. Congresswoman Angie Craig.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner:kelly-miller",
+      "name": "Kelly Miller",
+      "office": "Board of Commissioner",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 7",
+      "phone": "651-266-8363",
+      "email": "kmiller@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/kelly-miller-district-7",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2025-08/Kelly-Miller-200x250.jpg?v=1755791910",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Ramsey County Board Office",
+          "city": "Saint Paul",
+          "address": "Courthouse Room 220\n15 West Kellogg Boulevard\nSaint Paul, MN 55102",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Kelly Miller is the first Native American elected to the Ramsey County Board of Commissioners and is a proud member of the Mille Lacs Band of Ojibwe. Born and raised in the Mille Lacs area, Miller has dedicated her career to public service and community advocacy. Miller resides in Maplewood with her fiancée and two children.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner:mary-jo-mcguire",
+      "name": "Mary Jo McGuire",
+      "office": "Board of Commissioner",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 2",
+      "phone": "651-266-8356",
+      "email": "commissioner.mcguire@ramseycounty.us",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/mary-jo-mcguire-district-2",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2026-02/Mary-Jo-McGuire-2026-200x250_0.jpg?v=1770245669",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Ramsey County Board Office Courthouse Room 220 15 W. Kellogg Blvd. Saint Paul, MN 55102",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Mary Jo McGuire has served on the Ramsey County Board since 2012 and holds the roles of chair of the Legislative Committee and vice chair of the Budget and Audit Committee. A lifelong Ramsey County resident now residing in Roseville, she brings a deep connection to the community she represents and a strong commitment to advancing the well‑being of her residents.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner:rena-moran",
+      "name": "Rena Moran",
+      "office": "Board of Commissioner",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 4",
+      "phone": "651-266-8364",
+      "email": "commissioner.moran@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/rena-moran-district-4",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2025-08/Rena-Moran-200x250.jpg?v=1755792958",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "county board",
+          "name": "Ramsey County Board Office",
+          "city": "Saint Paul",
+          "address": "Courthouse Room 220 15 West Kellogg Boulevard Saint Paul, MN 55102",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Rena Moran is the Ramsey County Commissioner of District 4, serving a large section of Saint Paul, including parts of Union Park, Hamline-Midway, Frogtown, Summit-University, North End, Downtown, Summit Hill, Macalester-Groveland and Highland Park. She is a former member of the Minnesota House of Representatives and the first African American to represent Saint Paul. She served six terms before retiring to run for Ramsey County Commissioner in 2022.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:ramsey-county:board-of-commissioner:tara-jebens-singh",
+      "name": "Tara Jebens-Singh",
+      "office": "Board of Commissioner",
+      "level": "county",
+      "body": "Ramsey County Commissioners Court",
+      "district": "District 1",
+      "phone": "651-266-8362",
+      "email": "commissioner.jebens-singh@ramseycountymn.gov",
+      "url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners/tara-jebens-singh-district-1",
+      "photo_url": "https://assets.ramseycountymn.gov/files/2025-08/Tara%20Jebens-Singh%20200x250.jpg?v=1755793433",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Courthouse Room 220 15 W. Kellogg Blvd. Saint Paul, MN 55102",
+      "offices": [],
+      "hours": null,
+      "bio": "Tara Jebens-Singh has worked in public policy, wellness, education, equity, older adult and mental health programs for more than 25 years. She holds a master’s degree in planning from the Humphrey Institute of Public Affairs and a masters' in human development from Fielding Graduate University.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ramsey County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner---chair:mike-jugovich",
+      "name": "Mike Jugovich",
+      "office": "Commissioner - Chair",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "7th District",
+      "phone": "218-312-8201",
+      "email": "jugovichm@stlouiscountymn.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Mike%20Jugovich.jpg?ver=ShheydbjsioyRPlcRQmEPg%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Hibbing Courthouse 1810 12th Ave E Hibbing, MN 55746",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner---vice-chair:keith-musolf",
+      "name": "Keith Musolf",
+      "office": "Commissioner - Vice Chair",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "5th District",
+      "phone": "218-726-2450",
+      "email": "MusolfK@StLouisCountyMN.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Keith%20Musolf.jpg?ver=2019-09-06-103511-750",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N 5th Ave W Room 202 Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner:annie-harala",
+      "name": "Annie Harala",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "1st District",
+      "phone": "218-726-2450",
+      "email": "haralaa@stlouiscountymn.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Annie%20Harala.jpg?ver=TDLtSJHcnK98xE8lb_7hog%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N 5th Ave W Room 202 Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner:ashley-grimm",
+      "name": "Ashley Grimm",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "3rd District",
+      "phone": "218-726-2562",
+      "email": "grimma@stlouiscountymn.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Ashley%20Grimm.jpg?ver=hjRlLkPa2TxwROHTcHJF5g%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N 5th Ave W Room 202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner:keith-nelson",
+      "name": "Keith Nelson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "6th District",
+      "phone": "218-471-7108",
+      "email": "nelsonk@stlouiscountymn.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/e-graphics/images/commisioners/Keith-Nelson2017.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Virginia Courthouse 300 S 5th Ave Virginia, MN 55792",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner:patrick-boyle",
+      "name": "Patrick Boyle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "2nd District",
+      "phone": "218-726-2359",
+      "email": "boylep@stlouiscountymn.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Patrick%20Boyle.jpg?ver=BFTqJYuBAW2Ew37GhCfb2g%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N 5th Ave W Room 202 Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-louis-county:commissioner:paul-mcdonald",
+      "name": "Paul McDonald",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "St. Louis County Commissioners Court",
+      "district": "4th District",
+      "phone": "218-365-8200",
+      "email": "McDonaldP@StLouisCountyMN.gov",
+      "url": null,
+      "photo_url": "https://www.stlouiscountymn.gov/portals/0/Library/Dept/Board%20of%20Commissioners/images/Paul%20McDonald.jpg?ver=nAlCijeBYyt20rUDYIkfIA%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "St. Louis County Service Center 320 Miners Drive E Ely, MN 55731",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis County",
+        "state": "MN"
+      },
+      "source_url": "https://www.stlouiscountymn.gov/our-county/board-of-commissioners/current-commissioners",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {

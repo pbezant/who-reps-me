@@ -1,0 +1,41 @@
+{
+  "state": "RI",
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 1,
+  "cities": [
+    "Providence"
+  ],
+  "officials": [
+    {
+      "id": "ri:providence:mayor:brett-p.-smiley",
+      "name": "Brett P. Smiley",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Providence City Council",
+      "district": null,
+      "phone": "401-421-2489",
+      "email": null,
+      "url": "https://www.providenceri.gov/mayor/mayor-brett-smiley/",
+      "photo_url": "https://www.providenceri.gov/wp-content/uploads/2022/02/mayor-smiley.jpg",
+      "social": {
+        "twitter": "https://twitter.com/PVDMayor",
+        "facebook": "https://www.facebook.com/MayorBrettSmiley",
+        "instagram": "https://www.instagram.com/pvdmayor/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25 Dorrance Street, Providence RI 02903",
+      "offices": [],
+      "hours": null,
+      "bio": "As the 39th Mayor of the City of Providence, Brett Smiley has prioritized improvements to the local quality-of-life issues that matter most to the Providence community. Since taking office, he has made strategic investments in public safety, housing, education and climate resiliency and is working to make City Hall a center for accessible, high-quality services. By bringing together the brightest minds in Rhode Island and focusing on the issues that have a tangible impact on residents and businesses in every neighborhood, Mayor Smiley is putting Providence on a path to becoming the best-run city in America.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Providence",
+        "state": "RI"
+      },
+      "source_url": "https://www.providenceri.gov/mayor/mayor-brett-smiley/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    }
+  ]
+}

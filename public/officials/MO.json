@@ -1,10 +1,12 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 20,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 38,
   "cities": [
     "Greene County",
-    "St. Charles County"
+    "Jefferson County",
+    "St. Charles County",
+    "St. Louis"
   ],
   "officials": [
     {
@@ -411,6 +413,223 @@
       "confidence": 1
     },
     {
+      "id": "mo:jefferson-county:county-council-member:billy-crow-jr.",
+      "name": "Billy Crow Jr.",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:bob-tullock",
+      "name": "Bob Tullock",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 7",
+      "phone": "636-535-3593",
+      "email": "btullock@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/417/District-7---Bob-Tullock",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=15625",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Bob Tullock was first elected to represent the residents of District 7 in 2023. He is a Conservative Republican who believes that elected officials are there to serve as your elected representative. Bob is a retired business owner and a licensed pilot.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:brian-haskins",
+      "name": "Brian Haskins",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 1",
+      "phone": "636-535-7110",
+      "email": "bhaskins@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/401/District-1---Brian-Haskins",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=15681",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Haskins, a 1974 graduate of Northwest R-1, was elected to a four-year term to the Jefferson County Council in November 2018. He has served on the Northwest R-1 School Board and High Ridge Fire Protection District, and is currently President of the Jefferson County Parks Foundation. Mr. Haskins owns and operates a family business in High Ridge, where he resides with his wife Becky, with whom he has 4 children and 13 grandchildren.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:charles-groeteke",
+      "name": "Charles Groeteke",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 4",
+      "phone": "636-535-3352",
+      "email": "cgroeteke@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/406/District-4---Charles-Groeteke",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=20834",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Charles is the senior member of the Council, serving in his fourth term on your County Council. He returned to office in January of 2017, marking his 12th year of service to the citizens of District 4 by 2026. He resides in Barnhart with his wife, Sharon.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:lori-arons",
+      "name": "Lori Arons",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 3",
+      "phone": "636-535-8836",
+      "email": "larons@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/405/District-3---Lori%20Arons",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=20833",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Lori Arons was appointed to fill the vacancy in District #3 on January 29th, 2024, when Shannon Otto resigned. She has been a resident of Jefferson County since 2001 and retired from teaching in 2020 after over 30 years. Prior to her appointment, Lori was actively involved with county government and founded a non-partisan Facebook group focused on responsible development.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:tim-bennett-jr.",
+      "name": "Tim Bennett Jr.",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 5",
+      "phone": "636-232-5965",
+      "email": "tbennett@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/408/District-5---Tim-Bennett",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=21384",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Biography Coming Soon",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:jefferson-county:county-council-member:tim-brown",
+      "name": "Tim Brown",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 6",
+      "phone": "636-725-4105",
+      "email": "tbrown@jeffcomo.org",
+      "url": "https://www.jeffcomo.gov/416/District-6---Tim-Brown",
+      "photo_url": "https://www.jeffcomo.gov/ImageRepository/Document?documentId=20832",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "MO"
+      },
+      "source_url": "https://www.jeffcomo.gov/399/County-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "mo:st.-charles-county:county-council-member:dave-hammond",
       "name": "Dave Hammond",
       "office": "County Council Member",
@@ -625,6 +844,347 @@
       },
       "source_url": "https://www.sccmo.org/27/GovernmentDepartments",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:chair/organization-dedicated-to-residential-home-development-and-construction:derrick-thomas",
+      "name": "Derrick Thomas",
+      "office": "Chair/Organization dedicated to residential home development and construction",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/Derrick-Thomas.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/image_425977_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Thomas has experience in real estate development (custom homes, town homes, and condos), general contracting, property management, architectural design, and real estate consulting. He currently serves on the Home Builders Association board of trustees and steering committee of 50+ housing Council.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner-at-large:john-wuest",
+      "name": "John Wuest",
+      "office": "Commissioner At Large",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/john-wuest.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/John-Wuest_650371_3.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Wuest has served as President and CEO of the St. Louis Equity Fund from 2005 through 2015, and as Vice Chair from 2016 through 2017. Prior to joining the Equity Fund, he served as President and CEO of Heartland Bank and Executive Vice President and COO of Love Development and Real Estate Company. He began his banking career with Mercantile Bank (now U.S. Bank) rising to Executive Vice President-Commercial Lending.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner:marc-hirshman",
+      "name": "Marc Hirshman",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/marc-hirshman.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/marchirshman_687154_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Hirshman received his Bachelor of Arts degree in economics and finance from the University of Illinois and both his J.D. and LL.M. in Taxation with academic honors from Chicago-Kent College of Law. He is Co-Founder and President of Twain Financial Partners, an investment management firm located in St. Louis, MO with over $4B in assets under management within the public-private partnership sector.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/at-large-member:deanetta-james",
+      "name": "Deanetta James",
+      "office": "Commissioner/At Large member",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/deanetta-james.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/8-Only-the-Lady_613701_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner James has experience working with low/moderated income families. She has served as President of Community Renewal and Development, Inc., and on several Boards, including Macler Shepard Senior Apartment Association, Urban League of Metropolitan St. Louis.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/at-large-member:gail-brown",
+      "name": "Gail Brown",
+      "office": "Commissioner/At Large member",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/Gail-Brown.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/images/Gail-2010-2_312677_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Gail Brown holds a Bachelor’s Degree in Economics and Business and a Masters Degree in Business Administration. She is the president of Brown-Kortkamp Realty and Urban Planning and Development Corporation (UPDC), and serves as an appointed commissioner for the St. Louis City Affordable Housing Commission and Tax Increment Financing Commission.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/at-large-member:jamie-boyer",
+      "name": "Jamie Boyer",
+      "office": "Commissioner/At Large member",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/jamie-boyer.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/BoyerJ_bio-1_614576_2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/disabled-persons-representative:steven-foelsch",
+      "name": "Steven Foelsch",
+      "office": "Commissioner/Disabled Persons Representative",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/steven-foelsch.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/Steven-Foelsch-300px.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/healthcare-representative:lenny-jones",
+      "name": "Lenny Jones",
+      "office": "Commissioner/Healthcare Representative",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/lenny-jones.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/lenny-jones_1.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Jones is the Vice President and Missouri State Director of SEIU Healthcare IL/IN/MO/KS; the union represents over 70,000 healthcare and childcare providers in four states.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/tenant-in-subsidized-or-rent-assisted-housing:paula-foster",
+      "name": "Paula Foster",
+      "office": "Commissioner/Tenant in Subsidized or Rent Assisted Housing",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/Foster.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/paula-foster_198328_2.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "The ordinance that created the Commission requires that one member living in subsidized housing be appointed to represent tenant interests. As a public housing resident, and as President of the Blumeyer Association, Commissioner foster brings to the Commission problem solving and organizational procedures experience.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:commissioner/union-representative:james-clifford",
+      "name": "James Clifford",
+      "office": "Commissioner/Union Representative",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": null,
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/James-Clifford.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/clifford-3_349418_2.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:st.-louis:executive-director,-affordable-housing-commission:april-ford-griffin",
+      "name": "April Ford Griffin",
+      "office": "Executive Director, Affordable Housing Commission",
+      "level": "local",
+      "body": "St. Louis City Council",
+      "district": null,
+      "phone": "314-657-3880",
+      "email": "GriffinA@stlouis-mo.gov",
+      "url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/April-Ford-Griffin.cfm",
+      "photo_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/profiles/images/csthumbnail_large/april-ford-griffin-portrait-300px.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1520 Market Street, Suite 2080 Saint Louis, Missouri 63103",
+      "offices": [],
+      "hours": null,
+      "bio": "April Ford Griffin has forged a distinguished professional career focused on improving the lives of children, families, senior citizens, and addressing blighted neighborhoods. Appointed Executive Director of the Affordable Housing Commission (AHC) in 2013, she supervises the implementation of loan, grant, and other AHC-approved programs, coordinating efforts with city and private agencies.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "St. Louis",
+        "state": "MO"
+      },
+      "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

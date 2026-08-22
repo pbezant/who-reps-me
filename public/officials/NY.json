@@ -1,15 +1,299 @@
 {
   "state": "NY",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 28,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 60,
   "cities": [
+    "Buffalo",
     "Erie County",
     "Monroe County",
     "Nassau County",
+    "Rochester",
+    "Saratoga County",
     "Suffolk County",
-    "Westchester County"
+    "Ulster County",
+    "Westchester County",
+    "Yonkers"
   ],
   "officials": [
+    {
+      "id": "ny:buffalo:common-council-member:bryan-bollman",
+      "name": "Bryan Bollman",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": "716-851-5151",
+      "email": "bbollman@buffalony.gov",
+      "url": "https://www.buffalony.gov/1147/Bryan-Bollman",
+      "photo_url": "https://www.buffalony.gov/ImageRepository/Document?documentID=12891",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/BFLOCCLOV2",
+        "instagram": "https://www.instagram.com/buffalolovejoydistrict",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": "Bryan J. Bollman, a NYS Licensed Broker Associate, passionately represents his native Lovejoy District, focusing on youth well-being, job creation, and community beautification. He has secured significant funding for a mobile health clinic and Main Street Grants, demonstrating his commitment to economic development and neighborhood improvement. A University at Buffalo graduate, his work encompasses grassroots engagement, legislation, and budget planning.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:christopher-p.-scanlon",
+      "name": "Christopher P. Scanlon",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": "716-851-5169",
+      "email": "cscanlon@buffalony.gov",
+      "url": "https://www.buffalony.gov/1139/Christopher-P-Scanlon",
+      "photo_url": "https://www.buffalony.gov/ImageRepository/Document?documentID=12898",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": "Christopher P. Scanlon was elected Buffalo Common Council President on January 2nd, 2024, by his Council colleagues. As Council President, he is committed to working collaboratively with all his partners in government to deliver needed resources and services to the residents of all nine council districts, and to passing legislation that supports and strengthens public safety and economic opportunity, with an emphasis on equity and inclusion.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:david-a.-rivera",
+      "name": "David A. Rivera",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:joel-p.-feroleto",
+      "name": "Joel P. Feroleto",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:joseph-golombek,-jr.",
+      "name": "Joseph Golombek, Jr.",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:leah-m.-halton-pope",
+      "name": "Leah M. Halton-Pope",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": "lhalton-pope@buffalony.gov",
+      "url": "https://www.buffalony.gov/1680/Leah-M-Halton-Pope",
+      "photo_url": "https://www.buffalony.gov/ImageRepository/Document?documentID=12895",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": "With an extensive background in government relations at various levels and a deep-rooted commitment to public service, Halton-Pope assumed the roles of Councilwoman for the Ellicott District and Majority Leader for the Buffalo Common Council in January 2024. Her appointment marks a new chapter for the district, one characterized by inclusivity, progress, and unwavering dedication to the community.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:mitch-nowakowski",
+      "name": "Mitch Nowakowski",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:rasheed-n.c.-wyatt",
+      "name": "Rasheed N.C. Wyatt",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:buffalo:common-council-member:zeneta-b.-everhart",
+      "name": "Zeneta B. Everhart",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Buffalo City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "65 Niagara Square, Buffalo, NY 14202",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Buffalo",
+        "state": "NY"
+      },
+      "source_url": "https://www.buffalony.gov/155/Government",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "ny:erie-county:comptroller:dr.-kevin-r.-hardwick",
       "name": "Dr. Kevin R. Hardwick",
@@ -786,6 +1070,68 @@
       "confidence": 1
     },
     {
+      "id": "ny:rochester:mayor:malik-d.-evans",
+      "name": "Malik D. Evans",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rochester City Council",
+      "district": null,
+      "phone": "585-428-7045",
+      "email": "mayor@cityofrochester.gov",
+      "url": "https://www.cityofrochester.gov/departments/mayors-office/malik-evans-mayor",
+      "photo_url": "https://www.cityofrochester.gov/sites/default/files/styles/provus_portrait_banner/public/2024-05/Mayor_Evans_Portrait_General_Use%20%281%29.jpg?h=e5a0bf3a&itok=2mZVqb0g",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Malik D. Evans is the City of Rochester’s 71st Mayor. He is committed to creating a safe, equitable and prosperous Rochester by inspiring hope and delivering opportunity for everyone. Inaugurated on Jan. 1, 2022, Mayor Evans has governed with a commitment to transparency and collaboration, concisely captured by his working mantra “It’s we, not me.”",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Rochester",
+        "state": "NY"
+      },
+      "source_url": "https://www.cityofrochester.gov/departments/mayors-office",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:saratoga-county:chairman-of-the-board-of-supervisors:phil-barrett",
+      "name": "Phil Barrett",
+      "office": "Chairman of the Board of Supervisors",
+      "level": "county",
+      "body": "Saratoga County Commissioners Court",
+      "district": "Clifton Park",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.saratogacountyny.gov/wp/wp-content/uploads/2024/03/ChairmanBarrett2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 McMaster Street, Ballston Spa, NY 12020",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Saratoga County",
+        "state": "NY"
+      },
+      "source_url": "https://www.saratogacountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
       "id": "ny:suffolk-county:county-executive:edward-p.-romaine",
       "name": "Edward P. Romaine",
       "office": "County Executive",
@@ -814,6 +1160,440 @@
       },
       "source_url": "https://www.suffolkcountyny.gov/#",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:chair:peter-criswell",
+      "name": "Peter Criswell",
+      "office": "Chair",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:clerk:victoria-a.-fabella",
+      "name": "Victoria A. Fabella",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "vfab@ulstercountyny.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:deputy-majority-leader:aaron-levine",
+      "name": "Aaron Levine",
+      "office": "Deputy Majority Leader",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:deputy-minority-leader:craig-lopez",
+      "name": "Craig Lopez",
+      "office": "Deputy Minority Leader",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:amy-dooley",
+      "name": "Amy Dooley",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Amy.Dooley@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/amy-dooley/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Dooley-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "Amy Dooley represents District No. 9, which includes the Town of Esopus and the Town of Lloyd.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:ann-peters",
+      "name": "Ann Peters",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Ann.Peters@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/ann-peters/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Peters-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:dominick-marino",
+      "name": "Dominick Marino",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Dom.Marino@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/dominick-marino/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Marino-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "Dominick Marino serves as the Ulster County Legislator for District 10, representing Highland and Marlborough. A dedicated advocate for mental health, housing stability, and community well-being, Dominick brings years of professional and lived experience to his role in county government.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:laura-donovan",
+      "name": "Laura Donovan",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Laura.Donovan@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/laura-donovan/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Donovan-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "Laura Donovan represents District 11 in the Ulster County Legislature, serving the communities of Milton and Marlboro. A lifelong advocate for families and community well-being, she brings a decade of experience in financial planning, small-business engagement, and nonprofit leadership to her role in county government.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:lindsey-grossman",
+      "name": "Lindsey Grossman",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Lindsey.Grossman@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/lindsey-grossman/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Grossman-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "Lindsey Grossman, a leader in technology, small business growth, and public health, serves as the Ulster County Legislator representing District 19 (Town of Rosendale and Town of Marbletown). As Legislator, Lindsey works to advance affordable housing, economic development, and environmental protection. She brings global and local leadership experience across public and private sectors and serves her community with empathy, energy, and expertise.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:michael-berardi",
+      "name": "Michael Berardi",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "Mike.Berardi@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/michael-berardi/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/Berardi-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "Beginning his third term as an Ulster County Legislator, Michael Berardi has broad governmental experience, including four years on the Ulster Town Board and as Chairperson of The Ulster County Industrial Development Agency. With a lifetime of experience in the Energy sector, he is currently employed by HOP Energy KOSCO Heritagenergy Kingston. He is married with two children and four grandchildren, and has served the community as a Rhinebeck Rotarian and on the Board of Anderson School.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:legislator:william-murray",
+      "name": "William Murray",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": "William.Murray@ulstercountyny.gov",
+      "url": "https://legislature.ulstercountyny.gov/legislator/william-murray/",
+      "photo_url": "https://legislature.ulstercountyny.gov/wp-content/uploads/2026/01/W.-Murray-2026.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": "William Murray is a twice-elected New Paltz Village Trustee and dedicated interior volunteer firefighter, honored twice as Firefighter of the Year. He has served nine years on the Ulster County Planning Board and acted as the Village Board liaison for several committees, including the New Paltz Planning Board, Bicycle Pedestrian Committee and Historic Preservation Commission.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:majority-leader:abe-uchitelle",
+      "name": "Abe Uchitelle",
+      "office": "Majority Leader",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:minority-leader:kevin-roberts",
+      "name": "Kevin Roberts",
+      "office": "Minority Leader",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:ulster-county:vice-chair:megan-sperry",
+      "name": "Megan Sperry",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Ulster County Commissioners Court",
+      "district": null,
+      "phone": "845-340-3900",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6th Floor, 244 Fair Street, Kingston, NY 12401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ulster County",
+        "state": "NY"
+      },
+      "source_url": "https://legislature.ulstercountyny.gov/",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     },
     {
@@ -876,6 +1656,223 @@
       },
       "source_url": "https://www.westchestergov.com/contact-us/elected-officials",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:council-member:corazon-pineda-isaac",
+      "name": "Corazon Pineda-Isaac",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:council-member:tasha-diaz",
+      "name": "Tasha Diaz",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:council-member:tim-hodges",
+      "name": "Tim Hodges",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:council-president:lakisha-collins-bellamy",
+      "name": "Lakisha Collins-Bellamy",
+      "office": "Council President",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:majority-leader:john-rubbo",
+      "name": "John Rubbo",
+      "office": "Majority Leader",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:majority-whip:deana-r.-norman",
+      "name": "Deana R. Norman",
+      "office": "Majority Whip",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:yonkers:minority-leader:mike-breen",
+      "name": "Mike Breen",
+      "office": "Minority Leader",
+      "level": "local",
+      "body": "Yonkers City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Yonkers City Hall 40 South Broadway Yonkers, NY 10701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yonkers",
+        "state": "NY"
+      },
+      "source_url": "https://www.yonkersny.gov/656/City-Council",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
     }
   ]

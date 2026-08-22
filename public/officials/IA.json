@@ -1,11 +1,260 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 10,
+  "generated_at": "2026-08-22T03:16:48.468Z",
+  "count": 18,
   "cities": [
+    "Linn County",
     "Polk County"
   ],
   "officials": [
+    {
+      "id": "ia:linn-county:attorney:nick-maybanks",
+      "name": "Nick Maybanks",
+      "office": "Attorney",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:auditor:todd-taylor",
+      "name": "Todd Taylor",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:recorder:carolyn-siebrecht",
+      "name": "Carolyn Siebrecht",
+      "office": "Recorder",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:sheriff:brian-gardner",
+      "name": "Brian Gardner",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:supervisor:brandy-z.-meisheid",
+      "name": "Brandy Z. Meisheid",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:supervisor:kirsten-running-marquardt",
+      "name": "Kirsten Running-Marquardt",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:supervisor:sami-scheetz",
+      "name": "Sami Scheetz",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:linn-county:treasurer:brent-c.-oleson",
+      "name": "Brent C. Oleson",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "IA"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
     {
       "id": "ia:polk-county:county-attorney:kimberly-graham",
       "name": "Kimberly Graham",
