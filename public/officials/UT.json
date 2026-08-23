@@ -1,12 +1,231 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 16,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 29,
   "cities": [
+    "Cache County",
     "Salt Lake County",
-    "Utah County"
+    "Utah County",
+    "West Valley City"
   ],
   "officials": [
+    {
+      "id": "ut:cache-county:county-council-member:david-erickson",
+      "name": "David Erickson",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "North District",
+      "phone": "435-770-0283",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-david-erickson.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/david1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:joann-bennett",
+      "name": "JoAnn Bennett",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "Logan Seat #2",
+      "phone": "801-825-9866",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/joann1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:kathryn-beus",
+      "name": "Kathryn Beus",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "Southeast District",
+      "phone": "435-512-5680",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-kathryn-beus.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/kathryn1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:keegan-garrity",
+      "name": "Keegan Garrity",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "Logan Seat #1",
+      "phone": "435-512-7905",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-keegan-garrity.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/keegan1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:mark-hurd",
+      "name": "Mark Hurd",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "Northeast District",
+      "phone": "435-890-9956",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-mark-hurd.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/mark1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:nolan-p.-gunnell",
+      "name": "Nolan P. Gunnell",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "South District",
+      "phone": "435-760-2902",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-nolan-gunnell.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/nolan1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:cache-county:county-council-member:sandi-goodlander",
+      "name": "Sandi Goodlander",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Cache County Commissioners Court",
+      "district": "Logan Seat #3",
+      "phone": "435-994-2305",
+      "email": null,
+      "url": "https://www.cachecounty.gov/countycouncil/countycouncil/contact/contact-sandi-goodlander.html",
+      "photo_url": "https://www.cachecounty.gov/countycouncil/assets/department/countycouncil/councilImages/2027/sandi2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "179 N Main & 199 N Main Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cache County",
+        "state": "UT"
+      },
+      "source_url": "https://www.cachecounty.gov/countycouncil/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
     {
       "id": "ut:salt-lake-county:chief-of-staff:andrew-roberts",
       "name": "Andrew Roberts",
@@ -501,6 +720,192 @@
       },
       "source_url": "https://www.utahcounty.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:council-member:cindy-wood",
+      "name": "Cindy Wood",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-232-0870",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/104/Cindy-Wood",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=21261",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "Cindy Wood was elected to serve the residents of District 4 in November 2025, having previously filled a vacancy in January 2025. She holds a Bachelor of Science Degree in Accounting from the University of Utah and is a licensed Certified Public Accountant with over 20 years of experience. Cindy and her husband have lived in West Valley City for 40 years and have three children and three grandchildren.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:council-member:don-christensen",
+      "name": "Don Christensen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-963-3371",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/99/Don-Christensen",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=17215",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "Don Christensen was elected to serve the citizens of West Valley City in November 2015 and took office January 5, 2016, continuing a lifetime of community service. This is his second time serving on the West Valley City Council. He has a background in education, earning a Master's Degree from the University of Utah and a Doctorate from Brigham Young University, and has served on the Utah State Board of Education.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:council-member:lars-nordfelt",
+      "name": "Lars Nordfelt",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-955-3696",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/100/Lars-Nordfelt",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=17220",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "Lars Nordfelt is a City Councilmember At-Large who attended Farnsworth Elementary, Kennedy Junior High, and Granger High School. He holds a bachelor's degree in Mathematics Teaching from Weber State University and a master's degree in Mathematics from Brigham Young University, and has taught math for 17 years. He is married to Jana Roundy Nordfelt and they have five children.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:council-member:scott-harmon",
+      "name": "Scott Harmon",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-963-3373",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/102/Scott-Harmon",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=17217",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "Scott is a lifelong citizen of West Valley City. He graduated from Granger High, earned degrees from BYU-Idaho and Western Governor's University, and works as a real estate broker and program manager for Utah Housing Corporation. He and his wife, Jane, have five children.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:council-member:william-whetstone",
+      "name": "William Whetstone",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-955-3603",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/103/William-Whetstone",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=17221",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "William Whetstone was elected to City Council in January 2022 to serve as councilmember of District 3. Previously, Will served on the West Valley Board of Adjustments from 2013 to 2021. He and his wife Debbie have lived in West Valley City for 30 years and have raised their four daughters there.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:west-valley-city:mayor:tom-huynh",
+      "name": "Tom Huynh",
+      "office": "Mayor",
+      "level": "local",
+      "body": "West Valley City City Council",
+      "district": null,
+      "phone": "801-963-3374",
+      "email": null,
+      "url": "https://www.wvc-ut.gov/101/Tom-Huynh",
+      "photo_url": "https://www.wvc-ut.gov/ImageRepository/Document?documentId=17218",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 South Constitution Boulevard West Valley City, UT 84119",
+      "offices": [],
+      "hours": null,
+      "bio": "My experience living in a refugee camp in the Philippines after fleeing a communist country shaped the person I am today. Those challenging years taught me resilience, compassion, and the importance of standing up for others. They inspired me to become a dedicated advocate for our residents and to work tirelessly on the issues that matter most to them.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "West Valley City",
+        "state": "UT"
+      },
+      "source_url": "https://www.wvc-ut.gov/15/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

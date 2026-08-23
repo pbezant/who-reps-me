@@ -1,15 +1,19 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 137,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 158,
   "cities": [
     "Alachua County",
     "Bay County",
+    "Coral Springs",
+    "Flagler County",
     "Fort Lauderdale",
     "Hialeah",
+    "Hollywood",
     "Lee County",
     "Leon County",
     "Miami",
+    "Miramar",
     "Okaloosa County",
     "Orlando",
     "Osceola County",
@@ -331,6 +335,285 @@
       },
       "source_url": "https://www.baycountyfl.gov/305/County-Commissioners",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:coral-springs:assistant-city-attorney:vanessa-dragutinovic",
+      "name": "Vanessa Dragutinovic",
+      "office": "Assistant City Attorney",
+      "level": "local",
+      "body": "Coral Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": "vdragutinovic@coralsprings.gov",
+      "url": null,
+      "photo_url": "https://www.coralsprings.gov/files/assets/public/v/1/templateimages/images/attorney/vanessa-dragutinovic.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9500 West Sample Road Coral Springs, FL 33065",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coral Springs",
+        "state": "FL"
+      },
+      "source_url": "https://www.coralsprings.gov/Government/City-Attorney",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:coral-springs:city-attorney:john-hearn",
+      "name": "John Hearn",
+      "office": "City Attorney",
+      "level": "local",
+      "body": "Coral Springs City Council",
+      "district": null,
+      "phone": "954-344-5977",
+      "email": "jhearn@coralsprings.gov",
+      "url": null,
+      "photo_url": "https://www.coralsprings.gov/files/assets/public/v/4/templateimages/images/director-headshots/john-hearn.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9500 West Sample Road Coral Springs, FL 33065",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coral Springs",
+        "state": "FL"
+      },
+      "source_url": "https://www.coralsprings.gov/Government/City-Attorney",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:coral-springs:deputy-city-attorney:andrew-b.-dunkiel",
+      "name": "Andrew B. Dunkiel",
+      "office": "Deputy City Attorney",
+      "level": "local",
+      "body": "Coral Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": "adunkiel@coralsprings.gov",
+      "url": null,
+      "photo_url": "https://www.coralsprings.gov/files/assets/public/v/3/templateimages/images/attorney/abd-headshot-web.jpg?w=460&h=460",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9500 West Sample Road Coral Springs, FL 33065",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coral Springs",
+        "state": "FL"
+      },
+      "source_url": "https://www.coralsprings.gov/Government/City-Attorney",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:coral-springs:senior-deputy-city-attorney:sherry-lynn-whitacre",
+      "name": "Sherry Lynn Whitacre",
+      "office": "Senior Deputy City Attorney",
+      "level": "local",
+      "body": "Coral Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": "swhitacre@coralsprings.gov",
+      "url": null,
+      "photo_url": "https://www.coralsprings.gov/files/assets/public/v/2/templateimages/images/attorney/sherry-whitacre-profile.jpg?w=460&h=460",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9500 West Sample Road Coral Springs, FL 33065",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coral Springs",
+        "state": "FL"
+      },
+      "source_url": "https://www.coralsprings.gov/Government/City-Attorney",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:flagler-county:county-commissioner:andy-dance",
+      "name": "Andy Dance",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Flagler County Commissioners Court",
+      "district": null,
+      "phone": "386-313-4001",
+      "email": "adance@flaglercounty.gov",
+      "url": "https://www.flaglercounty.gov/Government/Board-of-County-Commissioners/Andy-Dance",
+      "photo_url": "https://www.flaglercounty.gov/files/assets/county/v/1/boards-and-committees/images/dance_andy.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1769 East Moody Blvd Bunnell, FL 32110",
+      "offices": [],
+      "hours": null,
+      "bio": "Andy Dance represents District 1, which is within Palm Coast and includes the “E” section, “R” section, parts of the “W” section and Town Center. He serves on the following committees: Vice Chair of the Brevard Flagler Volusia Tri-County Consortium, Chair of the Flagler County Tourist Development Council, Vice President & Delegate of the Northeast Florida Regional Council, Volusia Flagler Transportation Planning Organization, School Planning Oversight Committee, Executive Board Member of the Small County Coalition of Florida, Transportation Disadvantaged Local Coordinating Board (Alternate).",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Flagler County",
+        "state": "FL"
+      },
+      "source_url": "https://www.flaglercounty.gov/Government?lang_update=639229568808316518",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:flagler-county:county-commissioner:gregory-hansen",
+      "name": "Gregory Hansen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Flagler County Commissioners Court",
+      "district": null,
+      "phone": "386-313-4001",
+      "email": "ghansen@flaglercounty.gov",
+      "url": "https://www.flaglercounty.gov/Government/Board-of-County-Commissioners/Greg-Hansen",
+      "photo_url": "https://www.flaglercounty.gov/files/assets/county/v/1/boards-and-committees/images/hansen_greg.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1769 East Moody Blvd Bunnell, FL 32110",
+      "offices": [],
+      "hours": null,
+      "bio": "Gregory Hansen represents District 2 in northeast Flagler County – including the Hammock and areas bounded by Interstate 95 and the ocean, and Beverly Beach north to the county line.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Flagler County",
+        "state": "FL"
+      },
+      "source_url": "https://www.flaglercounty.gov/Government?lang_update=639229568808316518",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:flagler-county:county-commissioner:kim-carney",
+      "name": "Kim Carney",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Flagler County Commissioners Court",
+      "district": null,
+      "phone": "386-313-4001",
+      "email": "kcarney@flaglercounty.gov",
+      "url": "https://www.flaglercounty.gov/Government/Board-of-County-Commissioners/Kim-Carney",
+      "photo_url": "https://www.flaglercounty.gov/files/assets/county/v/1/boards-and-committees/images/carney_kim.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1769 East Moody Blvd Bunnell, FL 32110",
+      "offices": [],
+      "hours": null,
+      "bio": "Kim Carney is Vice Chair of the Board of County Commissioners and represents District 3 in east Flagler County – including the municipality of Flagler Beach.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Flagler County",
+        "state": "FL"
+      },
+      "source_url": "https://www.flaglercounty.gov/Government?lang_update=639229568808316518",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:flagler-county:county-commissioner:leann-pennington",
+      "name": "Leann Pennington",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Flagler County Commissioners Court",
+      "district": null,
+      "phone": "386-313-4001",
+      "email": "lpennington@flaglercounty.gov",
+      "url": "https://www.flaglercounty.gov/Government/Board-of-County-Commissioners/Leann-Pennington",
+      "photo_url": "https://www.flaglercounty.gov/files/assets/county/v/1/admin/images/pennington_updated.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1769 East Moody Blvd Bunnell, FL 32110",
+      "offices": [],
+      "hours": null,
+      "bio": "Leann Pennington represents District 4, which includes the City of Bunnell and the areas west of U.S. 1. She is Chair of the County Commission and serves as a designee for the Family County Library Board of Trustees and the Heritage Crossroads Committee.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Flagler County",
+        "state": "FL"
+      },
+      "source_url": "https://www.flaglercounty.gov/Government?lang_update=639229568808316518",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:flagler-county:county-commissioner:pam-richardson",
+      "name": "Pam Richardson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Flagler County Commissioners Court",
+      "district": null,
+      "phone": "386-313-4001",
+      "email": "prichardson@flaglercounty.gov",
+      "url": "https://www.flaglercounty.gov/Government/Board-of-County-Commissioners/Pam-Richardson",
+      "photo_url": "https://www.flaglercounty.gov/files/assets/county/v/1/boards-and-committees/images/richardson_pam_flag.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1769 East Moody Blvd Bunnell, FL 32110",
+      "offices": [],
+      "hours": null,
+      "bio": "Pam Richardson represents District 5, which includes the north area of Palm Coast and largely west of Interstate 95.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Flagler County",
+        "state": "FL"
+      },
+      "source_url": "https://www.flaglercounty.gov/Government?lang_update=639229568808316518",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -744,6 +1027,223 @@
       },
       "source_url": "https://www.hialeahfl.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:adam-gruber",
+      "name": "Adam Gruber",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 4",
+      "phone": "954-921-3321",
+      "email": "agruber@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/136/Adam-Gruber-District-4",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentId=20861",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Adam Gruber moved to Hollywood, Florida with his family from Montreal, Canada in 1978. He graduated from Hollywood Hills High School in 1992 and went on to earn a Bachelor of Arts and a Master of Science degree in Athletic Administration from Lynn University. He was first elected to the Hollywood City Commission in 2020 and has been an active part of the community for many years, dedicating himself to helping those in need through various charitable causes and community organizations.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:caryl-s.-shuham",
+      "name": "Caryl S. Shuham",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 1",
+      "phone": "954-921-3321",
+      "email": "CSHUHAM@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/1074/Caryl-S-Shuham-District-1",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentID=24722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Caryl Shuham was born in Baltimore, Maryland and obtained a Bachelor of Science degree in Civil Engineering from Johns Hopkins University. She went on to obtain her Juris Doctor from the University of Maryland and has worked as an attorney for more than 35 years representing companies engaged in the construction industry. She and her husband, Marty, are partners in the law firm of Shuham & Shuham, P.A. in downtown Hollywood.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:idelma-quintana",
+      "name": "Idelma Quintana",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 6",
+      "phone": "954-921-3321",
+      "email": "iquintana@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/1441/Idelma-Quintana-District-6",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentId=20863",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Idelma Quintana, born in rural Cuba and raised in Chicago, holds degrees from DePaul and Walden Universities. She has a long history of public service, including teaching, administration, and serving as Chief of Staff for Broward County Mayor Beam Furr. As a Hollywood City Commissioner, she focuses on economic development, sustainable prosperity, and community, having been re-elected for a full four-year term.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:kevin-biederman",
+      "name": "Kevin Biederman",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 5",
+      "phone": "954-921-3321",
+      "email": "kbiederman@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/138/Kevin-Biederman-District-5",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentID=20864",
+      "social": {
+        "twitter": "https://twitter.com/hwdbiederman",
+        "facebook": "https://www.facebook.com/commbiederman",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Kevin D. Biederman has been a resident of Hollywood since 1985. He operates a successful Hollywood-based pest control business and previously served as a Commissioner with the Central Broward Water Control District. He is actively involved in the community, serving on various city committees and youth programs.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:peter-d.-hernandez",
+      "name": "Peter D. Hernandez",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 2",
+      "phone": "954-921-3321",
+      "email": "phernandez@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/132/Peter-D-Hernandez-District-2",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentID=10414",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Peter D. Hernandez was born in Havana, Cuba, and migrated to Madrid, Spain, before his family settled in Hollywood, Florida, as political refugees when he was eleven. He attended Apollo Middle School and McArthur High School, later earning his high school diploma and taking business classes at Broward College. As a small business owner, he has served on the Hollywood Commission for eight years and volunteered for several community boards and committees.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:city-commissioner:traci-callari",
+      "name": "Traci Callari",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": "District 3",
+      "phone": "954-921-3321",
+      "email": "tcallari@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/134/Traci-Callari-District-3",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentID=20867",
+      "social": {
+        "twitter": "https://twitter.com/Traci4Hollywood",
+        "facebook": "https://www.facebook.com/TraciforHollywood/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Traci L. Callari has dedicated her career to public service, representing the residents of Hollywood’s District 3 since 2012. A proud resident of Hollywood since 1976, she holds a nursing degree and has a distinguished 20-year career at Memorial Healthcare System. She is also a proven leader in municipal and regional governance, serving on the Executive Board and Nominating Committee of the Florida League of Cities.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:hollywood:mayor:josh-levy",
+      "name": "Josh Levy",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Hollywood City Council",
+      "district": null,
+      "phone": "954-921-3321",
+      "email": "jlevy@hollywoodfl.org",
+      "url": "https://www.hollywoodfl.org/1073/Mayor-Josh-Levy",
+      "photo_url": "https://www.hollywoodfl.org/ImageRepository/Document?documentID=20866",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/josh.levy.526",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2600 Hollywood Boulevard Hollywood, FL 33020-4807",
+      "offices": [],
+      "hours": "Mon – Thurs, 7am – 6pm",
+      "bio": "Mayor Josh Levy is deeply honored to have been re-elected to serve a third and final term as Mayor of the City of Hollywood, the community where he was raised. A proud graduate of Hollywood Hills High School, he earned a B.A. from the University of Florida and a law degree from Nova Southeastern University. His commitment to Hollywood began 26 years ago when he served as a law clerk in the City Attorney’s Office, followed by a twelve-year tenure on the city’s Planning & Zoning Board.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hollywood",
+        "state": "FL"
+      },
+      "source_url": "https://www.hollywoodfl.org/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1533,6 +2033,161 @@
       },
       "source_url": "https://www.miami.gov/Home",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miramar:commissioner:avril-cherasard",
+      "name": "Avril Cherasard",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miramar City Council",
+      "district": null,
+      "phone": "954-602-3889",
+      "email": "acherasard@miramarfl.gov",
+      "url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission/Commissioner-Avril-Cherasard",
+      "photo_url": "https://www.miramarfl.gov/files/assets/public/v/1/city-clerkcommission/images/avril.jpeg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/AvrilKCRealtor/",
+        "instagram": "https://www.instagram.com/avrilformiramar/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2300 Civic Center Place Miramar, Florida 33025",
+      "offices": [],
+      "hours": null,
+      "bio": "Backed by a strong academic foundation and professional experience across public service, real estate, and finance, she brings a well-rounded and solutions-driven approach to leadership, policy development, and community engagement, ensuring meaningful impact throughout the community.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Miramar",
+        "state": "FL"
+      },
+      "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miramar:commissioner:maxwell-b.-chambers",
+      "name": "Maxwell B. Chambers",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miramar City Council",
+      "district": null,
+      "phone": "954-602-3154",
+      "email": "mbchambers@miramarfl.gov",
+      "url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission/Commissioner-Maxwell-B.-Chambers",
+      "photo_url": "https://www.miramarfl.gov/files/assets/public/v/1/city-clerkcommission/images/commissioner-maxwell-b.-chambers.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2300 Civic Center Place Miramar, Florida 33025",
+      "offices": [],
+      "hours": null,
+      "bio": "Maxwell B. Chambers immigrated to the United States from the hills of Clarendon, Jamaica, and has been a resident of the beautiful City of Miramar since 2007. He was first elected to office in 2015 as Commissioner in the City of Miramar, became Vice Mayor in 2016, and was re-elected in March 2017 and 2021, currently serving as Commissioner.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Miramar",
+        "state": "FL"
+      },
+      "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miramar:commissioner:yvette-colbourne",
+      "name": "Yvette Colbourne",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miramar City Council",
+      "district": null,
+      "phone": "954-602-3131",
+      "email": "YColbourne@miramarfl.gov",
+      "url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission/Commissioner-Yvette-Colbourne",
+      "photo_url": "https://www.miramarfl.gov/files/assets/public/v/1/commissioner-colbourne_grey.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2300 Civic Center Place Miramar, Florida 33025",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Colbourne represents District 5 and is currently the Chair. She was awarded the “Complete Streets Champion Award” during the 2023 Safe Streets Summit, for being an exceptional leader and catalyst in advancing Complete Streets in Broward County. Under her leadership as Chair, the Broward MPO adopted its 2050 Metropolitan Transportation Plan (MTP) creating a road map for the future vision of transportation not only in Miramar but also for the entire Broward County region.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Miramar",
+        "state": "FL"
+      },
+      "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miramar:mayor:wayne-m.-messam",
+      "name": "Wayne M. Messam",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Miramar City Council",
+      "district": null,
+      "phone": "954-602-3151",
+      "email": "wmessam@miramarfl.gov",
+      "url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission/Mayor-Wayne-M.-Messam",
+      "photo_url": "https://www.miramarfl.gov/files/assets/public/v/1/city-clerkcommission/images/messam/wayne-messam-aj58.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": "https://twitter.com/waynemessam",
+        "facebook": "https://www.facebook.com/MayorWayneMMessam/",
+        "instagram": "https://www.instagram.com/waynemessam/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/embed/5vIpasuOHdQ"
+      },
+      "address": "2300 Civic Center Place Miramar, Florida 33025",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Wayne M. Messam is a proud first-generation American, born to Jamaican parents and raised in South Bay, Florida. A lifelong athlete and leader, he earned a full athletic scholarship to Florida State University (FSU), where he excelled both academically and athletically. As a wide receiver, he was a member of the 1993 National Championship football team under Coach Bobby Bowden and later played briefly in the NFL with the Cincinnati Bengals.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Miramar",
+        "state": "FL"
+      },
+      "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miramar:vice-mayor:carson-eddy-edwards",
+      "name": "Carson \"Eddy\" Edwards",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Miramar City Council",
+      "district": null,
+      "phone": "954-602-3830",
+      "email": "cedwards@miramarfl.gov",
+      "url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission/Vice-Mayor-Carson-Eddy-Edwards",
+      "photo_url": "https://www.miramarfl.gov/files/assets/public/v/1/city-clerkcommission/images/eddy-edwards.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/eddyformiramar",
+        "instagram": "https://www.instagram.com/EDDYFORMIRAMAR",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2300 Civic Center Place Miramar, Florida 33025",
+      "offices": [],
+      "hours": null,
+      "bio": "Meet Carson \"Eddy\" Edwards: A dynamic entrepreneur, community advocate, and champion for progress. With roots in Kingston, Jamaica, and a leadership-driven spirit, Eddy brings decades of experience and a relentless drive to make a difference in Miramar. His extensive involvement in business, community, and civic engagement showcases his dedication to enhancing the lives of those around him.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Miramar",
+        "state": "FL"
+      },
+      "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

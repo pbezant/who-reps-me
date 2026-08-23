@@ -1,11 +1,323 @@
 {
   "state": "KS",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 7,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 27,
   "cities": [
-    "Wichita"
+    "Kansas City",
+    "Wichita",
+    "Wyandotte County"
   ],
   "officials": [
+    {
+      "id": "ks:kansas-city:1st-district-commissioner:jermaine-howard",
+      "name": "Jermaine Howard",
+      "office": "1st District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "1st District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-jermaine-howard-jan-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:2nd-district-commissioner:william-(bill)-j.-burns,-jr.",
+      "name": "William (Bill) J. Burns, Jr.",
+      "office": "2nd District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "2nd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/content/public/v/13/government/elected-officials/district-2/comm.-bill-burns-updated-headshot.png?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:3rd-district-commissioner:christian-ramirez",
+      "name": "Christian Ramirez",
+      "office": "3rd District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "3rd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-christian-ramirez.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:4th-district-commissioner:dr.-evelyn-hill",
+      "name": "Dr. Evelyn Hill",
+      "office": "4th District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "4th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-evelyn-hill-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:5th-district-commissioner:dr.-carlos-pacheco-iii",
+      "name": "Dr. Carlos Pacheco III",
+      "office": "5th District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "5th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-carlos-pacheco-jan-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:6th-district-commissioner:philip-j.-lopez",
+      "name": "Philip J. Lopez",
+      "office": "6th District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "6th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/1/board-of-commissioners/images/screenshot-2024-10-04-102142.png?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:7th-district-commissioner:chuck-stites",
+      "name": "Chuck Stites",
+      "office": "7th District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "7th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-chuck-stites-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:8th-district-commissioner:andrew-davis",
+      "name": "Andrew Davis",
+      "office": "8th District Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "8th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/3/board-of-commissioners/images/commissioner-andrew-davis-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:at-large-district-1-commissioner:melissa-bynum",
+      "name": "Melissa Bynum",
+      "office": "At-Large District 1 Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "At-Large District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-melissa-bynum-2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:kansas-city:at-large-district-2-commissioner:andrew-tyler-kump",
+      "name": "Andrew Tyler Kump",
+      "office": "At-Large District 2 Commissioner",
+      "level": "local",
+      "body": "Kansas City City Council",
+      "district": "At-Large District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/3/board-of-commissioners/images/commissioner-andrew-kump2026.jpg?dimension=largethumbnail&w=480&h=316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kansas City",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
     {
       "id": "ks:wichita:council-member:becky-tuttle",
       "name": "Becky Tuttle",
@@ -221,6 +533,316 @@
       },
       "source_url": "https://www.wichita.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:1st-district-commissioner:jermaine-howard",
+      "name": "Jermaine Howard",
+      "office": "1st District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "1st District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-jermaine-howard-jan-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:2nd-district-commissioner:william-(bill)-j.-burns,-jr.",
+      "name": "William (Bill) J. Burns, Jr.",
+      "office": "2nd District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "2nd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/content/public/v/13/government/elected-officials/district-2/comm.-bill-burns-updated-headshot.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:3rd-district-commissioner:christian-ramirez",
+      "name": "Christian Ramirez",
+      "office": "3rd District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "3rd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-christian-ramirez.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:4th-district-commissioner:dr.-evelyn-hill",
+      "name": "Dr. Evelyn Hill",
+      "office": "4th District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "4th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-evelyn-hill-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:5th-district-commissioner:dr.-carlos-pacheco-iii",
+      "name": "Dr. Carlos Pacheco III",
+      "office": "5th District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "5th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-carlos-pacheco-jan-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:6th-district-commissioner:philip-j.-lopez",
+      "name": "Philip J. Lopez",
+      "office": "6th District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "6th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:7th-district-commissioner:chuck-stites",
+      "name": "Chuck Stites",
+      "office": "7th District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "7th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-chuck-stites-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:8th-district-commissioner:andrew-davis",
+      "name": "Andrew Davis",
+      "office": "8th District Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "8th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/3/board-of-commissioners/images/commissioner-andrew-davis-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:at-large-district-1-commissioner:melissa-bynum",
+      "name": "Melissa Bynum",
+      "office": "At-Large District 1 Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "At-Large District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/2/board-of-commissioners/images/commissioner-melissa-bynum-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:wyandotte-county:at-large-district-2-commissioner:andrew-tyler-kump",
+      "name": "Andrew Tyler Kump",
+      "office": "At-Large District 2 Commissioner",
+      "level": "county",
+      "body": "Wyandotte County Commissioners Court",
+      "district": "At-Large District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wycokck.org/files/assets/public/v/3/board-of-commissioners/images/commissioner-andrew-kump2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 N. 7th Street, Kansas City, KS 66101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyandotte County",
+        "state": "KS"
+      },
+      "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

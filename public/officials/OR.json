@@ -1,10 +1,12 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 35,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 52,
   "cities": [
     "Clackamas County",
     "Deschutes County",
+    "Eugene",
+    "Linn County",
     "Multnomah County",
     "Portland"
   ],
@@ -380,6 +382,571 @@
       "source_url": "https://www.deschutescounty.gov/439/Commissioner-Tony-DeBone",
       "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:alan-zelenka",
+      "name": "Alan Zelenka",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 3",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/2619/Alan-Zelenka",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83553",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": "Alan Zelenka has lived in Eugene for nearly 30 years and serves the people of Ward 3 as a City Councilor. He focuses on environmental protection and sustainability, smart development and neighborhood protection, and fostering a fair and open city government.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:eliza-kashinsky",
+      "name": "Eliza Kashinsky",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 1",
+      "phone": "541-682-5010",
+      "email": "ekashinsky@eugene-or.gov",
+      "url": "https://www.eugene-or.gov/3457/Eliza-Kashinsky",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83537",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:greg-evans",
+      "name": "Greg Evans",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 6",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/2622/Greg-Evans",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83538",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": "Greg Evans is an Eugene City Councilor. He has a background as Associate Vice-President for Equity and Inclusion and Chief Diversity Officer at Lane Community College, and holds an M.Ed. from Oregon State University.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:jennifer-yeh",
+      "name": "Jennifer Yeh",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 4",
+      "phone": "541-682-5010",
+      "email": "jyeh@eugene-or.gov",
+      "url": "https://www.eugene-or.gov/2620/Jennifer-Yeh",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83549",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": "Jennifer Yeh is a Eugene City Councilor serving from January 2023 to January 2027. She holds a B.A. in English and Psychology from the University of Oregon and has a professional background in museum coordination, administrative assistance, and higher education. Her key interests include citizen involvement, public safety, housing, transportation, and neighborhood livability.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:lyndsie-leech",
+      "name": "Lyndsie Leech",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 7",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/2623/Lyndsie-Leech",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83557",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": "Lyndsie Leech is an Eugene City Councilor serving from January 2025 to January 2029. She has a background in public health and administration, having served as Executive Director for WellMama, Inc. and in various development roles for non-profits. Her community involvement includes the Territorial Parent Association and the Fern Ridge Community Action Network Board.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:matt-keating",
+      "name": "Matt Keating",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 2",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/4628/Matt-Keating",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83547",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:mike-clark",
+      "name": "Mike Clark",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 5",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/2621/Mike-Clark",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83541",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:council-member:randy-groves",
+      "name": "Randy Groves",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": "Ward 8",
+      "phone": "541-682-5010",
+      "email": null,
+      "url": "https://www.eugene-or.gov/4629/Randy-Groves",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83542",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:eugene:mayor:kaarin-knudson",
+      "name": "Kaarin Knudson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Eugene City Council",
+      "district": null,
+      "phone": "541-682-5010",
+      "email": "kknudson@eugene-or.gov",
+      "url": "https://www.eugene-or.gov/3458/Mayor-Kaarin-Knudson-Bio",
+      "photo_url": "https://www.eugene-or.gov/ImageRepository/Document?documentId=83536",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 East 4th Avenue Suite 302 Eugene, OR 97401",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Kaarin Knudson is an architect, writer, and educator with more than 25 years’ experience in design, sustainability, and community building. Trained as a journalist before becoming an architect, her work has always focused on people and place. In 2024, she was elected with 73% of the primary vote and 96% in the general election.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Eugene",
+        "state": "OR"
+      },
+      "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:linn-county:attorney:nick-maybanks",
+      "name": "Nick Maybanks",
+      "office": "Attorney",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": "319-892-5000",
+      "email": null,
+      "url": "https://www.linncountyiowa.gov/127/Attorney",
+      "photo_url": "https://www.linncountyiowa.gov/ImageRepository/Document?documentID=28568",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [
+        {
+          "classification": "division",
+          "name": "Criminal Division",
+          "city": "Cedar Rapids",
+          "address": "51 Third Avenue Bridge Cedar Rapids, IA 52401",
+          "phone": "319-892-6350",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "division",
+          "name": "Juvenile Division",
+          "city": "Cedar Rapids",
+          "address": "211 8th Avenue SW Cedar Rapids, IA 52404",
+          "phone": "319-892-6330",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "division",
+          "name": "Civil Division",
+          "city": "Cedar Rapids",
+          "address": "935 2nd Street SW Cedar Rapids, IA 52404",
+          "phone": "319-892-6340",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": "Monday-Friday 8 a.m.-4:30 p.m. Services also available by phone, email, and mail Except Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "or:linn-county:auditor:todd-taylor",
+      "name": "Todd Taylor",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": "319-892-5000",
+      "email": null,
+      "url": "https://www.linncountyiowa.gov/128/Auditor",
+      "photo_url": "https://www.linncountyiowa.gov/ImageRepository/Document?documentID=25015",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": "Monday-Friday 7:30 a.m.-4:30 p.m. Services also available by phone, email, mail, and drop box Except Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "or:linn-county:board-of-supervisors:brandy-z.-meisheid",
+      "name": "Brandy Z. Meisheid",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 3",
+      "phone": "319-892-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "or:linn-county:board-of-supervisors:kirsten-running-marquardt",
+      "name": "Kirsten Running-Marquardt",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 1",
+      "phone": "319-892-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "or:linn-county:board-of-supervisors:sami-scheetz",
+      "name": "Sami Scheetz",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": "District 2",
+      "phone": "319-892-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "or:linn-county:recorder:carolyn-siebrecht",
+      "name": "Carolyn Siebrecht",
+      "office": "Recorder",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": "319-892-5000",
+      "email": null,
+      "url": "https://www.linncountyiowa.gov/149/Recorder",
+      "photo_url": "https://www.linncountyiowa.gov/ImageRepository/Document?documentID=28456",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": "Monday-Friday 7:30 a.m.-4:30 p.m. 2nd Wednesday of the month: 10 a.m.-4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "or:linn-county:sheriff:brian-gardner",
+      "name": "Brian Gardner",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": "319-892-5000",
+      "email": null,
+      "url": "https://www.linncountyiowa.gov/151/Sheriffs-Office",
+      "photo_url": "https://www.linncountyiowa.gov/ImageRepository/Document?documentID=27777",
+      "social": {
+        "twitter": "https://x.com/LinnIASheriff",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Linn County Correctional Center",
+          "city": "Cedar Rapids",
+          "address": "53 3rd Avenue Bridge Cedar Rapids, IA 52401",
+          "phone": "319-892-6300",
+          "fax": "319-892-6279",
+          "hours": null
+        }
+      ],
+      "hours": "Monday-Friday 8 a.m.-4 p.m. (Except Holidays) Services also available by phone, email, mail, and drop box",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "or:linn-county:treasurer:brent-c.-oleson",
+      "name": "Brent C. Oleson",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Linn County Commissioners Court",
+      "district": null,
+      "phone": "319-892-5000",
+      "email": null,
+      "url": "https://www.linncountyiowa.gov/153/Treasurer-Motor-VehicleProperty-Taxes",
+      "photo_url": "https://www.linncountyiowa.gov/ImageRepository/Document?documentID=26363",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "935 2nd St. SW Cedar Rapids, IA",
+      "offices": [],
+      "hours": "Lobby Hours Monday-Friday 7:30 a.m.-4 p.m. 2nd Wednesday of the month: 10 a.m.-4 p.m. Services are also available by mail, drop box, and phone Except Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Linn County",
+        "state": "OR"
+      },
+      "source_url": "https://www.linncountyiowa.gov/1139/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
     },
     {
       "id": "or:multnomah-county:auditor:jennifer-mcguirk",

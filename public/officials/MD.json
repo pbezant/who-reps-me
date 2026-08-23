@@ -1,13 +1,15 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 40,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 57,
   "cities": [
     "Anne Arundel County",
+    "Carroll County",
     "Frederick County",
     "Harford County",
     "Howard County",
-    "Montgomery County"
+    "Montgomery County",
+    "Washington County"
   ],
   "officials": [
     {
@@ -410,6 +412,378 @@
       },
       "source_url": "https://www.aacounty.org/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:comptroller:jennifer-hobbs",
+      "name": "Jennifer Hobbs",
+      "office": "Comptroller",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2085",
+      "email": "jhobbs@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:county-attorney:timothy-c.-burke",
+      "name": "Timothy C. Burke",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2030",
+      "email": "tburke@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-citizen-services:celene-steckel",
+      "name": "Celene Steckel",
+      "office": "Director, Citizen Services",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-3600",
+      "email": "csteckel@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 Distillery Drive #101 Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-economic-development:denise-beaver",
+      "name": "Denise Beaver",
+      "office": "Director, Economic Development",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2070",
+      "email": "dbeaver@carrollbiz.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-emergency-management-and-communications:valerie-d.-hawkins",
+      "name": "Valerie D. Hawkins",
+      "office": "Director, Emergency Management and Communications",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2262",
+      "email": "vhawkins@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Room 023 Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-fire-and-emergency-services:michael-w.-robinson",
+      "name": "Michael W. Robinson",
+      "office": "Director, Fire and Emergency Services",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-6800",
+      "email": "mrobinson@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-human-resources:kristy-bixler",
+      "name": "Kristy Bixler",
+      "office": "Director, Human Resources",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2129",
+      "email": "kbixler@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-management-&-budget:ted-zaleski",
+      "name": "Ted Zaleski",
+      "office": "Director, Management & Budget",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2082",
+      "email": "tzaleski@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-planning-&-land-management:christopher-heyn",
+      "name": "Christopher Heyn",
+      "office": "Director, Planning & Land Management",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2949",
+      "email": "cheyn@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-public-works:bryan-bokey",
+      "name": "Bryan Bokey",
+      "office": "Director, Public Works",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2248",
+      "email": "bbokey@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-recreation-&-parks:bob-hicks",
+      "name": "Bob Hicks",
+      "office": "Director, Recreation & Parks",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2103",
+      "email": "rhicks@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 South Center Street Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:carroll-county:director,-technology-services:alison-deigan",
+      "name": "Alison Deigan",
+      "office": "Director, Technology Services",
+      "level": "county",
+      "body": "Carroll County Commissioners Court",
+      "district": null,
+      "phone": "410-386-2053",
+      "email": "adeigan@carrollcountymd.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 North Center St. Westminster, MD 21157",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carroll County",
+        "state": "MD"
+      },
+      "source_url": "https://www.carrollcountymd.gov/government/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1278,6 +1652,161 @@
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:washington-county:commissioner:neil-parrott",
+      "name": "NEIL PARROTT",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "240-313-2206",
+      "email": "nparrott@washcmd.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Washington Street Room 1101 Hagerstown, MD 21740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "MD"
+      },
+      "source_url": "https://www.washco-md.net/county-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:washington-county:commissioner:randal-leatherman",
+      "name": "RANDAL LEATHERMAN",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "240-313-2209",
+      "email": "rleatherman@washcmd.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Washington Street Room 1101 Hagerstown, MD 21740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "MD"
+      },
+      "source_url": "https://www.washco-md.net/county-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:washington-county:commissioner:randall-e.-randy-wagner",
+      "name": "RANDALL E. “RANDY” WAGNER",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "240-313-2207",
+      "email": "rwagner@washco.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Washington Street Room 1101 Hagerstown, MD 21740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "MD"
+      },
+      "source_url": "https://www.washco-md.net/county-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:washington-county:president:john-f.-barr",
+      "name": "JOHN F. BARR",
+      "office": "President",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "240-313-2205",
+      "email": "jbarr@washco.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Washington Street Room 1101 Hagerstown, MD 21740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "MD"
+      },
+      "source_url": "https://www.washco-md.net/county-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:washington-county:vice-president:jeffrey-a.-cline",
+      "name": "JEFFREY A. CLINE",
+      "office": "Vice-President",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "240-313-2208",
+      "email": "jcline@washcmd.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Washington Street Room 1101 Hagerstown, MD 21740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "MD"
+      },
+      "source_url": "https://www.washco-md.net/county-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

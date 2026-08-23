@@ -1,13 +1,14 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 30,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 31,
   "cities": [
     "Arapahoe County",
     "Boulder",
     "Denver County",
     "Durango",
-    "Jefferson County"
+    "Jefferson County",
+    "Mesa County"
   ],
   "officials": [
     {
@@ -850,6 +851,37 @@
       },
       "source_url": "https://www.jeffco.us/m/newsflash/home/detail/2642",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:mesa-county:county-commissioner:cody-davis",
+      "name": "Cody Davis",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mesa County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "cody.davis@mesacounty.us",
+      "url": "https://www.mesacounty.us/departments-and-services/commissioners/cody-davis",
+      "photo_url": "https://www.mesacounty.us/sites/default/files/styles/max_width_800/public/2023-01/Cody%20Davis%20District%201%20County%20Commissioner%20-%20ratio%201-1.jpg?itok=Q5Xh0E93",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Cody Davis is a husband, father, business owner, and fifth-generation native of the Grand Valley. He and his wife, Alana, have five beautiful children, three of whom they have adopted through their many years of foster parenting. Cody is a loving family man and a successful community leader. He brings both a principled and common-sense approach to local government.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Mesa County",
+        "state": "CO"
+      },
+      "source_url": "https://www.mesacounty.us/departments-and-services/commissioners/cody-davis",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

@@ -1,0 +1,72 @@
+{
+  "state": "WV",
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 2,
+  "cities": [
+    "Kanawha County"
+  ],
+  "officials": [
+    {
+      "id": "wv:kanawha-county:commissioner:natalie-tennant",
+      "name": "Natalie Tennant",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Kanawha County Commissioners Court",
+      "district": null,
+      "phone": "304-357-8511",
+      "email": "info@kanawha.us",
+      "url": null,
+      "photo_url": "https://kanawha.us/wp-content/uploads/2025/05/Natalie-Tennant.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 3627 Charleston, WV 25336",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kanawha County",
+        "state": "WV"
+      },
+      "source_url": "https://kanawha.us/about-us/commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:kanawha-county:president:ben-salango",
+      "name": "Ben Salango",
+      "office": "President",
+      "level": "county",
+      "body": "Kanawha County Commissioners Court",
+      "district": null,
+      "phone": "304-357-0109",
+      "email": "info@kanawha.us",
+      "url": null,
+      "photo_url": "https://kanawha.us/wp-content/uploads/2024/09/Ben-Salango.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 3627 Charleston, WV 25336",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kanawha County",
+        "state": "WV"
+      },
+      "source_url": "https://kanawha.us/about-us/commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    }
+  ]
+}

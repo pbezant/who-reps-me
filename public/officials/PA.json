@@ -1,10 +1,12 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 44,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 54,
   "cities": [
+    "Beaver County",
     "Bucks County",
     "Butler County",
+    "Centre County",
     "Chester County",
     "Cumberland County",
     "Dauphin County",
@@ -13,9 +15,41 @@
     "Montgomery County",
     "Philadelphia",
     "Philadelphia County",
+    "Schuylkill County",
     "York County"
   ],
   "officials": [
+    {
+      "id": "pa:beaver-county:commissioner:jack-manning",
+      "name": "Jack Manning",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Beaver County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "jmanning@beavercountypa.gov",
+      "url": "https://www.beavercountypa.gov/departments/board-of-commissioners/commissioners/jack-manning",
+      "photo_url": "https://www.beavercountypa.gov/getmedia/24c04599-65a2-4904-bb7e-f1c0634abc5b/Jack_manning.jpg?width=320&amp;height=240&amp;ext=.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Beaver County Courthouse\n810 Third Street\nBeaver, PA 15009",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Jack Manning began working in the Pittsburgh region in 1998 and relocated to the Chippewa Township / Beaver Falls area in 2000. He was sworn into office for his first term in January 2020 and re-elected for a second term starting in January 2024. Prior to his commissionership, Jack owned Pinebrook Cottage Consulting (PCC) after a 35-year career in the Petro-chemical industry.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Beaver County",
+        "state": "PA"
+      },
+      "source_url": "https://www.beavercountypa.gov/departments/board-of-commissioners/commissioners/jack-manning",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
     {
       "id": "pa:bucks-county:area-agency-on-aging-advisory-council-member:ashley-conaway",
       "name": "Ashley Conaway",
@@ -603,6 +637,161 @@
       },
       "source_url": "https://www.butlercountypa.gov/602/Commissioner-Geyer",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:centre-county:centre-county-administrator:john-franek,-jr.",
+      "name": "John Franek, Jr.",
+      "office": "Centre County Administrator",
+      "level": "county",
+      "body": "Centre County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "jfranek@centrecountypa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Centre County",
+        "state": "PA"
+      },
+      "source_url": "https://www.centrecountypa.gov/163/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:centre-county:commissioner,-chair:mark-higgins",
+      "name": "Mark Higgins",
+      "office": "Commissioner, Chair",
+      "level": "county",
+      "body": "Centre County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "mark@centrecountypa.gov",
+      "url": null,
+      "photo_url": "https://www.centrecountypa.gov/ImageRepository/Document?documentId=30144",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Centre County",
+        "state": "PA"
+      },
+      "source_url": "https://www.centrecountypa.gov/163/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:centre-county:commissioner,-vice-chair:amber-concepcion",
+      "name": "Amber Concepcion",
+      "office": "Commissioner, Vice-Chair",
+      "level": "county",
+      "body": "Centre County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "aConcepcion@centrecountypa.gov",
+      "url": null,
+      "photo_url": "https://www.centrecountypa.gov/ImageRepository/Document?documentId=23999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Centre County",
+        "state": "PA"
+      },
+      "source_url": "https://www.centrecountypa.gov/163/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:centre-county:commissioner:steven-g.-dershem",
+      "name": "Steven G. Dershem",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Centre County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "sdershem@centrecountypa.gov",
+      "url": null,
+      "photo_url": "https://www.centrecountypa.gov/ImageRepository/Document?documentId=6334",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Centre County",
+        "state": "PA"
+      },
+      "source_url": "https://www.centrecountypa.gov/163/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:centre-county:executive-office-supervisor:erin-good",
+      "name": "Erin Good",
+      "office": "Executive Office Supervisor",
+      "level": "county",
+      "body": "Centre County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "ecgood@centrecountypa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Centre County",
+        "state": "PA"
+      },
+      "source_url": "https://www.centrecountypa.gov/163/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1348,6 +1537,130 @@
       "source_url": "https://www.phila.gov/ar/departments/mayor/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 1
+    },
+    {
+      "id": "pa:schuylkill-county:clerk-of-courts:crista-dicasimirro",
+      "name": "Crista DiCasimirro",
+      "office": "Clerk of Courts",
+      "level": "county",
+      "body": "Schuylkill County Commissioners Court",
+      "district": null,
+      "phone": "570-628-1140",
+      "email": null,
+      "url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
+      "photo_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/revize_photo_gallery/Government/Clerk%20of%20Courts/CristaDiCasimirro.jpg?t=202312291446120",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Schuylkill County Clerk of Courts 1st Floor 401 North 2nd St Pottsville, PA 17901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Schuylkill County",
+        "state": "PA"
+      },
+      "source_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:schuylkill-county:first-deputy:stacie-stoppie",
+      "name": "Stacie Stoppie",
+      "office": "First Deputy",
+      "level": "county",
+      "body": "Schuylkill County Commissioners Court",
+      "district": null,
+      "phone": "570-628-1140",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Schuylkill County Clerk of Courts 1st Floor 401 North 2nd St Pottsville, PA 17901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schuylkill County",
+        "state": "PA"
+      },
+      "source_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "pa:schuylkill-county:office-solicitor:maria-casey",
+      "name": "Maria Casey",
+      "office": "Office Solicitor",
+      "level": "county",
+      "body": "Schuylkill County Commissioners Court",
+      "district": null,
+      "phone": "570-628-1140",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Schuylkill County Clerk of Courts 1st Floor 401 North 2nd St Pottsville, PA 17901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schuylkill County",
+        "state": "PA"
+      },
+      "source_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "pa:schuylkill-county:second-deputy:heather-stettlier",
+      "name": "Heather Stettlier",
+      "office": "Second Deputy",
+      "level": "county",
+      "body": "Schuylkill County Commissioners Court",
+      "district": null,
+      "phone": "570-628-1140",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Schuylkill County Clerk of Courts 1st Floor 401 North 2nd St Pottsville, PA 17901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schuylkill County",
+        "state": "PA"
+      },
+      "source_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.95
     },
     {
       "id": "pa:york-county:vice-president-commissioner:scott-burford",

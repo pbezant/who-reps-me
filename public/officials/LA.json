@@ -1,11 +1,12 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 18,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 26,
   "cities": [
     "Lafayette Parish",
     "New Orleans",
     "Orleans Parish",
+    "Shreveport",
     "St. Tammany Parish"
   ],
   "officials": [
@@ -534,6 +535,254 @@
       },
       "source_url": "https://nola.gov/home/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-chairwoman:tabatha-h.-taylor",
+      "name": "Tabatha H. Taylor",
+      "office": "Council Chairwoman",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District A",
+      "phone": "318-517-4392",
+      "email": "Tabatha.Taylor@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=354",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=30165",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-member:dr.-alan-jackson,-jr.",
+      "name": "Dr. Alan Jackson, Jr.",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District E",
+      "phone": "318-510-4765",
+      "email": "Alan.Jackson@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/directory.aspx?EID=355",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23927",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-member:gary-brooks",
+      "name": "Gary Brooks",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District B",
+      "phone": "318-918-0898",
+      "email": "Gary.Brooks@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=8",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23928",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": "Gary Brooks is the District B Representative on the City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-member:grayson-boucher",
+      "name": "Grayson Boucher",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District D",
+      "phone": "318-673-5262",
+      "email": "Grayson.Boucher@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=10",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23929",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-member:james-green",
+      "name": "James Green",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District F",
+      "phone": "318-635-7118",
+      "email": "James.Green@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=356",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23930",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:council-member:jim-taliaferro",
+      "name": "Jim Taliaferro",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District C",
+      "phone": "318-455-0920",
+      "email": "Jim.Taliaferro@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=9",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23931",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Taliaferro is the District C Representative.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:mayor:tom-arceneaux",
+      "name": "Tom Arceneaux",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": null,
+      "phone": "318-673-5010",
+      "email": "tom.arceneaux@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=822",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23932",
+      "social": {
+        "twitter": "https://twitter.com/loveshreveport1",
+        "facebook": "https://www.facebook.com/LoveShreveportLa/",
+        "instagram": "https://www.instagram.com/loveshreveport/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/@CityofShreveportLa"
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": "Tom Arceneaux was sworn in as Shreveport’s 57th Mayor on December 31, 2022. Mayor Arceneaux is a graduate of Captain Shreve High School, LSU, and LSU Law School and has spent much of his adult life in Shreveport. He is an attorney and has been active in civic affairs, especially as an advocate for the Highland neighborhood, where he lives in a home he restored with his wife, Elizabeth.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:shreveport:vice-chair:ursula-bowman",
+      "name": "Ursula Bowman",
+      "office": "Vice Chair",
+      "level": "local",
+      "body": "Shreveport City Council",
+      "district": "District G",
+      "phone": "318-734-7568",
+      "email": "Ursula.Bowman@shreveportla.gov",
+      "url": "https://www.shreveportla.gov/Directory.aspx?EID=357",
+      "photo_url": "https://www.shreveportla.gov/ImageRepository/Document?documentID=23934",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Plaza\n505 Travis Street\nShreveport, LA 71101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Shreveport",
+        "state": "LA"
+      },
+      "source_url": "https://www.shreveportla.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

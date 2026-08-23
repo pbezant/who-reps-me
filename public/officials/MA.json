@@ -1,9 +1,10 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 35,
+  "generated_at": "2026-08-23T03:19:56.306Z",
+  "count": 45,
   "cities": [
     "Boston",
+    "Cambridge",
     "Norfolk County",
     "Worcester"
   ],
@@ -409,6 +410,316 @@
       },
       "source_url": "https://www.boston.gov/departments/city-council",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:city-manager:yi-an-huang",
+      "name": "Yi-An Huang",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cambridgema.gov/Departments/citymanagersoffice",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "795 Massachusetts Ave. Cambridge, MA 02139",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:ayah-a.-al-zubi",
+      "name": "Ayah A. Al-Zubi",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "aal-zubi@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20262028/AyahAlZubi119.jpg?h=119&w=119",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:burhan-azeem",
+      "name": "Burhan Azeem",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-798-1140",
+      "email": "bazeem@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/citycouncilmembers/burhanazeemheadshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "19 Woodbridge Street Cambridge, MA 02140",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:catherine-zusy",
+      "name": "Catherine Zusy",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "czusy@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20262028/CathyZusy119.jpg?h=119&w=119",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:e.-denise-simmons",
+      "name": "E. Denise Simmons",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "dsimmons@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20182019councilphotos/Thumbnail/councilloredenisesimmons_thumbnail.jpg?h=97&w=103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "195 Brookline Street, Cambridge, MA 02139",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:jivan-sobrinho-wheeler",
+      "name": "Jivan Sobrinho-Wheeler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "jsobrinhowheeler@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20242026/jivansobrinhowheelerphoto103.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:marc-c.-mcgovern",
+      "name": "Marc C. McGovern",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "mmcgovern@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20182019councilphotos/Thumbnail/McGovern_thumbnail.jpg?h=109&w=103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15 Pleasant Street #2, Cambridge, MA 02139",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:patricia-m.-nolan",
+      "name": "Patricia M. Nolan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "pnolan@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20202021/patricianolan.jpg?h=155&w=103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "184 Huron Avenue Cambridge, MA 02138",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:sumbul-siddiqui",
+      "name": "Sumbul Siddiqui",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-448-1525",
+      "email": "ssiddiqui@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20182019councilphotos/Thumbnail/councillorsumbulsiddiqui_thumbnail.jpg?h=127&w=103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "283 Sidney Street, Unit 3, Cambridge, MA 02139",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:cambridge:council-member:tim-flaherty",
+      "name": "Tim Flaherty",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cambridge City Council",
+      "district": null,
+      "phone": "617-349-4280",
+      "email": "tflaherty@cambridgema.gov",
+      "url": null,
+      "photo_url": "https://www.cambridgema.gov/-/media/Images/citycouncil/20262028/TimothyFlaherty.jpg?h=119&w=119",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cambridge",
+        "state": "MA"
+      },
+      "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
+      "extracted_at": "2026-08-22T11:44:43.377Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-22T05:11:08.657Z",
-  "count": 198,
+  "generated_at": "2026-08-23T05:05:18.632Z",
+  "count": 253,
   "cities": [
     "Arlington",
     "Austin",
@@ -23,27 +23,34 @@
     "Fort Bend County",
     "Garland",
     "Granbury",
+    "Grayson County",
     "Harris County",
     "Hays County",
     "Hidalgo County",
     "Hutto",
     "Jefferson County",
     "Kaufman County",
+    "Killeen",
     "Kyle",
     "Lakeway",
     "Leander",
     "Lockhart",
     "Lubbock",
+    "McAllen",
     "McKinney",
     "McLennan County",
     "Montgomery County",
     "New Braunfels",
     "Parker County",
+    "Pasadena",
+    "Randall County",
+    "Rockwall County",
     "Round Rock",
     "San Marcos",
     "Smithville",
     "Tarrant County",
     "Travis County",
+    "Waco",
     "Williamson County"
   ],
   "officials": [
@@ -763,7 +770,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -786,7 +793,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -843,7 +850,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1
     },
     {
@@ -863,7 +870,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2613,6 +2620,37 @@
       "confidence": 1
     },
     {
+      "id": "tx:grayson-county:commissioner:matt-hardenburg",
+      "name": "Matt Hardenburg",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Grayson County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "903-813-4318",
+      "email": "matt.hardenburg@co.grayson.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Houston Sherman, Texas 75090",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grayson County",
+        "state": "TX"
+      },
+      "source_url": "https://www.co.grayson.tx.us/page/comp4.home",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:harris-county:commissioner:adrian-garcia",
       "name": "Adrian Garcia",
       "office": "Commissioner",
@@ -3182,6 +3220,254 @@
       },
       "source_url": "https://www.kaufmancounty.net/530/Precinct-4-Commissioner-Tommy-Moore",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:anthony-kendrick",
+      "name": "Anthony Kendrick",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "District #4",
+      "phone": "254-290-7627",
+      "email": "AKendrick@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=240",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13774",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Anthony Kendrick was elected to represent District 4 of Killeen on May 3, 2025, and sworn in on May 13, 2025. He advocates for equitable infrastructure, market development, youth engagement, transparency, and public safety. A U.S. Army veteran, he is also a community leader involved in youth sports and mentorship programs.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:beverly-ann-williams",
+      "name": "Beverly Ann Williams",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "At-Large",
+      "phone": "254-604-1422",
+      "email": "bwilliams@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=139",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13803",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:charles-f.-kimble",
+      "name": "Charles F. Kimble",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "District #2",
+      "phone": "254-394-1964",
+      "email": "ckimble@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=256",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13802",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:david-bass",
+      "name": "David Bass",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "District #3",
+      "phone": "254-973-2261",
+      "email": "dbass@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=6",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13804",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember District #3",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:debbie-nash-king",
+      "name": "Debbie Nash-King",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "At-Large",
+      "phone": "254-973-1616",
+      "email": "dnash-king@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=12",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=11184",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Debbie Ann Nash-King is a native of Pine Bluff, Arkansas, and a Councilmember At-Large for Killeen. She served as a Second Lieutenant in the United States Army and holds two master's degrees. Ms. Nash-King is actively involved in various community organizations and boards.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:council-member:mellisa-brown",
+      "name": "Mellisa Brown",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "At-Large",
+      "phone": "254-604-2912",
+      "email": "mbrown@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/directory.aspx?EID=160",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:mayor-pro-tem,-council-member:jessica-gonzalez",
+      "name": "Jessica Gonzalez",
+      "office": "Mayor Pro Tem, Councilmember",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": "District #1",
+      "phone": "254-392-2719",
+      "email": "jgonzalez@killeentexas.gov",
+      "url": null,
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13770",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:killeen:mayor:joseph-solomon",
+      "name": "Joseph Solomon",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Killeen City Council",
+      "district": null,
+      "phone": "254-423-0737",
+      "email": "jsolomon@killeentexas.gov",
+      "url": "https://www.killeentexas.gov/Directory.aspx?EID=197",
+      "photo_url": "https://www.killeentexas.gov/ImageRepository/Document?documentId=13973",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Joseph Solomon Sr. is a military veteran with over 35 years of experience advocating for community advancement and betterment. He served as an Executive Director of the Refuge Corporation, collaborating with various community organizations and city officials to address issues like homelessness and food insecurity.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Killeen",
+        "state": "TX"
+      },
+      "source_url": "https://www.killeentexas.gov/153/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -4029,6 +4315,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:mcallen:assistant-city-manager:elvira-alonzo",
+      "name": "Elvira Alonzo",
+      "office": "Assistant City Manager",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "tx:mcallen:assistant-city-manager:jeff-johnston",
+      "name": "Jeff Johnston",
+      "office": "Assistant City Manager",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "tx:mcallen:assistant-city-manager:juan-olaguibel",
+      "name": "Juan Olaguibel",
+      "office": "Assistant City Manager",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "tx:mcallen:city-manager:isaac-tawil",
+      "name": "Isaac Tawil",
+      "office": "City Manager",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "tx:mcallen:deputy-city-manager:michelle-rivera",
+      "name": "Michelle Rivera",
+      "office": "Deputy City Manager",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "tx:mcallen:retail-development-director:rebecca-m.-olaguibel",
+      "name": "Rebecca M. Olaguibel",
+      "office": "Retail Development Director",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": "956-681-1001",
+      "email": "rmolaguibel@mcallen.net",
+      "url": "https://www.mcallen.net/departments/manager/rebecca",
+      "photo_url": "https://www.mcallen.net/images/default-source/newimages/rebecca-olaguibel---director-of-retail-and-business-development.jpg?sfvrsn=0",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 Houston Avenue City Hall - 2nd Floor McAllen, TX 78501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "tx:mcallen:strategy-management-director:cesar-n.-rodriguez",
+      "name": "Cesar N. Rodriguez",
+      "office": "Strategy Management Director",
+      "level": "local",
+      "body": "McAllen City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McAllen",
+        "state": "TX"
+      },
+      "source_url": "https://www.mcallen.net/government/citymanager",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.7
+    },
+    {
       "id": "tx:mckinney:council-member:ernest-lynch",
       "name": "Ernest Lynch",
       "office": "Council Member",
@@ -4615,6 +5118,1029 @@
       },
       "source_url": "https://www.parkercountytx.gov/101/Commissioner-Precinct-2",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:aaron-styron",
+      "name": "Aaron Styron",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District H",
+      "phone": "713-475-7858",
+      "email": "astyron@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/436/District-H",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=10209",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Aaron Styron is a lifelong resident of Pasadena and a proud graduate of Sam Rayburn High School. He is a Captain for a major airline and the founder of a Pasadena-based real estate company. As the elected representative for District H, he is focused on promoting fiscal responsibility, supporting public safety, and ensuring responsive representation.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:bianca-valerio",
+      "name": "Bianca Valerio",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District B",
+      "phone": "713-475-7858",
+      "email": "bvalerio@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/411/District-B",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=8133",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "In 2021, Bianca Valerio committed to run for City Council District B and represent her community, becoming the first Hispanic Woman elected to Pasadena's Council. She was re-elected for a second term in 2023. She is committed to supporting first responders, public safety, infrastructure improvements, and community programs.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:carlos-heredia-sr.",
+      "name": "Carlos Heredia Sr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District A",
+      "phone": "713-475-7858",
+      "email": "cheredia@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/410/District-A",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=10207",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Carlos Heredia has built a successful career in civil engineering since 2003, contributing to a wide range of infrastructure and development projects across the region. An accomplished amateur boxer, he captured titles in the Copper Gloves, Silver Gloves, Golden Gloves, and the 1996 Junior Olympics. Although he excelled in the ring, Carlos chose to shift his focus toward his career and family life in Pasadena, Texas, where he is a devoted father to three boys and a daughter who proudly served in the U.S. National Guard.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:dolan-j.-dow",
+      "name": "Dolan J. Dow",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District F",
+      "phone": "713-475-7858",
+      "email": "ddow@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/428/District-F",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=8134",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1149 Ellsworth Drive\nPasadena, TX 77506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:emmanuel-guerrero",
+      "name": "Emmanuel Guerrero",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District C",
+      "phone": "713-475-5521",
+      "email": "eguerrero@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/412/District-C",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=8135",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Emmanuel Guerrero was born in Pasadena, Texas, in 1996, and is a first-generation college graduate from the University of Houston's Bauer Business School. He holds double Bachelor of Business Administration degrees in Finance and Marketing, which he completed in three years. He currently works for a consulting firm specializing in disaster relief and emergency response, serving as the youngest manager in the firm's history.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:johnny-fusilier-jr.",
+      "name": "Johnny Fusilier Jr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District G",
+      "phone": "713-475-7858",
+      "email": "jfusilier@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/431/District-G",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=10208",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Born and raised in Pasadena, Johnny Fusilier Jr. is a Council Member for District G, dedicated to community service and development. He holds a master's degree, works as a physical education teacher in Pasadena ISD, and is actively involved in local nonprofits and his church. He is a proud father of five children who all attend Pasadena schools.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:jonathan-estrada",
+      "name": "Jonathan Estrada",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District E",
+      "phone": "713-475-7858",
+      "email": "jestrada@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/414/District-E",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=8066",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Jonathan Estrada was born and raised in Pasadena, Texas, and is a proud product of Pasadena ISD public schools. He worked for the City of Houston for ten years before being elected to City Council in June 2021, and has since been re-elected for additional terms, prioritizing constituent services and infrastructure improvements.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:council-member:pat-van-houte",
+      "name": "Pat Van Houte",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": "District D",
+      "phone": "713-475-7858",
+      "email": "pvanhoute@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/413/District-D",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=5114",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Pat Van Houte was born in Syracuse, NY, and grew up in Cleveland, OH. She holds a BS in Psychology and an MA in Behavioral Sciences, and has lived in District D since 1980. Retired from the State of Texas, she previously served as a District D councilmember from 2009-2015, an at-large councilmember from 2015-2017, and returned to represent District D in 2021.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:pasadena:mayor:thomas-schoenbein",
+      "name": "Thomas Schoenbein",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Pasadena City Council",
+      "district": null,
+      "phone": "713-475-5545",
+      "email": "mayor@pasadenatx.gov",
+      "url": "https://www.pasadenatx.gov/578/Mayor-Thomas-Schoenbein",
+      "photo_url": "https://www.pasadenatx.gov/ImageRepository/Document?documentID=10202",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1149 Ellsworth Dr.,Pasadena, Tx 77506",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Thomas Schoenbein was sworn in as Mayor of Pasadena on July 1, 2025, and has been a proud resident of the community for more than 50 years. He and his wife, Bonnie, are the parents of two children and the grandparents of three grandchildren. Mayor Schoenbein brings deep experience, steady leadership, and a clear vision for Pasadena’s future.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Pasadena",
+        "state": "TX"
+      },
+      "source_url": "https://www.pasadenatx.gov/406/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-clerk:susan-allen",
+      "name": "Susan Allen",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5505",
+      "email": "countyclerk@randallcounty.gov",
+      "url": "https://www.randallcounty.gov/182/County-Clerk",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Suite 101 Canyon, TX 79015",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-commissioner:bob-robinson",
+      "name": "Bob Robinson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "806-468-5500",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-commissioner:eric-barry",
+      "name": "Eric Barry",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "806-468-5500",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-commissioner:rick-cooper",
+      "name": "Rick Cooper",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "806-468-5500",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-commissioner:tam-boatler",
+      "name": "Tam Boatler",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "806-468-5500",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-constable:paula-williams",
+      "name": "Paula Williams",
+      "office": "County Constable",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "806-468-5683",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4320 S Western, Amarillo, TX 79110",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-constable:richard-beals",
+      "name": "Richard Beals",
+      "office": "County Constable",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "806-468-5642",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-court-at-law-judge:james-anderson",
+      "name": "James Anderson",
+      "office": "County Court at Law Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Number 1",
+      "phone": "806-468-5551",
+      "email": null,
+      "url": "https://www.randallcounty.gov/202/County-Court-at-Law-Number-1",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCA_TLZIqTzWTTarnZxQyQIQ"
+      },
+      "address": "2309 Russell Long Boulevard Suite 132 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-court-at-law-judge:matt-martindale",
+      "name": "Matt Martindale",
+      "office": "County Court at Law Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Number 2",
+      "phone": "806-468-5670",
+      "email": "ccl2@randallcounty.gov",
+      "url": "https://www.randallcounty.gov/204/County-Court-at-Law-Number-2",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCTaIOW73Ls_WS4nZPN_Lplg"
+      },
+      "address": "2309 Russell Long Boulevard Suite 130 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:county-judge:christy-dyer",
+      "name": "Christy Dyer",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5500",
+      "email": "countyjudge@randallcounty.com",
+      "url": "https://www.randallcounty.gov/207/County-Judge",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 303 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:district-attorney:robert-love",
+      "name": "Robert Love",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5570",
+      "email": null,
+      "url": "https://www.randallcounty.gov/216/District-Attorney",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Suite 120 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:district-clerk:joel-forbis",
+      "name": "Joel Forbis",
+      "office": "District Clerk",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5600",
+      "email": "districtclerk@randallcounty.gov",
+      "url": "https://www.randallcounty.gov/217/District-Clerk",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Suite 110 Canyon, TX 79015",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:district-judge:ana-estevez",
+      "name": "Ana Estevez",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "251st District",
+      "phone": "806-468-5563",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:district-judge:dee-johnson",
+      "name": "Dee Johnson",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "47th District",
+      "phone": "806-468-5556",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:district-judge:titiana-frausto",
+      "name": "Titiana Frausto",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "181st District",
+      "phone": "806-468-5559",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2309 Russell Long Boulevard Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:justice-of-the-peace:j.-tracy-byrd",
+      "name": "J. Tracy Byrd",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "806-468-5606",
+      "email": "jp1@randallcounty.gov",
+      "url": "https://www.randallcounty.gov/239/Justice-of-the-Peace-Number-1",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street, Ste.307 Canyon, TX 79015",
+      "offices": [],
+      "hours": "Monday – Thursday 8:00 AM – 5:30 PM Friday 8:00 AM – 12:00 NOON",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:justice-of-the-peace:joanne-garciaflores",
+      "name": "Joanne GarciaFlores",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "806-468-5658",
+      "email": "jp4e@randallcounty.gov",
+      "url": "https://www.randallcounty.gov/260/Justice-of-the-Peace-Number-4",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4320 S Western, Ste.102 Amarillo, TX 79109",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:sheriff:chris-forbis",
+      "name": "Chris Forbis",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5654",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9100 S Georgia Amarillo, TX 79110",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:tax-assessor/collector:christina-mcmurray",
+      "name": "Christina McMurray",
+      "office": "Tax Assessor / Collector",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5540",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 200 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:randall-county:treasurer:angie-parker",
+      "name": "Angie Parker",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Randall County Commissioners Court",
+      "district": null,
+      "phone": "806-468-5535",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 16th Street Suite 201 Canyon, TX 79015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.randallcounty.gov/296/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rockwall-county:commissioner:bobby-gallana",
+      "name": "Bobby Gallana",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockwall County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "972-204-6000",
+      "email": "bgallana@rockwallcountytexas.com",
+      "url": "https://www.rockwallcountytexas.com/102/Precinct-1",
+      "photo_url": "https://www.rockwallcountytexas.com/ImageRepository/Document?documentID=11653",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East Rusk Street Suite 202 Rockwall , TX 75087",
+      "offices": [],
+      "hours": null,
+      "bio": "I am excited and honored to take office as the Rockwall County Commissioner for Precinct 1 on January 1st. I moved to Rockwall in 1983, graduated from high school here, and feel fortunate to have settled here with my family. Rockwall County is a unique place with a great quality of life, and I plan to work very hard to maintain that.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Rockwall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.rockwallcountytexas.com/101/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rockwall-county:commissioner:dana-macalik",
+      "name": "Dana Macalik",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockwall County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "972-204-6000",
+      "email": "dmacalik@rockwallcountytexas.com",
+      "url": "https://www.rockwallcountytexas.com/103/Precinct-2",
+      "photo_url": "https://www.rockwallcountytexas.com/ImageRepository/Document?documentID=11909",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East Rusk Street Suite 202 Rockwall , TX 75087",
+      "offices": [],
+      "hours": null,
+      "bio": "Dana K Cullins Macalik was elected to the Rockwall County Commissioners Court (Precinct 2) in November 2022, effective January 1, 2023. A 5th-generation Rockwall County resident, she graduated from Rockwall High School in 1980 and Sam Houston State University. She previously served on the Rockwall City Council from 2017-2022.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Rockwall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.rockwallcountytexas.com/101/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rockwall-county:commissioner:john-stacy",
+      "name": "John Stacy",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockwall County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "972-204-6000",
+      "email": "jstacy@rockwallcountytexas.com",
+      "url": "https://www.rockwallcountytexas.com/251/Precinct-4",
+      "photo_url": "https://www.rockwallcountytexas.com/ImageRepository/Document?documentID=11835",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East Rusk Street Suite 202 Rockwall , TX 75087",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Rockwall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.rockwallcountytexas.com/101/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rockwall-county:commissioner:lorne-liechty",
+      "name": "Lorne Liechty",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockwall County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "972-204-6000",
+      "email": "lliechty@rockwallcountytexas.com",
+      "url": "https://www.rockwallcountytexas.com/250/Precinct-3",
+      "photo_url": "https://www.rockwallcountytexas.com/ImageRepository/Document?documentID=11652",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East Rusk Street Suite 202 Rockwall , TX 75087",
+      "offices": [],
+      "hours": null,
+      "bio": "Lorne Liechty is a Founding Partner of Liechty, McGinnis, Berryman & Bowen LLP, with a national law practice focusing on commercial real estate and corporate transactions. He earned his J.D. and MBA degrees from the University of Notre Dame in 1981. Lorne is the Rockwall County Commissioner for Precinct 3, having previously served two terms as Mayor of Heath and four terms on the Heath City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Rockwall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.rockwallcountytexas.com/101/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -5250,15 +6776,201 @@
       "confidence": 1
     },
     {
+      "id": "tx:waco:council-member,-mayor-pro-tem:george-chase",
+      "name": "George Chase",
+      "office": "City Council Member, Mayor Pro Tem",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": "District Five",
+      "phone": null,
+      "email": "ccouncil5@wacotx.gov",
+      "url": null,
+      "photo_url": "https://www.waco-texas.com/files/sharedassets/public/v/4/government/images/chase.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waco:council-member:andrea-j.-barefield",
+      "name": "Andrea J. Barefield",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": "District One",
+      "phone": null,
+      "email": "ccouncil1@wacotx.gov",
+      "url": null,
+      "photo_url": "https://www.waco-texas.com/files/sharedassets/public/v/6/government/images/district1.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waco:council-member:darius-ewing",
+      "name": "Darius Ewing",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": "District Four",
+      "phone": null,
+      "email": "ccouncil4@wacotx.gov",
+      "url": null,
+      "photo_url": "https://www.waco-texas.com/files/sharedassets/public/v/1/government/images/district4.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waco:council-member:isabel-lozano",
+      "name": "Isabel Lozano",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": "District Two",
+      "phone": null,
+      "email": "ccouncil2@wacotx.gov",
+      "url": null,
+      "photo_url": "https://www.waco-texas.com/files/sharedassets/public/v/6/government/images/district2.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waco:council-member:jed-cole",
+      "name": "Jed Cole",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": "District Three",
+      "phone": null,
+      "email": "ccouncil3@wacotx.gov",
+      "url": null,
+      "photo_url": "https://www.waco-texas.com/files/sharedassets/public/v/7/government/images/district3.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waco:mayor:jim-holmes",
+      "name": "Jim Holmes",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Waco City Council",
+      "district": null,
+      "phone": null,
+      "email": "wacomayor@wacotx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waco",
+        "state": "TX"
+      },
+      "source_url": "https://www.waco-texas.com/Government/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:williamson-county:commissioner:cynthia-long",
       "name": "Cynthia Long",
       "office": "Commissioner",
       "level": "county",
       "body": "Williamson County Commissioners Court",
-      "district": "Pct. 2",
+      "district": "Precinct 2",
       "phone": "512-943-1100",
       "email": null,
-      "url": null,
+      "url": "https://www.wilco.org/382/Precinct-Two",
       "photo_url": null,
       "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
@@ -5266,8 +6978,11 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:williamson-county:commissioner:russ-boles",
@@ -5275,7 +6990,7 @@
       "office": "Commissioner",
       "level": "county",
       "body": "Williamson County Commissioners Court",
-      "district": "Pct. 4",
+      "district": "Precinct 4",
       "phone": "512-943-1100",
       "email": null,
       "url": null,
@@ -5286,8 +7001,11 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:williamson-county:commissioner:terry-cook",
@@ -5295,10 +7013,10 @@
       "office": "Commissioner",
       "level": "county",
       "body": "Williamson County Commissioners Court",
-      "district": "Pct. 1",
+      "district": "Precinct 1",
       "phone": "512-943-1100",
       "email": null,
-      "url": null,
+      "url": "https://www.wilco.org/349/Precinct-One",
       "photo_url": null,
       "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
@@ -5306,8 +7024,11 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:williamson-county:commissioner:valerie-covey",
@@ -5315,7 +7036,7 @@
       "office": "Commissioner",
       "level": "county",
       "body": "Williamson County Commissioners Court",
-      "district": "Pct. 3",
+      "district": "Precinct 3",
       "phone": "512-943-1100",
       "email": null,
       "url": null,
@@ -5326,8 +7047,11 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:williamson-county:county-judge:steven-snell",

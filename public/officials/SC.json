@@ -1,12 +1,15 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 46,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 73,
   "cities": [
     "Anderson County",
     "Beaufort County",
+    "Charleston",
+    "Columbia",
     "Greenville County",
     "Lexington County",
+    "Pickens County",
     "Spartanburg County"
   ],
   "officials": [
@@ -566,6 +569,626 @@
       },
       "source_url": "https://www.beaufortcountysc.gov/council/council-members/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:aaron-tobias-polkey",
+      "name": "Aaron Tobias Polkey",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Four",
+      "phone": "843-670-1876",
+      "email": "polkeya@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/474/45741",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=40407",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "As a fourth-generation peninsular Charlestonian proud of his Gullah Geechee heritage, Aaron Polkey is recognized as an inspirational leader, gifted communicator, and tireless advocate for historically marginalized individuals and communities. He serves as President & CEO of Palmetto Project, a statewide nonprofit organization, and previously worked as a Senior Program Attorney at Futures Without Violence. Polkey is an attorney who has advocated for affordable housing and equal voting rights.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:ben-dallesandro",
+      "name": "Ben D'Allesandro",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Six",
+      "phone": "843-693-1146",
+      "email": null,
+      "url": "https://www.charleston-sc.gov/476/45738",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=40460",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:boyd-gregg",
+      "name": "Boyd Gregg",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District One",
+      "phone": "843-408-9798",
+      "email": "greggb@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/471/District-One-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=31270",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "80 Broad Street Charleston, SC 29401",
+      "offices": [],
+      "hours": null,
+      "bio": "Boyd was elected in January 2022 to serve as Councilmember for District 1. He is a licensed, professional engineer with Energy Systems Group, LLC, specializing in water resource recovery facilities. Boyd holds a B.S. and M.S. in Civil Engineering from Clemson University.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:jim-mcbride",
+      "name": "Jim McBride",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Three",
+      "phone": "843-732-3128",
+      "email": "mcbridej@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/473/District-Three-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=35612",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1842\nJohns Island, SC 29457",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim was elected in November 2023 and sworn in as City Councilmember for District 3 in January 2024. He retired honorably from the U.S. Marine Corps as a Lieutenant Colonel after 25 years of active-duty service. Jim currently works for a remote patient monitoring technology company and lives on Johns Island with his wife, Lynn.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:karl-l.-brady,-jr.",
+      "name": "Karl L. Brady, Jr.",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Five",
+      "phone": null,
+      "email": "bradyk@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/475/District-Five-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=33101",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Karl L. Brady, Jr. has served as the Charleston City Councilmember for District 5, representing Outer West Ashley, since 2019. He serves as Chair of the Ad Hoc Rules Committee and Special Facilities Committee, and Vice Chair of the Human Resources Committee and Traffic and Transportation Committee. Outside of City Council, Karl is the Director of Government Affairs for the Charleston Animal Society.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:kevin-shealy",
+      "name": "Kevin Shealy",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Two",
+      "phone": "843-442-6680",
+      "email": "shealyk@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/1129/District-2-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/images/InfoAdvanced/118/Kevin%20Shealy%202.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "80 Broad Street\nCharleston, SC 29401",
+      "offices": [],
+      "hours": null,
+      "bio": "Kevin Shealy was elected District Two Councilmember in November of 2017. He is the owner and operator of the Kevin Shealy Insurance Agency, which supports hundreds of West Ashley families and businesses daily.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:leslie-skardon",
+      "name": "Leslie Skardon",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Twelve",
+      "phone": null,
+      "email": null,
+      "url": "https://www.charleston-sc.gov/482/45753",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:michael-s.-seekings",
+      "name": "Michael S. Seekings",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Eight",
+      "phone": "843-853-5353",
+      "email": "seekingsm@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/478/District-Eight-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentID=25378",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Serving as Councilmember for District Eight is Michael S. Seekings, who was re-elected to his second term November 2017.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:perry-k.-waring",
+      "name": "Perry K. Waring",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Seven",
+      "phone": "843-763-5388",
+      "email": "waringp@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/477/District-Seven-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/images/InfoAdvanced/125/Councilmember%20Waring.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P,O, Box 81087 Charleston, SC 29416",
+      "offices": [],
+      "hours": null,
+      "bio": "Representing District Seven is Councilmember Perry K. Waring, who was elected November 2011. He is a Financial Planner and holds a Bachelor of Science in Banking and Finance from the University of South Carolina (1977).",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:ross-a.-appel",
+      "name": "Ross A. Appel",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Eleven",
+      "phone": null,
+      "email": null,
+      "url": "https://www.charleston-sc.gov/481/District-Eleven-Councilmember",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:stephen-bowden",
+      "name": "Stephen Bowden",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Ten",
+      "phone": "757-567-0907",
+      "email": "bowdens@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/480/District-Ten-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=31123",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Stephen M. Bowden was elected to represent District 10 in November 2021. He graduated from Old Dominion University and the University of South Carolina School of Law. After a legal career representing homeowners, he joined the Charleston County Public Defender’s Office, where he also works with the Veteran’s Treatment Court.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:charleston:council-member:william-p.-tinkler",
+      "name": "William P. Tinkler",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": "District Nine",
+      "phone": null,
+      "email": "tinklerw@charleston-sc.gov",
+      "url": "https://www.charleston-sc.gov/479/District-Nine-Councilmember",
+      "photo_url": "https://www.charleston-sc.gov/ImageRepository/Document?documentId=35611",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "80 Broad St, Charleston, SC 29401",
+      "offices": [],
+      "hours": null,
+      "bio": "William P. Tinkler won the election to represent District 9 in November 2023. He is a lifelong resident of and small business owner in West Ashley, and a graduate of Porter-Gaud School, Emory University, and the University of South Carolina School of Law. After law school, he worked as a staff attorney and law clerk before entering private practice, where he represents people and businesses in various legal matters.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "SC"
+      },
+      "source_url": "https://www.charleston-sc.gov/180/Members-Districts",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:city-manager:teresa-wilson",
+      "name": "Teresa Wilson",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": null,
+      "phone": "803-545-3480",
+      "email": "email@columbiasc.gov",
+      "url": "https://columbiasc.gov/city-manager/",
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2025/08/city-manager-2025-home.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1737 Main Street\nColumbia, SC 29201",
+      "offices": [],
+      "hours": null,
+      "bio": "As the City Manager of Columbia, South Carolina, Teresa Wilson stands as a transformative force, guiding the capital city toward a future defined by growth, innovation, and resilience. With a steadfast commitment to excellence, Wilson leads the city’s executive team, ensuring Columbia remains a vibrant, thriving community where residents and visitors alike can live, work, and play. Her leadership has been instrumental in driving Columbia’s development, prioritizing public safety, fostering economic growth, and improving the quality of life for all who call the city home.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:council-member:edward-h.-mcdowell,-jr.",
+      "name": "Edward H. McDowell, Jr.",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "District II",
+      "phone": "803-351-8747",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2026/01/Councilman-Edward-McDowell.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:council-member:peter-m.-brown",
+      "name": "Peter M. Brown",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "District IV",
+      "phone": "803-360-3971",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2026/01/Councilman-Peter-Brown.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:council-member:sam-p.-johnson",
+      "name": "Sam P. Johnson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "At-Large",
+      "phone": "803-719-6158",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2026/01/Councilman-Sam-Johnson-3.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:council-member:tyler-d.-bailey",
+      "name": "Tyler D. Bailey",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "At-Large",
+      "phone": "803-908-6830",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2024/01/tyler-d-bailey-tn.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:council-member:will-brennan",
+      "name": "Will Brennan",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "District III",
+      "phone": "803-876-4919",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2026/01/Councilman-Will-Brennan.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:mayor-pro-tem:tina-n.-herbert",
+      "name": "Tina N. Herbert",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": "District I",
+      "phone": "803-814-7207",
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2026/01/Councilwoman-Tina-Herbert.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:columbia:mayor:daniel-rickenmann",
+      "name": "Daniel Rickenmann",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Columbia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://columbiasc.gov/wp-content/uploads/2025/12/Untitled-design-94.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Columbia",
+        "state": "SC"
+      },
+      "source_url": "https://columbiasc.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1217,6 +1840,223 @@
       },
       "source_url": "https://www.lex-co.sc.gov/council-members",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:chairman,-county-council-member:alex-saitta",
+      "name": "Alex Saitta",
+      "office": "Chairman, County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 3",
+      "phone": "864-997-4265",
+      "email": "asaitta@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/alex-saitta.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-37.jpg?t=202502140924580",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 Fairway Drive Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:clerk-to-council:jessica-varney",
+      "name": "Jessica Varney",
+      "office": "Clerk to Council",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": null,
+      "phone": "864-898-5856",
+      "email": "jessicav@pickenscountysc.gov",
+      "url": null,
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Varney%20Jessica%20Headshot%20-%20Copy.jpg?t=202606031501050",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Pickens County Administration Facility 222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:county-council-member:c.-claiborne-linvill",
+      "name": "C. Claiborne Linvill",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 1",
+      "phone": "864-765-1496",
+      "email": "clinvill@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/c_claiborne_linvill.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-44.jpg?t=202502140927460",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:county-council-member:chris-bowers",
+      "name": "Chris Bowers",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 5",
+      "phone": "864-293-0700",
+      "email": "cbowers@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/chris_bowers.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-47%20-%20Copy.jpg?t=202502140922570",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:county-council-member:dr.-a.d.-holloway",
+      "name": "Dr. A.D. Holloway",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 6",
+      "phone": "864-997-8665",
+      "email": "dholloway@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/dr_a_d_holloway.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-41%20-%20Copy%20(2).jpg?t=202502140923470",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:county-council-member:scott-lang",
+      "name": "Scott Lang",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 4",
+      "phone": "864-997-8900",
+      "email": "slang@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/scott_lang.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-39.jpg?t=202505190927500",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:pickens-county:vice-chairman,-county-council-member:chris-lollis",
+      "name": "Chris Lollis",
+      "office": "Vice Chairman, County Council Member",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": "District 2",
+      "phone": "864-549-6503",
+      "email": "clollis@pickenscountysc.gov",
+      "url": "https://www.co.pickens.sc.us/government/county_council/government/county_council/vice_chairman_chris_lollis.php",
+      "photo_url": "https://www.co.pickens.sc.us/government/county_council/Pickens%20County%202025-46.jpg?t=202502140927160",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 McDaniel Avenue, B-1 Pickens, SC 29671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "SC"
+      },
+      "source_url": "https://www.co.pickens.sc.us/government/county_council/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
