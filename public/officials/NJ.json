@@ -1,13 +1,15 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 28,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 46,
   "cities": [
     "Essex County",
     "Gloucester County",
     "Hudson County",
+    "Hunterdon County",
     "Jersey City",
-    "Newark"
+    "Newark",
+    "Paterson"
   ],
   "officials": [
     {
@@ -287,6 +289,285 @@
       },
       "source_url": "https://www.hudsoncountynj.org/#",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:commissioner,-hunterdon-county-board-of-commissioners:jeff-kuhl",
+      "name": "Jeff Kuhl",
+      "office": "Commissioner, Hunterdon County Board of Commissioners",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1102",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=172",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=5949",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Jeff Kuhl is a sixth-generation Hunterdon County resident and COO at Kuhl Corporation with an engineering background. He has a long history of public service, starting on the Raritan Township Planning Board in the late 90s, and aims to support local businesses and preserve the county's rural quality of life.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:commissioner,-hunterdon-county-board-of-commissioners:shaun-c.-van-doren",
+      "name": "Shaun C. Van Doren",
+      "office": "Commissioner, Hunterdon County Board of Commissioners",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1102",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=119",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=3316",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Mr. Van Doren was first elected to the Board of Chosen County Commissioners in 2018. He serves as a County Commissioner and holds various liaison and committee assignments, including Co-Liaison for the Budget Committee and Liaison for the Health and Human Services Departments. He has a background in project management and chemistry, and extensive experience in local government and community service.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:commissioner,-hunterdon-county-board-of-commissioners:susan-soloway",
+      "name": "Susan Soloway",
+      "office": "Commissioner, Hunterdon County Board of Commissioners",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1102",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=118",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=7846",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Susan J. Soloway is a County Commissioner for the Hunterdon County Board of County Commissioners, with her term expiring December 31, 2027. She has extensive government experience, including serving as a Franklin Township Committee Member and Mayor. Professionally, she is an accountant and holds a Bachelor of Science in Accounting from the University of Scranton.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:county-clerk:mary-h.-melfi",
+      "name": "Mary H. Melfi",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1214",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=31",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=11824",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Mary H. Melfi is in her fifth five-year term as County Clerk and has been a Hunterdon County resident for over 40 years. She served on the Flemington Borough Council from 1994-2006 and the Planning Board from 1993-2018. She is a Past President of the Constitutional Officers Association of New Jersey and the New Jersey Association of Counties.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nj:hunterdon-county:county-prosecutor:renée-m.-robeson",
+      "name": "Renée M. Robeson",
+      "office": "County Prosecutor",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "prosecutor@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?eid=37",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=488",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Renée M. Robeson was sworn in as Hunterdon County Prosecutor on July 6, 2021, after serving as Acting Prosecutor since June 1, 2021. Prior to this role, she was an Assistant Prosecutor with the Mercer County Prosecutor's Office for over 17 years, where she led trial teams and specialized units. Prosecutor Robeson is a recipient of the Mercer County Victim Witness Advocacy Award and a graduate of West Virginia University and Widener University School of Law.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:county-sheriff:fredrick-w.-brown",
+      "name": "Fredrick W. Brown",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1166",
+      "email": "sheriff@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/1247/Meet-the-Sheriff",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=5034",
+      "social": {
+        "twitter": "https://www.co.hunterdon.nj.us/x",
+        "facebook": "https://www.co.hunterdon.nj.us/facebook",
+        "instagram": "https://www.co.hunterdon.nj.us/instagram",
+        "linkedin": null,
+        "youtube": "https://www.co.hunterdon.nj.us/youtube"
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Frederick W. Brown is a lifelong resident of Hunterdon County. He served for seven years in the U.S. Naval Reserve and had a distinguished 31-year career with the Raritan Township Police Department, including seven years as Chief of Police. Elected Hunterdon County Sheriff in 2010, he aims to enhance public service and inter-agency cooperation.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:county-surrogate:heidi-rohrbach",
+      "name": "Heidi Rohrbach",
+      "office": "County Surrogate",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "surrogate@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=247",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=13677",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Surrogate Heidi Rohrbach was sworn into office on January 1, 2024.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:deputy-director,-hunterdon-county-board-of-commissioners:zachary-t.-rich",
+      "name": "Zachary T. Rich",
+      "office": "Deputy Director, Hunterdon County Board of Commissioners",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1102",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=117",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=3318",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "Zachary T. Rich began his public service volunteering on his hometown Finance Advisory Committee and Planning Board, and was first elected to the Board of County Commissioners in 2020. He works tirelessly for his constituents, driving results and ensuring fiscal responsibility. Zach enjoys supporting his wife Emily and daughters Juliet, Brielle, and Reagan with their passion for competitive cheerleading.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hunterdon-county:director,-hunterdon-county-board-of-commissioners:john-e.-lanza",
+      "name": "John E. Lanza",
+      "office": "Director, Hunterdon County Board of Commissioners",
+      "level": "county",
+      "body": "Hunterdon County Commissioners Court",
+      "district": null,
+      "phone": "908-788-1102",
+      "email": "commissioners@co.hunterdon.nj.us",
+      "url": "https://www.co.hunterdon.nj.us/directory.aspx?EID=115",
+      "photo_url": "https://www.co.hunterdon.nj.us/ImageRepository/Document?documentId=3315",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 Main Street, PO Box 2900 Flemington, NJ 08822",
+      "offices": [],
+      "hours": null,
+      "bio": "John E. Lanza has been a practicing attorney since 2001 and has worked with his family's Flemington-based law firm, Lanza and Lanza LLP, since its founding in 2005. He earned a political science degree from Boston College in 1998 and graduated cum laude from Seton Hall University School of Law in 2001. Mr. Lanza was first elected to the Board of County Commissioners in 2013 and is currently serving his fourth term.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Hunterdon County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.co.hunterdon.nj.us/1556/Hunterdon-County-Elected-and-Appointed-O",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -886,6 +1167,285 @@
       },
       "source_url": "https://www.newarknj.gov/27/Government",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:alex-mendez",
+      "name": "Alex Mendez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "3rd Ward",
+      "phone": "973-321-1250",
+      "email": null,
+      "url": "https://www.patersonnj.gov/department/division.php?structureid=31",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:ibrahim-omar",
+      "name": "Ibrahim Omar",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "6th Ward",
+      "phone": "973-321-1250",
+      "email": null,
+      "url": "https://www.patersonnj.gov/department/division.php?structureid=34",
+      "photo_url": "https://www.patersonnj.gov/egov/images/1742247953_45886_o.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:luis-velez",
+      "name": "Luis Velez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "5th Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:md-forid-uddin",
+      "name": "MD Forid Uddin",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:michael-jackson",
+      "name": "Michael Jackson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "1st Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:ruby-cotton",
+      "name": "Ruby Cotton",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "4th Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-member:shahin-khalique",
+      "name": "Shahin Khalique",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "2nd Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-president:dr.-lilisa-mimms",
+      "name": "Dr. Lilisa Mimms",
+      "office": "Council President",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "At-Large",
+      "phone": "973-321-1250",
+      "email": null,
+      "url": "https://www.patersonnj.gov/department/division.php?structureid=35",
+      "photo_url": "https://www.patersonnj.gov/egov/images/1783214778_97637_o.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:paterson:council-vice-president:maritza-davila",
+      "name": "Maritza Davila",
+      "office": "Council Vice President",
+      "level": "local",
+      "body": "Paterson City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Paterson City Hall 155 Market Street Paterson, New Jersey 07505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Paterson",
+        "state": "NJ"
+      },
+      "source_url": "https://www.patersonnj.gov/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

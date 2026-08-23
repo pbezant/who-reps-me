@@ -1,11 +1,13 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 29,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 37,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
-    "Doña Ana County"
+    "Doña Ana County",
+    "Sandoval County",
+    "Santa Fe County"
   ],
   "officials": [
     {
@@ -905,6 +907,254 @@
       },
       "source_url": "https://www.donaana.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner,-chairman:victor-rodriguez",
+      "name": "Victor Rodriguez",
+      "office": "Planning & Zoning Commissioner, Chairman",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner,-vice-chairman:stephen-conrad",
+      "name": "Stephen Conrad",
+      "office": "Planning & Zoning Commissioner, Vice Chairman",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner:dennis-trujillo",
+      "name": "Dennis Trujillo",
+      "office": "Planning & Zoning Commissioner",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner:james-g.-maduena",
+      "name": "James G. Maduena",
+      "office": "Planning & Zoning Commissioner",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner:jerry-mangham",
+      "name": "Jerry Mangham",
+      "office": "Planning & Zoning Commissioner",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner:kevin-shelton",
+      "name": "Kevin Shelton",
+      "office": "Planning & Zoning Commissioner",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:sandoval-county:planning-&-zoning-commissioner:sue-harrelson",
+      "name": "Sue Harrelson",
+      "office": "Planning & Zoning Commissioner",
+      "level": "county",
+      "body": "Sandoval County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "pzcomm@sandovalcountynm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandoval County",
+        "state": "NM"
+      },
+      "source_url": "https://www.sandovalcountynm.gov/departments/planning-zoning/p-z-commissioners/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe-county:commissioner:lisa-cacari-stone",
+      "name": "Lisa Cacari Stone",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Santa Fe County Commissioners Court",
+      "district": "District 2",
+      "phone": "505-986-6329",
+      "email": "cacaristone@santafecountynm.gov",
+      "url": "https://www.santafecountynm.gov/county-commissioners/lisa-cacari-stone",
+      "photo_url": "https://www.santafecountynm.gov/images/Lisa-Cacari-Stone-for-Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 276 Santa Fe, NM 87504-0276",
+      "offices": [],
+      "hours": null,
+      "bio": "I’m Lisa Cacari Stone, your Santa Fe County Commissioner for District 2. I am honored to serve our community with a leadership approach grounded in equity, transparency, and meaningful public engagement. My work is guided by two core principles: People Matter and Policy for All.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Santa Fe County",
+        "state": "NM"
+      },
+      "source_url": "https://www.santafecountynm.gov/county-commissioners/lisa-cacari-stone/sponsored-legislation",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

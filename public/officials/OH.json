@@ -1,18 +1,21 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 70,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 92,
   "cities": [
     "Akron",
     "Cincinnati",
+    "Clark County",
     "Cleveland",
     "Columbus",
     "Franklin County",
+    "Greene County",
     "Hamilton County",
     "Lake County",
     "Summit County",
     "Toledo",
-    "Warren County"
+    "Warren County",
+    "Wood County"
   ],
   "officials": [
     {
@@ -884,6 +887,37 @@
       "confidence": 1
     },
     {
+      "id": "oh:clark-county:clark-county-commissioner:greg-r.-kaffenbarger",
+      "name": "Greg R. Kaffenbarger",
+      "office": "Clark County Commissioner",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "OH"
+      },
+      "source_url": "https://www.clarkcountyohio.gov/m/newsflash/home/detail/904",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "oh:cleveland:mayor:justin-m.-bibb",
       "name": "Justin M. Bibb",
       "office": "Mayor",
@@ -1036,6 +1070,502 @@
       },
       "source_url": "https://franklincountyohio.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:clerk-of-courts:aj-williams",
+      "name": "AJ Williams",
+      "office": "Clerk of Courts",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5290",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/394/Clerk-of-Courts",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentID=20455",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Greene County Courthouse\n45 N. Detroit St.\nXenia, OH 45385",
+      "offices": [],
+      "hours": "Monday - Friday\n8:00 am - 4:00 pm",
+      "bio": "The County Clerk of Courts is an elected position that serves a four-year term. Currently held by AJ Williams.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:commissioner:richard-gould",
+      "name": "Richard Gould",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5006",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/669/Commissioner-Richard-Gould-CPA",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentId=10740",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "35 Greene St. Xenia, Ohio 45385",
+      "offices": [],
+      "hours": null,
+      "bio": "Richard (Dick) Gould is a lifetime resident of the Dayton area. Dick is a certified public accountant and was elected as a Greene County Commissioner in 2023 for a four-year term ending January 2026.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:commissioner:sarah-j.-mays",
+      "name": "Sarah J. Mays",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5006",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/1737/Commissioner-Sarah-J-Mays",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentID=32655",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "35 Greene Street Xenia, OH 43585",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah J. Mays, a lifelong resident of Xenia, Ohio, has dedicated her career to building a stronger Greene County through collaboration and community development. She earned a bachelor’s degree in psychology from Cedarville University and worked in the university’s Development and Advancement Office for seven years.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:commissioner:thomas-r.-koogler",
+      "name": "Thomas R. Koogler",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5006",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/671/Commissioner-Thomas-R-Koogler",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentId=10087",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "35 Greene St. Xenia, Ohio 45385",
+      "offices": [],
+      "hours": null,
+      "bio": "Tom Koogler is a life-long resident of Greene County, Ohio, and a successful entrepreneur who founded T.R. Koogler Refuse Collection, later sold to Waste Management, Inc., where he served as a Regional Vice President. He began his third four-year term as Greene County Commissioner in 2021, bringing extensive business experience and a commitment to numerous nonprofit organizations.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-auditor:kraig-hagler",
+      "name": "Kraig Hagler",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5065",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/366/Auditor",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentID=32544",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "69 Greene St.\nXenia, OH 45385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-coroner:dr.-kevin-sharrett",
+      "name": "Dr. Kevin Sharrett",
+      "office": "County Coroner",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-5050",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/414/Coroner",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2295 Greene Way Blvd Xenia , OH 45385",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 am - 4:00 pm",
+      "bio": "Dr. Kevin Sharrett has served Greene County as Coroner since 1997. Dr. Sharrett is a 1991 graduate of the Wright State University School of Medicine and also has a family practice in Jamestown.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-engineer:stephanie-ann-goff",
+      "name": "Stephanie Ann Goff",
+      "office": "County Engineer",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "937-562-7500",
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/422/Engineer",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentID=22742",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "615 Dayton-Xenia Rd.\nXenia , OH 45385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-prosecutor:david-d.-hayes",
+      "name": "David D. Hayes",
+      "office": "County Prosecutor",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-recorder:joe-kennedy",
+      "name": "Joe Kennedy",
+      "office": "County Recorder",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-sheriff:scott-anger",
+      "name": "Scott Anger",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:county-treasurer:denise-percival",
+      "name": "Denise Percival",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:judge,-common-pleas-court:adolfo-a.-tornichio",
+      "name": "Adolfo A. Tornichio",
+      "office": "Judge, Common Pleas Court",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/673/Judge-Tornichio",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Judge Adolfo Tornichio was raised in Greene County, Ohio, and earned a Bachelor of Arts in political science from Wright State University. He graduated from the University of Toledo College of Law in 1998 with a Juris Doctorate and began his legal career as an Assistant Prosecuting Attorney for Greene County.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:judge,-common-pleas-court:michael-a.-buckwalter",
+      "name": "Michael A. Buckwalter",
+      "office": "Judge, Common Pleas Court",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/672/Judge-Buckwalter",
+      "photo_url": "https://www.greenecountyohio.gov/ImageRepository/Document?documentID=10088",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Judge Michael Buckwalter was born and raised in Greene County, Ohio, graduating from Xenia High School in 1975, Wright State University in 1981, and the University of Dayton School of Law in 1984. While in law school, he clerked for several judges in Greene County Common Pleas Court and was selected to the National Moot Court Team. He now serves as Greene County Common Pleas Court Senior Judge and is the current Presiding Judge.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:judge,-domestic-relations-court:cynthia-martin",
+      "name": "Cynthia Martin",
+      "office": "Judge, Domestic Relations Court",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenecountyohio.gov/674/Meet-the-Judge",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Judge Cynthia Martin began her judicial career as Domestic Relations Court Magistrate in 2006, serving as Chief Magistrate from 2014-2020 before being elected Judge in 2021. She earned her law degree from the University of Dayton, School of Law in 1992, and previously worked as a solo practitioner focusing on family law and as an attorney for Ohio's Attorney General.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:judge,-juvenile-court:amy-h.-lewis",
+      "name": "Amy H. Lewis",
+      "office": "Judge, Juvenile Court",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:greene-county:judge,-probate-court:thomas-m.-odiam",
+      "name": "Thomas M. O'Diam",
+      "office": "Judge, Probate Court",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "OH"
+      },
+      "source_url": "https://www.greenecountyohio.gov/365/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -2183,6 +2713,161 @@
       },
       "source_url": "https://www.warrencountyohio.gov/About/ElectedOfficials/Index",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:wood-county:tax-incentive-review-council-(tirc)-member:cathy-newlove-wenig",
+      "name": "Cathy Newlove-Wenig",
+      "office": "Tax Incentive Review Council (TIRC) Member",
+      "level": "county",
+      "body": "Wood County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wood County",
+        "state": "OH"
+      },
+      "source_url": "https://www.woodcountyohio.gov/209/Tax-Incentive-Review-Council-TIRC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:wood-county:tax-incentive-review-council-(tirc)-member:john-cheney",
+      "name": "John Cheney",
+      "office": "Tax Incentive Review Council (TIRC) Member",
+      "level": "county",
+      "body": "Wood County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wood County",
+        "state": "OH"
+      },
+      "source_url": "https://www.woodcountyohio.gov/209/Tax-Incentive-Review-Council-TIRC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:wood-county:tax-incentive-review-council-(tirc)-member:michael-sibbersen",
+      "name": "Michael Sibbersen",
+      "office": "Tax Incentive Review Council (TIRC) Member",
+      "level": "county",
+      "body": "Wood County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wood County",
+        "state": "OH"
+      },
+      "source_url": "https://www.woodcountyohio.gov/209/Tax-Incentive-Review-Council-TIRC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:wood-county:tax-incentive-review-council-(tirc)-member:tim-harris",
+      "name": "Tim Harris",
+      "office": "Tax Incentive Review Council (TIRC) Member",
+      "level": "county",
+      "body": "Wood County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wood County",
+        "state": "OH"
+      },
+      "source_url": "https://www.woodcountyohio.gov/209/Tax-Incentive-Review-Council-TIRC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:wood-county:tax-incentive-review-council-(tirc)-member:valerie-hovland",
+      "name": "Valerie Hovland",
+      "office": "Tax Incentive Review Council (TIRC) Member",
+      "level": "county",
+      "body": "Wood County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wood County",
+        "state": "OH"
+      },
+      "source_url": "https://www.woodcountyohio.gov/209/Tax-Incentive-Review-Council-TIRC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

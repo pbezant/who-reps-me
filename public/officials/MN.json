@@ -1,14 +1,17 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 48,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 73,
   "cities": [
     "Anoka County",
     "Minneapolis",
+    "Olmsted County",
     "Ramsey County",
+    "Scott County",
     "St. Louis County",
     "St. Paul",
-    "Washington County"
+    "Washington County",
+    "Wright County"
   ],
   "officials": [
     {
@@ -663,6 +666,223 @@
       "confidence": 1
     },
     {
+      "id": "mn:olmsted-county:county-commissioner:bob-hopkins",
+      "name": "Bob Hopkins",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:brian-mueller",
+      "name": "Brian Mueller",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:david-senjem",
+      "name": "David Senjem",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:gregory-wright",
+      "name": "Gregory Wright",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:laurel-podulke-smith",
+      "name": "Laurel Podulke-Smith",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:mark-thein",
+      "name": "Mark Thein",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:olmsted-county:county-commissioner:michelle-rossman",
+      "name": "Michelle Rossman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Olmsted County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olmsted County",
+        "state": "MN"
+      },
+      "source_url": "https://www.olmstedcounty.gov/engage",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "mn:ramsey-county:board-of-commissioner,-chair:rafael-e.-ortega",
       "name": "Rafael E. Ortega",
       "office": "Board of Commissioner, Chair",
@@ -897,6 +1117,409 @@
       },
       "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:batsheva-halpert",
+      "name": "Batsheva Halpert",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:catherine-rogers",
+      "name": "Catherine Rogers",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:corrine-mars",
+      "name": "Corrine Mars",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:erika-nesvig",
+      "name": "Erika Nesvig",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:faisal-suleiman",
+      "name": "Faisal Suleiman",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:frederick-ehlers",
+      "name": "Frederick Ehlers",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:jerry-finkel",
+      "name": "Jerry Finkel",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:josh-berg",
+      "name": "Josh Berg",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:shailee-chowdary",
+      "name": "Shailee Chowdary",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:shanna-pratt",
+      "name": "Shanna Pratt",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:steve-schroeder",
+      "name": "Steve Schroeder",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:trevor-johnson",
+      "name": "Trevor Johnson",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:scott-county:human-services-resource-council-member:tyler-sherette",
+      "name": "Tyler Sherette",
+      "office": "Human Services Resource Council Member",
+      "level": "county",
+      "body": "Scott County Commissioners Court",
+      "district": "Commissioner District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scott County",
+        "state": "MN"
+      },
+      "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1517,6 +2140,161 @@
       },
       "source_url": "https://www.washingtoncountymn.gov/108/Board-of-Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:wright-county:commissioner:darek-vetsch",
+      "name": "Darek Vetsch",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wright County Commissioners Court",
+      "district": "District 2",
+      "phone": "763-682-7687",
+      "email": "darek.vetsch@wrightcountymn.gov",
+      "url": "https://www.wrightcountymn.gov/830/District-2-Commissioner-Darek-Vetsch",
+      "photo_url": "https://www.wrightcountymn.gov/ImageRepository/Document?documentID=27610",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Vetsch began serving on the County Board in 2017. His current term expires December 31, 2028.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Wright County",
+        "state": "MN"
+      },
+      "source_url": "https://www.wrightcountymn.gov/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:wright-county:commissioner:jeanne-holland",
+      "name": "Jeanne Holland",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wright County Commissioners Court",
+      "district": "District 3",
+      "phone": "763-682-7686",
+      "email": "Jeanne.Holland@wrightcountymn.gov",
+      "url": "https://www.wrightcountymn.gov/1152/District-3-Commissioner-Jeanne-Holland",
+      "photo_url": "https://www.wrightcountymn.gov/ImageRepository/Document?documentID=27611",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Holland began serving on the County Board in 2023. Her current term expires December 31, 2026.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Wright County",
+        "state": "MN"
+      },
+      "source_url": "https://www.wrightcountymn.gov/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:wright-county:commissioner:kirby-moynagh",
+      "name": "Kirby Moynagh",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wright County Commissioners Court",
+      "district": "District 5",
+      "phone": "763-682-7685",
+      "email": "Kirby.moynagh@wrightcountymn.gov",
+      "url": "https://www.wrightcountymn.gov/778/District-5-Commissioner-Kirby-Moynagh",
+      "photo_url": "https://www.wrightcountymn.gov/ImageRepository/Document?documentID=33788",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Moynagh began serving on the County Board in 2025. His current term expires December 31, 2028.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Wright County",
+        "state": "MN"
+      },
+      "source_url": "https://www.wrightcountymn.gov/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:wright-county:commissioner:nadine-schoen",
+      "name": "Nadine Schoen",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wright County Commissioners Court",
+      "district": "District 4",
+      "phone": "763-682-7696",
+      "email": "Nadine.Schoen@wrightcountymn.gov",
+      "url": "https://www.wrightcountymn.gov/1153/District-4-Commissioner-Nadine-Schoen",
+      "photo_url": "https://www.wrightcountymn.gov/ImageRepository/Document?documentID=37430",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3650 Braddock Avenue NE Buffalo, MN 55313",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Schoen began serving on the County Board in 2023. Her current term expires December 31, 2026.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Wright County",
+        "state": "MN"
+      },
+      "source_url": "https://www.wrightcountymn.gov/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:wright-county:commissioner:tina-diedrick",
+      "name": "Tina Diedrick",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wright County Commissioners Court",
+      "district": "District 1",
+      "phone": "763-682-7697",
+      "email": "tina.m.diedrick@wrightcountymn.gov",
+      "url": "https://www.wrightcountymn.gov/1151/District-1-Commissioner-Tina-Diedrick",
+      "photo_url": "https://www.wrightcountymn.gov/ImageRepository/Document?documentID=27609",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Diedrick began serving on the County Board in 2023. Her current term expires December 31, 2026.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Wright County",
+        "state": "MN"
+      },
+      "source_url": "https://www.wrightcountymn.gov/27/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

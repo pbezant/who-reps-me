@@ -1,12 +1,14 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 65,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 81,
   "cities": [
     "Chicago",
     "Cook County",
     "Lake County",
     "Madison County",
+    "McLean County",
+    "Peoria County",
     "St. Clair County"
   ],
   "officials": [
@@ -1589,6 +1591,502 @@
       },
       "source_url": "https://www.madisoncountyil.gov/government/county_board/board_committees.php",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:circuit-clerk:don-r.-everhart",
+      "name": "Don R. Everhart",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5301",
+      "email": "deverhart@mcleancountyil.gov",
+      "url": "https://www.mcleancountyil.gov/80/Circuit-Clerk",
+      "photo_url": "https://www.mcleancountyil.gov/ImageRepository/Document?documentID=13834",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 am - 4:30 pm except legal holidays or court closures",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-auditor:michelle-l.-anderson",
+      "name": "Michelle L. Anderson",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5150",
+      "email": null,
+      "url": "https://www.mcleancountyil.gov/77/Auditor",
+      "photo_url": "https://www.mcleancountyil.gov/ImageRepository/Document?documentID=13832",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 am - 4:30 pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-clerk:kathy-michael",
+      "name": "Kathy Michael",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5190",
+      "email": "countyclerk@mcleancountyil.gov",
+      "url": "https://www.mcleancountyil.gov/84/County-Clerk",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-coroner:kathleen-yoder",
+      "name": "Kathleen Yoder",
+      "office": "County Coroner",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5210",
+      "email": null,
+      "url": "https://www.mcleancountyil.gov/83/Coroner",
+      "photo_url": "https://www.mcleancountyil.gov/ImageRepository/Document?documentID=13835",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday to Friday\n8:00 a.m. to 4:30 p.m.\nResponds to deaths 24 hours a day including weekends and holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-recorder:kathy-michael",
+      "name": "Kathy Michael",
+      "office": "County Recorder",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5170",
+      "email": "recorder@mcleancountyil.gov",
+      "url": "https://www.mcleancountyil.gov/94/Recorder-Old",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 am - 4:30 pm",
+      "bio": "Kathy Michael, as County Clerk/Recorder, oversees the McLean County Recorder’s Office, which is responsible for recording, archiving, and retrieving documents submitted to be recorded. The office is dedicated to providing professional and efficient service to the public.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-sheriff:matt-lane",
+      "name": "Matt Lane",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5034",
+      "email": "matthew.lane@mcleancountyil.gov",
+      "url": "https://www.mcleancountyil.gov/95/Sheriff",
+      "photo_url": "https://www.mcleancountyil.gov/ImageRepository/Document?documentID=24965",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/mcleancoil",
+        "instagram": "https://www.instagram.com/mcleancoil/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 am - 4:30 pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:county-treasurer:rebecca-c.-mcneil",
+      "name": "Rebecca C. McNeil",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5180",
+      "email": "treasurer@mcleancountyil.gov",
+      "url": "https://www.mcleancountyil.gov/97/Treasurer-Tax-Collector",
+      "photo_url": "https://www.mcleancountyil.gov/ImageRepository/Document?documentID=14560",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": "Monday to Friday 8 a.m. to 4:30 p.m.",
+      "bio": "The County Treasurer is responsible for overseeing the collection and distribution of over $484 million dollars to nearly 200 taxing bodies. This collection process extends over two installments and concludes with the annual tax sale. The McLean County Collector is billing over 68,000 real estate parcels.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:regional-office-of-education:mark-jontry",
+      "name": "Mark Jontry",
+      "office": "Regional Office of Education",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5120",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:mclean-county:states-attorney:erika-reynolds",
+      "name": "Erika Reynolds",
+      "office": "State's Attorney",
+      "level": "county",
+      "body": "McLean County Commissioners Court",
+      "district": null,
+      "phone": "309-888-5400",
+      "email": null,
+      "url": "https://www.mcleancountyil.gov/96/States-Attorney",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 E Washington St Bloomington, IL 61701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "McLean County",
+        "state": "IL"
+      },
+      "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:circuit-clerk:robert-spears",
+      "name": "Robert Spears",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-672-6000",
+      "email": null,
+      "url": "https://www.peoriacounty.gov/284",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=2710",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 Main Street Room G-22 Peoria, IL 61602",
+      "offices": [],
+      "hours": "8:30am - 5:00pm",
+      "bio": "The Circuit Clerk is an elected official with a four-year term. The Circuit Clerk is the keeper of both the seal of the circuit court and the court records, including files and exhibits. The Circuit Clerk's Office also processes criminal and juvenile delinquency cases, ordinance, conservation and traffic violation cases and civil cases.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:coroner:jamie-harwood",
+      "name": "Jamie Harwood",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-669-2000",
+      "email": "jharwood@peoriacounty.org",
+      "url": "https://www.peoriacounty.gov/Directory.aspx?EID=5",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=2711",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 Main Street\nPeoria, IL 61602",
+      "offices": [],
+      "hours": null,
+      "bio": "Jamie Harwood is a Registered Nurse with 20 years of nursing experience, holding a Diploma in Nursing from Methodist School of Nursing and a Bachelor of Science in Nursing from Pennsylvania State University. He is a Certified Forensic Nurse, passionate about caring for families of the deceased and actively involved in community health and suicide prevention initiatives.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:county-clerk:rachael-parker",
+      "name": "Rachael Parker",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-672-6059",
+      "email": null,
+      "url": "https://www.peoriacounty.gov/Directory.aspx?EID=211",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=9016",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 Main Street\nPeoria, IL 61602",
+      "offices": [],
+      "hours": null,
+      "bio": "Rachael Parker was elected Peoria County Clerk on November 3, 2020, having previously been appointed on August 8, 2019. She was first elected to the County Board in November 2010 and has a background in economic development and small business ownership. Actively involved in the community, Rachael is a graduate of Bradley University and is proud to serve the residents of Peoria County.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:sheriff:chris-watkins",
+      "name": "Chris Watkins",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-697-8515",
+      "email": null,
+      "url": "https://www.peoriacounty.gov/1214",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=11308",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/peoriacountysheriffsoffice",
+        "instagram": "https://www.instagram.com/pcso_il/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 N. Maxwell Road\nPeoria, IL 61604",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Watkins has devoted his entire life to serving others, whether serving in the United States Air Force or as a 18-year veteran of the Peoria County Sheriff’s Office.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:states-attorney:jodi-hoos",
+      "name": "Jodi Hoos",
+      "office": "State's Attorney",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-672-6900",
+      "email": null,
+      "url": "https://www.peoriacounty.gov/1216",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=14143",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/PeoriaCountyStatesAttorney/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 Main Street, Room 111, Peoria, IL 61602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:superintendent,-regional-office-of-education:george-mckenna",
+      "name": "George McKenna",
+      "office": "Superintendent, Regional Office of Education",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=6229",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:peoria-county:treasurer:branden-martin",
+      "name": "Branden Martin",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Peoria County Commissioners Court",
+      "district": null,
+      "phone": "309-672-6065",
+      "email": "bmartin@peoriacounty.gov",
+      "url": "https://www.peoriacounty.gov/directory.aspx?EID=281",
+      "photo_url": "https://www.peoriacounty.gov/ImageRepository/Document?documentId=13178",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 Main Street\nPeoria, IL 61602",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Peoria County",
+        "state": "IL"
+      },
+      "source_url": "https://www.peoriacounty.gov/693/Elected-Officials",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

@@ -1,12 +1,15 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-22T05:11:08.657Z",
-  "count": 82,
+  "generated_at": "2026-08-23T05:05:18.632Z",
+  "count": 121,
   "cities": [
     "Alamance County",
     "Asheville",
+    "Brunswick County",
     "Buncombe County",
+    "Catawba County",
     "Charlotte",
+    "Davidson County",
     "Durham County",
     "Fayetteville",
     "Forsyth County",
@@ -14,8 +17,11 @@
     "Mecklenburg County",
     "New Hanover County",
     "Onslow County",
+    "Orange County",
     "Pitt County",
-    "Raleigh"
+    "Raleigh",
+    "Randolph County",
+    "Rowan County"
   ],
   "officials": [
     {
@@ -252,6 +258,161 @@
       "confidence": 1
     },
     {
+      "id": "nc:brunswick-county:commissioner:cooke",
+      "name": "Cooke",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brunswick County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "30 Government Center Drive NE Bolivia, NC 28422",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick County",
+        "state": "NC"
+      },
+      "source_url": "https://www.brunswickcountync.gov/m/newsflash/home/detail/861",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:brunswick-county:commissioner:mike-forte",
+      "name": "Mike Forte",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brunswick County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "30 Government Center Drive NE Bolivia, NC 28422",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick County",
+        "state": "NC"
+      },
+      "source_url": "https://www.brunswickcountync.gov/m/newsflash/home/detail/861",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:brunswick-county:commissioner:pat-sykes",
+      "name": "Pat Sykes",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brunswick County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "30 Government Center Drive NE Bolivia, NC 28422",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick County",
+        "state": "NC"
+      },
+      "source_url": "https://www.brunswickcountync.gov/m/newsflash/home/detail/861",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:brunswick-county:commissioner:randy-thompson",
+      "name": "Randy Thompson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brunswick County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "30 Government Center Drive NE Bolivia, NC 28422",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick County",
+        "state": "NC"
+      },
+      "source_url": "https://www.brunswickcountync.gov/m/newsflash/home/detail/861",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:brunswick-county:commissioner:williams",
+      "name": "Williams",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brunswick County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "30 Government Center Drive NE Bolivia, NC 28422",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick County",
+        "state": "NC"
+      },
+      "source_url": "https://www.brunswickcountync.gov/m/newsflash/home/detail/861",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:buncombe-county:commissioner:drew-ball",
       "name": "Drew Ball",
       "office": "Commissioner",
@@ -283,6 +444,99 @@
       "confidence": 1
     },
     {
+      "id": "nc:catawba-county:assistant-county-manager:adam-lindsay",
+      "name": "Adam Lindsay",
+      "office": "Assistant County Manager",
+      "level": "county",
+      "body": "Catawba County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25 Government Drive Newton, NC 28658",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Catawba County",
+        "state": "NC"
+      },
+      "source_url": "https://www.catawbacountync.gov/county-government/county-management/county-managers-office/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:catawba-county:assistant-county-manager:paul-murray",
+      "name": "Paul Murray",
+      "office": "Assistant County Manager",
+      "level": "county",
+      "body": "Catawba County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25 Government Drive Newton, NC 28658",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Catawba County",
+        "state": "NC"
+      },
+      "source_url": "https://www.catawbacountync.gov/county-government/county-management/county-managers-office/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:catawba-county:county-manager:mary-s.-furtado",
+      "name": "Mary S. Furtado",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Catawba County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "MFurtado@CatawbaCountyNC.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25 Government Drive Newton, NC 28658",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Catawba County",
+        "state": "NC"
+      },
+      "source_url": "https://www.catawbacountync.gov/county-government/county-management/county-managers-office/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:charlotte:city-attorney:andrea-leslie-fite",
       "name": "Andrea Leslie-Fite",
       "office": "City Attorney",
@@ -291,7 +545,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.charlottenc.gov/City-Government/Leadership/City-Attorney-Andrea-Leslie-Fite",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -310,8 +564,8 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1
     },
     {
       "id": "nc:charlotte:city-clerk:stephanie-c.-kel​ly",
@@ -345,15 +599,15 @@
       "confidence": 0.9
     },
     {
-      "id": "nc:charlotte:city-manager:marcus-d.-jones",
-      "name": "Marcus D. Jones",
-      "office": "City Manager",
+      "id": "nc:charlotte:city-clerk:stephanie-c.-kelly",
+      "name": "Stephanie C. Kelly",
+      "office": "City Clerk",
       "level": "local",
       "body": "Charlotte City Council",
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.charlottenc.gov/City-Government/Leadership/City-Clerk-Stephanie-C-Kelly",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -372,8 +626,39 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
-      "confidence": 0.9
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:charlotte:city-manager:marcus-d.-jones",
+      "name": "Marcus D. Jones",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Charlotte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.charlottenc.gov/City-Government/Leadership/City-Manager",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Charlotte",
+        "state": "NC"
+      },
+      "source_url": "https://www.charlottenc.gov",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 1
     },
     {
       "id": "nc:charlotte:council-member:dimple-ajmera",
@@ -434,8 +719,225 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner,-chair:karen-watford",
+      "name": "Karen Watford",
+      "office": "County Commissioner, Chair",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": "336-242-2000",
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/509/Commissioner-Karen-Watford",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=11660",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "913 N. Greensboro Street, Lexington, North Carolina 27292",
+      "offices": [],
+      "hours": null,
+      "bio": "Chair Watford has been married to Samuel Watford of Thomasville for 40 years, has two daughters, Jordan Lupton and Morgan Watford, and two grandchildren, Owen and Leah. She is a graduate of East Davidson High School, attended Elon College, and graduated with a B.A. degree in English from the University of NC at Greensboro. Chair Watford taught for the Davidson County Schools from 1974-2011.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner,-vice-chairman:todd-yates",
+      "name": "Todd Yates",
+      "office": "County Commissioner, Vice-Chairman",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/501/Commissioner-Todd-Yates",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=11661",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Todd Yates, born in 1965 in Denton, North Carolina, is a fourth-generation resident of Davidson County. He enjoys boating, camping, cooking, traveling, and reading, and currently resides in the Holly Grove Community. Yates is a past member of the Denton Jaycees and has held a private pilot license.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner:chris-elliott",
+      "name": "Chris Elliott",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": "336-242-2000",
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/502/Commissioner-Chris%20Elliott",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=6081",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "913 N. Greensboro Street, Lexington, North Carolina 27292",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Chris Elliott resides in the Central Davidson community and has been married for 15 years to Shannon Elliott. They have two children Mason and Riley Elliott. Commissioner Elliott is an active member of Madison Heights Freewill Baptist Church and also serves as Associate Youth Pastor.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner:fred-mcclure",
+      "name": "Fred McClure",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": "336-242-2000",
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/503/Commissioner-Fred-McClure",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=6084",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "913 N. Greensboro Street, Lexington, North Carolina 27292",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Fred McClure was born in Tulsa, Oklahoma, and resides in the Welcome community. He served in the United States Air Force and Navy, including two tours in Vietnam, before opening McClure Insurance Group in 1975. He has served multiple non-consecutive terms as a Davidson County Commissioner since 1994 and is a Past-President of the NCACC.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner:matt-mizell",
+      "name": "Matt Mizell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": "336-242-2000",
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/494/Commissioner-Matt-Mizell",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=12593",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "913 N. Greensboro Street, Lexington, North Carolina 27292",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Matt Mizell was raised in the town of Midway and now lives in the Arcadia community with his wife. He is a graduate of North Davidson High School and earned a B.A. in Political Science from High Point University, followed by a Master’s in Education and an MBA from Wake Forest University.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner:steve-shell",
+      "name": "Steve Shell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.co.davidson.nc.us/506/Commissioner-Steve-Shell",
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=11463",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Steve Shell's family settled in Davidson County in 1752. He has two sons, four grandchildren, and is married to Linda Craver Shell. He attended DDCC and Forsyth Tech, and received special career training from the US Department of Justice and the US Secret Service.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:davidson-county:county-commissioner:tripp-kester",
+      "name": "Tripp Kester",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Davidson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.co.davidson.nc.us/ImageRepository/Document?documentID=11656",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Davidson County",
+        "state": "NC"
+      },
+      "source_url": "https://www.co.davidson.nc.us/487/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 0.9
     },
     {
       "id": "nc:durham-county:commissioner,-chair:dr.-mike-lee",
@@ -1977,6 +2479,223 @@
       "confidence": 1
     },
     {
+      "id": "nc:orange-county:board-of-county-commissioner:earl-mckee",
+      "name": "Earl McKee",
+      "office": "Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": "919-812-3248",
+      "email": "emckee@orangecountync.gov",
+      "url": "https://www.orangecountync.gov/1005/Earl-McKee",
+      "photo_url": "https://www.orangecountync.gov/ImageRepository/Document?documentID=23998",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": "Earl McKee is a lifelong resident of Orange County, with a background in agriculture. He was first elected to the Orange County Board of Commissioners in 2010, serving as Board Vice-Chair and Chair, and has been actively involved in various community organizations and boards.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:board-of-county-commissioner:marilyn-carter",
+      "name": "Marilyn Carter",
+      "office": "Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:board-of-county-commissioner:phyllis-portie-ascott",
+      "name": "Phyllis Portie-Ascott",
+      "office": "Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": "984-484-1716",
+      "email": "pportie-ascott@orangecountync.gov",
+      "url": "https://www.orangecountync.gov/3116/Phyllis-Portie-Ascott",
+      "photo_url": "https://www.orangecountync.gov/ImageRepository/Document?documentID=23091",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": "Phyllis Portie-Ascott, born and raised in Eastern North Carolina, is an entrepreneur who has owned human services businesses and is currently a licensed Real Estate Broker. She has held leadership roles in various political and community organizations, including the Northern Orange Black Voters Alliance and the Orange County Democratic Party, and holds multiple degrees.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:board-of-county-commissioner:rani-dasi",
+      "name": "Rani Dasi",
+      "office": "Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.orangecountync.gov/3971/Rani-Dasi",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:board-of-county-commissioner:sally-greene",
+      "name": "Sally Greene",
+      "office": "Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": "919-260-4077",
+      "email": "sgreene@orangecountync.gov",
+      "url": "https://www.orangecountync.gov/1004/Sally-Greene",
+      "photo_url": "https://www.orangecountync.gov/ImageRepository/Document?documentID=23997",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": "A native of Gilmer, Texas, Sally Greene has called Orange County home for three decades. Prior to her election to the Board of County Commissioners in 2018, she served three terms on the Chapel Hill Town Council, demonstrating policy expertise in housing, community development, and criminal justice reform. She holds a J.D. from George Washington University and a Ph.D. in English from UNC-Chapel Hill, and currently works as an associate attorney.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:chair,-board-of-county-commissioner:jean-hamilton",
+      "name": "Jean Hamilton",
+      "office": "Chair, Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": "919-360-0428",
+      "email": "jhamilton@orangecountync.gov",
+      "url": "https://www.orangecountync.gov/2591/Jean-Hamilton",
+      "photo_url": "https://www.orangecountync.gov/ImageRepository/Document?documentID=14036",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": "Jean Hamilton holds a Ph.D. in Economics from UC Berkeley and a Masters in Social Work from UNC Chapel Hill. She served on the Chapel Hill Carrboro City Schools Board of Education and has been involved in community and public health, later starting a private psychotherapy and counseling practice.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:orange-county:vice-chair,-board-of-county-commissioner:amy-fowler",
+      "name": "Amy Fowler",
+      "office": "Vice-Chair, Board of County Commissioner",
+      "level": "county",
+      "body": "Orange County Commissioners Court",
+      "district": null,
+      "phone": "919-698-8168",
+      "email": "afowler@orangecountync.gov",
+      "url": "https://www.orangecountync.gov/2589/Amy-Fowler",
+      "photo_url": "https://www.orangecountync.gov/ImageRepository/Document?documentID=23996",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Tryon St. Hillsborough, NC 27278",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong North Carolinian, Amy Fowler, MD, MPH, is a pediatrician at the Chapel Hill Children's Clinic. She earned her M.D. and Master of Public Health from UNC-Chapel Hill and has been invested in improving local education, health, and supports for individuals with disabilities, including serving on the CHCCS Board of Education.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Orange County",
+        "state": "NC"
+      },
+      "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:pitt-county:chairman,-county-commissioner:mark-c.-smith",
       "name": "Mark C. Smith",
       "office": "Chairman, County Commissioner",
@@ -2501,6 +3220,502 @@
       },
       "source_url": "https://raleighnc.gov/city-council",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:associate-county-attorney:aimee-scotton",
+      "name": "Aimee Scotton",
+      "office": "Associate County Attorney",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": "336-318-6603",
+      "email": "Aimee.Scotton@randolphcountync.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=132",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=754",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Randolph County Office Building 2nd Floor 725 McDowell Road Asheboro, North Carolina",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:chairman:darrell-l.-frye",
+      "name": "Darrell L. Frye",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": "District 2",
+      "phone": "336-812-5951",
+      "email": "Darrell.Frye@RandolphCountyNc.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=125",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=732",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2105 Shady Oak Lane Archdale, NC 27263",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:chief-finance-officer:michael-mckenzie",
+      "name": "Michael McKenzie",
+      "office": "Chief Finance Officer",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": "336-318-6300",
+      "email": null,
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=129",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=6926",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "725 McDowell Road Asheboro, NC 27205",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:clerk-to-the-board:dana-crisco",
+      "name": "Dana Crisco",
+      "office": "Clerk to the Board",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=124",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=730",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:county-attorney:ben-morgan",
+      "name": "Ben Morgan",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=131",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=753",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Randolph County Office Building 2nd Floor 725 McDowell Road Asheboro, North Carolina",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:county-commissioner:david-l.-allen",
+      "name": "David L. Allen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": "District 3",
+      "phone": "336-622-2070",
+      "email": "David.Allen@RandolphCountyNC.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=123",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=729",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6411 Shiloh Road Liberty, NC 27298",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:county-commissioner:hope-b.-haywood",
+      "name": "Hope B. Haywood",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": "District 4",
+      "phone": "336-963-0241",
+      "email": "Hope.Haywood@RandolphCountyNC.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=126",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=733",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "978 W River Run Asheboro, NC 27205",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:county-commissioner:lester-g.-rivenbark",
+      "name": "Lester G. Rivenbark",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": "District 5",
+      "phone": "336-465-5999",
+      "email": "Lester.Rivenbark@randolphcountync.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=216",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=4591",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2771 Danny Bell Rd. Asheboro, NC 27205",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:county-manager:zeb-holden",
+      "name": "Zeb Holden",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=207",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=4208",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Randolph County Office Building 2nd Floor 725 McDowell Road Asheboro, North Carolina",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:deputy-county-manager:william-johnson",
+      "name": "William Johnson",
+      "office": "Deputy County Manager",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": null,
+      "phone": "336-318-6619",
+      "email": null,
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=206",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=4589",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Randolph County Office Building 2nd Floor 725 McDowell Road Asheboro, North Carolina",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:randolph-county:vice-chair:kenny-j.-kidd",
+      "name": "Kenny J. Kidd",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Randolph County Commissioners Court",
+      "district": "District 1",
+      "phone": "336-626-0644",
+      "email": "Kenny.Kidd@RandolphCountyNC.gov",
+      "url": "https://www.randolphcountync.gov/m/directory/employee?eid=128",
+      "photo_url": "https://www.randolphcountync.gov/ImageRepository/Document?documentID=744",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "816 Worth Street Asheboro, NC 27203",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Randolph County",
+        "state": "NC"
+      },
+      "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rowan-county:chairman:greg-edds",
+      "name": "Greg Edds",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Rowan County Commissioners Court",
+      "district": null,
+      "phone": "704-216-8181",
+      "email": "Greg.Edds@rowancountync.gov",
+      "url": null,
+      "photo_url": "https://www.rowancountync.gov/ImageRepository/Document?documentId=4014",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 W Innes Street Salisbury, NC 28144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rowan County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rowancountync.gov/726/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rowan-county:commissioner:craig-pierce",
+      "name": "Craig Pierce",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rowan County Commissioners Court",
+      "district": null,
+      "phone": "704-216-8181",
+      "email": "Craig.Pierce@rowancountync.gov",
+      "url": null,
+      "photo_url": "https://www.rowancountync.gov/ImageRepository/Document?documentId=4032",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 W Innes Street Salisbury, NC 28144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rowan County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rowancountync.gov/726/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rowan-county:commissioner:judy-klusman",
+      "name": "Judy Klusman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rowan County Commissioners Court",
+      "district": null,
+      "phone": "704-216-8181",
+      "email": "Judy.Klusman@rowancountync.gov",
+      "url": null,
+      "photo_url": "https://www.rowancountync.gov/ImageRepository/Document?documentId=4031",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 W Innes Street Salisbury, NC 28144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rowan County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rowancountync.gov/726/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rowan-county:commissioner:mike-caskey",
+      "name": "Mike Caskey",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rowan County Commissioners Court",
+      "district": null,
+      "phone": "704-216-8181",
+      "email": "Mike.Caskey@rowancountync.gov",
+      "url": null,
+      "photo_url": "https://www.rowancountync.gov/ImageRepository/Document?documentId=4016",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 W Innes Street Salisbury, NC 28144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rowan County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rowancountync.gov/726/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rowan-county:vice-chairman:jim-greene",
+      "name": "Jim Greene",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Rowan County Commissioners Court",
+      "district": null,
+      "phone": "704-216-8181",
+      "email": "Jim.Greene@rowancountync.gov",
+      "url": null,
+      "photo_url": "https://www.rowancountync.gov/ImageRepository/Document?documentId=4015",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 W Innes Street Salisbury, NC 28144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rowan County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rowancountync.gov/726/Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

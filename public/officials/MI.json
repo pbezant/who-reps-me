@@ -1,15 +1,19 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 60,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 96,
   "cities": [
     "Ann Arbor",
+    "Berrien County",
+    "Calhoun County",
     "Grand Rapids",
     "Ingham County",
     "Kalamazoo County",
     "Kent County",
     "Macomb County",
-    "Marquette"
+    "Marquette",
+    "Monroe County",
+    "St. Clair County"
   ],
   "officials": [
     {
@@ -230,6 +234,595 @@
       },
       "source_url": "https://www.a2gov.org/city-council/",
       "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:alex-r.-ott",
+      "name": "Alex R. Ott",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:chokwe-pitchford",
+      "name": "Chokwe Pitchford",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:david-vollrath",
+      "name": "David Vollrath",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:jim-curran",
+      "name": "Jim Curran",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:jon-hinkelman",
+      "name": "Jon Hinkelman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:julie-wuerfel",
+      "name": "Julie Wuerfel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:mamie-l.-yarbrough",
+      "name": "Mamie L. Yarbrough",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:r.-mckinley-elliott",
+      "name": "R. McKinley Elliott",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:rayonte-bell",
+      "name": "Rayonte Bell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:robert-p.-harrison",
+      "name": "Robert P. Harrison",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:sharon-j.-tyler",
+      "name": "Sharon J. Tyler",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:berrien-county:commissioner:teri-sue-freehling",
+      "name": "Teri Sue Freehling",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Berrien County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Main Street, St. Joseph, MI 49085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Berrien County",
+        "state": "MI"
+      },
+      "source_url": "https://www.berriencounty.org/705/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners,-chair:derek-king",
+      "name": "Derek King",
+      "office": "Board of Commissioners, Chair",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 5",
+      "phone": "269-209-5161 (Cell); 269-979-5758 (Work)",
+      "email": "dfkvvs1@sbcglobal.net",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Derek%20King_360x360.jpg?t=202604071541250",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2811 Capital Ave SW Battle Creek, MI 49015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:albert-morehart",
+      "name": "Albert Morehart",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 3",
+      "phone": "269-441-8184",
+      "email": "amorehart@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Albert%20Morehart_360x360.jpg?t=202604071541030",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Lynwood Drive Battle Creek, MI 49015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:dan-strowbridge",
+      "name": "Dan Strowbridge",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 4",
+      "phone": "269-967-8558",
+      "email": "DStrowbridge@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Dan%20Strowbridge_360x360.jpg?t=202604071541120",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "19115 12 Mile Rd Battle Creek, MI 49014",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:dominic-oo",
+      "name": "Dominic Oo",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 1",
+      "phone": "269-317-1770",
+      "email": "DOo@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Dominic%20Oo_360x360.jpg?t=202604071540440",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "181 Woodhaven Drive Battle Creek, MI 49015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:gary-tompkins",
+      "name": "Gary Tompkins",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": "GTompkins@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Gary%20Tompkins_360x360.jpg?t=202604071541470",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:matt-saxton",
+      "name": "Matt Saxton",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": "MSaxton@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Matt%20Saxton_360x360.jpg?t=202604071541390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:calhoun-county:board-of-commissioners:monique-french",
+      "name": "Monique French",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Calhoun County Commissioners Court",
+      "district": "District 2",
+      "phone": "810-814-6487",
+      "email": "mfrench@calhouncountymi.gov",
+      "url": null,
+      "photo_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/Monique%20French_360x360.jpg?t=202604071540550",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "26 Roosevelt Ave. W Battle Creek, MI 49037",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Calhoun County",
+        "state": "MI"
+      },
+      "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -1749,6 +2342,533 @@
       },
       "source_url": "https://marquettemi.gov/citycommission/",
       "extracted_at": "2026-08-21T20:38:13.875Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:administrator/chief-financial-officer:michael-bosanac",
+      "name": "Michael Bosanac",
+      "office": "Administrator / Chief Financial Officer",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": null,
+      "phone": "734-240-7267",
+      "email": "michael_bosanac@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=74",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=2847",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:brian-lamour",
+      "name": "Brian Lamour",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 5",
+      "phone": "734-240-7003",
+      "email": "blamour_dist5@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=377",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=4311",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:david-c.-hoffman",
+      "name": "David C. Hoffman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 1",
+      "phone": "734-240-7003",
+      "email": "dhoffman_dist1@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=76",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=541",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:david-swartout",
+      "name": "David Swartout",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 7",
+      "phone": "734-240-7003",
+      "email": "dswartout_dist7@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=82",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=540",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:david-vensel",
+      "name": "David Vensel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 6",
+      "phone": "734-240-7003",
+      "email": "dvensel_dist6@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=75",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=1594",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:dawn-asper",
+      "name": "Dawn Asper",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 3",
+      "phone": "734-240-7003",
+      "email": "dasper_dist3@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=72",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=4309",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:greg-moore,-jr.",
+      "name": "Greg Moore, Jr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 8",
+      "phone": "734-731-4734",
+      "email": "gmoore_dist8@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=79",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=544",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:j.-henry-lievens",
+      "name": "J. Henry Lievens",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 9",
+      "phone": "734-240-7003",
+      "email": "hlievens_dist9@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=78",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=545",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:commissioner:jay-heinzerling",
+      "name": "Jay Heinzerling",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 4",
+      "phone": "734-240-7003",
+      "email": "jheinzerling_dist4@monroemi.org",
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=77",
+      "photo_url": "https://www.co.monroe.mi.us/ImageRepository/Document?documentID=1993",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:monroe-county:deputy-clerk/administrative-assistant:grace-miles",
+      "name": "Grace Miles",
+      "office": "Deputy Clerk / Administrative Assistant",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": null,
+      "phone": "734-240-7003",
+      "email": null,
+      "url": "https://www.co.monroe.mi.us/m/directory/employee?eid=81",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Monroe County Courthouse 125 East Second Street Monroe, Michigan 48161-2197",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "MI"
+      },
+      "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:dave-vandenbossche",
+      "name": "Dave Vandenbossche",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 7",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/630",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/630",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave. Suite 203 Port Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": "Dave Vandenbossche is the District 7 Commissioner, currently serving as Chair of the Judiciary/Public Safety Committee. He is a small business owner with over 30 years of experience and previously served as Mayor of Marine City from 2016-2020.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:david-rushing",
+      "name": "David Rushing",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 6",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/629",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/629",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave.\nSuite 203\nPort Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": "David Rushing serves as Vice Chair of the Board of Commissioners and Chair of the Ways and Means Committee (2013 - 2024). He has been the District 6 County Commissioner since 2010.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:joi-torello",
+      "name": "Joi Torello",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 4",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/627",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/627",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave. Suite 203 Port Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": "Joi Torello is the Chair of the Environmental/Public Works Committee and a small business owner. She holds an Associates Degree in Criminal Justice from St. Clair County Community College and is a certified Residential Builder and Asbestos Inspector/Contractor in Michigan.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:kerry-ange",
+      "name": "Kerry Ange",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 2",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/625",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/625",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave. Suite 203 Port Huron, MI 48060",
+      "offices": [],
+      "hours": "Monday - Friday 8:00AM - 4:30PM",
+      "bio": "Kerry Ange serves as Chair of the Ways and Means Committee. She holds a Juris Doctor from the University of Detroit Mercy School of Law and a Master of Christian Ministry from Liberty University, and is a member of the Michigan State Bar.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:lisa-beedon",
+      "name": "Lisa Beedon",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 3",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/626",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/626",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave. Suite 203 Port Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": "Lisa Beedon serves as Chair of the Human Services Committee (2021 - Present). She is the Executive Director of Blue Water Developmental Housing, Inc. and previously served as a City of Port Huron Council Member from 2018 to 2020.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:paul-zeller",
+      "name": "Paul Zeller",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 5",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/628",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/628",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave., Suite 203 Port Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:st.-clair-county:board-of-commissioners:steven-simasko",
+      "name": "Steven Simasko",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": "District 1",
+      "phone": "810-989-6900",
+      "email": null,
+      "url": "https://www.stclaircounty.org/Offices/624",
+      "photo_url": "https://www.stclaircounty.org/Pages/RetrieveImage/624",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Grand River Ave.\nSuite 203\nPort Huron, MI 48060",
+      "offices": [],
+      "hours": null,
+      "bio": "Steven Simasko serves as Chair of the Board of Commissioners and Platt Board. He is a licensed Michigan Attorney with 17+ years in private practice, and a graduate of Yale High School, SC4, and Cooley Law School. He previously served as St. Clair County Commissioner for District 1 (2008-2015) and as an Assistant Prosecutor for 20 years.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "MI"
+      },
+      "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     }
   ]

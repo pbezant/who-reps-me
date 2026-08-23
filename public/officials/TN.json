@@ -1,16 +1,359 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 32,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 50,
   "cities": [
+    "Blount County",
     "Chattanooga",
     "Davidson County",
     "Hamilton County",
     "Knoxville",
+    "Murfreesboro",
     "Shelby County",
     "Williamson County"
   ],
   "officials": [
+    {
+      "id": "tn:blount-county:director,-accounting-&-budgeting:brian-baldwin",
+      "name": "Brian Baldwin",
+      "office": "Director, Accounting & Budgeting",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-animal-center:ron-crow",
+      "name": "Ron Crow",
+      "office": "Director, Animal Center",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-community-justice-initiative:charles-sterling",
+      "name": "Charles Sterling",
+      "office": "Director, Community Justice Initiative",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-development-&-planning:thomas-lloyd",
+      "name": "Thomas Lloyd",
+      "office": "Director, Development & Planning",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-emergency-management:lance-coleman",
+      "name": "Lance Coleman",
+      "office": "Director, Emergency Management",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-general-services:don-stallions",
+      "name": "Don Stallions",
+      "office": "Director, General Services",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-human-resources:jaclyn-johnson",
+      "name": "Jaclyn Johnson",
+      "office": "Director, Human Resources",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-information-technology-(it):justin-mcclure",
+      "name": "Justin McClure",
+      "office": "Director, Information Technology (IT)",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-probation:mark-shelton",
+      "name": "Mark Shelton",
+      "office": "Director, Probation",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-purchasing:kari-barrett",
+      "name": "Kari Barrett",
+      "office": "Director, Purchasing",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:blount-county:director,-recovery-court:amy-galyon",
+      "name": "Amy Galyon",
+      "office": "Director, Recovery Court",
+      "level": "county",
+      "body": "Blount County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blount County",
+        "state": "TN"
+      },
+      "source_url": "https://www.blounttn.gov/1821/Mayors-Department-Heads",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
     {
       "id": "tn:chattanooga:council-member:chip-henderson",
       "name": "Chip Henderson",
@@ -794,6 +1137,223 @@
       },
       "source_url": "https://www.knoxvilletn.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:council-member:austin-maxwell",
+      "name": "Austin Maxwell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "629-462-2819",
+      "email": null,
+      "url": "https://www.murfreesborotn.gov/1964",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=31273",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Austin Maxwell, a native of Knoxville, TN, graduated from the University of Tennessee at Knoxville in 1988 and later received his MBA from MTSU in 2007. He retired as a Lieutenant Colonel from the Tennessee Army National Guard in 2017 after 20+ years of service, including deployments to Afghanistan and Iraq. Maxwell was elected to the Murfreesboro City Council in August 2022, with his current term expiring in 2030.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:council-member:jami-averwater",
+      "name": "Jami Averwater",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "615-564-0002",
+      "email": null,
+      "url": "https://www.murfreesborotn.gov/1965",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=31275",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "As a Rutherford County native, Averwater has seen firsthand the growth of Murfreesboro and feels passionately about the City’s success. Averwater has served on the Murfreesboro Planning Commission since 2021 and recognizes it was this opportunity that led her to run for City Council. Jami Averwater’s first term began in 2022. Her current term expires in 2030.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:council-member:kirt-wade",
+      "name": "Kirt Wade",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": null,
+      "email": "kirtwade@murfreesborotn.gov",
+      "url": "https://www.murfreesborotn.gov/1968",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=31274",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kirt Wade was first elected to the Murfreesboro City Council in 2016. Wade’s current term expires in 2028. Wade earned his bachelor’s degree from California Southern University in Irving, California in 1995 after attending Jackson State Community College in Tennessee.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:council-member:madelyn-scales-harris",
+      "name": "Madelyn Scales Harris",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "615-804-8955",
+      "email": null,
+      "url": "https://www.murfreesborotn.gov/1966",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=24764",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Madelyn Scales Harris was first elected to the Murfreesboro City Council in 2010, with her current term expiring in 2030. A Murfreesboro native, she is a graduate of Middle Tennessee State University and retired from State Farm Insurance. Scales Harris comes from a family of \"firsts,\" having been selected as the 1st Female Vice-Mayor, following her father, the 1st Black Male Vice-Mayor, and her mother, the 1st Black Female to serve on the Murfreesboro City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:council-member:shawn-wright",
+      "name": "Shawn Wright",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "615-838-0653",
+      "email": "swright@murfreesborotn.gov",
+      "url": "https://www.murfreesborotn.gov/1967",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=31272",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Shawn Wright was elected to the Murfreesboro City Council in 2020, with his current term expiring in 2028. A lifelong resident of Rutherford County, he holds a BBA from Middle Tennessee State University and an MBA from the University of Memphis. Wright is also a Realtor/real estate broker with CENTURY 21 Wright Realty.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:mayor:shane-mcfarland",
+      "name": "Shane McFarland",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "615-849-2629",
+      "email": null,
+      "url": "https://www.murfreesborotn.gov/497",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=24854",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 West Vine Street\nMurfreesboro, TN 37130",
+      "offices": [],
+      "hours": null,
+      "bio": "Shane McFarland was elected to the Murfreesboro City Council in 2006. McFarland was elected Mayor of Murfreesboro in 2014 and was elected as the youngest Mayor in the history of Murfreesboro. He has helped guide the 13th fastest growing City in the country with programs for renewed downtown development, recruiting corporate jobs, enhanced parks and recreation offerings, additional public safety facilities and a renewed focus on Customer Service.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:murfreesboro:vice-mayor:bill-shacklett",
+      "name": "Bill Shacklett",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Murfreesboro City Council",
+      "district": null,
+      "phone": "615-893-2369",
+      "email": null,
+      "url": "https://www.murfreesborotn.gov/1963",
+      "photo_url": "https://www.murfreesborotn.gov/ImageRepository/Document?documentID=12252",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Bill Shacklett was first elected to the Murfreesboro City Council in 2002 and served until 2006. He was re-elected in 2014 and his current term expires in 2028. A Murfreesboro native, he holds a Bachelor of Science from Middle Tennessee State University and runs Shacklett's Photography.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Murfreesboro",
+        "state": "TN"
+      },
+      "source_url": "https://www.murfreesborotn.gov/424/City-Council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

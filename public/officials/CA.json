@@ -1,12 +1,14 @@
 {
   "state": "CA",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 56,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 60,
   "cities": [
     "Alameda County",
     "Contra Costa County",
+    "El Dorado County",
     "Fresno County",
     "Los Angeles County",
+    "Napa County",
     "Orange County",
     "Placer County",
     "Sacramento County",
@@ -231,6 +233,37 @@
       },
       "source_url": "https://www.contracosta.ca.gov/#tab400c9fd5-9e8f-4a7a-a381-57271bf24ce9_4",
       "extracted_at": "2026-08-20T04:12:57.525Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:el-dorado-county:communications-director:carla-hass",
+      "name": "Carla Hass",
+      "office": "Communications Director",
+      "level": "county",
+      "body": "El Dorado County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "carla.hass@edcgov.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "El Dorado County",
+        "state": "CA"
+      },
+      "source_url": "https://www.eldoradocounty.ca.gov/County-Government/Contact-Us?lang_update=639228614069298259",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {
@@ -541,6 +574,99 @@
       },
       "source_url": "https://www.lacounty.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:napa-county:supervisor:amber-manfree",
+      "name": "Amber Manfree",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/2039/About-Amber-Manfree",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=35473",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "A fifth generation Napan, rural resident, and scientist, Amber brings a unique skillset to local governance. Since the 2010s, she has been a strong advocate for sustainable natural resource management in Napa County, serving on the Groundwater Sustainability Plan Advisory Committee and as Board Secretary for Protect Rural Napa, a local nonprofit. Amber earned her doctorate in Geography from UC Davis in 2014, specializing in land use change, mapping, and plant ecology, and her professional background includes work in natural resources management and sustainable transportation.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:napa-county:supervisor:anne-cottrell",
+      "name": "Anne Cottrell",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/1368/About-Anne-Cottrell",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=27513",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "Anne Cottrell was elected to represent District 3 on the Board of Supervisors in 2022. Anne was born and raised in St. Helena; her parents moved here in 1969 to be part of Napa Valley's agriculture and winemaking community. Anne earned an undergraduate degree from Yale University and a law degree from UC Berkeley.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:napa-county:supervisor:belia-ramos",
+      "name": "Belia Ramos",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/1384/About-Belia-Ramos",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=27516",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "Belia, who lives in American Canyon with her children, was born in Napa and raised in St. Helena and Pope Valley and calls all of Napa County her home. Prior to joining the Napa County Board of Supervisors, Belia was a law professor, operated her own company, and served as a member of the American Canyon City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

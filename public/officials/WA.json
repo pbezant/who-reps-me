@@ -1,12 +1,15 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 55,
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 74,
   "cities": [
+    "Bellevue",
     "Clark County",
     "King County",
     "Kitsap County",
     "Pierce County",
+    "Seattle",
+    "Skagit County",
     "Snohomish County",
     "Spokane County",
     "Thurston County",
@@ -14,6 +17,223 @@
     "Yakima County"
   ],
   "officials": [
+    {
+      "id": "wa:bellevue:council-member:claire-sumadiwirya",
+      "name": "Claire Sumadiwirya",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:council-member:jared-nieuwenhuis",
+      "name": "Jared Nieuwenhuis",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:council-member:lynne-robinson",
+      "name": "Lynne Robinson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:council-member:naren-briar",
+      "name": "Naren Briar",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:council-member:vishal-bhargava",
+      "name": "Vishal Bhargava",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:deputy-mayor:dave-hamilton",
+      "name": "Dave Hamilton",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellevue:mayor:mo-malakoutian",
+      "name": "Mo Malakoutian",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "425-452-7810",
+      "email": "council@bellevuewa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "450 110th Avenue NE, Bellevue, WA 98004",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "WA"
+      },
+      "source_url": "https://bellevuewa.gov/city-government/city-council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
     {
       "id": "wa:clark-county:chair/councilor:sue-marshall",
       "name": "Sue Marshall",
@@ -942,6 +1162,378 @@
       },
       "source_url": "https://www.piercecountywa.gov/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:alexis-mercedes-rinck",
+      "name": "Alexis Mercedes Rinck",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "Position 8 (Citywide, Representing All of Seattle)",
+      "phone": "206-684-8888",
+      "email": "AlexisMercedes.Rinck@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/alexis-mercedes-rinck",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_rinck_154x154.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=61571320614297",
+        "instagram": "https://www.instagram.com/councilmember.amr/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Alexis Mercedes Rinck is honored to serve as a citywide Councilmember for Position 8, dedicated to empowering residents and ensuring access and opportunity for all. Her office supports policies that prioritize community safety, health, housing, and civil liberties.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:bob-kettle",
+      "name": "Bob Kettle",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 7 (Downtown to Magnolia, including Queen Anne, Uptown, Westlake, Interbay, Eastlake, South Lake Union, and Belltown)",
+      "phone": "206-684-8888",
+      "email": "Robert.Kettle@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/bob-kettle",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_kettle_circle.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Bob Kettle is honored to serve District 7, representing diverse neighborhoods including Downtown, Queen Anne, and Magnolia. He is dedicated to making Seattle a home for future generations, with priorities focused on public safety, public health, and homelessness. He pledges to represent constituents, prioritize oversight of city departments, and create evidence-based policy.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:dan-strauss",
+      "name": "Dan Strauss",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 6 (Northwest Seattle)",
+      "phone": "206-684-8888",
+      "email": "Dan.Strauss@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/dan-strauss",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_struass_circle.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Dan Strauss is honored to represent Seattle's District 6, including Magnolia, Ballard, Phinney Ridge, Green Lake, Greenwood, and Fremont. He is committed to building a safe, affordable city full of opportunity and encourages residents to share their ideas for Seattle's future.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:debora-juarez",
+      "name": "Debora Juarez",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 5 (North Seattle)",
+      "phone": "206-684-8888",
+      "email": "Debora.Juarez@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/debora-juarez",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_juarez_154x154.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "It is a great honor to serve as your District 5 representative on the Seattle City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:dionne-foster",
+      "name": "Dionne Foster",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "Position 9 (Citywide, Representing All of Seattle)",
+      "phone": "206-684-8888",
+      "email": "Dionne.Foster@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/dionne-foster",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council-foster_154x154.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "https://www.instagram.com/cmdionnefoster/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Welcome! It is a privilege to serve as your citywide Councilmember in Position #9 and represent diverse communities across Seattle. I believe local government is at its best when it helps people build fulfilling lives. As Chair of the Housing, Arts, and Civil Rights Committee, I'm committed to tackling the challenges that shape people's everyday lives.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:eddie-lin",
+      "name": "Eddie Lin",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 2 (South Seattle, Yesler Terrace to Rainier Beach)",
+      "phone": "206-684-8888",
+      "email": "Eddie.Lin@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/eddie-lin",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council-lin_154x154.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Welcome! It is an honor to serve as your District 2 representative on the Seattle City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:maritza-rivera",
+      "name": "Maritza Rivera",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 4 (Northeast Seattle)",
+      "phone": "206-684-8888",
+      "email": "Maritza.Rivera@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/maritza-rivera",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_rivera_circle.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Hi, I'm Maritza Rivera. I represent Seattle's District 4, which includes the neighborhoods Bryant, Laurelhurst, Maple Leaf, Ravenna, Roosevelt, Sand Point, the U District, View Ridge, Wallingford, Wedgwood, and Windermere. I am grateful for and humbled by the privilege of representing the citizens and businesses of those communities. Public Safety is my number one priority.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-member:rob-saka",
+      "name": "Rob Saka",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 1 (West Seattle, South Park, Georgetown, and Pioneer Square)",
+      "phone": "206-684-8888",
+      "email": "Rob.Saka@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/rob-saka",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_saka_circle.jpg",
+      "social": {
+        "twitter": "https://twitter.com/CMRobSaka",
+        "facebook": "https://www.facebook.com/profile.php?id=61554734416460",
+        "instagram": "https://www.instagram.com/councilmembersaka",
+        "linkedin": "https://www.linkedin.com/in/rob-saka-6864642a8/",
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "I am honored to have been elected to represent District 1, a growing and dynamic area including West Seattle, Georgetown, South Park, Sodo, and Pioneer Square. Living in the Delridge neighborhood with my family, I've witnessed the district's progress and struggles. My legislative priorities focus on public safety, ending homelessness, affordable housing, and public infrastructure.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:seattle:council-president:joy-hollingsworth",
+      "name": "Joy Hollingsworth",
+      "office": "Council President",
+      "level": "local",
+      "body": "Seattle City Council",
+      "district": "District 3 (Central Seattle)",
+      "phone": "206-684-8888",
+      "email": "Joy.Hollingsworth@seattle.gov",
+      "url": "https://www.seattle.gov/council/members/joy-hollingsworth",
+      "photo_url": "https://www.seattle.gov/images//images/Council/Citywide%20Circle%20Headshots/council_hollingsworth_circle.jpg",
+      "social": {
+        "twitter": "https://x.com/CMJoyHollings",
+        "facebook": null,
+        "instagram": "https://www.instagram.com/cmjoyhollings/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "600 4th Ave. 2nd Floor, Seattle, WA, 98104",
+      "offices": [],
+      "hours": null,
+      "bio": "Hi, I'm Joy Hollingsworth, and I represent Seattle's District 3, which includes Eastlake, Montlake, Madison Park, Madison Valley, Capitol Hill, First Hill, Portage Bay, Leschi, Madrona and the Central District. I am a fourth-generation Seattleite, born and raised in the historic central district neighborhood. Our office is focused on the fundamental elements of essential government services that affect our day-to-day lives, and we are committed to serving all neighborhoods block by block focused on outcomes.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "source_url": "https://www.seattle.gov/council",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:skagit-county:county-commissioner:joe-burns",
+      "name": "Joe Burns",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Skagit County Commissioners Court",
+      "district": "District 3",
+      "phone": "360-416-1300",
+      "email": "commissioners@co.skagit.wa.us",
+      "url": null,
+      "photo_url": "https://www.skagitcounty.net/CountyCommissioners/Images/BURNS_web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1800 Continental Place, Suite 100 Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Skagit County",
+        "state": "WA"
+      },
+      "source_url": "https://www.skagitcounty.net/Departments/CountyCommissioners/Main.htm",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:skagit-county:county-commissioner:peter-browning",
+      "name": "Peter Browning",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Skagit County Commissioners Court",
+      "district": "District 2",
+      "phone": "360-416-1300",
+      "email": "commissioners@co.skagit.wa.us",
+      "url": null,
+      "photo_url": "https://www.skagitcounty.net/CountyCommissioners/Images/BROWNING_web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1800 Continental Place, Suite 100 Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Skagit County",
+        "state": "WA"
+      },
+      "source_url": "https://www.skagitcounty.net/Departments/CountyCommissioners/Main.htm",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:skagit-county:county-commissioner:ron-wesen",
+      "name": "Ron Wesen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Skagit County Commissioners Court",
+      "district": "District 1",
+      "phone": "360-416-1300",
+      "email": "commissioners@co.skagit.wa.us",
+      "url": null,
+      "photo_url": "https://www.skagitcounty.net/CountyCommissioners/Images/WESEN_web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1800 Continental Place, Suite 100 Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Skagit County",
+        "state": "WA"
+      },
+      "source_url": "https://www.skagitcounty.net/Departments/CountyCommissioners/Main.htm",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
     },
     {

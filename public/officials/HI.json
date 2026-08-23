@@ -1,9 +1,10 @@
 {
   "state": "HI",
-  "generated_at": "2026-08-22T05:11:08.657Z",
-  "count": 6,
+  "generated_at": "2026-08-23T05:05:18.632Z",
+  "count": 18,
   "cities": [
-    "Honolulu County"
+    "Honolulu County",
+    "Maui County"
   ],
   "officials": [
     {
@@ -15,7 +16,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.honolulu.gov/mayor/episode-168-kim-hashiro-on-the-new-id-design-and-improving-the-customer-experience-for-city-services/",
       "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/08/kim-300x169.jpg",
       "social": {
         "twitter": null,
@@ -34,8 +35,70 @@
         "state": "HI"
       },
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 0.9
+    },
+    {
+      "id": "hi:honolulu-county:honolulu-youth-commissioner:kalena-cooke-shae",
+      "name": "Kalena Cooke Shae",
+      "office": "Honolulu Youth Commissioner",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.honolulu.gov/mayor/episode-165-catching-up-with-members-of-the-honolulu-youth-commission/",
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/youth-commissioners--300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "hi:honolulu-county:honolulu-youth-commissioner:tanya-paia",
+      "name": "Tanya Paia",
+      "office": "Honolulu Youth Commissioner",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.honolulu.gov/mayor/episode-165-catching-up-with-members-of-the-honolulu-youth-commission/",
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/youth-commissioners--300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 0.8
     },
     {
       "id": "hi:honolulu-county:honolulu-zoo-director:john-berry",
@@ -46,7 +109,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.honolulu.gov/mayor/episode-163-former-smithsonian-national-zoo-director-john-berry-on-leading-the-honolulu-zoo/",
       "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/06/john-berry-1-300x169.jpg",
       "social": {
         "twitter": null,
@@ -65,7 +128,7 @@
         "state": "HI"
       },
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 0.9
     },
     {
@@ -77,7 +140,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.honolulu.gov/mayor/episode-167-new-hpd-chief-david-lazar-on-leadership-safety-on-our-roads-and-staffing/",
       "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/07/chief-lazar-300x169.jpg",
       "social": {
         "twitter": null,
@@ -96,7 +159,7 @@
         "state": "HI"
       },
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 0.9
     },
     {
@@ -127,8 +190,39 @@
         "state": "HI"
       },
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
-      "extracted_at": "2026-08-22T05:11:08.657Z",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
       "confidence": 1
+    },
+    {
+      "id": "hi:honolulu-county:ocean-safety-chief:kurt-lager",
+      "name": "Kurt Lager",
+      "office": "Ocean Safety Chief",
+      "level": "county",
+      "body": "Honolulu County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.honolulu.gov/mayor/episode-170-ocean-safety-chief-lager-on-lala-a-new-headquarters-and-the-jr-lifeguard-state-championships/",
+      "photo_url": "https://www.honolulu.gov/mayor/wp-content/uploads/sites/12/2026/08/kurt-lager-300x169.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Honolulu County",
+        "state": "HI"
+      },
+      "source_url": "https://www.honolulu.gov/mayor/podcast/",
+      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "confidence": 0.9
     },
     {
       "id": "hi:honolulu-county:youth-commissioner:kalena-cooke-shae",
@@ -191,6 +285,345 @@
       "source_url": "https://www.honolulu.gov/mayor/podcast/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 0.8
+    },
+    {
+      "id": "hi:maui-county:council-chair:alice-l.-lee",
+      "name": "Alice L. Lee",
+      "office": "Council Chair",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7760",
+      "email": "alice.lee@mauicounty.us",
+      "url": "https://mauicounty.us/lee/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-LEE-2-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/chairalicelee",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [],
+      "hours": null,
+      "bio": "Alice L. Lee is the Chair of the Maui County Council. She holds the County Council seat for the Wailuku-Waiheʻe-Waikapū residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:gabe-johnson",
+      "name": "Gabe Johnson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7768",
+      "email": "gabe.johnson@mauicounty.us",
+      "url": "https://mauicounty.us/johnson/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-JOHNSON-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100063841493230",
+        "instagram": "https://www.instagram.com/gabejohnsonlanai/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building 200 South High St. 8th Floor Wailuku, Hawaii 96793",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Lānaʻi Office",
+          "city": "Lānaʻi City",
+          "address": "P.O. Box 630647 814 Fraser Avenue Lānaʻi City, Hawaii 96763",
+          "phone": "808-565-7094",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Gabe Johnson is the Chair of the Agriculture, Diversification, Environment and Public Transportation Committee. He holds the County Council seat for the Lānaʻi residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:kauanoe-batangan",
+      "name": "Kauanoe Batangan",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": "Kahului Residency Area",
+      "phone": "808-270-5501",
+      "email": "kauanoe.batangan@mauicounty.us",
+      "url": "https://mauicounty.us/batangan/",
+      "photo_url": "https://mauicounty.us/wp-content/uploads/2025/12/DSC_3926_Batangan-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/kbatangan96732",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana o Maui Building\n200 South High St.\nSeventh Floor\nWailuku, Hawaii 96793",
+      "offices": [],
+      "hours": null,
+      "bio": "Kauanoe Batangan is the Chair of the Government Relations, Ethics and Transparency Committee. He holds the County Council seat for the Kahului residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:keani-rawlins-fernandez",
+      "name": "Keani Rawlins-Fernandez",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7677",
+      "email": "keani.rawlins@mauicounty.us",
+      "url": "https://mauicounty.us/rawlins-fernandez/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-RAWLINS-FERNANDEZ-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CouncilMemberRawlinsFernandez",
+        "instagram": "https://www.instagram.com/cmrawlinsfernandez/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [
+        {
+          "classification": "residency area",
+          "name": "Molokaʻi Residency Area Office",
+          "city": "Kaunakakai",
+          "address": "100 Ainoa St.\nP. O. Box 889\nKaunakakai, Hawaii 96748",
+          "phone": "808-553-3888",
+          "fax": "(808) 553-3055",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Keani Rawlins-Fernandez is the Chair of Kōmike Aloha ʻĀina and the Efficiency Solutions and Circular Systems Committee. She holds the County Council seat for the Molokai residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:nohelani-uʻu-hodgins",
+      "name": "Nohelani Uʻu-Hodgins",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-5507",
+      "email": "nohe.uu-hodgins@mauicounty.us",
+      "url": "https://mauicounty.us/uu-hodgins/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-UU-HODGINS-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/noheuuhodgins",
+        "instagram": "https://www.instagram.com/cm.noheuuhodgins/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Makawao-Haʻikū-Pāʻia Office",
+          "city": "Pāʻia",
+          "address": "Heritage Hall\n401 Baldwin Avenue, Suite 102, Pāʻia",
+          "phone": "808-793-0099",
+          "fax": null,
+          "hours": "8:00 a.m. to 4:30 p.m."
+        }
+      ],
+      "hours": null,
+      "bio": "Nohelani Uʻu-Hodgins is the Chair of the Housing and Land Use Committee. She holds the County Council seat for the Makawao-Haʻikū-Pāʻia residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:shane-sinenci",
+      "name": "Shane Sinenci",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7246",
+      "email": "shane.sinenci@mauicounty.us",
+      "url": "https://mauicounty.us/sinenci/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-SINENCI-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/HanabornShane",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaiʻi 96793",
+      "offices": [
+        {
+          "classification": "residency",
+          "name": null,
+          "city": "Hāna",
+          "address": "80 Hauʻoli Road\nHāna, HI 96713",
+          "phone": "808-248-7513",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Shane Sinenci is the Chair of the Water Authority, Social Services, and Parks Committee. He holds the County Council seat for the East Maui residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:tamara-paltin",
+      "name": "Tamara Paltin",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-5504",
+      "email": "tamara.paltin@mauicounty.us",
+      "url": "https://mauicounty.us/paltin/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-PALTIN-240x300.jpg",
+      "social": {
+        "twitter": "https://twitter.com/MemberPaltin",
+        "facebook": "https://www.facebook.com/cmpaltin",
+        "instagram": "https://www.instagram.com/cmpaltin/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [
+        {
+          "classification": "residency area",
+          "name": "West Maui Residency Area Office",
+          "city": "Lahaina",
+          "address": "60 Kenui Street\nLahaina, HI 96761",
+          "phone": "808-727-9946",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Tamara Paltin is the Chair of the Disaster Recovery, International Affairs, and Planning Committee. She holds the County Council seat for the West Maui residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-member:tom-cook",
+      "name": "Tom Cook",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7108",
+      "email": "thomas.cook@mauicounty.us",
+      "url": "https://mauicounty.us/cook/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/DSC_7214_Cook-2-240x300.jpg",
+      "social": {
+        "twitter": "https://twitter.com/cm_tomcook",
+        "facebook": "https://www.facebook.com/councilmembertomcook",
+        "instagram": "https://www.instagram.com/councilmembercook/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "South Maui Residency Area Office",
+          "city": "Kīhei",
+          "address": "MEDB Building – Maui Research and Technology Park\n1305 North Holopono Street, Suite 4A, Kīhei",
+          "phone": "808-793-0012",
+          "fax": null,
+          "hours": "8:00 a.m. to 4:30 p.m."
+        }
+      ],
+      "hours": null,
+      "bio": "Thomas Cook is the Chair of the Water and Infrastructure Committee. He holds the County Council seat for the South Maui residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "hi:maui-county:council-vice-chair:yuki-lei-sugimura",
+      "name": "Yuki Lei Sugimura",
+      "office": "Council Vice-Chair",
+      "level": "county",
+      "body": "Maui County Commissioners Court",
+      "district": null,
+      "phone": "808-270-7939",
+      "email": "yukilei.sugimura@mauicounty.us",
+      "url": "https://mauicounty.us/sugimura/",
+      "photo_url": "https://www.mauicounty.us/wp-content/uploads/2025/01/headshot-SUGIMURA-240x300.jpg",
+      "social": {
+        "twitter": "https://twitter.com/connecmaui",
+        "facebook": "https://www.facebook.com/profile.php?id=100057679436179",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Kalana O Maui Building\n200 South High St.\nEighth Floor\nWailuku, Hawaii 96793",
+      "offices": [],
+      "hours": null,
+      "bio": "Yuki Lei Sugimura is the Vice-Chair of the Maui County Council and the Chair of the Budget, Finance, and Economic Development Committee. She holds the County Council seat for the Upcountry residency area.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Maui County",
+        "state": "HI"
+      },
+      "source_url": "https://mauicounty.us/",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
     }
   ]
 }
