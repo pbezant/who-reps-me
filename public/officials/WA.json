@@ -1,13 +1,16 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 74,
+  "generated_at": "2026-08-24T05:03:33.382Z",
+  "count": 92,
   "cities": [
     "Bellevue",
     "Clark County",
+    "Everett",
+    "Grant County",
     "King County",
     "Kitsap County",
     "Pierce County",
+    "Renton",
     "Seattle",
     "Skagit County",
     "Snohomish County",
@@ -387,6 +390,347 @@
       },
       "source_url": "https://clark.wa.gov/councilors",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:bill-quinlan",
+      "name": "Bill Quinlan",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:emma-stone",
+      "name": "Emma Stone",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:erica-dias",
+      "name": "Erica Dias",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:erin-knight",
+      "name": "Erin Knight",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:jacob-close",
+      "name": "Jacob Close",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:tari-hayes",
+      "name": "Tari Hayes",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:board-of-park-commissioner:william-kaage",
+      "name": "William Kaage",
+      "office": "Board of Park Commissioner",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:everett:council-liaison:luis-burbano",
+      "name": "Luis Burbano",
+      "office": "Council Liaison",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "WA"
+      },
+      "source_url": "https://www.everettwa.gov/670/Board-of-Park-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:grant-county:commissioner:cindy-carter",
+      "name": "Cindy Carter",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Grant County Commissioners Court",
+      "district": "District 3",
+      "phone": "509-885-5933",
+      "email": null,
+      "url": "https://www.grantcountywa.gov/319/Cindy-Carter",
+      "photo_url": "https://www.grantcountywa.gov/ImageRepository/Document?documentId=10204",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Room #206 35 C Street NW, Ephrata, WA 98823",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Cindy Carter, Republican, has been serving Grant County since 2006, currently in her fifth consecutive term working in the office. She represents District 3, which covers the area west of Moses Lake and south of Ephrata, and includes Quincy, George, Royal City and Mattawa.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Grant County",
+        "state": "WA"
+      },
+      "source_url": "https://www.grantcountywa.gov/317/County-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:grant-county:commissioner:kevin-r.-burgess",
+      "name": "Kevin R. Burgess",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Grant County Commissioners Court",
+      "district": "District 1",
+      "phone": "509-770-9855",
+      "email": null,
+      "url": "https://www.grantcountywa.gov/320/Danny-Stone",
+      "photo_url": "https://www.grantcountywa.gov/ImageRepository/Document?documentId=12010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Room #206 35 C Street NW, Ephrata, WA 98823",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Kevin Burgess, Republican, has been serving Grant County since 2025, currently in his first term working in the office. He represents District 1, which covers the northern part of Grant County, east of Moses Lake, which includes Ephrata, Soap Lake, Wilson Creek, and Electric City.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Grant County",
+        "state": "WA"
+      },
+      "source_url": "https://www.grantcountywa.gov/317/County-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:grant-county:commissioner:rob-jones",
+      "name": "Rob Jones",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Grant County Commissioners Court",
+      "district": "District 2",
+      "phone": "509-770-9848",
+      "email": null,
+      "url": "https://www.grantcountywa.gov/322/Rob-Jones",
+      "photo_url": "https://www.grantcountywa.gov/ImageRepository/Document?documentId=920",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Room #206 35 C Street NW, Ephrata, WA 98823",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Rob Jones, Republican, has been serving Grant County since 2020, currently in his second term working in the office. He represents District 2, which consists of Moses Lake, Warden, and the area in between.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Grant County",
+        "state": "WA"
+      },
+      "source_url": "https://www.grantcountywa.gov/317/County-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -987,7 +1331,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.piercecountywa.gov/91/Assessor---Treasurer",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -996,7 +1340,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "1501 Market Street Tacoma WA, 98402",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -1006,7 +1350,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -1018,7 +1362,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.piercecountywa.gov/93/Auditor",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -1027,7 +1371,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "1501 Market Street Tacoma WA, 98402",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -1037,7 +1381,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -1080,7 +1424,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.piercecountywa.gov/100/County-Executive",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -1089,7 +1433,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "1501 Market Street Tacoma WA, 98402",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -1099,7 +1443,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -1111,7 +1455,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.piercecountywa.gov/118/Prosecuting-Attorney",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -1120,7 +1464,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "1501 Market Street Tacoma WA, 98402",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -1130,7 +1474,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -1142,7 +1486,7 @@
       "district": null,
       "phone": null,
       "email": null,
-      "url": null,
+      "url": "https://www.piercecountywa.gov/121/Sheriff",
       "photo_url": null,
       "social": {
         "twitter": null,
@@ -1151,7 +1495,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "1501 Market Street Tacoma WA, 98402",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -1161,7 +1505,224 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-member:carmen-rivera",
+      "name": "Carmen Rivera",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/1/elected/city-council/images/council-carmen-rivera_255x255.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-member:ed-prince",
+      "name": "Ed Prince",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/1/elected/city-council/images/council-ed-prince_255x255.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-member:james-alberson,-jr.",
+      "name": "James Alberson, Jr.",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/3/elected/city-council/images/alberson_900x900.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-member:kim-khánh-văn",
+      "name": "Kim-Khánh Văn",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/1/elected/city-council/images/council-kim-kh%C3%A1nh-v%C4%83n_255x255.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-member:valerie-ohalloran",
+      "name": "Valerie O’Halloran",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/1/elected/city-council/images/council-valerie-ohalloran_255x255.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:council-president:ruth-pérez",
+      "name": "Ruth Pérez",
+      "office": "Council President",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/2/elected/city-council/images/perez-2026_900x900.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:renton:president-pro-tem:ryan-mcirvin",
+      "name": "Ryan McIrvin",
+      "office": "President Pro Tem",
+      "level": "local",
+      "body": "Renton City Council",
+      "district": "Position No. 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rentonwa.gov/files/assets/city/v/2/elected/city-council/images/mcirvin_900x900.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1055 S. Grady Way Renton, WA 98057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Renton",
+        "state": "WA"
+      },
+      "source_url": "https://www.rentonwa.gov/Government/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

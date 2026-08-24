@@ -1,13 +1,14 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 26,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 36,
   "cities": [
     "Lafayette Parish",
     "New Orleans",
     "Orleans Parish",
     "Shreveport",
-    "St. Tammany Parish"
+    "St. Tammany Parish",
+    "Terrebonne Parish"
   ],
   "officials": [
     {
@@ -814,6 +815,316 @@
       },
       "source_url": "https://www.stpgov.org/government/initiatives/index.php",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:brien-pledger",
+      "name": "Brien Pledger",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:carl-harding",
+      "name": "Carl Harding",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:clayton-voisin,-jr.",
+      "name": "Clayton Voisin, Jr.",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:clyde-hamner",
+      "name": "Clyde Hamner",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:danny-babin",
+      "name": "Danny Babin",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:john-amedée",
+      "name": "John Amedée",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:kevin-champagne",
+      "name": "Kevin Champagne",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:kim-chauvin",
+      "name": "Kim Chauvin",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-council-member:steve-trosclair",
+      "name": "Steve Trosclair",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:terrebonne-parish:parish-president:jason-w.-bergeron",
+      "name": "Jason W. Bergeron",
+      "office": "Parish President",
+      "level": "county",
+      "body": "Terrebonne Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.tpcg.org/parishpresident",
+      "photo_url": "https://www.tpcg.org//images/parish-president/parish-president.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8026 Main Street Houma, Louisiana 70360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Terrebonne Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.tpcg.org/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

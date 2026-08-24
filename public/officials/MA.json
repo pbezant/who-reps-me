@@ -1,10 +1,11 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-23T03:19:56.306Z",
-  "count": 45,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 56,
   "cities": [
     "Boston",
     "Cambridge",
+    "Lowell",
     "Norfolk County",
     "Worcester"
   ],
@@ -720,6 +721,347 @@
       },
       "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
       "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor-at-large:erik-gitschier",
+      "name": "Erik Gitschier",
+      "office": "City Councilor At Large",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor-at-large:rita-mercier",
+      "name": "Rita Mercier",
+      "office": "City Councilor At Large",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor-at-large:vesna-nuon",
+      "name": "Vesna Nuon",
+      "office": "City Councilor At Large",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:belinda-m.-juran",
+      "name": "Belinda M. Juran",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:corey-robinson",
+      "name": "Corey Robinson",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:daniel-rourke",
+      "name": "Daniel Rourke",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:john-descoteaux",
+      "name": "John Descoteaux",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:kimberly-scott",
+      "name": "Kimberly Scott",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:sean-mcdonough",
+      "name": "Sean McDonough",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:sidney-l.-liang",
+      "name": "Sidney L. Liang",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:lowell:city-councilor:sokhary-chau",
+      "name": "Sokhary Chau",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Lowell City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lowell",
+        "state": "MA"
+      },
+      "source_url": "https://www.lowellma.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

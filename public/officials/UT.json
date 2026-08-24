@@ -1,10 +1,11 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 29,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 30,
   "cities": [
     "Cache County",
     "Salt Lake County",
+    "St. George",
     "Utah County",
     "West Valley City"
   ],
@@ -379,6 +380,37 @@
       },
       "source_url": "https://slco.org/mayor/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:st.-george:city-recorder:christina-fernandez",
+      "name": "Christina Fernandez",
+      "office": "City Recorder",
+      "level": "local",
+      "body": "St. George City Council",
+      "district": null,
+      "phone": "435-627-4003",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "61 South Main Street St. George, Ut 84770",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. George",
+        "state": "UT"
+      },
+      "source_url": "https://sgcityutah.gov/government/city_council/public_comments.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

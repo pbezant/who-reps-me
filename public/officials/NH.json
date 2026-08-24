@@ -1,0 +1,72 @@
+{
+  "state": "NH",
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 2,
+  "cities": [
+    "Manchester"
+  ],
+  "officials": [
+    {
+      "id": "nh:manchester:at-large-alderman:oneil",
+      "name": "O'Neil",
+      "office": "At-Large Alderman",
+      "level": "local",
+      "body": "Manchester City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manchester",
+        "state": "NH"
+      },
+      "source_url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Bright-Ideas-Program",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:manchester:at-large-alderman:trisciani",
+      "name": "Trisciani",
+      "office": "At-Large Alderman",
+      "level": "local",
+      "body": "Manchester City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manchester",
+        "state": "NH"
+      },
+      "source_url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Bright-Ideas-Program",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    }
+  ]
+}

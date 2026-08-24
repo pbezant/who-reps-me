@@ -1,9 +1,10 @@
 {
   "state": "MS",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 1,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 2,
   "cities": [
-    "Harrison County"
+    "Harrison County",
+    "Madison County"
   ],
   "officials": [
     {
@@ -35,6 +36,37 @@
       },
       "source_url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/district_two.php",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:madison-county:supervisor:gerald-steen",
+      "name": "Gerald Steen",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Madison County Commissioners Court",
+      "district": "District 3",
+      "phone": "601-790-2590",
+      "email": "gerald.steen@madison-co.com",
+      "url": "https://www.madison-co.com/elected-offices/board-of-supervisors/district-3",
+      "photo_url": "https://www.madison-co.com/sites/default/files/steenad.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 608 Canton, MS 39046-0608",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Madison County",
+        "state": "MS"
+      },
+      "source_url": "https://www.madison-co.com/elected-offices/board-of-supervisors/district-3",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

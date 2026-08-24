@@ -1,16 +1,18 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 73,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 88,
   "cities": [
     "Anderson County",
     "Beaufort County",
     "Charleston",
     "Columbia",
     "Greenville County",
+    "Lancaster County",
     "Lexington County",
     "Pickens County",
-    "Spartanburg County"
+    "Spartanburg County",
+    "Sumter County"
   ],
   "officials": [
     {
@@ -1564,6 +1566,223 @@
       "confidence": 1
     },
     {
+      "id": "sc:lancaster-county:council-chair:brian-carnes",
+      "name": "Brian Carnes",
+      "office": "Council Chair",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 7",
+      "phone": "803-320-9107",
+      "email": "briancarnes@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=116",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2823",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Brian is serving his fourth term on Lancaster County Council. He is a native of Indian Land and a graduate of Indian Land High School. Brian is a Partner and Chief Operating Officer of Carolina Innovations. He is an active member of Pleasant Hill United Methodist Church in Indian Land. Prior to being elected to Lancaster County Council, Brian served 8 years on the Lancaster County School Board (serving as secretary of the Board) and 4 years on the Pleasant Valley Fee Board (serving as chairmen for two years). He and his wife Pam have three sons, two daughters-in-law, and seven grandchildren.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:council-member:charlene-mcgriff",
+      "name": "Charlene McGriff",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 2",
+      "phone": "803-448-1021",
+      "email": "cmcgriff@comporium.net",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=111",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2616",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Charlene McGriff has served three full terms on County Council representing District #2 and is beginning her fourth term. Ms. McGriff is a graduate of Brookstone College and attended USC-L, and is also a graduate of the Carolina Leadership Program. She has a long career in public service, including serving as Executive Director of Palmetto Citizens Against Sexual Assault since 1994 and 17 years on the Lancaster County School Board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:council-member:jose-luis",
+      "name": "Jose Luis",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 4",
+      "phone": "803-412-1611",
+      "email": "jluis@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=113",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2610",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jose brings over 22 years of experience in legal, operational, land acquisition, and development roles to Lancaster County Council. He has led organizations through significant growth and operational improvements, including a key role in the $10 billion merger of Family Dollar and Dollar Tree. The son of Cuban immigrants, Jose holds a BA from Florida State University and a JD from the University of Miami School of Law, and is married with two children.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:council-member:steve-harper",
+      "name": "Steve Harper",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 5",
+      "phone": "803-804-5325",
+      "email": "steveharper@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=114",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2613",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Steve Harper is serving his fourth term on County Council representing District 5. He graduated from Lancaster High School in 1976. He graduated with a Bachelor of Science in Business Administration from the University of South Carolina in Columbia in 1981. He enjoys golf and supports the USC Gamecocks. He and his wife, Donna, have two sons, two daughters-in-law and four grandchildren.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:council-member:stuart-graham",
+      "name": "Stuart Graham",
+      "office": "Councilmember",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 1",
+      "phone": "803-319-5602",
+      "email": "smgraham@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=110",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2612",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Stuart Graham is serving his first term on Lancaster County Council representing District 1. A lifelong Lancaster County resident, he has a background in finance and business management, and now works in his family's wedding/event venue and farm. He is actively involved in community leadership, including serving on the Van Wyck Town Council and the Lancaster County Capital Project Sales Tax Committee.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:council-secretary:bryant-neal",
+      "name": "Bryant Neal",
+      "office": "Council Secretary",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 6",
+      "phone": "803-414-5820",
+      "email": "bneal@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=115",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2615",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 North Main Street Lancaster, SC 29720",
+      "offices": [],
+      "hours": null,
+      "bio": "Bryant Neal is serving his first term on County Council representing District 6. He is the owner of 521 Filling Station in Kershaw, SC. Bryant graduated from Andrew Jackson High School and The University of South Carolina at Lancaster. Bryant enjoys high school and college sports and is an active member of Center Grove Baptist Church where he serves as Chairman of Deacons. He and his wife, Beth, have two children, Laura Taylor (Reece) and Bry Neal (Abby), and two grandchildren, Annie Martin and Maes.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:lancaster-county:vice-chair:billy-mosteller",
+      "name": "Billy Mosteller",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Lancaster County Commissioners Court",
+      "district": "District 3",
+      "phone": "803-416-2560",
+      "email": "bmosteller@lancastercountysc.gov",
+      "url": "https://www.lancastercountysc.gov/m/directory/employee?eid=112",
+      "photo_url": "https://www.lancastercountysc.gov/ImageRepository/Document?documentID=2614",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Billy Mosteller is serving his third term on Lancaster County Council representing District 3. He is owner of Mosteller Automotive & Alignment, LLC. He has been a volunteer fireman for 47 years and served 15 years as chief. He also served on the Lancaster County Fire Commission and the Lancaster County Sheriff's Office Advisory Council. He enjoys high school and college sports. He is a member of Hyde Park Baptist Church. Billy and his wife, Kathy, have a son, a daughter and four grandchildren.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lancaster County",
+        "state": "SC"
+      },
+      "source_url": "https://www.lancastercountysc.gov/351/Lancaster-County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "sc:lexington-county:council-member-chairman:darrell-hudson",
       "name": "Darrell Hudson",
       "office": "Council Member Chairman",
@@ -2274,6 +2493,254 @@
       },
       "source_url": "https://www.spartanburgcounty.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:clerk-to-council:sterling-winn-mitchum",
+      "name": "Sterling Winn-Mitchum",
+      "office": "Clerk to Council",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": null,
+      "phone": "804-436-2107",
+      "email": "amitchum@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/clerk_to_council_-_sterling_winn-mitchum.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/Dec%2011%202024%20S%20Mitchum%202.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "13 E. Canal St. Sumter, S.C. 29150",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member,-chairman:james-t.-mccain-jr.",
+      "name": "James T. McCain Jr.",
+      "office": "County Council Member, Chairman",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 6",
+      "phone": "803-607-2777",
+      "email": "jmccain@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_6_-_james_t_mccain_jr_-_chairman.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/mccain2-j.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "317 W. Bartlette Street Sumter, S.C. 29150",
+      "offices": [],
+      "hours": null,
+      "bio": "James T. McCain, Jr., a native of Sumter, integrated the Sumter school system in 1965. After graduating from Morehouse College, he had a 35-year career in management with UPS. Upon retirement in 2009, he returned to Sumter and currently serves as Chairman of Sumter County Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member,-vice-chairman:james-(jimmy)-r.-byrd,-jr.",
+      "name": "James (Jimmy) R. Byrd, Jr.",
+      "office": "County Council Member, Vice Chairman",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 3",
+      "phone": "803-468-1719",
+      "email": "jbyrd@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_3_-_james_(jimmy)_r_byrd_jr_-_vice_chairman.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/Jan%203%202025_8398.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Post Office Box 1913 Sumter, S.C. 29151",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Sumter, South Carolina, Councilman Jimmy Byrd is the elected Council member for District #3 and currently serves as the Vice Chairman of Sumter County Council. He graduated from the University of South Carolina in 1997 with a Bachelor of Science Degree in Business Administration and was first elected to Sumter County Council on Dec. 19, 2006.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member:artie-baker",
+      "name": "Artie Baker",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 2",
+      "phone": "803-847-1805",
+      "email": "abaker@gmail.com",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_2_-_artie_baker.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/Jan%203%202018%20Baker%20swearing%20in%201.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3680 Bakersfield Lane Dalzell, S.C. 29040",
+      "offices": [],
+      "hours": null,
+      "bio": "Arthur W. Baker, a member of Sumter County Council, was born on December 13, 1954, in Columbia, South Carolina. He is a 1973 graduate of Christ Church Episcopal School and received his Bachelor of Arts Degree in Health and Physical Education from Lander College in 1982, followed by a Masters of Education from the University of South Carolina in 1990. He was a teacher and coach in Sumter School District #2 and was first elected to Sumter County Council in November of 1994.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member:carlton-b.-washington",
+      "name": "Carlton B. Washington",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 1",
+      "phone": "803-795-2217",
+      "email": "cwashington@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_1_-carlton_washington_.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 56 Rembert, S.C. 29128-0056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member:charles-t.-edens",
+      "name": "Charles T. Edens",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 4",
+      "phone": "803-236-5759",
+      "email": "cedens@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_4_-_charles_t_edens.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3250 Home Place Road Sumter, S.C. 29150",
+      "offices": [],
+      "hours": null,
+      "bio": "Charles T. Edens was born in Sumter, South Carolina, and is a graduate of Clemson University with B.A. and Master’s Degrees in Agriculture. Married with three children and four grandchildren, he has served on the Sumter County Council since 1999, completing certification courses for County Officials and graduating twice from the S.C. Economic Development School.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member:tasha-gardner-greene",
+      "name": "Tasha Gardner-Greene",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 7",
+      "phone": "803-305-9089",
+      "email": "tgreene@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_7_-_tasha_gardner-greene.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/Jan%202%202025%20Sumter%20County%20Council%20swearing%20in%20ceremony%20Sumter%20County%20Courthouse%2015.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6 Yeadon Street Sumter, S.C. 29151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter-county:county-council-member:vivian-fleming-mcghaney",
+      "name": "Vivian Fleming-McGhaney",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Sumter County Commissioners Court",
+      "district": "District 5",
+      "phone": "803-983-4663",
+      "email": "vmcghaney@sumtercountysc.gov",
+      "url": "https://www.sumtercountysc.gov/our_council/council_members/district_5_-_vivian_fleming-mcghaney.php",
+      "photo_url": "https://www.sumtercountysc.gov/our_council/council_members/Council%20Documents/Council%20Photos/mcghaney-vf3.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9770 Lynches River Road Lynchburg, S.C. 29080",
+      "offices": [],
+      "hours": null,
+      "bio": "Mrs. Vivian Fleming-McGhaney holds a Bachelor of Science Degree from S.C. State University and two Master's Degrees in Education. She serves as the Coordinator of Curriculum and Instruction for Specialized Programs for Sumter County School District. Since 2002, she has been an elected member of Sumter County Council, representing District 5, and has served multiple terms as Chairman and Vice-Chairman.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sumter County",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtercountysc.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

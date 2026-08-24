@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-23T05:05:18.632Z",
-  "count": 121,
+  "generated_at": "2026-08-24T05:03:33.382Z",
+  "count": 152,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -9,19 +9,24 @@
     "Buncombe County",
     "Catawba County",
     "Charlotte",
+    "Cleveland County",
+    "Craven County",
     "Davidson County",
     "Durham County",
     "Fayetteville",
     "Forsyth County",
     "Gaston County",
     "Mecklenburg County",
+    "Moore County",
     "New Hanover County",
     "Onslow County",
     "Orange County",
     "Pitt County",
     "Raleigh",
     "Randolph County",
-    "Rowan County"
+    "Rowan County",
+    "Wayne County",
+    "Wilmington"
   ],
   "officials": [
     {
@@ -564,7 +569,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -626,7 +631,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -657,7 +662,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -719,7 +724,255 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:cleveland-county:clerk-to-the-board-of-county-commissioners:phyllis-nowlen",
+      "name": "Phyllis Nowlen",
+      "office": "Clerk to the Board of County Commissioners",
+      "level": "county",
+      "body": "Cleveland County Commissioners Court",
+      "district": null,
+      "phone": "704-484-4766",
+      "email": "Phyllis.nowlen@clevelandcountync.gov",
+      "url": null,
+      "photo_url": "https://www.clevelandcounty.com/main/government/board_of_county_commissioners/revize_photo_gallery/Government/Board%20of%20County%20Commissioners/Clerk%20to%20the%20Board%20of%20Commissioners/Phyllis%20Nowlen%20(002)%20-%20Copy.jpg?t=202501301308210",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "311 E. Marion Street, Shelby, NC 28150",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cleveland County",
+        "state": "NC"
+      },
+      "source_url": "https://www.clevelandcounty.com/main/government/board_of_county_commissioners/clerk_to_the_board_of_commissioners.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:chairman:dennis-denny-bucher",
+      "name": "Dennis \"Denny\" Bucher",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 7",
+      "phone": "252-229-6576",
+      "email": "dbucher@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/1993/Denny-Bucher",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=7708",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "254 Pollock Street New Bern, NC 28560",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Bucher enjoyed a 37-year career with Bridgestone Firestone until 2001 when he retired and relocated to New Bern. He and his children founded three Family Tire and Auto Service locations in Eastern North Carolina. Commissioner Bucher served as a City of New Bern Alderman for 5 years, and has served as Director on several boards including Allies for Cherry Point Tomorrow.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:commissioner:beatrice-r.-smith",
+      "name": "Beatrice R. Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 3",
+      "phone": "252-772-5879",
+      "email": "beatrice.smith@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/2165/11791/Beatrice-Smith",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=11853",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1700 Chestnut Avenue New Bern, NC 28560",
+      "offices": [],
+      "hours": null,
+      "bio": "Ms. Beatrice Smith is a native of Craven County and she served four terms as a member of the Craven County Board of Education. Smith completed a 33 year career with the Craven County School System where she spent 11 years teaching, five years as a director of the Every Student Succeeds Act Title I Reading Program for Craven County and 17 years as a principal. Ms. Smith also serves as a deaconess of St. Peter’s A.M.E. Zion Church. Ms. Smith made history by being the first black female to hold a principalship in the integrated Craven County Schools system and she will once again make history by serving as the first black female Craven County Commissioner.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:commissioner:chadwick-howard",
+      "name": "Chadwick Howard",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 6",
+      "phone": "217-766-7322",
+      "email": "chadwick.howard@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/2314/Chadwick-Howard",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=13635",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "104 Trevino Lane New Bern, NC 28560",
+      "offices": [],
+      "hours": null,
+      "bio": "Chadwick Howard is a North Carolina native and a graduate of the University of Illinois and Western Illinois University. He taught for eleven years at Tucker Creek Middle School and now serves as Curriculum Specialist and Instructional Technology Facilitator at Newport Middle School. Commissioner Howard was elected in November 2022.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:commissioner:etteinne-e.t.-mitchell",
+      "name": "Etteinne \"E.T.\" Mitchell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 4",
+      "phone": "252-675-0109",
+      "email": "emitchell@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/1992/ET-Mitchell",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=7709",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner ET Mitchell was elected to the Craven County Board of Commissioners in 2022 and 2018, after previously serving on the Board of Alderman for the City of New Bern. She retired to New Bern in 2009 from the Washington D.C. area after spending two decades as a Naval Intelligence Officer with specialities in crisis operations, counter-espionage and anti-submarine warfare. She is a graduate of the University of the South, Sewanee, Tennessee.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:commissioner:shevel-sherry-hunt",
+      "name": "Shevel \"Sherry\" Hunt",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 5",
+      "phone": "252-276-1461",
+      "email": "shevel.hunt@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/2313/Sherry-Hunt",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=13636",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "406 Craven Street, New Bern, NC 28560-4971",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Hunt came from Indiana to eastern North Carolina via The United States Marine Corps. She then enjoyed a successful career in healthcare. Elected in November of 2022, she serves on several boards including the Havelock/Craven County Library Board and the Military Civilian Community Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:commissioner:tim-mason",
+      "name": "Tim Mason",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 1",
+      "phone": "252-649-1071",
+      "email": "tim.mason@cravencountync.gov",
+      "url": "https://www.cravencountync.gov/1580/Tim-Mason",
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=15924",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 Quail Woods Drive New Bern, NC 28560",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Mason moved to Craven County in 2015 after retiring as a systems analyst for a defense contractor, following over twenty years of service in the U.S. Army. He holds a bachelor's degree in History from Western Michigan University and a master's degree in National Security Studies from the U.S. Army War College. He is a member and Trustee of the Bridgeton Methodist Church and is married to Patti Mason, who serves on the Craven County Board of Education.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:craven-county:vice-chairman:jason-r.-jones",
+      "name": "Jason R. Jones",
+      "office": "Vice-Chairman",
+      "level": "county",
+      "body": "Craven County Commissioners Court",
+      "district": "District 2",
+      "phone": "252-229-1085",
+      "email": "jjones@cravencountync.gov",
+      "url": null,
+      "photo_url": "https://www.cravencountync.gov/ImageRepository/Document?documentId=6251",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1745 Asbury Road Cove City, NC 28523",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Craven County",
+        "state": "NC"
+      },
+      "source_url": "https://www.cravencountync.gov/1563/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -2094,6 +2347,285 @@
       },
       "source_url": "https://www.mecknc.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:chairman:nick-picerno",
+      "name": "Nick Picerno",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": "District II",
+      "phone": "910-691-1150",
+      "email": "npicerno09@gmail.com",
+      "url": "https://www.moorecountync.gov/m/directory/employee?eid=100",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=2083",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "Nick Picerno is the Chairman of the Board of Commissioners, having served multiple terms since 2008 and reelected through 2028. A native of Moore County and UNC Chapel Hill graduate, he co-founded Southern Software, Inc. and has served on numerous local and state boards.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:clerk-to-the-board:jenny-parks",
+      "name": "Jenny Parks",
+      "office": "Clerk to the Board",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": null,
+      "phone": "910-947-6403",
+      "email": "clerktoboard@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/Directory.aspx?EID=42",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=5468",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": "Monday through Friday 8 am to 5 pm",
+      "bio": "Jenny Parks was appointed as Clerk to the Board of Commissioners on November 6, 2024, and began her duties on December 2, 2024. The Clerk is one of the oldest positions in local government and each city and county in North Carolina is required to have a Clerk for its governing board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:commissioner:john-ritter",
+      "name": "John Ritter",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": "District III",
+      "phone": "910-690-1037",
+      "email": "jritter1@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/m/directory/employee?eid=103",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=2087",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "John Ritter is a native of Moore County and is serving his first term on the Board of Commissioners. He serves on the Juvenile Crime Prevention Council, the Library Board of Trustees, the Trillium Health Resources Southern Regional Advisory Board, and as the commissioners' liaison to the Nursing and Adult Care Home Community Advisory Committee. He has served on the Land Use Plan/UDO Task Force, as well as the Opioid Task Force.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:commissioner:kurt-cook",
+      "name": "Kurt Cook",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": "District V",
+      "phone": "910-603-9527",
+      "email": "kcook1@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/m/directory/employee?eid=105",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=2085",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "Kurt Cook is a combat-proven commander from the Army Special Forces, a small business owner, husband to a veteran, and a proud father. He was medically retired as a Major in the Special Forces after serving multiple combat tours and now applies his leadership experience to serve as a Moore County Commissioner. He serves on various boards and task forces, including the Board of Health and the Parks and Recreation Advisory Board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:commissioner:tom-adams",
+      "name": "Tom Adams",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": "District IV",
+      "phone": "910-638-8272",
+      "email": "tadams@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/m/directory/employee?eid=166",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=5391",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "Thomas L. “Tom” Adams was elected to the Moore County Board of Commissioners in 2024. Thomas Adams is a founder of the NC Captive Insurance Association and since 2013 serves as its first President & CEO. Located in Southern Pines, NC.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:county-attorney:misty-leland",
+      "name": "Misty Leland",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": null,
+      "phone": "910-947-4012",
+      "email": "mistyleland@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/Directory.aspx?EID=97",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=3492",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "Misty is the appointed Moore County Attorney and works directly for the Moore County Board of County Commissioners. She has more than 20 years of experience in local government law. She began her legal practice as a general practitioner and as the appointed Anson County Attorney from 2002-2005.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:county-manager:wayne-vest",
+      "name": "Wayne Vest",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": null,
+      "phone": "910-947-6363",
+      "email": "wvest@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/Directory.aspx?EID=96",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=647",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": "Monday through Friday 8 am to 5 pm",
+      "bio": "J. Wayne Vest was appointed County Manager on March 19, 2013, serving as the Chief Executive Officer of Moore County Government. He is responsible for implementing policies, coordinating county agencies, representing the county, and preparing the budget for the Board of Commissioners.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:tax-administrator:gary-briggs",
+      "name": "Gary Briggs",
+      "office": "Tax Administrator",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": null,
+      "phone": "910-947-4100",
+      "email": "gbriggs@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/Directory.aspx?EID=98",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": "Monday through Friday 8 am to 5 pm",
+      "bio": "Gary Briggs was appointed as the Tax Administrator on July 21, 2015. He serves as the Assessor and Collector, responsible for ensuring the listing, appraising, assessing, billing, and collecting of all real property, personal property, and motor vehicles within Moore County. He also provides reports and updates to the Board of Commissioners and works with the North Carolina Department of Revenue on taxation matters.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:moore-county:vice-chairman:jim-von-canon",
+      "name": "Jim Von Canon",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Moore County Commissioners Court",
+      "district": "District I",
+      "phone": "910-691-5130",
+      "email": "jvoncanon@moorecountync.gov",
+      "url": "https://www.moorecountync.gov/m/directory/employee?eid=99",
+      "photo_url": "https://www.moorecountync.gov/ImageRepository/Document?documentID=2084",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Courthouse Square 2nd Floor, Historic Courthouse Carthage, NC 28327",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Von Canon is a native of Moore County and is serving his first term on the Board of Commissioners. He serves on several committees and task forces, including the Fire Commission and the Economic Task Force. He is currently serving as the Board Vice Chairman.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Moore County",
+        "state": "NC"
+      },
+      "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -3716,6 +4248,440 @@
       },
       "source_url": "https://www.rowancountync.gov/726/Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner,-chair:joe-daughtery",
+      "name": "Joe Daughtery",
+      "office": "County Commissioner, Chair",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-273-6065",
+      "email": "joe.daughtery@waynegov.com",
+      "url": "https://www.waynegov.com/1067/Joe-Daughtery---Chair",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=12985",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Wayne County Commissioner Joe Daughtery was elected to the Board of County Commissioners in 2012, serving as Chairman from 2015-2016, and was re-elected in 2016 and 2020. Born in 1950, he has a diverse career background and has served on numerous boards and commissions. He is married to Joyce, has three children, and five grandchildren.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner,-vice-chair:chris-gurley",
+      "name": "Chris Gurley",
+      "office": "County Commissioner, Vice-Chair",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-738-9705",
+      "email": "Chris.Gurley@waynegov.com",
+      "url": "https://www.waynegov.com/659/Chris-Gurley---Vice-Chair",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=12987",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Gurley was elected to the Wayne County Board of Commissioners in November 2020 for District 5. He is a lifelong resident of Wayne County, a licensed landscape and irrigation contractor, and started Turf Master Goldsboro in 1987. Chris has also served in the volunteer fire service since 1984 and is married with three daughters.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner:antonio-williams",
+      "name": "Antonio Williams",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-396-5144",
+      "email": "antonio.williams@waynegov.com",
+      "url": "https://www.waynegov.com/1070/Antonio-Williams",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=12988",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Antonio Williams was elected District 2 County Commissioner in November 2020, following five years of service on the Goldsboro City Council. Born in Goldsboro, NC, he brings over 20 years of experience in construction and development, emphasizing community relationships. He is also an experienced businessman and partner in a local Goldsboro business.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner:barbara-aycock",
+      "name": "Barbara Aycock",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-738-7444",
+      "email": "barbara.aycock@waynegov.com",
+      "url": "https://www.waynegov.com/1064/Barbara-Aycock",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=12986",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Aycock was appointed to the Wayne County Board of Commissioners in November of 2020 to serve District 1. She joined the Board of Commissioners after 15 years of experience in local government, serving as town administrator for the Town of Fremont and the Town of Black Creek. Barbara is a lifelong resident of Wayne County and resides in Pikeville.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner:bevan-foster",
+      "name": "Bevan Foster",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-288-4401",
+      "email": "bevan.foster@waynegov.com",
+      "url": "https://www.waynegov.com/1068/Bevan-Foster",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=9803",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Foster was elected to the Wayne County Board of Commissioners in November 2020 for District 3. A lifelong Goldsboro resident, Bevan graduated from NC Weslyan College with dual bachelor's degrees in Psychology and Criminal Justice, and previously served as a City Councilman for District 4 from 2015-2019, including a term as Mayor Pro Tem. He currently works as a Qualified Substance Abuse counselor, a Licensed General contractor, and a Registered Real Estate appraiser trainee.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner:dr.-joe-democko",
+      "name": "Dr. Joe Democko",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": "919-222-7776",
+      "email": "joe.democko@waynegov.com",
+      "url": "https://www.waynegov.com/1065/Dr-Joe-Democko",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=12984",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Dr. Joe Democko was appointed to the Wayne County Board of Commissioners in January 2026 to serve as the At-Large Commissioner. He and his wife, Gia, moved to Goldsboro in 1994, where they raised their three children. A Board-Certified Chiropractic Physician, Dr. Democko has served Wayne County residents throughout his career and has been an active member of the community for more than three decades.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wayne-county:county-commissioner:tim-harrell",
+      "name": "Tim Harrell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Wayne County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "tim.harrell@waynegov.com",
+      "url": "https://www.waynegov.com/1069/Tim-Harrell",
+      "photo_url": "https://www.waynegov.com/ImageRepository/Document?documentID=9789",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wayne County Courthouse 224 E Walnut Street Goldsboro, NC 27530",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Harrell was elected to the Wayne County Board of Commissioners in November 2024 for District 4. A lifelong resident of Wayne County, he holds a Bachelor's, Master's, and Doctorate degree from North Carolina State University and has dedicated twenty-eight years to public education in various capacities, including teacher, principal, and assistant superintendent. He is honored to serve his community and the citizens of Wayne County.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wayne County",
+        "state": "NC"
+      },
+      "source_url": "https://www.waynegov.com/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:council-member:cassidy-santaguida",
+      "name": "Cassidy Santaguida",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:council-member:chakema-clinton-quintana",
+      "name": "Chakema Clinton-Quintana",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:council-member:david-joyner",
+      "name": "David Joyner",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:council-member:jc-lyle",
+      "name": "JC Lyle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:council-member:salette-andrews",
+      "name": "Salette Andrews",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:mayor-pro-tem:kevin-spears",
+      "name": "Kevin Spears",
+      "office": "Mayor Pro-Tem",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilmington:mayor:bill-saffo",
+      "name": "Bill Saffo",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Wilmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilmington",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilmingtonnc.gov/Home",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

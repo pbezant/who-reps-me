@@ -1,17 +1,50 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 61,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 69,
   "cities": [
+    "Cass County",
     "Clay County",
     "Columbia",
     "Greene County",
     "Jefferson County",
+    "Lee's Summit",
     "Springfield",
     "St. Charles County",
     "St. Louis"
   ],
   "officials": [
+    {
+      "id": "mo:cass-county:north-commissioner:jeff-fletcher",
+      "name": "Jeff Fletcher",
+      "office": "North Commissioner",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": "https://www.casscounty.com/2472/Commissioner-Fletchers-Bio",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 E. Wall Street, Harrisonville, Missouri 64701",
+      "offices": [],
+      "hours": null,
+      "bio": "Jeff Fletcher began his service as Cass County’s North Commissioner for District 2 on January 1, 2025. Prior to this role, Jeff served as the Cass County Clerk for six years, where he and his staff ensured accurate and efficient elections, working tirelessly to protect the voting rights of all Cass County residents. Jeff takes great pride in his work for Cass County and looks forward to continuing his dedication to constituents as North Commissioner.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "MO"
+      },
+      "source_url": "https://www.casscounty.com/2472/Commissioner-Fletchers-Bio",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
     {
       "id": "mo:clay-county:eastern-commissioner-at-large:joann-lawson",
       "name": "JoAnn Lawson",
@@ -1064,6 +1097,223 @@
       },
       "source_url": "https://www.jeffcomo.gov/399/County-Council",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member,-mayor-pro-tem:hillary-shields",
+      "name": "Hillary Shields",
+      "office": "City Council Member, Mayor Pro Tem",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 1",
+      "phone": "816-875-0142",
+      "email": "hillary.shields@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Hilary%20Shields%20-%20Council%20Photo%202026.jpg?ver=u0iIL3_LjBInFtwmumaWpg%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:donnie-funk",
+      "name": "Donnie Funk",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 4",
+      "phone": "816-935-0977",
+      "email": "donnie.funk@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Donnie%20Funk%20-%20Council%20Photo%202026.jpg?ver=lU_7s-IoofjYwCYGnINAeg%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:melanie-adkins",
+      "name": "Melanie Adkins",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 3",
+      "phone": "816-679-2641",
+      "email": "melanie.adkins@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Melanie%20Adkins%20-%20Council%20Photo%202026.jpg?ver=DjoHLeNgwzv67OlDiugGMw%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:mia-prier",
+      "name": "Mia Prier",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 1",
+      "phone": "816-914-3392",
+      "email": "mia.prier@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Mia%20Prier%20-%20Council%20Photo%202026.jpg?ver=iYSYNS7paEz37cZxWcndMg%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:nyauna-cravens",
+      "name": "Nyauna Cravens",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 4",
+      "phone": "816-308-2061",
+      "email": "nyauna.cravens@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Nyauna%20Cravens%20-%20Council%20Photo%202026.jpg?ver=5ut4gtiqGSIR6pacnAITXg%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:shari-frazier",
+      "name": "Shari Frazier",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 2",
+      "phone": "816-516-5661",
+      "email": "shari.frazier@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Shari%20Frazier%20-%20Council%20Photo%202026.jpg?ver=hg_l9XGDkeQptDIRgeJYLw%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:lee's-summit:council-member:trish-carlyle",
+      "name": "Trish Carlyle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lee's Summit City Council",
+      "district": "District 2",
+      "phone": "816-969-7372",
+      "email": "trish.carlyle@cityofls.net",
+      "url": null,
+      "photo_url": "https://cityofls.net/portals/0/City%20Council/Trish%20Carlyle%20-%20Council%20Photo%202026.jpg?ver=rnL8CtxiZRTnQrtwFglCvA%3d%3d",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 220 SE Green Lee's Summit, MO 64063",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee's Summit",
+        "state": "MO"
+      },
+      "source_url": "https://cityofls.net/city-council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-23",
-  "calls_used": 921,
+  "date": "2026-08-24",
+  "calls_used": 910,
   "by_phase": {
-    "scrape": 386,
-    "discover": 510,
+    "scrape": 339,
+    "discover": 546,
     "qa": 25
   }
 }

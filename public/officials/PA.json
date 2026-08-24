@@ -1,17 +1,21 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 54,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 63,
   "cities": [
     "Beaver County",
+    "Blair County",
     "Bucks County",
     "Butler County",
+    "Cambria County",
     "Centre County",
     "Chester County",
     "Cumberland County",
     "Dauphin County",
+    "Fayette County",
     "Lackawanna County",
     "Lancaster County",
+    "Mercer County",
     "Montgomery County",
     "Philadelphia",
     "Philadelphia County",
@@ -48,6 +52,130 @@
       },
       "source_url": "https://www.beavercountypa.gov/departments/board-of-commissioners/commissioners/jack-manning",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:blair-county:chief-clerk/county-administrator:alicia-tiracave",
+      "name": "Alicia Tiracave",
+      "office": "Chief Clerk / County Administrator",
+      "level": "county",
+      "body": "Blair County Commissioners Court",
+      "district": null,
+      "phone": "814-693-3030",
+      "email": null,
+      "url": "https://www.blaircountypa.gov/departments/commissioners/contact-chiefclerk",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "423 Allegheny Street Suite 441 A Hollidaysburg, PA 16648",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Blair County",
+        "state": "PA"
+      },
+      "source_url": "https://www.blaircountypa.gov/departments/commissioners/courthouse-restoration",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:blair-county:commissioner:amy-webster",
+      "name": "Amy Webster",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Blair County Commissioners Court",
+      "district": null,
+      "phone": "814-693-3030",
+      "email": null,
+      "url": "https://www.blaircountypa.gov/departments/commissioners/contact-webster",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "423 Allegheny Street Suite 441 A Hollidaysburg, PA 16648",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Blair County",
+        "state": "PA"
+      },
+      "source_url": "https://www.blaircountypa.gov/departments/commissioners/courthouse-restoration",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:blair-county:commissioner:david-kessling",
+      "name": "David Kessling",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Blair County Commissioners Court",
+      "district": null,
+      "phone": "814-693-3030",
+      "email": null,
+      "url": "https://www.blaircountypa.gov/departments/commissioners/contactkessling",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "423 Allegheny Street Suite 441 A Hollidaysburg, PA 16648",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Blair County",
+        "state": "PA"
+      },
+      "source_url": "https://www.blaircountypa.gov/departments/commissioners/courthouse-restoration",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:blair-county:commissioner:laura-burke",
+      "name": "Laura Burke",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Blair County Commissioners Court",
+      "district": null,
+      "phone": "814-693-3030",
+      "email": null,
+      "url": "https://www.blaircountypa.gov/departments/commissioners/contact-burk",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "423 Allegheny Street Suite 441 A Hollidaysburg, PA 16648",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Blair County",
+        "state": "PA"
+      },
+      "source_url": "https://www.blaircountypa.gov/departments/commissioners/courthouse-restoration",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -640,6 +768,37 @@
       "confidence": 1
     },
     {
+      "id": "pa:cambria-county:clerk-of-courts:max-r.-pavlovich",
+      "name": "Max R. Pavlovich",
+      "office": "Clerk of Courts",
+      "level": "county",
+      "body": "Cambria County Commissioners Court",
+      "district": null,
+      "phone": "814-472-1540",
+      "email": null,
+      "url": "https://www.cambriacountypa.gov/clerk-of-courts-elected/",
+      "photo_url": "https://www.cambriacountypa.gov/wp-content/uploads/2021/05/ClerkOfCourtsElected.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Center Street Ebensburg, PA 15931",
+      "offices": [],
+      "hours": null,
+      "bio": "Max R. Pavlovich is currently serving his second term as Cambria County’s Clerk of Courts. Max is a lifelong Cambria County resident and a graduate of the University of Pittsburgh at Johnstown. After graduation, Max was hired by the Pennsylvania House of Representatives as a legislative assistant, helping residents solve their state related issues. Later, Max moved into the private side of healthcare, operating as Administrator for a personal care facility.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cambria County",
+        "state": "PA"
+      },
+      "source_url": "https://www.cambriacountypa.gov/clerk-of-courts-elected/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:centre-county:centre-county-administrator:john-franek,-jr.",
       "name": "John Franek, Jr.",
       "office": "Centre County Administrator",
@@ -1198,6 +1357,37 @@
       "confidence": 1
     },
     {
+      "id": "pa:fayette-county:district-attorney:michael-a.-aubele",
+      "name": "Michael A. Aubele",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Fayette County Commissioners Court",
+      "district": null,
+      "phone": "724-430-1245",
+      "email": null,
+      "url": "https://www.fayettecountypa.org/492/District-Attorneys-Office",
+      "photo_url": "https://www.fayettecountypa.org/ImageRepository/Document?documentID=7111",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "61 East Main Street Uniontown, Pa 15401",
+      "offices": [],
+      "hours": "Monday-Friday 8:00 AM- 4:30 PM Closed 12PM-1PM Daily for lunch",
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Fayette County",
+        "state": "PA"
+      },
+      "source_url": "https://www.fayettecountypa.org/433/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:lackawanna-county:clerk-of-judicial-records:lauren-mailen",
       "name": "Lauren Mailen",
       "office": "Clerk of Judicial Records",
@@ -1381,6 +1571,99 @@
       },
       "source_url": "https://www.lancastercountypa.gov/223/Advisory-Authority-Board-Commission-Coun",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:mercer-county:county-commissioner:ann-coleman",
+      "name": "Ann Coleman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mercer County Commissioners Court",
+      "district": null,
+      "phone": "724-662-7531",
+      "email": "acoleman@mercercountypa.gov",
+      "url": null,
+      "photo_url": "https://www.mercercountypa.gov/commissioners/Images/AnnColeman_Large.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mercer County Courthouse 125 S. Diamond St, Ste 103, Mercer, PA 16137",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mercer County",
+        "state": "PA"
+      },
+      "source_url": "https://www.mercercountypa.gov/Commissioners/default.htm",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:mercer-county:county-commissioner:bill-finley",
+      "name": "Bill Finley",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mercer County Commissioners Court",
+      "district": null,
+      "phone": "724-662-7531",
+      "email": "bfinley@mercercountypa.gov",
+      "url": null,
+      "photo_url": "https://www.mercercountypa.gov/Commissioners/Images/BillFinley_Square.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mercer County Courthouse 125 S. Diamond St, Ste 103, Mercer, PA 16137",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mercer County",
+        "state": "PA"
+      },
+      "source_url": "https://www.mercercountypa.gov/Commissioners/default.htm",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:mercer-county:county-commissioner:timothy-mcgonigle",
+      "name": "Timothy McGonigle",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mercer County Commissioners Court",
+      "district": null,
+      "phone": "724-662-7531",
+      "email": "tmcgonigle@mercercountypa.gov",
+      "url": null,
+      "photo_url": "https://www.mercercountypa.gov/Commissioners/Images/Tmcgonigle.2025_square.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mercer County Courthouse 125 S. Diamond St, Ste 103, Mercer, PA 16137",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mercer County",
+        "state": "PA"
+      },
+      "source_url": "https://www.mercercountypa.gov/Commissioners/default.htm",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

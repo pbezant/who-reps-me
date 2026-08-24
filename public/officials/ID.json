@@ -1,11 +1,12 @@
 {
   "state": "ID",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 22,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 28,
   "cities": [
     "Boise City",
     "Bonneville County",
-    "Canyon County"
+    "Canyon County",
+    "Nampa"
   ],
   "officials": [
     {
@@ -698,6 +699,192 @@
       },
       "source_url": "https://www.canyoncounty.id.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:dale-reynolds",
+      "name": "Dale Reynolds",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": null,
+      "email": "reynoldsd@cityofnampa.us",
+      "url": "https://www.cityofnampa.us/526/Dale-Reynolds",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=14794",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": null,
+      "bio": "Dale Reynolds was elected to District 4 in November 2023 and sworn into office for a four-year term on January 2, 2024. An Idaho native, he has lived in Nampa for eight years and owns Icon Mechanical. He has served in various community roles, including the Treasure Valley God and Country Festival board and as a Wyakin Warrior Foundation mentor.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:david-bills",
+      "name": "David Bills",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofnampa.us/524/David-Bills",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=17733",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": null,
+      "bio": "David Bills was appointed to the Nampa City Council in January 2024 and later voted Council President in 2026. A graduate of Borah High School and Boise State University, he and his wife Carrie have been active in real estate, construction, and development in Nampa since 1994 through their company Lanco, Inc. Bills has also led various Biblical ministries and previously served on the Nampa City Council and Meridian School District School Board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:debbie-skaug",
+      "name": "Debbie Skaug",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofnampa.us/622/Debbie-Skaug",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=20184",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": null,
+      "bio": "Debbie Skaug was elected to the Nampa City Council in November of 2025 and sworn in January 5, 2026. Debbie is a native Idahoan, raised on a wheat farm in south central Idaho. She has supported or served with numerous Nampa charitable organizations as a volunteer.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:natalie-jangula",
+      "name": "Natalie Jangula",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": "208-468-4413",
+      "email": "jangulan@cityofnampa.us",
+      "url": "https://www.cityofnampa.us/1308/Natalie-Jangula",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=14176",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": "M-F 8am-5pm",
+      "bio": "Natalie Jangula was sworn into office for District 2 on January 2, 2024. She is a Financial Advisor Administrative Assistant and is actively involved in community service, including the Nampa Lions Club and volunteering at her children's schools. Councilwoman Jangula is committed to upholding Nampa's vision of a caring community with economic opportunity and a unique identity.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:sebastian-griffin",
+      "name": "Sebastian Griffin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": null,
+      "email": "sgriffin@cityofnampa.us",
+      "url": "https://www.cityofnampa.us/1307/Sebastian-Griffin",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=17735",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Griffinforidaho/",
+        "instagram": "https://www.instagram.com/griffinfornampa/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": null,
+      "bio": "Sebastian Griffin was sworn in as a Nampa City Councilman for District 6 on January 2, 2024. A 5th generation Idahoan and Nampa native, he is a small business owner and is currently pursuing a joint Juris Doctor and Masters in Accounting and Taxation at the University of Idaho, College of Law.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:nampa:council-member:victor-rodriguez",
+      "name": "Victor Rodriguez",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Nampa City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofnampa.us/525/Victor-Rodriguez",
+      "photo_url": "https://www.cityofnampa.us/ImageRepository/Document?documentID=11306",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 3rd St. S. Nampa, ID 83651",
+      "offices": [],
+      "hours": null,
+      "bio": "Victor Rodriguez was elected to the Nampa City Council in November of 2017 and re-elected in November of 2021 and November of 2025 to District 5. He retired from the Nampa Police Department in 2012 after serving 40 years as a police officer, including 30 years as a homicide detective. Victor is married to Delsie Rodriguez, and they have 7 children and 20 grandchildren.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nampa",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofnampa.us/94/City-Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

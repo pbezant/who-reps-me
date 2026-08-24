@@ -1,12 +1,15 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-23T05:05:18.632Z",
-  "count": 253,
+  "generated_at": "2026-08-24T05:03:33.382Z",
+  "count": 286,
   "cities": [
+    "Abilene",
+    "Allen",
     "Arlington",
     "Austin",
     "Bastrop",
     "Bastrop County",
+    "Beaumont",
     "Bee Cave",
     "Bexar County",
     "Brownsville",
@@ -14,6 +17,7 @@
     "Cameron County",
     "Collin County",
     "Comal County",
+    "Conroe",
     "Corpus Christi",
     "Dallas County",
     "Denton County",
@@ -48,12 +52,447 @@
     "Round Rock",
     "San Marcos",
     "Smithville",
+    "Sugar Land",
     "Tarrant County",
     "Travis County",
     "Waco",
     "Williamson County"
   ],
   "officials": [
+    {
+      "id": "tx:abilene:council-member:benjamin-bailey",
+      "name": "Benjamin Bailey",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 4",
+      "phone": "325-676-6200",
+      "email": "benjamin.bailey@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=187",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=22554",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:council-member:jay-patterson",
+      "name": "Jay Patterson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 3",
+      "phone": "325-676-6200",
+      "email": "jay.patterson@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=186",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=41160",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jay Patterson serves as a Council Member for Place 3 on the City Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:council-member:lynn-beard",
+      "name": "Lynn Beard",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 2",
+      "phone": "325-676-6200",
+      "email": "lynn.beard@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=183",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=13999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Lynn Beard serves as a City Council Member for Place 2. He is the General Manager of Abilene Aero, Inc. and a retired Lieutenant from the Abilene Police Department. Beard is actively involved in various community activities, including serving as an Elder at Beltway Park Church and as President of the Executive Board of Directors for the Regional Victims’ Crisis Center.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:council-member:miguel-espinoza",
+      "name": "Miguel Espinoza",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 5",
+      "phone": "325-676-6200",
+      "email": "miguel.espinoza@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=188",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=36395",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Miguel Espinoza is a Council Member for Place 5 on the City Council. He is a certified public accountant with a bachelor’s degree in Business Administration and a Masters of Accountancy from Abilene Christian University. Born and raised in Abilene, he is involved in various community activities.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:council-member:shane-price",
+      "name": "Shane Price",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 1",
+      "phone": "325-676-6200",
+      "email": "shane.price@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=182",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=4646",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 Walnut Street Abilene, TX 79601",
+      "offices": [],
+      "hours": null,
+      "bio": "Shane Price serves as a Council Member for Place 1. He holds a B.S. in Computer Science from Abilene Christian University and has a professional background as a Bookstore Manager and Vice President of Development. A lifelong resident of Abilene, he is involved in community activities and has four children with his spouse, Carmen.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:council-member:travis-craver",
+      "name": "Travis Craver",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": "Place 6",
+      "phone": "325-676-6200",
+      "email": "travis.craver@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=189",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=4647",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Travis Craver serves as Council Member - Place 6 and is the Executive Director of Mentoring Alliance. He holds degrees from Hardin-Simmons University and Baylor University. In his personal life, he enjoys active outdoor activities, reading, and spending time with his family.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:abilene:mayor:weldon-w.-hurt",
+      "name": "Weldon W. Hurt",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Abilene City Council",
+      "district": null,
+      "phone": "325-676-6200",
+      "email": "weldon.hurt@abilenetx.gov",
+      "url": "https://www.abilenetx.gov/Directory.aspx?EID=181",
+      "photo_url": "https://www.abilenetx.gov/ImageRepository/Document?documentID=4648",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 Walnut Street Abilene, TX 79601",
+      "offices": [],
+      "hours": null,
+      "bio": "Weldon W. Hurt is the Mayor of Abilene. He is the President of Pest Patrol, a locally owned and operated business for 25 years, and holds an Associates Degree from Western Texas College. He is actively involved in the community, serving as a current board member for the Abilene Convention and Visitors Bureau and previously on several other local boards.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Abilene",
+        "state": "TX"
+      },
+      "source_url": "https://www.abilenetx.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:amy-gnadt",
+      "name": "Amy Gnadt",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 4",
+      "phone": "214-509-4124",
+      "email": "amy.gnadt@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:ben-trahan",
+      "name": "Ben Trahan",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 6",
+      "phone": "214-509-4126",
+      "email": "ben.trahan@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:carl-clemencich",
+      "name": "Carl Clemencich",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 5",
+      "phone": "214-509-4125",
+      "email": "carl.clemencich@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:ken-cook",
+      "name": "Ken Cook",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 3",
+      "phone": "214-509-4123",
+      "email": "ken.cook@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:michael-schaeffer",
+      "name": "Michael Schaeffer",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 1",
+      "phone": "214-509-4121",
+      "email": "michael.schaeffer@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:council-member:tommy-baril",
+      "name": "Tommy Baril",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": "Place 2",
+      "phone": "214-509-4122",
+      "email": "tommy.baril@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:allen:mayor:chris-schulmeister",
+      "name": "Chris Schulmeister",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Allen City Council",
+      "district": null,
+      "phone": "214-509-4120",
+      "email": "cschulmeister@allentx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Allen",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofallen.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
     {
       "id": "tx:arlington:mayor:jim-ross",
       "name": "Jim Ross",
@@ -479,6 +918,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:beaumont:council-member:chris-durio",
+      "name": "Chris Durio",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "Ward 4",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=18",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=2924",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": "Chris Durio is married to Gwendolyn Durio and has two children and four grandchildren. He is a 1980 graduate of Hebert High School, served in the U.S. Navy, and retired as a Captain from the Beaumont Fire Department after 31 years of service.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:council-member:cory-crenshaw",
+      "name": "Cory Crenshaw",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "Ward 1",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=118",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=2763",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": "Cory Crenshaw is the Councilman known as a snack",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:council-member:joey-hilliard",
+      "name": "Joey Hilliard",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "Ward 2",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=119",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=4242",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member, Ward 2. Current Term Expires May 2027.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:council-member:ladonna-sherwood",
+      "name": "LaDonna Sherwood",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "Ward 3",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=120",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=2921",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:council-member:mike-williams",
+      "name": "Mike Williams",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "At-large",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=117",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=2926",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:mayor-pro-tempore,-council-member:albert-a.j.-turner",
+      "name": "Albert “A.J.” Turner",
+      "office": "Mayor Pro Tempore, Council Member",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": "At-large",
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=13",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=973",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": "Albert “AJ” Turner is a lifelong native of Beaumont, Texas, and a devoted father. He has served as a leader in the community and as a City Councilmember At-Large for the City of Beaumont since May 2021. He graduated with Honors from Central High School and holds a Bachelor of Science in Sociology from Wiley College.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:beaumont:mayor:roy-west",
+      "name": "Roy West",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Beaumont City Council",
+      "district": null,
+      "phone": "409-880-3770",
+      "email": null,
+      "url": "https://www.beaumonttexas.gov/m/directory/employee?eid=35",
+      "photo_url": "https://www.beaumonttexas.gov/ImageRepository/Document?documentID=2925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Main St. Beaumont, TX 77701",
+      "offices": [],
+      "hours": null,
+      "bio": "Roy West is a proud, lifelong Texan, born and raised in Beaumont. He graduated from Lamar University and Southern Methodist University, and has over 30 years of experience as a business owner. Elected Mayor of the City of Beaumont in May 2023, he is committed to creating a thriving, united Beaumont.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Beaumont",
+        "state": "TX"
+      },
+      "source_url": "https://www.beaumonttexas.gov/676/City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:bee-cave:council-member:andrea-willott",
       "name": "Andrea Willott",
       "office": "Council Member",
@@ -770,7 +1426,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -793,7 +1449,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -850,7 +1506,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1
     },
     {
@@ -870,7 +1526,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-24T05:03:33.382Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1253,6 +1909,161 @@
       },
       "source_url": "https://www.comalcounty.gov/171/Commissioner-Precinct-3",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:conroe:council-member:david-hairel",
+      "name": "David Hairel",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Conroe City Council",
+      "district": "Place 1",
+      "phone": "936-522-3010",
+      "email": "david.hairel@cityofconroe.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Davis Conroe, Texas 77301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Conroe",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofconroe.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:conroe:council-member:ken-blevins",
+      "name": "Ken Blevins",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Conroe City Council",
+      "district": "Place 4",
+      "phone": "936-522-3010",
+      "email": "kblevins@cityofconroe.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Davis Conroe, Texas 77301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Conroe",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofconroe.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:conroe:council-member:kristin-hoisington",
+      "name": "Kristin Hoisington",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Conroe City Council",
+      "district": "Place 3",
+      "phone": "936-522-3010",
+      "email": "khoisington@cityofconroe.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Davis Conroe, Texas 77301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Conroe",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofconroe.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:conroe:council-member:shana-r.-arthur",
+      "name": "Shana R. Arthur",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Conroe City Council",
+      "district": "Place 2",
+      "phone": "936-522-3010",
+      "email": "shana.arthur@cityofconroe.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Davis Conroe, Texas 77301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Conroe",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofconroe.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:conroe:mayor-pro-tem:john-sellars",
+      "name": "John Sellars",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Conroe City Council",
+      "district": "Place 5",
+      "phone": "936-522-3010",
+      "email": "jsellars@cityofconroe.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W. Davis Conroe, Texas 77301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Conroe",
+        "state": "TX"
+      },
+      "source_url": "https://www.cityofconroe.org/government/city_council/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -6519,6 +7330,223 @@
       "source_url": "https://www.ci.smithville.tx.us/",
       "extracted_at": "2026-08-18T17:11:03.748Z",
       "confidence": 0.9
+    },
+    {
+      "id": "tx:sugar-land:council-member:rick-miller",
+      "name": "Rick Miller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "District 4",
+      "phone": "281-275-2313",
+      "email": "rmiller@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/167/District-4",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40610",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member D. F. “Rick” Miller is a retired U.S. Navy Captain and Naval Aviator, having served 30 years and commanded multiple units. He is the founder and President of TREVANIONGROUP, LLC, and currently serves on the Board of Directors for Impact A Hero and The Warriors Refuge.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:council-member:robert-boettcher",
+      "name": "Robert Boettcher",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "At Large Position 2",
+      "phone": "281-275-2313",
+      "email": "rboettcher@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/162/At-Large-2",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40611",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Robert \"Rob\" Boettcher was elected to Sugar Land City Council as the At-Large Position 2 representative in June 2025. A Sugar Land resident since 2014, Rob and his family chose to make the city their home because of its exceptional quality of life, strong neighborhoods, and family-friendly community. Rob brings more than a decade of engineering experience in the energy industry and currently serves as a Senior Engineer with Schlumberger.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:council-member:sanjay-singhal",
+      "name": "Sanjay Singhal",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "District 2",
+      "phone": "281-275-2313",
+      "email": "ssinghal@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/165/District-2",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40609",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Sanjay Singhal was elected to represent District 2 on the Sugar Land City Council in June 2025. He led in both the general and runoff elections with broad support across all neighborhoods and communities to deliver transparent governance and balanced growth for our city. Before joining City Council, Sanjay was an active community leader in Sugar Land.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:council-member:stewart-jacobson",
+      "name": "Stewart Jacobson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "District 3",
+      "phone": "281-275-2313",
+      "email": "sjacobson@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/166/District-3",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40607",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Stewart Jacobson was born in Chicago, Illinois and earned his JD from the University of Texas School of Law in 1984. He has been a Certified Financial Planner™ since 1988 and president of his own financial planning firm, Dearborn & Creggs, since 1989. Dearborn & Creggs is a traditional financial planning firm that also is deeply involved in the educator and municipal employee niche.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:council-member:suzanne-whatley",
+      "name": "Suzanne Whatley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "District 1",
+      "phone": "281-275-2313",
+      "email": "swhatley@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/164/District-1",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=25776",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to a three-year term serving District One, Suzanne Whatley is a 27-year resident of Sugar Land, a small business owner of 19 years, a commercial property owner in District One, a mother of five, and an avid community leader in Sugar Land.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:mayor-pro-tem:jim-vonderhaar",
+      "name": "Jim Vonderhaar",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": "At Large Position 1",
+      "phone": "281-275-2313",
+      "email": "jvonderhaar@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/161/At-Large-1",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40608",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Vonderhaar is a longtime Sugar Land resident, businessman, and dedicated community leader committed to smart growth, high quality of life, and a strong economy. With over 30 years in the energy sector and experience as a home care agency owner, he brings expertise in strategic planning, fiscal responsibility, and community service. A graduate of the University of Southern Mississippi, Jim is married with one son and two granddaughters.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:sugar-land:mayor:carol-mccutcheon",
+      "name": "Carol McCutcheon",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sugar Land City Council",
+      "district": null,
+      "phone": "281-275-2313",
+      "email": "cmccutcheon@sugarlandtx.gov",
+      "url": "https://www.sugarlandtx.gov/172/Mayor",
+      "photo_url": "https://www.sugarlandtx.gov/ImageRepository/Document?documentId=40612",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 110 Sugar Land, TX 77487-0110",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor McCutcheon was elected to her first term as Mayor in 2025. She and her husband, Joe, have lived in Sugar Land since 1993. Mayor McCutcheon is known for her civic and community involvement, and has extensive experience as a reservoir engineer in the exploration and production of oil and gas.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Sugar Land",
+        "state": "TX"
+      },
+      "source_url": "https://www.sugarlandtx.gov/160/Mayor-City-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
     },
     {
       "id": "tx:tarrant-county:commissioner:alisa-simmons",

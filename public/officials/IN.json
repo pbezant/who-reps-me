@@ -1,13 +1,356 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 25,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 36,
   "cities": [
+    "Clark County",
+    "Delaware County",
     "Hamilton County",
     "Lake County",
     "Marion County"
   ],
   "officials": [
+    {
+      "id": "in:clark-county:clark-county-attorney:r.-scott-lewis",
+      "name": "R. Scott Lewis",
+      "office": "Clark County Attorney",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": "812-285-6275",
+      "email": "slewis@clarkcounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.clarkcounty.in.gov/images/images/ScottLewis-2017.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "IN"
+      },
+      "source_url": "https://www.clarkcounty.in.gov/index.php/clark-county-indiana-government/clark-county-indiana-commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:clark-county:commissioner:david-decker",
+      "name": "David Decker",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 1",
+      "phone": "812-503-4448",
+      "email": "ddecker@clarkcounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.clarkcounty.in.gov/images/2025/graphics/DavidDecker2025.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Clark County Government Center, 300 Corporate Drive, Meeting Chambers, Room 103, Jeffersonville, IN 47130",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "IN"
+      },
+      "source_url": "https://www.clarkcounty.in.gov/index.php/clark-county-indiana-government/clark-county-indiana-commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:clark-county:president,-commissioner:bryan-glover",
+      "name": "Bryan Glover",
+      "office": "President, Commissioner",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 3",
+      "phone": "502-523-7013",
+      "email": "bglover@clarkcounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.clarkcounty.in.gov/images/images/Glover-Commissioner.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Clark County Government Center, 300 Corporate Drive, Meeting Chambers, Room 103, Jeffersonville, IN 47130",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "IN"
+      },
+      "source_url": "https://www.clarkcounty.in.gov/index.php/clark-county-indiana-government/clark-county-indiana-commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:clark-county:vice-president,-commissioner:jack-coffman",
+      "name": "Jack Coffman",
+      "office": "Vice President, Commissioner",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": "District 2",
+      "phone": "502-438-6992",
+      "email": "jcoffman@clarkcounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.clarkcounty.in.gov/images/images/Coffman-Commish2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Clark County Government Center, 300 Corporate Drive, Meeting Chambers, Room 103, Jeffersonville, IN 47130",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "IN"
+      },
+      "source_url": "https://www.clarkcounty.in.gov/index.php/clark-county-indiana-government/clark-county-indiana-commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council-at-large:brad-bookout",
+      "name": "Brad Bookout",
+      "office": "Council At-Large",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": null,
+      "phone": "765-808-1484",
+      "email": "bbookout@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/brad-bookout/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council-at-large:eugene-whitehead",
+      "name": "Eugene Whitehead",
+      "office": "Council At-Large",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": null,
+      "phone": "765-760-2885",
+      "email": "ewhitehead@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/eugene-whitehead/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Eugene Whitehead is a fourth-generation farmer and an Owner/Operator of Seldom Rest Farms in southern Delaware County, Indiana. He is a graduate of Wapahani High School and Purdue University, with further studies at Ball State University. Eugene has a long history of community engagement, including serving as a trustee and chairperson for Ivy Tech Community College and leadership roles in agriculture.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council-at-large:jessica-piper",
+      "name": "Jessica Piper",
+      "office": "Council At-Large",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": null,
+      "phone": "765-414-1837",
+      "email": "jpiper@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/jessica-piper/",
+      "photo_url": "https://storage.googleapis.com/proudcity/delawarecountyin/2026/03/45927771-174563362_10115470082567458_2402717919048559771_n.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jessica Piper has proudly served on the Delaware County Council since 2017, bringing a blend of hometown commitment and analytical expertise to every decision she makes. A graduate of Delta High School and Purdue University, Jessica’s roots in the community run deep and so does her dedication to strengthening it. With more than 21 years of experience as a business analyst, Jessica is known for turning complex information into clear, actionable insights. She applies that same skill set to the Council, ensuring taxpayer dollars are used responsibly, budgets are transparent, and long-term planning is grounded in data and common sense.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council:dan-flanagan",
+      "name": "Dan Flanagan",
+      "office": "Council",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": "District 1",
+      "phone": "765-215-0452",
+      "email": "dflanagan@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/dan-flanagan/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council:jim-mochal",
+      "name": "Jim Mochal",
+      "office": "Council",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": "District 4",
+      "phone": "765-748-1005",
+      "email": "jmochal@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/jim-mochal/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council:matt-kantz",
+      "name": "Matt Kantz",
+      "office": "Council",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": "District 3",
+      "phone": "765-315-2689",
+      "email": "mrkantz@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/matt-kantz/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:delaware-county:council:william-hughes",
+      "name": "William Hughes",
+      "office": "Council",
+      "level": "county",
+      "body": "Delaware County Commissioners Court",
+      "district": "District 2",
+      "phone": "765-760-1271",
+      "email": "whughes@co.delaware.in.us",
+      "url": "https://delawarecounty.in.gov/contacts/william-hughes/",
+      "photo_url": "https://storage.googleapis.com/proudcity/delawarecountyin/2026/03/77802a08-w_hughes.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "William V . Hughes is a Delaware County native and a graduate of Muncie Burris High School. He received his undergraduate degree from The Johns Hopkins University and law degree from Duke University. William practiced law for 50 years with Beasley & Gilkison LLP. He and his wife Roseanne live in Yorktown. They have one son and four grandsons.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Delaware County",
+        "state": "IN"
+      },
+      "source_url": "https://delawarecounty.in.gov/departments/county-council/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
     {
       "id": "in:hamilton-county:judge:andrew-r.-bloch",
       "name": "Andrew R. Bloch",
