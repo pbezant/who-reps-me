@@ -796,9 +796,11 @@
 
 /* Bento layout for the profile page on desktop only. Below this width the page stays the plain
    vertical stack defined above — a two-column bento on a phone would just be two narrow columns.
-   `align-items:start` rather than the grid default `stretch` on purpose: a section can legitimately
-   be one line ("News search isn't set up yet") while the one beside it runs long, and stretching
-   would blow that short box up into a mostly-empty tall panel. */
+   Alignment differs by row, on purpose. The top row (portrait + contact) stretches so the two
+   halves of the person's identity read as one aligned unit. The bottom row does not: news and
+   voting-record lengths are unrelated — a one-line "News search isn't set up yet" beside ten
+   sponsored bills stretched to an 870px box holding a single sentence, which looked far worse
+   than the ragged bottom edge does. */
 @media screen and (min-width:900px){
   .rep-profile{
     display:grid;
@@ -817,8 +819,13 @@
      against the contact panel beside it. */
   .rep-profile-hero{
     grid-column:span 4;
+    align-self:stretch;
     flex-direction:column;
     align-items:center;
+    /* Centred vertically, not pinned to the top: when the contact panel beside it is the taller
+       of the two (a member of Congress with a bio, committees and several offices), the portrait
+       would otherwise sit against the top edge with all the slack dumped underneath it. */
+    justify-content:center;
     text-align:center;
   }
   .rep-profile-hero img{
@@ -828,6 +835,10 @@
      this is the longest panel on the page (bio + every committee + every district office). */
   .rep-profile-details{
     grid-column:span 8;
+    /* Match the portrait's height rather than shrink-wrapping the contact lines: a local
+       official with only a phone, an email and an address left a stubby box floating beside a
+       tall portrait. Stretch, so whichever of the two is taller sets the row. */
+    align-self:stretch;
   }
   /* Bottom row splits the other way, so the grid reads as a bento rather than two fixed columns. */
   .rep-news{
