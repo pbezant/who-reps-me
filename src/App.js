@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import axios from 'axios';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
@@ -15,11 +15,28 @@ const apiKey = "16d983f13d34f95039958108";
 
 function App() {
   const [repList, setRepList] = useState(null);
+  // Lifted out of SearchBar because HomePage unmounts for as long as a profile is open: state
+  // living inside SearchBar would be gone on the way back, leaving the user staring at an empty
+  // search box sitting above their own still-rendered results — which reads as "my search was
+  // lost" even though repList here survived the trip the whole time.
+  const [searchLocation, setSearchLocation] = useState('');
+  const appRef = useRef(null);
+  useRouteScroll(appRef);
 
   return (
-    <div className="App">
+    <div className="App" ref={appRef}>
       <Routes>
-        <Route path="/" element={<HomePage repList={repList} setRepList={setRepList} />} />
+        <Route
+          path="/"
+          element={
+            <HomePage
+              repList={repList}
+              setRepList={setRepList}
+              location={searchLocation}
+              setLocation={setSearchLocation}
+            />
+          }
+        />
         {/* Same-session only (see RepProfile.js's own header comment): reached by clicking
             "View full profile" on a card from repList above, which hands the clicked rep's
             data along via router state. A cold visit — refresh, a shared link, typing the URL —
@@ -39,15 +56,54 @@ export default App;
 // The search page: hero title, address search bar, and results. This used to be App's whole
 // always-rendered tree before /rep/:id needed a second route to live alongside it (see App()
 // above) — pulled out unchanged so Routes/Route stays the only thing App() itself renders.
-function HomePage({ repList, setRepList }) {
+function HomePage({ repList, setRepList, location, setLocation }) {
   return (
     <main>
       <h1 className='hero-title'>Who Reps Me?</h1>
       <h2 className='hero-subtitle'>An application to find your representatives</h2>
-      <SearchBar apiKey={apiKey} setRepList={setRepList} />
+      <SearchBar apiKey={apiKey} setRepList={setRepList} location={location} setLocation={setLocation} />
       <Results repList={repList} />
     </main>
   );
+}
+
+// Scrolling happens inside .App (height:100vh; overflow-y:scroll — see App.css), not on the
+// window, so neither the browser's own scroll restoration nor a window.scrollTo helps here:
+// every route change would otherwise dump the user at the top of whatever they navigated to.
+//
+// Going back to the results returns them to the exact spot in the list they left from — without
+// this, clicking a rep near the bottom of a long list and coming back means scrolling past the
+// full-height hero and every earlier card to find their place again. Opening a profile always
+// starts at that profile's top, since inheriting the list's scroll offset would drop the user
+// into the middle of a page they have never seen.
+function useRouteScroll(containerRef) {
+  const { pathname } = useLocation();
+  const resultsScrollTop = useRef(0);
+
+  // Listener and scroll reset deliberately live in ONE effect, in this order: React runs the
+  // previous effect's cleanup before the new effect, so leaving the results detaches the listener
+  // *before* anything reassigns scrollTop. Split across two effects this races — the reset to 0
+  // on the way into a profile fires a scroll event that the not-yet-detached listener records,
+  // overwriting the offset we are trying to preserve with 0 (observed, not theoretical).
+  //
+  // Capturing in a cleanup instead of from scroll events doesn't work either: by the time
+  // cleanup runs the DOM has already swapped in the much shorter profile page, so the browser
+  // has clamped scrollTop to that page's height and the real offset is gone.
+  //
+  // useLayoutEffect rather than useEffect so the offset lands before the browser paints;
+  // otherwise the restored page visibly flashes at the top and jumps.
+  useLayoutEffect(() => {
+    const el = containerRef.current;
+    if (!el) return undefined;
+
+    const onResults = pathname === '/';
+    el.scrollTop = onResults ? resultsScrollTop.current : 0;
+    if (!onResults) return undefined;
+
+    const onScroll = () => { resultsScrollTop.current = el.scrollTop; };
+    el.addEventListener('scroll', onScroll, { passive: true });
+    return () => el.removeEventListener('scroll', onScroll);
+  }, [containerRef, pathname]);
 }
 
 // Free, keyless address-suggestion API (Komoot's public Photon instance, built on
@@ -60,8 +116,7 @@ const SUGGEST_DEBOUNCE_MS = 300;
 // 'idle' -> 'searching' (normal fetch, usually well under a second) -> possibly 'scraping'
 // (this search fell through to a live on-demand scrape that's taking a while — see
 // scrapeLocalOfficials()'s SLOW_THRESHOLD_MS) -> back to 'idle'.
-function SearchBar({ apiKey, setRepList }) {
-  const [location, setLocation] = useState('');
+function SearchBar({ apiKey, setRepList, location, setLocation }) {
   const [status, setStatus] = useState('idle');
   // What the on-demand scrape actually concluded, once a search that used it finishes — null
   // means either no on-demand scrape happened (shard hit) or it found officials (self-evident
