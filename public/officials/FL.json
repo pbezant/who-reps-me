@@ -1,19 +1,23 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 158,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 179,
   "cities": [
     "Alachua County",
     "Bay County",
     "Coral Springs",
+    "Davie",
     "Flagler County",
     "Fort Lauderdale",
     "Hialeah",
+    "Highlands County",
     "Hollywood",
+    "Lakeland",
     "Lee County",
     "Leon County",
     "Miami",
     "Miramar",
+    "Nassau County",
     "Okaloosa County",
     "Orlando",
     "Osceola County",
@@ -24,7 +28,8 @@
     "St. Johns County",
     "St. Petersburg",
     "Tallahassee",
-    "Tampa"
+    "Tampa",
+    "West Palm Beach"
   ],
   "officials": [
     {
@@ -459,6 +464,37 @@
       },
       "source_url": "https://www.coralsprings.gov/Government/City-Attorney",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:davie:town-council-member:daniel-j.-alfonso",
+      "name": "Daniel J. Alfonso",
+      "office": "Town Councilmember",
+      "level": "local",
+      "body": "Davie City Council",
+      "district": "District 2",
+      "phone": "954-797-1000",
+      "email": null,
+      "url": "https://www.davie-fl.gov/1882/17249/Daniel-J-Alfonso?activeLiveTab=widgets",
+      "photo_url": "https://www.davie-fl.gov/ImageRepository/Document?documentId=24640",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8800 SW 36th Street, Town of Davie, FL 33328",
+      "offices": [],
+      "hours": "Monday to Thursday 7:30 a.m. - 5:30 p.m.",
+      "bio": "Daniel J. Alfonso was formally appointed as the District 2 Town Councilmember on February 18, 2026, and sworn into office on March 4, 2026. He also serves as the Executive Vice President of Business Services, Facilities Management and Public Safety at Nova Southeastern University (NSU) in Davie, overseeing various campuses and operations.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Davie",
+        "state": "FL"
+      },
+      "source_url": "https://www.davie-fl.gov/1882/17249/Daniel-J-Alfonso?activeLiveTab=widgets",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -1030,6 +1066,161 @@
       "confidence": 1
     },
     {
+      "id": "fl:highlands-county:county-commissioner-(chair):don-elwell",
+      "name": "Don Elwell",
+      "office": "County Commissioner (Chair)",
+      "level": "county",
+      "body": "Highlands County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": "https://www.highlandsfl.gov/county_commissioners/county_commissioners/district_2_commissioner_elwell_chair.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Highlands County",
+        "state": "FL"
+      },
+      "source_url": "https://www.highlandsfl.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:highlands-county:county-commissioner-(vice-chair):chris-campbell",
+      "name": "Chris Campbell",
+      "office": "County Commissioner (Vice Chair)",
+      "level": "county",
+      "body": "Highlands County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Highlands County",
+        "state": "FL"
+      },
+      "source_url": "https://www.highlandsfl.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:highlands-county:county-commissioner:arlene-tuck",
+      "name": "Arlene Tuck",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Highlands County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Highlands County",
+        "state": "FL"
+      },
+      "source_url": "https://www.highlandsfl.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:highlands-county:county-commissioner:kevin-roberts",
+      "name": "Kevin Roberts",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Highlands County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": "https://www.highlandsfl.gov/county_commissioners/county_commissioners/district_1_commissioner_roberts.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Highlands County",
+        "state": "FL"
+      },
+      "source_url": "https://www.highlandsfl.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:highlands-county:county-commissioner:scott-kirouac",
+      "name": "Scott Kirouac",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Highlands County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Highlands County",
+        "state": "FL"
+      },
+      "source_url": "https://www.highlandsfl.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:hollywood:city-commissioner:adam-gruber",
       "name": "Adam Gruber",
       "office": "City Commissioner",
@@ -1245,6 +1436,285 @@
       "source_url": "https://www.hollywoodfl.org/27/Government",
       "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 1
+    },
+    {
+      "id": "fl:lakeland:assistant-city-manager:shawn-sherrouse",
+      "name": "Shawn Sherrouse",
+      "office": "Assistant City Manager",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6006",
+      "email": "Shawn.Sherrouse@lakelandgov.net",
+      "url": "https://www.lakelandgov.net/government/city-management/shawn-sherrouse/",
+      "photo_url": "https://www.lakelandgov.net/media/14475/shawn-2022-copy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "On October 20, 2020, Shawn was selected as City Manager for the City of Lakeland. Prior to this appointment, he served as Deputy City Manager and as Assistant City Manager. Before his work with the City of Lakeland, Shawn was the Assistant City Manager for the City of Auburndale for four years and served as their Community Development Director for six years.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:ashley-c.-troutman",
+      "name": "Ashley C. Troutman",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "Ashley.Troutman@LakelandGov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/ashley-c-troutman/",
+      "photo_url": "https://www.lakelandgov.net/media/22077/troutman-headshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "With nearly 20 years of experience in the financial services industry, Ashley Troutman is the Founder and Principal of Guided Financial Planning, guiding individuals and business owners through comprehensive financial planning and wealth management strategies. A lifelong resident of Lakeland, he is deeply committed to community service, serving as Chairman of the Board for Lighthouse Ministries and as a member of the Board of Trustees at Polk State College.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:chad-mcleod",
+      "name": "Chad McLeod",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "Chad.McLeod@LakelandGov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/chad-mcleod/",
+      "photo_url": "https://www.lakelandgov.net/media/21026/2020_commissioner-mcleod.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Chad McLeod is in his second term on the Lakeland City Commission and has been serving since 2020. He is a Polk County native and fourth-generation Floridian. As a commissioner, Chad chairs the Finance Committee and serves on the Real Estate and Transportation, Affordable Housing Advisory and Legislative committees, and Polk County’s Tourist Development Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:guy-lalonde-jr.",
+      "name": "Guy LaLonde Jr.",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "citycommission@lakelandgov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/guy-lalonde-jr/",
+      "photo_url": "https://www.lakelandgov.net/media/22938/26commission_lalonde.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Guy LaLonde Jr. serves as City Commissioner for the Northwest District for the City of Lakeland, Florida. A United States Navy veteran, business owner, and community leader, he brings decades of leadership experience in business operations, financial management, and public service. Born and raised in New Hampshire, Guy moved to Lakeland in the 1980s and proudly made the city his home.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:mike-musick",
+      "name": "Mike Musick",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "Michael.Musick@LakelandGov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/mike-musick/",
+      "photo_url": "https://www.lakelandgov.net/media/13359/musick_2021.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Musick is the owner of Musick Construction & Roofing and has lived in Lakeland for more than 40 years. He is a 1991 graduate of Lakeland Christian School (LCS), where he won multiple state championships as a member of the track team. For the past 12 years, Mike has coached cross country and track at LCS.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:sara-roberts-mccarley",
+      "name": "Sara Roberts McCarley",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "Sara.McCarley@lakelandgov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/sara-roberts-mccarley/",
+      "photo_url": "https://www.lakelandgov.net/media/22937/26-mayor-sara-roberts-mccarley.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Sara Roberts McCarley was born in Lakeland, raised in Davenport, and graduated from Florida Southern College. She has dedicated her career to making a meaningful difference, serving in various leadership roles including Chair of the Citrus Connection and Mayor of Lakeland since January 5, 2026. Following the passing of her first husband, Randy, she founded the Randy Roberts Foundation to empower young people in government.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:stephanie-madden",
+      "name": "Stephanie Madden",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "stephanie.madden@lakelandgov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/stephanie-madden/",
+      "photo_url": "https://www.lakelandgov.net/media/13356/madden_2021.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Stephanie Madden is a small business owner and Lakeland City Commissioner. She and her husband, Steve, started ShopMadden, a promotional marketing company in 1995. Stephanie is a mother to six children and a grandmother.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-commissioner:terry-g.-coney",
+      "name": "Terry G. Coney",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-6005",
+      "email": "Terry.Coney@LakelandGov.net",
+      "url": "https://www.lakelandgov.net/government/mayor-city-commission/terry-g-coney/",
+      "photo_url": "https://www.lakelandgov.net/media/22076/photo-for-website.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Terry G. Coney is a proud son of Lakeland, a 22-year Air Force veteran, and holds degrees from Florida A&M University and Embry-Riddle Aeronautical University. He has a strong record of community service, including leadership roles at First Baptist Institutional Church and extensive volunteer work on city and county boards and committees. His goal is to improve the quality of life for all citizens of Lakeland.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:lakeland:city-manager:rob-hernandez",
+      "name": "Rob Hernandez",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Lakeland City Council",
+      "district": null,
+      "phone": "863-834-5249",
+      "email": "Rob.Hernandez@lakelandgov.net",
+      "url": "https://www.lakelandgov.net/government/city-management/rob-hernandez/",
+      "photo_url": "https://www.lakelandgov.net/media/17804/rob-hernandez_1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "228 S. Massachusetts Avenue, Lakeland, FL 33801",
+      "offices": [],
+      "hours": null,
+      "bio": "Rob Hernandez began his municipal government career in 1994, holding various leadership roles including Deputy County Administrator for Broward County and City Manager for several cities. He is a 23-year US Army Reserves veteran, holding a Master’s in Public Administration from Nova Southeastern University and a Bachelor's from Florida International University.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lakeland",
+        "state": "FL"
+      },
+      "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
     },
     {
       "id": "fl:lee-county:county-commissioner,-chairman:cecil-pendergrass",
@@ -2188,6 +2658,161 @@
       },
       "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:nassau-county:commissioner:a.m.-hupp-huppmann",
+      "name": "A.M. \"Hupp\" Huppmann",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District Two",
+      "phone": "904-319-0686",
+      "email": "ahuppmann@nassaucountyfl.com",
+      "url": "https://www.nassaucountyfl.com/DocumentCenter/View/23623/AM-Hupp-Huppmann-Bio--",
+      "photo_url": "https://www.nassaucountyfl.com/ImageRepository/Document?documentID=23620",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "FL"
+      },
+      "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:nassau-county:commissioner:alyson-r.-mccullough,-chair",
+      "name": "Alyson R. McCullough, Chair",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District Four",
+      "phone": "904-319-0689",
+      "email": "amccullough@nassaucountyfl.com",
+      "url": "https://www.nassaucountyfl.com/DocumentCenter/View/23627/A-Mcc-Bio",
+      "photo_url": "https://www.nassaucountyfl.com/ImageRepository/Document?documentID=31050",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "FL"
+      },
+      "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:nassau-county:commissioner:jeff-gray,-vice-chair",
+      "name": "Jeff Gray, Vice-Chair",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District Three",
+      "phone": "904-570-1946",
+      "email": "jgray@nassaucountyfl.com",
+      "url": "https://www.nassaucountyfl.com/DocumentCenter/View/20567/Jeff-Gray-Bio",
+      "photo_url": "https://www.nassaucountyfl.com/ImageRepository/Document?documentID=31051",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "FL"
+      },
+      "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:nassau-county:commissioner:john-f.-martin,-mba",
+      "name": "John F. Martin, MBA",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District One",
+      "phone": "904-570-2594",
+      "email": "jmartin@nassaucountyfl.com",
+      "url": "https://www.nassaucountyfl.com/DocumentCenter/View/21415/J-Martin-June-2021",
+      "photo_url": "https://www.nassaucountyfl.com/ImageRepository/Document?documentID=31053",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "FL"
+      },
+      "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:nassau-county:commissioner:klynt-a.-farmer",
+      "name": "Klynt A. Farmer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nassau County Commissioners Court",
+      "district": "District Five",
+      "phone": "904-570-1357",
+      "email": "kfarmer@nassaucountyfl.com",
+      "url": "https://www.nassaucountyfl.com/DocumentCenter/View/20563/Klynt-Farmer-Bio",
+      "photo_url": "https://www.nassaucountyfl.com/ImageRepository/Document?documentID=31052",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Nassau County",
+        "state": "FL"
+      },
+      "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -5104,6 +5729,37 @@
       },
       "source_url": "https://www.tampa.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:west-palm-beach:mayor:keith-a.-james",
+      "name": "Keith A. James",
+      "office": "Mayor",
+      "level": "local",
+      "body": "West Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.wpb.org/Our-City/Office-of-Mayor-Keith-A.-James/About-Mayor-James",
+      "photo_url": "https://www.wpb.org/files/assets/city/v/1/mayors-office/images/lgbtq/mayor-keith-a.-james/keith-a-james.jpg?w=375&h=375",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Clematis Street West Palm Beach, FL 33401",
+      "offices": [],
+      "hours": null,
+      "bio": "Keith James was first elected Mayor of the City of West Palm Beach on March 12, 2019, and re-elected, unopposed, to a second four-year term in 2023. As Mayor, he has focused on building a \"Community of Opportunity for All\" by expanding affordable and workforce housing, strengthening public safety, and investing in infrastructure. Mayor James is the City of West Palm Beach's first African-American \"strong mayor,\" serving as the City's Chief Executive Officer and directing its administrative operations.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "West Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.wpb.org/Our-City/Office-of-Mayor-Keith-A.-James/Hurricane-Readiness-Guide?OC_EA_EmergencyAnnouncementList_Dismiss=68ec2169-5da2-4ff1-bb7b-c8fabb4dbf34",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

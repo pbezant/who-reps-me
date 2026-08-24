@@ -1,7 +1,7 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 92,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 95,
   "cities": [
     "Akron",
     "Cincinnati",
@@ -12,6 +12,7 @@
     "Greene County",
     "Hamilton County",
     "Lake County",
+    "Richland County",
     "Summit County",
     "Toledo",
     "Warren County",
@@ -1752,6 +1753,99 @@
       },
       "source_url": "https://www.lakecountyohio.gov/commissioners-office/public-safety-center-updates/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:richland-county:county-commissioner:cliff-mears",
+      "name": "Cliff Mears",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Richland County Commissioners Court",
+      "district": null,
+      "phone": "419-774-5695",
+      "email": "cmears@richlandcountyoh.gov",
+      "url": "https://www.richlandcountyoh.gov/CliffMears",
+      "photo_url": "https://www.richlandcountyoh.gov/media/Design_files/commissioners/CliffMears.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 Park Avenue East, Mansfield, Ohio 44902-1861",
+      "offices": [],
+      "hours": "Monday - Friday\n8:00 AM - 4:00 PM",
+      "bio": "Cliff Mears holds a Bachelor of Arts in Communications and has a diverse professional background in industrial relations, finance, and communications, including roles at National Geographic Society. He taught Communications for over 20 years and served on the Mansfield Playhouse Board. Prior to becoming County Commissioner, he was President of Mansfield City Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Richland County",
+        "state": "OH"
+      },
+      "source_url": "https://www.richlandcountyoh.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:richland-county:county-commissioner:darrell-banks",
+      "name": "Darrell Banks",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Richland County Commissioners Court",
+      "district": null,
+      "phone": "419-774-5553",
+      "email": "dbanks@richlandcountyoh.gov",
+      "url": "https://www.richlandcountyoh.gov/darrellbanks",
+      "photo_url": "https://www.richlandcountyoh.gov/media/Design_files/commissioners/DarylBanks.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 Park Avenue East, Mansfield, Ohio 44902-1861",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 AM - 4:00 PM",
+      "bio": "Darrell Banks has served as Richland County Commissioner, following nine years as Mayor of the Village of Bellville. He previously owned and operated several businesses in Richland County for over 25 years and also taught vocational education. Darrell has been an industry leader, serving as president of the Ohio Restaurant Association and co-founder of the Richland County Convention and Visitors Bureau.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Richland County",
+        "state": "OH"
+      },
+      "source_url": "https://www.richlandcountyoh.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:richland-county:county-commissioner:tony-vero",
+      "name": "Tony Vero",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Richland County Commissioners Court",
+      "district": null,
+      "phone": "419-774-5552",
+      "email": "tvero@richlandcountyoh.gov",
+      "url": "https://www.richlandcountyoh.gov/TonyVero",
+      "photo_url": "https://www.richlandcountyoh.gov/media/Design_files/commissioners/TonyVero.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 Park Avenue East, Mansfield, Ohio 44902-1861",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 AM - 4:00 PM",
+      "bio": "Anthony “Tony” Vero was born and raised in Canton, Ohio, and took permanent residence in Richland County in the fall of 2004. He graduated from Miami University and the University of Akron School of Law, and is licensed to practice law in Ohio. Prior to becoming commissioner on January 3, 2017, Tony worked in the private sector and served on the Village of Lexington Council.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Richland County",
+        "state": "OH"
+      },
+      "source_url": "https://www.richlandcountyoh.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

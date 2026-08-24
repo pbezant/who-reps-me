@@ -1,14 +1,108 @@
 {
   "state": "AZ",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 24,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 27,
   "cities": [
+    "Cochise County",
     "Maricopa County",
     "Mohave County",
     "Pima County",
     "Pinal County"
   ],
   "officials": [
+    {
+      "id": "az:cochise-county:county-supervisor:frank-antenori",
+      "name": "Frank Antenori",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Cochise County Commissioners Court",
+      "district": "District 3",
+      "phone": "520-432-9200",
+      "email": "fantenori@cochise.az.gov",
+      "url": "https://az-cochisecounty.civicplus.com/551/District-3-County-Supervisor",
+      "photo_url": "https://www.cochise.az.gov/ImageRepository/Document?documentId=24945",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1415 Melody Lane, Building G, Bisbee, AZ 85603",
+      "offices": [],
+      "hours": null,
+      "bio": "Frank Antenori was born and raised in Peckville, Pennsylvania, and served in the U.S. Army Special Forces, participating in operations in Afghanistan and the Gulf War. He later worked in aerospace and defense, and served as a State Representative and Senator in Arizona, focusing on budget cuts and conservative legislation. He holds an MBA and a Bachelor's in Health Science.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cochise County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.cochise.az.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:cochise-county:county-supervisor:kathleen-gomez",
+      "name": "Kathleen Gomez",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Cochise County Commissioners Court",
+      "district": "District 2",
+      "phone": "520-432-9200",
+      "email": "kgomez@cochise.az.gov",
+      "url": "https://az-cochisecounty.civicplus.com/549/District-2-County-Supervisor",
+      "photo_url": "https://www.cochise.az.gov/ImageRepository/Document?documentId=24946",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1415 Melody Lane, Building G, Bisbee, AZ 85603",
+      "offices": [],
+      "hours": null,
+      "bio": "Kathleen Gomez is a proud fourth-generation native of Douglas, Arizona, with deep family roots in the community. In 2024, Kathleen was elected Cochise County Supervisor for District 2, bringing decades of experience in public policy, healthcare, education, and community advocacy to her new role. As Supervisor, Kathleen is committed to transparent leadership, responsible growth, and strengthening community engagement while ensuring that the voices of District 2 residents are heard and represented.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cochise County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.cochise.az.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:cochise-county:county-supervisor:tom-crosby",
+      "name": "Tom Crosby",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Cochise County Commissioners Court",
+      "district": "District 1",
+      "phone": "520-432-9200",
+      "email": "tcrosby@cochise.az.gov",
+      "url": "https://az-cochisecounty.civicplus.com/548/District-1-County-Supervisor",
+      "photo_url": "https://www.cochise.az.gov/ImageRepository/Document?documentId=24947",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1415 Melody Lane, Building G, Bisbee, AZ 85603",
+      "offices": [],
+      "hours": null,
+      "bio": "Supervisor Tom Crosby is a former U.S. Border Patrol agent and pilot with 26 years of U.S. border security experience. He has a Bachelor of Arts degree in Psychology, and prior to his role as Cochise County Supervisor, Crosby served as a Sierra Vista City Councilman. He is also a member of the Public Safety Retirement Board, and Correction Officers Retirement Board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cochise County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.cochise.az.gov/",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
     {
       "id": "az:maricopa-county:supervisor:debbie-lesko",
       "name": "Debbie Lesko",

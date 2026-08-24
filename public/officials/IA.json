@@ -1,10 +1,11 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 37,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 45,
   "cities": [
     "Black Hawk County",
     "Cedar Rapids",
+    "Dallas County",
     "Linn County",
     "Polk County"
   ],
@@ -596,6 +597,254 @@
       },
       "source_url": "https://www.cedar-rapids.org/local_government/departments_a_-_f/building_services/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:attorney:matt-schultz",
+      "name": "Matt Schultz",
+      "office": "Attorney",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "515-993-5060",
+      "email": "matt.schultz@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:auditor:todd-halbur",
+      "name": "Todd Halbur",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "515-993-6914",
+      "email": "todd.halbur@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:county-supervisor:brad-golightly",
+      "name": "Brad Golightly",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": "District 1",
+      "phone": "515-993-5806",
+      "email": "brad.golightly@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:county-supervisor:julia-helm",
+      "name": "Julia Helm",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": "District 2",
+      "phone": "515-993-5806",
+      "email": "kim.chapman@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "ia:dallas-county:county-supervisor:kim-champan",
+      "name": "Kim Champan",
+      "office": "County Supervisor",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": "District 3",
+      "phone": "515-993-5806",
+      "email": "kim.chapman@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.8
+    },
+    {
+      "id": "ia:dallas-county:recorder:renae-arnold",
+      "name": "ReNae Arnold",
+      "office": "Recorder",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "515-993-5804",
+      "email": "renae.arnold@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:sheriff:adam-infante",
+      "name": "Adam Infante",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "515-993-4771",
+      "email": "adam.infante@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dallas-county:treasurer:summer-potzen",
+      "name": "Summer Potzen",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "515-993-5808",
+      "email": "summer.portzen@dallascountyiowa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "IA"
+      },
+      "source_url": "https://www.dallascountyiowa.gov/516/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

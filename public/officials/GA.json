@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 117,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 144,
   "cities": [
     "Carroll County",
     "Chatham County",
@@ -14,10 +14,14 @@
     "Gwinnett County",
     "Hall County",
     "Houston County",
+    "Lowndes County",
     "Macon-Bibb County",
     "Muscogee County",
+    "Newton County",
     "Richmond County",
-    "Savannah"
+    "Savannah",
+    "South Fulton",
+    "Walton County"
   ],
   "officials": [
     {
@@ -2377,6 +2381,192 @@
       "confidence": 1
     },
     {
+      "id": "ga:lowndes-county:chairman:bill-slaughter",
+      "name": "Bill Slaughter",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "At-Large",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/328",
+      "photo_url": "https://www.lowndescounty.com/images/CityDirectory/19/Chairman%20Slaughter.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday\n8 a.m. to 5 p.m.",
+      "bio": "Bill Slaughter is a retired business owner of a family owned and operated business in Lowndes County, serving as the CEO of Waller Heating & Air Conditioning. He has been involved with many civic groups, trade associations, and community boards. His business background helps him ensure Lowndes County maintains fiscal responsibilities while preparing for growth and enhancing community partnerships.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:lowndes-county:commissioner:demarcus-marshall",
+      "name": "Demarcus Marshall",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "District 4",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/332",
+      "photo_url": "https://www.lowndescounty.com/images/CityDirectory/19/Commissioner%20Marshall.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday\n8 a.m. to 5 p.m.",
+      "bio": "Commissioner Demarcus Marshall is a native of Lowndes County and a veteran of the United States Marine Corps and Army. He retired from the City of Valdosta in August 2024 and has served in various civic organizations and taught at Georgia Military College and Valdosta State University. He holds a PhD in Public Policy and Administration.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:lowndes-county:commissioner:joyce-e.-evans",
+      "name": "Joyce E. Evans",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "District 1",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/329",
+      "photo_url": "https://www.lowndescounty.com/images/CityDirectory/19/Commissioner%20Evans.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "Commissioner Joyce Evans was elected to represent Lowndes County, District 1 in 1996 and re-elected in 2000, serving until 2004. After a short absence, she was again elected in 2008 to represent District 1 through 2012. Joyce brings expertise and years of experience in public/human services and business ownership/management to the Board of Commissioners.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:lowndes-county:commissioner:mark-wisenbaker",
+      "name": "Mark Wisenbaker",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "District 3",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/331",
+      "photo_url": "https://www.lowndescounty.com/images/CityDirectory/19/Commissioner%20Wisenbaker.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday\n8 a.m. to 5 p.m.",
+      "bio": "Commissioner Tally M. \"Mark\" Wisenbaker, Jr. is a native of Lowndes County, born October 10, 1951 in Valdosta, Georgia. He is a 1970 graduate of Woodward Academy and a graduate of Valdosta State College with a BBA in Management. His experiences and opportunities will greatly contribute to his position as a Lowndes County Commissioner, helping him serve the community positively and effectively.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:lowndes-county:commissioner:michael-smith",
+      "name": "Michael Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "District 5",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/333",
+      "photo_url": "https://www.lowndescounty.com/ImageRepository/Document?documentID=4315",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday\n8 a.m. to 5 p.m.",
+      "bio": "Michael Smith is the CEO of the Greater Valdosta United Way and a lifelong resident of Valdosta, holding a Bachelor of Business Administration in Finance from Valdosta State University. He is passionate about serving the citizens of Lowndes County, striving to inspire positive change and growth while being fiscally responsible. Commissioner Smith is married to Leslie Smith, has five children, and is a member of Park Avenue Church.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:lowndes-county:commissioner:scott-orenstein",
+      "name": "Scott Orenstein",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lowndes County Commissioners Court",
+      "district": "District 2",
+      "phone": "229-671-2442",
+      "email": "commissioner@lowndescounty.com",
+      "url": "https://www.lowndescounty.com/330",
+      "photo_url": "https://www.lowndescounty.com/images/CityDirectory/19/Commissioner%20Orenstein.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "327 N. Ashley St. 3rd Floor Valdosta, GA 31601",
+      "offices": [],
+      "hours": "Monday through Friday\n8 a.m. to 5 p.m.",
+      "bio": "Commissioner Scott \"Scottie\" Orenstein is a lifelong resident of Lowndes County and a graduate of Valdosta High School. He previously worked at Valdosta State Prison and has been a Licensed General Contractor/President of South Georgia Construction & Consulting since 1997. Orenstein is actively involved in the community, serving on various boards and organizations, and is married with two children.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Lowndes County",
+        "state": "GA"
+      },
+      "source_url": "https://www.lowndescounty.com/181/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:macon-bibb-county:commissioner:andrea-cooke",
       "name": "Andrea Cooke",
       "office": "Commissioner",
@@ -2994,6 +3184,192 @@
       },
       "source_url": "https://columbusga.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:chairman:marcello-banes",
+      "name": "Marcello Banes",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": null,
+      "phone": "678-625-1201",
+      "email": null,
+      "url": "https://www.newtoncountyga.gov/158/Marcello-Banes",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=868",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": null,
+      "bio": "Chairman Marcello Banes was elected to the Board of Commissioners in 2016. He is a life-long resident of Newton County, an ordained minister, and was the Operations Manager of Banes Transport, LLC. He is dedicated to community leadership and his vision of #OneNewton.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:commissioner:j.c.-henderson",
+      "name": "J.C. Henderson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": "District 4",
+      "phone": "678-625-1372",
+      "email": null,
+      "url": "https://www.newtoncountyga.gov/162/JC-Henderson",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=872",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": null,
+      "bio": "In 1976 I graduated from Newton County High School and after high school I attended DeKalb Community College. I am married to Sandy Henderson and we have eight children, Mandy, Quint, Jessie, John, Anthony, Jaquan, Nikeshia and Nikeria. We are members of the Rising Son Christian Church where I serve as Chairman of the Deacon Board.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:commissioner:leanne-long",
+      "name": "LeAnne Long",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": "District 5",
+      "phone": "678-625-1372",
+      "email": "llong@newton.ga.us",
+      "url": "https://www.newtoncountyga.gov/693/LeAnne-Long",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=6918",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": "Monday-Friday 8 a.m.-5 p.m.",
+      "bio": "LeAnne Long brings experience in the business community and government sector to her role as District 5 Commissioner. She has been married to her husband Stanley for 37 years, living in the core of District 5 with her two children.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:commissioner:stan-edwards",
+      "name": "Stan Edwards",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": "District 1",
+      "phone": "678-625-1372",
+      "email": null,
+      "url": "https://www.newtoncountyga.gov/159/Stan-Edwards",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=869",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": null,
+      "bio": "A life-long resident of Newton County, Stan Edwards was elected to the Board of Commissioners in 2016. He retired from AT&T in 2018 after 34 years and now manages an insurance agency's Covington office. He previously served on the Newton County Board of Elections and Board of Education.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:commissioner:t.-demond-mason",
+      "name": "T. Demond Mason",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": "District 2",
+      "phone": "678-625-1372",
+      "email": "d.mason@newtoncountyga.gov",
+      "url": "https://www.newtoncountyga.gov/386/Demond-Mason",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=7580",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": null,
+      "bio": "Demond Mason is a native of Tulsa, Oklahoma and has resided in Georgia for 18 years. He received his Bachelor of Science in Business Administration from Oklahoma City University and in 2020 he was honored with an Honorary Doctorate in Humanitarianism for the work he has done as a Newton County Commissioner. He worked for The Coca-Cola Company for 16 years in Project Management and recently transitioned into entrepreneurship.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newton-county:interim-commissioner:andre-cooper",
+      "name": "Andre Cooper",
+      "office": "Interim Commissioner",
+      "level": "county",
+      "body": "Newton County Commissioners Court",
+      "district": "District 3",
+      "phone": "678-625-1372",
+      "email": null,
+      "url": "https://www.newtoncountyga.gov/703/Andre-Cooper",
+      "photo_url": "https://www.newtoncountyga.gov/ImageRepository/Document?documentId=7521",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1124 Clark Street Covington, Ga 30014",
+      "offices": [],
+      "hours": null,
+      "bio": "Andre Cooper brings over 24 years of law enforcement, investigative, and public service experience to his role as Interim County Commissioner. A former Deputy Sheriff and investigator, he has focused his career on public safety, accountability, and community trust. As Commissioner, he champions infrastructure improvements, transparent government, and fair, responsive service for District 3.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Newton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -3645,6 +4021,471 @@
       },
       "source_url": "https://www.savannahga.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilman:aaron-v.-johnson",
+      "name": "Aaron V. Johnson",
+      "office": "Councilman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7702",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3874/Councilman-Aaron-V-Johnson",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=14949",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "https://www.instagram.com/councilmanaaronjohnson",
+        "linkedin": "https://www.linkedin.com/in/aaron-johnson-a68495a",
+        "youtube": "https://youtube.com/@councilmanaaronjohnson"
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Councilman Aaron V. Johnson brings nearly three decades of public service and governmental leadership to his role as the City of South Fulton’s District 2. He previously served as Chief of Staff to Atlanta City Council President Doug Shipman and District Director for Congresswoman Nikema Williams. A graduate of Morris Brown College, he is married with three children and one granddaughter.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilman:jaceey-sebastian",
+      "name": "Jaceey Sebastian",
+      "office": "Councilman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7704",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3259/Councilman-Jaceey-Sebastian",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=14989",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/councilman.jaceey.sebastian",
+        "instagram": "https://www.instagram.com/councilmanjaceey",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Councilmember Jaceey Sebastian is a dedicated Cedar Grove resident known for his unwavering passion, advocacy, and commitment to community service, including championing the incorporation of the city of South Fulton. Professionally, he specializes in market and social policy research and holds degrees in Business Administration and survey methodology. Elected as a District 4 Councilmember in November 2021, he was re-elected for a new term starting December 2, 2025, focusing on community improvements, economic development, and key legislation.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilwoman:catherine-f.-rowell",
+      "name": "Catherine F. Rowell",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7701",
+      "email": "catherine.rowell@cityofsouthfultonga.gov",
+      "url": "https://www.cityofsouthfultonga.gov/3256/Councilwoman-Dr-Catherine-F-Rowell",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentID=8129",
+      "social": {
+        "twitter": "https://x.com/Rowel70",
+        "facebook": "https://www.facebook.com/CatherineDistrict1",
+        "instagram": "https://www.instagram.com/CatherineDistrict1",
+        "linkedin": "https://www.linkedin.com/in/drcatherine-foster-rowell/",
+        "youtube": "https://www.youtube.com/@CatherineDistrict1"
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Dr. Catherine Foster Rowell, the city's first Mayor Pro Tem, has authored over 100 pieces of legislation and holds multiple professional development certificates. With over 15 years of executive non-profit experience, she has served in leadership roles for various organizations and consulting firms. Dr. Rowell is published, serves on numerous volunteer boards, and holds bachelor's, MPA, and doctorate degrees.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilwoman:keosha-b.-bell",
+      "name": "Keosha B. Bell",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7705",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3680/Councilwoman-Keosha-B-Bell",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=15571",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/councilwomankeoshabbell/",
+        "instagram": "https://www.instagram.com/councilwoman_keoshabell/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Keosha Bell is a dedicated public servant, entrepreneur, and community leader, currently serving as Mayor Pro Tem and Councilwoman for the City of South Fulton’s District 5. She is the owner of Simple Pleasure Events, LLC and founder of The White Glove Experience Booking & Talent Services. With over two decades of leadership in education, workforce development, and criminal justice reform, she is committed to uplifting her community through advocacy, innovation, and service.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilwoman:latonya-toni-wright",
+      "name": "LaTonya \"Toni\" Wright",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7703",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3258/Councilwoman-LaTonya-Toni-Wright",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=15788",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "LaTonya \"Toni\" Wright is a dedicated community leader, advocate, and proud resident of the City of South Fulton. Originally from Roanoke, Alabama, Toni has called South Fulton home for the past six years and is deeply committed to serving the residents and families who make the city a vibrant and growing community. Wright believes that strong families are the foundation of strong communities.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilwoman:linda-becquer-pritchett",
+      "name": "Linda Becquer Pritchett",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7707",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3261/Councilwoman-Linda-Becquer-Pritchett",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentID=7332",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/p/Councilwoman-Linda-Pritchett-100089953000928/",
+        "instagram": "https://www.instagram.com/citycouncillp",
+        "linkedin": "https://www.linkedin.com/in/linda-pritchett-623552312",
+        "youtube": "https://www.youtube.com/@lindapritchett"
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Linda Pritchett is a first generation Cuban American and the niece of the Queen of Salsa, Celia Cruz. She raised her sons, Dakota and Logan, in District 7, where she was elected in December 2022. She began her career in the life insurance business as a life insurance agent and successfully became the owner of her own agency.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:councilwoman:natasha-williams-brown",
+      "name": "Natasha Williams-Brown",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7706",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3270/Councilwoman-Natasha-Williams-Brown",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=14990",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "A resident of South Fulton since 1978, Councilwoman Williams-Brown has deep roots in the community, graduating from Northside High School and Georgia State University. Her distinguished public service career spans more than 30 years in state government and higher education, currently working at Emory University Rollins School of Public Health. A committed volunteer and community advocate, she is a proud wife, mother, and pet parent, dedicated to serving District 6 and the greater South Fulton community.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:south-fulton:mayor:carmalitha-gumbs",
+      "name": "Carmalitha Gumbs",
+      "office": "Mayor",
+      "level": "local",
+      "body": "South Fulton City Council",
+      "district": null,
+      "phone": "470-809-7710",
+      "email": null,
+      "url": "https://www.cityofsouthfultonga.gov/3873/Mayor-Carmalitha-Gumbs",
+      "photo_url": "https://www.cityofsouthfultonga.gov/ImageRepository/Document?documentId=14988",
+      "social": {
+        "twitter": "https://twitter.com/CarmalithaG",
+        "facebook": "https://www.facebook.com/electcarmalitha.gumbs/about",
+        "instagram": "https://www.instagram.com/iamcarmalithagumbs/",
+        "linkedin": "https://www.linkedin.com/in/carmalithalgumbsmbamha/",
+        "youtube": "https://www.youtube.com/channel/UCO5vYAEBSd-6Gyd8gBdx8aQ"
+      },
+      "address": "City Hall 5440 Fulton Industrial Blvd SW South Fulton, GA 30336",
+      "offices": [],
+      "hours": "Monday - Friday, 8:30 AM - 5:00 PM",
+      "bio": "Mayor Carmalitha Gumbs is a trailblazer, a leader with a deep commitment to service, equity, and community empowerment. On January 5, 2026, she was sworn in as the first woman to lead the City of South Fulton since its inception in 2017. Prior to her December 2025 overwhelming election, with nearly 60 percent of the vote, she served eight years on the City Council representing District 2.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "South Fulton",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:chair:david-thompson",
+      "name": "David Thompson",
+      "office": "Chair",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "davidg.thompson@co.walton.ga.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-1:amarie-warren",
+      "name": "Amarie Warren",
+      "office": "District 1",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "amarie.warren@co.walton.ga.us",
+      "url": "https://www.waltoncountyga.gov/684/Amarie-Warren",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=8916",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": "Amarie Warren was appointed District 1 Commissioner in 2025 and is currently serving her first term. She holds an MBA and a bachelor's degree in political science and economics, and is a local business owner. A devoted mother of two daughters, she is committed to serving Walton County with dedication and integrity.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-2:pete-myers",
+      "name": "Pete Myers",
+      "office": "District 2",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 2",
+      "phone": "678-794-5076",
+      "email": "pete.myers@co.walton.ga.us",
+      "url": "https://www.waltoncountyga.gov/667/Pete-Myers",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=8505",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": "Pete Myers was elected District 2 Commissioner in 2024 and is currently in his first term. Myers was raised in Walton County and is a graduate of Loganville High School. A successful businessman, Myers is the co-owner of Georgia Hydrant Services, Inc. A committed family man, Myers is married to his wife, Gina, and they are the parents of three children, Marshall, McCoy and Maggie. He and his wife are both active in serving and volunteering in local schools.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-3:timmy-shelnutt",
+      "name": "Timmy Shelnutt",
+      "office": "District 3",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 3",
+      "phone": "770-560-6728",
+      "email": "timmy@andersongrading.com",
+      "url": "https://www.waltoncountyga.gov/329/Timmy-Shelnutt",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=792",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": "Timmy Shelnutt was elected District 3 Commissioner in 2012 and is currently in his second term. A graduate of Walton County public schools, he has been a small business owner for 30 years and is a past Chairman of the Walton County Water and Sewerage Authority. He lives in the Youth Community with his wife Gina, their three children, and a granddaughter, and they attend Corinth Christian Church.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-4:lee-bradford",
+      "name": "Lee Bradford",
+      "office": "District 4",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 4",
+      "phone": "770-652-2656",
+      "email": "bradford4walton@gmail.com",
+      "url": "https://www.waltoncountyga.gov/327/Lee-Bradford",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=790",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-5:jeremy-adams",
+      "name": "Jeremy Adams",
+      "office": "District 5",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 5",
+      "phone": "678-313-9273",
+      "email": "dradams@co.walton.ga.us",
+      "url": "https://www.waltoncountyga.gov/325/Jeremy-Adams",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=793",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Jeremy Adams was appointed as District 5 Commissioner in 2012 and was elected in 2014 to his first full term. Jeremy owns Adams Chiropractic Clinic in Monroe. He has five active boys. The family enjoys sports and outdoor activities. They attend Gratis Church. Jeremy’s mission is to keep his district informed and to use tax dollars wisely. He is a conservative voice representing the needs of the people.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walton-county:district-6:kirklyn-dixon",
+      "name": "Kirklyn Dixon",
+      "office": "District 6",
+      "level": "county",
+      "body": "Walton County Commissioners Court",
+      "district": "District 6",
+      "phone": "678-938-4956",
+      "email": "kirklyn.dixon@co.walton.ga.us",
+      "url": "https://www.waltoncountyga.gov/328/Kirklyn-Dixon",
+      "photo_url": "https://www.waltoncountyga.gov/ImageRepository/Document?documentID=789",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Historic Walton County Courthouse 111 S Broad Street Monroe, GA 30655",
+      "offices": [],
+      "hours": null,
+      "bio": "Kirklyn Dixon was appointed as District 6 Commissioner in 2008. He is a graduate of the Georgia Institute of Technology and earned an MBA from Troy State University. Kirklyn owns and operates Window Genie of East Atlanta in Monroe and serves as an elder at Grace Monroe Church.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Walton County",
+        "state": "GA"
+      },
+      "source_url": "https://www.waltoncountyga.gov/322/Board-of-Commissioners",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

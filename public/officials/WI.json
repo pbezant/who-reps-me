@@ -1,9 +1,11 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 31,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 47,
   "cities": [
     "Dane County",
+    "Eau Claire County",
+    "Green Bay",
     "Madison",
     "Outagamie County",
     "Waukesha County"
@@ -224,6 +226,502 @@
       },
       "source_url": "https://www.danecounty.gov/elected-officials",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:eau-claire-county:board-of-land-use-appeals-member:gary-eslinger",
+      "name": "Gary Eslinger",
+      "office": "Board of Land Use Appeals Member",
+      "level": "county",
+      "body": "Eau Claire County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Eau Claire County",
+        "state": "WI"
+      },
+      "source_url": "https://www.eauclairecounty.gov/government/boards_commissions/board_of_land_use_appeals",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:eau-claire-county:board-of-land-use-appeals-member:karen-meier-tomesh",
+      "name": "Karen Meier-Tomesh",
+      "office": "Board of Land Use Appeals Member",
+      "level": "county",
+      "body": "Eau Claire County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Eau Claire County",
+        "state": "WI"
+      },
+      "source_url": "https://www.eauclairecounty.gov/government/boards_commissions/board_of_land_use_appeals",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:eau-claire-county:board-of-land-use-appeals-member:patrick-schaffer",
+      "name": "Patrick Schaffer",
+      "office": "Board of Land Use Appeals Member",
+      "level": "county",
+      "body": "Eau Claire County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Eau Claire County",
+        "state": "WI"
+      },
+      "source_url": "https://www.eauclairecounty.gov/government/boards_commissions/board_of_land_use_appeals",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:eau-claire-county:board-of-land-use-appeals-member:rusty-naylor",
+      "name": "Rusty Naylor",
+      "office": "Board of Land Use Appeals Member",
+      "level": "county",
+      "body": "Eau Claire County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Eau Claire County",
+        "state": "WI"
+      },
+      "source_url": "https://www.eauclairecounty.gov/government/boards_commissions/board_of_land_use_appeals",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:alyssa-proffitt",
+      "name": "Alyssa Proffitt",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 7",
+      "phone": "920-536-1901",
+      "email": "alyssa.proffitt@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/637",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:ben-debaker",
+      "name": "Ben DeBaker",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 9",
+      "phone": "920-777-8515",
+      "email": "Ben.Debaker@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/641",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=2426",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:ben-delie",
+      "name": "Ben Delie",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 10",
+      "phone": "920-639-1017",
+      "email": "ben.delie@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/642",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1519",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:bill-morgan",
+      "name": "Bill Morgan",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 3",
+      "phone": "920-217-8424",
+      "email": "bill.morgan@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/627",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1523",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:doug-orlowski",
+      "name": "Doug Orlowski",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 5",
+      "phone": "920-391-5600",
+      "email": "doug.orlowski@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/633",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=2424",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:jennifer-grant",
+      "name": "Jennifer Grant",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 1",
+      "phone": "920-510-6861",
+      "email": "jennifer.grant@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/619",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1524",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:jim-hutchison",
+      "name": "Jim Hutchison",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 2",
+      "phone": "920-819-8015",
+      "email": "jim.hutchison@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/623",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=2423",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:jim-ridderbush",
+      "name": "Jim Ridderbush",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 8",
+      "phone": "920-498-9257",
+      "email": "jim.ridderbush@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/639",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1526",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:joey-prestley",
+      "name": "Joey Prestley",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 6",
+      "phone": "920-238-3969",
+      "email": "joey.prestley@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/634",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=2427",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:jon-shelton",
+      "name": "Jon Shelton",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 4",
+      "phone": "920-977-4911",
+      "email": "jon.shelton@greenbaywi.gov",
+      "url": "https://www.greenbaywi.gov/630",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1525",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:kathy-hinkfuss",
+      "name": "Kathy Hinkfuss",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 12",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenbaywi.gov/644",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=2425",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:green-bay:alderperson:melinda-eck",
+      "name": "Melinda Eck",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Green Bay City Council",
+      "district": "District 11",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenbaywi.gov/643",
+      "photo_url": "https://www.greenbaywi.gov/ImageRepository/Document?documentID=1518",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Jefferson Street Room 203, City Hall Green Bay, WI 54301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Green Bay",
+        "state": "WI"
+      },
+      "source_url": "https://www.greenbaywi.gov/617/Common-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {

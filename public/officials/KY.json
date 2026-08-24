@@ -1,9 +1,10 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 6,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 21,
   "cities": [
-    "Boone County"
+    "Boone County",
+    "Hardin County"
   ],
   "officials": [
     {
@@ -190,6 +191,471 @@
       },
       "source_url": "https://www.boonecountyky.org/government/boone_county_fiscal_court/office_of_the_judge_executive/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:?:danny-hutcherson",
+      "name": "Danny Hutcherson",
+      "office": null,
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-2129",
+      "email": "info.hcpv@hcky.org",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=347",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:attorney:jenny-oldham",
+      "name": "Jenny Oldham",
+      "office": "Attorney",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-6726",
+      "email": "hcao@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=342",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:coroner:pat-elmore",
+      "name": "Pat Elmore",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-737-5441",
+      "email": "coroner@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=344",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:county-clerk:brian-d.-smith",
+      "name": "Brian D. Smith",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-2171",
+      "email": null,
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=343",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:jailer:josh-lindblom",
+      "name": "Josh Lindblom",
+      "office": "Jailer",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-4159",
+      "email": null,
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=345",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:judge/executive:keith-taul",
+      "name": "Keith Taul",
+      "office": "Judge/Executive",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-2350",
+      "email": "info@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=346",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:aaron-pennington",
+      "name": "Aaron Pennington",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 5",
+      "phone": "270-872-5469",
+      "email": "apennington@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=338",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:chris-yates",
+      "name": "Chris Yates",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 1",
+      "phone": "270-317-3996",
+      "email": "cyates@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=334",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:e.g.-thompson",
+      "name": "E.G. Thompson",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 6",
+      "phone": "270-312-2167",
+      "email": "egthompson@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=341",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:fred-clem,-jr.",
+      "name": "Fred Clem, Jr.",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 4",
+      "phone": "270-872-6218",
+      "email": "fclem@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=337",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:kenny-muse",
+      "name": "Kenny Muse",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 8",
+      "phone": "270-989-0683",
+      "email": "kmuse@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=339",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:kenny-saltsman",
+      "name": "Kenny Saltsman",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 2",
+      "phone": "270-307-0508",
+      "email": "ksaltsman@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=335",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:larry-hicks",
+      "name": "Larry Hicks",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 7",
+      "phone": "270-234-4951",
+      "email": "lhicks@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=340",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:magistrate:patsy-whitehead",
+      "name": "Patsy Whitehead",
+      "office": "Magistrate",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": "District 3",
+      "phone": "270-234-3431",
+      "email": "pwhitehead@hardincountyky.gov",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=336",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:hardin-county:sheriff:john-ward",
+      "name": "John Ward",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Hardin County Commissioners Court",
+      "district": null,
+      "phone": "270-765-5133",
+      "email": "hcso@hcky.org",
+      "url": null,
+      "photo_url": "https://hardincountyky.gov/ImageRepository/Document?documentID=348",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hardin County",
+        "state": "KY"
+      },
+      "source_url": "https://hardincountyky.gov/389/Elected-Officials",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

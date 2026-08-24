@@ -1,9 +1,10 @@
 {
   "state": "WV",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 2,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 20,
   "cities": [
-    "Kanawha County"
+    "Kanawha County",
+    "Monongalia County"
   ],
   "officials": [
     {
@@ -66,6 +67,564 @@
       },
       "source_url": "https://kanawha.us/about-us/commissioners/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney-(specializing-in-child-abuse-and-neglect):jennifer-stephens",
+      "name": "Jennifer Stephens",
+      "office": "Assistant Prosecuting Attorney (Specializing in Child Abuse and Neglect)",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney-(specializing-in-child-abuse-and-neglect):kara-bailes",
+      "name": "Kara Bailes",
+      "office": "Assistant Prosecuting Attorney (Specializing in Child Abuse and Neglect)",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney-(specializing-in-child-abuse-and-neglect):keshia-tenorio",
+      "name": "Keshia Tenorio",
+      "office": "Assistant Prosecuting Attorney (Specializing in Child Abuse and Neglect)",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney-(specializing-in-child-abuse-and-neglect):kristen-antolini",
+      "name": "Kristen Antolini",
+      "office": "Assistant Prosecuting Attorney (Specializing in Child Abuse and Neglect)",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney-(specializing-in-child-abuse-and-neglect):samantha-elkins",
+      "name": "Samantha Elkins",
+      "office": "Assistant Prosecuting Attorney (Specializing in Child Abuse and Neglect)",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:auri-shay",
+      "name": "Auri Shay",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:brandon-benchoff",
+      "name": "Brandon Benchoff",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:brian-shockley",
+      "name": "Brian Shockley",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:erik-brown",
+      "name": "Erik Brown",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:jason-glass",
+      "name": "Jason Glass",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:jill-gibson",
+      "name": "Jill Gibson",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:rebecca-tate",
+      "name": "Rebecca Tate",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:robert-zak",
+      "name": "Robert Zak",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:stephen-fitz",
+      "name": "Stephen Fitz",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:assistant-prosecuting-attorney:w.-chad-noel",
+      "name": "W. Chad Noel",
+      "office": "Assistant Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:monongalia-county-prosecuting-attorney:gabrielle-mucciola",
+      "name": "Gabrielle Mucciola",
+      "office": "Monongalia County Prosecuting Attorney",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:office-investigator:nick-demedici",
+      "name": "Nick DeMedici",
+      "office": "Office Investigator",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wv:monongalia-county:office-manager:dianna-sanders",
+      "name": "Dianna Sanders",
+      "office": "Office Manager",
+      "level": "county",
+      "body": "Monongalia County Commissioners Court",
+      "district": null,
+      "phone": "304-291-7250",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "75 High Street, Morgantown, WV 26505",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monongalia County",
+        "state": "WV"
+      },
+      "source_url": "https://www.monongaliacounty.gov/government/prosecuting_attorney/index.php",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

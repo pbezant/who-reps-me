@@ -1,7 +1,7 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 52,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 69,
   "cities": [
     "Alexandria",
     "Arlington County",
@@ -10,10 +10,13 @@
     "Fairfax County",
     "Hampton",
     "Hampton city",
+    "Hanover County",
     "Henrico County",
     "Newport News",
     "Norfolk",
-    "Prince William County"
+    "Prince William County",
+    "Suffolk",
+    "Suffolk city"
   ],
   "officials": [
     {
@@ -1288,6 +1291,37 @@
       "confidence": 1
     },
     {
+      "id": "va:hanover-county:commissioner-of-the-revenue:t.-scott-harris",
+      "name": "T. Scott Harris",
+      "office": "Commissioner of the Revenue",
+      "level": "county",
+      "body": "Hanover County Commissioners Court",
+      "district": null,
+      "phone": "804-365-6129",
+      "email": null,
+      "url": "https://www.hanovercounty.gov/m/directory/employee?eid=46",
+      "photo_url": "https://www.hanovercounty.gov/ImageRepository/Document?documentID=1810",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Chenault-Weems Building\n7507 Library Drive\nHanover, VA 23069",
+      "offices": [],
+      "hours": null,
+      "bio": "T. Scott Harris began his career in county government in 1986 and was elected Commissioner of the Revenue in 1999. Since then, he has focused on improving department functions through efficiency, accuracy, and enhanced customer service. He holds a Master's Degree in Public Administration and is a Master Commissioner of the Revenue.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Hanover County",
+        "state": "VA"
+      },
+      "source_url": "https://www.hanovercounty.gov/256/Commissioner-of-the-Revenue",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
       "id": "va:henrico-county:supervisor:roscoe-d.-cooper-iii",
       "name": "Roscoe D. Cooper III",
       "office": "Supervisor",
@@ -1626,6 +1660,502 @@
       },
       "source_url": "https://www.pwcva.gov/department/311",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:ebony-wright",
+      "name": "Ebony Wright",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Sleepy Hole Borough",
+      "phone": "757-407-9873",
+      "email": "sleepyhole@suffolkva.us",
+      "url": "https://www.suffolkva.us/889/Sleepy-Hole-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=16842",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Ebony Wright was elected to the Suffolk City Council on November 5, 2024, representing the Sleepy Hole Borough. A Suffolk resident since 2000, she served in the U.S. Navy and held key positions in the Departments of Justice and Defense, specializing in legal and legislative affairs. She is also the founder and president of a nonprofit organization that provides scholarships to Suffolk Public Schools students.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:john-rector",
+      "name": "John Rector",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Suffolk Borough",
+      "phone": "757-407-1953",
+      "email": "suffolk@suffolkva.us",
+      "url": "https://www.suffolkva.us/890/Suffolk-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=7740",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member John T. Rector was elected to the Suffolk City Council in November of 2022 and sworn in on January 3, 2023, as the representative of the Suffolk Borough. His term expires on December 31, 2026. A resident of the City of Suffolk for over 35 years, Council Member Rector is currently a Realtor with Chorey and Associates Realty, LTD.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:leotis-williams",
+      "name": "LeOtis Williams",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Whaleyville Borough",
+      "phone": "757-402-7100",
+      "email": "whaleyville@suffolkva.us",
+      "url": "https://www.suffolkva.us/891/Whaleyville-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=6988",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member LeOtis Williams was elected to the Suffolk City Council from the Whaleyville Borough in November of 2020. His term expires on December 31, 2028. Council Member Williams is a self-made entrepreneur as the owner of businesses in the City of Suffolk.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:leroy-bennett",
+      "name": "Leroy Bennett",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1483",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:shelley-butler-barlow",
+      "name": "Shelley Butler Barlow",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Chuckatuck Borough",
+      "phone": "757-346-8355",
+      "email": "chuckatuck@suffolkva.us",
+      "url": "https://www.suffolkva.us/885/Chuckatuck-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=5351",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Shelley S. Butler Barlow was appointed to the Suffolk City Council in February 2021, representing the Chuckatuck Borough, and was elected for a full term in 2022. A long-time Suffolk resident, she farms with her husband at Cotton Plains Farm and has nearly 40 years of experience in agriculture. She is actively involved in various community groups and served on the Virginia Department of Agriculture and Consumer Services Board of Directors.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:council-member:timothy-johnson",
+      "name": "Timothy Johnson",
+      "office": "City Council Member",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Holy Neck Borough",
+      "phone": "757-407-0556",
+      "email": "holyneck@suffolkva.us",
+      "url": "https://www.suffolkva.us/887/Holy-Neck-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1485",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Timothy Jett \"Tim\" Johnson was born in 1955 in Suffolk, Virginia, and earned a Bachelor of Science degree in Ornamental Horticulture from Virginia Polytechnic Institute in 1978. He owns and operates Johnson's Gardens Inc., and has been involved with the Suffolk Lions Club, Paul D. Camp Community College, Nansemond-Suffolk Academy Boards, Boy Scouts of America, and the Suffolk Community Gardens Project. He was elected to the Suffolk City Council in November 2014, representing the Holy Neck Borough, and his term expires on December 31, 2026.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:mayor:michael-duman",
+      "name": "Michael Duman",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": null,
+      "phone": "757-514-4009",
+      "email": "mayor@suffolkva.us",
+      "url": "https://www.suffolkva.us/892/Mayor",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=5454",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Michael D. “Mike” Duman was elected to the Suffolk City Council on November 2, 2010, and was sworn in on January 3, 2011, as the representative for the Chuckatuck Borough. He was reelected in November 2014 and November 2018. He was elected Mayor in November 2020 and reelected in November 2024 for an additional term.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk-city:vice-mayor:lue-ward",
+      "name": "Lue Ward",
+      "office": "Vice Mayor",
+      "level": "county",
+      "body": "Suffolk city Commissioners Court",
+      "district": "Nansemond Borough",
+      "phone": "757-377-6929",
+      "email": "nansemond@suffolkva.us",
+      "url": "https://www.suffolkva.us/888/Nansemond-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1487",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk , VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Lue R. Ward, Jr. was born in the former Nansemond County, Virginia. He was elected to the Suffolk City Council on November 6, 2012 and was sworn in on January 2, 2013, as the representative of the Nansemond Borough. He was elected by his colleagues as Vice Mayor on January 3, 2023. Vice Mayor Ward's term expires December 31, 2028.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk city",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:council-member:ebony-wright",
+      "name": "Ebony Wright",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Sleepy Hole Borough",
+      "phone": "757-407-9873",
+      "email": "sleepyhole@suffolkva.us",
+      "url": "https://www.suffolkva.us/889/Sleepy-Hole-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=16842",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Ebony Wright was elected to the Suffolk City Council on November 5, 2024, representing the Sleepy Hole Borough. A committed public servant and community leader, she served in the U.S. Navy and held key positions in federal service, specializing in legal and legislative affairs. She also founded a nonprofit providing scholarships to students in Suffolk Public Schools.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:council-member:john-rector",
+      "name": "John Rector",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Suffolk Borough",
+      "phone": "757-407-1953",
+      "email": "suffolk@suffolkva.us",
+      "url": "https://www.suffolkva.us/890/Suffolk-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=7740",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member John T. Rector was elected to the Suffolk City Council in November of 2022 and sworn in on January 3, 2023, as the representative of the Suffolk Borough. His term expires on December 31, 2026. A resident of the City of Suffolk for over 35 years, Council Member Rector is currently a Realtor with Chorey and Associates Realty, LTD.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:council-member:leotis-williams",
+      "name": "LeOtis Williams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Whaleyville Borough",
+      "phone": "757-402-7100",
+      "email": "whaleyville@suffolkva.us",
+      "url": "https://www.suffolkva.us/891/Whaleyville-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=6988",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member LeOtis Williams was elected to the Suffolk City Council from the Whaleyville Borough in November of 2020. His term expires on December 31, 2028. Council Member Williams is a self-made entrepreneur as the owner of businesses in the City of Suffolk.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:council-member:leroy-bennett",
+      "name": "Leroy Bennett",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1483",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "va:suffolk:council-member:shelley-butler-barlow",
+      "name": "Shelley Butler Barlow",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Chuckatuck Borough",
+      "phone": "757-346-8355",
+      "email": "chuckatuck@suffolkva.us",
+      "url": "https://www.suffolkva.us/885/Chuckatuck-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=5351",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Shelley S. Butler Barlow was appointed to the Suffolk City Council in February 2021, representing the Chuckatuck Borough, and was elected for a full term in 2022. A long-time Suffolk resident, she farms with her husband at Cotton Plains Farm and has nearly 40 years of experience in agriculture. She is actively involved in various community groups and served on the Virginia Department of Agriculture and Consumer Services Board of Directors.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:council-member:timothy-johnson",
+      "name": "Timothy Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Holy Neck Borough",
+      "phone": "757-407-0556",
+      "email": "holyneck@suffolkva.us",
+      "url": "https://www.suffolkva.us/887/Holy-Neck-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1485",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Timothy Jett \"Tim\" Johnson was born in 1955 in Suffolk, Virginia, and earned a Bachelor of Science degree in Ornamental Horticulture from Virginia Polytechnic Institute in 1978. He owns and operates Johnson's Gardens Inc., and has been involved with the Suffolk Lions Club, Paul D. Camp Community College, Nansemond-Suffolk Academy Boards, Boy Scouts of America, and the Suffolk Community Gardens Project. He was elected to the Suffolk City Council in November 2014, representing the Holy Neck Borough, and his term expires on December 31, 2026.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:mayor:michael-duman",
+      "name": "Michael Duman",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": null,
+      "phone": "757-514-4009",
+      "email": "mayor@suffolkva.us",
+      "url": "https://www.suffolkva.us/892/Mayor",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=5454",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Michael D. Duman was first elected to the Suffolk City Council in 2010, representing the Chuckatuck Borough, and was subsequently reelected. He was elected Mayor in November 2020 and reelected in 2024. Mayor Duman is a graduate of Old Dominion University and served as a commissioned officer in the United States Army Reserve.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:suffolk:vice-mayor:lue-ward",
+      "name": "Lue Ward",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Suffolk City Council",
+      "district": "Nansemond Borough",
+      "phone": "757-377-6929",
+      "email": "nansemond@suffolkva.us",
+      "url": "https://www.suffolkva.us/888/Nansemond-Borough",
+      "photo_url": "https://www.suffolkva.us/ImageRepository/Document?documentID=1487",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "442 W Washington Street Suffolk, VA 23434",
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Lue R. Ward, Jr. was born in the former Nansemond County, Virginia. He was elected to the Suffolk City Council on November 6, 2012 and was sworn in on January 2, 2013, as the representative of the Nansemond Borough. He was elected by his colleagues as Vice Mayor on January 3, 2023. Vice Mayor Ward's term expires December 31, 2028.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Suffolk",
+        "state": "VA"
+      },
+      "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

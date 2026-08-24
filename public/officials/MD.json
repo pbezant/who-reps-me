@@ -1,15 +1,17 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 57,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 69,
   "cities": [
     "Anne Arundel County",
     "Carroll County",
+    "Cecil County",
     "Frederick County",
     "Harford County",
     "Howard County",
     "Montgomery County",
-    "Washington County"
+    "Washington County",
+    "Wicomico County"
   ],
   "officials": [
     {
@@ -784,6 +786,161 @@
       },
       "source_url": "https://www.carrollcountymd.gov/government/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:cecil-county:council-president:al-miller",
+      "name": "Al Miller",
+      "office": "Council President",
+      "level": "county",
+      "body": "Cecil County Commissioners Court",
+      "district": "District 3",
+      "phone": "410-996-5201",
+      "email": "agmiller@cecilcountymd.gov",
+      "url": "https://www.cecilcountymd.gov/m/directory/employee?eid=261",
+      "photo_url": "https://www.cecilcountymd.gov/ImageRepository/Document?documentID=3481",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Chesapeake Blvd. Suite 2110 Elkton, MD 21921",
+      "offices": [],
+      "hours": null,
+      "bio": "Al Miller was elected to his first term of the Cecil County Council in 2018, and a second term in 2022; representing District Three, which includes Rising Sun, Cherry Hill, Calvert and Fair Hill. Mr. Miller graduated from the University of Delaware and has been in the agriculture profession for many years. He is currently working at Ag Industrial, Inc. selling New Holland Agriculture and Construction Equipment in Rising Sun.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cecil County",
+        "state": "MD"
+      },
+      "source_url": "https://www.cecilcountymd.gov/160/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:cecil-county:council-vice-president:bob-meffley",
+      "name": "Bob Meffley",
+      "office": "Council Vice President",
+      "level": "county",
+      "body": "Cecil County Commissioners Court",
+      "district": "District 1",
+      "phone": "410-996-5201",
+      "email": "bmeffley@cecilcountymd.gov",
+      "url": "https://www.cecilcountymd.gov/m/directory/employee?eid=263",
+      "photo_url": "https://www.cecilcountymd.gov/ImageRepository/Document?documentID=3497",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Chesapeake Blvd. Suite 2110 Elkton, MD 21921",
+      "offices": [],
+      "hours": null,
+      "bio": "Bob Meffley was elected in 2016 as Council Member for the First District and appointed Council Vice President in 2022. A lifelong resident of Cecil County, he is a businessman who has owned and operated H&B Plumbing and Heating for 44 years.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cecil County",
+        "state": "MD"
+      },
+      "source_url": "https://www.cecilcountymd.gov/160/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:cecil-county:councilwoman:dawn-branch",
+      "name": "Dawn Branch",
+      "office": "Councilwoman",
+      "level": "county",
+      "body": "Cecil County Commissioners Court",
+      "district": "District 5",
+      "phone": "410-996-5201",
+      "email": "dbranch@cecilcountymd.gov",
+      "url": "https://www.cecilcountymd.gov/m/directory/employee?eid=262",
+      "photo_url": "https://www.cecilcountymd.gov/ImageRepository/Document?documentID=3493",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Chesapeake Blvd. Suite 2110 Elkton, MD 21921",
+      "offices": [],
+      "hours": null,
+      "bio": "Dawn Branch, elected Council Member for District 5 in 2024, holds a Master of Science in Education and a Bachelor of Science in Business. She previously served two terms on the Cecil County School Board and is currently a Grant Assistant for Cecil County Public Schools. Committed to her community, she focuses on restoring checks and balances, prioritizing services, and enhancing quality of life in Cecil County.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cecil County",
+        "state": "MD"
+      },
+      "source_url": "https://www.cecilcountymd.gov/160/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:cecil-county:councilwoman:donna-culberson",
+      "name": "Donna Culberson",
+      "office": "Councilwoman",
+      "level": "county",
+      "body": "Cecil County Commissioners Court",
+      "district": "District 4",
+      "phone": "410-996-5201",
+      "email": "dculberson@cecilcountymd.gov",
+      "url": "https://www.cecilcountymd.gov/m/directory/employee?eid=265",
+      "photo_url": "https://www.cecilcountymd.gov/ImageRepository/Document?documentID=3503",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Chesapeake Blvd. Suite 2110 Elkton, MD 21921",
+      "offices": [],
+      "hours": null,
+      "bio": "Donna Culberson was appointed to serve as the Council Member from the Fourth District, in 2022 which includes Perryville, Port Deposit, Charlestown, Colora, Bainbridge and Conowingo. Ms. Culberson attended Cecil College focusing on accounting and finance. She has been employed for the past 38 years in long term care healthcare.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cecil County",
+        "state": "MD"
+      },
+      "source_url": "https://www.cecilcountymd.gov/160/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:cecil-county:councilwoman:rebecca-hamilton",
+      "name": "Rebecca Hamilton",
+      "office": "Councilwoman",
+      "level": "county",
+      "body": "Cecil County Commissioners Court",
+      "district": "District 2",
+      "phone": "410-996-5201",
+      "email": "RHamilton@CecilCountyMD.Gov",
+      "url": "https://www.cecilcountymd.gov/m/directory/employee?eid=264",
+      "photo_url": "https://www.cecilcountymd.gov/ImageRepository/Document?documentID=3498",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Chesapeake Blvd. Suite 2110 Elkton, MD 21921",
+      "offices": [],
+      "hours": null,
+      "bio": "Rebecca Hamilton was elected in 2022 to serve as the Council member from the Second District, representing Elkton, Elk Mills and Childs. Ms. Hamilton is a graduate of Goldey-Beacom College and holds an MBA from the University of Delaware. She has spent her career in the building materials industry in Sales Operations and plans to bring the same determination and resolve that she demonstrates each day to her role as Councilwoman.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Cecil County",
+        "state": "MD"
+      },
+      "source_url": "https://www.cecilcountymd.gov/160/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
@@ -1807,6 +1964,223 @@
       },
       "source_url": "https://www.washco-md.net/county-commissioners/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:at-large:james-winn",
+      "name": "James Winn",
+      "office": "At-Large",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "At-Large",
+      "phone": "Office: 410-548-4696 Cell: 443-493-0653",
+      "email": "jwinn@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13051/James-Winn-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12436",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-member:david-ennis",
+      "name": "David Ennis",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "District 3",
+      "phone": "Office: 410-548-4696 Cell: 443-783-2488",
+      "email": "dennis@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13057/David-Ennis-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=15430",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-member:joe-holloway",
+      "name": "Joe Holloway",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "District 5",
+      "phone": "Office: 410-548-4696 Home: 410-749-4010",
+      "email": "jholloway@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13053/Joe-Holloway-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12438",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-member:josh-hastings",
+      "name": "Josh Hastings",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "District 4",
+      "phone": "Office: 410-548-4696 Cell: 410-251-5268",
+      "email": "jhastings@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13055/Josh-Hastings-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12440",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-member:shanie-shields",
+      "name": "Shanie Shields",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "District 1",
+      "phone": "Office: 410-548-4696 Cell: 443-523-0084",
+      "email": "sshields@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13058/Shanie-Shields-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12442",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-president:john-t.-cannon",
+      "name": "John T. Cannon",
+      "office": "Council President",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": null,
+      "phone": "Office: 410-548-4696 Cell: 410-251-3282",
+      "email": "jcannon@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13054/John-Cannon-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12439",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:wicomico-county:council-vice-president:jeff-merritt",
+      "name": "Jeff Merritt",
+      "office": "Council Vice-President",
+      "level": "county",
+      "body": "Wicomico County Commissioners Court",
+      "district": "District 2",
+      "phone": "Office: 410-548-4696 Cell: 410-713-8940",
+      "email": "jmerritt@wicomicocounty.org",
+      "url": "https://www.wicomicocounty.org/DocumentCenter/View/13052/Jeff-Merritt-Bio",
+      "photo_url": "https://www.wicomicocounty.org/ImageRepository/Document?documentId=12437",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Government Office Building Room 301, 125 N. Division Street, Salisbury, MD 21801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Wicomico County",
+        "state": "MD"
+      },
+      "source_url": "https://www.wicomicocounty.org/185/County-Council",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     }
   ]

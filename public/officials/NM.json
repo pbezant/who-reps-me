@@ -1,11 +1,12 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 37,
+  "generated_at": "2026-08-24T03:21:09.305Z",
+  "count": 44,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
     "Doña Ana County",
+    "Rio Rancho",
     "Sandoval County",
     "Santa Fe County"
   ],
@@ -907,6 +908,223 @@
       },
       "source_url": "https://www.donaana.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:bob-tyler",
+      "name": "Bob Tyler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 3",
+      "phone": "505-891-5004",
+      "email": "btyler@rrnm.gov",
+      "url": "https://rrnm.gov/1350/District-3",
+      "photo_url": "https://rrnm.gov/ImageRepository/Document?documentId=88402",
+      "social": {
+        "twitter": "https://rrnm.gov/twitter",
+        "facebook": "https://rrnm.gov/facebook",
+        "instagram": "https://rrnm.gov/instagram",
+        "linkedin": null,
+        "youtube": "https://rrnm.gov/youtube"
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": "Mon - Fri: 8 a.m. - 5 p.m.",
+      "bio": "Bob Tyler was elected as District 3 City Councilor in March 2018 and re-elected in 2022. He previously served as Deputy Mayor and is a retired law enforcement officer and U.S. Navy veteran.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:david-mann",
+      "name": "David Mann",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 4",
+      "phone": "505-891-5004",
+      "email": "dmann@rrnm.gov",
+      "url": "https://rrnm.gov/1811/District-4",
+      "photo_url": "https://rrnm.gov/ImageRepository/Document?documentId=89680",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": "David Mann is proud to call Rio Rancho’s District 4 home. Born and raised in England, David grew up south of London. He is a dual citizen of the United States and the United Kingdom. His mother is from Kansas and his father is English. They met while attending university and settled in England to raise their family.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:deborah-dapson",
+      "name": "Deborah Dapson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 1",
+      "phone": "505-891-5004",
+      "email": "ddapson@rrnm.gov",
+      "url": "https://rrnm.gov/1781/District-1",
+      "photo_url": "https://rrnm.gov/ImageRepository/Document?documentId=81071",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": "Deborah Dapson and her husband have lived in Rio Rancho for 15 years. She is a mother to three grown children and grandmother to three. Councilor Dapson owns Copper Moon Media, a small business in Rio Rancho that specializes in graphic design and digital marketing.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:jeremy-lenentine",
+      "name": "Jeremy Lenentine",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 2",
+      "phone": "505-891-5004",
+      "email": "jlenentine@rrnm.gov",
+      "url": "https://rrnm.gov/57/District-2",
+      "photo_url": "https://rrnm.gov/ImageRepository/Document?documentID=74583",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": "Deputy Mayor Lenentine has lived in Rio Rancho since 1988. All of his immediate family, including his wife and their three foster children, call Rio Rancho home and have been deeply tied to the community for a number of years. He has worked with Rio Rancho residents for about 10 years through his local church, organizing community events and helping residents with resources they need.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:karissa-culbreath",
+      "name": "Karissa Culbreath",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 5",
+      "phone": "505-891-5004",
+      "email": "kculbreath@rrnm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:council-member:nicole-list",
+      "name": "Nicole List",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": "District 6",
+      "phone": "505-891-5004",
+      "email": "nlist@rrnm.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:rio-rancho:mayor:paul-wymer",
+      "name": "Paul Wymer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rio Rancho City Council",
+      "district": null,
+      "phone": "505-891-5004",
+      "email": "pwymer@rrnm.gov",
+      "url": "https://rrnm.gov/5057/Biography",
+      "photo_url": null,
+      "social": {
+        "twitter": "https://rrnm.gov/twitter",
+        "facebook": "https://rrnm.gov/facebook",
+        "instagram": "https://rrnm.gov/instagram",
+        "linkedin": null,
+        "youtube": "https://rrnm.gov/youtube"
+      },
+      "address": "3200 Civic Center Circle NE Rio Rancho, NM 87144",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Wymer, a licensed Architect and Certified Planner, has been a Rio Rancho resident since the early 1980s. He previously served on the City's Planning and Zoning Board and as a District 4 City Councilor before being elected Mayor in April 2026.",
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Rio Rancho",
+        "state": "NM"
+      },
+      "source_url": "https://rrnm.gov/29/Governing-Body",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
     },
     {
