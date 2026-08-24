@@ -1,10 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
 
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
 import ReportBug from './ReportBug';
+import RepCard from './RepCard';
+import RepProfile from './RepProfile';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -15,12 +18,16 @@ function App() {
 
   return (
     <div className="App">
-      <main>
-        <h1 className='hero-title'>Who Reps Me?</h1>
-        <h2 className='hero-subtitle'>An application to find your representatives</h2>
-        <SearchBar apiKey={apiKey} setRepList={setRepList} />
-        <Results repList={repList} />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage repList={repList} setRepList={setRepList} />} />
+        {/* Same-session only (see RepProfile.js's own header comment): reached by clicking
+            "View full profile" on a card from repList above, which hands the clicked rep's
+            data along via router state. A cold visit — refresh, a shared link, typing the URL —
+            has no repList to draw from, so RepProfile shows a "go back and search again"
+            fallback instead of attempting a fresh id→rep lookup that doesn't exist yet for
+            federal/state tiers. */}
+        <Route path="/rep/:id" element={<RepProfile />} />
+      </Routes>
       {/* Always available, unlike the officials-suggestion button it replaced — a bug can
           happen before a search ever completes. See ReportBug.js's own header comment. */}
       <ReportBug repList={repList} />
@@ -28,6 +35,20 @@ function App() {
   );
 }
 export default App;
+
+// The search page: hero title, address search bar, and results. This used to be App's whole
+// always-rendered tree before /rep/:id needed a second route to live alongside it (see App()
+// above) — pulled out unchanged so Routes/Route stays the only thing App() itself renders.
+function HomePage({ repList, setRepList }) {
+  return (
+    <main>
+      <h1 className='hero-title'>Who Reps Me?</h1>
+      <h2 className='hero-subtitle'>An application to find your representatives</h2>
+      <SearchBar apiKey={apiKey} setRepList={setRepList} />
+      <Results repList={repList} />
+    </main>
+  );
+}
 
 // Free, keyless address-suggestion API (Komoot's public Photon instance, built on
 // OpenStreetMap data). It's a shared demo server — no SLA, rate-limited — which is fine for
@@ -606,148 +627,6 @@ export async function getLocalOfficials(geo, shard, { onSlowScrape, onScrapeResu
   return scrapeLocalOfficials(geo, { onSlowScrape, onScrapeResult });
 }
 
-// Minimal inline glyphs (not literal brand marks) so a social row needs no icon-library
-// dependency, consistent with the rest of this dependency-free frontend.
-const SOCIAL_ICONS = {
-  twitter: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-      <path d="M4 4l16 16M20 4L4 20" />
-    </svg>
-  ),
-  facebook: (
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.3-1.5 1.6-1.5h1.4V4.3C16 4.2 15 4 13.9 4 11.5 4 10 5.4 10 8.2v2.3H7.5v3H10V21h3.5z" />
-    </svg>
-  ),
-  instagram: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
-      <circle cx="12" cy="12" r="4.2" />
-      <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none" />
-    </svg>
-  ),
-  linkedin: (
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <circle cx="6.9" cy="6.6" r="2" />
-      <path d="M5 10.5h3.9V20H5zM12.5 10.5H16v1.3c.6-.9 1.7-1.5 3-1.5 2.5 0 3.5 1.6 3.5 4.1V20h-3.9v-4.6c0-1.1-.4-1.9-1.5-1.9-1 0-1.5.7-1.5 1.9V20h-3.1z" />
-    </svg>
-  ),
-  youtube: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <rect x="2" y="6" width="20" height="12" rx="4" />
-      <path d="M10 9.3l6 2.7-6 2.7z" fill="currentColor" stroke="none" />
-    </svg>
-  ),
-};
-
-const SOCIAL_LABELS = {
-  twitter: 'Twitter/X',
-  facebook: 'Facebook',
-  instagram: 'Instagram',
-  linkedin: 'LinkedIn',
-  youtube: 'YouTube',
-};
-
-function SocialLinks({ social }) {
-  const entries = Object.entries(social || {}).filter(([, url]) => url);
-  if (!entries.length) return null;
-  return (
-    <li className="social-links">
-      {entries.map(([platform, url]) => (
-        <a
-          key={platform}
-          href={url}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="social-icon"
-          aria-label={SOCIAL_LABELS[platform] || platform}
-        >
-          {SOCIAL_ICONS[platform] || platform}
-        </a>
-      ))}
-    </li>
-  );
-}
-
-// Human label for an office's classification string. Sources disagree on the exact wording
-//("capitol", "district-mail", "dc", ...) so normalize.js/stateLegislators.js pass it through
-// as-is rather than validating against a fixed enum — this is where that gets turned into
-// something readable, falling back to a title-cased version of whatever string showed up.
-const OFFICE_LABELS = {
-  capitol: 'Capitol Office',
-  dc: 'DC Office',
-  district: 'District Office',
-  'district-mail': 'District Office',
-  primary: 'Main Office',
-  other: 'Office',
-};
-
-function labelForClassification(classification) {
-  if (OFFICE_LABELS[classification]) return OFFICE_LABELS[classification];
-  return String(classification || 'Office')
-    .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-// Renders a rep's `offices[]` (district/field/capitol offices beyond the single top-level
-// phone already shown above it) — see scraper/src/normalize.js's normalizeOffices() for the
-// shared shape. Skips an entry that would just repeat the top-level phone with nothing else
-// to add (address/fax/hours), so a federal rep's DC office doesn't show up twice.
-function OfficesList({ offices, topLevelPhone }) {
-  const extra = (offices || []).filter((o) => {
-    const addsNothingNew = !o.address && !o.hours && !o.fax;
-    const sameAsTopLevel = topLevelPhone && o.phone === topLevelPhone;
-    return !(addsNothingNew && sameAsTopLevel);
-  });
-  if (!extra.length) return null;
-  return (
-    <li className="offices-list">
-      <span className="offices-label">Other offices</span>
-      <ul>
-        {extra.map((o, i) => (
-          <li key={i} className="office-entry">
-            <strong>{o.name || o.city || labelForClassification(o.classification)}</strong>
-            {o.address && <span className="office-address">{o.address}</span>}
-            {o.phone && <a href={`tel:${o.phone}`}>{o.phone}</a>}
-            {o.hours && <span className="office-hours">{o.hours}</span>}
-          </li>
-        ))}
-      </ul>
-    </li>
-  );
-}
-
-// term_end/committees/bio only ever come from public/federal-details.json (federal reps), so
-// these are always empty/absent for state and local reps — every render below is conditional.
-// Handles both a bare date (term_end, "2029-01-03" — normalized to UTC midnight so it doesn't
-// shift a day depending on the viewer's timezone) and a full timestamp (verifiedAt, already
-// carrying its own time/zone, e.g. "2026-08-18T18:11:02.875Z") without double-appending one.
-function formatDate(iso) {
-  if (!iso) return '';
-  const d = new Date(iso.includes('T') ? iso : `${iso}T00:00:00Z`);
-  if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
-}
-
-// Below this, a local-officials record (see scraper/src/extract.js's "confidence" prompt field)
-// is flagged as worth double-checking rather than shown as a bare, potentially misleading
-// number — most extractions land at 1 (or close to it); this only catches real outliers.
-const LOW_CONFIDENCE_THRESHOLD = 0.7;
-
-function CommitteesList({ committees }) {
-  if (!committees?.length) return null;
-  return (
-    <li className="rep-committees">
-      <span className="offices-label">Committees</span>
-      <ul>
-        {committees.map((c) => (
-          <li key={c.id}>{c.name}{c.role && ` — ${c.role}`}</li>
-        ))}
-      </ul>
-    </li>
-  );
-}
-
 // Local officials go first (see the comment in executeSearch above for why), then federal,
 // then state — each rendered as its own labeled section.
 const GROUP_ORDER = ['Local', 'Federal', 'State'];
@@ -777,45 +656,6 @@ function Results({ repList }) {
           </div>
         </section>
       ))}
-    </section>
-  );
-}
-
-function RepCard({ rep }) {
-  return (
-    <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-      <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
-      <div>
-        <h2>{rep.name}</h2>
-        <ul>
-          <li>
-            {rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}
-            {rep.district && ` — ${rep.district}`}
-          </li>
-          {rep.body && <li className="rep-body">{rep.body}</li>}
-          {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
-          {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
-          {rep.address && <li className="rep-address">{rep.address}</li>}
-          {rep.hours && <li className="rep-hours">{rep.hours}</li>}
-          {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
-          <SocialLinks social={rep.social} />
-          {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
-          {rep.bio && <li className="rep-bio">{rep.bio}</li>}
-          <CommitteesList committees={rep.committees} />
-          <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
-          {rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD && (
-            <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
-          )}
-          {rep.verifiedAt && (
-            <li className="rep-verified">
-              Verified {formatDate(rep.verifiedAt)}
-              {rep.sourceUrl && (
-                <> · <a href={rep.sourceUrl} target="_blank" rel="noreferrer noopener">source</a></>
-              )}
-            </li>
-          )}
-        </ul>
-      </div>
     </section>
   );
 }

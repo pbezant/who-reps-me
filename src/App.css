@@ -616,3 +616,237 @@
     height: 3.25em;
   }
 }
+
+/* Short results-list card: a party line, and the "View full profile" link to /rep/:id (see
+   RepCard.js). Everything else in .rep-card above is shared with the profile page's own list
+   styling below. */
+.rep-party{
+  font-size:0.85em;
+  opacity:0.85;
+}
+.rep-profile-link{
+  margin-top:0.5em;
+}
+.rep-profile-link a{
+  font-weight:600;
+  text-decoration:underline;
+}
+
+/* Full profile page (src/RepProfile.js), reached via a short card's "View full profile" link. */
+.rep-profile-missing{
+  max-width:32em;
+  margin:4em auto;
+  padding:2em;
+  border-radius:1rem;
+  color:var(--white);
+  background:rgb(5, 6, 45, 30%);
+  backdrop-filter:blur(5px);
+  text-align:center;
+}
+.rep-profile-missing a{
+  color:var(--white);
+  text-decoration:underline;
+}
+
+.rep-profile{
+  display:flex;
+  flex-direction:column;
+  gap:1.5em;
+  width:100%;
+  max-width:40em;
+  margin:2em auto;
+  padding:0 2em;
+  color:var(--white);
+  text-align:left;
+}
+.rep-profile-back{
+  align-self:flex-start;
+  color:var(--white);
+  opacity:0.85;
+  text-decoration:none;
+}
+.rep-profile-back:hover{
+  opacity:1;
+  text-decoration:underline;
+}
+.rep-profile-hero{
+  display:flex;
+  gap:1.5em;
+  align-items:flex-start;
+  padding:24px;
+  border:3px solid rgb(5, 6, 45, 40%);
+  background:rgb(5, 6, 45, 30%);
+  backdrop-filter:blur(5px);
+  border-radius:1rem;
+}
+.rep-profile-hero img{
+  width:100%;
+  max-width:160px;
+  border-radius:1rem;
+  border:3px solid rgb(5, 6, 45, 40%);
+}
+.rep-profile-hero h1{
+  margin:0 0 0.2em;
+  font-size:1.6rem;
+}
+.rep-profile-office{
+  margin:0;
+  opacity:0.9;
+}
+
+.rep-profile-details{
+  display:flex;
+  flex-direction:column;
+  gap:0.6em;
+  list-style:none;
+  margin:0;
+  padding:24px;
+  border:3px solid rgb(5, 6, 45, 40%);
+  background:rgb(5, 6, 45, 30%);
+  backdrop-filter:blur(5px);
+  border-radius:1rem;
+}
+/* The committee list caps its height and scrolls inside the compact results card, where it
+   would otherwise dominate a small tile. The profile page is a whole page devoted to this
+   person, so the cap only clips content mid-line for no reason — let it run to its full
+   length here. */
+.rep-profile-details .rep-committees ul{
+  max-height:none;
+  overflow-y:visible;
+}
+.rep-profile-details a{
+  color:var(--white);
+}
+
+.rep-news, .rep-voting-record{
+  padding:24px;
+  border:3px solid rgb(5, 6, 45, 40%);
+  background:rgb(5, 6, 45, 30%);
+  backdrop-filter:blur(5px);
+  border-radius:1rem;
+}
+.rep-news h2, .rep-voting-record h2{
+  margin:0 0 0.75em;
+  font-size:1.1rem;
+}
+.rep-news-status, .rep-voting-status{
+  display:flex;
+  align-items:center;
+  gap:0.6em;
+  margin:0;
+  opacity:0.9;
+}
+.rep-news-status-muted, .rep-voting-status-muted{
+  opacity:0.7;
+}
+.rep-news-list, .rep-voting-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:0.9em;
+}
+.rep-news-list a, .rep-voting-list a{
+  color:var(--white);
+  font-weight:600;
+  text-decoration:underline;
+}
+.rep-news-source{
+  opacity:0.7;
+  font-size:0.85em;
+}
+.rep-news-snippet{
+  margin:0.2em 0 0;
+  font-size:0.9em;
+  opacity:0.85;
+  line-height:1.4;
+}
+.rep-voting-role{
+  opacity:0.8;
+  font-size:0.9em;
+}
+.rep-voting-action{
+  margin:0.2em 0 0;
+  font-size:0.85em;
+  opacity:0.8;
+}
+
+/* The results-list card's photo is a link to the same profile as its "View full profile" text
+   link (see RepCard.js) — the anchor becomes the flex item the bare <img> used to be, so it has
+   to carry the same fluid-up-to-256px sizing or the image would stretch to the card's full
+   width. */
+.rep-card-photo{
+  display:block;
+  width:100%;
+  max-width:256px;
+  border-radius:1rem;
+}
+.rep-card-photo img{
+  display:block;
+}
+.rep-card-photo:hover img,
+.rep-card-photo:focus-visible img{
+  border-color:rgba(255,255,255,0.6);
+}
+.rep-card-photo:focus-visible{
+  outline:2px solid var(--white);
+  outline-offset:3px;
+}
+
+/* Bento layout for the profile page on desktop only. Below this width the page stays the plain
+   vertical stack defined above — a two-column bento on a phone would just be two narrow columns.
+   Alignment differs by row, on purpose. The top row (portrait + contact) stretches so the two
+   halves of the person's identity read as one aligned unit. The bottom row does not: news and
+   voting-record lengths are unrelated — a one-line "News search isn't set up yet" beside ten
+   sponsored bills stretched to an 870px box holding a single sentence, which looked far worse
+   than the ragged bottom edge does. */
+@media screen and (min-width:900px){
+  .rep-profile{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    align-items:start;
+    gap:1.5em;
+    max-width:72em;
+  }
+  .rep-profile-back{
+    grid-column:1 / -1;
+    justify-self:start;
+  }
+  /* Hero turns into a narrow portrait card (photo above the name, not beside it) rather than a
+     full-width banner: a banner leaves most of a 72em row empty, since a name and one line of
+     office text can't fill it. Narrow and vertical, the box is actually full, and it balances
+     against the contact panel beside it. */
+  .rep-profile-hero{
+    grid-column:span 4;
+    align-self:stretch;
+    flex-direction:column;
+    align-items:center;
+    /* Centred vertically, not pinned to the top: when the contact panel beside it is the taller
+       of the two (a member of Congress with a bio, committees and several offices), the portrait
+       would otherwise sit against the top edge with all the slack dumped underneath it. */
+    justify-content:center;
+    text-align:center;
+  }
+  .rep-profile-hero img{
+    max-width:200px;
+  }
+  /* Contact/committees/offices takes the wide half of the top row — for a member of Congress
+     this is the longest panel on the page (bio + every committee + every district office). */
+  .rep-profile-details{
+    grid-column:span 8;
+    /* Match the portrait's height rather than shrink-wrapping the contact lines: a local
+       official with only a phone, an email and an address left a stubby box floating beside a
+       tall portrait. Stretch, so whichever of the two is taller sets the row. */
+    align-self:stretch;
+  }
+  /* Bottom row splits the other way, so the grid reads as a bento rather than two fixed columns. */
+  .rep-news{
+    grid-column:span 5;
+  }
+  /* The wide half of the bottom row: bill titles are the longest single strings on the page
+     ("Expressing support for the designation of ..."), and this list runs to ten of them. */
+  .rep-voting-record{
+    grid-column:span 7;
+  }
+}

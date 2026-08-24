@@ -11,6 +11,9 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | State executives (Governor, Lt. Governor, AG, ...) | [Open States v3](https://docs.openstates.org/api-v3/) `/people?org_classification=executive` | free | `OPENSTATES_API_KEY` (server-side) |
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
+| Recent news (profile page) | web search — reuses the scraper's own `webSearch()` (Brave by default, Tavily also supported — see [`scraper/README.md`](scraper/README.md)) | free tier | `SEARCH_API_KEY` (server-side) |
+| Voting / legislative record — state legislators (profile page) | [Open States v3](https://docs.openstates.org/api-v3/) `/bills` (sponsor filter) | free | `OPENSTATES_API_KEY` (server-side) |
+| Voting / legislative record — US House / Senate (profile page) | [Congress.gov API](https://api.congress.gov/) member sponsored/cosponsored legislation | free | `CONGRESS_API_KEY` (server-side) |
 
 ### Help us grow this map
 
@@ -73,12 +76,50 @@ Commissioner, and no Railroad Commissioner (an elected regulatory body outside w
 models at all). Most states have 3-4; a few have as many as 6-7. This app shows whatever a state
 has rather than assuming every state has the same set of offices.
 
+## Representative profile pages: news and voting record
+
+Clicking "View full profile" on a card opens `/rep/:id` (`src/RepProfile.js`) — the full detail
+that used to be crammed into one long results-list card, plus two sections a dedicated page
+finally had room for:
+
+- **Recent news** (`netlify/functions/rep-news.mjs`) — a web search for the rep's name plus
+  enough office/state context to disambiguate a common name, reusing the scraper's own
+  provider-agnostic `webSearch()` (`scraper/src/search.js`) server-side. Same `SEARCH_API_KEY`/
+  `SEARCH_PRESET` as the scraper's discovery fallback; unset, this section just says news search
+  isn't set up. Requests Tavily's `topic: "news"` mode when that preset is active (a no-op on
+  Brave/Google) — see `scraper/README.md`'s "Search fallback" table for why Tavily is worth
+  considering over Brave: a free tier with no credit card required, and a search mode built for
+  exactly this "recent news about a person" case.
+- **Voting / legislative record** (`netlify/functions/state-votes.mjs`,
+  `netlify/functions/federal-votes.mjs`) — recent bill sponsorship/cosponsorship, not true
+  roll-call yes/no vote history: neither Open States nor Congress.gov exposes a clean per-member
+  vote-history endpoint for this (ProPublica's Congress API, which historically did, was
+  discontinued). Only available for state legislators and members of Congress — local officials'
+  votes generally aren't published anywhere scrapable, and state executives (Governor, AG, ...)
+  don't sponsor legislation the way lawmakers do, so both show a static "not available" message
+  with no network request made at all.
+
+**v1 is same-session only**: the rep object is handed to the profile route via React Router
+`state` (see the "View full profile" `Link` in `src/RepCard.js`), not looked up by id — there is
+no static, id-addressable store for federal/state reps to re-fetch from on a cold visit (only
+local officials have one, the committed per-state shards). A hard refresh, a bookmarked link, or
+typing the URL directly shows a "go back and search again" fallback instead of a fresh lookup —
+see `src/RepProfile.js`'s own header comment.
+
 ## Configuration
 
 The app runs without any setup; each key only improves one layer.
 
 ```
-OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators + executives
+OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators +
+                          # executives + their voting/legislative-activity section
+SEARCH_API_KEY=...       # free key from the SEARCH_PRESET provider (brave by default, tavily
+                          # also supported — see scraper/README.md's "Search fallback" table) —
+                          # on-demand jurisdiction discovery's search fallback + the profile
+                          # page's "recent news" section
+SEARCH_PRESET=tavily     # optional, only if not using the brave default
+CONGRESS_API_KEY=...     # free key from https://api.congress.gov/sign-up/ — federal reps'
+                          # voting/legislative-activity section on the profile page
 LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md) + bug-report triage
 LLM_API_KEY=...
 GITHUB_TOKEN=...         # bug-report triage (netlify/functions/report-bug.mjs) — needs Issues:write
@@ -102,11 +143,20 @@ variable into the JS bundle when the site is built, so it must be set wherever t
 (Netlify's *Site configuration → Build & deploy → Environment*, not just the general Environment
 variables page most other keys here use — Netlify's UI does distinguish these, but it's an easy
 place to set the wrong one and see no effect). `OPENSTATES_API_KEY`
-is read only by `netlify/functions/state-legislators.mjs` and `netlify/functions/state-executives.mjs`
-— never by the browser: Open States keys carry a per-account daily quota, and v3 doesn't serve
-CORS for browser requests anyway. Legislator lookups are cached in Netlify Blobs for 30 days
-(per coordinate) to stay well inside that quota; executive lookups for 90 days (per state — a
-much smaller, much slower-changing dataset, so a longer window is safe).
+is read only by `netlify/functions/state-legislators.mjs`, `netlify/functions/state-executives.mjs`,
+and `netlify/functions/state-votes.mjs` — never by the browser: Open States keys carry a
+per-account daily quota, and v3 doesn't serve CORS for browser requests anyway. Legislator
+lookups are cached in Netlify Blobs for 30 days (per coordinate) to stay well inside that quota;
+executive lookups for 90 days (per state — a much smaller, much slower-changing dataset, so a
+longer window is safe); voting-record lookups for 24 hours (legislative activity changes weekly,
+not monthly, so this deliberately does not reuse either of those longer TTLs).
+
+`SEARCH_API_KEY` and `CONGRESS_API_KEY` are likewise read only server-side, by
+`netlify/functions/rep-news.mjs` and `netlify/functions/federal-votes.mjs` respectively, each
+cached in Netlify Blobs — news for 12 hours (it changes daily; a longer window would show stale
+headlines), federal voting/legislative activity for 24 hours (same reasoning as the state-votes
+cache above). Both are additive: unset, the corresponding profile-page section just says it isn't
+available yet, exactly like every other optional key in this app.
 
 ## Tests
 

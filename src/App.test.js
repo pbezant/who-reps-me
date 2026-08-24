@@ -1,14 +1,22 @@
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials, localScrapeNote, toRepCard } from './App';
 
+// App now renders <Routes>/<Route> internally (see App.js), so every render needs a Router
+// context around it — MemoryRouter rather than BrowserRouter since these tests don't touch the
+// real URL/history.
+function renderApp() {
+  return render(<MemoryRouter><App /></MemoryRouter>);
+}
+
 test('renders the search page', () => {
-  render(<App />);
+  renderApp();
   expect(screen.getByText(/who reps me/i)).toBeInTheDocument();
   expect(screen.getByPlaceholderText(/address or zip code/i)).toBeInTheDocument();
 });
 
 test('shows the "help us grow this map" button even before any search has run', () => {
-  render(<App />);
+  renderApp();
   expect(screen.getByRole('button', { name: /help us grow this map/i })).toBeInTheDocument();
 });
 

@@ -625,6 +625,9 @@ existed (LLM recall only, plain breadth-first crawl only). Set it to unlock two 
 alone can't do: resolve a jurisdiction the model's training data never covered, and resolve one
 whose domain changed since that training cutoff.
 
+The same `webSearch()` is also what powers the frontend's "recent news" profile-page section
+(`netlify/functions/rep-news.mjs`) — whichever preset is configured here covers both.
+
 ```bash
 SEARCH_PRESET=brave SEARCH_API_KEY=... npm run discover-jurisdictions
 ```
@@ -632,7 +635,12 @@ SEARCH_PRESET=brave SEARCH_API_KEY=... npm run discover-jurisdictions
 | Preset | Free tier | Extra config | Notes |
 | --- | --- | --- | --- |
 | `brave` ← default | $5/mo in free credits at $5/1,000 requests → **1,000 free searches/month**, 50 req/sec cap | — | Requires a credit card to sign up even for free-tier-only use (never charged while under the monthly credit) — confirmed at [brave.com/search/api](https://brave.com/search/api) |
-| `google` | 100 queries/day | `SEARCH_CX` (Programmable Search Engine id) | **Not recommended for a new setup** — closed to new customers as of writing, and the whole API is being sunset 2027-01-01. Kept only for anyone with an existing key — see [developers.google.com/custom-search/v1/overview](https://developers.google.com/custom-search/v1/overview) |
+| `tavily` | **1,000 free credits/month, no credit card required.** Free ("Development") key capped at 100 req/min | — | Purpose-built for LLM/agent consumption rather than a general SERP scrape; its `topic: "news"` mode (used by `rep-news.mjs`) is a closer semantic fit for "recent news about this person" than a plain web search. Production-tier throughput (1,000 req/min) needs a paid plan or PAYGO — confirmed at [docs.tavily.com](https://docs.tavily.com/documentation/rate-limits) |
+| `google` | 100 queries/day | `SEARCH_CX` (Programmable Search Engine id) | **Not recommended for a new setup** — closed to new customers as of 2025, and the whole API is being sunset 2027-01-01. Kept only for anyone with an existing key — see [developers.google.com/custom-search/v1/overview](https://developers.google.com/custom-search/v1/overview) |
+
+Bing isn't in this table because it isn't an option at all: Microsoft fully retired every Bing
+Search API on 2025-08-11 (confirmed at
+[learn.microsoft.com](https://learn.microsoft.com/en-us/lifecycle/announcements/bing-search-api-retirement)).
 
 Search only ever fires as a *fallback* — for `discoverJurisdictionSite()`, when the LLM's recall
 returns `UNKNOWN` or the recalled URL doesn't verify as a real gov site; for `findRosterPage()`,

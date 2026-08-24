@@ -15,10 +15,15 @@
 // can never fix on its own: a city whose domain changed since the model's cutoff.
 //
 // Config:
-//   SEARCH_PRESET   brave | google      (default: brave)
+//   SEARCH_PRESET   brave | google | tavily      (default: brave)
 //   SEARCH_API_KEY  provider key
-//   SEARCH_CX       Google's Programmable Search Engine id (the "cx" param) — brave doesn't need
-//                   a second id, so this is ignored for that preset.
+//   SEARCH_CX       Google's Programmable Search Engine id (the "cx" param) — brave/tavily don't
+//                   need a second id, so this is ignored for those presets.
+//
+// Bing isn't an option here at all: Microsoft fully retired every Bing Search API (Web, News,
+// Custom, ...) on 2025-08-11 — confirmed against learn.microsoft.com/en-us/lifecycle/
+// announcements/bing-search-api-retirement — new resource creation had already been disabled
+// since February 2025.
 
 export const SEARCH_PRESETS = {
   brave: {
@@ -38,6 +43,19 @@ export const SEARCH_PRESETS = {
     // developers.google.com/custom-search/v1/overview) and is being sunset entirely on
     // 2027-01-01 in favor of Vertex AI Search. Free quota for an existing key is 100 queries/day.
     rps: 5,
+  },
+  tavily: {
+    // Free "Researcher" tier, confirmed against docs.tavily.com/documentation/rate-limits and
+    // help.tavily.com/articles/3240802908-rate-limits on 2026-08-24: 1,000 free credits/month, NO
+    // credit card required (unlike Brave above) — a real practical advantage for a low-traffic
+    // project. A free-tier ("Development") key is capped at 100 requests/minute (~1.67 rps);
+    // production keys (1,000 rps) need a paid plan or PAYGO, so this throttles well under the
+    // free-key ceiling rather than assuming the higher tier. Purpose-built for LLM/agent
+    // consumption rather than a general SERP scrape, and its `topic: "news"` mode (see
+    // searchTavily() below) is a closer semantic fit for "recent news about this person" than
+    // Brave's or Google's plain web search — see rep-news.mjs's use of webSearch()'s `topic`
+    // option.
+    rps: 1.5,
   },
 };
 
@@ -63,6 +81,15 @@ export function parseBraveResults(data) {
 export function parseGoogleResults(data) {
   return (data?.items || [])
     .map((r) => ({ title: r.title || "", url: r.link, snippet: r.snippet || "" }))
+    .filter((r) => r.url);
+}
+
+// Tavily's `content` field is the description/snippet (confirmed against docs.tavily.com/
+// documentation/api-reference/endpoint/search on 2026-08-24) — everything else maps 1:1 with
+// the other two parsers' output shape, so every caller of webSearch() stays provider-agnostic.
+export function parseTavilyResults(data) {
+  return (data?.results || [])
+    .map((r) => ({ title: r.title || "", url: r.url, snippet: r.content || "" }))
     .filter((r) => r.url);
 }
 
@@ -92,6 +119,22 @@ async function searchGoogle(query, { count, apiKey, cx }) {
   return parseGoogleResults(await res.json());
 }
 
+// POST + bearer auth (confirmed against docs.tavily.com/documentation/quickstart on 2026-08-24:
+// `Authorization: Bearer <key>`, JSON body), unlike Brave/Google's GET+query-string shape — kept
+// behind the same webSearch() interface so callers never see the difference. `topic` is passed
+// through as-is when given (webSearch()'s callers only ever pass "news" today, but this doesn't
+// validate against Tavily's enum — an invalid value is Tavily's 400 to raise, not this file's to
+// pre-guess) and otherwise omitted, letting Tavily's own "general" default apply.
+async function searchTavily(query, { count, apiKey, topic }) {
+  const res = await fetch("https://api.tavily.com/search", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({ query, max_results: count, ...(topic ? { topic } : {}) }),
+  });
+  if (!res.ok) throw new Error(`tavily search HTTP ${res.status}`);
+  return parseTavilyResults(await res.json());
+}
+
 // Process-lifetime call count, same purpose/shape as llm.js's getCallCount(): lets a CLI entry
 // point report how much search budget a run actually spent. Not yet wired into usage-ledger.js
 // (that ledger is scoped to LLM calls specifically, and search call volume here is inherently
@@ -110,7 +153,12 @@ export function resetSearchCallCount() {
 // "every call fails identically" abort case to distinguish here. Every caller of webSearch() in
 // this codebase wraps it in try/catch and treats any throw as "fall back to the non-search path",
 // so the distinction wouldn't be actionable anyway.
-export async function webSearch(query, { count = 5 } = {}) {
+//
+// `topic` is Tavily-specific ("news" biases results toward recent news coverage — see
+// netlify/functions/rep-news.mjs) and silently ignored by Brave/Google, which have no equivalent
+// concept — passing it with SEARCH_PRESET=brave/google is a no-op, not an error, so a caller
+// doesn't need to branch on which preset is active just to ask for news-flavored results.
+export async function webSearch(query, { count = 5, topic } = {}) {
   const cfg = resolveSearchConfig();
   if (!cfg.apiKey) {
     throw new Error(
@@ -122,5 +170,6 @@ export async function webSearch(query, { count = 5 } = {}) {
   callCount++;
   if (cfg.presetName === "brave") return searchBrave(query, { count, apiKey: cfg.apiKey });
   if (cfg.presetName === "google") return searchGoogle(query, { count, apiKey: cfg.apiKey, cx: cfg.cx });
+  if (cfg.presetName === "tavily") return searchTavily(query, { count, apiKey: cfg.apiKey, topic });
   throw new Error(`Unknown SEARCH_PRESET "${cfg.presetName}".`);
 }
