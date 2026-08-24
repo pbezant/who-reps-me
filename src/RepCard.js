@@ -161,9 +161,18 @@ export function areaLabel(rep) {
 // id-addressable store for federal/state reps, only the results already in memory from this
 // search (a deliberate v1 scope decision — see the plan's "same-session only" note).
 export default function RepCard({ rep }) {
+  const profilePath = `/rep/${encodeURIComponent(rep.id)}`;
   return (
     <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-      <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
+      {/* The photo is a second route into the same profile — clicking a person's face is the
+          obvious gesture, and a card-sized image is a far bigger target than the text link.
+          aria-hidden + tabIndex={-1} because it is purely redundant with the "View full profile"
+          link below: without this, every card would announce twice and cost keyboard users an
+          extra tab stop to reach the same destination. Nothing is lost by hiding it — the alt
+          text only repeats the <h2> directly beneath it. */}
+      <Link to={profilePath} state={{ rep }} className="rep-card-photo" aria-hidden="true" tabIndex={-1}>
+        <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
+      </Link>
       <div>
         <h2>{rep.name}</h2>
         <ul>
@@ -178,7 +187,7 @@ export default function RepCard({ rep }) {
             <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
           )}
           <li className="rep-profile-link">
-            <Link to={`/rep/${encodeURIComponent(rep.id)}`} state={{ rep }}>View full profile →</Link>
+            <Link to={profilePath} state={{ rep }}>View full profile →</Link>
           </li>
         </ul>
       </div>

@@ -706,6 +706,14 @@
   backdrop-filter:blur(5px);
   border-radius:1rem;
 }
+/* The committee list caps its height and scrolls inside the compact results card, where it
+   would otherwise dominate a small tile. The profile page is a whole page devoted to this
+   person, so the cap only clips content mid-line for no reason — let it run to its full
+   length here. */
+.rep-profile-details .rep-committees ul{
+  max-height:none;
+  overflow-y:visible;
+}
 .rep-profile-details a{
   color:var(--white);
 }
@@ -762,4 +770,72 @@
   margin:0.2em 0 0;
   font-size:0.85em;
   opacity:0.8;
+}
+
+/* The results-list card's photo is a link to the same profile as its "View full profile" text
+   link (see RepCard.js) — the anchor becomes the flex item the bare <img> used to be, so it has
+   to carry the same fluid-up-to-256px sizing or the image would stretch to the card's full
+   width. */
+.rep-card-photo{
+  display:block;
+  width:100%;
+  max-width:256px;
+  border-radius:1rem;
+}
+.rep-card-photo img{
+  display:block;
+}
+.rep-card-photo:hover img,
+.rep-card-photo:focus-visible img{
+  border-color:rgba(255,255,255,0.6);
+}
+.rep-card-photo:focus-visible{
+  outline:2px solid var(--white);
+  outline-offset:3px;
+}
+
+/* Bento layout for the profile page on desktop only. Below this width the page stays the plain
+   vertical stack defined above — a two-column bento on a phone would just be two narrow columns.
+   `align-items:start` rather than the grid default `stretch` on purpose: a section can legitimately
+   be one line ("News search isn't set up yet") while the one beside it runs long, and stretching
+   would blow that short box up into a mostly-empty tall panel. */
+@media screen and (min-width:900px){
+  .rep-profile{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    align-items:start;
+    gap:1.5em;
+    max-width:72em;
+  }
+  .rep-profile-back{
+    grid-column:1 / -1;
+    justify-self:start;
+  }
+  /* Hero turns into a narrow portrait card (photo above the name, not beside it) rather than a
+     full-width banner: a banner leaves most of a 72em row empty, since a name and one line of
+     office text can't fill it. Narrow and vertical, the box is actually full, and it balances
+     against the contact panel beside it. */
+  .rep-profile-hero{
+    grid-column:span 4;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+  .rep-profile-hero img{
+    max-width:200px;
+  }
+  /* Contact/committees/offices takes the wide half of the top row — for a member of Congress
+     this is the longest panel on the page (bio + every committee + every district office). */
+  .rep-profile-details{
+    grid-column:span 8;
+  }
+  /* Bottom row splits the other way, so the grid reads as a bento rather than two fixed columns. */
+  .rep-news{
+    grid-column:span 5;
+  }
+  /* The wide half of the bottom row: bill titles are the longest single strings on the page
+     ("Expressing support for the designation of ..."), and this list runs to ten of them. */
+  .rep-voting-record{
+    grid-column:span 7;
+  }
 }

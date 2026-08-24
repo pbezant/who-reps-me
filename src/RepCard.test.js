@@ -45,6 +45,18 @@ test('links to the profile route with the id percent-encoded, so an id containin
   expect(link).toHaveAttribute('href', '/rep/ocd-person%2F1f9ed42e-27de-4cd1-b2bf-f890ee33cb49');
 });
 
+test('the photo is also a link to the profile, hidden from assistive tech as a redundant duplicate', () => {
+  const { container } = renderCard();
+  const photoLink = container.querySelector('.rep-card-photo');
+  // Same destination as the text link, so a click on the face works — but not a second tab stop
+  // or a second announcement of the same rep.
+  expect(photoLink).toHaveAttribute('href', '/rep/ocd-person%2F1f9ed42e-27de-4cd1-b2bf-f890ee33cb49');
+  expect(photoLink).toHaveAttribute('aria-hidden', 'true');
+  expect(photoLink).toHaveAttribute('tabindex', '-1');
+  // Exactly one link reaches the profile for a keyboard/screen-reader user.
+  expect(screen.getAllByRole('link', { name: /view full profile/i })).toHaveLength(1);
+});
+
 test('does not render the fields that moved to the full profile page', () => {
   renderCard();
   expect(screen.queryByText(rep.email)).not.toBeInTheDocument();
