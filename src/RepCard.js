@@ -9,9 +9,13 @@ import { Link } from 'react-router-dom';
 // Minimal inline glyphs (not literal brand marks) so a social row needs no icon-library
 // dependency, consistent with the rest of this dependency-free frontend.
 const SOCIAL_ICONS = {
+  // The real X wordmark, not two crossed strokes. The old glyph was `M4 4l16 16M20 4L4 20` —
+  // a symmetric X, which at icon size in the corner of a translucent panel reads as a
+  // close/dismiss control rather than a brand. This path is asymmetric and filled, and it now
+  // sits beside a visible "X" text label, so there is nothing left to misread.
   twitter: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-      <path d="M4 4l16 16M20 4L4 20" />
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.53 3h3.2l-6.99 7.99L22 21h-6.44l-5.04-6.59L4.75 21H1.54l7.48-8.55L1.5 3h6.6l4.56 6.03L17.53 3zm-1.12 16.06h1.77L7.68 4.84H5.78l10.63 14.22z" />
     </svg>
   ),
   facebook: (
@@ -41,31 +45,36 @@ const SOCIAL_ICONS = {
 };
 
 const SOCIAL_LABELS = {
-  twitter: 'Twitter/X',
+  twitter: 'X',
   facebook: 'Facebook',
   instagram: 'Instagram',
   linkedin: 'LinkedIn',
   youtube: 'YouTube',
 };
 
-export function SocialLinks({ social }) {
+// Socials as their own labelled panel of icon+text pills, rather than the bare icon row this
+// replaced. That row was genuinely undiscoverable: 25px unlabelled targets at 85% opacity,
+// buried mid-list between a website URL and a term-end date, with no heading to say what they
+// were. Three things fix it — a heading, visible platform names, and 44px tap targets.
+//
+// A heading also makes ABSENCE read correctly. Social links are a mostly-empty field (of 160
+// Texas local officials only 9 have any at all, though nearly every member of Congress does),
+// so this returns null rather than leaving a labelled hole on the majority of pages.
+export function SocialPanel({ social }) {
   const entries = Object.entries(social || {}).filter(([, url]) => url);
   if (!entries.length) return null;
   return (
-    <li className="social-links">
-      {entries.map(([platform, url]) => (
-        <a
-          key={platform}
-          href={url}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="social-icon"
-          aria-label={SOCIAL_LABELS[platform] || platform}
-        >
-          {SOCIAL_ICONS[platform] || platform}
-        </a>
-      ))}
-    </li>
+    <section className="rep-panel rep-social-panel-wrap">
+      <h2 className="rep-panel-title">Find them online</h2>
+      <div className="rep-social-panel">
+        {entries.map(([platform, url]) => (
+          <a key={platform} href={url} target="_blank" rel="noreferrer noopener" className="rep-social-link">
+            {SOCIAL_ICONS[platform] || null}
+            <span>{SOCIAL_LABELS[platform] || platform}</span>
+          </a>
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -93,27 +102,34 @@ function labelForClassification(classification) {
 // phone already shown above it) — see scraper/src/normalize.js's normalizeOffices() for the
 // shared shape. Skips an entry that would just repeat the top-level phone with nothing else
 // to add (address/fax/hours), so a federal rep's DC office doesn't show up twice.
-export function OfficesList({ offices, topLevelPhone }) {
+export function OfficesList({ offices, topLevelPhone, topLevelAddress }) {
   const extra = (offices || []).filter((o) => {
     const addsNothingNew = !o.address && !o.hours && !o.fax;
-    const sameAsTopLevel = topLevelPhone && o.phone === topLevelPhone;
-    return !(addsNothingNew && sameAsTopLevel);
+    const samePhone = topLevelPhone && o.phone === topLevelPhone;
+    // Drop the office outright only when it is a pure duplicate: same phone and nothing else to
+    // offer. An office that repeats the phone but carries an address it alone knows still earns
+    // its place — the redundant phone LINE is suppressed below instead of the whole entry.
+    const duplicatesTopLevel = samePhone && (addsNothingNew || (topLevelAddress && o.address === topLevelAddress));
+    return !duplicatesTopLevel;
   });
   if (!extra.length) return null;
   return (
-    <li className="offices-list">
+    <div className="offices-list">
       <span className="offices-label">Other offices</span>
       <ul>
         {extra.map((o, i) => (
           <li key={i} className="office-entry">
             <strong>{o.name || o.city || labelForClassification(o.classification)}</strong>
             {o.address && <span className="office-address">{o.address}</span>}
-            {o.phone && <a href={`tel:${o.phone}`}>{o.phone}</a>}
+            {/* Observed on Gina Hinojosa: her Capitol Office restated her only phone number a
+                few lines under the Call button that already showed it. The address here is
+                genuinely new, the phone is not. */}
+            {o.phone && o.phone !== topLevelPhone && <a href={`tel:${o.phone}`}>{o.phone}</a>}
             {o.hours && <span className="office-hours">{o.hours}</span>}
           </li>
         ))}
       </ul>
-    </li>
+    </div>
   );
 }
 
@@ -137,15 +153,26 @@ export const LOW_CONFIDENCE_THRESHOLD = 0.7;
 export function CommitteesList({ committees }) {
   if (!committees?.length) return null;
   return (
-    <li className="rep-committees">
+    <div className="rep-committees">
       <span className="offices-label">Committees</span>
       <ul>
         {committees.map((c) => (
           <li key={c.id}>{c.name}{c.role && ` — ${c.role}`}</li>
         ))}
       </ul>
-    </li>
+    </div>
   );
+}
+
+// Displaying a raw href is how Gina Hinojosa's page ended up with a 62-character OpenStates
+// database URL as its single most visually dominant element, out-shouting her phone number.
+// Callers show this instead, under an "Official website" label.
+export function hostname(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
 }
 
 // Same "StateUpper"/"StateLower" -> readable chamber name substitution RepProfile.js uses for

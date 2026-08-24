@@ -66,6 +66,56 @@ test('renders full detail (everything the short card leaves out) when router sta
   expect(screen.getByRole('heading', { name: /voting/i })).toBeInTheDocument();
 });
 
+test('shows the website by hostname under a label, never the raw href', () => {
+  renderAt([{ pathname: '/rep/C001131', state: { rep: { ...rep, url: 'https://openstates.org/person/gina-hinojosa-xfLWJ5Zor5hbGpZ6gzLVx/' } } }]);
+
+  // A 62-character database URL rendered in full was the most visually dominant element on the
+  // page, out-shouting the phone number nobody could otherwise identify as a phone number.
+  expect(screen.getByText('openstates.org')).toBeInTheDocument();
+  expect(screen.queryByText(/gina-hinojosa-xfLWJ5Zor5hbGpZ6gzLVx/)).not.toBeInTheDocument();
+  expect(screen.getByText('Official website')).toBeInTheDocument();
+});
+
+test('labels the contact actions, so a bare number is not left to speak for itself', () => {
+  renderAt([{ pathname: '/rep/C001131', state: { rep } }]);
+  expect(screen.getByText('Call this office')).toBeInTheDocument();
+  expect(screen.getByText('Email')).toBeInTheDocument();
+});
+
+test('renders social links as named pills rather than bare icons', () => {
+  renderAt([{ pathname: '/rep/C001131', state: { rep } }]);
+  expect(screen.getByRole('heading', { name: /find them online/i })).toBeInTheDocument();
+  // The visible platform name is the point: unlabelled icons were the reason these went unseen.
+  expect(screen.getByRole('link', { name: 'X' })).toHaveAttribute('href', 'https://twitter.com/repellis');
+});
+
+test('omits the socials panel entirely when there are none, rather than leaving a labelled hole', () => {
+  renderAt([{ pathname: '/rep/C001131', state: { rep: { ...rep, social: {} } } }]);
+  expect(screen.queryByRole('heading', { name: /find them online/i })).not.toBeInTheDocument();
+});
+
+test('says so plainly when no contact details are on file, instead of rendering an empty panel', () => {
+  const bare = { ...rep, phone: '', email: '', url: '', address: '', hours: '', social: {} };
+  renderAt([{ pathname: '/rep/C001131', state: { rep: bare } }]);
+
+  expect(screen.getByText(/don't have contact details/i)).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /check the official page/i })).toHaveAttribute('href', bare.sourceUrl);
+});
+
+test('drops an office phone that only repeats the number already shown as the Call action', () => {
+  const withDupe = {
+    ...rep,
+    phone: '202-555-0100',
+    offices: [{ classification: 'capitol', name: 'Capitol Office', city: null, address: 'Room 4S.2', phone: '202-555-0100', fax: null, hours: null }],
+  };
+  renderAt([{ pathname: '/rep/C001131', state: { rep: withDupe } }]);
+
+  // The address is genuinely new, so the office still renders — but its phone is the same number
+  // sitting in the Call button above it, so exactly one copy should be on the page.
+  expect(screen.getByText('Room 4S.2')).toBeInTheDocument();
+  expect(screen.getAllByText('202-555-0100')).toHaveLength(1);
+});
+
 test('shows a "go back and search again" fallback on a cold visit (no router state)', () => {
   renderAt(['/rep/C001131']);
 

@@ -648,6 +648,193 @@
   text-decoration:underline;
 }
 
+/* Shared chrome for every panel on the profile page (Contact, Find them online, About, Recent
+   news, Voting) — one rule instead of the per-section copies these replaced, so the panels stay
+   visually identical as sections are added. */
+.rep-panel,
+.rep-news,
+.rep-voting-record{
+  padding:24px;
+  border:3px solid rgb(5, 6, 45, 40%);
+  background:rgb(5, 6, 45, 30%);
+  backdrop-filter:blur(5px);
+  border-radius:1rem;
+}
+.rep-panel-title{
+  margin:0 0 1em;
+  font-size:0.8rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.12em;
+  opacity:0.7;
+}
+.rep-profile-contact{
+  display:flex;
+  flex-direction:column;
+  gap:0.75em;
+}
+
+/* Contact actions. These read as buttons rather than lines of text because calling or emailing
+   a representative is what this app is for — previously a tel: link was typographically
+   identical to the website URL under it, and neither said what it was. */
+.rep-action{
+  display:flex;
+  align-items:center;
+  gap:0.9em;
+  min-height:56px;
+  padding:0.7em 1em;
+  border-radius:0.75rem;
+  border:1px solid rgba(255,255,255,0.28);
+  color:var(--white);
+  /* No underline: the button chrome is the affordance now, and both together read as two
+     competing signals. In-text links (source, news, bills) keep theirs. */
+  text-decoration:none;
+  transition:background 0.15s ease, transform 0.15s ease;
+}
+.rep-action--primary{ background:rgba(255,255,255,0.14); }
+.rep-action--secondary{ background:rgba(255,255,255,0.08); }
+.rep-action--tertiary{ background:transparent; border-color:rgba(255,255,255,0.18); }
+.rep-action:hover{
+  background:rgba(255,255,255,0.20);
+  transform:translateY(-1px);
+}
+.rep-action:focus-visible{
+  outline:2px solid var(--white);
+  outline-offset:3px;
+}
+.rep-action-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 36px;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.12);
+}
+.rep-action-icon svg{
+  width:18px;
+  height:18px;
+}
+.rep-action-text{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+.rep-action-label{
+  font-size:0.75rem;
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  opacity:0.7;
+}
+.rep-action-value{
+  font-size:1.15rem;
+  font-weight:600;
+  /* Long email addresses have no spaces to break at and would otherwise widen the panel. */
+  overflow-wrap:anywhere;
+}
+.rep-action--primary .rep-action-value{
+  font-size:1.35rem;
+}
+
+/* Postal address is information, not an action — deliberately not styled as a button. */
+.rep-field-label{
+  display:block;
+  font-size:0.75rem;
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  opacity:0.7;
+}
+.rep-field-value{
+  margin:0.2em 0 0;
+}
+.rep-field-note{
+  margin:0.2em 0 0;
+  font-size:0.85em;
+  opacity:0.8;
+}
+.rep-empty{
+  margin:0;
+  opacity:0.75;
+  line-height:1.5;
+}
+.rep-empty a{
+  color:var(--white);
+}
+
+/* Social pills: 44px targets with visible platform names, replacing a row of 25px unlabelled
+   glyphs that people genuinely could not find. The text label also means the icon no longer
+   carries the whole meaning on its own. */
+.rep-social-panel{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.6em;
+}
+.rep-social-link{
+  display:inline-flex;
+  align-items:center;
+  gap:0.5em;
+  min-height:44px;
+  padding:0.5em 0.9em;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.28);
+  background:rgba(255,255,255,0.08);
+  color:var(--white);
+  text-decoration:none;
+  font-size:0.9em;
+}
+.rep-social-link:hover{
+  background:rgba(255,255,255,0.18);
+}
+.rep-social-link:focus-visible{
+  outline:2px solid var(--white);
+  outline-offset:3px;
+}
+.rep-social-link svg{
+  width:18px;
+  height:18px;
+}
+
+/* "We may have got this wrong" is a safety signal, so it sits above the contact details rather
+   than in the footer with the provenance date. */
+.rep-confidence-banner{
+  margin:0;
+  padding:0.6em 1em;
+  border-radius:0.75rem;
+  font-size:0.85em;
+  color:#ffd7d7;
+  background:rgba(207,37,43,0.25);
+  border:1px solid rgba(207,37,43,0.5);
+}
+/* Provenance, demoted from a full panel to a page footer: worth being able to check, not worth
+   the visual weight of a contact action. */
+.rep-provenance{
+  margin:0;
+  font-size:0.75em;
+  opacity:0.55;
+  text-align:center;
+}
+.rep-provenance a{
+  color:var(--white);
+  text-decoration:underline;
+}
+
+.rep-profile-about{
+  display:flex;
+  flex-direction:column;
+  gap:0.75em;
+}
+.rep-profile-about a{
+  color:var(--white);
+}
+/* The committee list caps its height and scrolls inside the compact results card, where it
+   would otherwise dominate a small tile. A page devoted to one person has the room, so the cap
+   only clips content mid-line for no reason. */
+.rep-profile-about .rep-committees ul{
+  max-height:none;
+  overflow-y:visible;
+}
+
 .rep-profile{
   display:flex;
   flex-direction:column;
@@ -694,37 +881,7 @@
   opacity:0.9;
 }
 
-.rep-profile-details{
-  display:flex;
-  flex-direction:column;
-  gap:0.6em;
-  list-style:none;
-  margin:0;
-  padding:24px;
-  border:3px solid rgb(5, 6, 45, 40%);
-  background:rgb(5, 6, 45, 30%);
-  backdrop-filter:blur(5px);
-  border-radius:1rem;
-}
-/* The committee list caps its height and scrolls inside the compact results card, where it
-   would otherwise dominate a small tile. The profile page is a whole page devoted to this
-   person, so the cap only clips content mid-line for no reason — let it run to its full
-   length here. */
-.rep-profile-details .rep-committees ul{
-  max-height:none;
-  overflow-y:visible;
-}
-.rep-profile-details a{
-  color:var(--white);
-}
 
-.rep-news, .rep-voting-record{
-  padding:24px;
-  border:3px solid rgb(5, 6, 45, 40%);
-  background:rgb(5, 6, 45, 30%);
-  backdrop-filter:blur(5px);
-  border-radius:1rem;
-}
 .rep-news h2, .rep-voting-record h2{
   margin:0 0 0.75em;
   font-size:1.1rem;
@@ -831,22 +988,64 @@
   .rep-profile-hero img{
     max-width:200px;
   }
-  /* Contact/committees/offices takes the wide half of the top row — for a member of Congress
-     this is the longest panel on the page (bio + every committee + every district office). */
-  .rep-profile-details{
-    grid-column:span 8;
-    /* Match the portrait's height rather than shrink-wrapping the contact lines: a local
-       official with only a phone, an email and an address left a stubby box floating beside a
-       tall portrait. Stretch, so whichever of the two is taller sets the row. */
-    align-self:stretch;
+  /* Contact is a stack of fixed-height buttons — a naturally narrow shape — so it takes the
+     middle column, while About (bio + every committee + every district office) gets the width
+     its long strings actually need.
+     align-self:start, NOT stretch: stretching matched the panel to the portrait's height, which
+     for an official with no contact details on file produced a ~700x200 empty box holding one
+     line of grey text. Row alignment is not worth that. */
+  .rep-profile-hero{
+    grid-column:span 3;
   }
-  /* Bottom row splits the other way, so the grid reads as a bento rather than two fixed columns. */
-  .rep-news{
+  .rep-profile-contact{
+    grid-column:span 4;
+    align-self:start;
+  }
+  .rep-social-panel-wrap{
     grid-column:span 5;
+    align-self:start;
   }
-  /* The wide half of the bottom row: bill titles are the longest single strings on the page
-     ("Expressing support for the designation of ..."), and this list runs to ten of them. */
+  /* Socials are absent on most local officials (9 of 160 in Texas have any). Rather than leave
+     a 5-column hole beside the portrait, Contact takes that width instead — so the top row
+     always totals 12 whether or not there is anything to put in it. */
+  .rep-profile--nosocial .rep-profile-contact{
+    grid-column:span 9;
+  }
+  /* Full width on its own row: committee names ("House Committee on Appropriations — Military
+     Construction, Veterans Affairs, and Related Agencies") and office addresses are the longest
+     wrapping text on the page, and squeezing them into 5 columns wrapped every one of them. */
+  .rep-profile-about{
+    grid-column:1 / -1;
+    align-self:start;
+  }
+  .rep-confidence-banner,
+  .rep-provenance{
+    grid-column:1 / -1;
+  }
+  .rep-news,
   .rep-voting-record{
-    grid-column:span 7;
+    grid-column:span 6;
+  }
+}
+
+@media screen and (max-width:400px){
+  .rep-profile{
+    padding:0 1em;
+  }
+  /* "Lloyd Doggett" wrapped onto two lines beside a 160px photo at this width. */
+  .rep-profile-hero img{
+    max-width:120px;
+  }
+  .rep-profile-hero h1{
+    font-size:1.4rem;
+  }
+  /* A long email has no spaces to break at, so at this width it wraps mid-word no matter what.
+     Smaller type keeps that to one awkward break instead of two, and the phone stays the
+     visibly dominant action. */
+  .rep-action-value{
+    font-size:1rem;
+  }
+  .rep-action--primary .rep-action-value{
+    font-size:1.25rem;
   }
 }
