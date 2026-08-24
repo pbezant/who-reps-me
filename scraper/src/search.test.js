@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { resolveSearchConfig, parseBraveResults, parseGoogleResults } from "./search.js";
+import { resolveSearchConfig, parseBraveResults, parseGoogleResults, parseTavilyResults } from "./search.js";
 
 // Snapshot/restore the handful of env vars resolveSearchConfig() reads, so a test that sets one
 // can't leak into the next test in this file (node:test runs a file's tests in one process).
@@ -38,6 +38,14 @@ test("resolveSearchConfig() reads SEARCH_PRESET/SEARCH_API_KEY/SEARCH_CX", () =>
   });
 });
 
+test("resolveSearchConfig() accepts the tavily preset", () => {
+  withEnv({ SEARCH_PRESET: "tavily", SEARCH_API_KEY: "tvly-test" }, () => {
+    const cfg = resolveSearchConfig();
+    assert.equal(cfg.presetName, "tavily");
+    assert.equal(cfg.apiKey, "tvly-test");
+  });
+});
+
 test("resolveSearchConfig() throws a clear error on an unknown preset", () => {
   withEnv({ SEARCH_PRESET: "yahoo" }, () => {
     assert.throws(() => resolveSearchConfig(), /Unknown SEARCH_PRESET "yahoo"/);
@@ -72,4 +80,17 @@ test("parseGoogleResults() drops a result with no link and tolerates a missing i
   assert.deepEqual(parseGoogleResults({ items: [{ title: "no link" }] }), []);
   assert.deepEqual(parseGoogleResults({}), []);
   assert.deepEqual(parseGoogleResults(null), []);
+});
+
+test("parseTavilyResults() maps the API shape to {title, url, snippet}, using `content` as the snippet", () => {
+  const data = { results: [{ title: "City of Example", url: "https://cityofexample.gov", content: "Official site" }] };
+  assert.deepEqual(parseTavilyResults(data), [
+    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site" },
+  ]);
+});
+
+test("parseTavilyResults() drops a result with no url and tolerates a missing results list", () => {
+  assert.deepEqual(parseTavilyResults({ results: [{ title: "no url" }] }), []);
+  assert.deepEqual(parseTavilyResults({}), []);
+  assert.deepEqual(parseTavilyResults(null), []);
 });

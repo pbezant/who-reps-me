@@ -4,6 +4,16 @@
   status = 200
   force = true
 
+# SPA fallback for client-side routing (src/RepProfile.js's /rep/:id route). Deliberately NOT
+# force=true: Netlify Functions already declare their own `config.path` (see netlify/functions/
+# *.mjs) and take precedence over a non-forced redirect, and a forced catch-all would also shadow
+# real static files (e.g. /officials/TX.json, /federal-social.json). Without this rule, refreshing
+# on /rep/:id — or opening a shared link cold — 404s at Netlify's edge before React ever loads.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
