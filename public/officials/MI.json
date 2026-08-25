@@ -1,7 +1,7 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 111,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 125,
   "cities": [
     "Ann Arbor",
     "Berrien County",
@@ -11,10 +11,12 @@
     "Ingham County",
     "Kalamazoo County",
     "Kent County",
+    "Livonia",
     "Macomb County",
     "Marquette",
     "Monroe County",
-    "St. Clair County"
+    "St. Clair County",
+    "Troy"
   ],
   "officials": [
     {
@@ -2408,6 +2410,223 @@
       "confidence": 0.8
     },
     {
+      "id": "mi:livonia:council-member:brandon-mccullough",
+      "name": "Brandon McCullough",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2252",
+      "email": "bmccullough@livonia.gov",
+      "url": "https://www.livonia.gov/1797/Brandon-McCullough",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10899",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Brandon McCullough grew up in Livonia, attending Cleveland, Emerson, and Franklin schools. He holds a degree in Construction Engineering from Lawrence Technological University and has a professional background in facilities management and construction, including work with Habitat for Humanity. He is married to Kacie, a teacher at Franklin High School, and they have a daughter, Harper.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-member:carrie-budzinski",
+      "name": "Carrie Budzinski",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2255",
+      "email": "cbudzinski@livonia.gov",
+      "url": "https://www.livonia.gov/1660/Carrie-Budzinski",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10909",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Carrie Budzinski, a lifelong Livonia resident, was elected City Councilmember in 2024. She has a background in marketing and public service, having worked for the U.S. Senate and various non-profits. Passionate about her community, she has served on the Livonia Historical and Library Commissions and founded Vote. Run. Serve.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-member:eileen-mcdonnell",
+      "name": "Eileen McDonnell",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2253",
+      "email": "emcdonnell@livonia.gov",
+      "url": "https://www.livonia.gov/1802/Eileen-McDonnell",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10905",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Eileen McDonnell has been a Livonia resident for 30 years, with children attending Livonia Public Schools and two grandchildren who enjoy the city's parks. She brings five years of experience as a Livonia Public Schools Trustee, where she applied her contract management expertise to a $195 million school improvement bond initiative. She looks forward to working with citizens, council, and administration to enhance Livonia's close-knit, small-town atmosphere.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-member:martha-ptashnik",
+      "name": "Martha Ptashnik",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2258",
+      "email": "mptashnik@livonia.gov",
+      "url": "https://www.livonia.gov/1657/Martha-Ptashnik",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10952",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Martha grew up in Livonia and, with her husband Brian, chose to raise their two children there. She is a teacher for Livonia Public Schools, currently serving as mathematics department chairman at Livonia Churchill High School. Her background includes experience as a retail buyer, giving her a unique perspective on the city's challenges.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-member:robin-persiconi",
+      "name": "Robin Persiconi",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2257",
+      "email": "rpersiconi@livonia.gov",
+      "url": "https://www.livonia.gov/1810/Robin-Persiconi",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10903",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "The daughter of immigrant parents, Robin Persiconi learned early the values of hard work, integrity, and giving back to the community, starting work at her father's small business at 15. After law school, she founded The Law Office of Robin Persiconi, building a respected legal practice over 23 years. She continues her law practice while raising two daughters with her husband and is active in her Rotary Club and other service organizations.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-president:kayleigh-reid",
+      "name": "Kayleigh Reid",
+      "office": "Council President",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2256",
+      "email": "kreid@livonia.gov",
+      "url": "https://www.livonia.gov/2001/Kayleigh-Reid",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10897",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Kayleigh Reid grew up in Livonia and is married with three boys. She is the Executive Director of the Livonia Spree and previously worked at Lawrence Tech University for ten years in the President and Provost's office.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:livonia:council-vice-president:patrick-brockway",
+      "name": "Patrick Brockway",
+      "office": "Council Vice President",
+      "level": "local",
+      "body": "Livonia City Council",
+      "district": null,
+      "phone": "734-466-2254",
+      "email": "pbrockway@livonia.gov",
+      "url": "https://www.livonia.gov/1785/Patrick-Brockway",
+      "photo_url": "https://www.livonia.gov/ImageRepository/Document?documentID=10898",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33000 Civic Center Drive Livonia, MI 48154",
+      "offices": [],
+      "hours": null,
+      "bio": "Patrick brings extensive experience in public service as a management analyst with the U.S. Department of Veterans Affairs, applying data-driven analysis and strategic problem-solving. He previously served in various roles with the Department of Homeland Security-Transportation Security Administration as an officer, supervisor, and training instructor.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Livonia",
+        "state": "MI"
+      },
+      "source_url": "https://www.livonia.gov/1653/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "mi:macomb-county:clerk/register-of-deeds:anthony-g.-forlini",
       "name": "Anthony G. Forlini",
       "office": "Clerk/Register of Deeds",
@@ -3335,6 +3554,223 @@
       },
       "source_url": "https://www.stclaircounty.org/SubHome/Index/620",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:council-member:annalisa-bluhm",
+      "name": "Annalisa Bluhm",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:council-member:david-hamilton",
+      "name": "David Hamilton",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:council-member:mark-gunn",
+      "name": "Mark Gunn",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:council-member:rebecca-chamberlain",
+      "name": "Rebecca Chamberlain",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:council-member:theresa-brooks",
+      "name": "Theresa Brooks",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:mayor-pro-tem:hirak-chanda",
+      "name": "Hirak Chanda",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:troy:mayor:ethan-baker",
+      "name": "Ethan Baker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "500 W. Big Beaver Rd Troy, Michigan 48084",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "MI"
+      },
+      "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

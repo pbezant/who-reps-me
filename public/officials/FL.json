@@ -1,20 +1,27 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 179,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 214,
   "cities": [
     "Alachua County",
     "Bay County",
+    "Boca Raton",
     "Coral Springs",
     "Davie",
+    "Daytona Beach",
+    "Deerfield Beach",
+    "Deltona",
     "Flagler County",
     "Fort Lauderdale",
+    "Fort Myers",
     "Hialeah",
     "Highlands County",
     "Hollywood",
+    "Homestead",
     "Lakeland",
     "Lee County",
     "Leon County",
+    "Melbourne",
     "Miami",
     "Miramar",
     "Nassau County",
@@ -343,6 +350,161 @@
       "confidence": 1
     },
     {
+      "id": "fl:boca-raton:council-member:andy-thomson",
+      "name": "Andy Thomson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boca Raton City Council",
+      "district": null,
+      "phone": "561-393-7708",
+      "email": "athomson@myboca.us",
+      "url": "https://www.myboca.us/1604/Andy-Thomson",
+      "photo_url": "https://www.myboca.us/ImageRepository/Document?documentID=42515",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 West Palmetto Park Road Boca Raton, Florida 33432",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor and CRA Chair, Andy Thomson was first elected to the Boca Raton City Council during a special election in August 2018 and secured re-election unopposed in March 2020. He was elected again in March 2024. He was elected as Mayor in March 2026. He is a product of Boca Raton – his parents met at Florida Atlantic University in 1967.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "source_url": "https://www.myboca.us/769/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:boca-raton:council-member:jon-pearlman",
+      "name": "Jon Pearlman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boca Raton City Council",
+      "district": null,
+      "phone": "561-393-7708",
+      "email": null,
+      "url": "https://www.myboca.us/2929/Jon-Pearlman",
+      "photo_url": "https://www.myboca.us/ImageRepository/Document?documentID=42514",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 West Palmetto Park Road Boca Raton, Florida 33432",
+      "offices": [],
+      "hours": null,
+      "bio": "Jon Pearlman was elected to the City Council in 2026. Jon is a dedicated husband and father. He is a community advocate and his mission on the City Council is to put the residents first.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "source_url": "https://www.myboca.us/769/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:boca-raton:council-member:michelle-grau",
+      "name": "Michelle Grau",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boca Raton City Council",
+      "district": null,
+      "phone": "561-393-7708",
+      "email": null,
+      "url": "https://www.myboca.us/2927/Michelle-Grau",
+      "photo_url": "https://www.myboca.us/ImageRepository/Document?documentID=42513",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 West Palmetto Park Road Boca Raton, Florida 33432",
+      "offices": [],
+      "hours": null,
+      "bio": "A longtime Boca Raton resident, Michelle Grau has called the city home for more than 40 years. Driven by a commitment to represent the voice of the residents, she entered public office in March 2026 with a mission to safeguard the city's finances and promote transparency, accountability and responsible governance.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "source_url": "https://www.myboca.us/769/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:boca-raton:council-member:stacy-sipple",
+      "name": "Stacy Sipple",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boca Raton City Council",
+      "district": null,
+      "phone": "561-393-7708",
+      "email": null,
+      "url": "https://www.myboca.us/2928/Stacy-Sipple",
+      "photo_url": "https://www.myboca.us/ImageRepository/Document?documentID=42512",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 West Palmetto Park Road Boca Raton, Florida 33432",
+      "offices": [],
+      "hours": null,
+      "bio": "Stacy Sipple was elected to the Boca Raton City Council in March 2026. A fourth generation Boca Ratonian, she has deep roots in the community and a lifelong commitment to the city she proudly calls home. She is committed to protecting the city’s historical architecture, ensuring that the fate of public land is decided by public vote and attracting businesses that strengthen the community while supporting sensible, sustainable growth that respects Boca Raton’s history, residents, and quality of life.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "source_url": "https://www.myboca.us/769/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:boca-raton:council-member:yvette-drucker",
+      "name": "Yvette Drucker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Boca Raton City Council",
+      "district": null,
+      "phone": "561-393-7708",
+      "email": "ydrucker@myboca.us",
+      "url": "https://www.myboca.us/1948/Yvette-Drucker",
+      "photo_url": "https://www.myboca.us/ImageRepository/Document?documentID=42511",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 West Palmetto Park Road Boca Raton, Florida 33432",
+      "offices": [],
+      "hours": null,
+      "bio": "A first-generation Cuban American, Council Member Drucker grew up in Miami and moved to Boca Raton in 2004. Council Member Drucker graduated from Florida International University with a degree in International Relations. As a corporate professional, she worked at ADP TotalSource for 13 years in Human Resources Management and Strategic Client Implementation.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Boca Raton",
+        "state": "FL"
+      },
+      "source_url": "https://www.myboca.us/769/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:coral-springs:assistant-city-attorney:vanessa-dragutinovic",
       "name": "Vanessa Dragutinovic",
       "office": "Assistant City Attorney",
@@ -495,6 +657,285 @@
       },
       "source_url": "https://www.davie-fl.gov/1882/17249/Daniel-J-Alfonso?activeLiveTab=widgets",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:daytona-beach:mayor:derrick-l.-henry",
+      "name": "Derrick L. Henry",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Daytona Beach City Council",
+      "district": null,
+      "phone": "386-671-8400",
+      "email": null,
+      "url": "https://www.daytonabeach.gov/689/Mayor-Derrick-Henrys-bio",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 S. Ridgewood Avenue Daytona Beach, FL 32114",
+      "offices": [],
+      "hours": "Monday through Friday 8 AM to 5 PM",
+      "bio": "Derrick L. Henry, a Daytona Beach native, is serving his fourth term as mayor of the City of Daytona Beach, after running unopposed in 2024. He is the city's 21st mayor since 1926, when the towns of Seabreeze, Daytona and Daytona Beach merged into one city. Mayor Henry is our community's second African American mayor.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Daytona Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.daytonabeach.gov/689/Mayor-Derrick-Henrys-bio",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deerfield-beach:commissioner:ben-preston",
+      "name": "Ben Preston",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deerfield Beach City Council",
+      "district": "District 2",
+      "phone": "954-250-4082 954-728-5886",
+      "email": "bpreston@deerfieldbeachfl.gov",
+      "url": "https://www.deerfield-beach.com/333/District-2-Commissioner",
+      "photo_url": "https://www.deerfield-beach.com/ImageRepository/Document?documentId=19978",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 N.E. 2nd Ave. Deerfield Beach, FL 33441",
+      "offices": [],
+      "hours": null,
+      "bio": "The Honorable Ben Preston is serving once again as Commissioner for District Two. He was first elected in July 2011, then again in March 2019. He is a 30-plus year resident of Deerfield Beach.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deerfield Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.deerfield-beach.com/333/District-2-Commissioner",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:commissioner:chris-nabicht",
+      "name": "Chris Nabicht",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 6",
+      "phone": "386-804-5191",
+      "email": "cnabicht@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=93",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentId=2117",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Nabicht moved to Deltona in 1977 and served 31 years with the Deltona Fire District, retiring as Deputy Chief and Fire Marshal. He previously served eight years as District 6 City Commissioner and Vice Mayor. He holds an AS degree from Daytona State College and has been married for 40 years.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:commissioner:davison-heriot",
+      "name": "Davison Heriot",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 1",
+      "phone": "407-271-0458",
+      "email": "dheriot@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=88",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=1040",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:commissioner:dori-howington",
+      "name": "Dori Howington",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 4",
+      "phone": "386-507-3102",
+      "email": "dhowington@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=91",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=1335",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Dori Howington is the Commissioner for District 4, elected on November 11, 2024, with her term expiring in November 2028.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:commissioner:emma-santiago",
+      "name": "Emma Santiago",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 2",
+      "phone": "386-878-8860",
+      "email": "emma.santiago@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=89",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=1423",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:commissioner:stephen-colwell",
+      "name": "Stephen Colwell",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 5",
+      "phone": "386-624-1238",
+      "email": "scolwell@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=92",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=554",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:mayor:santiago-avila,-jr.",
+      "name": "Santiago Avila, Jr.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "At Large",
+      "phone": "386-624-1262",
+      "email": "SAvila@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=87",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=1988",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Santiago Avila, Jr. is the first Hispanic mayor elected in Deltona, FL, bringing Cuban and Mexican roots to his leadership. Since 2009, he has dedicated himself to building a stronger community through civic engagement and charitable work. Known as \"The Constitutional Conservative,\" he advocates for constitutional awareness and inspires youth to pursue their dreams.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:deltona:vice-mayor/commissioner:maritza-avila-vazquez",
+      "name": "Maritza Avila-Vazquez",
+      "office": "Vice Mayor / Commissioner",
+      "level": "local",
+      "body": "Deltona City Council",
+      "district": "District 3",
+      "phone": "386-507-5812",
+      "email": "mavilavazquez@deltonafl.gov",
+      "url": "https://www.deltonafl.gov/directory.aspx?eid=90",
+      "photo_url": "https://www.deltonafl.gov/ImageRepository/Document?documentID=549",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Maritza Avila-Vazquez was elected Commissioner of District 3 in 2018 and chosen Vice Mayor in December 2021. She is a retired Executive Director and Vice-President from Republic National Bank of New York, where she managed their Technical Call Center. Since relocating to Deltona in 2000, she has been actively serving her community as a volunteer and leader.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Deltona",
+        "state": "FL"
+      },
+      "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -805,6 +1246,233 @@
       },
       "source_url": "https://www.fortlauderdale.gov/Government/Departments/Strategic-Communications/Alert-FTL?lang_update=639228724168669365",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:darla-bonk",
+      "name": "Darla Bonk",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 6",
+      "phone": "239-321-7000",
+      "email": "dbonk@fortmyers.gov",
+      "url": "https://fortmyers.gov/1310",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentID=16892",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": "Darla Bonk grew up in Fort Myers, Florida and attended college in Tennessee, earning a degree in Communication and minoring in History and Bible. With more than 20 years of executive experience in corporate sales, operations, process implementation, planning, budgeting, and leadership development, Darla has worked with small business owners to CEOs, Founders, and Boards of major corporations. She was elected in November 2020 to serve as the Ward 6 councilperson and was re-elected in November 2024 for another 4-year term.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:diana-giraldo",
+      "name": "Diana Giraldo",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 2",
+      "phone": "239-321-7000",
+      "email": "dgiraldo@fortmyers.gov",
+      "url": "https://fortmyers.gov/1306",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://youtu.be/R1Ep7cogYY0"
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Diana Giraldo took her oath of office for her four-year term after winning the Ward 2 general election. An architect, she is the founder and chief creative officer of a consulting firm dedicated to sustainable development solutions, green building certifications, and resiliency planning. She is also a tenured bicycle and pedestrian safety advocate and the first Latina ever elected to serve on the Fort Myers City Council.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:fred-burson",
+      "name": "Fred Burson",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 5",
+      "phone": "239-321-7000",
+      "email": "fburson@fortmyers.gov",
+      "url": "https://fortmyers.gov/1309",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentID=16891",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": "Fred Burson is a native of Fort Myers, a licensed Real Estate Instructor, and Broker for Woodyard & Associates. He previously administered the City of Fort Myers STARS program and served as a youth baseball coach and Little League District Administrator. Currently, he is a Commissioner for the Community Redevelopment Agency and serves on several regional boards.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:liston-bochette-iii",
+      "name": "Liston Bochette III",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 4",
+      "phone": "239-321-7000",
+      "email": "lbochette@fortmyers.gov",
+      "url": "https://fortmyers.gov/1308",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentID=16728",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City Hall",
+          "city": "Fort Myers",
+          "address": "2200 Second Street Fort Myers, FL 33901",
+          "phone": "239-321-7000",
+          "fax": null,
+          "hours": "Mon–Fri, 8:00 a.m.–5:00 p.m."
+        }
+      ],
+      "hours": null,
+      "bio": "Liston “Lin” Bochette is a five-time Olympic Athlete, internationally recognized artist and civic leader. Councilman Bochette served on the Community Redevelopment Agency Board and, in 2018, was appointed to the Fort Myers City Council by Mayor Randall P. Henderson to complete the term of a retiring councilperson. He was elected to represent Ward 4 in November 2020 and re-elected in November 2024 for another 4-year term.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:teresa-watkins-brown",
+      "name": "Teresa Watkins Brown",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 1",
+      "phone": "239-321-7000",
+      "email": "twatkinsbrown@fortmyers.gov",
+      "url": "https://fortmyers.gov/1305",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentID=16890",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilperson Teresa Watkins Brown began her career in telecommunications in 1975, retiring after 35 years of dedicated service in 2010. With 16 years of experience in local government, she was first elected to the City Council in 2009 and currently serves as Mayor Pro-Tem. She is deeply dedicated to working with people and serving the citizens of Fort Myers and the Ward 1 community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:councilperson:terolyn-watson",
+      "name": "Terolyn Watson",
+      "office": "Councilperson",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": "Ward 3",
+      "phone": "239-321-7000",
+      "email": "twatson@fortmyers.gov",
+      "url": "https://fortmyers.gov/1307",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentID=16889",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": null,
+      "bio": "Ward 3 Councilperson Terolyn Watson is a Fort Myers native and graduated from Fort Myers High School. Terolyn has worked for the Lee County School District for 26 years. She was elected as a member of city council in 2015. Currently, she is the assistant secretary of the National Black Caucus of Elected Officials. Watson loves to serve her community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-myers:mayor:kevin-anderson",
+      "name": "Kevin Anderson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fort Myers City Council",
+      "district": null,
+      "phone": "239-321-7000",
+      "email": "mayoranderson@fortmyers.gov",
+      "url": "https://fortmyers.gov/1304",
+      "photo_url": "https://fortmyers.gov/ImageRepository/Document?documentId=21047",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2200 Second Street Fort Myers, FL 33901",
+      "offices": [],
+      "hours": "Mon–Fri, 8:00 a.m.–5:00 p.m.",
+      "bio": "Kevin B. Anderson was sworn in as the 62nd Mayor of Fort Myers on November 16, 2020, after serving as Ward 4 councilperson for the previous two years. Mayor Anderson retired from Chico’s FAS, Inc. in June 2019 after 15 years. Prior to joining Chico’s, Anderson had a more than 24-year career with the Fort Myers Police Department, holding the rank of Major at retirement.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fort Myers",
+        "state": "FL"
+      },
+      "source_url": "https://fortmyers.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -1435,6 +2103,223 @@
       },
       "source_url": "https://www.hollywoodfl.org/27/Government",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:councilman:clemente-canabal",
+      "name": "Clemente Canabal",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4433",
+      "email": "ccanabal@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/114/Councilman-Clemente-Canabal",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentId=4679",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Canabal immigrated to the United States in 1994 with his family. He is a retired physician and entrepreneur who managed home healthcare agencies. He volunteers at several organizations in the Homestead community and resides in Capri, Isles At Oasis, with his wife, State Senator Ana Maria Rodriguez, and his children, JC, Nina, Hermes, and Eros.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:councilman:larry-roth",
+      "name": "Larry Roth",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4454",
+      "email": "lroth@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/117/Councilman-Larry-Roth",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentID=1431",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Homestead City Hall 100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Larry Roth was first elected to the City Council in November 2015. He grew up in Perrine/Palmetto Bay and moved to Homestead in 1990, falling in love with the community spirit after Hurricane Andrew. He has since served residents as a private citizen and Councilman, also co-founding the charity 'This Is For The Kids, Inc.'",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:councilman:sean-l.-fletcher",
+      "name": "Sean L. Fletcher",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4433",
+      "email": "sfletcher@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/113/Councilman-Sean-L-Fletcher",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentId=4681",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Homestead City Hall 100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Sean L. Fletcher was elected to Council Seat #2 in November 2019 and reelected in November 2023, having previously served 1999-2001. He is a former reserve police sergeant and trustee of the Police Officer Pension Board, and retired from Florida Power & Light after 30 years of service.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:councilwoman:erica-g.-ávila",
+      "name": "Erica G. Ávila",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4454",
+      "email": "eavila@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/115/Councilwoman-Erica-G-vila",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentID=3405",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Homestead City Hall 100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Erica G. Ávila is a proud mother of three, military wife, business owner, and devoted resident of Homestead since 2009. For over 15 years, she has actively served the community through leadership in local associations, service organizations, and advocacy groups.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:councilwoman:kimberly-konsky",
+      "name": "Kimberly Konsky",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4454",
+      "email": "kkonsky@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/116/Councilwoman-Kimberly-Konsky",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentId=5904",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Homestead City Hall 100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong Homestead resident, farmer’s daughter, and Hurricane Andrew survivor, Councilwoman Konsky has dedicated more than 30 years to serving the community. She has volunteered thousands of hours with local nonprofits, civic groups, and schools, and has been actively involved in organizations such as the Homestead Woman’s Club, as well as community events including the Homestead Rodeo, Rotary Seafood Festival, and Kiwanis Prayer Breakfast.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:mayor:steven-d.-losner",
+      "name": "Steven D. Losner",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4433",
+      "email": "slosner@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/522/Mayor-Steven-D-Losner",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentId=4680",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Steven D. Losner was re-elected to a four-year term in November 2019 and 2021, having previously served on the Homestead City Council from 2001-2007. He has maintained a law practice in Homestead since 1992, focusing on estate planning, probate, corporate, and transactional representation. Losner is an active member of the Rotary Club of Homestead and has served on numerous community boards.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:homestead:vice-mayor:jenifer-n.-bailey",
+      "name": "Jenifer N. Bailey",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Homestead City Council",
+      "district": null,
+      "phone": "305-224-4454",
+      "email": "jbailey@homesteadfl.gov",
+      "url": "https://www.homesteadfl.gov/118/Vice-Mayor-Jenifer-N-Bailey",
+      "photo_url": "https://www.homesteadfl.gov/ImageRepository/Document?documentID=2063",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Civic Court Homestead, FL 33030",
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Jenifer N. Bailey was elected to a four-year term, unopposed, and also secured a two-year appointment as Vice Mayor in November 2025. She previously won re-election in November 2021 to a four-year term representing Council Seat #4. Vice Mayor Bailey is a dedicated advocate for youth development and the arts, serving on the Board of Together for the Children and actively supporting cultural enrichment.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Homestead",
+        "state": "FL"
+      },
+      "source_url": "https://www.homesteadfl.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -2148,6 +3033,223 @@
       },
       "source_url": "https://cms.leoncountyfl.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:david-neuman",
+      "name": "David Neuman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 3",
+      "phone": "321-468-2076",
+      "email": "david.neuman@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-3-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/5/city-council/david-neuman.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "David Neuman represents Melbourne’s District 3. He was elected to the Melbourne City Council in November 2024. He also serves on the Airport Authority Board and is an alternate member of the Space Coast Transportation Planning Organization. His current term extends to November 2028.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:julie-kennedy",
+      "name": "Julie Kennedy",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 6",
+      "phone": "321-290-6110",
+      "email": "julie.kennedy@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-6-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/2/city-council/julie-kennedy.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Julie Kennedy was first elected to the Melbourne City Council in 2018 and re-elected in 2022 to represent District 6. She holds a bachelor's degree in psychology and elementary education and a master's in educational leadership, having worked for Brevard Public Schools since 1996. Currently a building administrator at Brevard Adult and Community Education, she also serves as president of the Space Coast League of Cities.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:marcus-smith",
+      "name": "Marcus Smith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 1",
+      "phone": "321-468-8399",
+      "email": "marcus.smith@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-1-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/2/city-council/marcus-smith.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Marcus Smith represents Melbourne's District 1 and was elected in November 2024, bringing over 30 years of leadership experience as a retired U.S. Air Force Lieutenant Colonel. He previously served on the Melbourne Planning and Zoning Board and holds an MBA and a Bachelor's in Electrical Engineering. Committed to workforce development, infrastructure improvement, and civic engagement, he advocates for smart, sustainable growth for Melbourne.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:mark-larusso",
+      "name": "Mark LaRusso",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 2",
+      "phone": "321-515-3543",
+      "email": "mark.larusso@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-2-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/2/city-council/mark-larusso.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Mark LaRusso was first elected to office on November 6, 2018, and was re-elected on November 8, 2022, by the city at large to serve on the Melbourne City Council as the representative of District 2. His current term extends to November 2026. He served as Vice Mayor from November 2022 until November 2023.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:mimi-hanley",
+      "name": "Mimi Hanley",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 5",
+      "phone": "321-290-2712",
+      "email": "mimi.hanley@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-5-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/3/city-council/mimi-hanley.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mimi Hanley was elected to office on November 3, 2020, and was re-elected on November 5, 2024, by the city at large to serve on the Melbourne City Council as the representative of District 5. Her current City Council term will continue until November 2028. She is a member of the Space Coast Transportation Planning Organization.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:council-member:rachael-bassett",
+      "name": "Rachael Bassett",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": "District 4",
+      "phone": "321-451-1450",
+      "email": "rachael.bassett@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/District-4-Council-Member",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/6/city-council/rachael-bassett.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rachael Bassett was elected to the Melbourne City Council as the representative of District 4 in November 2022, serving a four-year term. She holds certifications as a Florida Realtor, Private Investigator, and Security, and is a member of the Florida Association for Private Investigators and a lifetime member of the NRA. Bassett actively volunteers in the community, focusing on lagoon and neighborhood improvements, and is a voting delegate for the Space Coast League of Cities.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:melbourne:mayor:paul-alfrey",
+      "name": "Paul Alfrey",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Melbourne City Council",
+      "district": null,
+      "phone": "321-508-4339",
+      "email": "paul.alfrey@mlbfl.org",
+      "url": "https://www.melbourneflorida.org/Government/City-Council/Mayor",
+      "photo_url": "https://www.melbourneflorida.org/files/assets/public/v/2/city-council/melbourne-mayor-paul-alfrey.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Alfrey is the Mayor of the City of Melbourne, elected in 2020 and re-elected in 2024, after previously serving as Vice Mayor and Council Member for District 5. He is also an entrepreneur and multiple small business owner, as well as a member of the Melbourne Orlando International Airport Authority Board and the Melbourne Affordable Housing Board.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Melbourne",
+        "state": "FL"
+      },
+      "source_url": "https://www.melbourneflorida.org/Home",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

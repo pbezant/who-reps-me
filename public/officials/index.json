@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T05:03:33.382Z",
+  "generated_at": "2026-08-25T05:07:25.719Z",
   "states": {
     "TX": {
-      "count": 286,
+      "count": 321,
       "cities": [
         "Abilene",
         "Allen",
@@ -14,18 +14,21 @@
         "Bee Cave",
         "Bexar County",
         "Brownsville",
+        "Bryan",
         "Caldwell County",
         "Cameron County",
         "Collin County",
         "Comal County",
         "Conroe",
         "Corpus Christi",
+        "Coryell County",
         "Dallas County",
         "Denton County",
         "El Paso",
         "El Paso County",
         "Elgin",
         "Fort Bend County",
+        "Frisco",
         "Garland",
         "Granbury",
         "Grayson County",
@@ -44,6 +47,7 @@
         "McAllen",
         "McKinney",
         "McLennan County",
+        "Mission",
         "Montgomery County",
         "New Braunfels",
         "Parker County",
@@ -55,21 +59,25 @@
         "Smithville",
         "Sugar Land",
         "Tarrant County",
+        "Temple",
         "Travis County",
         "Waco",
+        "Wichita Falls",
         "Williamson County"
       ],
-      "updated": "2026-08-24T05:03:33.382Z"
+      "updated": "2026-08-25T05:07:25.719Z"
     },
     "CA": {
-      "count": 60,
+      "count": 62,
       "cities": [
         "Alameda County",
         "Contra Costa County",
         "El Dorado County",
         "Fresno County",
+        "Humboldt County",
         "Los Angeles County",
         "Napa County",
+        "Nevada County",
         "Orange County",
         "Placer County",
         "Sacramento County",
@@ -78,7 +86,7 @@
         "Sonoma County",
         "Ventura County"
       ],
-      "updated": "2026-08-23T03:20:24.901Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "IL": {
       "count": 81,
@@ -114,14 +122,20 @@
       "updated": "2026-08-21T03:34:25.818Z"
     },
     "WA": {
-      "count": 92,
+      "count": 135,
       "cities": [
         "Bellevue",
+        "Bellingham",
         "Clark County",
         "Everett",
+        "Federal Way",
+        "Franklin County",
         "Grant County",
+        "Island County",
+        "Kennewick",
         "King County",
         "Kitsap County",
+        "Lewis County",
         "Pierce County",
         "Renton",
         "Seattle",
@@ -130,25 +144,33 @@
         "Spokane County",
         "Thurston County",
         "Whatcom County",
+        "Yakima",
         "Yakima County"
       ],
-      "updated": "2026-08-24T05:03:33.382Z"
+      "updated": "2026-08-25T05:07:25.719Z"
     },
     "FL": {
-      "count": 179,
+      "count": 214,
       "cities": [
         "Alachua County",
         "Bay County",
+        "Boca Raton",
         "Coral Springs",
         "Davie",
+        "Daytona Beach",
+        "Deerfield Beach",
+        "Deltona",
         "Flagler County",
         "Fort Lauderdale",
+        "Fort Myers",
         "Hialeah",
         "Highlands County",
         "Hollywood",
+        "Homestead",
         "Lakeland",
         "Lee County",
         "Leon County",
+        "Melbourne",
         "Miami",
         "Miramar",
         "Nassau County",
@@ -165,10 +187,10 @@
         "Tampa",
         "West Palm Beach"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "PA": {
-      "count": 63,
+      "count": 97,
       "cities": [
         "Beaver County",
         "Blair County",
@@ -182,23 +204,27 @@
         "Fayette County",
         "Lackawanna County",
         "Lancaster County",
+        "Lawrence County",
         "Mercer County",
         "Montgomery County",
+        "Northumberland County",
         "Philadelphia",
         "Philadelphia County",
         "Schuylkill County",
         "York County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "NY": {
-      "count": 67,
+      "count": 93,
       "cities": [
+        "Albany",
         "Buffalo",
         "Erie County",
         "Monroe County",
         "Nassau County",
         "Ontario County",
+        "Putnam County",
         "Rochester",
         "Saratoga County",
         "Suffolk County",
@@ -206,10 +232,10 @@
         "Westchester County",
         "Yonkers"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "OH": {
-      "count": 95,
+      "count": 96,
       "cities": [
         "Akron",
         "Cincinnati",
@@ -223,13 +249,14 @@
         "Richland County",
         "Summit County",
         "Toledo",
+        "Tuscarawas County",
         "Warren County",
         "Wood County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "NC": {
-      "count": 152,
+      "count": 178,
       "cities": [
         "Alamance County",
         "Asheville",
@@ -244,33 +271,39 @@
         "Fayetteville",
         "Forsyth County",
         "Gaston County",
+        "Gastonia",
+        "Greenville",
         "Mecklenburg County",
         "Moore County",
+        "Nash County",
         "New Hanover County",
         "Onslow County",
         "Orange County",
         "Pitt County",
         "Raleigh",
         "Randolph County",
+        "Rockingham County",
         "Rowan County",
         "Wayne County",
         "Wilmington"
       ],
-      "updated": "2026-08-24T05:03:33.382Z"
+      "updated": "2026-08-25T05:07:25.719Z"
     },
     "UT": {
-      "count": 30,
+      "count": 43,
       "cities": [
         "Cache County",
+        "Orem",
         "Salt Lake County",
+        "South Jordan",
         "St. George",
         "Utah County",
         "West Valley City"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "VA": {
-      "count": 69,
+      "count": 76,
       "cities": [
         "Alexandria",
         "Arlington County",
@@ -284,13 +317,14 @@
         "Newport News",
         "Norfolk",
         "Prince William County",
+        "Roanoke",
         "Suffolk",
         "Suffolk city"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "GA": {
-      "count": 144,
+      "count": 162,
       "cities": [
         "Carroll County",
         "Chatham County",
@@ -299,27 +333,32 @@
         "Columbus",
         "DeKalb County",
         "Douglas County",
+        "Floyd County",
         "Fulton County",
         "Gwinnett County",
         "Hall County",
         "Houston County",
+        "Jackson County",
         "Lowndes County",
         "Macon-Bibb County",
         "Muscogee County",
         "Newton County",
         "Richmond County",
+        "Rockdale County",
         "Savannah",
         "South Fulton",
         "Walton County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "MD": {
-      "count": 69,
+      "count": 82,
       "cities": [
         "Anne Arundel County",
+        "Calvert County",
         "Carroll County",
         "Cecil County",
+        "Frederick",
         "Frederick County",
         "Harford County",
         "Howard County",
@@ -327,7 +366,7 @@
         "Washington County",
         "Wicomico County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "IN": {
       "count": 36,
@@ -364,8 +403,10 @@
       "updated": "2026-08-24T03:21:09.305Z"
     },
     "NJ": {
-      "count": 46,
+      "count": 55,
       "cities": [
+        "Cape May County",
+        "Clifton",
         "Essex County",
         "Gloucester County",
         "Hudson County",
@@ -374,10 +415,10 @@
         "Newark",
         "Paterson"
       ],
-      "updated": "2026-08-23T03:20:24.901Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "MI": {
-      "count": 111,
+      "count": 125,
       "cities": [
         "Ann Arbor",
         "Berrien County",
@@ -387,20 +428,25 @@
         "Ingham County",
         "Kalamazoo County",
         "Kent County",
+        "Livonia",
         "Macomb County",
         "Marquette",
         "Monroe County",
-        "St. Clair County"
+        "St. Clair County",
+        "Troy"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "OK": {
-      "count": 10,
+      "count": 30,
       "cities": [
         "Cleveland County",
-        "Oklahoma County"
+        "Edmond",
+        "Lawton",
+        "Oklahoma County",
+        "Rogers County"
       ],
-      "updated": "2026-08-21T03:34:25.818Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "OR": {
       "count": 52,
@@ -427,39 +473,44 @@
       "updated": "2026-08-23T03:20:24.901Z"
     },
     "MA": {
-      "count": 56,
+      "count": 77,
       "cities": [
         "Boston",
         "Cambridge",
         "Lowell",
         "Norfolk County",
+        "Quincy",
+        "Somerville",
         "Worcester"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "NM": {
-      "count": 44,
+      "count": 54,
       "cities": [
         "Albuquerque",
         "Bernalillo County",
         "Doña Ana County",
         "Rio Rancho",
         "Sandoval County",
+        "Santa Fe",
         "Santa Fe County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "WI": {
-      "count": 47,
+      "count": 58,
       "cities": [
         "Dane County",
         "Eau Claire County",
         "Green Bay",
         "Madison",
         "Outagamie County",
+        "Ozaukee County",
+        "St. Croix County",
         "Waukesha County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "DE": {
       "count": 14,
@@ -470,7 +521,7 @@
       "updated": "2026-08-21T03:34:25.818Z"
     },
     "SC": {
-      "count": 88,
+      "count": 97,
       "cities": [
         "Anderson County",
         "Beaufort County",
@@ -479,27 +530,31 @@
         "Greenville County",
         "Lancaster County",
         "Lexington County",
+        "Mount Pleasant",
         "Pickens County",
         "Spartanburg County",
         "Sumter County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "IA": {
-      "count": 45,
+      "count": 50,
       "cities": [
         "Black Hawk County",
         "Cedar Rapids",
         "Dallas County",
         "Linn County",
-        "Polk County"
+        "Polk County",
+        "Sioux City"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "MN": {
-      "count": 73,
+      "count": 89,
       "cities": [
         "Anoka County",
+        "Bloomington",
+        "Duluth",
         "Minneapolis",
         "Olmsted County",
         "Ramsey County",
@@ -509,10 +564,10 @@
         "Washington County",
         "Wright County"
       ],
-      "updated": "2026-08-23T03:20:24.901Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "MO": {
-      "count": 69,
+      "count": 70,
       "cities": [
         "Cass County",
         "Clay County",
@@ -520,35 +575,40 @@
         "Greene County",
         "Jefferson County",
         "Lee's Summit",
+        "O'Fallon",
         "Springfield",
         "St. Charles County",
         "St. Louis"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "AL": {
-      "count": 4,
+      "count": 16,
       "cities": [
+        "Elmore County",
         "Lee County",
-        "Mobile County"
+        "Mobile County",
+        "St. Clair County"
       ],
-      "updated": "2026-08-22T03:16:48.468Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "AR": {
-      "count": 6,
+      "count": 19,
       "cities": [
+        "Garland County",
         "Pulaski County"
       ],
-      "updated": "2026-08-21T03:34:25.818Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "KS": {
-      "count": 27,
+      "count": 37,
       "cities": [
         "Kansas City",
+        "Leavenworth County",
         "Wichita",
         "Wyandotte County"
       ],
-      "updated": "2026-08-23T03:20:24.901Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "LA": {
       "count": 36,
@@ -578,21 +638,23 @@
       "updated": "2026-08-22T03:16:48.468Z"
     },
     "AK": {
-      "count": 1,
+      "count": 2,
       "cities": [
-        "Anchorage Municipality"
+        "Anchorage Municipality",
+        "Fairbanks North Star Borough"
       ],
-      "updated": "2026-08-21T03:34:25.818Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "ID": {
-      "count": 28,
+      "count": 36,
       "cities": [
+        "Bannock County",
         "Boise City",
         "Bonneville County",
         "Canyon County",
         "Nampa"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "MS": {
       "count": 2,
@@ -625,12 +687,13 @@
       "updated": "2026-08-23T03:20:24.901Z"
     },
     "KY": {
-      "count": 21,
+      "count": 25,
       "cities": [
         "Boone County",
+        "Campbell County",
         "Hardin County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "ND": {
       "count": 3,
@@ -640,18 +703,20 @@
       "updated": "2026-08-23T03:20:24.901Z"
     },
     "MT": {
-      "count": 11,
+      "count": 22,
       "cities": [
-        "Billings"
+        "Billings",
+        "Cascade County"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     },
     "NH": {
-      "count": 2,
+      "count": 17,
       "cities": [
-        "Manchester"
+        "Manchester",
+        "Nashua"
       ],
-      "updated": "2026-08-24T03:21:09.305Z"
+      "updated": "2026-08-25T03:19:04.235Z"
     }
   }
 }

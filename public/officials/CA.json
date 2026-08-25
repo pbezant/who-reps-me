@@ -1,14 +1,16 @@
 {
   "state": "CA",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 60,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 62,
   "cities": [
     "Alameda County",
     "Contra Costa County",
     "El Dorado County",
     "Fresno County",
+    "Humboldt County",
     "Los Angeles County",
     "Napa County",
+    "Nevada County",
     "Orange County",
     "Placer County",
     "Sacramento County",
@@ -422,6 +424,37 @@
       "confidence": 1
     },
     {
+      "id": "ca:humboldt-county:contact,-humboldt-county-fire-safe-council:cybelle-immitt",
+      "name": "Cybelle Immitt",
+      "office": "Contact, Humboldt County Fire Safe Council",
+      "level": "county",
+      "body": "Humboldt County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "cimmitt@co.humboldt.ca.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1105 6th St. Eureka, CA 95501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Humboldt County",
+        "state": "CA"
+      },
+      "source_url": "https://humboldtgov.org/689/Fire-Safe-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
       "id": "ca:los-angeles-county:supervisor:hilda-l.-solis",
       "name": "Hilda L. Solis",
       "office": "Supervisor",
@@ -667,6 +700,37 @@
       },
       "source_url": "https://www.napacounty.gov/9/Government",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:nevada-county:agricultural-commissioner:chris-de-nijs",
+      "name": "Chris de Nijs",
+      "office": "Agricultural Commissioner",
+      "level": "county",
+      "body": "Nevada County Commissioners Court",
+      "district": null,
+      "phone": "530-470-2690",
+      "email": "agdept@nevadacountyca.gov",
+      "url": null,
+      "photo_url": "https://www.nevadacountyca.gov/ImageRepository/Document?documentID=14260",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "950 Maidu Avenue, Suite 170\nPO Box 599002\nNevada City, CA 95959-7902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nevada County",
+        "state": "CA"
+      },
+      "source_url": "https://www.nevadacountyca.gov/982/Agricultural-Commissioner",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

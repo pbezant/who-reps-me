@@ -1,7 +1,7 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 69,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 76,
   "cities": [
     "Alexandria",
     "Arlington County",
@@ -15,6 +15,7 @@
     "Newport News",
     "Norfolk",
     "Prince William County",
+    "Roanoke",
     "Suffolk",
     "Suffolk city"
   ],
@@ -1660,6 +1661,223 @@
       },
       "source_url": "https://www.pwcva.gov/department/311",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:evelyn-w.-powers",
+      "name": "Evelyn W. Powers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:joseph-l.-cobb",
+      "name": "Joseph L. Cobb",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": "540-853-2444",
+      "email": null,
+      "url": "https://www.roanokeva.gov/1007/Joseph-L-Cobb",
+      "photo_url": "https://www.roanokeva.gov/ImageRepository/Document?documentId=20755",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": "Joseph L. Cobb has served as Chaplain at Hermitage Roanoke and as Outreach Coordinator for Highland Park Elementary School. He previously pastored Metropolitan Community Church of the Blue Ridge and was Executive Director for Interfaith Hospitality Network. He holds an M.S. in Divinity from Perkins School of Theology and a B.S. in Philosophy from Southwestern College.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:nicolas-s.-hagen",
+      "name": "Nicolas S. Hagen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": "540-759-1806",
+      "email": null,
+      "url": "https://www.roanokeva.gov/1002/Nicolas-S-Hagen",
+      "photo_url": "https://www.roanokeva.gov/ImageRepository/Document?documentId=20749",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:peter-j.-volosin",
+      "name": "Peter J. Volosin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:phazhon-t.-nash",
+      "name": "Phazhon T. Nash",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": "540-589-8329",
+      "email": null,
+      "url": "https://www.roanokeva.gov/1051/Phazhon-T-Nash",
+      "photo_url": "https://www.roanokeva.gov/ImageRepository/Document?documentId=20753",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": "Operations Consultant, Carilion Clinic, Specializing in Operational Efficiency. Former Community Outreach Liaison for Delegate Sam Rasoul. He holds a Bachelor of Science in Community Health from George Mason University and is pursuing a Master of Science in Population Health Science from the University of Alabama.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:s.-terry-mcguire",
+      "name": "S. Terry McGuire",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": "540-759-0621",
+      "email": null,
+      "url": "https://www.roanokeva.gov/2778/S-Terry-McGuire",
+      "photo_url": "https://www.roanokeva.gov/ImageRepository/Document?documentId=20754",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": "S. Terry McGuire serves as an Instructional Assistant for Roanoke City Public Schools. Her professional background includes roles as a Senior Legislative Representative for Earthjustice, Washington Representative for the Sierra Club, and Field Organizer for various human rights and conservation organizations. She holds a B.S. in Environmental Policy & Planning from Virginia Tech.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:roanoke:council-member:vivian-sanchez-jones",
+      "name": "Vivian Sanchez-Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roanoke City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Noel C. Taylor Municipal Building 215 Church Avenue Roanoke, VA 24011",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roanoke",
+        "state": "VA"
+      },
+      "source_url": "https://www.roanokeva.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

@@ -1,11 +1,13 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 69,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 82,
   "cities": [
     "Anne Arundel County",
+    "Calvert County",
     "Carroll County",
     "Cecil County",
+    "Frederick",
     "Frederick County",
     "Harford County",
     "Howard County",
@@ -414,6 +416,161 @@
       },
       "source_url": "https://www.aacounty.org/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:calvert-county:county-commissioner:catherine-m.-grasso",
+      "name": "Catherine M. Grasso",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Calvert County Commissioners Court",
+      "district": "3rd District Representative",
+      "phone": "410-535-1600; 301-855-1243",
+      "email": "catherine.grasso@calvertcountymd.gov",
+      "url": "https://www.calvertcountymd.gov/3557/Grasso-Catherine",
+      "photo_url": "https://www.calvertcountymd.gov/ImageRepository/Document?documentID=41188",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 Main Street\nPrince Frederick, MD 20678",
+      "offices": [],
+      "hours": null,
+      "bio": "County Commissioner Catherine Grasso took office in December 2022, representing District 3 and working for all citizens of Calvert County on the Calvert County, Maryland, Board of County Commissioners. She is serving her first term. Before retiring from federal service, Grasso formulated and executed the budget for an agency of the U.S. Department of Agriculture.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Calvert County",
+        "state": "MD"
+      },
+      "source_url": "https://www.calvertcountymd.gov/140/Members",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:calvert-county:county-commissioner:earl-f.-buddy-hance",
+      "name": "Earl F. \"Buddy\" Hance",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Calvert County Commissioners Court",
+      "district": "At-Large Representative",
+      "phone": "410-535-1600",
+      "email": "Buddy.Hance@calvertcountymd.gov",
+      "url": "https://www.calvertcountymd.gov/1697/Hance-Earl-Buddy",
+      "photo_url": "https://www.calvertcountymd.gov/ImageRepository/Document?documentID=41193",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 Main Street\nPrince Frederick, MD 20678",
+      "offices": [],
+      "hours": null,
+      "bio": "County Commissioner Earl “Buddy” Hance took office in December 2018 as an at-large representative on the Calvert County, Maryland, Board of County Commissioners. He is serving his second term, which began in December 2022. Hance served as secretary of the Maryland Department of Agriculture in the cabinet of Gov. Martin O'Malley from May 2009 to January 2015, after serving as deputy secretary of the department since February 2007.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Calvert County",
+        "state": "MD"
+      },
+      "source_url": "https://www.calvertcountymd.gov/140/Members",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:calvert-county:county-commissioner:mark-c.-cox,-sr.",
+      "name": "Mark C. Cox, Sr.",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Calvert County Commissioners Court",
+      "district": "2nd District Representative",
+      "phone": "410-535-1600",
+      "email": "mark.cox@calvertcountymd.gov",
+      "url": "https://www.calvertcountymd.gov/3559/Cox-Mark",
+      "photo_url": "https://www.calvertcountymd.gov/ImageRepository/Document?documentID=41189",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 Main Street\nPrince Frederick, MD 20678",
+      "offices": [],
+      "hours": null,
+      "bio": "County Commissioner Mark C. Cox Sr. took office in December 2022 as the District 2 representative on the Calvert County, Maryland, Board of County Commissioners. He is serving his first term. Cox has been a Calvert County small business owner for over 40 years.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Calvert County",
+        "state": "MD"
+      },
+      "source_url": "https://www.calvertcountymd.gov/140/Members",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:calvert-county:county-commissioner:mike-hart",
+      "name": "Mike Hart",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Calvert County Commissioners Court",
+      "district": "1st District Representative",
+      "phone": "410-535-1600",
+      "email": "Mike.Hart@calvertcountymd.gov",
+      "url": "https://www.calvertcountymd.gov/142/Hart-Mike",
+      "photo_url": "https://www.calvertcountymd.gov/ImageRepository/Document?documentID=41192",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 Main Street Prince Frederick, MD 20678",
+      "offices": [],
+      "hours": null,
+      "bio": "County Commissioner Mike Hart took office in December 2014, representing District 1 on the Calvert County, Maryland, Board of County Commissioners, and is currently serving his third term. A businessman with over 30 years of experience, he owns and operates Patuxent Wine & Spirits and Barrel 9 in Lusby. Hart is an active supporter of many charitable and educational organizations in Calvert County.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Calvert County",
+        "state": "MD"
+      },
+      "source_url": "https://www.calvertcountymd.gov/140/Members",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:calvert-county:county-commissioner:todd-ireland",
+      "name": "Todd Ireland",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Calvert County Commissioners Court",
+      "district": "At-Large Representative",
+      "phone": "410-535-1600",
+      "email": "todd.ireland@calvertcountymd.gov",
+      "url": "https://www.calvertcountymd.gov/3558/Ireland-Todd",
+      "photo_url": "https://www.calvertcountymd.gov/ImageRepository/Document?documentID=41190",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "150 Main Street\nPrince Frederick, MD 20678",
+      "offices": [],
+      "hours": null,
+      "bio": "County Commissioner Todd Ireland took office in December 2022 as an at-large representative on the Calvert County, Maryland, Board of County Commissioners, serving his first term. He previously served as a Calvert County Sheriff’s Deputy for nearly 29 years, retiring as a captain in December 2021. A lifelong Calvert County resident, he resides on his family’s farm in Huntingtown.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Calvert County",
+        "state": "MD"
+      },
+      "source_url": "https://www.calvertcountymd.gov/140/Members",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -1158,6 +1315,254 @@
       },
       "source_url": "https://frederickcountymd.gov/27/Government",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:césar-díaz",
+      "name": "César Díaz",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "240-656-5798",
+      "email": "cdiaz@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1911/Csar-Daz",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26534",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "César Díaz moved to Frederick in 1997 and is an information technology professional who has worked with government agencies, international companies, and nonprofit organizations. He is the first Latino elected to the Frederick City Council and is a member of the Democratic Socialists of America, the RISE Coalition of Western Maryland, and the Unitarian Universalist Congregation of Frederick.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:derek-shackelford",
+      "name": "Derek Shackelford",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "301-600-1863",
+      "email": "dshackelford@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1909/Derek-Shackelford",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26535",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/AldermanDrDerekShackelford/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Dr. Derek Shackelford is honored to serve the residents of the City of Frederick. He values the privilege of collaborating, leading, and partnering with the community to ensure that Frederick remains a vibrant city where every resident has the opportunity to thrive. He looks forward to continuing his service.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:joe-adkins",
+      "name": "Joe Adkins",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "301-600-1871",
+      "email": "jadkins@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1915/Joe-Adkins",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=27065",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/people/Adkins4Frederick/61575129149684/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Adkins serves as the City Council Member for District 4. He is focused on maintaining strong core services, supporting responsible budgeting, and protecting the character of Frederick’s neighborhoods. Joe is a member of the Evangelical Reformed United Church of Christ and serves on the C&O Canal National Park Advisory Commission.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:katie-nash",
+      "name": "Katie Nash",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "301-600-1632",
+      "email": "knash@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1917/Katie-Nash",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26536",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/NashforFrederick/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Katie Nash serves as City Council Vice President and represents District 1, committed to preserving Frederick's unique character and celebrating its diversity. A graduate of Hood College, she has worked across various sectors and shares a blended family with her husband and three teenagers.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:libby-taylor",
+      "name": "Libby Taylor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "240-656-5874",
+      "email": "ltaylor@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1916/Libby-Taylor",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26537",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Libby Taylor serves as an At-Large City Council Member and is passionate about improving quality of life for current and future residents of Frederick. As a policy analyst by profession, she places strong importance on effective policy implementation and evaluation to ensure City initiatives deliver meaningful results for the community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:peter-brehm",
+      "name": "Peter Brehm",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "240-656-5878",
+      "email": "pbrehm@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1905/Peter-Brehm",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26539",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Peter is passionate about assuring that Frederick is a desirable and sustainable place to live, work, shop, and play. Peter is involved in Evangelical Reformed United Church of Christ, The Frederick Center, and PFLAG Frederick.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:council-member:sarah-hempel-irani",
+      "name": "Sarah Hempel Irani",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "240-656-8276",
+      "email": "shempelirani@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/1910/Sarah-Hempel-Irani",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26540",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah Hempel Irani is passionate about pedestrian safety, neighborhood connectivity, the role of the built environment in shaping our lives, and meaningful civic engagement. She values collaboration and community-centered solutions that help Frederick thrive. Sarah is a member of Good Shepherd Lutheran Church, where she has been involved for more than 20 years. She is a member and former board member of the Association of Consultants for Liturgical Space and is part of the Blue Elephant Art Studios on West 5th Street. A professional sculptor, Sarah is best known for creating the Claire McCardell monument. She holds a master’s degree in Medieval and Renaissance Studies from Hood College and has taught sculpture at Frederick Community College.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:frederick:mayor:michael-oconnor",
+      "name": "Michael O'Connor",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Frederick City Council",
+      "district": null,
+      "phone": "301-600-1380",
+      "email": "mayor@cityoffrederickmd.gov",
+      "url": "https://cityoffrederickmd.gov/520/Office-of-the-Mayor",
+      "photo_url": "https://cityoffrederickmd.gov/ImageRepository/Document?documentID=26538",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 N Court Street Frederick, MD 21701",
+      "offices": [],
+      "hours": "8:00 AM - 4:30 PM",
+      "bio": "Mayor Michael O’Connor is a lifelong Frederick resident with a background in local media, community service, and public leadership. He was first elected to the Board of Aldermen in 2009 and became Mayor in 2017.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frederick",
+        "state": "MD"
+      },
+      "source_url": "https://cityoffrederickmd.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

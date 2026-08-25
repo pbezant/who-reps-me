@@ -1,14 +1,263 @@
 {
   "state": "ID",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 28,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 36,
   "cities": [
+    "Bannock County",
     "Boise City",
     "Bonneville County",
     "Canyon County",
     "Nampa"
   ],
   "officials": [
+    {
+      "id": "id:bannock-county:assessor:anita-hymas",
+      "name": "Anita Hymas",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-anita-hymas-2/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:clerk:jason-dixon",
+      "name": "Jason Dixon",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-jason-dixon-2/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:commissioner:ernie-moser",
+      "name": "Ernie Moser",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-ernie-moser-2/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": "Many developments are happening in Bannock County, and 2024 is shaping into a unique year. Commissioner Moser and his fellow Commissioners have been hard at work identifying generational projects using American Rescue Plan Act (ARPA) funds to provide added value for Bannock County residents for years to come, ensuring the long-term needs of the community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:commissioner:jeff-hough",
+      "name": "Jeff Hough",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-jeff-hough-4/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon &#8211; Fri, 8 a.m. &#8211; 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:commissioner:john-crowder",
+      "name": "John Crowder",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-john-crowder/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": "John Crowder is a Bannock County Commissioner for District 3.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:coroner:torey-danner",
+      "name": "Torey Danner",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-torey-danner-3/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": "Torey Danner, the Bannock County Coroner, has successfully advocated for legislation allowing Idaho residents to register their Next-of-Kin on ID cards and is working towards building a county-owned morgue facility to enhance the office's self-sufficiency and service.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:prosecutor:steve-herzog",
+      "name": "Steve Herzog",
+      "office": "Prosecutor",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-steve-herzog/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:bannock-county:treasurer:jennifer-clark",
+      "name": "Jennifer Clark",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Bannock County Commissioners Court",
+      "district": null,
+      "phone": "208-236-7000",
+      "email": null,
+      "url": "https://www.bannockcounty.gov/letter-from-your-elected-official-jennifer-clark-3/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "624 East Center St. Pocatello, ID 83201",
+      "offices": [],
+      "hours": "Mon – Fri, 8 a.m. – 5 p.m. Office hours may vary. Closed Federal Holidays",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bannock County",
+        "state": "ID"
+      },
+      "source_url": "https://www.bannockcounty.gov/category/letter-elected-official/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
     {
       "id": "id:boise-city:council-member:colin-nash",
       "name": "Colin Nash",

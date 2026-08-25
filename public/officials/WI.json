@@ -1,13 +1,15 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 47,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 58,
   "cities": [
     "Dane County",
     "Eau Claire County",
     "Green Bay",
     "Madison",
     "Outagamie County",
+    "Ozaukee County",
+    "St. Croix County",
     "Waukesha County"
   ],
   "officials": [
@@ -939,6 +941,347 @@
       },
       "source_url": "https://www.outagamie.gov/County-Services/Family-Court-Commissioner",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:chair,-judge:adam-gerol",
+      "name": "Adam Gerol",
+      "office": "Chair, Judge",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:clerk-of-circuit-courts:connie-mueller",
+      "name": "Connie Mueller",
+      "office": "Clerk of Circuit Courts",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:coordinator:alexandrea-weiland",
+      "name": "Alexandrea Weiland",
+      "office": "Coordinator",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:corporation-council:rhonda-gorden",
+      "name": "Rhonda Gorden",
+      "office": "Corporation Council",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:criminal-defense-representative-public-defender-or-designee:heather-dvoran",
+      "name": "Heather Dvoran",
+      "office": "Criminal Defense Representative Public Defender or designee",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:district-attorney:benjamin-lindsay",
+      "name": "Benjamin Lindsay",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:mid-moraine-municipal-judge:chris-ohlis",
+      "name": "Chris Ohlis",
+      "office": "Mid Moraine Municipal Judge",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:ozaukee-county-sheriff:christy-knowles",
+      "name": "Christy Knowles",
+      "office": "Ozaukee County Sheriff",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:ozaukee-law-enforcement-member,-port-washington-police-chief:kevin-hingiss",
+      "name": "Kevin Hingiss",
+      "office": "Ozaukee Law Enforcement Member, Port Washington Police Chief",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:ozaukee-county:vice-chair,-director-of-human-services:kim-falkner",
+      "name": "Kim Falkner",
+      "office": "Vice-Chair, Director of Human Services",
+      "level": "county",
+      "body": "Ozaukee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ozaukee County",
+        "state": "WI"
+      },
+      "source_url": "https://www.ozaukeecounty.gov/706/Criminal-Justice-Collaborating-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:st.-croix-county:aging-and-disability-resource-center-administrator:kristin-newton",
+      "name": "Kristin Newton",
+      "office": "Aging and Disability Resource Center Administrator",
+      "level": "county",
+      "body": "St. Croix County Commissioners Court",
+      "district": null,
+      "phone": "715-381-4360",
+      "email": "adrcinfo@sccwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1752 Dorset Ln New Richmond , WI 54017",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Croix County",
+        "state": "WI"
+      },
+      "source_url": "https://www.sccwi.gov/582/Council-on-Aging-Disabilities",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

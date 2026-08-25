@@ -1,11 +1,415 @@
 {
   "state": "AR",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 6,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 19,
   "cities": [
+    "Garland County",
     "Pulaski County"
   ],
   "officials": [
+    {
+      "id": "ar:garland-county:justice-of-the-peace:alan-floyd",
+      "name": "Alan Floyd",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 8",
+      "phone": "501-622-3600",
+      "email": "alanfloyd@protonmail.com",
+      "url": "https://www.garlandcounty.org/288/District-8---Alan-Floyd",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=7353",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "I have called Garland County home for over a decade, drawn to its natural beauty, vibrant community, and excellent schools. My wife and I have been happily married since 2009, and together we are raising our two wonderful children. With over 10 years of experience as a nurse at Arkansas Children's Hospital and 5 years in pediatric home health care, I've also had the privilege of supporting local schools with their nursing needs. Serving others has always been my greatest passion. I am blessed to serve Garland County representing District 8.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:ben-hooten",
+      "name": "Ben Hooten",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 6",
+      "phone": "501-622-3600",
+      "email": "benhootenjp@yahoo.com",
+      "url": "https://www.garlandcounty.org/286/District-6---Ben-Hooten",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=7354",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "I have been a practicing attorney in Hot Springs, Arkansas since 2002. My main areas of practice are criminal defense and Veteran's law. My wife, Charlene, and I have four children and seven grandchildren, all the grandchildren live in Garland County. We have been members of Hot Springs Baptist Church for several years.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:dayton-myers",
+      "name": "Dayton Myers",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 7",
+      "phone": "501-622-3600",
+      "email": "daytonmrealtor@gmail.com",
+      "url": "https://www.garlandcounty.org/287/District-7---Dayton-Myers",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=6345",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:debbie-mcgrew",
+      "name": "Debbie McGrew",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 10",
+      "phone": "501-622-3600",
+      "email": "debbie.mcgrew@sbcglobal.net",
+      "url": "https://www.garlandcounty.org/290/District-10---Debbie-McGrew",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=7656",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "I am an Arkansan by choice and I love this state. I look forward to serving the people of district 10. Happily married to my biggest supporter, husband Richard for 33 years. We have three children, three grandchildren and are members of Hot Springs Baptist Church. For the entirety of our marriage, we have been small business owners. Garland County Republican Women- Chaplain. Garland County Republican Committee- Member. Recovery Point Ministry- Board President.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:dr.-brian-peters",
+      "name": "Dr. Brian Peters",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 9",
+      "phone": "501-622-3600",
+      "email": "drbrianpetersjp9@gmail.com",
+      "url": "https://www.garlandcounty.org/289/District-9---Dr-Brian-Peters",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=6344",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "My name is Dr. Brian Peters and I've lived in District 9 of the county since 2009. I am married to my high school sweetheart, Melissa, and together we have 3 children: Kaitlynn 21, a student at UCA, Lilly 18, a student at UCA and Mason 13, a 7th grader at LH Middle School. I am excited to represent our District on the Quorum Court and look forward to serving the people to my upmost ability.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:jeremy-brown",
+      "name": "Jeremy Brown",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 12",
+      "phone": "501-622-3600",
+      "email": null,
+      "url": "https://www.garlandcounty.org/292/District-12---Jeremy-Brown",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:jimmy-young",
+      "name": "Jimmy Young",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 4",
+      "phone": "501-622-3600",
+      "email": "rvresort@gmail.com",
+      "url": "https://www.garlandcounty.org/284/District-4---Jimmy-Young",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=3051",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/JimmyYoungJPDistrict4/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "Jimmy Young is a sixth-generation Garland County native who has lived in District 4 for 53 of his 65 years. He and his wife, Vickie, have successfully run an RV Resort in District 4 for 28 years, and they have two grown children and two granddaughters. He is an active member of the Garland County Republican Committee and an amateur Hot Springs/Garland county history buff, having published a non-fiction book of local family stories.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:micah-braughton",
+      "name": "Micah Braughton",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 1",
+      "phone": "501-622-3600",
+      "email": "Micahbraughton87@gmail.com",
+      "url": "https://www.garlandcounty.org/281/District-1---Micah-Braughton",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=6352",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "Micah Braughton serves as Justice of the Peace for District 1. He is the Chairman of the Ordinance Committee, Vice Chairman of the Human Resources Committee, and also serves on the Environmental Services/Public Works and Buildings Committee.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:ralf-bailes",
+      "name": "Ralf Bailes",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 5",
+      "phone": "501-622-3600",
+      "email": "ralfbailesjp5@gmail.com",
+      "url": "https://www.garlandcounty.org/285/District-5---Ralf-Bailes",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=7355",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "Ralf Bailes is the Justice of the Peace for District 5, which includes Lakes Hamilton and Catherine and the Oaklawn racetrack. He serves on the Ordinance, Environmental Services/Public Works and Buildings, and Human Resources Committees.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:ralph-edds",
+      "name": "Ralph Edds",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 13",
+      "phone": "501-622-3600",
+      "email": null,
+      "url": "https://www.garlandcounty.org/293/District-13---Ralph-Edds",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:ronald-(nub)-hunter",
+      "name": "Ronald (Nub) Hunter",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 11",
+      "phone": "501-622-3600",
+      "email": null,
+      "url": "https://www.garlandcounty.org/291/District-11---Ronald-Nub-Hunter",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:susan-garner-jones",
+      "name": "Susan Garner Jones",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 3",
+      "phone": "501-622-3600",
+      "email": "susanforjp3@gmail.com",
+      "url": "https://www.garlandcounty.org/283/District-3---Susan-Garner-Jones",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=7357",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:garland-county:justice-of-the-peace:thomas-anderson",
+      "name": "Thomas Anderson",
+      "office": "Justice of the Peace",
+      "level": "county",
+      "body": "Garland County Commissioners Court",
+      "district": "District 2",
+      "phone": "501-622-3600",
+      "email": "thomasja@sbcglobal.net",
+      "url": "https://www.garlandcounty.org/282/District-2---Thomas-Anderson",
+      "photo_url": "https://www.garlandcounty.org/ImageRepository/Document?documentID=3043",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Ouachita Avenue, Hot Springs, AR 71901",
+      "offices": [],
+      "hours": null,
+      "bio": "I am proud to have been chosen to represent District 2 for eighteen years. I am retired from the Hot Springs Police Department. I serve on Trustee Board of the Greater St. Paul Baptist Church, and I am supported by my loving wife, Mozella.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Garland County",
+        "state": "AR"
+      },
+      "source_url": "https://www.garlandcounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
     {
       "id": "ar:pulaski-county:assessor:janet-troutman-ward",
       "name": "Janet Troutman Ward",

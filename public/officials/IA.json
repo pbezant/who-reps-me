@@ -1,13 +1,14 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 45,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 50,
   "cities": [
     "Black Hawk County",
     "Cedar Rapids",
     "Dallas County",
     "Linn County",
-    "Polk County"
+    "Polk County",
+    "Sioux City"
   ],
   "officials": [
     {
@@ -1413,6 +1414,161 @@
       },
       "source_url": "https://www.polkcountyiowa.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:sioux-city:council-member:craig-berenstein",
+      "name": "Craig Berenstein",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Sioux City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 6th Street P.O. Box 447 Sioux City, IA 51102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux City",
+        "state": "IA"
+      },
+      "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:sioux-city:council-member:ike-rayford",
+      "name": "Ike Rayford",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Sioux City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 6th Street P.O. Box 447 Sioux City, IA 51102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux City",
+        "state": "IA"
+      },
+      "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:sioux-city:council-member:rick-bertrand",
+      "name": "Rick Bertrand",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Sioux City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 6th Street P.O. Box 447 Sioux City, IA 51102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux City",
+        "state": "IA"
+      },
+      "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:sioux-city:mayor-pro-tem:julie-schoenherr",
+      "name": "Julie Schoenherr",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Sioux City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 6th Street P.O. Box 447 Sioux City, IA 51102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux City",
+        "state": "IA"
+      },
+      "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:sioux-city:mayor:bob-scott",
+      "name": "Bob Scott",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sioux City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 6th Street P.O. Box 447 Sioux City, IA 51102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux City",
+        "state": "IA"
+      },
+      "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

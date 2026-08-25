@@ -1,9 +1,11 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 73,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 89,
   "cities": [
     "Anoka County",
+    "Bloomington",
+    "Duluth",
     "Minneapolis",
     "Olmsted County",
     "Ramsey County",
@@ -229,6 +231,512 @@
       },
       "source_url": "https://www.anokacountymn.gov/693/Board-of-Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:danielle-robertson",
+      "name": "Danielle Robertson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "At Large",
+      "phone": "612-834-5395",
+      "email": "drobertson@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:dwayne-lowman",
+      "name": "Dwayne Lowman",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "District I",
+      "phone": "952-270-2377",
+      "email": "dlowman@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:jenna-carter",
+      "name": "Jenna Carter",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "At Large",
+      "phone": "612-463-9014",
+      "email": "jcarter@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:lona-dallessandro",
+      "name": "Lona Dallessandro",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "District III",
+      "phone": "612-231-6824",
+      "email": "LDallessandro@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:shawn-nelson",
+      "name": "Shawn Nelson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "District II",
+      "phone": "952-479-0471",
+      "email": "snelson@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:council-member:victor-rivas",
+      "name": "Victor Rivas",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": "District IV",
+      "phone": "651-247-5199",
+      "email": "vrivas@bloomingtonmn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:bloomington:mayor:tim-busse",
+      "name": "Tim Busse",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bloomington City Council",
+      "district": null,
+      "phone": "952-457-7506",
+      "email": "tbusse@BloomingtonMN.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bloomington",
+        "state": "MN"
+      },
+      "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member-at-large,-president:lynn-marie-nephew",
+      "name": "Lynn Marie Nephew",
+      "office": "Council Member At-Large, President",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "At-Large",
+      "phone": "218-730-5354",
+      "email": "lnephew@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/lynn-marie-nephew/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member-at-large:arik-forsman",
+      "name": "Arik Forsman",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "At-Large",
+      "phone": "218-730-5352",
+      "email": "aforsman@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/arik-forsman/",
+      "photo_url": "https://duluthmn.gov/media/xsrptm2t/forsman-head-shot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": "Arik Forsman was appointed as an At Large member of the Duluth City Council in 2018, was elected to the same post in 2019, and was re-elected in 2023. He's the former council President and 2025 chair of the Finance Committee, also serving on the Duluth Economic Development Authority and as Mayor Pro Tem from 2024-2026. Forsman has led initiatives addressing the local childcare crisis, invested in housing and public safety, and supported the TV & film industry.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member-at-large:jordon-johnson",
+      "name": "Jordon Johnson",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "At-Large",
+      "phone": "218-730-5359",
+      "email": "jjohnson@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/jordon-johnson/",
+      "photo_url": "https://duluthmn.gov/media/4fdmblbq/jordon-johnson-at-large-city-councilor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Duluth City Council",
+          "city": "Duluth",
+          "address": "City Hall, Room 318\n411 West First Street\nDuluth, MN 55802",
+          "phone": "218-730-5700",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Jordon currently works as an Associate Director of the American Indian Community Housing Organization and is the founder of True Being Consulting, LLC. Upon returning to Duluth, he has been working in the nonprofit sector to provide supportive services and housing for community members.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member-at-large:terese-tomanek",
+      "name": "Terese Tomanek",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "At-Large",
+      "phone": "218-730-5358",
+      "email": "ttomanek@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/terese-tomanek/",
+      "photo_url": "https://duluthmn.gov/media/12005/headshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member,-vice-president:janet-kennedy",
+      "name": "Janet Kennedy",
+      "office": "City Council Member, Vice President",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "District 5",
+      "phone": "218-730-5357",
+      "email": "jkennedy@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/janet-kennedy/",
+      "photo_url": "https://duluthmn.gov/media/9116/janet-kennedy-press.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": "Janet Kennedy is the Fifth Council District, Council Vice President for the City of Duluth. She is the Owner and Principal Director of Operations for Healthy Alliances Matter LLC and Founder/Executive Director of Healthy Alliances Matter for All. She has been a Duluth resident since 1968 and has a background as a retired Physical Therapy Clinician & Director of Rehabilitation.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member:david-clanaugh",
+      "name": "David Clanaugh",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "District 4",
+      "phone": "218-730-5356",
+      "email": "dclanaugh@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/david-clanaugh/",
+      "photo_url": "https://duluthmn.gov/media/ndaddmij/david-clanaugh-district-4-city-councilor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 - 4:00pm",
+      "bio": "Councilor David Clanaugh has been a Duluth resident for more than twenty‑six years. Raised in rural northern Wisconsin, he is an avid outdoorsman who enjoys canoeing, kayaking, hiking, skiing, gardening, and hunting. He and his wife, Tracie, have three adult children who graduated from East, Denfeld, and Harbor City schools.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member:diane-desotelle",
+      "name": "Diane Desotelle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "District 2",
+      "phone": "218-730-5355",
+      "email": "ddesotelle@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/diane-desotelle/",
+      "photo_url": "https://duluthmn.gov/media/unahu1iq/diane-desotelle-district-2-councilor.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": "I have lived in Duluth for 27 years where my husband and I raised two children. We are proud to say we have always lived, worked and played in this city owning one car and two bikes. Professionally, I am a civil engineer, educator, and land use planner where I worked for a variety of public and private sector entities.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member:roz-randorf",
+      "name": "Roz Randorf",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "District 3",
+      "phone": "218-443-8364 | 218-730-5353",
+      "email": "rrandorf@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/roz-randorf/",
+      "photo_url": "https://duluthmn.gov/media/9117/rozrandorf0018.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": null,
+      "bio": "Roz Randorf is the 3rd District City Councilor for Duluth, representing precincts 14-19. She serves as 2025 Council Intergovernmental Chair, Treasurer and Commissioner for the Duluth Economic Development Authority, and a voting member of the Duluth Downtown Waterfront District. She also works as a Corporate Consultant and Certified Trainer for Dale Carnegie, North Central, US.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:duluth:council-member:wendy-durrwachter",
+      "name": "Wendy Durrwachter",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Duluth City Council",
+      "district": "District 1",
+      "phone": "218-730-5351",
+      "email": "wdurrwachter@duluthmn.gov",
+      "url": "https://duluthmn.gov/city-council/city-councilors/wendy-durrwachter/",
+      "photo_url": "https://duluthmn.gov/media/23afjqmb/i-8wdhrjc-x2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 318, 411 West First Street, Duluth, MN 55802",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 - 4:00pm",
+      "bio": "Wendy Durrwachter is the City Councilor for District 1, representing precincts 1-7. She serves on the Duluth Public Utilities Commission, the Duluth Public Arts Commission, and the Purchasing and Licensing Commission. Durrwachter is a composer/pianist and account manager, who grew up in Green Bay, WI and attended the U of MN Twin Cities for music.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Duluth",
+        "state": "MN"
+      },
+      "source_url": "https://duluthmn.gov/city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

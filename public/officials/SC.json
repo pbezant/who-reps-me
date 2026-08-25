@@ -1,7 +1,7 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 88,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 97,
   "cities": [
     "Anderson County",
     "Beaufort County",
@@ -10,6 +10,7 @@
     "Greenville County",
     "Lancaster County",
     "Lexington County",
+    "Mount Pleasant",
     "Pickens County",
     "Spartanburg County",
     "Sumter County"
@@ -2059,6 +2060,285 @@
       },
       "source_url": "https://www.lex-co.sc.gov/council-members",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:mayor:will-haynie",
+      "name": "Will Haynie",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": null,
+      "url": "https://www.tompsc.com/89/Mayor-Will-Haynie",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52871",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Will Haynie was elected to Council in November 2015. He was elected Mayor in November 2017 and re-elected in 2021. Born in Greenville, South Carolina, Mayor Haynie moved with his family to Mount Pleasant in 1966.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:alex-crosby",
+      "name": "Alex Crosby",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": null,
+      "url": "https://www.tompsc.com/1669/Alex-Crosby",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52794",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Alex Crosby is a longtime Mount Pleasant resident and a graduate of the University of South Carolina. A working mom raising her young family here, she is deeply rooted in the community. Alex helps run her family’s local insurance company, Crosby Insurance Group. She is active at St. Andrews Church, and is committed to serving her neighbors with transparency and respect. Outside of work, she enjoys learning about Mount Pleasant’s history and heritage, spending time on the water fishing, and exploring local parks with her son and their dogs. She also values staying active through hiking and yoga and appreciates any time spent outdoors with family and friends.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:daniel-brownstein",
+      "name": "Daniel Brownstein",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": "councilclk@tompsc.com",
+      "url": "https://www.tompsc.com/1538/Daniel-Brownstein",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52795",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Daniel Brownstein was elected to Mount Pleasant Town Council on November 2023. Daniel, 44, is a married father of two who works as the marketing director at the law firm Rogers, Patrick, Westbrook & Brickman in Mount Pleasant. He has a Masters of Business Administration from the University of South Carolina and a bachelor’s degree in communication from Otterbein University.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:howard-chapman",
+      "name": "Howard Chapman",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": "councilclk@tompsc.com",
+      "url": "https://www.tompsc.com/710/Howard-Chapman",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=33019",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Howard Chapman was elected to Mount Pleasant Town Council on November 2019. In 2025, he was elected to a two-year term as Mayor Pro Tem.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:jake-rambo",
+      "name": "Jake Rambo",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": "councilclk@tompsc.com",
+      "url": "https://www.tompsc.com/713/Jake-Rambo",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52796",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Jake Rambo was elected to Mount Pleasant Town Council in November 2019. Born and raised in Mount Pleasant, he holds degrees in education and leadership and has served as a teacher and principal before joining his family's business. He and his wife Sharon have three young children.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:john-iacofano",
+      "name": "John Iacofano",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": "jiacofano@tompsc.com",
+      "url": "https://www.tompsc.com/93/John-Iacofano",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=39624",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member John Iacofano was elected to the Mount Pleasant Town Council in November 2021 and leads with a philosophy centered on service, accountability, and meaningful results. As a long-time Mount Pleasant resident, John and his wife Krissy are raising their three children here. On Council, John has focused on strengthening partnerships in education, supporting public safety, and advancing a culture of professionalism within the Town.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:kathryn-whitaker",
+      "name": "Kathryn Whitaker",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": null,
+      "url": "https://www.tompsc.com/1668/Kathryn-Whitaker",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52797",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Kathryn Whitaker was elected to Mount Pleasant Town Council in November 2025. She served on the Town's Culture, Arts & Price Commission and was its Chair, working to make the Community Arts Center a reality. A South Carolina native, she is a successful business professional with over 20 years in legal marketing, and an active parent volunteer and church member.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:laura-hyatt",
+      "name": "Laura Hyatt",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": null,
+      "url": "https://www.tompsc.com/890/Laura-Hyatt",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=46173",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": "Laura Hyatt was elected to Mount Pleasant Town Council in November 2019. A Mount Pleasant native, she graduated from Wando High School and earned a pharmacy degree from the Medical University of South Carolina, working as a retail pharmacist for 30 years.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:mount-pleasant:town-council-member:mike-tinkey",
+      "name": "Mike Tinkey",
+      "office": "Town Council Member",
+      "level": "local",
+      "body": "Mount Pleasant City Council",
+      "district": null,
+      "phone": "843-884-8517",
+      "email": "councilclk@tompsc.com",
+      "url": "https://www.tompsc.com/1629/Mike-Tinkey",
+      "photo_url": "https://www.tompsc.com/ImageRepository/Document?documentID=52799",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Town of Mount Pleasant Municipal Complex 100 Ann Edwards Lane Mount Pleasant, SC 29464",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Mount Pleasant",
+        "state": "SC"
+      },
+      "source_url": "https://www.tompsc.com/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

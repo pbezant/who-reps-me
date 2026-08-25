@@ -1,14 +1,20 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-24T05:03:33.382Z",
-  "count": 92,
+  "generated_at": "2026-08-25T05:07:25.719Z",
+  "count": 135,
   "cities": [
     "Bellevue",
+    "Bellingham",
     "Clark County",
     "Everett",
+    "Federal Way",
+    "Franklin County",
     "Grant County",
+    "Island County",
+    "Kennewick",
     "King County",
     "Kitsap County",
+    "Lewis County",
     "Pierce County",
     "Renton",
     "Seattle",
@@ -17,6 +23,7 @@
     "Spokane County",
     "Thurston County",
     "Whatcom County",
+    "Yakima",
     "Yakima County"
   ],
   "officials": [
@@ -235,6 +242,37 @@
       },
       "source_url": "https://bellevuewa.gov/city-government/city-council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bellingham:mayor:kim-lund",
+      "name": "Kim Lund",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bellingham City Council",
+      "district": null,
+      "phone": "360-778-8000",
+      "email": null,
+      "url": "https://cob.org/gov/mayor",
+      "photo_url": "https://cob.org/wp-content/uploads/MayorKimLund_SattvaPhoto_BusinessPulse_A7400548-1-e1784325623238.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 210 Lottie Street Bellingham, WA 98225",
+      "offices": [],
+      "hours": null,
+      "bio": "Bellingham is an extraordinary place, and I show up each day to serve it with everything I have. I am committed to delivering actual results — expanding housing, strengthening services, and creating more opportunities for residents to thrive. This community’s best days are ahead of us, and I am honored to work alongside the remarkable people who are building them.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Bellingham",
+        "state": "WA"
+      },
+      "source_url": "https://cob.org/gov/mayor",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -641,6 +679,316 @@
       "confidence": 1
     },
     {
+      "id": "wa:federal-way:council-member:jack-walsh",
+      "name": "Jack Walsh",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-member:les-sessoms",
+      "name": "Les Sessoms",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-member:linda-kochmar",
+      "name": "Linda Kochmar",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-member:lydia-assefa-dawson",
+      "name": "Lydia Assefa-Dawson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-member:martin-moore",
+      "name": "Martin Moore",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-member:melissa-hamilton",
+      "name": "Melissa Hamilton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:federal-way:council-president:susan-honda",
+      "name": "Susan Honda",
+      "office": "Council President",
+      "level": "local",
+      "body": "Federal Way City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "33325 8th Ave S Federal Way, WA 98003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Federal Way",
+        "state": "WA"
+      },
+      "source_url": "https://www.federalwaywa.gov/city-council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:franklin-county:board-member,-commissioner:clint-didier",
+      "name": "Clint Didier",
+      "office": "Board Member, Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 3",
+      "phone": "509-546-5853",
+      "email": "cdidier@franklincountywa.gov",
+      "url": "https://www.franklincountywa.gov/m/directory/employee?eid=34",
+      "photo_url": "https://www.franklincountywa.gov/ImageRepository/Document?documentID=1909",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Courthouse 1016 N 4th Avenue Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "WA"
+      },
+      "source_url": "https://www.franklincountywa.gov/375/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:franklin-county:chair-of-the-board,-commissioner:rocky-mullen",
+      "name": "Rocky Mullen",
+      "office": "Chair of the Board, Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 2",
+      "phone": "509-546-5852",
+      "email": "rmullen@franklincountywa.gov",
+      "url": "https://www.franklincountywa.gov/m/directory/employee?eid=33",
+      "photo_url": "https://www.franklincountywa.gov/ImageRepository/Document?documentID=434",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Courthouse 1016 N 4th Avenue Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "WA"
+      },
+      "source_url": "https://www.franklincountywa.gov/375/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:franklin-county:chair-pro-tem,-commissioner:stephen-bauman",
+      "name": "Stephen Bauman",
+      "office": "Chair Pro-Tem, Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 1",
+      "phone": "509-546-5851",
+      "email": "sbauman@franklincountywa.gov",
+      "url": "https://www.franklincountywa.gov/m/directory/employee?eid=62",
+      "photo_url": "https://www.franklincountywa.gov/ImageRepository/Document?documentID=3039",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Franklin County Courthouse 1016 N 4th Avenue Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "WA"
+      },
+      "source_url": "https://www.franklincountywa.gov/375/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:grant-county:commissioner:cindy-carter",
       "name": "Cindy Carter",
       "office": "Commissioner",
@@ -731,6 +1079,355 @@
       },
       "source_url": "https://www.grantcountywa.gov/317/County-Commissioners",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:island-county:county-commissioner:janet-st.-clair",
+      "name": "Janet St. Clair",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Island County Commissioners Court",
+      "district": null,
+      "phone": "360-679-7354",
+      "email": "district3@islandcountywa.gov",
+      "url": "https://www.islandcountywa.gov/Directory.aspx?EID=64",
+      "photo_url": "https://www.islandcountywa.gov/ImageRepository/Document?documentID=464",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 NE 7th Street Coupeville, WA 98239",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Camano Office",
+          "city": "Camano Island",
+          "address": "121 N East Camano Drive Camano Island, WA 98282",
+          "phone": "360-387-3443, ext. 8264",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Janet St. Clair is from District No. 3, which encompasses the Whidbey Island area north of Oak Harbor and all of Camano Island. Her term of office is January 2019 to December 2026.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Island County",
+        "state": "WA"
+      },
+      "source_url": "https://www.islandcountywa.gov/231/Commissioners-Budget-Information",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:island-county:county-commissioner:jill-johnson",
+      "name": "Jill Johnson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Island County Commissioners Court",
+      "district": null,
+      "phone": "360-679-7354",
+      "email": "district2@islandcountywa.gov",
+      "url": "https://www.islandcountywa.gov/Directory.aspx?EID=63",
+      "photo_url": "https://www.islandcountywa.gov/ImageRepository/Document?documentID=491",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 NE 7th Street Coupeville, WA 98239",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "Whidbey Office",
+          "city": "Coupeville",
+          "address": "1 NE 7th Street Coupeville, WA 98239",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "district",
+          "name": "Camano Office",
+          "city": "Camano Island",
+          "address": "121 N East Camano Drive Camano Island, WA 98282",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Jill Johnson is from District No. 2, which encompasses all of the greater Oak Harbor area.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Island County",
+        "state": "WA"
+      },
+      "source_url": "https://www.islandcountywa.gov/231/Commissioners-Budget-Information",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:island-county:county-commissioner:melanie-bacon",
+      "name": "Melanie Bacon",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Island County Commissioners Court",
+      "district": null,
+      "phone": "360-679-7354",
+      "email": "district1@islandcountywa.gov",
+      "url": "https://www.islandcountywa.gov/Directory.aspx?EID=62",
+      "photo_url": "https://www.islandcountywa.gov/ImageRepository/Document?documentID=3781",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Melanie Bacon is currently Chair of the Board of County Commissioners and Commissioner of District No. 1, which encompasses all of Whidbey Island south of the greater Oak Harbor area.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Island County",
+        "state": "WA"
+      },
+      "source_url": "https://www.islandcountywa.gov/231/Commissioners-Budget-Information",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:council-member:brad-beauchamp",
+      "name": "Brad Beauchamp",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "At Large Position 6 (All Wards)",
+      "phone": "509-308-6556",
+      "email": "brad.beauchamp@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/871/Brad%20Beauchamp-Bio-Page",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17381",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 6108\nKennewick, WA 99336",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City Hall",
+          "city": "Kennewick",
+          "address": "210 W 6th Ave\nKennewick, WA 99336",
+          "phone": "509-585-4200",
+          "fax": null,
+          "hours": "8:30am-4:30pm M-F"
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:council-member:brad-klippert",
+      "name": "Brad Klippert",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "At Large Position 4 (All Wards)",
+      "phone": "509-873-1443",
+      "email": "brad.klippert@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/directory.aspx?EID=278",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17385",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Brad Klippert, who has called Kennewick home for 26 years, has previously served 14 years as a member of the Washington State House of Representatives. A retired U.S. Army veteran, he served more than 30 years in the military and 20 years as a helicopter pilot. He is currently a Benton County sheriff’s deputy and has served as a firefighter/paramedic. Klippert said he ran for city council to support smart, responsible growth while preserving what makes our community unique.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:council-member:jim-millbauer",
+      "name": "Jim Millbauer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "At Large Position 7 (All Wards)",
+      "phone": "509-873-1415",
+      "email": "jim.millbauer@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/866/Brad%20Beauchamp-Bio-Page",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17372",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 6108 Kennewick, WA 99336",
+      "offices": [],
+      "hours": null,
+      "bio": "Mr. Millbauer has called Kennewick home since 1987 and was elected to the Kennewick City Council in 2019. He has been a pipefitter for 39 years and served as a Project Steward at Hanford, reflecting his values of serving others. His focus is on economic development, public safety, and building a better community through responsible growth.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:council-member:john-trumbo",
+      "name": "John Trumbo",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "Ward 3 Position 3",
+      "phone": "509-873-1536",
+      "email": "john.trumbo@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/873/John-Trumbo-Bio-Page",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17384",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 6108 Kennewick, WA 99336",
+      "offices": [],
+      "hours": null,
+      "bio": "Mr. Trumbo was elected to the council effective January 2014. His priorities include ensuring open and accountable government, growing industrial development, revitalizing the riverfront and downtown Kennewick, and addressing issues affecting the city's oldest and historic areas. As a retired journalist, he advocates public involvement in, and knowledge about, local government.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:council-member:loren-anderson",
+      "name": "Loren Anderson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "Ward 2 Position 2",
+      "phone": "509-873-1530",
+      "email": "loren.anderson@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/870/Loren-Anderson-Bio-Page",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17373",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 6108 Kennewick WA 99336",
+      "offices": [],
+      "hours": null,
+      "bio": "Loren Anderson grew up in the Yakima Valley and moved to Kennewick in the summer of 2004 to start a dental practice. Loren and his wife, Danielle, have worked hard to create a successful practice, along with raising a large family. They have seven children and one daughter-in-law. In addition to work and family ventures, Loren has served in various capacities in his local congregation of the Church of Jesus Christ of Latter-day Saints, and very much enjoys working especially with the younger generations. It is his faith that inspired Loren to run for city council, as a way to give back to his community and work for the improvement of Kennewick for all its citizens.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:mayor-pro-tem:chuck-torelli",
+      "name": "Chuck Torelli",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "At Large Position 5 (All Wards)",
+      "phone": "509-873-1398",
+      "email": "chuck.torelli@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/868/Chuck-Torelli-Bio-Page",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17380",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 6108 Kennewick, WA 99336",
+      "offices": [],
+      "hours": null,
+      "bio": "Charles (Chuck) Torelli has lived in Kennewick since 1985 and retired from Hanford in 2011 after a thirty-four-year career. He was appointed to the Kennewick City Council in 2019, then elected, and previously served on the Kennewick City Planning Commission. His priorities include economic development and managed long-term planning.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:kennewick:mayor:jason-mcshane",
+      "name": "Jason McShane",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Kennewick City Council",
+      "district": "Ward 1 Position 1",
+      "phone": "509-873-1378",
+      "email": "jason.mcshane@ci.kennewick.wa.us",
+      "url": "https://www.go2kennewick.com/Directory.aspx?EID=280",
+      "photo_url": "https://www.go2kennewick.com/ImageRepository/Document?documentID=17386",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 W 6th Ave\nKennewick, WA 99336",
+      "offices": [],
+      "hours": "8:30am-4:30pm M-F",
+      "bio": "Jason McShane was appointed to Kennewick City Council in December 2023 and was re-elected in 2025, starting his new term in Ward 1, Position 1, in January 2026. McShane's top priorities for Kennewick include maintaining and improving fire and police coverage; enhancing the waterfront, including Columbia Park; enhancing parks and recreational opportunities; revitalizing downtown; supporting continued development of Vista Field and the Convention Center; and fostering economic growth through thoughtful planning and strong community partnerships.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Kennewick",
+        "state": "WA"
+      },
+      "source_url": "https://www.go2kennewick.com/531/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -1323,6 +2020,471 @@
       "confidence": 1
     },
     {
+      "id": "wa:lewis-county:assessor:ross-nielson",
+      "name": "Ross Nielson",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/assessor/about-the-assessor/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Ross Nielson is a lifelong Washington resident and a strong member of the Lewis County Community, having served as a Boy Scout leader and volunteer in schools. With over 30 years of marriage and experience running a small business and as an Independent Fee Appraiser, he is dedicated to running the Assessor's Office efficiently, transparently, and ethically, prioritizing education, information, and respectful treatment for all.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:auditor:larry-grove",
+      "name": "Larry Grove",
+      "office": "Auditor",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:clerk:scott-tinney",
+      "name": "Scott Tinney",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/clerk/about-the-clerk/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Law & Justice Center on the 2nd floor, at 345 West Main Street, Chehalis, WA 98532-4802",
+      "offices": [],
+      "hours": "8:00 am - 5:00 pm",
+      "bio": "The County Clerk, Scott Tinney is one of several independent, elected officials provided by the Washington State Constitution (Article IV, Sec 26), with specific and special duties assigned by statute, as well as local and state court rules. The position of County Clerk is best characterized as the administrative and financial officer of the Superior Court.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:commissioner:lindsey-r.-pollock,-dvm",
+      "name": "Lindsey R. Pollock, DVM",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": "District 2",
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/commissioners/district-2/",
+      "photo_url": "https://lewiscountywa.gov/media/images/Pollock-2020-3.original.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Lindsey Pollock, DVM, appreciates the opportunity to serve the residents of Lewis County, which she proudly calls her life-long home. Commissioner Pollock prioritizes how today’s decisions will have long-term impacts on the future of the county.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:commissioner:scott-j.-brummer",
+      "name": "Scott J. Brummer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": "District 3",
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/commissioners/district-3/",
+      "photo_url": "https://lewiscountywa.gov/media/images/Commissioners_Brummer.original.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Scott Brummer says it’s a privilege to represent the people of East Lewis County. He has been a part of the Lewis County community for 30 years and says there is no better place to reside than in the State of Washington. Commissioner Brummer believes in retaining the core values of honesty, integrity, accountability and hard work at the center of county government.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:commissioner:sean-d.-swope",
+      "name": "Sean D. Swope",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": "District 1",
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/commissioners/district-1/",
+      "photo_url": "https://lewiscountywa.gov/media/images/Commissioners_Swope.original.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Sean D. Swope is the Lewis County Commissioner for District 1, dedicated to public safety, employment opportunities, and economic growth. He advocates for accountability, responsible government expenditures, and supportive services for veterans, seniors, and low-income citizens. Commissioner Swope represents the northwest portion of Lewis County and holds a degree in ministry, with prior experience as a marketing specialist.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:coroner:warren-mcleod",
+      "name": "Warren Mcleod",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": "360-740-1376",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/coroner/about-the-coroner/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "585 NW Center Street, Chehalis, WA 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Warren McLeod was born and raised in the Boston area, working as an EMT for 14 years before moving to Las Vegas where he served as a Coroner Investigator for 11 years. In 2010, he was elected Coroner for Lewis County, beginning his first term in January 2011, a position that became full-time in 2015.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:district-court-judge:r.w.-buzzard",
+      "name": "R.W. Buzzard",
+      "office": "District Court Judge",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:district-court-judge:wade-s.-samuelson",
+      "name": "Wade S. Samuelson",
+      "office": "District Court Judge",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:prosecutor:jonathan-meyer",
+      "name": "Jonathan Meyer",
+      "office": "Prosecutor",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:sheriff:rob-snaza",
+      "name": "Rob Snaza",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/sheriff/about-the-sheriff/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Robert R. Snaza was elected the 38th Sheriff of Lewis County in November 2014. He began his law enforcement career in 1990 and joined the Lewis County Sheriff’s Office in 1995, serving as a patrol deputy, Sergeant, and Undersheriff before his election.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:superior-court-judge:j.-andrew-toynbee",
+      "name": "J. Andrew Toynbee",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/superior-court/judges/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:superior-court-judge:joely-a.-yeager",
+      "name": "Joely A. Yeager",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/superior-court/judges/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:superior-court-judge:paul-a.-strophy",
+      "name": "Paul A. Strophy",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/superior-court/judges/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lewis-county:treasurer:arny-davis",
+      "name": "Arny Davis",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Lewis County Commissioners Court",
+      "district": null,
+      "phone": "360-748-9121",
+      "email": null,
+      "url": "https://lewiscountywa.gov/offices/treasurer/about-the-treasurer/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 NW. North St. Chehalis, WA, 98532",
+      "offices": [],
+      "hours": null,
+      "bio": "Arny Davis was elected as Lewis County Treasurer in January of 2015, serving as the 28th treasurer since 1850. He previously served as Chief Deputy Treasurer and brings over 30 years of business management, finance, and accounting experience to the office. Arny chairs the County Finance Committee and oversees a staff of eight.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lewis County",
+        "state": "WA"
+      },
+      "source_url": "https://lewiscountywa.gov/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:pierce-county:assessor-treasurer:marty-campbell",
       "name": "Marty Campbell",
       "office": "Assessor-Treasurer",
@@ -1350,7 +2512,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -1365,8 +2527,8 @@
       "url": "https://www.piercecountywa.gov/93/Auditor",
       "photo_url": null,
       "social": {
-        "twitter": null,
-        "facebook": null,
+        "twitter": "https://twitter.com/PierceCountyAud",
+        "facebook": "https://www.facebook.com/PierceCoAuditor",
         "instagram": null,
         "linkedin": null,
         "youtube": null
@@ -1381,7 +2543,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -1443,7 +2605,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -1458,8 +2620,8 @@
       "url": "https://www.piercecountywa.gov/118/Prosecuting-Attorney",
       "photo_url": null,
       "social": {
-        "twitter": null,
-        "facebook": null,
+        "twitter": "https://twitter.com/PCProsecutor",
+        "facebook": "https://www.facebook.com/pages/Pierce-County-Prosecutors-Office/161582230558568",
         "instagram": null,
         "linkedin": null,
         "youtube": null
@@ -1474,7 +2636,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -1489,8 +2651,8 @@
       "url": "https://www.piercecountywa.gov/121/Sheriff",
       "photo_url": null,
       "social": {
-        "twitter": null,
-        "facebook": null,
+        "twitter": "https://twitter.com/PierceSheriff",
+        "facebook": "https://www.facebook.com/piercecountysheriff",
         "instagram": null,
         "linkedin": null,
         "youtube": null
@@ -1505,7 +2667,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -2870,6 +4032,223 @@
       },
       "source_url": "https://www.yakimacounty.us/766/County-Commissioners-Office",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:assistant-mayor:reedy-berg",
+      "name": "Reedy Berg",
+      "office": "Assistant Mayor",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 7",
+      "phone": null,
+      "email": "reedy.berg@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/reedy-berg/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/reedy-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Reedy Berg is a lifelong resident of the Yakima Valley with a Bachelor's degree from Gonzaga University and a Master's in Education from Heritage University. He has worked as a teacher at Toppenish Middle School since 2016 and is committed to public safety, small business development, and creating a vibrant community for Yakima residents.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:council-member:felisa-gonzalez",
+      "name": "Felisa Gonzalez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.yakimawa.gov/council/assets/felisa-gonzalez-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:council-member:juliet-potrykus",
+      "name": "Juliet Potrykus",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "juliet.potrykus@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/juliet-potrykus/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/potrykus-tn-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Juliet Potrykus serves on the Yakima City Council representing District 4. She is a Yakima resident and mother of five with a background in public policy, education, housing, and community advocacy. Juliet brings experience working with legislative institutions, local courts, and community organizations, giving her a practical understanding of the systems that affect families, public safety, and economic stability. She is committed to the common good, safe streets, strong families, and affordability in Yakima.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:council-member:leo-roy",
+      "name": "Leo Roy",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 1",
+      "phone": "509-575-6000",
+      "email": "leo.roy@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/leo-roy/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/roy-tn-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:council-member:patricia-byers",
+      "name": "Patricia Byers",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "Patricia.Byers@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/patricia-byers/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/4574-tn-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Patricia Byers moved to Yakima in 1978, working at the Yakima Family YMCA before earning a Masters of Psychology and working in behavioral health and private counseling until her retirement in 2015. A dedicated volunteer, she has served on various boards and commissions, including the City of Yakima Planning Commission, and is currently a licensed pastor. She is married to Harold and has two adult children, three grandsons, and one great granddaughter.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:council-member:rick-glenn",
+      "name": "Rick Glenn",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 5",
+      "phone": "509-575-6000",
+      "email": "rick.glenn@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/rick-glenn/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/glenn-tn.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Rick Glenn is a lifelong resident of the Yakima Valley, having raised his family in Yakima. He is a landlord, involved in several non-profit organizations, and an active church member. As a City Councilman, he aims to represent the entire city of Yakima and serve its citizens.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:yakima:mayor:matt-brown",
+      "name": "Matt Brown",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Yakima City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "matt.brown@yakimawa.gov",
+      "url": "https://www.yakimawa.gov/council/matt-brown/",
+      "photo_url": "https://www.yakimawa.gov/council/assets/brown-150x150.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 North Second Street, Yakima, WA 98901",
+      "offices": [],
+      "hours": null,
+      "bio": "Matthew Brown was born in Phoenix, Arizona, and moved to Yakima in January 2006. He is married with two children and has been involved in his local community for years, with a passion for the Yakima Valley. As a small business owner, he aims to make Yakima a place where all small businesses can thrive.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Yakima",
+        "state": "WA"
+      },
+      "source_url": "https://www.yakimawa.gov/council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

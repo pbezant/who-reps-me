@@ -1,13 +1,14 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 44,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 54,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
     "Doña Ana County",
     "Rio Rancho",
     "Sandoval County",
+    "Santa Fe",
     "Santa Fe County"
   ],
   "officials": [
@@ -1373,6 +1374,316 @@
       },
       "source_url": "https://www.santafecountynm.gov/county-commissioners/lisa-cacari-stone/sponsored-legislation",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-1-councilor:alma-castro",
+      "name": "Alma Castro",
+      "office": "District 1 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 1",
+      "phone": "505-531-7612",
+      "email": "agcastro@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-alma-castro",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/BusinessPortraits%C2%A9danielquatphotographyrt-alma_DSC3525-_copy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave P.O. Box 909 Santa Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Alma G. Castro is a District One City Councilor, community organizer, and communications professional with more than a decade of experience advancing workers’ rights, economic justice, and community-led development. Born and raised in Santa Fe, Councilor Castro brings a background rooted in organizing, education, and entrepreneurship to her role in local government. As public servant, Castro is committed to transparent governance, equitable economic development, and policies that uplift working families.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-1-councilor:patricia-feghali",
+      "name": "Patricia Feghali",
+      "office": "District 1 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 1",
+      "phone": "505-955-6813",
+      "email": "pcfeghali@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-patricia-feghali",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/_DSC9347.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave P.O. Box 909 Santa Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Patricia \"Pat\" Feghali (pronounced \"fig-alley\") is a lawyer and urban planner with a long history of civic engagement and public service. Before being elected to City Council in District 1 in 2025 she spent four years working as an Assistant City Attorney for the City of Santa Fe. She began spending time in Santa Fe in the mid-1990s and moved here with her family in 2019.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-2-councilor:elizabeth-barrett",
+      "name": "Elizabeth Barrett",
+      "office": "District 2 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 2",
+      "phone": "505-469-4693",
+      "email": "eabarrett@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-elizabeth-barrett",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/_DSC9242.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave\nP.O. Box 909\nSanta Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Elizabeth Barrett is a social worker and educator with over 20 years of public service experience, including work in schools, domestic violence prevention, and with veterans. She moved to New Mexico in 2003 and earned her Master's degree in social work in 2005. Liz is married with two children and is actively involved in the community as a soccer coach and Special Olympics program runner.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-2-councilor:paul-c.-bustamante",
+      "name": "Paul C. Bustamante",
+      "office": "District 2 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 2",
+      "phone": "505-955-6816",
+      "email": "pcbustamante@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-paul-c-bustamante",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/Councilor_Bustamante-Edited-1-2026_%281%29.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave P.O. Box 909 Santa Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Bustamante was born and raised in Albuquerque and comes from a family dedicated to public service. He served 8 years in the United States Air Force and has 24 years experience working for the federal government as a Systems Analyst and Security Analyst. Paul holds degrees from the Community College of the Air Force, University of New Mexico, and University of Southern Maine, and is a dedicated husband and father of three.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-3-councilor:lee-garcia",
+      "name": "Lee Garcia",
+      "office": "District 3 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 3",
+      "phone": "505-955-6814",
+      "email": "lagarcia@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-lee-garcia",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/Final-Councilor-Lee-Garcia-Image-for-web-2.gif",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave\nP.O. Box 909\nSanta Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Lee A. Garcia is a 20-year resident of Santa Fe’s District 3, elected to the governing body on November 2, 2021, with a primary goal to provide strong leadership and unite people for District 3. A successful business owner, he has managed Garcia Tire LLC since 1999 and holds a master's degree in business administration. Councilor Garcia is a fervent advocate for community involvement, having served on the City of Santa Fe Planning Commission and as an active member of the Knights of Columbus.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-3-councilor:pilar-f.h.-faulkner",
+      "name": "Pilar F.H. Faulkner",
+      "office": "District 3 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 3",
+      "phone": "505-955-6818",
+      "email": "pfhfaulkner@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-pilar-faulkner",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/BusinessPortraits%C2%A9danielquatphotographyrt-faulkner-DSC3430-_copy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave P.O. Box 909 Santa Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Pilar Faulkner brings more than 20 years of experience in government affairs, policy development, and complex negotiations to her role as City Councilor for District 3. A northern New Mexico native and Pojoaque High School graduate, she has dedicated her career to public service and delivering meaningful outcomes for the communities she serves. As City Councilor, Pilar works to advance thoughtful legislation, guide responsible budgeting, and engage residents on the issues that matter most to their neighborhoods.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-4-councilor:amanda-chavez",
+      "name": "Amanda Chavez",
+      "office": "District 4 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 4",
+      "phone": "505-955-6811",
+      "email": "acchavez@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-chavez",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/BusinessPortraits%C2%A9danielquatphotographyrt-amanda2_DSC3458-_copy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave\nP.O. Box 909\nSanta Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor Chavez is a mother, educator, community servant, and mental health advocate. She was born and raised on the south side of Santa Fe by her parents, Eliseo and Tomasita Chavez, who are retired from the New Mexico state government. Councilor Chavez attended Sweeney Elementary School and, Turquoise Trail Elementary School, Capshaw Middle School and graduated from Santa Fe High School in 2003.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:district-4-councilor:jamie-cassutt",
+      "name": "Jamie Cassutt",
+      "office": "District 4 Councilor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": "District 4",
+      "phone": "505-955-6817",
+      "email": "jcassutt@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/councilor-cassutt",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/BusinessPortraits%C2%A9danielquatphotographyrt-jamie_DSC3639-_1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave\nP.O. Box 909\nSanta Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Jamie Cassutt was raised in Santa Fe and educated in Santa Fe’s public schools, graduating from Santa Fe High School in 2003. After spending over a decade on the West Coast for higher education and to gain experience in the public health field, she returned to Santa Fe to raise her son in her home community. As a public health professional, Jamie views all public policy as healthy policy and is committed to working for the welfare of all Santa Feans.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:mayor:michael-j.-garcia",
+      "name": "Michael J. Garcia",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": null,
+      "phone": "505-955-6337",
+      "email": "mayor@santafenm.gov",
+      "url": "https://santafenm.gov/elected-officials/mayor-michael-j-garcia",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/_DSC9317.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 Lincoln Ave\nP.O. Box 909\nSanta Fe, NM 87504",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Michael J. Garcia was born and raised in Santa Fe, serving as City Councilor for District 2 before being elected Mayor. His public service career spans nearly two decades, focused on providing critical services to community members in need. He holds a bachelor's degree in political science and a master's degree in public administration from the University of New Mexico.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:santa-fe:municipal-court-judge:chad-d.-chittum",
+      "name": "Chad D. Chittum",
+      "office": "Municipal Court Judge",
+      "level": "local",
+      "body": "Santa Fe City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://santafenm.gov/elected-officials/chad-d-chittum",
+      "photo_url": "https://santafenm.gov/uploads/images/misc/city_council_finals_dq_blog.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2511 Camino Entrada\nSanta Fe, NM 87507",
+      "offices": [],
+      "hours": null,
+      "bio": "The Honorable Chad D. Chittum was elected on November 7th, 2023, as the Presiding Judge of the Santa Fe Municipal Court. Prior to being elected, he served as the City of Santa Fe Municipal Court Prosecutor, Staff Attorney, and Pro-tem Judge. Judge Chittum received his Juris Doctor degree from St. Mary’s University and was admitted to the State Bar of New Mexico in 2012.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Santa Fe",
+        "state": "NM"
+      },
+      "source_url": "https://santafenm.gov/elected-officials",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

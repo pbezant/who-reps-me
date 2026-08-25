@@ -1,9 +1,10 @@
 {
   "state": "AK",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 1,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 2,
   "cities": [
-    "Anchorage Municipality"
+    "Anchorage Municipality",
+    "Fairbanks North Star Borough"
   ],
   "officials": [
     {
@@ -35,6 +36,37 @@
       },
       "source_url": "https://www.muni.org/Departments/Mayor/Pages/default.aspx",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ak:fairbanks-north-star-borough:borough-mayor:grier-hopkins",
+      "name": "Grier Hopkins",
+      "office": "Borough Mayor",
+      "level": "county",
+      "body": "Fairbanks North Star Borough Commissioners Court",
+      "district": null,
+      "phone": "907-459-1000",
+      "email": null,
+      "url": "https://www.fnsb.gov/740/Meet-Our-Mayor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "907 Terminal Street Fairbanks, AK 99701",
+      "offices": [],
+      "hours": "Monday through Friday: 8:00 AM to 5:00 PM",
+      "bio": "Mayor Grier Hopkins was born and raised in Fairbanks, Alaska. He grew up in Goldstream and currently resides in Fairbanks with his wife Kristina Miller and daughter, Isidora.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fairbanks North Star Borough",
+        "state": "AK"
+      },
+      "source_url": "https://www.fnsb.gov/740/Meet-Our-Mayor",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

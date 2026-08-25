@@ -1,9 +1,10 @@
 {
   "state": "KS",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 27,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 37,
   "cities": [
     "Kansas City",
+    "Leavenworth County",
     "Wichita",
     "Wyandotte County"
   ],
@@ -316,6 +317,316 @@
       },
       "source_url": "https://www.wycokck.org/Departments/Board-of-Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:commissioner:doug-smith",
+      "name": "Doug Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": "3rd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:commissioner:jeff-culbertson",
+      "name": "Jeff Culbertson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": "1st District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:commissioner:mike-smith",
+      "name": "Mike Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": "4th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:commissioner:mike-stieben",
+      "name": "Mike Stieben",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": "5th District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:commissioner:vicky-kaaz",
+      "name": "Vicky Kaaz",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": "2nd District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:county-attorney:todd-thompson",
+      "name": "Todd Thompson",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:county-clerk:janet-klasinski",
+      "name": "Janet Klasinski",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:county-sheriff:andy-dedeke",
+      "name": "Andy Dedeke",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:county-treasurer:janice-van-parys",
+      "name": "Janice Van Parys",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:leavenworth-county:register-of-deeds:terrilois-mashburn",
+      "name": "TerriLois Mashburn",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Leavenworth County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 Walnut Street Leavenworth, KS 66048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leavenworth County",
+        "state": "KS"
+      },
+      "source_url": "https://www.leavenworthcounty.gov/government/index.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
