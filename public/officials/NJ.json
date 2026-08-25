@@ -1,8 +1,10 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 46,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 55,
   "cities": [
+    "Cape May County",
+    "Clifton",
     "Essex County",
     "Gloucester County",
     "Hudson County",
@@ -12,6 +14,285 @@
     "Paterson"
   ],
   "officials": [
+    {
+      "id": "nj:cape-may-county:commissioner-liaison:leonard-c.-desiderio",
+      "name": "Leonard C. Desiderio",
+      "office": "Commissioner Liaison",
+      "level": "county",
+      "body": "Cape May County Commissioners Court",
+      "district": null,
+      "phone": "609-465-7806",
+      "email": "len.desiderio@co.cape-may.nj.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4 Moore Road Cape May Court House, NJ 08210",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cape May County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.capemaycountynj.gov/1613/Government-Records---Bridge-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:cape-may-county:executive-director:kevin-lare",
+      "name": "Kevin Lare",
+      "office": "Executive Director",
+      "level": "county",
+      "body": "Cape May County Commissioners Court",
+      "district": null,
+      "phone": "609-465-7806",
+      "email": "kevin.lare@co.cape-may.nj.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4 Moore Road Cape May Court House, NJ 08210",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cape May County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.capemaycountynj.gov/1613/Government-Records---Bridge-Commission",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilman:antonio-latona",
+      "name": "Antonio Latona",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24563",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilman:chris-damato",
+      "name": "Chris D'Amato",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24559",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilman:joseph-kolodziej",
+      "name": "Joseph Kolodziej",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24562",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilman:william-gibson",
+      "name": "William Gibson",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24560",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilwoman:mary-sadrakula",
+      "name": "Mary Sadrakula",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24565",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:councilwoman:rosemary-pino",
+      "name": "Rosemary Pino",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24564",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:clifton:mayor:raymond-grabowski",
+      "name": "Raymond Grabowski",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Clifton City Council",
+      "district": null,
+      "phone": "973-470-5757",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cliftonnj.org/ImageRepository/Document?documentID=24561",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "900 Clifton Avenue Clifton, NJ 07013",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clifton",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cliftonnj.org/101/Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
     {
       "id": "nj:essex-county:essex-county-executive:joseph-n.-divincenzo,-jr.",
       "name": "Joseph N. DiVincenzo, Jr.",

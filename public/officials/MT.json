@@ -1,9 +1,10 @@
 {
   "state": "MT",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 11,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 22,
   "cities": [
-    "Billings"
+    "Billings",
+    "Cascade County"
   ],
   "officials": [
     {
@@ -345,6 +346,347 @@
       },
       "source_url": "https://www.billingsmt.gov/m/directory/department?did=3",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:county-commissioner-(ex-officio-senior-advisory-council-member):james-l.-larson",
+      "name": "James L. Larson",
+      "office": "County Commissioner (Ex-Officio Senior Advisory Council Member)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(aging-community-interest):lynette-scriver-colburn",
+      "name": "Lynette Scriver-Colburn",
+      "office": "Senior Advisory Council Member (Aging Community Interest)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(caregiver/guardian):julie-demarais",
+      "name": "Julie Demarais",
+      "office": "Senior Advisory Council Member (Caregiver/Guardian)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(community-member):carol-j.-boughton",
+      "name": "Carol J. Boughton",
+      "office": "Senior Advisory Council Member (Community Member)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(community-member):judy-donofrio",
+      "name": "Judy Donofrio",
+      "office": "Senior Advisory Council Member (Community Member)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(community-member):kathryn-hansen",
+      "name": "Kathryn Hansen",
+      "office": "Senior Advisory Council Member (Community Member)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(experienced-community-member):laurie-glover",
+      "name": "Laurie Glover",
+      "office": "Senior Advisory Council Member (Experienced Community Member)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(foster-grandparent):frances-frankie-christiansen",
+      "name": "Frances \"Frankie\" Christiansen",
+      "office": "Senior Advisory Council Member (Foster Grandparent)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(health-care-provider):amee-ellsworth",
+      "name": "Amee Ellsworth",
+      "office": "Senior Advisory Council Member (Health Care Provider)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(individual-interested-in-aging-population):shannon-wilson",
+      "name": "Shannon Wilson",
+      "office": "Senior Advisory Council Member (Individual Interested in Aging Population)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:cascade-county:senior-advisory-council-member-(supportive-services-provider):bob-meyers",
+      "name": "Bob Meyers",
+      "office": "Senior Advisory Council Member (Supportive Services Provider)",
+      "level": "county",
+      "body": "Cascade County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cascade County",
+        "state": "MT"
+      },
+      "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     }
   ]

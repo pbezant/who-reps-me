@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-24T05:03:33.382Z",
-  "count": 152,
+  "generated_at": "2026-08-25T05:07:25.719Z",
+  "count": 178,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -16,14 +16,18 @@
     "Fayetteville",
     "Forsyth County",
     "Gaston County",
+    "Gastonia",
+    "Greenville",
     "Mecklenburg County",
     "Moore County",
+    "Nash County",
     "New Hanover County",
     "Onslow County",
     "Orange County",
     "Pitt County",
     "Raleigh",
     "Randolph County",
+    "Rockingham County",
     "Rowan County",
     "Wayne County",
     "Wilmington"
@@ -569,7 +573,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -631,7 +635,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -662,7 +666,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -724,7 +728,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -2071,6 +2075,440 @@
       "confidence": 1
     },
     {
+      "id": "nc:gastonia:council-member:angela-dreher",
+      "name": "Angela Dreher",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 4",
+      "phone": "City Office: 704-866-6720, Home: 704-460-0773",
+      "email": "ward4.dreher@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/ward-4.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/AngelaDreher-D2110244-Edit_Website.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Angela Dreher is a native of Gastonia and a lifelong resident, elected to serve Ward 4 on November 4, 2025. She holds a Bachelor of Arts in Accounting from Belmont Abbey College and a master’s degree in social work from the University of North Carolina at Charlotte.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gastonia:council-member:demetrios-koutsoupias",
+      "name": "Demetrios Koutsoupias",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 1",
+      "phone": "City Office: 704-866-6720, Home: 704-747-1177",
+      "email": "ward1.koutsoupias@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/ward-1.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/Councilman_Demetrios_Koutsoupias_6-20-2024b.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "Demetrios Koutsoupias was appointed to fill the vacant seat for Ward 1 by the Gastonia City Council on June 18, 2024. He is a highly accomplished professional with diverse leadership experience in the public and private sectors, including local municipal government. He is the owner of Georgio’s Restaurant in Cramerton, NC performing various duties related to finance, marketing, budgeting, and community outreach.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gastonia:council-member:donyel-barber",
+      "name": "Donyel Barber",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 6",
+      "phone": "City Office: 704-866-6720, Home: 704-460-4517",
+      "email": "ward6.barber@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/ward-6.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/DonyellBarber-D2059663-Edit.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "Donyel B. Barber, a Spelman College graduate, has a background in child protective services and non-profit leadership, currently serving as Director of Health Equity Initiatives at Kintegra Health. In 2019, she made history as the first African American female elected to Gastonia's city council, where she is now serving her second term. She is committed to promoting equity and opportunity for all people in her community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gastonia:council-member:glenn-silverman",
+      "name": "Glenn Silverman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 2",
+      "phone": "City Office: 704-866-6720, Home: 704-769-0636",
+      "email": "ward2.silverman@gastonianc.gov",
+      "url": null,
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/GlennSilverman-D2140309-Edit-Website.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nc:gastonia:council-member:james-gallagher",
+      "name": "James Gallagher",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 3",
+      "phone": "City Office: 704-866-6720, Home: 704-854-9747",
+      "email": "ward3.gallagher@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/ward-3.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/JimGallagher-D2150788-Edit_WEB.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "James Gallagher is married to Charmaine for 35 years with two adult children, and has resided in Gastonia for 30 years. He holds a B.S. in Business Administration from Monmouth University and works as a Supervisory Principal for Wells Fargo Bank. Gallagher is actively involved in his church, Boy Scouts, Habitat for Humanity, and youth sports.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gastonia:council-member:jennifer-m.-stepp",
+      "name": "Jennifer M. Stepp",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": "Ward 5",
+      "phone": "City Office: 704-866-6720, Home: 704-860-3088",
+      "email": "ward5.stepp@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/ward-5.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/JenniferStepp-ImageSource-Small-20220728.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Jennifer Mincey Stepp is a lifelong resident of Gastonia and a dedicated public servant. A 1982 honor graduate of Hunter Huss High School, she earned her B.S. degree in Elementary Education from Gardner Webb University, graduating Magna Cum Laude in 1986. Jennifer has a rich history in education, having taught in both Gaston County Schools and Gaston Christian School.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:gastonia:mayor:richard-franks",
+      "name": "Richard Franks",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Gastonia City Council",
+      "district": null,
+      "phone": "City Office: 704-866-6720, Phone: 704-284-1985",
+      "email": "mayor.franks@gastonianc.gov",
+      "url": "https://www.gastonianc.gov/mayor-richard-franks.html",
+      "photo_url": "https://www.gastonianc.gov/images/files/city_council_mayor/images/RichardFranks-D2250418-Edit_website.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 181 S. South Street, Gastonia, NC 28052",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Richard Franks, a Gastonia native, was elected Gastonia’s 44th mayor in November 2023. He graduated from Hunter Huss High school and studied human services at the University of North Carolina-Charlotte. A retired businessman, he previously owned a screen-printing and embroidery company in Gastonia.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Gastonia",
+        "state": "NC"
+      },
+      "source_url": "https://www.gastonianc.gov/government/city-council-info.html",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:council-member-at-large:portia-willis",
+      "name": "Portia Willis",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": null,
+      "phone": "252-329-2466",
+      "email": "pwillis@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1327",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:council-member:arjenae-jones",
+      "name": "Arjenae Jones",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 1",
+      "phone": "252-329-4420",
+      "email": "ajones@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1328",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:council-member:les-robinson",
+      "name": "Les Robinson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 5",
+      "phone": "252-329-4420",
+      "email": "lrobinson@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1099",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:council-member:matthew-scully",
+      "name": "Matthew Scully",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 4",
+      "phone": "252-329-4420",
+      "email": "mscully@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1098",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:council-member:seth-hardee",
+      "name": "Seth Hardee",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 3",
+      "phone": "252-329-4420",
+      "email": "shardee@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1326",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:mayor-pro-tem:tonya-foreman",
+      "name": "Tonya Foreman",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 2",
+      "phone": "252-329-4420",
+      "email": "tforeman@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1086",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:greenville:mayor:p.j.-connelly",
+      "name": "P.J. Connelly",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": null,
+      "phone": "252-329-4419",
+      "email": "mayor@greenvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.greenvillenc.gov/ImageRepository/Document?documentId=1094",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 West Fifth Street Greenville, NC 27835",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "NC"
+      },
+      "source_url": "https://www.greenvillenc.gov/183/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:mecklenburg-county:county-commissioner:arthur-griffin",
       "name": "Arthur Griffin",
       "office": "County Commissioner",
@@ -2626,6 +3064,223 @@
       },
       "source_url": "https://www.moorecountync.gov/328/Board-of-Commissioners",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:chairman,-commissioner:marvin-c.-arrington",
+      "name": "Marvin C. Arrington",
+      "office": "Chairman, Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 1",
+      "phone": "252-407-8376 (Home), 252-314-7418 (Cell)",
+      "email": "marvin.arrington@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=8493",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:commissioner:fred-belfield,-jr.",
+      "name": "Fred Belfield, Jr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 2",
+      "phone": "252-443-6786",
+      "email": "fred.belfield@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=4968",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:commissioner:gwen-wilkins",
+      "name": "Gwen Wilkins",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 6",
+      "phone": "252-883-4184",
+      "email": "gwen.wilkins@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=13007",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:commissioner:j.-wayne-outlaw",
+      "name": "J. Wayne Outlaw",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 5",
+      "phone": "252-904-0479",
+      "email": "wayne.outlaw@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=4971",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:commissioner:robbie-b.-davis",
+      "name": "Robbie B. Davis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 7",
+      "phone": "252-937-8891 (Home), 252-977-6680 ext. 31 (Office), 252-813-1508 (Cell)",
+      "email": "robbie.davis@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=4970",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:commissioner:sue-leggett",
+      "name": "Sue Leggett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 4",
+      "phone": "252-459-4961",
+      "email": "sue.leggett@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=13006",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:nash-county:vice-chair,-commissioner:freddy-howell",
+      "name": "Freddy Howell",
+      "office": "Vice-Chair, Commissioner",
+      "level": "county",
+      "body": "Nash County Commissioners Court",
+      "district": "District 3",
+      "phone": "984-381-4850",
+      "email": "freddy.howell@nashcountync.gov",
+      "url": null,
+      "photo_url": "https://www.nashcountync.gov/ImageRepository/Document?documentID=12503",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Nash County 120 West Washington Street Suite 3072 Nashville, NC 27856",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nash County",
+        "state": "NC"
+      },
+      "source_url": "https://www.nashcountync.gov/321/Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -4093,6 +4748,161 @@
       },
       "source_url": "https://www.randolphcountync.gov/383/County-Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rockingham-county:chairman:houston-barrow",
+      "name": "Houston Barrow",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Rockingham County Commissioners Court",
+      "district": null,
+      "phone": "336-347-8009",
+      "email": null,
+      "url": null,
+      "photo_url": "https://files.municipalone.com/rockinghamcounty-nc/image1364033641121922pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "349 Garden Rd. Eden, NC 27288",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockingham County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rockingham-county:commissioner:jeff-kallam",
+      "name": "Jeff Kallam",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockingham County Commissioners Court",
+      "district": null,
+      "phone": "336-362-4021",
+      "email": null,
+      "url": null,
+      "photo_url": "https://files.municipalone.com/rockinghamcounty-nc/image1358103728022725am.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "282 Harrell Rd Madison, NC 27025",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockingham County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rockingham-county:commissioner:kevin-berger",
+      "name": "Kevin Berger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockingham County Commissioners Court",
+      "district": null,
+      "phone": "336-932-4767",
+      "email": null,
+      "url": null,
+      "photo_url": "https://files.municipalone.com/rockinghamcounty-nc/image1074645072920PM.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "371 Hush Hickory Trace Reidsville, NC 27320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockingham County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rockingham-county:commissioner:mark-f.-richardson",
+      "name": "Mark F. Richardson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockingham County Commissioners Court",
+      "district": null,
+      "phone": "336-549-0246",
+      "email": null,
+      "url": null,
+      "photo_url": "https://files.municipalone.com/rockinghamcounty-nc/image1073813072920pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4798 Ellisboro Road Stokesdale, NC 27357",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockingham County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rockingham-county:vice-chairman:charlie-g.-hall,-iii",
+      "name": "Charlie G. Hall, III",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Rockingham County Commissioners Court",
+      "district": null,
+      "phone": "336-932-2491",
+      "email": null,
+      "url": null,
+      "photo_url": "https://files.municipalone.com/rockinghamcounty-nc/image1357112231120821am.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "221 Calvary Rd. Stoneville, NC 27048",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockingham County",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

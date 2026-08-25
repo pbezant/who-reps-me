@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-24T05:03:33.382Z",
-  "count": 286,
+  "generated_at": "2026-08-25T05:07:25.719Z",
+  "count": 321,
   "cities": [
     "Abilene",
     "Allen",
@@ -13,18 +13,21 @@
     "Bee Cave",
     "Bexar County",
     "Brownsville",
+    "Bryan",
     "Caldwell County",
     "Cameron County",
     "Collin County",
     "Comal County",
     "Conroe",
     "Corpus Christi",
+    "Coryell County",
     "Dallas County",
     "Denton County",
     "El Paso",
     "El Paso County",
     "Elgin",
     "Fort Bend County",
+    "Frisco",
     "Garland",
     "Granbury",
     "Grayson County",
@@ -43,6 +46,7 @@
     "McAllen",
     "McKinney",
     "McLennan County",
+    "Mission",
     "Montgomery County",
     "New Braunfels",
     "Parker County",
@@ -54,8 +58,10 @@
     "Smithville",
     "Sugar Land",
     "Tarrant County",
+    "Temple",
     "Travis County",
     "Waco",
+    "Wichita Falls",
     "Williamson County"
   ],
   "officials": [
@@ -1410,6 +1416,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:bryan:council-member-–-mayor-pro-tem:james-edge",
+      "name": "James Edge",
+      "office": "Councilmember – Mayor Pro Tem",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "Single Member District 4",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/cw3hjbxs/jamesedge.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:council-member:jared-salvato",
+      "name": "Jared Salvato",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "Single Member District 3",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/sctl3100/jaredsalvato.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:council-member:kevin-boriskie",
+      "name": "Kevin Boriskie",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "At Large, Place 6",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/b0xd1knd/kevinboriskie.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:council-member:marca-ewers-shurtleff",
+      "name": "Marca Ewers-Shurtleff",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "Single Member District 5",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/zk0jzkcw/marcaewers-shurtleff.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:council-member:paul-torres",
+      "name": "Paul Torres",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "Single Member District 1",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/wrwdtd2r/paultorres.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:council-member:ray-arrington",
+      "name": "Ray Arrington",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": "Single Member District 2",
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/d52hf4gy/rayarrington.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:bryan:mayor:bobby-gutierrez",
+      "name": "Bobby Gutierrez",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bryan City Council",
+      "district": null,
+      "phone": "979-209-5008",
+      "email": "CouncilWeb@bryantx.gov",
+      "url": null,
+      "photo_url": "https://media-002-us.cdn.govstack.com/bryantx-004-us/media/kulmodab/mayorbobbygutierrez.jpg?width=112&amp;height=150&format=webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bryan",
+        "state": "TX"
+      },
+      "source_url": "https://www.bryantx.gov/mayor-city-council/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:caldwell-county:commissioner:b.-j.-westmoreland",
       "name": "B. J. Westmoreland",
       "office": "Commissioner",
@@ -1426,7 +1649,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1449,7 +1672,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1463,7 +1686,7 @@
       "body": "Caldwell County Commissioners Court",
       "district": "Precinct 3",
       "phone": "512-618-2865",
-      "email": null,
+      "email": "ed.theriot@co.caldwell.tx.us",
       "url": null,
       "photo_url": null,
       "address": "110 S. Main St., Room 103 Lockhart, TX 78644",
@@ -1472,7 +1695,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-20T05:29:14.908Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1526,7 +1749,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2126,6 +2349,161 @@
       },
       "source_url": "https://www.cctexas.com/#",
       "extracted_at": "2026-08-20T21:18:56.640Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:coryell-county:commissioner:keith-taylor",
+      "name": "Keith Taylor",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Coryell County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "254-248-4184",
+      "email": "keith.taylor@coryellcountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Coryell County Main Street Annex Commissioners’ Courtroom and Voting Center 801 E. Leon Street Gatesville, Texas 76528",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coryell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.coryellcounty.org/page/coryell.Commissioner.Court",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:coryell-county:commissioner:kyle-matthews",
+      "name": "Kyle Matthews",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Coryell County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "254-206-0663",
+      "email": "kyle.matthews@coryellcountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Coryell County Main Street Annex Commissioners’ Courtroom and Voting Center 801 E. Leon Street Gatesville, Texas 76528",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coryell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.coryellcounty.org/page/coryell.Commissioner.Court",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:coryell-county:commissioner:ryan-basham",
+      "name": "Ryan Basham",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Coryell County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "254-865-4917",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Coryell County Main Street Annex Commissioners’ Courtroom and Voting Center 801 E. Leon Street Gatesville, Texas 76528",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coryell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.coryellcounty.org/page/coryell.Commissioner.Court",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:coryell-county:commissioner:scott-weddle",
+      "name": "Scott Weddle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Coryell County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "254-410-3389",
+      "email": "scott.weddle@coryellcountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Coryell County Main Street Annex Commissioners’ Courtroom and Voting Center 801 E. Leon Street Gatesville, Texas 76528",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coryell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.coryellcounty.org/page/coryell.Commissioner.Court",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:coryell-county:county-judge:roger-miller",
+      "name": "Roger Miller",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Coryell County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Coryell County Main Street Annex Commissioners’ Courtroom and Voting Center 801 E. Leon Street Gatesville, Texas 76528",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coryell County",
+        "state": "TX"
+      },
+      "source_url": "https://www.coryellcounty.org/page/coryell.Commissioner.Court",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -3056,6 +3434,223 @@
       },
       "source_url": "https://www.fortbendcountytx.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:council-member:ann-anderson",
+      "name": "Ann Anderson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": "Place 1",
+      "phone": "972-292-5051",
+      "email": null,
+      "url": "https://www.friscotexas.gov/2024/Ann-Anderson-Place-1",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=40619",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Ann Anderson was elected to the Frisco City Council in a special election held in January 2026 to represent Place 1. A longtime Frisco resident and small business owner, Ann has spent more than 20 years actively serving the Frisco community through civic leadership, nonprofit involvement, and volunteer service. She is the owner of Ann Anderson Insurance Agency and is married to Thor with two children.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:council-member:brittany-colberg",
+      "name": "Brittany Colberg",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": "Place 6",
+      "phone": "972-292-5056",
+      "email": null,
+      "url": "https://www.friscotexas.gov/2049/Brittany-Colberg-Place-6",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=42452",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Brittany Colberg is a dedicated community leader, business professional, and 26-year Frisco resident who has spent years serving the city through volunteer leadership, citizen engagement, and municipal governance. She brings a deep understanding of Frisco's growth, challenges, and opportunities, along with a commitment to thoughtful, transparent, and resident-focused leadership.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:council-member:burt-thakur",
+      "name": "Burt Thakur",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": "Place 2",
+      "phone": "972-292-5052",
+      "email": null,
+      "url": "https://www.friscotexas.gov/1969/Burt-Thakur-Place-2",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=42453",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:council-member:jared-elad",
+      "name": "Jared Elad",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": "Place 4",
+      "phone": "972-292-5054",
+      "email": null,
+      "url": "https://www.friscotexas.gov/1970/Jared-Elad-Place-4",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=42455",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to Frisco City Council : 2025 Current Term Expires : May 2028. Complete bio coming soon.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:deputy-mayor-pro-tem:angelia-pelham",
+      "name": "Angelia Pelham",
+      "office": "Deputy Mayor Pro Tem",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": null,
+      "phone": "972-292-5053",
+      "email": null,
+      "url": "https://www.friscotexas.gov/1731/Angelia-Pelham-Deputy-Mayor-Pro-Tem",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=25525",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Angelia Pelham was elected to the Frisco City Council in June 2021 and currently serves as Deputy Mayor Pro Tem. She has a 35-year career as a Human Resources Executive, holding roles at companies like Walt Disney World, PepsiCo, and Cinemark Holdings. Pelham is also CEO of Real-Talk Executive Coaching & Development and is actively involved in community leadership, including the Linking Cultures of Frisco non-profit.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:mayor-pro-tem:laura-rummel",
+      "name": "Laura Rummel",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": null,
+      "phone": "972-292-5055",
+      "email": null,
+      "url": "https://www.friscotexas.gov/1773/Laura-Rummel-Mayor-Pro-Tem",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=42456",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Laura Rummel was elected in 2022 and re-elected in 2023, serving as Mayor Pro Tem and Council Member, Place 5. She has championed initiatives like increasing homestead tax exemptions, implementing the Senior Tax Freeze, and securing state funding for Grand Park. With over 20 years in consumer products and financial technology, she holds an Executive MBA from Southern Methodist University.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:frisco:mayor:mark-hill",
+      "name": "Mark Hill",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Frisco City Council",
+      "district": null,
+      "phone": "972-292-5050",
+      "email": null,
+      "url": "https://www.friscotexas.gov/2054/Mayor-Mark-Hill",
+      "photo_url": "https://www.friscotexas.gov/ImageRepository/Document?documentId=42457",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6101 Frisco Square Boulevard, Frisco, Texas 75034",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Mark Hill was elected in June 2026. He previously served on the Frisco Independent School District Board of Trustees and the Frisco Economic Development Corporation board. A corporate attorney and Managing Partner at Henry Hill, PLLC, he earned his law degree from St. Mary’s University and a BBA in Finance from Texas A&M University.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Frisco",
+        "state": "TX"
+      },
+      "source_url": "https://www.friscotexas.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -4668,16 +5263,19 @@
       "district": "Place 5",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=158",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=4506",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:council-member:annette-sponseller",
@@ -4688,16 +5286,19 @@
       "district": "Place 4",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=157",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=6215",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:council-member:michael-herrera",
@@ -4708,16 +5309,19 @@
       "district": "Place 2",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=155",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=4355",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:council-member:natomi-blair",
@@ -4728,16 +5332,19 @@
       "district": "Place 3",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=156",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=1533",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:council-member:stephen-chang",
@@ -4748,36 +5355,42 @@
       "district": "Place 1",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=154",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=4507",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:mayor-pro-tem/council-member:becki-ross",
       "name": "Becki Ross",
-      "office": "Mayor Pro Tem / Council Member",
+      "office": "Mayor Pro Tem/Council Member",
       "level": "local",
       "body": "Leander City Council",
       "district": "Place 6",
       "phone": null,
       "email": null,
-      "url": null,
-      "photo_url": null,
-      "address": null,
+      "url": "https://www.leandertx.gov/m/directory/employee?eid=159",
+      "photo_url": "https://www.leandertx.gov/ImageRepository/Document?documentID=1537",
+      "address": "105 N Brushy Street Leander, Texas 78641",
       "jurisdiction": {
         "city": "Leander",
         "state": "TX"
       },
       "source_url": "https://www.leandertx.gov/citycouncil",
-      "extracted_at": "2026-08-18T17:11:03.748Z",
-      "confidence": 1
+      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "confidence": 1,
+      "social": {},
+      "offices": [],
+      "bio_checked_at": null
     },
     {
       "id": "tx:leander:mayor:nacole-thompson",
@@ -5591,6 +6204,130 @@
       "confidence": 1
     },
     {
+      "id": "tx:mission:council-member:jessica-ortega",
+      "name": "Jessica Ortega",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mission City Council",
+      "district": "Place 1",
+      "phone": "956-580-8650",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.missiontexas.us/ImageRepository/Document?documentID=1085",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 E 8th Street Mission, TX 78572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mission",
+        "state": "TX"
+      },
+      "source_url": "https://www.missiontexas.us/160/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mission:council-member:jose-alberto-vela",
+      "name": "Jose Alberto Vela",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mission City Council",
+      "district": "Place 4",
+      "phone": "956-580-8650",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.missiontexas.us/ImageRepository/Document?documentID=1568",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 E 8th Street Mission, TX 78572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mission",
+        "state": "TX"
+      },
+      "source_url": "https://www.missiontexas.us/160/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mission:council-member:marissa-ortega-gerlach",
+      "name": "Marissa Ortega Gerlach",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mission City Council",
+      "district": "Place 3",
+      "phone": "956-580-8650",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.missiontexas.us/ImageRepository/Document?documentID=1562",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 E 8th Street Mission, TX 78572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mission",
+        "state": "TX"
+      },
+      "source_url": "https://www.missiontexas.us/160/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mission:council-member:ruben-plata",
+      "name": "Ruben Plata",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mission City Council",
+      "district": "Place 2 Mayor Pro Tem",
+      "phone": "956-580-8650",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.missiontexas.us/ImageRepository/Document?documentID=1590",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 E 8th Street Mission, TX 78572",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mission",
+        "state": "TX"
+      },
+      "source_url": "https://www.missiontexas.us/160/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:montgomery-county:commissioner:charlie-riley",
       "name": "Charlie Riley",
       "office": "Commissioner",
@@ -5779,7 +6516,7 @@
     {
       "id": "tx:new-braunfels:council-member:d.-lee-edwards",
       "name": "D. Lee Edwards",
-      "office": "Councilmember",
+      "office": "City Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 3",
@@ -5804,13 +6541,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:mary-ann-labowski",
       "name": "Mary Ann Labowski",
-      "office": "Councilmember",
+      "office": "City Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 5",
@@ -5835,13 +6572,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:michael-capizzi",
       "name": "Michael Capizzi",
-      "office": "Councilmember",
+      "office": "City Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 2",
@@ -5866,13 +6603,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:toni-carter",
       "name": "Toni Carter",
-      "office": "Councilmember",
+      "office": "City Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 1",
@@ -5897,7 +6634,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-21T05:32:50.234Z",
+      "extracted_at": "2026-08-25T05:07:25.719Z",
       "confidence": 1
     },
     {
@@ -7704,6 +8441,161 @@
       "confidence": 1
     },
     {
+      "id": "tx:temple:council-member:dr.-zoe-grant",
+      "name": "Dr. Zoe Grant",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Temple City Council",
+      "district": "District 2",
+      "phone": "254-298-5700",
+      "email": "zgrant@templetx.gov",
+      "url": null,
+      "photo_url": "https://www.templetx.gov/departments/city_council/City%20Council/Grant_Zoe_2026.jpg?t=202605081606560",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 North Main Street, Ste 103 Temple, TX 76501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Temple",
+        "state": "TX"
+      },
+      "source_url": "https://www.templetx.gov/departments/city_council/meet_the_council.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:temple:council-member:mike-emmons",
+      "name": "Mike Emmons",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Temple City Council",
+      "district": "District 3",
+      "phone": "254-298-5700",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.templetx.gov/departments/city_council/City%20Council/Emmons_Mike_2026%20-%20Copy.jpg?t=202606100901120",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 North Main Street, Ste 103 Temple, TX 76501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Temple",
+        "state": "TX"
+      },
+      "source_url": "https://www.templetx.gov/departments/city_council/meet_the_council.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:temple:council-member:mike-pilkington",
+      "name": "Mike Pilkington",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Temple City Council",
+      "district": "District 4",
+      "phone": "254-298-5700",
+      "email": "mpilkington@templetx.gov",
+      "url": null,
+      "photo_url": "https://www.templetx.gov/departments/city_council/City%20Council/Pilkington_Mike_2026.jpg?t=202605081606250",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 North Main Street, Ste 103 Temple, TX 76501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Temple",
+        "state": "TX"
+      },
+      "source_url": "https://www.templetx.gov/departments/city_council/meet_the_council.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:temple:mayor-pro-tem:jessica-walker",
+      "name": "Jessica Walker",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Temple City Council",
+      "district": "District 1",
+      "phone": "254-298-5700",
+      "email": "jwalker@templetx.gov",
+      "url": null,
+      "photo_url": "https://www.templetx.gov/departments/city_council/City%20Council/Walker_Jessica_2026.jpg?t=202605081607290",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 North Main Street, Ste 103 Temple, TX 76501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Temple",
+        "state": "TX"
+      },
+      "source_url": "https://www.templetx.gov/departments/city_council/meet_the_council.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:temple:mayor:tim-davis",
+      "name": "Tim Davis",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Temple City Council",
+      "district": null,
+      "phone": "254-298-5700",
+      "email": "tdavis@templetx.gov",
+      "url": null,
+      "photo_url": "https://www.templetx.gov/departments/city_council/City%20Secretary/Davis_Tim_2026.jpg?t=202605081608400",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 North Main Street, Ste 103 Temple, TX 76501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Temple",
+        "state": "TX"
+      },
+      "source_url": "https://www.templetx.gov/departments/city_council/meet_the_council.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:travis-county:commissioner:ann-howard",
       "name": "Ann Howard",
       "office": "Commissioner",
@@ -7987,6 +8879,223 @@
       },
       "source_url": "https://www.waco-texas.com/Government/City-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member-at-large:austin-cobb",
+      "name": "Austin Cobb",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member:jeff-browning",
+      "name": "Jeff Browning",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member:mike-battaglino",
+      "name": "Mike Battaglino",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member:robert-brooks",
+      "name": "Robert Brooks",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member:tom-taylor",
+      "name": "Tom Taylor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:council-member:whitney-flack",
+      "name": "Whitney Flack",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:wichita-falls:mayor:tim-short",
+      "name": "Tim Short",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Wichita Falls City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 7th Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wichita Falls",
+        "state": "TX"
+      },
+      "source_url": "https://www.wichitafallstx.gov/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

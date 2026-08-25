@@ -1,10 +1,12 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 30,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 43,
   "cities": [
     "Cache County",
+    "Orem",
     "Salt Lake County",
+    "South Jordan",
     "St. George",
     "Utah County",
     "West Valley City"
@@ -228,6 +230,223 @@
       "confidence": 1
     },
     {
+      "id": "ut:orem:city-council:chris-killpack",
+      "name": "Chris Killpack",
+      "office": "City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": "801-420-1505",
+      "email": "ckillpack@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-Killpack-Chris-8352-819x1024.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:city-council:crystal-muhlestein",
+      "name": "Crystal Muhlestein",
+      "office": "City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": null,
+      "email": "cmuhlestein@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-Muhlestein-Crystal-8362-819x1024.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:city-council:jenn-gale",
+      "name": "Jenn Gale",
+      "office": "City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": "801-368-3852",
+      "email": "jgale@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-Gale-Jenn-8368-819x1024.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:city-council:lanae-millett",
+      "name": "LaNae Millett",
+      "office": "City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": "801-836-8733",
+      "email": "lmillett@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2024/11/unnamed-240x300-1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:city-council:quinn-mecham",
+      "name": "Quinn Mecham",
+      "office": "City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": null,
+      "email": "qmecham@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-Mecham-Quinn-8343-819x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:mayor-pro-tem,-city-council:jeff-lambson",
+      "name": "Jeff Lambson",
+      "office": "Mayor Pro Tem, City Council",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": "801-787-4306",
+      "email": "jlambson@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-Lambson-Jeff-8338-819x1024.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:orem:mayor:karen-mccandless",
+      "name": "Karen McCandless",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Orem City Council",
+      "district": null,
+      "phone": "801-724-3803",
+      "email": "kmccandless@orem.gov",
+      "url": null,
+      "photo_url": "https://orem.gov/wp-content/uploads/2026/02/2026-McCandless-Karen-8350-819x1024.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 N. State Street | Orem, UT 84057",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orem",
+        "state": "UT"
+      },
+      "source_url": "https://orem.gov/citycouncil/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "ut:salt-lake-county:chief-of-staff:andrew-roberts",
       "name": "Andrew Roberts",
       "office": "Chief of Staff",
@@ -380,6 +599,192 @@
       },
       "source_url": "https://slco.org/mayor/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:councilman:donald-j.-shelton",
+      "name": "Donald J. Shelton",
+      "office": "Councilman",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "dshelton@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5421",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:councilman:jason-t.-mcguire",
+      "name": "Jason T. McGuire",
+      "office": "Councilman",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "jmcguire@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5723",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:councilman:patrick-harris",
+      "name": "Patrick Harris",
+      "office": "Councilman",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "pharris@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:councilwoman:kathie-l.-johnson",
+      "name": "Kathie L. Johnson",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "kjohnson@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:councilwoman:tamara-zander",
+      "name": "Tamara Zander",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "tzander@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5419",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:south-jordan:mayor:dawn-r.-ramsey",
+      "name": "Dawn R. Ramsey",
+      "office": "Mayor",
+      "level": "local",
+      "body": "South Jordan City Council",
+      "district": null,
+      "phone": null,
+      "email": "dramsey@sjc.utah.gov",
+      "url": null,
+      "photo_url": "https://www.sjc.utah.gov/ImageRepository/Document?documentId=5938",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "South Jordan",
+        "state": "UT"
+      },
+      "source_url": "https://www.sjc.utah.gov/241/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

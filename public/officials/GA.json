@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 144,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 162,
   "cities": [
     "Carroll County",
     "Chatham County",
@@ -10,15 +10,18 @@
     "Columbus",
     "DeKalb County",
     "Douglas County",
+    "Floyd County",
     "Fulton County",
     "Gwinnett County",
     "Hall County",
     "Houston County",
+    "Jackson County",
     "Lowndes County",
     "Macon-Bibb County",
     "Muscogee County",
     "Newton County",
     "Richmond County",
+    "Rockdale County",
     "Savannah",
     "South Fulton",
     "Walton County"
@@ -1730,6 +1733,440 @@
       "confidence": 0.9
     },
     {
+      "id": "ga:floyd-county:chief-magistrate-judge:w.-gene-richardson",
+      "name": "W. Gene Richardson",
+      "office": "Chief Magistrate Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:clerk-of-the-superior-court:mary-hardin-thornton",
+      "name": "Mary Hardin Thornton",
+      "office": "Clerk of the Superior Court",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:commissioner,-alternate:allison-watters",
+      "name": "Allison Watters",
+      "office": "Commissioner, Alternate",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:commissioner,-committee-chair:mike-burnes",
+      "name": "Mike Burnes",
+      "office": "Commissioner, Committee Chair",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:district-attorney:leigh-patterson",
+      "name": "Leigh Patterson",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:floyd-county-coroner:gene-proctor",
+      "name": "Gene Proctor",
+      "office": "Floyd County Coroner",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:floyd-county-sheriff:dave-roberson",
+      "name": "Dave Roberson",
+      "office": "Floyd County Sheriff",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:juvenile-court-judge:steve-bennett",
+      "name": "Steve Bennett",
+      "office": "Juvenile Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:probate-court-judge:steven-r.-burkhalter",
+      "name": "Steven R. Burkhalter",
+      "office": "Probate Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:superior-court-judge:bryan-t.-johnson",
+      "name": "Bryan T. Johnson",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:superior-court-judge:john-e.-niedrach",
+      "name": "John E. Niedrach",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:superior-court-judge:kay-ann-king",
+      "name": "Kay Ann King",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:superior-court-judge:william-f.-sparks",
+      "name": "William F. Sparks",
+      "office": "Superior Court Judge",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:floyd-county:tax-commissioner:kevin-payne",
+      "name": "Kevin Payne",
+      "office": "Tax Commissioner",
+      "level": "county",
+      "body": "Floyd County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 East 4th Ave., Rome, GA 30161",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Floyd County",
+        "state": "GA"
+      },
+      "source_url": "https://www.floydcountyga.gov/board_and_committees/elected_officials.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:fulton-county:chairman:robb-pitts",
       "name": "Robb Pitts",
       "office": "Chairman",
@@ -2378,6 +2815,37 @@
       },
       "source_url": "https://www.houstoncountyga.gov/commissioner/contact-information.cms",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:jackson-county:commissioner:ty-clack",
+      "name": "Ty Clack",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Jackson County Commissioners Court",
+      "district": "District 3",
+      "phone": "706-367-1199",
+      "email": "tclack@jacksoncountygov.com",
+      "url": "https://www.jacksoncountygov.com/377/Commissioner-District-3",
+      "photo_url": "https://www.jacksoncountygov.com/ImageRepository/Document?documentID=4942",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4965 Jackson Pkwy\nJefferson, GA 30549",
+      "offices": [],
+      "hours": null,
+      "bio": "Ty Clack is a Christian, husband, and father with a successful career in sales and a passion for serving his community. A proud seventh-generation Georgian, Ty was born and raised just south of Jackson County in Lawrenceville, GA. He graduated from Central Gwinnett High School, attended the University of Georgia, and began his professional journey with PlyMarts Inc.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Jackson County",
+        "state": "GA"
+      },
+      "source_url": "https://www.jacksoncountygov.com/377/Commissioner-District-3",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {
@@ -3742,6 +4210,99 @@
       },
       "source_url": "https://www.augustaga.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:rockdale-county:chair-&-ceo:janice-van-ness",
+      "name": "JaNice Van Ness",
+      "office": "Chair & CEO",
+      "level": "county",
+      "body": "Rockdale County Commissioners Court",
+      "district": null,
+      "phone": "770-278-7001",
+      "email": "chair.vanness@rockdalecountyga.gov",
+      "url": null,
+      "photo_url": "https://www.rockdalecountyga.gov/wp-content/uploads/2025/01/Chair-JaNice-Van-Ness.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "962 Milstead Ave. Conyers, GA 30012",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockdale County",
+        "state": "GA"
+      },
+      "source_url": "https://www.rockdalecountyga.gov/rockdale-board-of-commissioners/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:rockdale-county:commissioner:doreen-williams",
+      "name": "Doreen Williams",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockdale County Commissioners Court",
+      "district": "Post 2",
+      "phone": "770-278-7001",
+      "email": "commissioner.williams@rockdalecountyga.gov",
+      "url": null,
+      "photo_url": "https://www.rockdalecountyga.gov/wp-content/uploads/2023/01/Dr.-Doreen-Williams.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "962 Milstead Ave. Conyers, GA 30012",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockdale County",
+        "state": "GA"
+      },
+      "source_url": "https://www.rockdalecountyga.gov/rockdale-board-of-commissioners/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:rockdale-county:commissioner:tuwanya-smith",
+      "name": "Tuwanya Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rockdale County Commissioners Court",
+      "district": "Post 1",
+      "phone": "770-278-7001",
+      "email": "commissioner.smith@rockdalecountyga.gov",
+      "url": null,
+      "photo_url": "https://www.rockdalecountyga.gov/wp-content/uploads/2025/01/Tuwanya-Smith-Post-1.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "962 Milstead Ave. Conyers, GA 30012",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rockdale County",
+        "state": "GA"
+      },
+      "source_url": "https://www.rockdalecountyga.gov/rockdale-board-of-commissioners/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

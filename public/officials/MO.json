@@ -1,7 +1,7 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 69,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 70,
   "cities": [
     "Cass County",
     "Clay County",
@@ -9,6 +9,7 @@
     "Greene County",
     "Jefferson County",
     "Lee's Summit",
+    "O'Fallon",
     "Springfield",
     "St. Charles County",
     "St. Louis"
@@ -1314,6 +1315,37 @@
       },
       "source_url": "https://cityofls.net/city-council",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:o'fallon:council-member:john-palmer",
+      "name": "John Palmer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "O'Fallon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "O'Fallon",
+        "state": "MO"
+      },
+      "source_url": "https://www.ofallonmo.gov/government/boards_and_commissions/convention_visitors_bureau.php",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

@@ -1,9 +1,10 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 21,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 25,
   "cities": [
     "Boone County",
+    "Campbell County",
     "Hardin County"
   ],
   "officials": [
@@ -191,6 +192,130 @@
       },
       "source_url": "https://www.boonecountyky.org/government/boone_county_fiscal_court/office_of_the_judge_executive/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:campbell-county:commissioner:brian-painter",
+      "name": "Brian Painter",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": "District 1",
+      "phone": "859-292-3838",
+      "email": "bpainter@campbellcountyky.gov",
+      "url": "https://campbellcountyky.gov/department/officials.php?structureid=23",
+      "photo_url": "https://campbellcountyky.gov/egov/images/1568658103_99575.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1098 Monmouth Street, Newport, KY 41071",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Brian Painter was first elected District 1 Commissioner in November 2010 and is currently serving his fourth term. He enjoyed a professional career in hydrogeology and was a small business owner. He holds a Bachelor of Science from Northern Kentucky University and a Master of Science from Ohio University.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "KY"
+      },
+      "source_url": "https://campbellcountyky.gov/officials/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:campbell-county:commissioner:geoff-besecker",
+      "name": "Geoff Besecker",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": "District 2",
+      "phone": "859-292-3838",
+      "email": "gbesecker@campbellcountyky.gov",
+      "url": "https://campbellcountyky.gov/department/officials.php?structureid=171",
+      "photo_url": "https://campbellcountyky.gov/egov/images/1568658124_29273.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1098 Monmouth Street, Newport, KY 41071",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Geoff Besecker was first elected District 2 Commissioner in November 2018 and is currently serving his second term. He recently retired after 28 years as a National Board Certified teacher at Campbell County High School, where he coached varsity baseball and chaired the Social Studies Department. He is actively involved in community initiatives, serving as president of the Campbell County Education Foundation and the Campbell County Kiwanis Club.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "KY"
+      },
+      "source_url": "https://campbellcountyky.gov/officials/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:campbell-county:commissioner:tom-lampe",
+      "name": "Tom Lampe",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": "District 3",
+      "phone": "859-292-3838",
+      "email": "tlampe@campbellcountyky.gov",
+      "url": "https://campbellcountyky.gov/department/officials.php?structureid=172",
+      "photo_url": "https://campbellcountyky.gov/egov/images/1568658139_27707.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1098 Monmouth Street, Newport, KY 41071",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Lampe was elected District 3 Commissioner in November 2014 and is currently serving his third term. He is Vice President of New Sales Development with Hub International, an employee benefits consulting and insurance services firm.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "KY"
+      },
+      "source_url": "https://campbellcountyky.gov/officials/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:campbell-county:judge/executive:steve-pendery",
+      "name": "Steve Pendery",
+      "office": "Judge/Executive",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "859-292-3838",
+      "email": "spendery@campbellcountyky.gov",
+      "url": "https://campbellcountyky.gov/department/officials.php?structureid=12",
+      "photo_url": "https://campbellcountyky.gov/egov/images/1568658063_68317.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1098 Monmouth Street, Newport, KY 41071",
+      "offices": [],
+      "hours": null,
+      "bio": "Judge/Executive Pendery has served as the elected Judge/Executive of Campbell County for 28 years. Prior to this, he served the City of Fort Thomas for 15 years as both Mayor and Councilman. He also co-owned his family's local small business, Pendery Insurance and Risk Management Group.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "KY"
+      },
+      "source_url": "https://campbellcountyky.gov/officials/",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
     },
     {

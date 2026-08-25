@@ -1,9 +1,10 @@
 {
   "state": "NH",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 2,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 17,
   "cities": [
-    "Manchester"
+    "Manchester",
+    "Nashua"
   ],
   "officials": [
     {
@@ -67,6 +68,471 @@
       "source_url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Bright-Ideas-Program",
       "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
+    },
+    {
+      "id": "nh:nashua:mayor:jim-donchess",
+      "name": "Jim Donchess",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": "603-589-3260",
+      "email": "NashuaMayor@NashuaNH.gov",
+      "url": "https://www.nashuanh.gov/148/Mayors-Office",
+      "photo_url": "https://www.nashuanh.gov/ImageRepository/Document?documentID=25810",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "229 Main Street Nashua , NH 03060",
+      "offices": [],
+      "hours": "8:00 AM - 5:00 PM",
+      "bio": "Jim Donchess was sworn in as the 56th Mayor of Nashua in January 2016, focusing on economic growth, child potential, infrastructure, and downtown revitalization. He previously served two terms as the 51st Mayor, during which Nashua was named the Best Place to Live in America by Money Magazine.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:aarika-roy",
+      "name": "Aarika Roy",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:abigail-st.-hilaire",
+      "name": "Abigail St. Hilaire",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:anthony-ferriero",
+      "name": "Anthony Ferriero",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:avani-kulkarni",
+      "name": "Avani Kulkarni",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:dante-castellano",
+      "name": "Dante Castellano",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:emery-frost",
+      "name": "Emery Frost",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:haylee-dolan",
+      "name": "Haylee Dolan",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:hunter-porter",
+      "name": "Hunter Porter",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:kaitlyn-west",
+      "name": "Kaitlyn West",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:kelechi-okorie",
+      "name": "Kelechi Okorie",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:miranda-mccannon",
+      "name": "Miranda McCannon",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:narayan-sajeev",
+      "name": "Narayan Sajeev",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:nihithaa-dineshkumar",
+      "name": "Nihithaa Dineshkumar",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "nh:nashua:mayors-youth-council-member:vidya-nandakumar",
+      "name": "Vidya Nandakumar",
+      "office": "Mayor's Youth Council Member",
+      "level": "local",
+      "body": "Nashua City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nashua",
+        "state": "NH"
+      },
+      "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.7
     }
   ]
 }
