@@ -1,11 +1,74 @@
 {
   "state": "ND",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 3,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 5,
   "cities": [
+    "Bismarck",
     "Fargo"
   ],
   "officials": [
+    {
+      "id": "nd:bismarck:city-administrator:jason-tomanek",
+      "name": "Jason Tomanek",
+      "office": "City Administrator",
+      "level": "local",
+      "body": "Bismarck City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.bismarcknd.gov/ImageRepository/Document?documentID=55925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bismarck",
+        "state": "ND"
+      },
+      "source_url": "https://www.bismarcknd.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:bismarck:mayor:mike-schmitz",
+      "name": "Mike Schmitz",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bismarck City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.bismarcknd.gov/ImageRepository/Document?documentID=55925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bismarck",
+        "state": "ND"
+      },
+      "source_url": "https://www.bismarcknd.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
     {
       "id": "nd:fargo:assistant-city-administrator:brenda-e.-derrig",
       "name": "Brenda E. Derrig",

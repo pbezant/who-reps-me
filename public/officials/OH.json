@@ -1,7 +1,7 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 96,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 107,
   "cities": [
     "Akron",
     "Cincinnati",
@@ -12,6 +12,7 @@
     "Greene County",
     "Hamilton County",
     "Lake County",
+    "Parma",
     "Richland County",
     "Summit County",
     "Toledo",
@@ -1754,6 +1755,347 @@
       },
       "source_url": "https://www.lakecountyohio.gov/commissioners-office/public-safety-center-updates/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:clerk-of-council:kristin-saban",
+      "name": "Kristin Saban",
+      "office": "Clerk of Council",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": null,
+      "phone": "440-885-8065",
+      "email": "ksaban@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=33",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=337",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Clerk of Council Kristin Saban served nearly seven years as Ward 4 councilwoman. She also worked as the chief of staff to Mayor Anthony Biasiotta in the City of Seven Hills before taking on her new role. Saban was born and raised in Parma, a 1994 graduate of Parma Senior High School, and attended Cuyahoga Community College's Western Campus.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member,-majority-leader:kammy-coyle-shuman",
+      "name": "Kammy Coyle Shuman",
+      "office": "City Council Member, Majority Leader",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 7",
+      "phone": "440-884-2138",
+      "email": "kshuman@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=34",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=144",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Kammy Coyle Shuman is a longtime resident of Parma. She graduated from Padua Franciscan High School in Parma and then earned a bachelor's degree in accounting from Baldwin Wallace University. She is currently the operations manager at Oak Tree Wealth Partners in Independence, Ohio.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member,-president-pro-tempore:deborah-lime",
+      "name": "Deborah Lime",
+      "office": "City Council Member, President Pro Tempore",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 2",
+      "phone": "440-845-1714",
+      "email": "dlime@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=32",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=921",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Deborah Lime has been a resident of Ward 2 for more than 50 years and serves on several committees including Finance and Public Safety (Chairwoman). She previously served as Ward 2 councilwoman from 1991-2003 and again from 2011. Deborah and her husband, Mark, have four children and two grandchildren.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:allan-divis",
+      "name": "Allan Divis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 5",
+      "phone": "440-888-7213",
+      "email": "adivis@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=29",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=923",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Allan Divis was elected to serve the residents of Ward 5 in November 2011. He is a Cleveland native with an associate degree in business and has been involved with coaching and serving St. Anthony Parish programs. He and his wife, Michele, have four children.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:amanda-boyd",
+      "name": "Amanda Boyd",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 8",
+      "phone": "330-607-5537",
+      "email": "aboyd@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=26",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=924",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Amanda Boyd began her term as Ward 8 councilwoman in January 2024. Previously, she served for five years on the City of Parma's Board of Building Appeals and for six years on the Executive Cuyahoga County Central Committee. She also worked with students in the drama program at Parma Senior High School from 2018 to 2020.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:john-soeder",
+      "name": "John Soeder",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 3",
+      "phone": "216-635-6600",
+      "email": "jsoeder@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=27",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=922",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Committees: Finance, Governmental Operations (Vice Chairman), Public Service, Environmental Standards, Public Housing, Appointment Scanning.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:kelly-zacharias",
+      "name": "Kelly Zacharias",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 4",
+      "phone": "216-290-2644",
+      "email": "kzacharias@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=36",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=141",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Committees: Finance, Governmental Operations, Planning, Public Safety, Environmental Standards (Chairwoman), Public Housing.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:kevin-kussmaul",
+      "name": "Kevin Kussmaul",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 6",
+      "phone": "440-823-6608",
+      "email": "kkussmaul@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=31",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=919",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Ward 6 Councilman Kevin Kussmaul was born and raised in Parma, graduating from Normandy High School in 2012. He earned both a bachelor's and master's degree in business administration from John Carroll University. Kussmaul currently works as a strategic accounts program manager and has been a member of the Parma Area Chamber of Commerce and Young Professionals of Parma.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:monica-wilson",
+      "name": "Monica Wilson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 1",
+      "phone": "440-409-7354",
+      "email": "mwilson@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=35",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=772",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "Monica Wilson began her service on Parma City Council representing Ward 1 in early 2023. She is a 30+ year resident of Parma, originally from Detroit, Michigan. Wilson's professional background spans more than three decades in the paints and coating industry, where she worked in senior global management roles.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:council-member:rob-euerle",
+      "name": "Rob Euerle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": "Ward 9",
+      "phone": "216-418-8342",
+      "email": "reuerle@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=30",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=920",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:parma:president:vito-dipierro",
+      "name": "Vito Dipierro",
+      "office": "President",
+      "level": "local",
+      "body": "Parma City Council",
+      "district": null,
+      "phone": "440-885-8091",
+      "email": "vdipierro@cityofparma-oh.gov",
+      "url": "https://www.cityofparma-oh.gov/m/directory/employee?eid=28",
+      "photo_url": "https://www.cityofparma-oh.gov/ImageRepository/Document?documentID=136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6611 Ridge Road Parma, OH 44129",
+      "offices": [],
+      "hours": null,
+      "bio": "In January 2023, Vito Dipierro began serving as council president, having previously served as Ward 1 councilman since November 2013. The son of Italian immigrants, he graduated from Normandy High School in 1995 and later earned his real estate license in 2002, starting his own brokerage in 2013.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Parma",
+        "state": "OH"
+      },
+      "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

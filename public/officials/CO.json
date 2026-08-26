@@ -1,10 +1,11 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 31,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 42,
   "cities": [
     "Arapahoe County",
     "Boulder",
+    "Broomfield County",
     "Denver County",
     "Durango",
     "Jefferson County",
@@ -510,6 +511,347 @@
       },
       "source_url": "https://bouldercolorado.gov/government/city-council",
       "extracted_at": "2026-08-18T18:39:40.518Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:austin-ward",
+      "name": "Austin Ward",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "award@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3610/Austin-Ward",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=50017",
+      "social": {
+        "twitter": "https://www.broomfield.org/twitter",
+        "facebook": "https://www.broomfield.org/facebook",
+        "instagram": "https://www.broomfield.org/instagram",
+        "linkedin": "https://www.broomfield.org/linkedin",
+        "youtube": "https://www.broomfield.org/youtube"
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Austin ran and was elected in 2021 for Broomfield City Council representing Ward 2. He has lived in Colorado for the past 10 years and is a fierce transportation advocate, specifically for public transportation, bike infrastructure, and walkable communities. Austin graduated from The University of Colorado Boulder in 2018 with a Bachelor's Degree in Economics and is currently a bus operator for RTD.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:heidi-henkel",
+      "name": "Heidi Henkel",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "hhenkel@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3039/Heidi-Henkel",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=43014",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": "Weekly on Tuesdays 10 am - 1 pm by request via email. Additional time is available by request.",
+      "bio": "Heidi Henkel was born and raised in Colorado and has served Broomfield since 2007. After a career as a high school teacher, she opened a math tutoring business and worked as a Communications Director. Re-elected to Broomfield's Ward 5 City Council in 2023, she advocates for affordability, safety, fiscal responsibility, and environmental sustainability.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:jean-lim",
+      "name": "Jean Lim",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "jlim@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3037/Jean-Lim",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49949",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Jean Lim was elected by Ward 3 in 2019. Her current term ends November, 2027. Jean and her husband, Charlie, have lived in Broomfield for nine years and have two adult sons.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:julie-twiss",
+      "name": "Julie Twiss",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "jtwiss@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4402/Julie-Twiss",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49952",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Julie was elected to represent Ward 1 in 2025. She moved to Colorado from Tennessee in 2001 and has lived in Broomfield's Brandywine neighborhood since 2016. Her family here includes her husband, two teenagers, and her mother. They can often be found walking their dogs or riding bikes through local parks and open spaces.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:katie-peterson",
+      "name": "Katie Peterson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": null,
+      "url": "https://www.broomfield.org/4464/Katie-Peterson",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:laurie-anderson",
+      "name": "Laurie Anderson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "landerson@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3038/Laurie-Anderson",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=40822",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Laurie Anderson was elected by Ward 4 in 2019, and re-elected in 2023. Her current term ends November 2027. Laurie and her husband, Jason, have lived in Broomfield since 2015.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:paloma-delgadillo",
+      "name": "Paloma Delgadillo",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "pdelgadillo@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3984/Paloma-Delgadillo",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49948",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Paloma moved to Broomfield in July 2020 with her then fiance, now husband. While the choice to move to Broomfield was first born out of practicality, being conveniently located between Boulder and Denver, she soon found her organizing roots here and quickly came to call this place home. Paloma was appointed to Council in January 2023 and was reelected in November of 2023. She looks forward to addressing all things big and small to make Broomfield a welcoming and pleasant place to live for all people.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:sarah-braun",
+      "name": "Sarah Braun",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "sbraun@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4404/Sarah-Braun",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49950",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah was elected by Ward 3 in 2025. She and her husband, Mathew, have lived in Broomfield since 2016. In her free time, she enjoys walking the local trails with her dogs, birdwatching, sharing good food with friends and neighbors, and playing board games.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:sean-mckenzie",
+      "name": "Sean McKenzie",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "smckenzie@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4403/Sean-McKenzie",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49989",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Sean McKenzie was elected to the Broomfield City Council in November 2025 to represent Ward 4. A husband, sustainability strategist, and longtime advocate for community-based leadership, Sean brings to Council a systems-thinking approach that balances environmental stewardship, economic vitality, and social equity. His work is guided by a simple belief: progress and preservation are not opposites, but complementary commitments to the place we call home.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:todd-cohen",
+      "name": "Todd Cohen",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "tcohen@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3497/Todd-Cohen",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49959",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Todd was appointed to represent Ward 5 in 2021 and was elected in November 2021. He and his wife Stacy, a language arts teacher, have lived in Broomfield since 2014. Their two children are Legacy High School graduates.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:mayor:guyleen-castriotta",
+      "name": "Guyleen Castriotta",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "gcastriotta@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/2694/Mayor-Guyleen-Castriotta",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49953",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Guyleen Castriotta was re-elected as Mayor of the City and County of Broomfield in November 2025 and is in her third and final term. Prior to this, she served four years on City Council as Ward 5 Representative and two years as Mayor Pro Tem. Even while guiding Broomfield through a pandemic, Mayor Castriotta implemented an ambitious strategy to transform future Broomfield by upgrading long-neglected infrastructure, increasing access to affordable housing, enhancing workforce development, improving government services, and making resiliency and fiscal sustainability a central focus for Broomfield.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

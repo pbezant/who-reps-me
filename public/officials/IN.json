@@ -1,15 +1,235 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 36,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 59,
   "cities": [
+    "Boone County",
     "Clark County",
     "Delaware County",
     "Hamilton County",
+    "Hammond",
     "Lake County",
-    "Marion County"
+    "Marion County",
+    "Morgan County"
   ],
   "officials": [
+    {
+      "id": "in:boone-county:county-council-member-(president):jennifer-hostetter",
+      "name": "Jennifer Hostetter",
+      "office": "County Council Member (President)",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "District 1",
+      "phone": "765-482-2940",
+      "email": null,
+      "url": "https://boonecounty.in.gov/jennifer-hostetter",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": "Mon-Fri 8am-4pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:boone-county:county-council-member-(vice-president):shari-richey",
+      "name": "Shari Richey",
+      "office": "County Council Member (Vice President)",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:boone-county:county-council-member:aaron-williams",
+      "name": "Aaron Williams",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://boonecounty.in.gov/aaron-williams",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": "Mon-Fri 8am-4pm",
+      "bio": "Aaron Williams is a District 4 Council Member with extensive experience in both the private sector and government, having worked for the U.S. Department of Justice and the City of Indianapolis. A graduate of Indiana University’s Kelley School of Business, he currently serves as Chairman of the Board for the Boone County Racial Diversity Coalition and is a board member for WFYI Public Broadcasting. Mr. Williams resides in Zionsville with his wife and two children.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:boone-county:county-council-member:dan-lamar",
+      "name": "Dan Lamar",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": "dlamar@co.boone.in.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:boone-county:county-council-member:dustin-plunkett",
+      "name": "Dustin Plunkett",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "in:boone-county:county-council-member:john-riner",
+      "name": "John Riner",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": "https://boonecounty.in.gov/john-riner",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": "Mon-Fri 8am-4pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:boone-county:county-council-member:kevin-van-horn",
+      "name": "Kevin Van Horn",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Boone County Commissioners Court",
+      "district": "District 3",
+      "phone": "765-482-2940",
+      "email": null,
+      "url": "https://boonecounty.in.gov/kevin-van-horn",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Courthouse Square Lebanon, IN 46052",
+      "offices": [],
+      "hours": "Mon-Fri 8am-4pm",
+      "bio": "Kevin Van Horn is a current County Council Member for District 3, which covers precincts in center township. He holds a bachelor’s degree in Elementary Education and works at the Indianapolis Electrical Training Center. Kevin is also involved in community theater, serves as an Elder at First Community Church of Lebanon, and is a member and past president of the Lebanon Elks Club.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Boone County",
+        "state": "IN"
+      },
+      "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
     {
       "id": "in:clark-county:clark-county-attorney:r.-scott-lewis",
       "name": "R. Scott Lewis",
@@ -600,6 +820,285 @@
       "confidence": 0.9
     },
     {
+      "id": "in:hammond:1st-district-councilman:mark-kalwinski",
+      "name": "Mark Kalwinski",
+      "office": "1st District Councilman",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 1",
+      "phone": "219-853-6404",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/kalwinski.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:2nd-district-councilman:alfonso-salinas-iii",
+      "name": "Alfonso Salinas III",
+      "office": "2nd District Councilman",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 2",
+      "phone": "219-853-6404, 219-292-1077",
+      "email": "salinasa@gohammond.formdataserver.com",
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/salinas_2024_v2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:3rd-district-councilman:barry-tyler,-jr.",
+      "name": "Barry Tyler, Jr.",
+      "office": "3rd District Councilman",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 3",
+      "phone": "219-853-6404, 219-315-0884",
+      "email": "tylerb@gohammond.formdataserver.com",
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/tyler_v2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:4th-district-councilman:william-emerson",
+      "name": "William Emerson",
+      "office": "4th District Councilman",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 4",
+      "phone": "219-937-1032",
+      "email": "council@gohammond.formdataserver.com",
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/emerson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:5th-district-councilman:dave-woerpel",
+      "name": "Dave Woerpel",
+      "office": "5th District Councilman",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 5",
+      "phone": "219-808-9743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/woerpel_v2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:6th-district-councilman,-council-vice-president:scott-rakos",
+      "name": "Scott Rakos",
+      "office": "6th District Councilman, Council Vice-President",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": "District 6",
+      "phone": "219-545-1942",
+      "email": "rakoss@gohammond.formdataserver.com",
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/rakos_2024_v2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:councilman-at-large:dan-spitale",
+      "name": "Dan Spitale",
+      "office": "Councilman at Large",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": null,
+      "phone": "219-614-2454",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/spitale.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:councilwoman-at-large,-council-president:janet-venecz",
+      "name": "Janet Venecz",
+      "office": "Councilwoman at Large, Council President",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": null,
+      "phone": "219-937-9774",
+      "email": "Janet_Venecz@ameritech.net",
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/venecz.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:hammond:councilwoman-at-large:katrina-alexander",
+      "name": "Katrina Alexander",
+      "office": "Councilwoman at Large",
+      "level": "local",
+      "body": "Hammond City Council",
+      "district": null,
+      "phone": "219-853-6404, 219-501-0322",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.gohammond.com/wp-content/uploads/2024/09/alexander_v1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5925 Calumet Avenue, Hammond, IN 46320",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hammond",
+        "state": "IN"
+      },
+      "source_url": "https://www.gohammond.com/departments/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "in:lake-county:council-president:christine-cid",
       "name": "Christine Cid",
       "office": "Council President",
@@ -1124,6 +1623,223 @@
       },
       "source_url": "https://www.indy.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-member:joe-crone",
+      "name": "Joe Crone",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-member:kim-merideth",
+      "name": "Kim Merideth",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-member:melissa-greene",
+      "name": "Melissa Greene",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-member:troy-sprinkle",
+      "name": "Troy Sprinkle",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-member:vickie-kivett",
+      "name": "Vickie Kivett",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-president:chip-keller",
+      "name": "Chip Keller",
+      "office": "Council President",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:morgan-county:council-vice-president:brian-culp",
+      "name": "Brian Culp",
+      "office": "Council Vice President",
+      "level": "county",
+      "body": "Morgan County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "180 S Main St Martinsville, IN 46151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Morgan County",
+        "state": "IN"
+      },
+      "source_url": "https://morgancounty.in.gov/council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     }
   ]

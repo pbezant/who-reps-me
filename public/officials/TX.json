@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-25T05:07:25.719Z",
-  "count": 321,
+  "generated_at": "2026-08-26T04:58:35.496Z",
+  "count": 355,
   "cities": [
     "Abilene",
     "Allen",
@@ -9,6 +9,7 @@
     "Austin",
     "Bastrop",
     "Bastrop County",
+    "Baytown",
     "Beaumont",
     "Bee Cave",
     "Bexar County",
@@ -16,6 +17,7 @@
     "Bryan",
     "Caldwell County",
     "Cameron County",
+    "Cedar Park",
     "Collin County",
     "Comal County",
     "Conroe",
@@ -30,8 +32,10 @@
     "Frisco",
     "Garland",
     "Granbury",
+    "Grand Prairie",
     "Grayson County",
     "Harris County",
+    "Harrison County",
     "Hays County",
     "Hidalgo County",
     "Hutto",
@@ -43,6 +47,7 @@
     "Leander",
     "Lockhart",
     "Lubbock",
+    "Mansfield",
     "McAllen",
     "McKinney",
     "McLennan County",
@@ -55,6 +60,7 @@
     "Rockwall County",
     "Round Rock",
     "San Marcos",
+    "San Patricio County",
     "Smithville",
     "Sugar Land",
     "Tarrant County",
@@ -924,6 +930,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:baytown:council-member:jacob-powell",
+      "name": "Jacob Powell",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 5",
+      "phone": "281-422-8281",
+      "email": "District5@baytown.org",
+      "url": "https://www.baytown.org/662/Council-Member-District-5",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=3467",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Jacob Powell was first elected the District 5 Council Member in December 2020. He moved to Baytown in 2008 for an internship and returned in 2011 after graduating from Auburn University with a bachelor’s degree in Electrical Engineering. He currently serves on the Board of Directors for the Goose Creek CISD Education Foundation and CASA, and is employed as a Power Distribution Engineer at Covestro.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:council-member:james-franco",
+      "name": "James Franco",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "District4@baytown.org",
+      "url": "https://www.baytown.org/660/Council-Member-District-4",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=10098",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Born and raised in Baytown, James Franco is a product of Goose Creek CISD and Lee College. He is a partner and Chief Financial Officer in a construction firm, bringing extensive experience in project management and development. His top priorities include ensuring citizens' needs are met and leaving a positive impact for future generations.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:council-member:ken-griffith",
+      "name": "Ken Griffith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 3",
+      "phone": "281-422-8281",
+      "email": "District3@baytown.org",
+      "url": "https://www.baytown.org/661/Council-Member-District-3",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=8227",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Kenrick Griffith is a 40-year resident of Baytown and a graduate of Robert E. Lee High School. He has a background in private security, working his way up to Director of Security for Home Depot distribution center, and currently serves as site supervisor for Shell Federal Credit Union. Kenrick is actively involved in the community, having coached youth football and volunteered with various charities and organizations.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:council-member:laura-alvarado",
+      "name": "Laura Alvarado",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "District1@baytown.org",
+      "url": "https://www.baytown.org/659/Council-Member-District-1",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=8229",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Laura Alvarado was first elected the District 1 Council Member in November 2016, with her current term expiring November 2025. She serves as the Community Systems Manager for First3Years, focusing on developing integrated community systems in Baytown, and previously held a role as Senior Director of Operations for the National Diversity Council. Alvarado is also actively involved in various community boards and committees, including the Houston Galveston Area Council and the Municipal Development District.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:council-member:mike-lester",
+      "name": "Mike Lester",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 6",
+      "phone": "281-422-8281",
+      "email": "District6@baytown.org",
+      "url": "https://www.baytown.org/664/Council-Member-District-6",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=3468",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:council-member:sarah-graham",
+      "name": "Sarah Graham",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": "District 2",
+      "phone": "281-422-8281",
+      "email": "District2@baytown.org",
+      "url": "https://www.baytown.org/663/Council-Member-District-2",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=8232",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah Graham is a lifelong resident of Baytown and the current Science Content Specialist at Robert E. Lee High School. She holds a Bachelor of Science in Biology and a Masters of Ed in Educational Administration. Graham is active in the Baytown community, volunteering through her church and serving on various committees.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:baytown:mayor:charles-johnson",
+      "name": "Charles Johnson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Baytown City Council",
+      "district": null,
+      "phone": "281-422-8281",
+      "email": "Mayor@baytown.org",
+      "url": "https://www.baytown.org/618/Mayor",
+      "photo_url": "https://www.baytown.org/ImageRepository/Document?documentId=12504",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Baytown City Hall Council Chamber 2401 Market Street Baytown, TX 77520",
+      "offices": [],
+      "hours": null,
+      "bio": "Charles Johnson is a lifelong resident of Baytown with a deep-rooted passion for service, leadership, and community development. He served two consecutive terms on the Baytown City Council from 2017 to 2022 and currently serves on numerous community boards. Professionally, he is a commercial and residential real estate agent.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Baytown",
+        "state": "TX"
+      },
+      "source_url": "https://www.baytown.org/593/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:beaumont:council-member:chris-durio",
       "name": "Chris Durio",
       "office": "Council Member",
@@ -1649,7 +1872,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1672,7 +1895,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1729,7 +1952,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-24T05:03:33.382Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -1749,7 +1972,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2009,6 +2232,223 @@
       "source_url": "https://www.cameroncountytx.gov/county-commissioners/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
+    },
+    {
+      "id": "tx:cedar-park:council-member:alexis-frezza",
+      "name": "Alexis Frezza",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "512-290-3121",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1510/Alexis-Frezza",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=9996",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Alexis Frezza, City Council Place 1, has lived in Central Texas for nearly 40 years and returned to Cedar Park to raise her children. She holds a Bachelor's degree from Texas State University and has over a decade of experience serving on nonprofit boards. Frezza is committed to preserving community values and shaping a bright future for Cedar Park residents.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:anne-duffy",
+      "name": "Anne Duffy",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "737-231-3612",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1512/Anne-Duffy",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentID=8823",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Anne K. Duffy was elected to a fifth term to serve on Place 3 of the Cedar Park City Council in May 2025. She was elected to her first term for Place 3 in 2017, her second term for Place 3 in 2019, her third term for Place 3 in 2021, her fourth term in 2023,and served as Mayor Pro Tem from May 2018 until May 2019 and again serving as Mayor Pro Tem from April 2023 to May 2024. She is a native of Montana but has lived in Cedar Park since August 1999.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:darron-jurajda",
+      "name": "Darron Jurajda",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "512-987-5156",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1511/Darron-Jurajda",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=11896",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Darron Jurajda was born and raised in Central Texas, where he met his wife, Inger, while attending high school in Austin. Both later graduated from The University of Texas at Austin. After earning a Bachelor of Science in Chemical Engineering, Darron and Inger chose Cedar Park as the place to build their life together.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:jim-penniman-morin",
+      "name": "Jim Penniman-Morin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "512-923-4472",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1509/Jim-Penniman-Morin",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=311",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Penniman-Morin was reelected Mayor of Cedar Park in May 2026for his third term. He was previously elected to serve on Place 1 of the Cedar Park City Council in 2021. Mayor Jim is proud to play a role in continuing the smart and successful growth of our city as a thriving, safe and inclusive community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:kevin-harris",
+      "name": "Kevin Harris",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "512-820-3893",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1513/Kevin-Harris",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=319",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kevin Harris was re-elected to his third term on Place Five of the Cedar Park City Council in May 2025, having served since 2021. A Cedar Park resident since 1997, he has a long history of community involvement, including serving on the Community Development board and Planning and Zoning Commission. He is also a U.S. Army Reserve Lieutenant Colonel (Ret.) and a business owner.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:michael-endres",
+      "name": "Michael Endres",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "512-373-2158",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1514/Michael-Endres",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=11897",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Michael Endres was elected to the Cedar Park City Council in 2026. He has served in law enforcement for over 14 years, currently as a Patrol Lieutenant for downtown Austin, and is active in community service. Michael earned his MBA and is committed to improving the quality of life for Cedar Park residents.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:cedar-park:council-member:shweta-padmanabha",
+      "name": "Shweta Padmanabha",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cedar Park City Council",
+      "district": null,
+      "phone": "737-742-0084",
+      "email": null,
+      "url": "https://www.cedarparktexas.gov/1515/Shweta-Padmanabha",
+      "photo_url": "https://www.cedarparktexas.gov/ImageRepository/Document?documentId=11898",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to Place Six of the Cedar Park City Council in May 2026, Shweta Padmanabha is a long-time Cedar Park resident, community advocate, and proud mother of two. Having called Cedar Park home for over 15 years, she is deeply grateful for the opportunities and support the community provided her family during an important chapter of their lives. Shweta is a graduate of the Cedar Park Leadership Academy and has been actively involved in civic and community service for several years.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Cedar Park",
+        "state": "TX"
+      },
+      "source_url": "https://www.cedarparktexas.gov/231/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
     },
     {
       "id": "tx:collin-county:district-attorney:greg-willis",
@@ -4026,6 +4466,254 @@
       "confidence": 1
     },
     {
+      "id": "tx:grand-prairie:council-member:bessye-adams",
+      "name": "Bessye Adams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:david-chappelle",
+      "name": "David Chappelle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:jacquin-headen",
+      "name": "Jacquin Headen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:john-lopez",
+      "name": "John Lopez",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:jorja-clemson",
+      "name": "Jorja Clemson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:kurt-g.-johnson",
+      "name": "Kurt G. Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:rodney-anderson",
+      "name": "Rodney Anderson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
+      "id": "tx:grand-prairie:council-member:tony-shotwell",
+      "name": "Tony Shotwell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grand Prairie City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "300 W Main Street Grand Prairie, TX 75050",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grand Prairie",
+        "state": "TX"
+      },
+      "source_url": "https://www.gptx.org/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.85
+    },
+    {
       "id": "tx:grayson-county:commissioner:matt-hardenburg",
       "name": "Matt Hardenburg",
       "office": "Commissioner",
@@ -4209,6 +4897,130 @@
       },
       "source_url": "https://harriscountytx.gov/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harrison-county:commissioner:austin-koos",
+      "name": "Austin Koos",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "(903) 935-8402, x-1013",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.harrisoncountytexas.gov/upload/page/0094/2025/Koos.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Peter Whetstone Square, RM 314 Marshall, TX 75670",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "TX"
+      },
+      "source_url": "https://www.harrisoncountytexas.gov/page/CommissionerCourt",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harrison-county:commissioner:jay-ebarb",
+      "name": "Jay Ebarb",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "(903) 935-8402, x-1014",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.harrisoncountytexas.gov/upload/page/0094/Ebarb.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Peter Whetstone Square, RM 314 Marshall, TX 75670",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "TX"
+      },
+      "source_url": "https://www.harrisoncountytexas.gov/page/CommissionerCourt",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harrison-county:commissioner:william-d.-hatfield",
+      "name": "William D. Hatfield",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "(903) 935-8402, x-1011",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.harrisoncountytexas.gov/upload/page/0094/2025/Hatfield.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Peter Whetstone Square, RM 314 Marshall, TX 75670",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "TX"
+      },
+      "source_url": "https://www.harrisoncountytexas.gov/page/CommissionerCourt",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harrison-county:commissioner:zephaniah-timmins",
+      "name": "Zephaniah Timmins",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "(903) 935-8402, x-1012",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.harrisoncountytexas.gov/upload/page/0094/Timmins.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 Peter Whetstone Square, RM 314 Marshall, TX 75670",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "TX"
+      },
+      "source_url": "https://www.harrisoncountytexas.gov/page/CommissionerCourt",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -5736,6 +6548,223 @@
       },
       "source_url": "https://www.mylubbock.us/835/City-Council",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:council-member:brent-newsom",
+      "name": "Brent Newsom",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": "brent.newsom@mansfieldtexas.gov",
+      "url": null,
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=14468",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:council-member:dr.jim-vaszauskas",
+      "name": "Dr.Jim Vaszauskas",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 7",
+      "phone": null,
+      "email": "jim.vaszauskas@mansfieldtexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:council-member:juan-fresquez",
+      "name": "Juan Fresquez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 4",
+      "phone": "817-276-4203",
+      "email": null,
+      "url": "https://www.mansfieldtexas.gov/423/Casey-Lewis",
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=14965",
+      "social": {
+        "twitter": "https://www.mansfieldtexas.gov/x",
+        "facebook": "https://www.mansfieldtexas.gov/facebook",
+        "instagram": "https://www.mansfieldtexas.gov/instagram",
+        "linkedin": "https://www.mansfieldtexas.gov/linkedin",
+        "youtube": "https://www.mansfieldtexas.gov/youtube"
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Juan Fresquez Jr., MBA, is a distinguished figure in healthcare leadership and civic engagement, currently serving as President of Methodist Mansfield Medical Center. With over three decades of experience in acute care hospital management, he has honed expertise in operations, leadership, and quality improvement. In May 2024, he was sworn in as Mansfield City Councilman Place 4, committed to improving the quality of life for all residents.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:council-member:tamera-bounds",
+      "name": "Tamera Bounds",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 2",
+      "phone": "817-276-4203",
+      "email": "tamera.bounds@mansfieldtexas.gov",
+      "url": "https://www.mansfieldtexas.gov/419/Tamera%20Bounds",
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=14463",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Tamera J. Bounds was elected to the Mansfield City Council, Place 2, in 2020, having previously served on the Planning & Zoning Commission. A 44-year resident of Mansfield, she has volunteered with numerous local organizations and is a Texas Municipal League Lifetime Fellow. After a 30-year career in physical therapy, she recently retired.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:council-member:todd-simmons",
+      "name": "Todd Simmons",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 5",
+      "phone": "817-276-4203",
+      "email": "todd.simmons@mansfieldtexas.gov",
+      "url": "https://www.mansfieldtexas.gov/424/Todd-Simmons",
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=16782",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Todd Simmons was elected to Mansfield City Council Place 5 in June 2025 and previously chaired the Mansfield Economic Development Corporation Board. He holds degrees in Political Science, Accounting, and Business Administration, and currently owns Simmons Wealth Management. Todd is an active volunteer in the community, serving with organizations like the Kiwanis Club, Walnut Ridge Baptist church, and various Mansfield ISD committees.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:mayor-pro-tem:todd-tonore",
+      "name": "Todd Tonore",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 6",
+      "phone": "817-371-8645",
+      "email": "todd.tonore@mansfieldtexas.gov",
+      "url": "https://www.mansfieldtexas.gov/430/Todd-Tenore",
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=14464",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mansfield businessman Todd Tonore was elected to City Council Place 6 in November 2020 and has served as Mayor Pro Tem since 2021. He is the founder and chief executive officer of several businesses in the city and holds a degree in business administration from Northeast Louisiana University. He and his wife Tonyia have been married for 34 years and have four daughters and seven wonderful grandchildren.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:mansfield:mayor:michael-evans",
+      "name": "Michael Evans",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Mansfield City Council",
+      "district": "Place 1",
+      "phone": "817-276-4203",
+      "email": "michael.evans@mansfieldtexas.gov",
+      "url": "https://www.mansfieldtexas.gov/418/Michael%20Evans",
+      "photo_url": "https://www.mansfieldtexas.gov/ImageRepository/Document?documentId=14465",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1200 E. Broad St. Mansfield, TX 76063",
+      "offices": [],
+      "hours": null,
+      "bio": "Reverend Dr. Michael A. Evans, Sr. was elected Mayor of the City of Mansfield, Texas, in December 2020. He is also the proud pastor of the Bethlehem Baptist Church, where he has served for over 30 years. Mayor Evans holds a Bachelor of Arts from the University of Texas at Arlington, a Master of Divinity from Texas Christian University, and a Doctor of Ministry from Baylor University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mansfield",
+        "state": "TX"
+      },
+      "source_url": "https://www.mansfieldtexas.gov/382/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -8049,6 +9078,37 @@
       "confidence": 1
     },
     {
+      "id": "tx:san-patricio-county:commissioner:william-ski-zagorski-sr.",
+      "name": "William Ski Zagorski Sr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "San Patricio County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "361-364-6170",
+      "email": null,
+      "url": "https://www.sanpatriciocountytx.gov/page/commissioner1",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9715 HWY 181 - Taft, TX 78390",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "San Patricio County",
+        "state": "TX"
+      },
+      "source_url": "https://www.sanpatriciocountytx.gov/page/commissioner1",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:smithville:mayor:sharon-foerster",
       "name": "Sharon Foerster",
       "office": "Mayor",
@@ -9115,7 +10175,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -9138,7 +10198,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -9161,7 +10221,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -9184,7 +10244,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-23T05:05:18.632Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1,
       "social": {},
       "offices": [],

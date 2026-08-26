@@ -1,11 +1,291 @@
 {
   "state": "RI",
-  "generated_at": "2026-08-22T03:16:48.468Z",
-  "count": 1,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 10,
   "cities": [
+    "Pawtucket",
     "Providence"
   ],
   "officials": [
+    {
+      "id": "ri:pawtucket:council-member-at-large:michael-a.-araujo",
+      "name": "Michael A. Araujo",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": null,
+      "phone": "401-919-4901",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "98 Clews Street Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member-at-large:roberto-h.-moreno",
+      "name": "Roberto H. Moreno",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": null,
+      "phone": "401-451-1152",
+      "email": null,
+      "url": null,
+      "photo_url": "https://pawtucketri.gov/wp-content/uploads/2023/12/Roberto-Moreno-1-e1715088844244.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "178 First Street Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member-at-large:yesenia-rubio",
+      "name": "Yesenia Rubio",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": null,
+      "phone": "401-473-7635",
+      "email": null,
+      "url": null,
+      "photo_url": "https://pawtucketri.gov/wp-content/uploads/2023/12/Yesenia-Rubio-e1715088868734.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15 Belgrave Ave Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member:clovis-c.-gregor",
+      "name": "Clovis C. Gregor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 5",
+      "phone": "401-359-3426",
+      "email": null,
+      "url": null,
+      "photo_url": "https://pawtucketri.gov/wp-content/uploads/2023/12/973974-1611610085-s.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "118 Trenton Street Pawtucket, RI 02860",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member:david-p.-moran",
+      "name": "David P. Moran",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 1",
+      "phone": "401-723-2597",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "127 Revere Street Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member:mark-j.-wildenhain",
+      "name": "Mark J. Wildenhain",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 2",
+      "phone": "401-724-7907",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "31 Hanover Street Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member:marlena-martins-stachowiak",
+      "name": "Marlena Martins Stachowiak",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 6",
+      "phone": "401-749-8055",
+      "email": null,
+      "url": null,
+      "photo_url": "https://pawtucketri.gov/wp-content/uploads/2024/04/Marlena-e1714397298997.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "22 Vivian Avenue Pawtucket, RI 02860",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-member:neicy-coderre",
+      "name": "Neicy Coderre",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 4",
+      "phone": "401-632-7953",
+      "email": null,
+      "url": null,
+      "photo_url": "https://pawtucketri.gov/wp-content/uploads/2023/12/Neicy-Coderre-e1715088772876.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 Angle Street Pawtucket, RI 02860",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ri:pawtucket:council-president:terrence-e.-mercer",
+      "name": "Terrence E. Mercer",
+      "office": "Council President",
+      "level": "local",
+      "body": "Pawtucket City Council",
+      "district": "District 3",
+      "phone": "401-727-4462",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "194 First Street Pawtucket, RI 02861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pawtucket",
+        "state": "RI"
+      },
+      "source_url": "https://pawtucketri.gov/city-council/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
     {
       "id": "ri:providence:mayor:brett-p.-smiley",
       "name": "Brett P. Smiley",

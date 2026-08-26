@@ -1,7 +1,7 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 125,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 140,
   "cities": [
     "Ann Arbor",
     "Berrien County",
@@ -9,14 +9,17 @@
     "Eaton County",
     "Grand Rapids",
     "Ingham County",
+    "Kalamazoo",
     "Kalamazoo County",
     "Kent County",
     "Livonia",
     "Macomb County",
     "Marquette",
     "Monroe County",
+    "Rochester Hills",
     "St. Clair County",
-    "Troy"
+    "Troy",
+    "Wyoming"
   ],
   "officials": [
     {
@@ -2379,6 +2382,223 @@
       "confidence": 1
     },
     {
+      "id": "mi:kalamazoo:city-commissioner:alonzo-wilson",
+      "name": "Alonzo Wilson",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "WilsonA@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/4/city-commission-photos/56/wilson.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:city-commissioner:chris-praedel",
+      "name": "Chris Praedel",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "PraedelC@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/2/city-commission-photos/56/praedel_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:city-commissioner:jae-slaby",
+      "name": "Jae Slaby",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "SlabyJA@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/5/city-commission-photos/56/slaby_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:city-commissioner:jeanne-hess",
+      "name": "Jeanne Hess",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "HessJ@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/5/city-commission-photos/56/hess_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:city-commissioner:stephanie-hoffman",
+      "name": "Stephanie Hoffman",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "HoffmanS@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/2/city-commission-photos/56/hoffman_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:mayor:david-anderson",
+      "name": "David Anderson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "Mayor@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/2/city-commission-photos/56/anderson_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:kalamazoo:vice-mayor:drew-duncan",
+      "name": "Drew Duncan",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Kalamazoo City Council",
+      "district": null,
+      "phone": null,
+      "email": "DuncanDM@kalamazoocity.org",
+      "url": null,
+      "photo_url": "https://www.kalamazoocity.org/files/sharedassets/public/v/5/city-commission-photos/56/duncan_dk.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kalamazoo",
+        "state": "MI"
+      },
+      "source_url": "https://www.kalamazoocity.org/Government/Mayor-Vice-Mayor-and-City-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "mi:kent-county:commissioner:steve-faber",
       "name": "Steve Faber",
       "office": "Commissioner",
@@ -3340,6 +3560,37 @@
       "confidence": 1
     },
     {
+      "id": "mi:rochester-hills:mayor:bryan-k.-barnett",
+      "name": "Bryan K. Barnett",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rochester Hills City Council",
+      "district": null,
+      "phone": null,
+      "email": "mayorsoffice@rochesterhills.org",
+      "url": "https://www.rochesterhills.org/government/government/mayor/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 Rochester Hills Dr. Rochester Hills, MI 48309",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rochester Hills",
+        "state": "MI"
+      },
+      "source_url": "https://www.rochesterhills.org/government/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
       "id": "mi:st.-clair-county:board-of-commissioners:dave-vandenbossche",
       "name": "Dave Vandenbossche",
       "office": "Board of Commissioners",
@@ -3771,6 +4022,223 @@
       },
       "source_url": "https://troymi.gov/community/government/citycouncil/index.php",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:3rd-ward-council-member-and-mayor-pro-tem:robert-postema",
+      "name": "Robert Postema",
+      "office": "3rd Ward Council Member and Mayor Pro-Tem",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "3rd Ward",
+      "phone": "616-443-1718",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/Postema%20Resized.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:council-member-at-large:renee-hill",
+      "name": "Renee Hill",
+      "office": "Council Member-At-Large",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "At-Large",
+      "phone": "616-900-3174",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/ReneeHillHeadshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:council-member-at-large:robert-arnoys",
+      "name": "Robert Arnoys",
+      "office": "Council Member-At-Large",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/RobertArnoysHeadshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:council-member-at-large:sheldon-dekryger",
+      "name": "Sheldon DeKryger",
+      "office": "Council Member-At-Large",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "At-Large",
+      "phone": "616-437-3045",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/Sheldon%20DeKryger%20-%20web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:council-member:kyle-brethauer",
+      "name": "Kyle Brethauer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "1st Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:council-member:marissa-postler",
+      "name": "Marissa Postler",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": "2nd Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/MarissaPostlerHeadshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:wyoming:mayor:kent-vanderwood",
+      "name": "Kent Vanderwood",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Wyoming City Council",
+      "district": null,
+      "phone": "616-304-0235",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.wyomingmi.gov/portals/0/Vanderwood%20Council%20photo%2012_16_1.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1155 – 28th Street SW, PO Box 905, Wyoming, MI 49509",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wyoming",
+        "state": "MI"
+      },
+      "source_url": "https://www.wyomingmi.gov/About-Wyoming/City-Government/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     }
   ]

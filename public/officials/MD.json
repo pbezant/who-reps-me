@@ -1,7 +1,7 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 82,
+  "generated_at": "2026-08-26T04:58:35.496Z",
+  "count": 83,
   "cities": [
     "Anne Arundel County",
     "Calvert County",
@@ -2120,7 +2120,38 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "md:montgomery-county:council-member:laurie-anne-sayles",
+      "name": "Laurie-Anne Sayles",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "MD"
+      },
+      "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 0.9
     },
     {
@@ -2182,7 +2213,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 0.9
     },
     {

@@ -1,15 +1,17 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-23T03:20:24.901Z",
-  "count": 81,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 91,
   "cities": [
     "Chicago",
     "Cook County",
+    "DeKalb County",
     "Lake County",
     "Madison County",
     "McLean County",
     "Peoria County",
-    "St. Clair County"
+    "St. Clair County",
+    "Waukegan"
   ],
   "officials": [
     {
@@ -72,6 +74,37 @@
       },
       "source_url": "https://www.cookcountyil.gov/service/sec-34-40-use-contingency-funds-commissioners-018-890",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb-county:county-board-chair:john-frieders",
+      "name": "John Frieders",
+      "office": "County Board Chair",
+      "level": "county",
+      "body": "DeKalb County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dekalbcounty.org/wp-content/uploads/2024/12/cb-frieders-211x300.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 North Main Street Sycamore, Illinois 60178",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "DeKalb County",
+        "state": "IL"
+      },
+      "source_url": "https://dekalbcounty.org/government/county-board/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -2521,6 +2554,285 @@
       },
       "source_url": "https://www.co.st-clair.il.us/elected-officials",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:dr.-lynn-m.-florian",
+      "name": "DR. LYNN M. FLORIAN",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "8th Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/631/8th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8612",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Lynn-Florian-Alderman-8th-Ward-Waukegan-358110954980764/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Lynn M. Florian serves as the 8th Ward Alderperson. She chairs the Environment & Sustainability Committee, is Vice Chair of the Finance & Purchasing Committee, and is a member of the Public Safety Committee and Government Operations & Oversight Committee.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:dr.-sylvia-sims-bolton",
+      "name": "DR. SYLVIA SIMS BOLTON",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "1st Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/624/1st-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8605",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/1stWardAldermanDrSylviaSimsBolton",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": "Monday - Friday, 8am - 5pm (except legal holidays)",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:edith-l.-newsome",
+      "name": "EDITH L. NEWSOME",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "5th Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/628/5th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8609",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Edith L. Newsome is the 5th Ward Alderperson. She chairs the Finance & Purchasing Committee, is Vice Chair of the Public Safety Committee, and is a member of the Public Works & Infrastructure Committee and the Judiciary Committee.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:jose-a.-guzman",
+      "name": "JOSE A. GUZMAN",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "2nd Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/625/2nd-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8606",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Jose A. Guzman is the 2nd Ward Alderperson. He serves as Vice Chair of the Public Works & Infrastructure Committee and is a member of the Environment & Sustainability Committee, Public Safety Committee, and Judiciary Committee.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:juan-a.-martinez",
+      "name": "JUAN A. MARTINEZ",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "3rd Ward",
+      "phone": "847-599-2500",
+      "email": "juan.martinez@waukeganil.gov",
+      "url": "https://www.waukeganil.gov/626/3rd-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8607",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/groups/102789373132218/?fref=nf",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:keith-e.-turner",
+      "name": "KEITH E. TURNER",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "6th Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/629/6th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8610",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Turner6thWard?fref=ts",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": "Keith E. Turner is the 6th Ward Alderperson. He chairs the Public Works & Infrastructure Committee, is Vice Chair of the Judiciary Committee, and is a member of the Environment & Sustainability Committee and Government Operations & Oversight Committee.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:michael-p.-donnenwirth",
+      "name": "MICHAEL P. DONNENWIRTH",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "7th Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/630/7th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=10972",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:thomas-j.-hayes",
+      "name": "THOMAS J. HAYES",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "9th Ward",
+      "phone": "847-599-2500",
+      "email": "thayes@waukeganil.gov",
+      "url": "https://www.waukeganil.gov/632/9th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=8701",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:waukegan:alderperson:victor-m.-felix",
+      "name": "VICTOR M. FELIX",
+      "office": "Alderperson",
+      "level": "local",
+      "body": "Waukegan City Council",
+      "district": "4th Ward",
+      "phone": "847-599-2500",
+      "email": null,
+      "url": "https://www.waukeganil.gov/627/4th-Ward",
+      "photo_url": "https://www.waukeganil.gov/ImageRepository/Document?documentId=10973",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Martin Luther King Jr. Avenue Waukegan, IL 60085",
+      "offices": [],
+      "hours": "Monday - Friday, 8am - 5pm (except legal holidays)",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Waukegan",
+        "state": "IL"
+      },
+      "source_url": "https://www.waukeganil.gov/188/Council-Members",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     }
   ]

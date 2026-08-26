@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 162,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 182,
   "cities": [
     "Carroll County",
     "Chatham County",
@@ -9,7 +9,9 @@
     "Columbia County",
     "Columbus",
     "DeKalb County",
+    "Dougherty County",
     "Douglas County",
+    "Effingham County",
     "Floyd County",
     "Fulton County",
     "Gwinnett County",
@@ -24,6 +26,7 @@
     "Rockdale County",
     "Savannah",
     "South Fulton",
+    "Troup County",
     "Walton County"
   ],
   "officials": [
@@ -1082,6 +1085,223 @@
       "confidence": 1
     },
     {
+      "id": "ga:dougherty-county:chairman:lorenzo-l.-heard",
+      "name": "Lorenzo L. Heard",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": null,
+      "phone": "229-435-9961; 229-431-2121 ext.0",
+      "email": "lheard@dougherty.ga.us",
+      "url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners/Chairman",
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/lorenzo-heard.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Reverend Lorenzo L. Heard is the Chairman of the Dougherty County Board of Commissioners, elected in May 2022. He has a long history as a pastor, currently serving at Greater 2nd Mt. Olive Baptist Church in Albany, Georgia, and is known for his community outreach and leadership.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:anthony-jones",
+      "name": "Anthony Jones",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 6",
+      "phone": "229-344-8770; 229-431-2121 ext.0",
+      "email": "anjones@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/anthony-jones.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:clinton-johnson",
+      "name": "Clinton Johnson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 3",
+      "phone": "229-291-0121; 229-431-2121 ext.0",
+      "email": "Cljohnson@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/clinton-johnson.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:ed-newsome",
+      "name": "Ed Newsome",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 1",
+      "phone": "229-881-3306; 229-431-2121 ext.0",
+      "email": "enewsome@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/ed-newsome.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:gloria-gaines",
+      "name": "Gloria Gaines",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 5",
+      "phone": "229-436-4145; 229-431-2121 ext.0",
+      "email": "ggaines@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/gloria-gaines.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:russell-gray",
+      "name": "Russell Gray",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 4",
+      "phone": "229-431-2121 ext.0",
+      "email": "rgray@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/russell-gray.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dougherty-county:commissioner:victor-edwards",
+      "name": "Victor Edwards",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dougherty County Commissioners Court",
+      "district": "District 2",
+      "phone": "229-603-0050; 229-431-2121 ext.0",
+      "email": "vedwards@dougherty.ga.us",
+      "url": null,
+      "photo_url": "https://www.dougherty.ga.us/files/assets/county/v/1/adminboc/images/victor-edwards.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 Pine Avenue, Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dougherty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dougherty.ga.us/Government/Dougherty-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:douglas-county:chairperson,-board-of-commissioners:dr.-romona-jackson-jones",
       "name": "Dr. Romona Jackson Jones",
       "office": "Chairperson, Board of Commissioners",
@@ -1731,6 +1951,254 @@
       "source_url": "https://www.douglascountyga.gov/27/Government",
       "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 0.9
+    },
+    {
+      "id": "ga:effingham-county:chairman-at-large:damon-rahn",
+      "name": "Damon Rahn",
+      "office": "Chairman At Large",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": null,
+      "phone": "912-667-1619",
+      "email": "drahn@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=90",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=8312",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": null,
+      "bio": "Damon Rahn serves as Chairman-at-Large of the Effingham County Board of Commissioners, a position he began in January 2025. He previously served on the Rincon City Council and has a professional background in technology and project management. As chairman, he emphasizes responsible growth, infrastructure planning, and community engagement.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:commissioner:beth-helmly",
+      "name": "Beth Helmly",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": "District 4",
+      "phone": "912-429-8570",
+      "email": "bhelmly@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=94",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=8311",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.effinghamcounty.org/facebook",
+        "instagram": "https://www.effinghamcounty.org/instagram",
+        "linkedin": "https://www.effinghamcounty.org/linkedin",
+        "youtube": "https://www.effinghamcounty.org/youtube"
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": null,
+      "bio": "Beth Helmly serves as the Effingham County Commissioner for District 4, a position she began in January 2025. In this role, she represents District 4 residents on the Board of Commissioners and works to guide county policy, planning, and public services. A retired educator, she previously served on the Effingham County Board of Education from 2014 to 2019.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:commissioner:forrest-floyd",
+      "name": "Forrest Floyd",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": "District 1",
+      "phone": "912-429-3753",
+      "email": "ffloyd@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=91",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=8313",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": null,
+      "bio": "Forrest Floyd serves as the Effingham County Commissioner for District 1, representing residents of the district on the Effingham County Board of Commissioners. In this role, he works with fellow commissioners to guide county policy, oversee public services, and support infrastructure and community development throughout Effingham County. Floyd is a local business owner and has long been active in the community, providing perspective on economic development, responsible growth, and supporting Effingham County’s local business community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:commissioner:jamie-deloach",
+      "name": "Jamie DeLoach",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": "District 3",
+      "phone": "912-655-9423",
+      "email": "jamiedeloachdistrict3@gmail.com",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=93",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=8314",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": "Monday - Friday From 8:30 am -5:00 pm",
+      "bio": "Jamie DeLoach serves as the Effingham County Commissioner for District 3, where he represents residents of the district on the Effingham County Board of Commissioners. First elected in 2018 and re-elected in 2022, he works with fellow commissioners to guide county policy, infrastructure planning, and the delivery of public services. Professionally, DeLoach works in the banking industry and serves as a banker with Ameris Bank.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:commissioner:phil-kieffer",
+      "name": "Phil Kieffer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": "District 5",
+      "phone": "912-667-7977",
+      "email": "philkiefferdistrict5@gmail.com",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=95",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=7116",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": "Monday - Friday From 8:30 am -5:00 pm",
+      "bio": "First elected in 2010, Phil Kieffer represents Effingham County’s Fifth District, bringing thirteen years of service and leadership that have fostered economic growth and recreational opportunities. A lifelong native, he holds a B.S. from Georgia Southern University and is president of Phillip Kieffer Construction. He is a member of Springfield Oaks Church and enjoys spending time with his wife, Brandi, and their three sons playing baseball, golfing, hunting, and fishing.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:commissioner:roger-burdette",
+      "name": "Roger Burdette",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": "District 2",
+      "phone": "912-663-1692",
+      "email": "RBurdette@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=92",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=7111",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": "Monday - Friday From 8:30 am -5:00 pm",
+      "bio": "Georgia native Roger Burdette has proudly served Effingham County as District 2 Commissioner since 2018. A U.S. Navy veteran, Roger earned his BBA from Valdosta State University and later received his MBA from Mercer University, graduating with highest honors while maintaining a 4.0 GPA. Roger is an Effingham County small business owner and has been an entrepreneur since 2001, creating many local jobs and operating several small businesses throughout his career.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:county-clerk:stephanie-johnson",
+      "name": "Stephanie Johnson",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": null,
+      "phone": "912-754-2123",
+      "email": "effinghamclerk@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=123",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=5796",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": "Monday - Friday From 8:30 am -5:00 pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:effingham-county:county-manager:tim-callanan",
+      "name": "Tim Callanan",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Effingham County Commissioners Court",
+      "district": null,
+      "phone": "912-754-2111",
+      "email": "TCallanan@effinghamcounty.org",
+      "url": "https://www.effinghamcounty.org/m/directory/employee?eid=117",
+      "photo_url": "https://www.effinghamcounty.org/ImageRepository/Document?documentID=8318",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "804 S Laurel Street Springfield, GA 31329",
+      "offices": [],
+      "hours": "Monday - Friday From 8:30 am -5:00 pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Effingham County",
+        "state": "GA"
+      },
+      "source_url": "https://www.effinghamcounty.org/384/County-Board-of-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
     },
     {
       "id": "ga:floyd-county:chief-magistrate-judge:w.-gene-richardson",
@@ -4830,6 +5298,161 @@
       },
       "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:troup-county:chairman:patrick-crews",
+      "name": "Patrick Crews",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Troup County Commissioners Court",
+      "district": "District 1",
+      "phone": "706-883-1610",
+      "email": "pcrews@troupcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.troupcountyga.gov/Content/Templates/images/commissioners/patrick-crews.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Ridley Avenue, LaGrange, GA 30240",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troup County",
+        "state": "GA"
+      },
+      "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:troup-county:commissioner:james-l.-thrailkill,-sr",
+      "name": "James L. Thrailkill, Sr",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Troup County Commissioners Court",
+      "district": "District 2",
+      "phone": "706-883-1610",
+      "email": "jthrailkill@troupcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.troupcountyga.gov/Content/Templates/images/commissioners/No%20Background%20-%20James%20Thrailkill%20Headshot.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Ridley Avenue, LaGrange, GA 30240",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troup County",
+        "state": "GA"
+      },
+      "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:troup-county:commissioner:jimmy-d.-mccamey,-jr.",
+      "name": "Jimmy D. McCamey, Jr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Troup County Commissioners Court",
+      "district": "District 5",
+      "phone": "706-883-1610",
+      "email": "JMcCamey@troupcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.troupcountyga.gov/Content/Templates/images/commissioners/Dr-McCamey-Headshot.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Ridley Avenue, LaGrange, GA 30240",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troup County",
+        "state": "GA"
+      },
+      "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:troup-county:commissioner:morris-jones",
+      "name": "Morris Jones",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Troup County Commissioners Court",
+      "district": "District 4",
+      "phone": "706-883-1610",
+      "email": "mjones@troupcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.troupcountyga.gov/Content/Templates/images/commissioners/morris-jones.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Ridley Avenue, LaGrange, GA 30240",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troup County",
+        "state": "GA"
+      },
+      "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:troup-county:commissioner:rex-scott",
+      "name": "Rex Scott",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Troup County Commissioners Court",
+      "district": "District 3",
+      "phone": "706-883-1610",
+      "email": "rscott@troupcountyga.gov",
+      "url": null,
+      "photo_url": "https://www.troupcountyga.gov/Content/Templates/images/commissioners/No%20Background%20-%20Rex%20Scott%20Headshot.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Ridley Avenue, LaGrange, GA 30240",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Troup County",
+        "state": "GA"
+      },
+      "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-25T05:07:25.719Z",
-  "count": 178,
+  "generated_at": "2026-08-26T04:58:35.496Z",
+  "count": 193,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -15,15 +15,18 @@
     "Durham County",
     "Fayetteville",
     "Forsyth County",
+    "Franklin County",
     "Gaston County",
     "Gastonia",
     "Greenville",
+    "Jacksonville",
     "Mecklenburg County",
     "Moore County",
     "Nash County",
     "New Hanover County",
     "Onslow County",
     "Orange County",
+    "Pender County",
     "Pitt County",
     "Raleigh",
     "Randolph County",
@@ -573,7 +576,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -635,7 +638,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -666,7 +669,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -728,7 +731,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -1848,6 +1851,223 @@
       "confidence": 1
     },
     {
+      "id": "nc:franklin-county:chair:roxanne-bragg",
+      "name": "Roxanne Bragg",
+      "office": "Chair",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 2",
+      "phone": "919-495-5685",
+      "email": "commissioner.bragg@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=118",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=956",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:commissioner:david-bunn",
+      "name": "David Bunn",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 4",
+      "phone": "919-495-5017",
+      "email": "commissioner.bunn@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=115",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=952",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:commissioner:harry-l.-foy-jr.",
+      "name": "Harry L. Foy Jr.",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 6 (At Large)",
+      "phone": "919-269-0299",
+      "email": "commissioner.foy@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=120",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=950",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": "Harry L. Foy Jr. serves as Commissioner for District 6 (At Large) since 1990, with his current term expiring in 2026.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:commissioner:logan-t.-davis",
+      "name": "Logan T. Davis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 1",
+      "phone": "984-288-2844",
+      "email": "commissioner.davis@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=117",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=953",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": "Logan T. Davis is a Commissioner serving District 1 since 2024.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:commissioner:mark-speed",
+      "name": "Mark Speed",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 3",
+      "phone": "919-497-7064",
+      "email": "commissioner.speed@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=119",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=954",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Speed has been serving District 3 as a Commissioner since 2017, with his current term expiring in 2028.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:commissioner:v.-stuart-may",
+      "name": "V. Stuart May",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 7 (At Large)",
+      "phone": "919-496-9588",
+      "email": "commissioner.may@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=121",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=951",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:franklin-county:vice-chairman:michael-s.-schriver",
+      "name": "Michael S. Schriver",
+      "office": "Vice-Chairman",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": "District 5",
+      "phone": "919-796-3324",
+      "email": "commissioner.schriver@franklincountync.gov",
+      "url": "https://www.franklincountync.gov/m/directory/employee?eid=116",
+      "photo_url": "https://www.franklincountync.gov/ImageRepository/Document?documentID=955",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "113 Market Street Louisburg, NC 27549",
+      "offices": [],
+      "hours": null,
+      "bio": "Serving District 5 since 2016.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.franklincountync.gov/326/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:gaston-county:chairman,-board-of-commissioners:chad-brown",
       "name": "Chad Brown",
       "office": "Chairman, Board of Commissioners",
@@ -2506,6 +2726,223 @@
       },
       "source_url": "https://www.greenvillenc.gov/183/City-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:at-large-representative:michael-yaniero",
+      "name": "Michael Yaniero",
+      "office": "At Large Representative",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At Large",
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=61",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=10998",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:council-representative:mickey-smith",
+      "name": "Mickey Smith",
+      "office": "Council Representative",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "Ward 2",
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=62",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=11001",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:mayor-pro-tem:cindy-edwards",
+      "name": "Cindy Edwards",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": null,
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=60",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=10999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:mayor:sammy-phillips",
+      "name": "Sammy Phillips",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": null,
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=58",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=11000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:representative:angelia-washington",
+      "name": "Angelia Washington",
+      "office": "Representative",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "Ward 4",
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=64",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=11003",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:representative:jerome-willingham",
+      "name": "Jerome Willingham",
+      "office": "Representative",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "Ward 1",
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=63",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=11004",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:jacksonville:representative:logan-sosa",
+      "name": "Logan Sosa",
+      "office": "Representative",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "Ward 3",
+      "phone": "910-938-5200",
+      "email": "citycouncil@jacksonvillenc.gov",
+      "url": "https://www.jacksonvillenc.gov/m/directory/employee?eid=59",
+      "photo_url": "https://www.jacksonvillenc.gov/ImageRepository/Document?documentID=11002",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 Jacksonville, NC 28541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "NC"
+      },
+      "source_url": "https://www.jacksonvillenc.gov/m/directory/department?did=19",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -3880,6 +4317,37 @@
       },
       "source_url": "https://www.orangecountync.gov/953/Board-of-County-Commissioners-BOCC",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pender-county:county-commissioner:brent-springer",
+      "name": "Brent Springer",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Pender County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pender County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pendercountync.gov/formcenter/Board-of-County-Commissioners-15/Contact-County-Commissioner-Brent-Spring-78",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

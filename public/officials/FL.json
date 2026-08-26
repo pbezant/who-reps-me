@@ -1,16 +1,18 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 214,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 256,
   "cities": [
     "Alachua County",
     "Bay County",
     "Boca Raton",
+    "Boynton Beach",
     "Coral Springs",
     "Davie",
     "Daytona Beach",
     "Deerfield Beach",
     "Deltona",
+    "Doral",
     "Flagler County",
     "Fort Lauderdale",
     "Fort Myers",
@@ -18,12 +20,16 @@
     "Highlands County",
     "Hollywood",
     "Homestead",
+    "Jacksonville",
     "Lakeland",
+    "Largo",
     "Lee County",
     "Leon County",
     "Melbourne",
     "Miami",
+    "Miami Beach",
     "Miramar",
+    "Monroe County",
     "Nassau County",
     "Okaloosa County",
     "Orlando",
@@ -32,9 +38,11 @@
     "Pasco County",
     "Port St. Lucie",
     "Seminole County",
+    "St. Cloud",
     "St. Johns County",
     "St. Petersburg",
     "Tallahassee",
+    "Tamarac",
     "Tampa",
     "West Palm Beach"
   ],
@@ -505,6 +513,37 @@
       "confidence": 1
     },
     {
+      "id": "fl:boynton-beach:commissioner:mack-mccray",
+      "name": "Mack McCray",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Boynton Beach City Council",
+      "district": "District II",
+      "phone": null,
+      "email": null,
+      "url": "https://www.boynton-beach.org/897/Commissioner-Mack-McCray-District-II",
+      "photo_url": "https://www.boynton-beach.org/ImageRepository/Document?documentId=3789",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 100 E. Ocean Avenue Boynton Beach, FL 33435",
+      "offices": [],
+      "hours": null,
+      "bio": "This page is your source for updates on City projects, community events, district highlights, and monthly newsletters. My commitment is to transparency, collaboration, and continued progress for our residents, businesses, and neighborhoods.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Boynton Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.boynton-beach.org/897/Commissioner-Mack-McCray-District-II",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:coral-springs:assistant-city-attorney:vanessa-dragutinovic",
       "name": "Vanessa Dragutinovic",
       "office": "Assistant City Attorney",
@@ -936,6 +975,161 @@
       },
       "source_url": "https://www.deltonafl.gov/408/Mayor-City-Commission",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:doral:councilman:rafael-pineyro",
+      "name": "Rafael Pineyro",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Doral City Council",
+      "district": null,
+      "phone": "305-593-6725 x7100",
+      "email": "Rafael.Pineyro@cityofdoral.com",
+      "url": null,
+      "photo_url": "https://www.cityofdoral.com/files/assets/city/v/1/city-hall/rafael-pineyro.jpg?w=200&h=271",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Doral",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofdoral.com/Elected-officials?lang_update=639232138406686492",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:doral:councilwoman:maureen-porras",
+      "name": "Maureen Porras",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Doral City Council",
+      "district": null,
+      "phone": "305-593-6725 x7200",
+      "email": "Maureen.Porras@cityofdoral.com",
+      "url": null,
+      "photo_url": "https://www.cityofdoral.com/files/assets/city/v/1/city-hall/maureen-porras.jpg?w=200&h=271",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Doral",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofdoral.com/Elected-officials?lang_update=639232138406686492",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:doral:councilwoman:nicole-reinoso",
+      "name": "Nicole Reinoso",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Doral City Council",
+      "district": null,
+      "phone": "305-593-6725 x7300",
+      "email": "Nicole.Reinoso@cityofdoral.com",
+      "url": null,
+      "photo_url": "https://www.cityofdoral.com/files/assets/city/v/1/city-hall/seat-3/nicole-reinoso-councilwoman-v2.jpg?w=250&h=339",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Doral",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofdoral.com/Elected-officials?lang_update=639232138406686492",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:doral:mayor:christi-fraga",
+      "name": "Christi Fraga",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Doral City Council",
+      "district": null,
+      "phone": "305-593-6725 x3002",
+      "email": "Christi.Fraga@cityofdoral.com",
+      "url": null,
+      "photo_url": "https://www.cityofdoral.com/files/assets/city/v/5/city-hall/mayor-christi-fraga.jpg?w=300&h=407",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Doral",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofdoral.com/Elected-officials?lang_update=639232138406686492",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:doral:vice-mayor/councilwoman:digna-cabral",
+      "name": "Digna Cabral",
+      "office": "Vice Mayor / Councilwoman",
+      "level": "local",
+      "body": "Doral City Council",
+      "district": null,
+      "phone": "305-593-6725 x7400",
+      "email": "Digna.Cabral@cityofdoral.com",
+      "url": null,
+      "photo_url": "https://www.cityofdoral.com/files/assets/city/v/1/city-hall/digna-cabral.jpg?w=200&h=271",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Doral",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofdoral.com/Elected-officials?lang_update=639232138406686492",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -2323,6 +2517,595 @@
       "confidence": 1
     },
     {
+      "id": "fl:jacksonville:city-council-president:nick-howland",
+      "name": "Nick Howland",
+      "office": "City Council President",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At-Large, Group 3",
+      "phone": "904-255-5217",
+      "email": "NHowland@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:city-council-vice-president:joe-carlucci",
+      "name": "Joe Carlucci",
+      "office": "City Council Vice President",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 5",
+      "phone": "904-255-5205",
+      "email": "JoeCarlucci@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d05",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Carlucci is a Jacksonville native, third-generation insurance agent, and now a third-generation public servant on the Jacksonville City Council. He co-founded an insurance agency in 2009 and has a strong background in business and leadership. He is passionate about effective community leadership and family values.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:chris-miller",
+      "name": "Chris Miller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At-Large, Group 5",
+      "phone": "904-255-5219",
+      "email": "ChrisMiller@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:jimmy-peluso",
+      "name": "Jimmy Peluso",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 7",
+      "phone": "904-255-5207",
+      "email": "JPeluso@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d07",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Jimmy Peluso graduated from The George Washington University with a bachelor's degree in Political Science and History. He completed training at Officer Candidate School and served in the US Navy. He later earned a master’s degree in Public Administration from UPenn and worked in governmental affairs before becoming a political consultant.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:jucoby-pittman",
+      "name": "Ju'Coby Pittman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 10",
+      "phone": "904-255-5210",
+      "email": "JPittman@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d10",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman, Ju’Coby Pittman is a proud native of Jacksonville, who has devoted her career to the advancement of city services, veteran advocacy, and innovative community development. Her public service has been guided by a simple philosophy, “Go out of your comfort zone to make a difference”. Her leadership, experience, and vision, she believes have prepared her to continue a second term to serve on the Jacksonville City Council.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:ken-amaro",
+      "name": "Ken Amaro",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 1",
+      "phone": "904-255-5201",
+      "email": "KAmaro@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d01",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Mr. Ken Amaro, born in the U.S. Virgin Islands, earned a BBA from Jones College in 1980. He worked as an Anchor/Reporter at First Coast News from 1979 until 2021, known for his \"On Your Side\" consumer reports and winning four Emmy awards. After retirement, he was elected to the Jacksonville City Council to continue his public service, advocating for honesty and integrity.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:kevin-carrico",
+      "name": "Kevin Carrico",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 4",
+      "phone": "904-255-5204",
+      "email": "KCarrico@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d04",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Born the son of a U.S. Army officer, Kevin Carrico grew up living all over the country and the world before his family settled in Jacksonville. He graduated from Florida State University in 2005 with a bachelor’s degree in Sociology and later earned a master’s degree in public administration from the University of North Florida. Kevin now serves as the Vice President of Strategic Initiatives for the Boys & Girls Clubs of Northeast Florida and was elected the 57th President of the City Council in 2025.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:matt-carlucci",
+      "name": "Matt Carlucci",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At-Large, Group 4",
+      "phone": "904-255-5218",
+      "email": "MCarlucci@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:michael-boylan",
+      "name": "Michael Boylan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 6",
+      "phone": "904-255-5206",
+      "email": "MBoylan@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d06",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Michael Boylan moved to Jacksonville in 1999 to become President & CEO of WJCT Public Broadcasting, where he led the transition to digital television and expanded radio services. He has a strong commitment to community service, holding leadership roles in various organizations and chairing committees during his tenure on the City Council. Michael is a graduate of John Carroll University and Kent State University, and he is married with two children and three grandchildren.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:mike-gay",
+      "name": "Mike Gay",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 2",
+      "phone": "904-255-5202",
+      "email": "mgay@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d02",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Gay and his wife, Maleana, are Jacksonville, Florida natives with three children. He is an Eagle Scout, played football, and became a State of Florida Electrical Contractor, starting his business M. Gay Constructors. As a councilman, Mike brings 33 years of expertise in budgeting and project management, aiming to protect small businesses and taxpayers.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:rahman-johnson",
+      "name": "Rahman Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 14",
+      "phone": "904-255-5214",
+      "email": "Rahman@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:randy-white",
+      "name": "Randy White",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 12",
+      "phone": "904-255-5212",
+      "email": "RandyWhite@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:raul-e.-arias,-jr.",
+      "name": "Raul E. Arias, Jr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 11",
+      "phone": "904-255-5211",
+      "email": "AriasR@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:reggie-gaffney,-jr.",
+      "name": "Reggie Gaffney, Jr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 8",
+      "phone": "904-255-5208",
+      "email": "RGaffneyJr@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d08",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Reginald “Reggie” Gaffney Jr. is a Jacksonville native distinguished by his academic achievements at Raines High School where he played football and graduated with honors. Afterwards his academic pursuits culminating in a Bachelor's degree in Business Administration from Florida A&M University (FAMU) and a Master of Business Administration from the University of Phoenix. Reggie started his career journey at the Duval County Clerk of Courts, showcasing his commitment to public service and community engagement.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:ronald-b.-salem",
+      "name": "Ronald B. Salem",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At-Large, Group 2",
+      "phone": "904-255-5216",
+      "email": "RSalem@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:rory-diamond",
+      "name": "Rory Diamond",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 13",
+      "phone": "904-255-5213",
+      "email": "RDiamond@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:terrance-freeman",
+      "name": "Terrance Freeman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "At-Large, Group 1",
+      "phone": "904-255-5215",
+      "email": "TFreeman@coj.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:tyrona-clark-murray",
+      "name": "Tyrona Clark-Murray",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 9",
+      "phone": "904-255-5209",
+      "email": "TClarkMurray@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d09",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Tyrona Clark-Murray is a Jacksonville native who has lived in various neighborhoods. She was educated in the Duval County Public School System and earned degrees from Florida A&M University and the University of North Florida. Her career includes military service in the U.S. Army and public service as an educator in Duval County.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:jacksonville:council-member:will-lahnen",
+      "name": "Will Lahnen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Jacksonville City Council",
+      "district": "District 3",
+      "phone": "904-255-5203",
+      "email": "WLahnen@coj.net",
+      "url": "https://www.jacksonville.gov/city-council/city-council-members/d03",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "117 W. Duval St., Suite 425 Jacksonville, FL 32202",
+      "offices": [],
+      "hours": null,
+      "bio": "Will Lahnen is a Jacksonville native and a fourth-generation resident. After graduating from Stanton College Prep High School, he served as a nuclear submarine officer in the United States Naval Academy. Post-Navy, he has held senior finance, operations, and procurement positions and is active in the community, serving on various committees and volunteering.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Jacksonville",
+        "state": "FL"
+      },
+      "source_url": "https://www.jacksonville.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:lakeland:assistant-city-manager:shawn-sherrouse",
       "name": "Shawn Sherrouse",
       "office": "Assistant City Manager",
@@ -2600,6 +3383,223 @@
       "source_url": "https://www.lakelandgov.net/government/public-records-requests/",
       "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 0.9
+    },
+    {
+      "id": "fl:largo:commissioner:chris-johnson",
+      "name": "Chris Johnson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 6",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:commissioner:curtis-holmes",
+      "name": "Curtis Holmes",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 2",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:commissioner:donna-holck",
+      "name": "Donna Holck",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 5",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:commissioner:john-lauser",
+      "name": "John Lauser",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 4",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:commissioner:michael-dibrizzi",
+      "name": "Michael DiBrizzi",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 3",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:commissioner:michael-smith",
+      "name": "Michael Smith",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": "Seat 1",
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:largo:mayor:woody-brown",
+      "name": "Woody Brown",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Largo City Council",
+      "district": null,
+      "phone": "727-587-6702",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/LargoWoody",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Largo",
+        "state": "FL"
+      },
+      "source_url": "https://www.largo.com/connect/mayor_and_commission/index.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
     },
     {
       "id": "fl:lee-county:county-commissioner,-chairman:cecil-pendergrass",
@@ -3253,6 +4253,223 @@
       "confidence": 1
     },
     {
+      "id": "fl:miami-beach:commissioner:alex-j.-fernandez",
+      "name": "Alex J. Fernandez",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/AlexFernandez-circle-c5bed0ae9b6419778e8851ba5470d0e9-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:commissioner:david-suarez",
+      "name": "David Suarez",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/DavidSuarez-circle-500be6abd06f69467eb58ae66b98dfc2-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:commissioner:joseph-magazine",
+      "name": "Joseph Magazine",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/JoeMagazine-circle-011f00307075e4174c694a8c02275be1-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:commissioner:laura-dominguez",
+      "name": "Laura Dominguez",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/Laura-Dominguezyellowborder-circle-19c22919a4be5cb040a94f9567df491b-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:commissioner:monica-matteo-salinas",
+      "name": "Monica Matteo-Salinas",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/Monica-Matteo-Salinas-commissioner-YellowOutline-circle-6b9be2c80208220938aa2a60439ab834-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:commissioner:tanya-k.-bhatt",
+      "name": "Tanya K. Bhatt",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": "Group 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/TanyaKatzoffBhatt-circle-48d95e30ad70510b16b6f67391f88a77-.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:miami-beach:mayor:steven-meiner",
+      "name": "Steven Meiner",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Miami Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.miamibeachfl.gov/wp-content/uploads/2023/12/MayorMeiner2024-Circle.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.miamibeachfl.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:miami:city-attorney:george-wysong",
       "name": "George Wysong",
       "office": "City Attorney",
@@ -3760,6 +4977,37 @@
       },
       "source_url": "https://www.miramarfl.gov/City-Government/Office-of-the-Commission?lang_update=639229567143262167",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:monroe-county:mayor-pro-tem:david-rice",
+      "name": "David Rice",
+      "office": "Mayor Pro Tem",
+      "level": "county",
+      "body": "Monroe County Commissioners Court",
+      "district": "District 4",
+      "phone": "305-289-6000",
+      "email": "boccdis4@monroecounty-fl.gov",
+      "url": "https://www.monroecounty-fl.gov/1014/Mayor-Pro-Tem-David-Rice",
+      "photo_url": "https://www.monroecounty-fl.gov/ImageRepository/Document?documentID=15281",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9400 Overseas Highway, Suite 210 Marathon Airport Marathon , FL 33050",
+      "offices": [],
+      "hours": null,
+      "bio": "David Rice was first elected to the Board of County Commissioners in 2002 and has been re-elected multiple times, representing District 4, accumulating over 20 years of experience. A Monroe County resident since 1973, he founded and served as executive director for the Guidance Clinic of the Middle Keys for over 30 years before retiring in 2006.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Monroe County",
+        "state": "FL"
+      },
+      "source_url": "https://www.monroecounty-fl.gov/1014/Mayor-Pro-Tem-David-Rice",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -5408,6 +6656,47 @@
       "confidence": 1
     },
     {
+      "id": "fl:st.-cloud:council-member:kolby-urban",
+      "name": "Kolby Urban",
+      "office": "Council Member",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "Seat 3",
+      "phone": "407-957-8403",
+      "email": "kolby.urban@stcloudfl.gov",
+      "url": "https://www.stcloudfl.gov/39/Council-Member-Kolby-Urban---Seat-3",
+      "photo_url": "https://www.stcloudfl.gov/ImageRepository/Document?documentID=35522",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 9th Street St. Cloud, FL 34769",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City Hall",
+          "city": "St. Cloud",
+          "address": "1300 9th Street, St. Cloud, FL 34769",
+          "phone": "407-957-7300",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Council Member Urban is a lifelong resident of St. Cloud and was first elected to the City Council in 2021 to fill an unexpired term.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "FL"
+      },
+      "source_url": "https://www.stcloudfl.gov/39/Council-Member-Kolby-Urban---Seat-3",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:st.-johns-county:assistant-county-administrator:sarah-taylor",
       "name": "Sarah Taylor",
       "office": "Assistant County Administrator",
@@ -6583,6 +7872,37 @@
       },
       "source_url": "https://www.talgov.com/Main/Home",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:tamarac:commissioner:morey-wright",
+      "name": "Morey Wright",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Tamarac City Council",
+      "district": "District 2",
+      "phone": "954-597-3479",
+      "email": "Morey.Wright@Tamarac.gov",
+      "url": "https://www.tamarac.gov/1279/Commissioner---Morey-Wright-District-2",
+      "photo_url": "https://www.tamarac.gov/ImageRepository/Document?documentId=14373",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 7525 NW 88th Ave. Tamarac, FL 33321",
+      "offices": [],
+      "hours": null,
+      "bio": "Morey Wright Jr., MBA, MA, is an entrepreneur, tech consultant and business executive. He was first elected to the Tamarac City Commission in 2022, where he served as vice mayor and represented the City on the Broward County Affordable Housing Advisory Committee. He also chaired the City’s Financial Audit Committee, highlighting his commitment to fiscal responsibility and community well-being.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Tamarac",
+        "state": "FL"
+      },
+      "source_url": "https://www.tamarac.gov/1592/Commissioner-Morey-Wrights-Tamarac-Econo",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

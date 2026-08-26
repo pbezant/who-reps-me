@@ -1,9 +1,10 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 36,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 43,
   "cities": [
     "Lafayette Parish",
+    "Lake Charles",
     "New Orleans",
     "Orleans Parish",
     "Shreveport",
@@ -40,6 +41,223 @@
       },
       "source_url": "https://www.lafayettela.gov/your-government/accessibility/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member-(president):stuart-weatherford",
+      "name": "Stuart Weatherford",
+      "office": "City Council Member (President)",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District E",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member-(vice-president):ronnie-harvey,-jr.",
+      "name": "Ronnie Harvey, Jr.",
+      "office": "City Council Member (Vice President)",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District A",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member:craig-marks",
+      "name": "Craig Marks",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District F",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member:donald-fondel",
+      "name": "Donald Fondel",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District B",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member:matt-young",
+      "name": "Matt Young",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District D",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member:matthew-vezinot",
+      "name": "Matthew Vezinot",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District G",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:lake-charles:council-member:tommy-bilbo",
+      "name": "Tommy Bilbo",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lake Charles City Council",
+      "district": "District C",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "326 Pujo Street, Lake Charles, LA 70601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Charles",
+        "state": "LA"
+      },
+      "source_url": "https://www.cityoflakecharles.com/171/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
