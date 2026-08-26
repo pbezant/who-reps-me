@@ -1,11 +1,13 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 25,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 32,
   "cities": [
     "Boone County",
+    "Bowling Green",
     "Campbell County",
-    "Hardin County"
+    "Hardin County",
+    "Oldham County"
   ],
   "officials": [
     {
@@ -192,6 +194,161 @@
       },
       "source_url": "https://www.boonecountyky.org/government/boone_county_fiscal_court/office_of_the_judge_executive/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:bowling-green:commissioner:carlos-bailey",
+      "name": "Carlos Bailey",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Bowling Green City Council",
+      "district": null,
+      "phone": "270-594-1233",
+      "email": "carlos.bailey@bgky.org",
+      "url": "https://www.bgky.org/city-commission/carlos-bailey",
+      "photo_url": "https://www.bgky.org/img/port/1024/UWARLTZz.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "As an attorney with over a decade of experience, Carlos Bailey has fought against racial injustice, employment discrimination, and has lent his voice to those who would have otherwise gone unheard. He opened the Bailey Law Firm of Southern Kentucky, PLLC in 2011, focusing on immigration, criminal, and civil litigation. A Bowling Green native, he graduated from Warren Central High School and Western Kentucky University, and currently serves on the Light of Chance Board.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Bowling Green",
+        "state": "KY"
+      },
+      "source_url": "https://www.bgky.org/city-commission",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:bowling-green:commissioner:dana-beasley-brown",
+      "name": "Dana Beasley-Brown",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Bowling Green City Council",
+      "district": null,
+      "phone": "270-697-3262",
+      "email": "dana.beasleybrown@bgky.org",
+      "url": "https://www.bgky.org/city-commission/dana-beasley-brown",
+      "photo_url": "https://www.bgky.org/img/port/1024/aYu08Pyg.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Dana Beasley Brown was elected to the City Commission in November 2018. She works at Bowling Green Junior High in the Youth Services Center, supporting kids and their dreams. Commissioner Beasley-Brown is committed to stewarding the city's current growth and ensuring a legacy for future generations.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Bowling Green",
+        "state": "KY"
+      },
+      "source_url": "https://www.bgky.org/city-commission",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:bowling-green:commissioner:melinda-hill",
+      "name": "Melinda Hill",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Bowling Green City Council",
+      "district": null,
+      "phone": "270-792-7212",
+      "email": "melinda.hill@bgky.org",
+      "url": "https://www.bgky.org/city-commission/melinda-hill",
+      "photo_url": "https://www.bgky.org/img/port/1024/uFNlRTp2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Melinda Hill brings more than thirty years’ experience designing and implementing programs for Fortune 500 Companies, a major local bank and governmental agencies. She has eight years’ experience providing senior leadership in accomplishing the goals of state and local governments and is particularly effective in the organization of new strategies and communicating these with all levels of the organization. Currently, Ms. Hill serves as Executive Director of CASA of South Central Kentucky.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Bowling Green",
+        "state": "KY"
+      },
+      "source_url": "https://www.bgky.org/city-commission",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:bowling-green:commissioner:sue-parrigin",
+      "name": "Sue Parrigin",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Bowling Green City Council",
+      "district": null,
+      "phone": "270-792-1428",
+      "email": "sue.parrigin@bgky.org",
+      "url": "https://www.bgky.org/city-commission/sue-parrigin",
+      "photo_url": "https://www.bgky.org/img/port/1024/ANwjhRYr.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Sue Parrigin brings decades of leadership and management experience from owning and operating her own business to working at Western Kentucky University. Dr. Parrigin is very active in our community serving on many boards and commissions. She is a 2017 retiree from Western Kentucky University and is currently employed as a Leadership Development Consultant.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Bowling Green",
+        "state": "KY"
+      },
+      "source_url": "https://www.bgky.org/city-commission",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:bowling-green:mayor:todd-alcott",
+      "name": "Todd Alcott",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bowling Green City Council",
+      "district": null,
+      "phone": "270-792-1488",
+      "email": "todd.alcott@bgky.org",
+      "url": "https://www.bgky.org/city-commission/todd-alcott",
+      "photo_url": "https://www.bgky.org/img/port/1024/7q5pNXrQ.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Todd Alcott is a JROTC teacher at Warren East High School and a retired Lt Colonel from the U.S. Air Force, having served over 21.5 years globally, including as Chief of Resilience for the Air Force at the Pentagon. He holds a Bachelor of Science from WKU and a Masters of Info Mgt from the University of Phoenix.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Bowling Green",
+        "state": "KY"
+      },
+      "source_url": "https://www.bgky.org/city-commission",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -782,6 +939,68 @@
       "source_url": "https://hardincountyky.gov/389/Elected-Officials",
       "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
+    },
+    {
+      "id": "ky:oldham-county:judge-executive:david-voegele",
+      "name": "David Voegele",
+      "office": "Judge-Executive",
+      "level": "county",
+      "body": "Oldham County Commissioners Court",
+      "district": null,
+      "phone": "502-222-9357",
+      "email": "DVoegele@OldhamCountyKY.gov",
+      "url": "https://www.oldhamcountyky.gov/welcome",
+      "photo_url": "https://irp.cdn-website.com/fd0fc3bd/dms3rep/multi/opt/David-Voegele-1920w.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Jefferson Street La Grange, KY 40031",
+      "offices": [],
+      "hours": null,
+      "bio": "I am the Judge-Executive, or ‘county judge’, as the position is known. The county judge is the chief administrative officer of county government. The judge-executive does not conduct trials or act as a judge in the sense of a judge and jury, but rather presides at Fiscal Court.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Oldham County",
+        "state": "KY"
+      },
+      "source_url": "https://www.oldhamcountyky.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:oldham-county:parks-and-recreation-director:gary-parsons",
+      "name": "Gary Parsons",
+      "office": "Parks and Recreation Director",
+      "level": "county",
+      "body": "Oldham County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.oldhamcountyky.gov/parksandrecreation",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 West Jefferson Street La Grange, KY 40031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oldham County",
+        "state": "KY"
+      },
+      "source_url": "https://www.oldhamcountyky.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
     }
   ]
 }

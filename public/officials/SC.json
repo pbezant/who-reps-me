@@ -1,16 +1,18 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 97,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 109,
   "cities": [
     "Anderson County",
     "Beaufort County",
     "Charleston",
     "Columbia",
+    "Greenville",
     "Greenville County",
     "Lancaster County",
     "Lexington County",
     "Mount Pleasant",
+    "Oconee County",
     "Pickens County",
     "Spartanburg County",
     "Sumter County"
@@ -1567,6 +1569,223 @@
       "confidence": 1
     },
     {
+      "id": "sc:greenville:council-member-at-large:dorothy-dowe",
+      "name": "Dorothy Dowe",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/dorothy-dowe-at-large",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:council-member-at-large:tina-belge",
+      "name": "Tina Belge",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/tina-belge-at-large-councilor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:council-member:john-deworken",
+      "name": "John DeWorken",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/john-deworken-district-1",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:council-member:ken-gibson",
+      "name": "Ken Gibson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/ken-gibson-district-3",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:council-member:lillian-brock-flemming",
+      "name": "Lillian Brock Flemming",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/lillian-brock-flemming-district-2",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:council-member:wil-brasington",
+      "name": "Wil Brasington",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/wil-brasington-district-4",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenville:mayor:knox-white",
+      "name": "Knox White",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Greenville City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.greenvillesc.gov/mayor-knox-white",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Greenville",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenvillesc.gov/city-council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "sc:lancaster-county:council-chair:brian-carnes",
       "name": "Brian Carnes",
       "office": "Council Chair",
@@ -2339,6 +2558,161 @@
       },
       "source_url": "https://www.tompsc.com/27/Government",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:oconee-county:chair,-budget,-finance,-&-administration-committee:matthew-durham",
+      "name": "Matthew Durham",
+      "office": "Chair, Budget, Finance, & Administration Committee",
+      "level": "county",
+      "body": "Oconee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "415 S. Pine St. Walhalla, SC 29691",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oconee County",
+        "state": "SC"
+      },
+      "source_url": "https://oconeesc.com/council-home/committees-and-commissions",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:oconee-county:chair,-law-enforcement,-public-safety,-heath,-&-welfare-committee:don-mize",
+      "name": "Don Mize",
+      "office": "Chair, Law Enforcement, Public Safety, Heath, & Welfare Committee",
+      "level": "county",
+      "body": "Oconee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "415 S. Pine St. Walhalla, SC 29691",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oconee County",
+        "state": "SC"
+      },
+      "source_url": "https://oconeesc.com/council-home/committees-and-commissions",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:oconee-county:chair,-planning-&-economic-development-committee:thomas-james",
+      "name": "Thomas James",
+      "office": "Chair, Planning & Economic Development Committee",
+      "level": "county",
+      "body": "Oconee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "415 S. Pine St. Walhalla, SC 29691",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oconee County",
+        "state": "SC"
+      },
+      "source_url": "https://oconeesc.com/council-home/committees-and-commissions",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:oconee-county:chair,-real-estate,-facilities,-&-land-management-committee:john-elliott",
+      "name": "John Elliott",
+      "office": "Chair, Real Estate, Facilities, & Land Management Committee",
+      "level": "county",
+      "body": "Oconee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "415 S. Pine St. Walhalla, SC 29691",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oconee County",
+        "state": "SC"
+      },
+      "source_url": "https://oconeesc.com/council-home/committees-and-commissions",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:oconee-county:chair,-transportation-committee:glenn-hart",
+      "name": "Glenn Hart",
+      "office": "Chair, Transportation Committee",
+      "level": "county",
+      "body": "Oconee County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "415 S. Pine St. Walhalla, SC 29691",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oconee County",
+        "state": "SC"
+      },
+      "source_url": "https://oconeesc.com/council-home/committees-and-commissions",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

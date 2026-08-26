@@ -1,8 +1,9 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 50,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 56,
   "cities": [
+    "Ankeny",
     "Black Hawk County",
     "Cedar Rapids",
     "Dallas County",
@@ -11,6 +12,202 @@
     "Sioux City"
   ],
   "officials": [
+    {
+      "id": "ia:ankeny:council-member:dustin-graber",
+      "name": "Dustin Graber",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6493",
+      "email": "dgraber@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=214",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=3499",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Dustin Graber is serving his first term on the Ankeny City Council, appointed in January 2025. A lifelong Iowan and Ankeny resident since 2009, he previously served on the Ankeny School Board and is dedicated to enhancing the quality of life for all Ankeny residents.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:ankeny:council-member:jeff-perry",
+      "name": "Jeff Perry",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6494",
+      "email": "jperry@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=163",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=1094",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jeff Perry is serving his second term on the Ankeny City Council. As a council member, he serves on the BRAVO board, the Central Iowa Regional Drinking Water Commission and the Community Education Advisory Board. He works as an Operational Risk Consultant for Wells Fargo and has a B.A. degree from Western Michigan University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:ankeny:council-member:justin-hollinrake",
+      "name": "Justin Hollinrake",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6497",
+      "email": "Jhollinrake@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=231",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=5481",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City of Ankeny",
+          "city": "Ankeny",
+          "address": "410 W. First Street Ankeny, IA 50023",
+          "phone": "515-965-6400",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Justin Hollinrake is serving his first term on Ankeny City Council, elected in 2025. He was born and raised in Ankeny, graduating from Ankeny Centennial High School in 2020 and Iowa State University in 2022 with a political science degree. He currently works as a tax intern at CliftonLarsonAllen.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:ankeny:council-member:matt-davis",
+      "name": "Matt Davis",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6498",
+      "email": "mdavis@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=228",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=5185",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Matt Davis is serving his first term on the Ankeny City Council. He is a Senior Project Manager and Shareholder at Neumann Brothers, Inc., and has lived in Ankeny for over 18 years. Matt and his wife are raising three children in the community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:ankeny:mayor-pro-tem:todd-shafer",
+      "name": "Todd Shafer",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6499",
+      "email": "tshafer@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=165",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=1096",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Todd Shafer is serving his second term on the Ankeny City Council and was appointed Mayor Pro Tem on Feb. 17, 2025. He is a business owner and works for MidAmerican Energy in supply chain management as a Contracts Manager. Todd previously served on the Ankeny School Board from 2009 – 2017, including as Vice President and President.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:ankeny:mayor:bobbi-bentz",
+      "name": "Bobbi Bentz",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Ankeny City Council",
+      "district": null,
+      "phone": "515-965-6403",
+      "email": "bbentz@ankenyiowa.gov",
+      "url": "https://www.ankenyiowa.gov/m/directory/employee?eid=161",
+      "photo_url": "https://www.ankenyiowa.gov/ImageRepository/Document?documentID=1098",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Bentz was appointed to Mayor in December 2024, having previously served 12 years as a council member and as Mayor Pro Tem. She holds multiple degrees, including a PhD, and represents Ankeny on several boards and committees. Bobbi and her husband Adam have three children and are actively involved in the Ankeny community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Ankeny",
+        "state": "IA"
+      },
+      "source_url": "https://www.ankenyiowa.gov/456/Mayor-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
     {
       "id": "ia:black-hawk-county:assessor:tj-koenigsfeld",
       "name": "TJ Koenigsfeld",

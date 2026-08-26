@@ -1,10 +1,11 @@
 {
   "state": "MT",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 22,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 24,
   "cities": [
     "Billings",
-    "Cascade County"
+    "Cascade County",
+    "Lewis and Clark County"
   ],
   "officials": [
     {
@@ -687,6 +688,68 @@
       },
       "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:lewis-and-clark-county:chief-administrative-officer:roger-baltz",
+      "name": "Roger Baltz",
+      "office": "Chief Administrative Officer",
+      "level": "county",
+      "body": "Lewis and Clark County Commissioners Court",
+      "district": null,
+      "phone": "406-447-8311",
+      "email": "rbaltz@lccountymt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "316 North Park Avenue, Suite 345 Helena, Montana 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis and Clark County",
+        "state": "MT"
+      },
+      "source_url": "https://www.lccountymt.gov/Government/Admin-Finance?lang_update=639232083204219951",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:lewis-and-clark-county:chief-financial-officer:frank-cornwell",
+      "name": "Frank Cornwell",
+      "office": "Chief Financial Officer",
+      "level": "county",
+      "body": "Lewis and Clark County Commissioners Court",
+      "district": null,
+      "phone": "406-447-8309",
+      "email": "fcornwell@lccountymt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "316 North Park Avenue, Helena, Montana 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lewis and Clark County",
+        "state": "MT"
+      },
+      "source_url": "https://www.lccountymt.gov/Government/Admin-Finance?lang_update=639232083204219951",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     }
   ]

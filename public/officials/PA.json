@@ -1,7 +1,7 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 97,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 120,
   "cities": [
     "Beaver County",
     "Blair County",
@@ -10,6 +10,7 @@
     "Cambria County",
     "Centre County",
     "Chester County",
+    "Crawford County",
     "Cumberland County",
     "Dauphin County",
     "Fayette County",
@@ -21,7 +22,10 @@
     "Northumberland County",
     "Philadelphia",
     "Philadelphia County",
+    "Pittsburgh",
+    "Reading",
     "Schuylkill County",
+    "Scranton",
     "York County"
   ],
   "officials": [
@@ -1046,6 +1050,626 @@
       },
       "source_url": "https://www.chesco.org/m/newsflash/home/detail/1747",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:clerk-of-courts:patti-wetherbee",
+      "name": "Patti Wetherbee",
+      "office": "Clerk of Courts",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:commissioner:christopher-r.-seeley",
+      "name": "Christopher R. Seeley",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:commissioner:eric-henry",
+      "name": "Eric Henry",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:commissioner:scott-t.-schell",
+      "name": "Scott T. Schell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:county-auditor:darien-pfaff",
+      "name": "Darien Pfaff",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:county-auditor:kelsey-zimmerman",
+      "name": "Kelsey Zimmerman",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:county-auditor:stacey-holzer",
+      "name": "Stacey Holzer",
+      "office": "County Auditor",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:county-coroner:eric-coston",
+      "name": "Eric Coston",
+      "office": "County Coroner",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:district-attorney:paula-digiacomo",
+      "name": "Paula DiGiacomo",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:judge,-court-of-common-pleas:francis-j.-schultz",
+      "name": "Francis J. Schultz",
+      "office": "Judge, Court of Common Pleas",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:judge,-court-of-common-pleas:mark-d.-stevens",
+      "name": "Mark D. Stevens",
+      "office": "Judge, Court of Common Pleas",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:magisterial-district-judge:adam-stallard",
+      "name": "Adam Stallard",
+      "office": "Magisterial District Judge",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": "814-683-2120",
+      "email": null,
+      "url": "https://crawfordcountypa.net/government/district-court-30-3-01/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6121 US Highway 6, Linesville, PA 16424",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 AM - 4:30 PM",
+      "bio": "Magisterial District Judge Adam Stallard serves numerous municipalities in Crawford County, handling criminal and traffic cases, civil and landlord-tenant actions up to $12,000.00, and summary offenses.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:magisterial-district-judge:benjamin-leach",
+      "name": "Benjamin Leach",
+      "office": "Magisterial District Judge",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": "814-827-6514",
+      "email": null,
+      "url": "https://crawfordcountypa.net/government/district-court-30-3-06/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Central Avenue, Suite A Titusville, PA 16354",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 AM - 4:30 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:magisterial-district-judge:lincoln-s.-zilhaver",
+      "name": "Lincoln S. Zilhaver",
+      "office": "Magisterial District Judge",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": "814-724-6322",
+      "email": "padc333@co.crawford.pa.us",
+      "url": "https://crawfordcountypa.net/government/district-court-30-3-03/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10996 Perry Highway, Meadville, PA 16335",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 AM - 4:30 PM",
+      "bio": "Magisterial District Judge Lincoln S. Zilhaver serves the following municipalities in Crawford County: Cambridge Township, Cambridge Springs Borough, Cussewago Township, Hayfield Township, Vernon Township, Rockdale Township, Saegertown Borough, Venango Borough, Venango Township, Woodcock Borough, Woodcock Township.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:magisterial-district-judge:samuel-pendolino",
+      "name": "Samuel Pendolino",
+      "office": "Magisterial District Judge",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": "814-724-2736",
+      "email": "padc321@co.crawford.pa.us",
+      "url": "https://crawfordcountypa.net/government/district-court-30-2-01/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "903 Diamond Park, Meadville, PA 16335",
+      "offices": [],
+      "hours": "Monday - Friday 8:30 AM - 4:30 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:president-judge,-court-of-common-pleas:john-f.-spataro",
+      "name": "John F. Spataro",
+      "office": "President Judge, Court of Common Pleas",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:prothonotary:emmy-arnett",
+      "name": "Emmy Arnett",
+      "office": "Prothonotary",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:register-&-recorder:marlo-urey",
+      "name": "Marlo Urey",
+      "office": "Register & Recorder",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:sheriff:dave-powers",
+      "name": "Dave Powers",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:crawford-county:treasurer:renee-kiser",
+      "name": "Renee Kiser",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Crawford County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Crawford County",
+        "state": "PA"
+      },
+      "source_url": "https://crawfordcountypa.net/government/elected-officials/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -2878,6 +3502,68 @@
       "confidence": 1
     },
     {
+      "id": "pa:pittsburgh:mayor:corey-oconnor",
+      "name": "Corey O'Connor",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Pittsburgh City Council",
+      "district": null,
+      "phone": "412-255-2626",
+      "email": null,
+      "url": "https://www.pittsburghpa.gov/City-Government/The-Mayor/Contact-Mayor-OConnor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "The City-County Building, 414 Grant Street, Pittsburgh, PA 15219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Pittsburgh",
+        "state": "PA"
+      },
+      "source_url": "https://www.pittsburghpa.gov/Home",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:reading:councilor:vanessa-campos",
+      "name": "Vanessa Campos",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Reading City Council",
+      "district": "District One",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.readingpa.gov/images/dist124hs.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Reading",
+        "state": "PA"
+      },
+      "source_url": "https://www.readingpa.gov/council-district-one",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:schuylkill-county:clerk-of-courts:crista-dicasimirro",
       "name": "Crista DiCasimirro",
       "office": "Clerk of Courts",
@@ -3000,6 +3686,37 @@
       "source_url": "https://www.schuylkillcountypa.gov/government/clerk_of_courts/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 0.95
+    },
+    {
+      "id": "pa:scranton:mayor:paige-g.-cognetti",
+      "name": "Paige G. Cognetti",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Scranton City Council",
+      "district": null,
+      "phone": "570-348-4101",
+      "email": null,
+      "url": "https://scrantonpa.gov/mayor/about-the/",
+      "photo_url": "https://scrantonpa.gov/wp-content/uploads/2024/04/Paige-Cognetti-Speakers-2022-SparkTalks_500x600px-1-2.png",
+      "social": {
+        "twitter": "https://twitter.com/Scranton_Mayor",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "340 N Washington Ave\nScranton, PA 18503",
+      "offices": [],
+      "hours": "Monday – Friday, 8:00am to 4:30pm",
+      "bio": "Mayor Cognetti was sworn in as Mayor of Scranton on January 6, 2020, and won re-election to a full term in November 2021. Prior to becoming Mayor, she advised the Pennsylvania Auditor General and served on the Scranton School Board. She also served in the Obama administration as a senior advisor at the U.S. Treasury Department.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Scranton",
+        "state": "PA"
+      },
+      "source_url": "https://scrantonpa.gov/mayor/about-the/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
     },
     {
       "id": "pa:york-county:vice-president-commissioner:scott-burford",

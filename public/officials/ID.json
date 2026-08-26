@@ -1,12 +1,14 @@
 {
   "state": "ID",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 36,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 49,
   "cities": [
     "Bannock County",
     "Boise City",
     "Bonneville County",
+    "Caldwell",
     "Canyon County",
+    "Idaho Falls",
     "Nampa"
   ],
   "officials": [
@@ -724,6 +726,192 @@
       "confidence": 1
     },
     {
+      "id": "id:caldwell:council-member:chris-allgood",
+      "name": "Chris Allgood",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 5",
+      "phone": "208-249-0876",
+      "email": "callgood@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-5",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/4/city-clerk/images/chris-allgood-portrait.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Chris Allgood's family moved to Idaho in 1976. He served the citizens of Caldwell for 30 years with the Caldwell Police Department, including 8 years as Chief of Police before retiring in 2015. Chris became a proud member of the City Council in 2016 and was re-elected in 2017 and 2019, with his current term ending December 31, 2027.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:caldwell:council-member:chuck-stadick",
+      "name": "Chuck Stadick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 2",
+      "phone": "208-250-2410",
+      "email": "cstadick@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-2",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/4/city-clerk/images/portrait_councilor-chuck-stadick.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Chuck Stadick was born in Minnesota, served in the U.S. Army, and had a long career with J.R. Simplot Company before retiring. He has been actively involved in the Caldwell community, serving on various boards and commissions, and previously held a seat on the City Council from 2016 to 2019. Chuck enjoys fishing, golf, and spending time with his family.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:caldwell:council-member:diana-register",
+      "name": "Diana Register",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 3",
+      "phone": "208-614-8462",
+      "email": "dregister@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-3",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/4/city-clerk/images/portrait-of-diana-register.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Diana Register has lived in Idaho since 2006 and has a long history in law enforcement, including civilian employee positions at Caldwell and Nampa police departments. She is an international best-selling author, local realtor, small business owner, and Chairman of the IAM149 public charity. Diana was elected to the Caldwell City Council in 2021, with her current term ending December 31, 2029.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:caldwell:council-member:geoff-williams",
+      "name": "Geoff Williams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 4",
+      "phone": "208-504-7770",
+      "email": "gwilliams@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-4",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/2/city-clerk/images/portrait_councilor-geoff-williams.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Geoff Williams and his wife Beth made Caldwell their home in 2007, where they raised their family and served the community. His diverse career includes managing small businesses, banking, missionary work, and serving as a pastor and Caldwell Police Chaplain. Appointed on February 16, 2022, his priorities are faith, family, and community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:caldwell:council-member:mike-dittenber",
+      "name": "Mike Dittenber",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 6",
+      "phone": "208-504-7201",
+      "email": "mdittenber@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-6",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/2/city-clerk/images/portrait_councilor-mike-dittenber.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Dittenber is a 50+ year Canyon County resident who made Caldwell his community of choice 25 years ago. He has been the Executive Director of the Caldwell Housing Authority since January 2, 2007, and previously worked for Idaho Housing and Finance Association and the Boise Police Department. He is a Veteran of the United States Marine Corp and was educated at Boise State University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:caldwell:council-member:scott-tilmant",
+      "name": "Scott Tilmant",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Caldwell City Council",
+      "district": "Seat 1",
+      "phone": "208-504-7574",
+      "email": "stilmant@cityofcaldwell.org",
+      "url": "https://www.cityofcaldwell.org/Government/City-Council/City-Council-Seat-1",
+      "photo_url": "https://www.cityofcaldwell.org/files/assets/city/v/1/city-clerk/images/portrait-of-scott-tilmant.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Scott Tilmant was born in Salt Lake City, Utah, and lived overseas before returning to the US to start a civil drafting and service business. He moved to Caldwell in 1998, where he has served the community through Scouting and on the Impact Fee Advisory Board. Elected in 2025, he began his term on the Caldwell City Council in January 2026.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Caldwell",
+        "state": "ID"
+      },
+      "source_url": "https://www.cityofcaldwell.org/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "id:canyon-county:assessor:brian-stender",
       "name": "Brian Stender",
       "office": "Assessor",
@@ -948,6 +1136,223 @@
       },
       "source_url": "https://www.canyoncounty.id.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:idaho-falls:council-member:brandon-lee",
+      "name": "Brandon Lee",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 2",
+      "phone": "208-612-8100",
+      "email": null,
+      "url": "https://www.idahofallsidaho.gov/Directory.aspx?EID=292",
+      "photo_url": "https://www.idahofallsidaho.gov/ImageRepository/Document?documentID=19682",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": "Brandon was elected to serve on the Idaho Falls City Council in December of 2025. He was born and raised in Idaho Falls and has been involved in real estate acquisition and development for the past 19 years. He earned his CPA and holds an MBA, and has a passion for coaching youth soccer.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:idaho-falls:council-member:jim-freeman",
+      "name": "Jim Freeman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 6",
+      "phone": "208-612-8100",
+      "email": "jfreeman@idahofalls.gov",
+      "url": "https://www.idahofallsidaho.gov/Directory.aspx?EID=259",
+      "photo_url": "https://www.idahofallsidaho.gov/ImageRepository/Document?documentID=7102",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Freeman, a lifelong Idaho Falls resident, followed his family's tradition of civic service, eventually serving 26 years with the Idaho Falls Fire Department as a firefighter, paramedic, and Captain. Since retiring in 2012, he has actively volunteered and served on various boards, including the Mayor's Citizen Review Committee for Parks and Recreation and the Golf Advisory Board. He is proud to serve the citizens of Idaho Falls as a Council Member.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:idaho-falls:council-member:john-radford",
+      "name": "John Radford",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 5",
+      "phone": "208-612-8100",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:idaho-falls:council-member:kirk-larsen",
+      "name": "Kirk Larsen",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 3",
+      "phone": "208-612-8100",
+      "email": null,
+      "url": "https://www.idahofallsidaho.gov/Directory.aspx?EID=315",
+      "photo_url": "https://www.idahofallsidaho.gov/ImageRepository/Document?documentID=16686",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": "Kirk was elected to serve on the Idaho Falls City Council in November of 2023 and entered his first term in January 2024. Kirk is a lifelong Idahoan who grew up interested in making money work to reach goals, which led him to a successful career in banking. Kirk graduated from Brigham Young University with a bachelor's in finance, holds an MBA from Idaho State University, and earned a certificate at Pacific Coast Banking School.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:idaho-falls:council-member:michelle-ziel-dingman",
+      "name": "Michelle Ziel-Dingman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 1",
+      "phone": "208-612-8100",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "id:idaho-falls:council-president:jim-francis",
+      "name": "Jim Francis",
+      "office": "Council President",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": "Seat 4",
+      "phone": "208-612-8100",
+      "email": null,
+      "url": "https://www.idahofallsidaho.gov/directory.aspx?EID=258",
+      "photo_url": "https://www.idahofallsidaho.gov/ImageRepository/Document?documentID=7101",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim came to Idaho Falls in 1953 at the age of four when his father took a job working with the early test reactors. Jim attended Emerson and Linden Park elementary schools and graduated from Idaho Falls High School in 1966, the last year in which there was only one high school in District 91. After leaving Idaho Falls for a few years to complete his college education and begin his teaching career, he returned to the city with his wife in 1977 as a teacher of history in the Idaho Falls school system.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:idaho-falls:mayor:lisa-burtenshaw",
+      "name": "Lisa Burtenshaw",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Idaho Falls City Council",
+      "district": null,
+      "phone": "208-612-8100",
+      "email": null,
+      "url": "https://www.idahofallsidaho.gov/directory.aspx?EID=122",
+      "photo_url": "https://www.idahofallsidaho.gov/ImageRepository/Document?documentID=19680",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City of Idaho Falls 308 Constitution Way Idaho Falls, ID 83402",
+      "offices": [],
+      "hours": null,
+      "bio": "Lisa Meikle Burtenshaw, raised in Idaho Falls, holds a Bachelor of Science in Mechanical Engineering. She served on the Idaho Falls District 91 board for 10 years and the City Council before being elected Mayor in December 2025, starting her term in January 2026. She is passionate about proactive planning for the city's rapid growth.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Idaho Falls",
+        "state": "ID"
+      },
+      "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

@@ -1,10 +1,11 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 77,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 88,
   "cities": [
     "Boston",
     "Cambridge",
+    "Framingham",
     "Lowell",
     "Norfolk County",
     "Quincy",
@@ -723,6 +724,366 @@
       },
       "source_url": "https://www.cambridgema.gov/departments/citycouncil/members",
       "extracted_at": "2026-08-22T11:44:43.377Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:brandon-ward",
+      "name": "Brandon Ward",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-314-2449",
+      "email": "bward@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2440/Brandon-Ward",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "251 Central Street Framingham, MA 01701",
+      "offices": [],
+      "hours": null,
+      "bio": "Brandon Ward serves as the District 2 City Councilor for Precincts 25, 26, and 27. He is also the Executive Director of Leadership MetroWest.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:christine-a.-long",
+      "name": "Christine A. Long",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": null,
+      "email": "clong@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2448/Christine-A-Long",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Christine A. Long serves as the District 1 City Councilor for Framingham, representing Precincts 22, 23, and 24. She chairs the Planning & Zoning Subcommittee and is Vice Chair of the Public Health, Safety, Transportation and Rules, Ordinances and Ethics Subcommittees. Her municipal experience includes serving on the Planning Board and Zoning Board of Appeals, and she is a founding member of the former Community Outreach Project.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:george-king",
+      "name": "George King",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-958-3825",
+      "email": "gking@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2447/George-King",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "16 Auburn Street Framingham, MA 01701",
+      "offices": [],
+      "hours": null,
+      "bio": "George P. King, Jr. serves as City Council Chair & Councilor-at-Large for Framingham, MA. He is an attorney and is married to Allison Potter with two daughters. He holds degrees from Boston College, Framingham State University, and Massachusetts School of Law.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:janet-leombruno",
+      "name": "Janet Leombruno",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-989-4938",
+      "email": "jleombruno@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2455/Janet-Leombruno",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "19 Ellis Street Framingham, MA 01701",
+      "offices": [],
+      "hours": null,
+      "bio": "Janet Leombruno serves as the City Council Vice Chair and Councilor-at-Large for Framingham, MA. She chairs the Appointment Subcommittee and is Vice Chair for Education, Library, Arts and Culture, Elder and Veteran Services. Her extensive municipal experience includes serving as a former Town Meeting Member and Framingham Charter Commissioner.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:john-stefanini",
+      "name": "John Stefanini",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-872-2220",
+      "email": "jastefanini@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2445/John-Stefanini",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Bethany Road Framingham, MA 01702-7250",
+      "offices": [],
+      "hours": null,
+      "bio": "John Stefanini is the District 8 City Councilor (Precincts 4, 5, 6) and an attorney. He is married to Cecilia and has two daughters and a Labrador Retriever named Ellie.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:leora-mallach",
+      "name": "Leora Mallach",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-969-1124",
+      "email": "lmallach@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/3422/Leora-Mallach",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15 Wilson Street Framingham, MA 01702",
+      "offices": [],
+      "hours": null,
+      "bio": "Leora Mallach is an entrepreneur who holds a BA in Anthropology from Washington University in St. Louis and a Masters in Education from the University of Vermont.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:mary-kate-feeney",
+      "name": "Mary Kate Feeney",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-733-3153",
+      "email": "mkfeeney@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2439/Mary-Kate-Feeney",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5 Ledgewood Road Framingham, MA 01701",
+      "offices": [],
+      "hours": null,
+      "bio": "Mary Kate Feeney is the District 3 City Councilor for Framingham, MA, serving on the Rules Ordinances & Ethics Subcommittee and as Vice Chair of the Environment & Sustainability Subcommittee. She is a small business owner with a background in political science and history, and is actively involved in various community organizations.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:michael-cannon",
+      "name": "Michael Cannon",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-309-8901",
+      "email": "mcannon@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2441/Michael-Cannon",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "district",
+          "name": "City Council office",
+          "city": "Framingham",
+          "address": null,
+          "phone": "508-532-5655",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "district",
+          "name": "McAuliffe branch library",
+          "city": "Framingham",
+          "address": "Water Street",
+          "phone": null,
+          "fax": null,
+          "hours": "First Friday of each month from 9:30AM-11:30AM"
+        }
+      ],
+      "hours": "monthly open office hours on the first Friday of each month from 9:30AM-11:30AM at the McAuliffe branch library on Water Street",
+      "bio": "Michael P. Cannon is currently serving his fourth term on the Framingham City Council, a role he has held since Framingham became a City on January 1, 2018. He has served on various subcommittees and is actively involved in issues and organizations supporting small business, economic development, seniors, veterans, the arts, animal welfare, parks and open space, education, as well as food insecurity and hunger.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:noval-alexander",
+      "name": "Noval Alexander",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "508-816-8868",
+      "email": "nalexander@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/3423/Noval-Alexander",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8 B John J. Brady Drive Framingham, MA 01702",
+      "offices": [],
+      "hours": null,
+      "bio": "Noval Alexander is a retired U.S. Army Reservist and current teacher aide. He holds a B.A. in Government from The University of Texas at Austin and has served as a District 5 School Committee member and is currently a Commissioner for the Massachusetts Citizens Commission.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:philip-r.-ottaviani,-jr",
+      "name": "Philip R. Ottaviani, Jr",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": "774-245-1055",
+      "email": "pottaviani@framinghamma.gov",
+      "url": "https://www.framinghamma.gov/2446/Philip-R-Ottaviani-Jr",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "630 Salem End Road Framingham, MA 01702",
+      "offices": [],
+      "hours": null,
+      "bio": "Philip R. Ottaviani, Jr. is the District 6 City Councilor (Precincts 7, 8, 9). He is a small business owner and local realtor, married to Valerie, a Critical Care Nurse, and has a daughter, Julia.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:framingham:city-councilor:tracey-bryant",
+      "name": "Tracey Bryant",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Framingham City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.framinghamma.gov/2454/Tracey-Bryant",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Framingham",
+        "state": "MA"
+      },
+      "source_url": "https://www.framinghamma.gov/575/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

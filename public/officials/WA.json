@@ -1,10 +1,11 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-25T05:07:25.719Z",
-  "count": 135,
+  "generated_at": "2026-08-26T04:58:35.496Z",
+  "count": 160,
   "cities": [
     "Bellevue",
     "Bellingham",
+    "Clallam County",
     "Clark County",
     "Everett",
     "Federal Way",
@@ -15,7 +16,11 @@
     "King County",
     "Kitsap County",
     "Lewis County",
+    "Marysville",
+    "Mason County",
+    "Pasco",
     "Pierce County",
+    "Redmond",
     "Renton",
     "Seattle",
     "Skagit County",
@@ -273,6 +278,99 @@
       },
       "source_url": "https://cob.org/gov/mayor",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clallam-county:clallam-county-commissioner:mark-ozias",
+      "name": "Mark Ozias",
+      "office": "Clallam County Commissioner",
+      "level": "county",
+      "body": "Clallam County Commissioners Court",
+      "district": "District 1",
+      "phone": "360-417-2000",
+      "email": "Mark.Ozias@ClallamCountyWA.gov",
+      "url": "https://www.clallamcountywa.gov/m/directory/employee?eid=17",
+      "photo_url": "https://www.clallamcountywa.gov/ImageRepository/Document?documentID=3255",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "223 E 4th Street Suite 4 Port Angeles, WA 98362",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Ozias is an experienced non-profit executive and former small business owner who has lived near Sequim since 2004. He has led and consulted for numerous organizations during his career, including serving as Director of the Sequim Food Bank immediately prior to being elected as Commissioner.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Clallam County",
+        "state": "WA"
+      },
+      "source_url": "https://www.clallamcountywa.gov/m/directory/department?did=15",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clallam-county:clallam-county-commissioner:mike-french",
+      "name": "Mike French",
+      "office": "Clallam County Commissioner",
+      "level": "county",
+      "body": "Clallam County Commissioners Court",
+      "district": "District 3",
+      "phone": "360-417-2000",
+      "email": "Mike.French@ClallamCountyWA.gov",
+      "url": "https://www.clallamcountywa.gov/m/directory/employee?eid=632",
+      "photo_url": "https://www.clallamcountywa.gov/ImageRepository/Document?documentID=11155",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "223 E 4th Street Suite 4 Port Angeles, WA 98362",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner French is a former small business owner, with 15 years experience operating a restaurant in downtown Port Angeles. Born and raised in Clallam County, he received a Bachelor of Arts degree in Music from Central Washington University, and enjoys playing piano for various community performances. Prior to being elected as Commissioner, he served five years as an elected member of the Port Angeles City Council.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Clallam County",
+        "state": "WA"
+      },
+      "source_url": "https://www.clallamcountywa.gov/m/directory/department?did=15",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:clallam-county:clallam-county-commissioner:randy-johnson",
+      "name": "Randy Johnson",
+      "office": "Clallam County Commissioner",
+      "level": "county",
+      "body": "Clallam County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "Randy.Johnson@ClallamCountyWA.gov",
+      "url": "https://www.clallamcountywa.gov/m/directory/employee?eid=18",
+      "photo_url": "https://www.clallamcountywa.gov/ImageRepository/Document?documentID=11157",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "223 E 4th Street Suite 4 Port Angeles, WA 98362",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Johnson is proud to have served in the U.S. Army Corps of Engineers, rising to the rank of captain, and is a Vietnam veteran. He holds a Bachelor of Science degree from the University of the South and a Master of Business Administration degree from Harvard. Randy and his wife Carol have two children and two grandchildren, enjoying a rural lifestyle with 25 horses and two dogs.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Clallam County",
+        "state": "WA"
+      },
+      "source_url": "https://www.clallamcountywa.gov/m/directory/department?did=15",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -2485,6 +2583,481 @@
       "confidence": 1
     },
     {
+      "id": "wa:marysville:council-member:dan-perkins",
+      "name": "Dan Perkins",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 3",
+      "phone": "425-238-8212",
+      "email": "dperkins@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/952/Dan-Perkins---Pos-3",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-member:kamille-norton",
+      "name": "Kamille Norton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 7",
+      "phone": "360-926-3399",
+      "email": "knorton@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/957/Kamille-Norton---Pos-7",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentId=9926",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Marysville City Hall",
+          "city": "Marysville",
+          "address": "501 Delta Avenue Marysville, WA 98270",
+          "phone": "360-363-8000",
+          "fax": "360-651-5033",
+          "hours": "Open Monday through Friday 8 a.m. - 4:30 p.m."
+        }
+      ],
+      "hours": null,
+      "bio": "Kamille Norton served as City Council President from 2016 to 2024. Prior to serving on the Council, she served more than five years on both the city’s Civil Service Commission and Salary Commission. She holds a bachelor’s degree in Business Management.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-member:kelly-richards",
+      "name": "Kelly Richards",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 5",
+      "phone": "360-363-8795",
+      "email": "krichards@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/955/Kelly-Richards---Pos-5",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentId=9936",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": "Kelly is a lifelong resident of Snohomish County, and has lived in Marysville since 2004. Prior to being elected to Council, Kelly served on the city’s Planning Commission (2011-2019) and is an active community volunteer. He works as a Paraprofessional at an elementary school in Marysville and previously was a real estate agent/broker.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-member:mark-a.-james",
+      "name": "Mark A. James",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 2",
+      "phone": "425-971-0030",
+      "email": "mjames@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/951/Mark-A-James---Pos-2",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentId=9939",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark James and his wife, Renae, have been full-time local Marysville business owners since 2004 and are very active in this community. He is a veteran, a former President of the Marysville Sunrise Rotary club, and an active community volunteer. His desire is to leverage his experience to create a sustainable, attractive, and vibrant community.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-member:peter-condyles",
+      "name": "Peter Condyles",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 1",
+      "phone": "425-501-6578",
+      "email": "pcondyles@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/954/Peter-Condyles---Pos-1",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentId=9925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": "Peter Condyles is the president of the Marysville Historical Society and serves on the board of the League of Snohomish County Heritage Organizations. He previously served on several city and county committees related to growth management, community development, and housing. Condyles works as a project manager for Toyer Strategic Advisors and holds a bachelor's degree from Western Washington University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-member:stephen-c.-muller",
+      "name": "Stephen C. Muller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 6",
+      "phone": null,
+      "email": "smuller@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/956/Stephen-C-Muller---Pos-6",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentID=7798",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": "Stephen Muller is a lifelong resident of Marysville. Prior to his election to the City Council, he served 12 years on the Planning Commission, including 10 as Chair. As a community volunteer, he has served on the boards of the YMCA, Chamber of Commerce, Marysville Noon Rotary and the Food Bank, the Healthy Communities Leadership Committee, and overseen numerous school district bond and levy committees.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:marysville:council-president:michael-a.-stevens",
+      "name": "Michael A. Stevens",
+      "office": "Council President",
+      "level": "local",
+      "body": "Marysville City Council",
+      "district": "Pos. 4",
+      "phone": "360-618-1526",
+      "email": "mstevens@marysvillewa.gov",
+      "url": "https://www.marysvillewa.gov/953/Michael-A-Stevens---Council-President-Po",
+      "photo_url": "https://www.marysvillewa.gov/ImageRepository/Document?documentId=9927",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Delta Avenue Marysville, WA 98270",
+      "offices": [],
+      "hours": null,
+      "bio": "Michael Stevens is a partner with Everett-based Dykeman Architects and previously served on the city Planning Commission. He holds degrees in Architecture from the University of Kentucky and the University of Pennsylvania, and has received Municipal Leadership Certifications. Stevens is an avid proponent of downtown revitalization and proactive city growth.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Marysville",
+        "state": "WA"
+      },
+      "source_url": "https://www.marysvillewa.gov/27/Government",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mason-county:commissioner:pat-tarzwell",
+      "name": "Pat Tarzwell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Mason County Commissioners Court",
+      "district": "District 2",
+      "phone": "(360) 427-9670 ext. 419",
+      "email": null,
+      "url": "https://www.masoncountywa.gov/government/county_commissioners/district_2.php",
+      "photo_url": "https://www.masoncountywa.gov/government/county_commissioners/Images/Government/County%20Commissioners/District%202/pat.jpg?t=202502061340260",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "411 North 5th Street Shelton, WA 98584",
+      "offices": [],
+      "hours": "M-F | Please check specific departments for office hours",
+      "bio": "With over 34 years of experience as the owner of AlphaTest, a successful local manufacturer of medical electronics, Commissioner Pat Tarzwell brings a wealth of knowledge, dedication, and leadership to his work in Mason County. His entrepreneurial journey—from dishwasher to business owner—has shaped his problem-solving abilities and provided him with the skills to approach challenges from a unique perspective. A passionate advocate for the growth and potential of Mason County, Pat is committed to fostering economic development through a focus on public safety.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Mason County",
+        "state": "WA"
+      },
+      "source_url": "https://www.masoncountywa.gov/government/county_commissioners/district_2.php",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:council-member:abel-campos",
+      "name": "Abel Campos",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "At Large",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:council-member:calixto-hernandez",
+      "name": "Calixto Hernandez",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 6",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:council-member:joe-cotta",
+      "name": "Joe Cotta",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 4",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:council-member:leo-perales",
+      "name": "Leo Perales",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 3",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:council-member:mark-a.-figueroa",
+      "name": "Mark A. Figueroa",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 1",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:mayor-pro-tem:david-milne",
+      "name": "David Milne",
+      "office": "Mayor Pro-Tem",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 5",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:pasco:mayor:charles-grimm",
+      "name": "Charles Grimm",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Pasco City Council",
+      "district": "District 2",
+      "phone": "509-544-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "525 N. Third Ave. Pasco, WA 99301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pasco",
+        "state": "WA"
+      },
+      "source_url": "https://www.pasco-wa.gov/122/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:pierce-county:assessor-treasurer:marty-campbell",
       "name": "Marty Campbell",
       "office": "Assessor-Treasurer",
@@ -2512,7 +3085,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -2543,7 +3116,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -2605,7 +3178,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -2636,7 +3209,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
       "confidence": 1
     },
     {
@@ -2667,7 +3240,224 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:city-council:jessica-forsythe",
+      "name": "Jessica Forsythe",
+      "office": "City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #3",
+      "phone": "425-305-7206",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentId=21593",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:city-council:menka-soni",
+      "name": "Menka Soni",
+      "office": "City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #6",
+      "phone": "425-380-1324",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentID=40269",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:city-council:sayna-parsi",
+      "name": "Sayna Parsi",
+      "office": "City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #1",
+      "phone": "425-556-5845",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentId=40581",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:city-council:vanessa-kritzer",
+      "name": "Vanessa Kritzer",
+      "office": "City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #5",
+      "phone": "425-305-9892",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentId=11885",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:city-council:vivek-prakriya",
+      "name": "Vivek Prakriya",
+      "office": "City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #2",
+      "phone": "425-588-1619",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentID=40270",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:president,-city-council:melissa-stuart",
+      "name": "Melissa Stuart",
+      "office": "President, City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #4",
+      "phone": "425-588-6550",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentId=21592",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:redmond:vice-president,-city-council:angie-nuevacamina",
+      "name": "Angie Nuevacamina",
+      "office": "Vice President, City Council",
+      "level": "local",
+      "body": "Redmond City Council",
+      "district": "Position #7",
+      "phone": "425-556-5846",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.redmond.gov/ImageRepository/Document?documentId=30947",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Redmond",
+        "state": "WA"
+      },
+      "source_url": "https://www.redmond.gov/189/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

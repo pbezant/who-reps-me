@@ -1,10 +1,11 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 89,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 97,
   "cities": [
     "Anoka County",
     "Bloomington",
+    "Brooklyn Park",
     "Duluth",
     "Minneapolis",
     "Olmsted County",
@@ -448,6 +449,254 @@
       },
       "source_url": "https://www.bloomingtonmn.gov/cc/city-councilmembers-and-district-maps",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:city-manager:jay-stroebel",
+      "name": "Jay Stroebel",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": null,
+      "phone": "763-493-8002",
+      "email": "Web-CityManagerDL@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/jay-stroebel/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2019/06/MG_6010-8x10-768x960.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jay Stroebel has been the City Manager of Brooklyn Park since August 2015, having previously served in leadership roles in the City of Minneapolis and the State of Minnesota. He holds a master’s degree in applied economics from the University of Minnesota and an undergraduate degree in economics from St. Olaf College. In his spare time, Jay enjoys tennis, cross country skiing, camping, and traveling with his family.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:amanda-cheng-xiong",
+      "name": "Amanda Cheng Xiong",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "East District",
+      "phone": "763-493-8010",
+      "email": "amanda.xiong@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/amanda-cheng-xiong/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2025/01/amanda-cheng-xiong-copy-768x768.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:christian-eriksen",
+      "name": "Christian Eriksen",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "East District",
+      "phone": "763-493-8097",
+      "email": "christian.eriksen@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/christian-eriksen/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2023/01/Christian-Eriksen-e1673535748609-768x768.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:maria-tran",
+      "name": "Maria Tran",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "West District",
+      "phone": "763-315-8442",
+      "email": "maria.tran@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/maria-tran/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2019/06/Maria-Tran-Image-768x960.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:nichole-klonowski",
+      "name": "Nichole Klonowski",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "Central District",
+      "phone": "763-493-8372",
+      "email": "nichole.klonowski@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/nichole-klonowski/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2023/01/Nichole-Klonowski-e1673535427571-768x768.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:shelle-page",
+      "name": "Shelle Page",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "Central District",
+      "phone": "763-493-8040",
+      "email": "shelle.page@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/shelle-page/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2025/01/shelle-page-copy-768x768.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:council-member:tony-mcgarvey",
+      "name": "Tony McGarvey",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": "West District",
+      "phone": "763-315-8496",
+      "email": "tony.mcgarvey@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/tony-mcgarvey/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2026/04/Tony-McGarvey.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:brooklyn-park:mayor:hollies-j.-winston",
+      "name": "Hollies J. Winston",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Brooklyn Park City Council",
+      "district": null,
+      "phone": "763-493-8146",
+      "email": "mayor@brooklynpark.org",
+      "url": "https://www.brooklynpark.org/contact/hollies-winston/",
+      "photo_url": "https://www.brooklynpark.org/wp-content/uploads/2019/06/Hollies-Winston_Studio-scaled-e1673533312964-768x768.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Brooklyn Park",
+        "state": "MN"
+      },
+      "source_url": "https://www.brooklynpark.org/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {

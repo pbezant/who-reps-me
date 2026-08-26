@@ -1,12 +1,13 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 76,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 82,
   "cities": [
     "Alexandria",
     "Arlington County",
     "Chesapeake",
     "Chesapeake city",
+    "Chesterfield County",
     "Fairfax County",
     "Hampton",
     "Hampton city",
@@ -17,7 +18,8 @@
     "Prince William County",
     "Roanoke",
     "Suffolk",
-    "Suffolk city"
+    "Suffolk city",
+    "York County"
   ],
   "officials": [
     {
@@ -545,6 +547,161 @@
       },
       "source_url": "https://www.cityofchesapeake.net/1252/Chesapeake-Environmental-Improvement-Cou",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesterfield-county:supervisor:carroll",
+      "name": "Carroll",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Chesterfield County Commissioners Court",
+      "district": "Matoaca District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesterfield County",
+        "state": "VA"
+      },
+      "source_url": "https://www.chesterfield.gov/27/Departments",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesterfield-county:supervisor:hylton",
+      "name": "Hylton",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Chesterfield County Commissioners Court",
+      "district": "Dale District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesterfield County",
+        "state": "VA"
+      },
+      "source_url": "https://www.chesterfield.gov/27/Departments",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesterfield-county:supervisor:ingle",
+      "name": "Ingle",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Chesterfield County Commissioners Court",
+      "district": "Bermuda District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesterfield County",
+        "state": "VA"
+      },
+      "source_url": "https://www.chesterfield.gov/27/Departments",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesterfield-county:supervisor:miller",
+      "name": "Miller",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Chesterfield County Commissioners Court",
+      "district": "Midlothian District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesterfield County",
+        "state": "VA"
+      },
+      "source_url": "https://www.chesterfield.gov/27/Departments",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:chesterfield-county:supervisor:schneider",
+      "name": "Schneider",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Chesterfield County Commissioners Court",
+      "district": "Clover Hill District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chesterfield County",
+        "state": "VA"
+      },
+      "source_url": "https://www.chesterfield.gov/27/Departments",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
@@ -2374,6 +2531,37 @@
       },
       "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:york-county:commissioner-of-the-revenue:sarah-k.-webb",
+      "name": "Sarah K. Webb",
+      "office": "Commissioner of the Revenue",
+      "level": "county",
+      "body": "York County Commissioners Court",
+      "district": null,
+      "phone": "757-890-3381",
+      "email": "revofc@yorkcounty.gov",
+      "url": "https://www.yorkcounty.gov/m/directory/employee?eid=84",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 Alexander Hamilton Blvd. Yorktown, VA 23690",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York County",
+        "state": "VA"
+      },
+      "source_url": "https://www.yorkcounty.gov/458/Commissioner-of-the-Revenue",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     }
   ]

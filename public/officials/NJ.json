@@ -1,19 +1,53 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 55,
+  "generated_at": "2026-08-26T03:21:53.889Z",
+  "count": 73,
   "cities": [
+    "Camden",
     "Cape May County",
     "Clifton",
+    "East Orange",
     "Essex County",
     "Gloucester County",
     "Hudson County",
     "Hunterdon County",
     "Jersey City",
     "Newark",
+    "Passaic",
     "Paterson"
   ],
   "officials": [
+    {
+      "id": "nj:camden:mayor:victor-g.-carstarphen",
+      "name": "Victor G. Carstarphen",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Camden City Council",
+      "district": null,
+      "phone": "856-757-7000",
+      "email": "Mayor@ci.camden.nj.us",
+      "url": "https://www.camdennj.gov/office-of-the-mayor/",
+      "photo_url": "https://www.camdennj.gov/wp-content/uploads/2022/04/Mayor-243x300.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Market Street, City Hall, Room 400, Camden, NJ 08102",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Camden",
+        "state": "NJ"
+      },
+      "source_url": "https://www.camdennj.gov/office-of-the-mayor/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
     {
       "id": "nj:cape-may-county:commissioner-liaison:leonard-c.-desiderio",
       "name": "Leonard C. Desiderio",
@@ -292,6 +326,316 @@
       "source_url": "https://www.cliftonnj.org/101/Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:city-council-chairwoman:amy-lewis",
+      "name": "Amy Lewis",
+      "office": "City Council Chairwoman",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "First Ward",
+      "phone": "973-419-2050",
+      "email": "Amy.Lewis@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=7",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=1930",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Amy Lewis was born in Newark, New Jersey, and raised her children in East Orange. She received her Bachelor of Arts in Political Science from Caldwell University and has served on the East Orange City Council since 2016. Dedicated to enhancing the quality of life for residents, she has spearheaded legislation addressing public safety, anti-bullying, rent caps for seniors, and voter registration.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:alicia-holman",
+      "name": "Alicia Holman",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Fifth Ward",
+      "phone": "973-303-0219",
+      "email": "Alicia.Holman@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=15",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2503",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilwoman Alicia Holman has proudly served the Fifth ward since 2006, including as Chairwoman of the City Council (2015) and various committees. A lifelong East Orange resident, she attended Bloomfield College and Rutgers University. She works as a Youth Program Specialist with the Essex County Department of Citizen Services.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:bergson-leneus",
+      "name": "Bergson Leneus",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Third Ward",
+      "phone": "862-253-8141",
+      "email": "bergson.leneus@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/directory.aspx?EID=63",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2261",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilman Bergson Leneus has proudly served the 3rd ward since 2018, making history as the first Haitian American elected to the East Orange City Council. Born and raised in East Orange, he holds a Bachelor's degree in Philosophy and focuses on progressive legislation for the community. He previously served on the East Orange Board of Education and chaired several Council committees.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:casim-l.-gomez",
+      "name": "Casim L. Gomez",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Fourth Ward",
+      "phone": "973-419-2706",
+      "email": "Gomez.Casim@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=13",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2504",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilman Casim L. Gomez has served the Fourth Ward since 2016. He has chaired various committees and represented the City Council on the Planning Board. His goal is to bridge the city's achievements to its phenomenal future and deliver exceptional government and community services.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:christopher-awe",
+      "name": "Christopher Awe",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Second Ward",
+      "phone": "973-518-8087",
+      "email": "Christopher.Awe@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=10",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2506",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Christopher Awe was elected to represent the 2nd Ward in 2018, having served his ward and the greater East Orange community for most of his life. Educated in the East Orange School District, he obtained his bachelor’s in Business Administration from the University of Maryland Eastern Shore. He returned to East Orange to give back to the community, dedicating his career to the advancement of every resident.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:christopher-d.-james",
+      "name": "Christopher D. James",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "First Ward",
+      "phone": "862-253-8549",
+      "email": "Christopher.James@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=8",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=1929",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilman Christopher D. James, a longtime resident of the First Ward and a career public servant, has proudly served East Orange since first being sworn into office in 2014. He continues a tradition of civic and community service, developed under the guidance of his mother, the late Maxine James. Born in Orange Township, he was raised and educated in Newark, New Jersey.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:naiima-h.-fauntleroy",
+      "name": "Naiima H. Fauntleroy",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Fifth Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2498",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nj:east-orange:council-member:sammed-r.-monk",
+      "name": "Sammed R. Monk",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Second Ward",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=2501",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "nj:east-orange:council-member:tameika-garrett-ward",
+      "name": "Tameika Garrett-Ward",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Fourth Ward",
+      "phone": "862-704-0062",
+      "email": "tameika.garrett-ward@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=14",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentId=1924",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilwoman Tameika Garrett-Ward is a lifelong resident of East Orange, first elected during the General Election on November 5, 2019, to fill an unexpired term. She holds a Bachelor’s Degree in Political Science from Montclair State University and a Master’s Degree in Education: Administration and Supervision from St. Peter’s University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:east-orange:council-member:vernon-pullins,-jr.",
+      "name": "Vernon Pullins, Jr.",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "East Orange City Council",
+      "district": "Third Ward",
+      "phone": null,
+      "email": "vernon.pullinsjr@eastorange-nj.gov",
+      "url": "https://www.eastorange-nj.gov/Directory.aspx?EID=11",
+      "photo_url": "https://www.eastorange-nj.gov/ImageRepository/Document?documentID=2500",
+      "social": {
+        "twitter": null,
+        "facebook": "http://www.facebook.com/eocitycouncil",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "44 City Hall Plaza East Orange, NJ 07018",
+      "offices": [],
+      "hours": "Monday 8:30 a.m. - 6:30 p.m. Tuesday- Friday 8:30 a.m. - 4:30 p.m.",
+      "bio": "Councilman Vernon Pullins Jr. has represented the 3rd ward since 2019. He was raised in East Orange and graduated from East Orange High School in 1990. He holds a Bachelor of Arts from Rutgers, a Doctorate in Jurisprudence from Rutgers School of Law-Newark, and a Masters in Educational Leadership and Administration from New Jersey City University.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "East Orange",
+        "state": "NJ"
+      },
+      "source_url": "https://www.eastorange-nj.gov/157/Office-of-City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 0.9
     },
     {
       "id": "nj:essex-county:essex-county-executive:joseph-n.-divincenzo,-jr.",
@@ -1448,6 +1792,223 @@
       },
       "source_url": "https://www.newarknj.gov/27/Government",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:city-council-president:gary-schaer",
+      "name": "Gary Schaer",
+      "office": "City Council President",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=1653",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilman:chaim-m.-munk",
+      "name": "Chaim M. Munk",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=1657",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilman:daniel-s.-mayer",
+      "name": "Daniel S. Mayer",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=10842",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilman:dr.-terrence-l.-love",
+      "name": "Dr. Terrence L. Love",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=1655",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilman:jose-garcia",
+      "name": "Jose Garcia",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=1654",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilwoman:maritza-colon-montañez",
+      "name": "Maritza Colon-Montañez",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": "https://www.cityofpassaic.com/Directory.aspx?EID=10",
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=7228",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:passaic:councilwoman:thania-melo",
+      "name": "Thania Melo",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Passaic City Council",
+      "district": null,
+      "phone": "973-365-5500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.cityofpassaic.com/ImageRepository/Document?documentId=1656",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "330 Passaic Street, Passaic, NJ 07055",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Passaic",
+        "state": "NJ"
+      },
+      "source_url": "https://www.cityofpassaic.com/229/City-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 1
     },
     {
