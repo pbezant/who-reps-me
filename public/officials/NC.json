@@ -1,12 +1,13 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-26T04:58:35.496Z",
-  "count": 193,
+  "generated_at": "2026-08-27T06:19:49.346Z",
+  "count": 219,
   "cities": [
     "Alamance County",
     "Asheville",
     "Brunswick County",
     "Buncombe County",
+    "Carteret County",
     "Catawba County",
     "Charlotte",
     "Cleveland County",
@@ -19,6 +20,7 @@
     "Gaston County",
     "Gastonia",
     "Greenville",
+    "Huntersville",
     "Jacksonville",
     "Mecklenburg County",
     "Moore County",
@@ -32,7 +34,9 @@
     "Randolph County",
     "Rockingham County",
     "Rowan County",
+    "Stanly County",
     "Wayne County",
+    "Wilkes County",
     "Wilmington"
   ],
   "officials": [
@@ -456,6 +460,223 @@
       "confidence": 1
     },
     {
+      "id": "nc:carteret-county:chairman:chris-chadwick",
+      "name": "Chris Chadwick",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 6",
+      "phone": "252-725-0820",
+      "email": "chris.chadwick@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=9473",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:commissioner:chimer-clark",
+      "name": "Chimer Clark",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 3",
+      "phone": "252-424-4358",
+      "email": "Chimer.Clark@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=12422",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:commissioner:chuck-shinn",
+      "name": "Chuck Shinn",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 2",
+      "phone": "252-503-3283",
+      "email": "chuck.shinn@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=9472",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:commissioner:david-quinn",
+      "name": "David Quinn",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 1",
+      "phone": "252-723-1131",
+      "email": "david.quinn@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=12421",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:commissioner:keith-moore",
+      "name": "Keith Moore",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 5",
+      "phone": "252-732-0216",
+      "email": "Keith.Moore@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=12424",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:commissioner:marianne-waldrop",
+      "name": "Marianne Waldrop",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 4",
+      "phone": "252-646-4379",
+      "email": "Marianne.Waldrop@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=12423",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:carteret-county:vice-chairman:mark-mansfield",
+      "name": "Mark Mansfield",
+      "office": "Vice-Chairman",
+      "level": "county",
+      "body": "Carteret County Commissioners Court",
+      "district": "District 3",
+      "phone": "252-342-5568",
+      "email": "mark.mansfield@carteretcountync.gov",
+      "url": null,
+      "photo_url": "https://www.carteretcountync.gov/ImageRepository/Document?documentId=9467",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "302 Courthouse Square Beaufort, NC 28516",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Carteret County",
+        "state": "NC"
+      },
+      "source_url": "https://www.carteretcountync.gov/193/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:catawba-county:assistant-county-manager:adam-lindsay",
       "name": "Adam Lindsay",
       "office": "Assistant County Manager",
@@ -576,7 +797,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -638,7 +859,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -669,7 +890,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -731,7 +952,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -2726,6 +2947,233 @@
       },
       "source_url": "https://www.greenvillenc.gov/183/City-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:commissioner:edwin-quarles",
+      "name": "Edwin Quarles",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "980-809-5828",
+      "email": "equarles@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=185",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18330",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "First elected to serve in 2023, Edwin Quarles has been a Huntersville resident since 1995. He is a United States Air Force veteran, married with two daughters and two sons, and promises to serve Huntersville with dignity and honor.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:commissioner:heather-smallwood",
+      "name": "Heather Smallwood",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "704-464-5347",
+      "email": "hsmallwood@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=241",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18331",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "Heather Smallwood was first elected to serve in 2025 and has been a resident of Huntersville since 2006. She holds an education from UNC Charlotte and is dedicated to serving the community with honesty, heart, and common sense.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:commissioner:latoya-rivers",
+      "name": "LaToya Rivers",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "980-809-5826",
+      "email": "lrivers@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=186",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18333",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "LaToya Rivers was first elected to serve in 2023. A lifelong resident of Huntersville, NC, she holds degrees from Strayer University and North Carolina Agricultural and Technical State University. She is excited about serving her hometown.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:commissioner:nick-walsh",
+      "name": "Nick Walsh",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "980-809-5827",
+      "email": "nwalsh@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=187",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18334",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Town of Huntersville",
+          "city": "Huntersville",
+          "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+          "phone": "704-875-6541",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Nick Walsh was first elected as Commissioner in 2017 and has been a Huntersville resident since 1993. He is retired from a career in IT sales and enjoys serving his town.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:commissioner:scott-coronet",
+      "name": "Scott Coronet",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "704-464-5316",
+      "email": "scoronet@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=240",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18335",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "Scott Coronet was first elected to serve in 2025 and has been a resident of Huntersville since 2015, originally from Saratoga, WY. He is a college graduate, married with one daughter. He was a contestant on Master Chef and appeared on HGTV.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:mayor-pro-tem:jennifer-hunt",
+      "name": "Jennifer Hunt",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "980-809-5830",
+      "email": "jhunt@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=182",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18332",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "Jennifer Hunt was first elected to serve in 2023 and has been a resident of Huntersville since 2012. She is from Batavia, NY, and received her education from the University at Buffalo. She is an avid reader and nature enthusiast committed to fostering health, happiness, and increased quality of life among Huntersville residents.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:huntersville:mayor:christy-clark",
+      "name": "Christy Clark",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Huntersville City Council",
+      "district": null,
+      "phone": "980-809-5831",
+      "email": "cclark@huntersville.org",
+      "url": "https://www.huntersville.org/m/directory/employee?eid=181",
+      "photo_url": "https://www.huntersville.org/ImageRepository/Document?documentID=18329",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14704 N. Old Statesville Road Huntersville, NC 28078",
+      "offices": [],
+      "hours": null,
+      "bio": "Christy Clark was first elected to serve in 2023 and has been a resident since 2010. A former State House Representative, she holds a degree from Duke University. She believes that everyone deserves kindness and respect.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Huntersville",
+        "state": "NC"
+      },
+      "source_url": "https://www.huntersville.org/170/Town-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -5529,6 +5977,233 @@
       "confidence": 1
     },
     {
+      "id": "nc:stanly-county:chairman:scott-efird",
+      "name": "Scott Efird",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "980-581-1798",
+      "email": "tefird@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=17",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=104",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Scott Efird was sworn in on December 2, 2024, with his term expiring on December 3, 2028. He is involved in public service as a member of the Partners Behavioral Health Board, Library Board of Trustees, and Centralina Council of Governments.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:commissioner:billy-mills",
+      "name": "Billy Mills",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "704-202-9901",
+      "email": "bmills@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=20",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=107",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Billy Mills serves as a Commissioner. He was sworn in on December 2, 2024, with his term expiring on December 3, 2028. He is involved in public service through the Fire Commission, Juvenile Crime Prevention Council (JCPC), and as an alternate for the Rocky River Rural Planning Organization (RPO).",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:commissioner:brandon-king",
+      "name": "Brandon King",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "704-244-6165",
+      "email": "bking@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=15",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=102",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:commissioner:mike-barbee",
+      "name": "Mike Barbee",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "704-438-3041",
+      "email": "mbarbee@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=14",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=101",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Barbee was sworn in as Commissioner on December 5, 2022, with his term expiring on December 7, 2026. He serves as an alternate for the Stanly Water and Sewer Authority and the Centralina Council of Governments.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:commissioner:patty-crump",
+      "name": "Patty Crump",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "980-621-7435",
+      "email": "pcrump@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=16",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=103",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Patty Crump was sworn in as Commissioner on December 5, 2022, with her term expiring on December 7, 2026. She is involved in public service as a member of the Health and Human Services Board and the Rocky River Rural Planning Organization (RPO).",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:commissioner:trent-hatley",
+      "name": "Trent Hatley",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "704-791-3538",
+      "email": "thatley@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=18",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=105",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:stanly-county:vice-chairman:bill-lawhon",
+      "name": "Bill Lawhon",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Stanly County Commissioners Court",
+      "district": null,
+      "phone": "704-773-0155",
+      "email": "blawhon@stanlycountync.gov",
+      "url": "https://www.stanlycountync.gov/m/directory/employee?eid=19",
+      "photo_url": "https://www.stanlycountync.gov/ImageRepository/Document?documentID=106",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Stanly County",
+          "city": "Albemarle",
+          "address": "201 South Second Street 1000 North First Street Albemarle, NC",
+          "phone": "704-986-3600",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Bill Lawhon was sworn in on December 5, 2022, with his term expiring on December 7, 2026. He serves as a member of the Economic Development Commission and the Senior Services Advisory Board.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Stanly County",
+        "state": "NC"
+      },
+      "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:wayne-county:county-commissioner,-chair:joe-daughtery",
       "name": "Joe Daughtery",
       "office": "County Commissioner, Chair",
@@ -5743,6 +6418,161 @@
       },
       "source_url": "https://www.waynegov.com/27/Government",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilkes-county:chairman:hardin-c.-kennedy,-iii",
+      "name": "Hardin C. Kennedy, III",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Wilkes County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "hkennedy@wilkescounty.net",
+      "url": null,
+      "photo_url": "https://www.wilkescounty.net/ImageRepository/Document?documentId=2311",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Office Building Commissioners Room 110 North Street Wilkesboro, NC 28697",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilkes County",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilkescounty.net/221/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilkes-county:commissioner:bill-sexton",
+      "name": "Bill Sexton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wilkes County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "bsexton@wilkescounty.net",
+      "url": null,
+      "photo_url": "https://www.wilkescounty.net/ImageRepository/Document?documentId=1748",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Office Building Commissioners Room 110 North Street Wilkesboro, NC 28697",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilkes County",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilkescounty.net/221/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilkes-county:commissioner:casey-joe-johnson",
+      "name": "Casey Joe Johnson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wilkes County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "cjohnson@wilkescounty.net",
+      "url": null,
+      "photo_url": "https://www.wilkescounty.net/ImageRepository/Document?documentId=1144",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Office Building Commissioners Room 110 North Street Wilkesboro, NC 28697",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilkes County",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilkescounty.net/221/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilkes-county:commissioner:shirley-b.-randleman",
+      "name": "Shirley B. Randleman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Wilkes County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "srandleman@wilkescounty.net",
+      "url": null,
+      "photo_url": "https://www.wilkescounty.net/ImageRepository/Document?documentId=2128",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Office Building Commissioners Room 110 North Street Wilkesboro, NC 28697",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilkes County",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilkescounty.net/221/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wilkes-county:vice-chairman:evan-q.-handy",
+      "name": "Evan Q. Handy",
+      "office": "Vice Chairman",
+      "level": "county",
+      "body": "Wilkes County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "ehandy@wilkescounty.net",
+      "url": null,
+      "photo_url": "https://www.wilkescounty.net/ImageRepository/Document?documentId=2323",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "County Office Building Commissioners Room 110 North Street Wilkesboro, NC 28697",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wilkes County",
+        "state": "NC"
+      },
+      "source_url": "https://www.wilkescounty.net/221/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

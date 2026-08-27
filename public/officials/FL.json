@@ -1,9 +1,10 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 256,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 272,
   "cities": [
     "Alachua County",
+    "Apopka",
     "Bay County",
     "Boca Raton",
     "Boynton Beach",
@@ -36,7 +37,9 @@
     "Osceola County",
     "Palm Beach County",
     "Pasco County",
+    "Port Orange",
     "Port St. Lucie",
+    "Sanford",
     "Seminole County",
     "St. Cloud",
     "St. Johns County",
@@ -44,6 +47,7 @@
     "Tallahassee",
     "Tamarac",
     "Tampa",
+    "Wellington",
     "West Palm Beach"
   ],
   "officials": [
@@ -200,6 +204,161 @@
       },
       "source_url": "https://www.alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:apopka:commissioner-(vice-mayor):diane-velazquez",
+      "name": "Diane Velazquez",
+      "office": "Commissioner (Vice Mayor)",
+      "level": "local",
+      "body": "Apopka City Council",
+      "district": "Seat 2",
+      "phone": "407-703-1700",
+      "email": "DVelazquez@apopka.net",
+      "url": "https://apopka.gov/m/directory/employee?eid=98",
+      "photo_url": "https://apopka.gov/ImageRepository/Document?documentID=7524",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ApopkaSeat2/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 E Main Street, First Floor, Apopka, FL 32703",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Diane Velazquez is an elected official and member of the Apopka City Commission Seat 2, a position she has held since 2014 (except for 2018-2020). She was born and educated in Manhattan, New York, and served 21 years as a police officer and detective in the New York City Police Department before retiring.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Apopka",
+        "state": "FL"
+      },
+      "source_url": "https://apopka.gov/193/City-Commission",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:apopka:commissioner:nadia-l.-anderson",
+      "name": "Nadia L. Anderson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Apopka City Council",
+      "district": "Seat 3",
+      "phone": null,
+      "email": "NLAnderson@apopka.net",
+      "url": "https://apopka.gov/m/directory/employee?eid=128",
+      "photo_url": "https://apopka.gov/ImageRepository/Document?documentID=7277",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ApopkaSeat3/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 E Main Street, First Floor, Apopka, FL 32703",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Anderson was elected to the Apopka City Council in March 2024, and presently her term will end April 2028.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Apopka",
+        "state": "FL"
+      },
+      "source_url": "https://apopka.gov/193/City-Commission",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:apopka:commissioner:sam-ruth",
+      "name": "Sam Ruth",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Apopka City Council",
+      "district": "Seat 1",
+      "phone": null,
+      "email": "SRuth@apopka.net",
+      "url": "https://apopka.gov/m/directory/employee?eid=160",
+      "photo_url": "https://apopka.gov/ImageRepository/Document?documentID=7523",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ApopkaSeat1/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 E Main Street, First Floor, Apopka, FL 32703",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Apopka",
+        "state": "FL"
+      },
+      "source_url": "https://apopka.gov/193/City-Commission",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:apopka:commissioner:yesenia-jesi-baron",
+      "name": "Yesenia “Jesi” Baron",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Apopka City Council",
+      "district": "Seat 4",
+      "phone": null,
+      "email": "YBaron@apopka.net",
+      "url": "https://apopka.gov/m/directory/employee?eid=161",
+      "photo_url": "https://apopka.gov/ImageRepository/Document?documentID=7276",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ApopkaSeat4/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 E Main Street, First Floor, Apopka, FL 32703",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Yesenia Baron was born and raised in Miami, Florida. She holds a Bachelor of Science in Criminal Justice and a Master of Science in Organizational Management, culminating her law enforcement career as a retired Special Agent from the Florida Department of Law Enforcement where she investigated crimes against children and missing persons. She now assists law enforcement agencies worldwide in building capacities for responding to missing and abducted children.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Apopka",
+        "state": "FL"
+      },
+      "source_url": "https://apopka.gov/193/City-Commission",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:apopka:mayor-of-apopka:nick-nesta",
+      "name": "Nick Nesta",
+      "office": "Mayor of Apopka",
+      "level": "local",
+      "body": "Apopka City Council",
+      "district": null,
+      "phone": "407-703-1700",
+      "email": "NNesta@apopka.net",
+      "url": "https://apopka.gov/m/directory/employee?eid=106",
+      "photo_url": "https://apopka.gov/ImageRepository/Document?documentID=4449",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/ApopkaMayor",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 E Main Street, First Floor, Apopka, FL 32703",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Apopka",
+        "state": "FL"
+      },
+      "source_url": "https://apopka.gov/193/City-Commission",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -6160,6 +6319,161 @@
       "confidence": 1
     },
     {
+      "id": "fl:port-orange:council-member:jonathan-foley",
+      "name": "Jonathan Foley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Port Orange City Council",
+      "district": "District 1",
+      "phone": "386-214-6514",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.port-orange.org/ImageRepository/Document?documentID=9376",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port Orange",
+        "state": "FL"
+      },
+      "source_url": "https://www.port-orange.org/173/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:port-orange:council-member:lance-green",
+      "name": "Lance Green",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Port Orange City Council",
+      "district": "District 4",
+      "phone": "386-451-5492",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.port-orange.org/ImageRepository/Document?documentID=15722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port Orange",
+        "state": "FL"
+      },
+      "source_url": "https://www.port-orange.org/173/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:port-orange:council-member:shawn-goepfert",
+      "name": "Shawn Goepfert",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Port Orange City Council",
+      "district": "District 3",
+      "phone": "386-451-5865",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.port-orange.org/ImageRepository/Document?documentID=15689",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port Orange",
+        "state": "FL"
+      },
+      "source_url": "https://www.port-orange.org/173/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:port-orange:council-member:tracy-grubbs",
+      "name": "Tracy Grubbs",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Port Orange City Council",
+      "district": "District 2",
+      "phone": "386-295-7429",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.port-orange.org/ImageRepository/Document?documentID=12864",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port Orange",
+        "state": "FL"
+      },
+      "source_url": "https://www.port-orange.org/173/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:port-orange:mayor:scott-stiltner",
+      "name": "Scott Stiltner",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Port Orange City Council",
+      "district": null,
+      "phone": "386-214-4795",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.port-orange.org/ImageRepository/Document?documentID=15687",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1000 City Center Circle, Port Orange, FL 32129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Port Orange",
+        "state": "FL"
+      },
+      "source_url": "https://www.port-orange.org/173/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:port-st.-lucie:department-head,-human-resources:natalie-cabrera",
       "name": "Natalie Cabrera",
       "office": "Department Head, Human Resources",
@@ -6188,6 +6502,161 @@
       },
       "source_url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Human-Resources?lang_update=639228689410259971",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:sanford:commissioner,-vice-mayor:patrick-austin",
+      "name": "Patrick Austin",
+      "office": "Commissioner, Vice Mayor",
+      "level": "local",
+      "body": "Sanford City Council",
+      "district": "District 3",
+      "phone": "407-688-5001",
+      "email": "Patrick.Austin@sanfordfl.gov",
+      "url": null,
+      "photo_url": "https://sanfordfl.gov/wp-content/uploads/2026/05/StudioTphoto_WEB_AustinPatrick4999-768x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sanford",
+        "state": "FL"
+      },
+      "source_url": "https://sanfordfl.gov/government/city-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:sanford:commissioner:claudia-thomas",
+      "name": "Claudia Thomas",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Sanford City Council",
+      "district": "District 4",
+      "phone": "407-688-5001",
+      "email": "Claudia.Thomas@sanfordfl.gov",
+      "url": null,
+      "photo_url": "https://sanfordfl.gov/wp-content/uploads/2026/05/StudioTphoto_WEB_ThomasClaudia0288-768x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sanford",
+        "state": "FL"
+      },
+      "source_url": "https://sanfordfl.gov/government/city-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:sanford:commissioner:kerry-s.-wiggins,-sr.",
+      "name": "Kerry S. Wiggins, Sr.",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Sanford City Council",
+      "district": "District 2",
+      "phone": "407-688-5001",
+      "email": "Kerry.wiggins@sanfordfl.gov",
+      "url": null,
+      "photo_url": "https://sanfordfl.gov/wp-content/uploads/2026/05/StudioTphoto_WEB_WiggensKerry_4951-768x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sanford",
+        "state": "FL"
+      },
+      "source_url": "https://sanfordfl.gov/government/city-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:sanford:commissioner:sheena-britton",
+      "name": "Sheena Britton",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Sanford City Council",
+      "district": "District 1",
+      "phone": "407-688-5001",
+      "email": "sheena.britton@sanfordfl.gov",
+      "url": null,
+      "photo_url": "https://sanfordfl.gov/wp-content/uploads/2026/05/StudioTphoto_WEB_BrittonSheena5028-768x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sanford",
+        "state": "FL"
+      },
+      "source_url": "https://sanfordfl.gov/government/city-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:sanford:mayor:art-woodruff",
+      "name": "Art Woodruff",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sanford City Council",
+      "district": null,
+      "phone": "407-688-5001",
+      "email": "Art.Woodruff@sanfordfl.gov",
+      "url": null,
+      "photo_url": "https://sanfordfl.gov/wp-content/uploads/2026/05/StudioTphoto_WEB_WoodruffArt-4981-768x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sanford",
+        "state": "FL"
+      },
+      "source_url": "https://sanfordfl.gov/government/city-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -8151,6 +8620,37 @@
       },
       "source_url": "https://www.tampa.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:wellington:councilwoman:amanda-silvestri",
+      "name": "Amanda Silvestri",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Wellington City Council",
+      "district": "Seat 1",
+      "phone": "561-791-4146",
+      "email": "asilvestri@wellingtonfl.gov",
+      "url": "https://www.wellingtonfl.gov/362/Councilwoman-Amanda-Silvestri",
+      "photo_url": "https://www.wellingtonfl.gov/ImageRepository/Document?documentId=5835",
+      "social": {
+        "twitter": "https://www.wellingtonfl.gov/twitter",
+        "facebook": "https://www.wellingtonfl.gov/facebook",
+        "instagram": "https://www.wellingtonfl.gov/instagram",
+        "linkedin": null,
+        "youtube": "https://www.wellingtonfl.gov/youtube"
+      },
+      "address": "12300 Forest Hill Boulevard\nWellington FL, 33414",
+      "offices": [],
+      "hours": null,
+      "bio": "Amanda Silvestri, Councilwoman, was elected to Seat 1 of the Village of Wellington Council in 2024. A devoted wife and mother of two children, she has been an active community member for over a decade and co-owns Silvestri and Associates Insurance. She is committed to preserving Wellington's unique way of life, including its parks, recreation areas, and equestrian lifestyle, and looks forward to collaborating with colleagues to enhance the community for future generations.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Wellington",
+        "state": "FL"
+      },
+      "source_url": "https://www.wellingtonfl.gov/362/Councilwoman-Amanda-Silvestri",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

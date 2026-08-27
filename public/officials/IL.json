@@ -1,11 +1,12 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 91,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 92,
   "cities": [
     "Chicago",
     "Cook County",
     "DeKalb County",
+    "Evanston",
     "Lake County",
     "Madison County",
     "McLean County",
@@ -105,6 +106,37 @@
       },
       "source_url": "https://dekalbcounty.org/government/county-board/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:evanston:mayor:daniel-biss",
+      "name": "Daniel Biss",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Evanston City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofevanston.org/government/government/city_council/mayor.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lorraine H. Morton City Hall 909 Davis Street Evanston, IL 60201",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Evanston",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofevanston.org/government/index.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

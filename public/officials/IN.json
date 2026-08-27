@@ -1,7 +1,7 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 59,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 62,
   "cities": [
     "Boone County",
     "Clark County",
@@ -10,7 +10,8 @@
     "Hammond",
     "Lake County",
     "Marion County",
-    "Morgan County"
+    "Morgan County",
+    "Warrick County"
   ],
   "officials": [
     {
@@ -1840,6 +1841,99 @@
       },
       "source_url": "https://morgancounty.in.gov/council/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:warrick-county:commissioner:sarah-seaton",
+      "name": "Sarah Seaton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Warrick County Commissioners Court",
+      "district": "District 1",
+      "phone": "812-897-6120",
+      "email": "info@warrickcounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 West Locust St, Suite 301 Boonville, IN 47601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warrick County",
+        "state": "IN"
+      },
+      "source_url": "https://www.warrickcounty.gov/commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:warrick-county:commissioner:stacey-franz",
+      "name": "Stacey Franz",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Warrick County Commissioners Court",
+      "district": "District 3",
+      "phone": "812-897-6120",
+      "email": "info@warrickcounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 West Locust St, Suite 301 Boonville, IN 47601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warrick County",
+        "state": "IN"
+      },
+      "source_url": "https://www.warrickcounty.gov/commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:warrick-county:commissioner:terry-phillippe",
+      "name": "Terry Phillippe",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Warrick County Commissioners Court",
+      "district": "District 2",
+      "phone": "812-897-6120",
+      "email": "terry@warrickcounty.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 West Locust St, Suite 301 Boonville, IN 47601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warrick County",
+        "state": "IN"
+      },
+      "source_url": "https://www.warrickcounty.gov/commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     }
   ]

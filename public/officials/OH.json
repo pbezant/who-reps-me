@@ -1,9 +1,10 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 107,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 124,
   "cities": [
     "Akron",
+    "Canton",
     "Cincinnati",
     "Clark County",
     "Cleveland",
@@ -12,7 +13,9 @@
     "Greene County",
     "Hamilton County",
     "Lake County",
+    "Marion County",
     "Parma",
+    "Pickaway County",
     "Richland County",
     "Summit County",
     "Toledo",
@@ -608,6 +611,409 @@
       },
       "source_url": "https://www.akronohio.gov/government/mayor_s_office/mayorscabinet.php",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:at-large:bill-smuckler",
+      "name": "Bill Smuckler",
+      "office": "At Large",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "At Large",
+      "phone": "330-489-3223",
+      "email": "bill.smuckler@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/524",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=8854",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:at-large:joe-cole",
+      "name": "Joe Cole",
+      "office": "At Large",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": "joe.cole@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/525",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=8855",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "218 Cleveland Ave SW Canton, OH 44702",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:at-large/asst.-majority-leader:james-babcock",
+      "name": "James Babcock",
+      "office": "At Large/Asst. Majority Leader",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "At Large",
+      "phone": "330-489-3223",
+      "email": "james.babcock@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/523/HIDDEN-James-Babcock",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5893",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "James Babcock serves as a Council Person At Large and Assistant Majority Leader. He is a graduate of Central Catholic High School and works as a Realtor. He is involved in several committees and community organizations, with his term expiring December 31, 2027.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:brenda-kimbrough",
+      "name": "Brenda Kimbrough",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 2",
+      "phone": "330-489-3223",
+      "email": "brenda.kimbrough@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/530/HIDDEN-Brenda-Kimbrough",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5887",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Brenda Kimbrough serves as the Ward 2 Council Person. She holds an Associates Degree in Applied Science in Educational Technology from the University of Akron and is currently an Office Manager at Stark Community Support Network.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:chris-smith",
+      "name": "Chris Smith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 4",
+      "phone": "330-489-3223",
+      "email": "christine.smith@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/531/HIDDEN-Chris-Smith",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5888",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Chris Smith serves as the Ward 4 Council Person for Canton, Ohio. She is the owner of Chris' Talk of the Town Beauty Salon and holds a Doctorate Degree from the National Institute of Cosmetology.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:darren-mayle",
+      "name": "Darren Mayle",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 1",
+      "phone": "330-489-3223",
+      "email": "darren.mayle@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/528/HIDDEN-Darren-Mayle",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5892",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "218 Cleveland Ave SW Canton, OH 44702",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:frank-morris",
+      "name": "Frank Morris",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 9",
+      "phone": null,
+      "email": null,
+      "url": "https://www.cantonohio.gov/541/HIDDEN-Frank-Morris",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5891",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:j.-nate-cooks",
+      "name": "J. Nate Cooks",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 6",
+      "phone": "330-489-3223",
+      "email": "jonathan.cooks@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/538",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5896",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "218 Cleveland Ave SW Canton, OH 44702",
+      "offices": [],
+      "hours": null,
+      "bio": "J. Nate Cooks serves as the Ward 6 Council Person. He is a graduate of McKinley High School, Gray's Harbor Community College, Walsh College, and Walsh University, holding a Masters in Counseling and Human Development. He is currently employed at Stark State College.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:jason-scaglione",
+      "name": "Jason Scaglione",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 3",
+      "phone": "330-489-3223",
+      "email": "jason.scaglione@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/529/HIDDEN-Jason-Scaglione",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5894",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jason Scaglione serves as the Ward 3 Council Person for Canton, Ohio. He chairs the Public Property Capital Improvement Committee and is a member of several other committees, focusing on neighborhood safety and community development.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:richard-sacco",
+      "name": "Richard Sacco",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 8",
+      "phone": null,
+      "email": null,
+      "url": "https://www.cantonohio.gov/540/HIDDEN-Richard-Sacco",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5900",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member:robert-fisher",
+      "name": "Robert Fisher",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 5",
+      "phone": "330-489-3223",
+      "email": "robert.fisher@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/537/HIDDEN-Robert-Fisher",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5901",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Robert Fisher serves as the Ward 5 Council Person. He chairs the Environmental & Public Utilities Committee and is a member of the Public Property Capital Improvement, Judiciary, and Public Safety & Thoroughfares Committees. His current term expires on December 31, 2027.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:council-member/majority-leader:john-mariol-ii",
+      "name": "John Mariol II",
+      "office": "Council Member/Majority Leader",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": "Ward 7",
+      "phone": null,
+      "email": null,
+      "url": "https://www.cantonohio.gov/539/HIDDEN-John-Mariol-II",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5897",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:canton:president:louis-giavasis",
+      "name": "Louis Giavasis",
+      "office": "President",
+      "level": "local",
+      "body": "Canton City Council",
+      "district": null,
+      "phone": "330-489-3223",
+      "email": "louis.giavasis@cantonohio.gov",
+      "url": "https://www.cantonohio.gov/522",
+      "photo_url": "https://www.cantonohio.gov/ImageRepository/Document?documentId=5899",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Louis Giavasis serves as the Council President for Canton, Ohio. He is a Democrat and is currently retired, having previously served as Stark County Clerk of Courts and President of the Plain Township Board of Trustees.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Canton",
+        "state": "OH"
+      },
+      "source_url": "https://www.cantonohio.gov/516/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -1758,6 +2164,37 @@
       "confidence": 1
     },
     {
+      "id": "oh:marion-county:marion-county-auditor:joan-m.-kasotis",
+      "name": "Joan M. Kasotis",
+      "office": "Marion County Auditor",
+      "level": "county",
+      "body": "Marion County Commissioners Court",
+      "district": null,
+      "phone": "740-223-4020",
+      "email": "auditor@marioncountyohio.gov",
+      "url": "https://www.marioncountyohio.gov/elected_offices/auditor/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "222 W. Center St. Marion, OH 43302",
+      "offices": [],
+      "hours": "Monday 8:30AM - 4:30PM\nTuesday 8:30AM - 4:30PM\nWednesday 8:30AM - 4:30PM\nThursday 8:30AM - 4:30PM\nFriday 8:30AM - 4:30PM\nSaturday Closed\nSunday Closed",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Marion County",
+        "state": "OH"
+      },
+      "source_url": "https://www.marioncountyohio.gov/elected_offices/auditor/index.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "oh:parma:clerk-of-council:kristin-saban",
       "name": "Kristin Saban",
       "office": "Clerk of Council",
@@ -2096,6 +2533,99 @@
       },
       "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:pickaway-county:commissioner:gary-scherer",
+      "name": "Gary Scherer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pickaway County Commissioners Court",
+      "district": null,
+      "phone": "740-474-6093",
+      "email": "gscherer@pickawaycountyohio.gov",
+      "url": null,
+      "photo_url": "https://pickawaycountyohio.gov/images/commissioners-scherer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "139 West Franklin Street, Circleville, OH 43113",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickaway County",
+        "state": "OH"
+      },
+      "source_url": "https://pickawaycountyohio.gov/offices/commissioners/index.html",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:pickaway-county:commissioner:harold-henson",
+      "name": "Harold Henson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pickaway County Commissioners Court",
+      "district": null,
+      "phone": "740-474-6093",
+      "email": "hhenson@pickawaycountyohio.gov",
+      "url": null,
+      "photo_url": "https://pickawaycountyohio.gov/images/commissioners-henson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "139 West Franklin Street, Circleville, OH 43113",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickaway County",
+        "state": "OH"
+      },
+      "source_url": "https://pickawaycountyohio.gov/offices/commissioners/index.html",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:pickaway-county:commissioner:jay-h.-wippel",
+      "name": "Jay H. Wippel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pickaway County Commissioners Court",
+      "district": null,
+      "phone": "740-474-6093",
+      "email": "jwippel@pickawaycountyohio.gov",
+      "url": null,
+      "photo_url": "https://pickawaycountyohio.gov/images/commissioners-wippel.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "139 West Franklin Street, Circleville, OH 43113",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickaway County",
+        "state": "OH"
+      },
+      "source_url": "https://pickawaycountyohio.gov/offices/commissioners/index.html",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

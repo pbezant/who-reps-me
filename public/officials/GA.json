@@ -1,8 +1,9 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 182,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 197,
   "cities": [
+    "Albany",
     "Carroll County",
     "Chatham County",
     "Cobb County",
@@ -18,6 +19,7 @@
     "Hall County",
     "Houston County",
     "Jackson County",
+    "Liberty County",
     "Lowndes County",
     "Macon-Bibb County",
     "Muscogee County",
@@ -27,9 +29,227 @@
     "Savannah",
     "South Fulton",
     "Troup County",
+    "Walker County",
     "Walton County"
   ],
   "officials": [
+    {
+      "id": "ga:albany:city-commissioner:chad-e.-warbington",
+      "name": "Chad E. Warbington",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 4",
+      "phone": "229-886-8392",
+      "email": "cwarbington@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-4",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/3/city-commission/images/chad-warbington.jpeg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Chad Warbington was born and raised in Lawrenceville, Ga. He attended Georgia Tech and received a Bachelor of Mechanical Engineering in 1995. After graduating from college, Chad moved to Albany to start his engineering career at Procter and Gamble.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:city-commissioner:colette-jenkins",
+      "name": "Colette Jenkins",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 5",
+      "phone": "229-894-1754",
+      "email": "cjenkins@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-5",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/1/city-commission/images/colette-jenkins-comm-portrait-1.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Colette Jenkins, who was born and raised in Albany, Georgia, serves as City Commissioner for Ward 5, bringing a strong foundation in public service, leadership, and community engagement. Her experiences guide her commitment to transparency, fairness, and responsible decision-making for Ward 5 and the City of Albany.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:city-commissioner:diana-brown",
+      "name": "Diana Brown",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 6",
+      "phone": "229-733-1145",
+      "email": "dibrown@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-6",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/1/city-clerk/images/diana-brown.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Diana Brown was born and raised in Tifton, Georgia, before making Albany her home for 27 years. Her journey has been a testament to her unwavering passion for advocating on behalf of people, with a career dedicated to empowering the marginalized. As Commissioner for Ward 6, she continues her life's dedication to fighting for human rights and building a brighter future for her community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:city-commissioner:jon-howard",
+      "name": "Jon Howard",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 1",
+      "phone": "229-344-1769",
+      "email": "jhoward@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-1",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/3/city-commission/images/jon-howard.jpeg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Jon Howard was elected to the Ward 1 City Commission seat in 1993 and has been re-elected, with his current term set to expire in 2028. He currently serves on the Pension Board of Trustees and the KADB Board. Commissioner Howard attended Dougherty High School and Albany State University and recently retired from the State of Georgia Crisis Stabilization Unit.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:city-commissioner:vilnis-gaines",
+      "name": "Vilnis Gaines",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 3",
+      "phone": "229-854-6274",
+      "email": "vgaines@hotmail.com",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-3",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/1/city-commission/images/vilnis-gaines.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner, Ward III Began: 1/10/2022 End: 1/2026",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:city-commissioner:willie-c.-weaver-sr.",
+      "name": "Willie C. Weaver Sr.",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 2",
+      "phone": "229-299-6620",
+      "email": "wiweaver@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Ward-2",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/1/pio/images/commissioner-willie-c.-weaver-sr.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Willie C. Weaver, Sr., was born in Manchester, Georgia, and raised in Albany, Georgia, graduating from Dougherty High School. He served thirteen years in the U.S. Army as a medical specialist before earning a Bachelor’s Degree in Political Science and a Juris Doctorate Degree from Mercer University. After practicing law for over thirty years, he served on the Dougherty County School Board and as Chief Judge of Albany Municipal Court before being sworn in as City Commissioner for Ward 2 in June 2025.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:albany:mayor:bo-dorough",
+      "name": "Bo Dorough",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": null,
+      "phone": "229-431-3244",
+      "email": "bdorough@albanyga.gov",
+      "url": "https://www.albanyga.gov/City-Commission/Meet-Your-Commission/Mayor",
+      "photo_url": "https://www.albanyga.gov/files/assets/city/v/4/city-commission/images/bo-mayor.jpeg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pine Avenue Albany, GA 31701",
+      "offices": [],
+      "hours": null,
+      "bio": "Bo Dorough is a native of Cordele and a graduate of Georgia Southern College (1983) and the University of Georgia School of Law (1986). He has practiced law in Albany since 1987 and previously served as Commissioner for Ward IV from 2000 to 2007.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "GA"
+      },
+      "source_url": "https://www.albanyga.gov/Home",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
     {
       "id": "ga:carroll-county:tax-commissioner:vickie-bearden",
       "name": "Vickie Bearden",
@@ -3317,6 +3537,223 @@
       "confidence": 1
     },
     {
+      "id": "ga:liberty-county:commission-chairman:donald-lovette",
+      "name": "Donald Lovette",
+      "office": "Commission Chairman",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": null,
+      "phone": "912-876-2164",
+      "email": "donald.lovette@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/326/Donald-Lovette",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=2613",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Donald L. Lovette is a native of Liberty County, Georgia, and a 1973 graduate of Bradwell Institute High School. He is retired as the Director of Laboratory Services for Liberty Regional Medical Center, Hinesville, and has served as Chairman of the Liberty County Board of Commissioners since 2012.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:connie-thrift",
+      "name": "Connie Thrift",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 3",
+      "phone": "912-876-2164",
+      "email": "connie.thrift@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/329/Connie-Thrift",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=2917",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Connie Thrift, a lifelong resident of Liberty County and a 1979 Bradwell Institute graduate, has served on the Liberty County Board of Commissioners for twenty years since her first election in 1999. She co-owns Thrift Auto Repair with her husband John, and is actively involved in the community, including serving as Secretary of Diversity Health Center and Chair of Canoochee Electric Membership Cooperative.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:eddie-j.-walden",
+      "name": "Eddie J. Walden",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 6",
+      "phone": "912-876-2164",
+      "email": "eddie.walden@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/333/Eddie-J-Walden",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=521",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:gary-gilliard",
+      "name": "Gary Gilliard",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 5",
+      "phone": "912-876-2164",
+      "email": "gary.gilliard@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/332/Gary-Gilliard",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Gary Gilliard was born as Robert Gary Gilliard to the late Sergeant Robert and Jackie White Gilliard. He is currently the oldest of four children; he lost an older sister the week of his graduation. He was born on Fort Stewart and grew up in the Rebecca Street Public Housing Development.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:justin-l.-frasier",
+      "name": "Justin L. Frasier",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 2",
+      "phone": "912-876-2164",
+      "email": "justin.frasier@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/328/Justin-L-Frasier",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=517",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Justin Frasier was born in Liberty County to the late Charles Frasier and Mrs. Shirley Frasier. He is a 1999 graduate of Liberty County High School and later attended Morris Brown College, graduating in 2003, and is currently pursuing a Masters in Public Administration. He became the Commissioner of District 2 in 2012, is active in the community, and is married with two children.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:marion-stevens,-sr",
+      "name": "Marion Stevens, Sr",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 1",
+      "phone": "912-876-2164",
+      "email": "marion.stevens@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/327/Marion-Stevens-Sr",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=516",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Marion Stevens is the oldest of five children, reared in the Midway community of Liberty County. He is a 1968 graduate of Liberty County High School and served as a paratrooper in the US Army for four years. He has been active in the Midway community for many years, serving as a volunteer firefighter and medical responder, and has been a County Commissioner since 1999.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:liberty-county:commissioner:timothy-blount",
+      "name": "Timothy Blount",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Liberty County Commissioners Court",
+      "district": "District 4",
+      "phone": "912-876-2164",
+      "email": "timmy.blount@libertycountyga.com",
+      "url": "https://www.libertycountyga.gov/460/Timothy-Blount",
+      "photo_url": "https://www.libertycountyga.gov/ImageRepository/Document?documentId=2355",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 N Main Street Room 201, Courthouse Annex Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Mr. C. Timmy Blount is a life-long resident of Liberty County, a 1984 graduate of Bradwell Institute, and is married with three adult children and six grandchildren. He has a background in construction and forestry, and currently serves as a project manager for a government contractor.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Liberty County",
+        "state": "GA"
+      },
+      "source_url": "https://www.libertycountyga.gov/325/Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:lowndes-county:chairman:bill-slaughter",
       "name": "Bill Slaughter",
       "office": "Chairman",
@@ -5453,6 +5890,37 @@
       },
       "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:walker-county:district-1-commissioner:robert-blakemore",
+      "name": "Robert Blakemore",
+      "office": "District 1 Commissioner",
+      "level": "county",
+      "body": "Walker County Commissioners Court",
+      "district": "District 1",
+      "phone": "423-208-5080",
+      "email": "district1@walkerga.us",
+      "url": "https://walkercountyga.gov/government/board-of-commissioners/district-1/",
+      "photo_url": "https://i0.wp.com/walkercountyga.gov/wp-content/uploads/2021/01/Robert-Blakemore.jpg?resize=700%2C394&ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Robert Blakemore took office as Walker County’s first District 1 Commissioner on January 1, 2021 and was re-elected to a second term that began January 1, 2023. District 1 covers northern Walker County, including Rossville, Fairview and part of Fort Oglethorpe. Blakemore is a lifelong resident of northern Walker County, working for his family owned and operated trucking company.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Walker County",
+        "state": "GA"
+      },
+      "source_url": "https://walkercountyga.gov/government/board-of-commissioners/district-1/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

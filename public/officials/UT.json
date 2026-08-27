@@ -1,9 +1,11 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 43,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 53,
   "cities": [
     "Cache County",
+    "Herriman",
+    "Millcreek",
     "Orem",
     "Salt Lake County",
     "South Jordan",
@@ -227,6 +229,316 @@
       },
       "source_url": "https://www.cachecounty.gov/countycouncil/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:herriman:council-member:jared-henderson",
+      "name": "Jared Henderson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Herriman City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "jhenderson@herriman.gov",
+      "url": null,
+      "photo_url": "https://www.herriman.gov/uploads/files/6322/large/Jared-Henderson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Herriman",
+        "state": "UT"
+      },
+      "source_url": "https://www.herriman.gov/city-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:herriman:council-member:matt-basham",
+      "name": "Matt Basham",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Herriman City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "mbasham@herriman.gov",
+      "url": null,
+      "photo_url": "https://www.herriman.gov/uploads/files/6030/large/Matt-Basham.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Herriman",
+        "state": "UT"
+      },
+      "source_url": "https://www.herriman.gov/city-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:herriman:council-member:teddy-hodges",
+      "name": "Teddy Hodges",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Herriman City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "thodges@herriman.gov",
+      "url": null,
+      "photo_url": "https://www.herriman.gov/uploads/files/6031/large/Teddy-Hodges.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Herriman",
+        "state": "UT"
+      },
+      "source_url": "https://www.herriman.gov/city-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:herriman:council-member:terrah-anderson",
+      "name": "Terrah Anderson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Herriman City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "tanderson@herriman.gov",
+      "url": null,
+      "photo_url": "https://www.herriman.gov/uploads/files/5645/large/Terrah-Anderson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Herriman",
+        "state": "UT"
+      },
+      "source_url": "https://www.herriman.gov/city-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:herriman:mayor:lorin-palmer",
+      "name": "Lorin Palmer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Herriman City Council",
+      "district": null,
+      "phone": null,
+      "email": "mayorpalmer@herriman.gov",
+      "url": null,
+      "photo_url": "https://www.herriman.gov/uploads/files/6029/large/Lorin-Palmer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Herriman",
+        "state": "UT"
+      },
+      "source_url": "https://www.herriman.gov/city-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:millcreek:council-member:bev-uipi",
+      "name": "Bev Uipi",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Millcreek City Council",
+      "district": "District 4",
+      "phone": "801-214-2704",
+      "email": "buipi@millcreekut.gov",
+      "url": "https://www.millcreekut.gov/492/Bev-Uipi",
+      "photo_url": "https://www.millcreekut.gov/ImageRepository/Document?documentID=5988",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1330 East Chambers Avenue, Millcreek, UT 84106",
+      "offices": [],
+      "hours": "Mon-Fri: 8 AM - 5 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Millcreek",
+        "state": "UT"
+      },
+      "source_url": "https://www.millcreekut.gov/180/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:millcreek:council-member:nicole-handy",
+      "name": "Nicole Handy",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Millcreek City Council",
+      "district": "District 3",
+      "phone": "801-214-2703",
+      "email": "nhandy@millcreekut.gov",
+      "url": "https://www.millcreekut.gov/491/Nicole-Handy",
+      "photo_url": "https://www.millcreekut.gov/ImageRepository/Document?documentID=5989",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Millcreek",
+        "state": "UT"
+      },
+      "source_url": "https://www.millcreekut.gov/180/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:millcreek:council-member:silvia-catten",
+      "name": "Silvia Catten",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Millcreek City Council",
+      "district": "District 1",
+      "phone": "801-214-2701",
+      "email": "scatten@millcreekut.gov",
+      "url": "https://www.millcreekut.gov/489/Silvia-Catten",
+      "photo_url": "https://www.millcreekut.gov/ImageRepository/Document?documentID=5986",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1330 East Chambers Avenue Millcreek, UT 84106",
+      "offices": [],
+      "hours": "Mon-Fri: 8 AM - 5 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Millcreek",
+        "state": "UT"
+      },
+      "source_url": "https://www.millcreekut.gov/180/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:millcreek:council-member:thom-desirant",
+      "name": "Thom DeSirant",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Millcreek City Council",
+      "district": "District 2",
+      "phone": "801-214-2702",
+      "email": "tdesirant@millcreekut.gov",
+      "url": "https://www.millcreekut.gov/490/Thom-DeSirant",
+      "photo_url": "https://www.millcreekut.gov/ImageRepository/Document?documentID=5987",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Millcreek",
+        "state": "UT"
+      },
+      "source_url": "https://www.millcreekut.gov/180/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:millcreek:mayor:cheri-jackson",
+      "name": "Cheri Jackson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Millcreek City Council",
+      "district": null,
+      "phone": "801-214-2705",
+      "email": "cjackson@millcreekut.gov",
+      "url": "https://www.millcreekut.gov/185/Cheri-Jackson",
+      "photo_url": "https://www.millcreekut.gov/ImageRepository/Document?documentID=5985",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1330 East Chambers Avenue Millcreek, UT 84106",
+      "offices": [],
+      "hours": "Mon-Fri: 8 AM - 5 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Millcreek",
+        "state": "UT"
+      },
+      "source_url": "https://www.millcreekut.gov/180/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

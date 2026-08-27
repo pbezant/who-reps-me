@@ -1,15 +1,19 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 97,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 115,
   "cities": [
     "Anoka County",
     "Bloomington",
     "Brooklyn Park",
+    "Clay County",
+    "Coon Rapids",
     "Duluth",
+    "Eagan",
     "Minneapolis",
     "Olmsted County",
     "Ramsey County",
+    "Rice County",
     "Scott County",
     "St. Louis County",
     "St. Paul",
@@ -700,6 +704,388 @@
       "confidence": 1
     },
     {
+      "id": "mn:clay-county:commissioner:david-ebinger",
+      "name": "David Ebinger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clay County Commissioners Court",
+      "district": "District 5",
+      "phone": "701-212-0383",
+      "email": "David.ebinger@claycountymn.gov",
+      "url": "https://claycountymn.gov/140/District-5--David-Ebinger",
+      "photo_url": "https://claycountymn.gov/ImageRepository/Document?documentId=16195",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "David Ebinger’s current term expires in January 2029. He has served on the Board of Commissioners since 2025.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Clay County",
+        "state": "MN"
+      },
+      "source_url": "https://claycountymn.gov/1450/Find-Your-Commissioner",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:clay-county:commissioner:ezra-baer",
+      "name": "Ezra Baer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clay County Commissioners Court",
+      "district": "District 2",
+      "phone": "701-388-2747",
+      "email": "ezra.baer@claycountymn.gov",
+      "url": "https://claycountymn.gov/137/District-2--Ezra-Baer",
+      "photo_url": "https://claycountymn.gov/ImageRepository/Document?documentId=16196",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Ezra Baer's current term expires in January 2029. He has served on the Board of Commissioners since 2025.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Clay County",
+        "state": "MN"
+      },
+      "source_url": "https://claycountymn.gov/1450/Find-Your-Commissioner",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:clay-county:commissioner:jenny-mongeau",
+      "name": "Jenny Mongeau",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clay County Commissioners Court",
+      "district": "District 3",
+      "phone": "701-238-2987",
+      "email": "Jenny.Mongeau@claycountymn.gov",
+      "url": "https://claycountymn.gov/138/District-3--Jenny-Mongeau",
+      "photo_url": "https://claycountymn.gov/ImageRepository/Document?documentId=16197",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jenny Mongeau's current term expires in January 2027. She has served on the Board of Commissioners since 2015.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Clay County",
+        "state": "MN"
+      },
+      "source_url": "https://claycountymn.gov/1450/Find-Your-Commissioner",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:clay-county:commissioner:kevin-campbell",
+      "name": "Kevin Campbell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clay County Commissioners Court",
+      "district": "District 4",
+      "phone": "701-318-0030",
+      "email": "Kevin.Campbell@claycountymn.gov",
+      "url": "https://claycountymn.gov/139/District-4--Kevin-Campbell",
+      "photo_url": "https://claycountymn.gov/ImageRepository/Document?documentId=16198",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kevin Campbell’s current term expires in January 2027. He has served on the Board of Commissioners since 2003.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Clay County",
+        "state": "MN"
+      },
+      "source_url": "https://claycountymn.gov/1450/Find-Your-Commissioner",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:clay-county:commissioner:paul-krabbenhoft",
+      "name": "Paul Krabbenhoft",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clay County Commissioners Court",
+      "district": "District 1",
+      "phone": "701-799-0369",
+      "email": "paul.krabbenhoft@claycountymn.gov",
+      "url": "https://claycountymn.gov/136/District-1---Paul-Krabbenhoft",
+      "photo_url": "https://claycountymn.gov/ImageRepository/Document?documentId=16199",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Krabbenhoft current term expires in January 2029. He has served on the Board of Commissioners since 2021.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Clay County",
+        "state": "MN"
+      },
+      "source_url": "https://claycountymn.gov/1450/Find-Your-Commissioner",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:brad-greskowiak",
+      "name": "Brad Greskowiak",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "Ward 1",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/directory.aspx?EID=4",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=13431",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:brian-armstrong",
+      "name": "Brian Armstrong",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "Ward 5",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=282",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=14795",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:christopher-geisler",
+      "name": "Christopher Geisler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "Ward 4",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=296",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=18432",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:pat-carlson",
+      "name": "Pat Carlson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "At Large",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=266",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=13437",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City Hall",
+          "city": "Coon Rapids",
+          "address": "11155 Robinson Drive NW Coon Rapids, MN 55433",
+          "phone": "763-755-2880",
+          "fax": "763-767-6491",
+          "hours": "Monday to Friday 8 a.m. to 4:30 p.m."
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:peter-butler",
+      "name": "Peter Butler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "Ward 2",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=295",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=18433",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": "Monday to Friday 8 a.m. to 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:council-member:sean-novack",
+      "name": "Sean Novack",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": "Ward 3",
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=283",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=14794",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:coon-rapids:mayor:jerry-koch",
+      "name": "Jerry Koch",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Coon Rapids City Council",
+      "district": null,
+      "phone": "763-767-6493",
+      "email": "mail@coonrapidsmn.gov",
+      "url": "https://www.coonrapidsmn.gov/Directory.aspx?EID=2",
+      "photo_url": "https://www.coonrapidsmn.gov/ImageRepository/Document?documentID=13430",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11155 Robinson Drive Coon Rapids, MN 55433",
+      "offices": [],
+      "hours": "Monday to Friday 8 a.m. to 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Coon Rapids",
+        "state": "MN"
+      },
+      "source_url": "https://www.coonrapidsmn.gov/148/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "mn:duluth:council-member-at-large,-president:lynn-marie-nephew",
       "name": "Lynn Marie Nephew",
       "office": "Council Member At-Large, President",
@@ -986,6 +1372,37 @@
       },
       "source_url": "https://duluthmn.gov/city-council/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:eagan:mayor:mike-maguire",
+      "name": "Mike Maguire",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Eagan City Council",
+      "district": null,
+      "phone": "651-675-5048",
+      "email": null,
+      "url": "https://cityofeagan.com/mayor-mike-maguire",
+      "photo_url": "https://cityofeagan.com/images/Council/Portraits/2022/MikeMaguire-1008-1_192w_72ppi.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Eagan Municipal Center 3830 Pilot Knob Rd. Eagan, MN 55122",
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Maguire was elected Eagan's 8th Mayor in 2006, currently serving his fifth term, after previously being a City Council Member. He holds a Bachelor's from Suffolk University and a Master's from Mankato State, and has taught public speaking and communication. As Mayor, he serves on various boards and commissions, including the City Council's Finance Committee and the Eagan Convention and Visitors Bureau Board.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Eagan",
+        "state": "MN"
+      },
+      "source_url": "https://cityofeagan.com/mayor-mike-maguire",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -1874,6 +2291,161 @@
       },
       "source_url": "https://www.ramseycountymn.gov/your-government/leadership/board-commissioners",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:rice-county:commissioner:charlie-peters",
+      "name": "Charlie Peters",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rice County Commissioners Court",
+      "district": "District 5",
+      "phone": "507-990-1607",
+      "email": "cpeters@ricecountymn.gov",
+      "url": "https://www.ricecountymn.gov/directory.aspx?EID=203",
+      "photo_url": "https://www.ricecountymn.gov/ImageRepository/Document?documentId=9677",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Rice County Government Services Building\n320 Third St. NW\nFaribault, MN 55021",
+      "offices": [],
+      "hours": null,
+      "bio": "Current term expires Dec. 31, 2028. Served on the Rice County Board of Commissioners since January 2025.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rice County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ricecountymn.gov/169/Rice-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:rice-county:commissioner:galen-malecha",
+      "name": "Galen Malecha",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rice County Commissioners Court",
+      "district": "District 2",
+      "phone": "507-645-6041",
+      "email": null,
+      "url": "https://www.ricecountymn.gov/directory.aspx?EID=14",
+      "photo_url": "https://www.ricecountymn.gov/ImageRepository/Document?documentId=7021",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Rice County Government Services Building\n320 Third St. NW\nFaribault, MN 55021",
+      "offices": [],
+      "hours": null,
+      "bio": "Current term expires Dec. 31, 2028. Served on the Rice County Board of Commissioners since January 2007.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rice County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ricecountymn.gov/169/Rice-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:rice-county:commissioner:gerry-hoisington",
+      "name": "Gerry Hoisington",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rice County Commissioners Court",
+      "district": "District 3",
+      "phone": "507-838-7748",
+      "email": "gerry.hoisington@ricecountymn.gov",
+      "url": "https://www.ricecountymn.gov/directory.aspx?EID=159",
+      "photo_url": "https://www.ricecountymn.gov/ImageRepository/Document?documentId=7023",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Rice County Government Services Building\n320 Third St. NW\nFaribault, MN 55021",
+      "offices": [],
+      "hours": null,
+      "bio": "Gerry Hoisington is the Commissioner for District 3 and has served on the Rice County Board of Commissioners since Jan. 3, 2023. His current term expires Dec. 31, 2026.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rice County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ricecountymn.gov/169/Rice-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:rice-county:commissioner:jim-purfeerst",
+      "name": "Jim Purfeerst",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rice County Commissioners Court",
+      "district": "District 1",
+      "phone": "507-323-5091",
+      "email": "jpurfeerst@ricecountymn.gov",
+      "url": "https://www.ricecountymn.gov/directory.aspx?EID=13",
+      "photo_url": "https://www.ricecountymn.gov/ImageRepository/Document?documentId=7024",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Rice County Government Services Building\n320 Third St. NW\nFaribault, MN 55021",
+      "offices": [],
+      "hours": null,
+      "bio": "Served on the Rice County Board of Commissioners since January 2021. Current term expires Dec. 31, 2028.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rice County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ricecountymn.gov/169/Rice-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:rice-county:commissioner:steve-underdahl",
+      "name": "Steve Underdahl",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Rice County Commissioners Court",
+      "district": "District 4",
+      "phone": "507-332-8222",
+      "email": "sunderdahl@ricecountymn.gov",
+      "url": "https://www.ricecountymn.gov/directory.aspx?EID=18",
+      "photo_url": "https://www.ricecountymn.gov/ImageRepository/Document?documentId=7025",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Rice County Government Services Building\n320 Third St. NW\nFaribault, MN 55021",
+      "offices": [],
+      "hours": null,
+      "bio": "Steve Underdahl is the Commissioner for District 4 on the Rice County Board of Commissioners, serving since January 2019. His current term expires December 31, 2026.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rice County",
+        "state": "MN"
+      },
+      "source_url": "https://www.ricecountymn.gov/169/Rice-County-Board-of-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

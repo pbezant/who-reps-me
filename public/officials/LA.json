@@ -1,8 +1,9 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 43,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 50,
   "cities": [
+    "Bossier City",
     "Lafayette Parish",
     "Lake Charles",
     "New Orleans",
@@ -12,6 +13,223 @@
     "Terrebonne Parish"
   ],
   "officials": [
+    {
+      "id": "la:bossier-city:council-member:brian-hammons",
+      "name": "Brian Hammons",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "District 1",
+      "phone": "318-918-8653",
+      "email": "hammonsb@bossiercity.org",
+      "url": "https://www.bossiercity.org/474/District-1---Brian-Hammons",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2059",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:chris-smith",
+      "name": "Chris Smith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "At Large",
+      "phone": "318-918-8639",
+      "email": "smithc@bossiercity.org",
+      "url": "https://www.bossiercity.org/256/At-Large---Chris-Smith",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2056",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:cliff-smith",
+      "name": "Cliff Smith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "District 3",
+      "phone": "318-465-1236",
+      "email": "district3@bossiercity.org",
+      "url": "https://www.bossiercity.org/262/District-3---Cliff-Smith",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2057",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:craton-cochran",
+      "name": "Craton Cochran",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "At Large",
+      "phone": "318-465-6508",
+      "email": "atlarge2@bossiercity.org",
+      "url": "https://www.bossiercity.org/258/At-Large---Craton-Cochran",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2058",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:debra-w.-ross",
+      "name": "Debra W. Ross",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "District 2",
+      "phone": "318-465-6990",
+      "email": "district2@bossiercity.org",
+      "url": "https://www.bossiercity.org/261/District-2---Debra-W-Ross",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2060",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:joel-girouard",
+      "name": "Joel Girouard",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "District 4",
+      "phone": "318-741-8520",
+      "email": "district4@bossiercity.org",
+      "url": "https://www.bossiercity.org/268/District-4---Joel-Girouard",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2061",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:bossier-city:council-member:vince-maggio",
+      "name": "Vince Maggio",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bossier City City Council",
+      "district": "District 5",
+      "phone": "318-747-7604",
+      "email": "maggiov@bossiercity.org",
+      "url": "https://www.bossiercity.org/271/District-5---Vince-Maggio",
+      "photo_url": "https://www.bossiercity.org/ImageRepository/Document?documentID=2062",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "620 Benton Road, Bossier City, LA 71111",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bossier City",
+        "state": "LA"
+      },
+      "source_url": "https://www.bossiercity.org/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
     {
       "id": "la:lafayette-parish:disability-awareness-coordinator:harlon-cowsar",
       "name": "Harlon Cowsar",
