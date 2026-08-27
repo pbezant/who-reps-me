@@ -1,7 +1,7 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-26T04:58:35.496Z",
-  "count": 160,
+  "generated_at": "2026-08-27T06:19:49.346Z",
+  "count": 166,
   "cities": [
     "Bellevue",
     "Bellingham",
@@ -26,6 +26,7 @@
     "Skagit County",
     "Snohomish County",
     "Spokane County",
+    "Spokane Valley",
     "Thurston County",
     "Whatcom County",
     "Yakima",
@@ -3085,7 +3086,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -3116,7 +3117,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -3178,7 +3179,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -3209,7 +3210,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -3240,7 +3241,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -4327,6 +4328,192 @@
       "source_url": "https://www.spokanecounty.gov/27/Your-Government",
       "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 0.9
+    },
+    {
+      "id": "wa:spokane-valley:council-member:haley",
+      "name": "Haley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "wa:spokane-valley:council-member:hattenburg",
+      "name": "Hattenburg",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "wa:spokane-valley:council-member:kelly",
+      "name": "Kelly",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "wa:spokane-valley:council-member:merkel",
+      "name": "Merkel",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "wa:spokane-valley:council-member:wick",
+      "name": "Wick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
+    },
+    {
+      "id": "wa:spokane-valley:council-member:yaeger",
+      "name": "Yaeger",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spokane Valley City Council",
+      "district": null,
+      "phone": "509-720-5000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10210 East Sprague Avenue Spokane Valley, WA 99206",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Spokane Valley",
+        "state": "WA"
+      },
+      "source_url": "https://www.spokanevalleywa.gov/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.7
     },
     {
       "id": "wa:thurston-county:commissioner:carolina-mejia",

@@ -1,7 +1,7 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 109,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 116,
   "cities": [
     "Anderson County",
     "Beaufort County",
@@ -9,6 +9,7 @@
     "Columbia",
     "Greenville",
     "Greenville County",
+    "Greenwood County",
     "Lancaster County",
     "Lexington County",
     "Mount Pleasant",
@@ -1783,6 +1784,223 @@
       },
       "source_url": "https://www.greenvillesc.gov/city-council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member,-council-chairman:theo-lane",
+      "name": "Theo Lane",
+      "office": "County Council Member, Council Chairman",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 7",
+      "phone": "864-420-0068",
+      "email": "tlane@GreenwoodSC.gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/6796c2_e3ba2ce9f92b461d92863a9fef840dc5~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2112 Nation Road Hodges, SC 29653",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member,-vice-chairman:dayne-pruitt",
+      "name": "Dayne Pruitt",
+      "office": "County Council Member, Vice Chairman",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 5",
+      "phone": "864-337-5842",
+      "email": "dpruitt@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/6796c2_cf73be35136945909d2aa93d94256e8f~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "18 Roxanna Drive Ninety Six, SC 29666",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member:cathy-miller",
+      "name": "Cathy Miller",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 4",
+      "phone": "864-942-8507",
+      "email": "cmiller@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/1b9248_45423f7f671e473a8d54f1340a744718~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "133 Gatewood Dr. Greenwood, SC 29646",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member:johanna-bishop",
+      "name": "Johanna Bishop",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 3",
+      "phone": "864-941-6160",
+      "email": "jbishop@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/1b9248_6e5dae94344f4f9fb0acf71cf2d24f32~mv2.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2213 Cambridge Ave. E. Greenwood, SC 29646",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member:mark-allison",
+      "name": "Mark Allison",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 2",
+      "phone": "864-377-1500",
+      "email": "mallison@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/6796c2_6a5b39445e3c48bdb3466e6a7d6f3270~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5019 Kinard Rd. Ninety Six, SC 29666",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member:robbie-templeton",
+      "name": "Robbie Templeton",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 6",
+      "phone": "864-980-8688",
+      "email": "rtempleton@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/6796c2_dd87873abe494cf1a2462387da4b21ed~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Yosemite Drive Greenwood, SC 29649",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:greenwood-county:county-council-member:teresa-griffin",
+      "name": "Teresa Griffin",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Greenwood County Commissioners Court",
+      "district": "District 1",
+      "phone": "864-993-2727",
+      "email": "tgriffin@GreenwoodSC.Gov",
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/1b9248_d949ec930390402a8aa3a761f7fd5eec~mv2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "123 Cardinal Rd. Greenwood, SC 29646",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greenwood County",
+        "state": "SC"
+      },
+      "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

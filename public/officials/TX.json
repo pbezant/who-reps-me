@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-26T04:58:35.496Z",
-  "count": 355,
+  "generated_at": "2026-08-27T06:19:49.346Z",
+  "count": 377,
   "cities": [
     "Abilene",
     "Allen",
@@ -45,6 +45,7 @@
     "Kyle",
     "Lakeway",
     "Leander",
+    "Little Elm",
     "Lockhart",
     "Lubbock",
     "Mansfield",
@@ -54,6 +55,7 @@
     "Mission",
     "Montgomery County",
     "New Braunfels",
+    "North Richland Hills",
     "Parker County",
     "Pasadena",
     "Randall County",
@@ -66,6 +68,7 @@
     "Tarrant County",
     "Temple",
     "Travis County",
+    "Victoria",
     "Waco",
     "Wichita Falls",
     "Williamson County"
@@ -1872,7 +1875,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1895,7 +1898,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1918,7 +1921,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1972,7 +1975,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -4431,7 +4434,7 @@
         "state": "TX"
       },
       "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
-      "extracted_at": "2026-08-19T20:57:24.860Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -6225,6 +6228,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:little-elm:council-member:andrew-evans",
+      "name": "Andrew Evans",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "andrew.evans@littleelm.gov",
+      "url": "https://www.littleelm.gov/1587/District-5-Council-Member-Andrew-Evans",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21203",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Andrew has been a proud resident of Little Elm for several years and is a dedicated Christian and father to his daughter and son. In addition to serving his constituents, Andrew is a senior operations consultant in the mortgage servicing industry. His main focus is to enhance Little Elm's future by attracting jobs, entertainment, dining, and recreational opportunities while addressing the town's geographical and commuting challenges to bring the community closer together.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:council-member:idalia-maria-amaya",
+      "name": "Idalia Maria Amaya",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "District 4",
+      "phone": "214-975-0471",
+      "email": "idalia.amaya@littleelm.gov",
+      "url": "https://www.littleelm.gov/874/District-4-Council-Member-Idalia-Maria-A",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21208",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Councilmember Idalia Maria Amaya was elected to the Little Elm Town Council in 2025. She is a dedicated public servant and proud native of Little Elm, with over 15 years of experience in social work, education, nonprofit leadership, and community development. She holds a Bachelor of Science from the University of Texas at Austin and dual master's degrees from Columbia University.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:council-member:jamell-t.-johnson",
+      "name": "Jamell T. Johnson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "At Large Place 1",
+      "phone": "214-975-0471",
+      "email": "jamell.johnson@littleelm.gov",
+      "url": "https://www.littleelm.gov/1504/At-Large-Place-1-Council-Member-Jamell-T",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21201",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.littleelm.gov/facebook",
+        "instagram": "https://www.littleelm.gov/instagram",
+        "linkedin": null,
+        "youtube": "https://www.littleelm.gov/youtube"
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Council Member Jamell T. Johnson has lived in Little Elm since 2019, relocating from Indiana with his family. He earned a B.S. in Criminology and an M.J. in Business Law, served in the military for ten years, and was elected as the youngest Council Member in the Town's history.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:council-member:ken-eaken",
+      "name": "Ken Eaken",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "ken.eaken@littleelm.gov",
+      "url": "https://www.littleelm.gov/871/District-3-Council-Member-Ken-Eaken",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21204",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Prior to his election to the Town Council in May 2024, Ken has been actively engaged in the community, having been appointed by the Town Council to the Little Elm Economic Development Corporation Board of Directors in 2018 and serving as its President since 2020. He is a graduate of all the Towns Academies, Citizens, Police and Fire, volunteering in both Citizens on Patrol and Box 620 supporting the Fire Department. He believes his background and experience will assist in the future direction of the Town of Little Elm and is grateful for this opportunity to continue his service to the community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:council-member:tony-singh",
+      "name": "Tony Singh",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "District 2",
+      "phone": "214-975-0471",
+      "email": "tony.singh@littleelm.gov",
+      "url": "https://www.littleelm.gov/870/District-2-Council-Member-Tony-Singh",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21200",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Tony Singh, born in India, moved to the U.S. in 2003 to pursue graduate degrees in Electrical Engineering and an MBA from the University of Texas at Arlington. He and his wife, Crystal, have resided in Little Elm's District 2 since 2011, where he works in the telecom industry. Tony is dedicated to community service, volunteering with local police and fire departments, and previously serving on the Planning & Zoning Commission.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:mayor-pro-tem-&-council-member:michel-hambrick",
+      "name": "Michel Hambrick",
+      "office": "Mayor Pro Tem & Council Member",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": "At Large Place 6",
+      "phone": null,
+      "email": "michel.hambrick@littleelm.gov",
+      "url": "https://www.littleelm.gov/1586/Mayor-Pro-Tem-At-Large-Place-6-Council-M",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21202",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m. Friday 7:30 a.m.-11:30 a.m.",
+      "bio": "Michel has lived in Little Elm since October 2005 with her husband Kevin and daughter McKaylah. A small business owner since 2015, she has served on numerous community boards including the Little Elm Friends of the Library and the Little Elm Economic Development Corporation.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:little-elm:mayor:curtis-j.-cornelious",
+      "name": "Curtis J. Cornelious",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Little Elm City Council",
+      "district": null,
+      "phone": "214-975-0471",
+      "email": "curtis.cornelious@littleelm.gov",
+      "url": "https://www.littleelm.gov/869/Mayor-Curtis-J-Cornelious",
+      "photo_url": "https://www.littleelm.gov/ImageRepository/Document?documentID=21199",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 W. Eldorado Parkway Little Elm, Texas 75068",
+      "offices": [],
+      "hours": "Monday-Thursday 7:30 a.m.-5:30 p.m.",
+      "bio": "Mayor Curtis J. Cornelious has lived in Little Elm since October 2004, with his wife of over 19 great years, Charlet, and their three children Stephanie, Christian, and Collyn. He has a double degree in Chemistry and Agriculture from the University of Arkansas at Pine Bluff. He has always been involved in his community through different organizations, including coaching football and basketball, Boy Scouts, and his church, where he served as a Deacon. He served two terms on Town Council representing District 3, two terms as an at-large representative and served five years as Mayor Pro Tem. He also served as a Board Director for the Economic Development Corporation for four years. He served(s) on numerous boards around the county. Mayor Cornelious is a proud member of Alpha Phi Alpha Fraternity, Inc.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Little Elm",
+        "state": "TX"
+      },
+      "source_url": "https://www.littleelm.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:lockhart:council-member-at-large:brad-westmoreland",
       "name": "Brad Westmoreland",
       "office": "City Council Member At-Large",
@@ -7545,7 +7765,7 @@
     {
       "id": "tx:new-braunfels:council-member:d.-lee-edwards",
       "name": "D. Lee Edwards",
-      "office": "City Councilmember",
+      "office": "Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 3",
@@ -7570,7 +7790,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -7601,7 +7821,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -7632,7 +7852,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 1
     },
     {
@@ -7663,7 +7883,265 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-25T05:07:25.719Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:billy-parks",
+      "name": "Billy Parks",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 5",
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=54",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=17633",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "North Richland Hills City Hall",
+          "city": "North Richland Hills",
+          "address": "4301 City Point Drive North Richland Hills, TX 76180",
+          "phone": "817-427-6000",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:brianne-goetz",
+      "name": "Brianne Goetz",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 2",
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=50",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=22330",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:cecille-delaney",
+      "name": "Cecille Delaney",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 1",
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=51",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=17631",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": "Cecille Delaney is the Council Member for Place 1. Each City Council member is elected at large and represents the entire community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:danny-roberts",
+      "name": "Danny Roberts",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 3",
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=52",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=17632",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": "Danny Roberts is a Council Member, Place 3. Each City Council member is elected at large and represents the entire community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:matt-blake",
+      "name": "Matt Blake",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 4",
+      "phone": "817-427-6060",
+      "email": "mblake@nrhtx.com",
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=53",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=15588",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": "Matt Blake is the Council Member for Place 4. Each City Council member is elected at large and represents the entire community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:council-member:russ-mitchell",
+      "name": "Russ Mitchell",
+      "office": "Council Member",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 6",
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=55",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=15265",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:mayor-pro-tem:kelvin-deupree",
+      "name": "Kelvin Deupree",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": "Place 7",
+      "phone": "817-427-6060",
+      "email": "kdeupree@nrhtx.com",
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=56",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=13663",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:north-richland-hills:mayor:jack-mccarty",
+      "name": "Jack McCarty",
+      "office": "Mayor",
+      "level": "local",
+      "body": "North Richland Hills City Council",
+      "district": null,
+      "phone": "817-427-6060",
+      "email": null,
+      "url": "https://www.nrhtx.com/m/directory/employee?eid=49",
+      "photo_url": "https://www.nrhtx.com/ImageRepository/Document?documentID=15263",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4301 City Point Drive Second Floor North Richland Hills, TX 76180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "North Richland Hills",
+        "state": "TX"
+      },
+      "source_url": "https://www.nrhtx.com/m/directory/department?did=62",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -9753,6 +10231,223 @@
       },
       "source_url": "https://www.traviscountytx.gov/commissioners-court",
       "extracted_at": "2026-08-18T17:11:03.748Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:council-member:april-l.-butler",
+      "name": "April L. Butler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "abutler@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/966/District-3---April-L-Butler",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=14963",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "April L. Butler is the City Council representative for District 3. She is a local business owner and national franchise business consultant with a background in child welfare. She is an active member of several community organizations and serves on multiple boards, holding a master's degree in sociology from SUNY.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:council-member:jan-scott",
+      "name": "Jan Scott",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "janscott@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/726/District-4---Jan-Scott",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=2263",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Jan Scott is the City Council representative for District 4 and a real estate attorney. She holds degrees in biology and law, and has extensive experience serving on various city commissions and boards, including chairing the Planning Commission and the Victoria Metropolitan Organization Policy Advisory Committee.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:council-member:mark-loffgren",
+      "name": "Mark Loffgren",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "Super District 6",
+      "phone": null,
+      "email": "mloffgren@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/728/Super-District-6---Mark-Loffgren",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=3409",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Loffgren is the City Council representative for Super District 6. He was recruited by H-E-B to come to Victoria in 1986 and retired as an H-E-B store director. He was elected in 2019 and reelected in 2022, and serves on several boards and commissions.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:council-member:rafael-delagarza,-iii",
+      "name": "Rafael DeLaGarza, III",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "rdelagarza@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/723/District-1---Rafael-DeLaGarza-III",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=2261",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Rafael DeLaGarza III is the City Council representative for District 1. He is an EMS instructor/coordinator at Victoria College and a former City of Victoria paramedic/firefighter. He was first elected to the City Council in 2016.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:council-member:steven-kidder",
+      "name": "Steven Kidder",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "skidder@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/724/District-2---Steven-Kidder",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=14317",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Steven Kidder is the City Council representative for District 2. He is a private practice attorney; prior to his current role, he served as the City of Victoria Municipal Court judge. He earned his bachelor’s degree in government/political science from the University of Texas at Austin in 1983 and his doctorate in law from the University of Houston Law Center in 1987, and he was licensed by the State Bar of Texas in 1987.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:mayor-pro-tem,-council-member:dr.-andrew-young",
+      "name": "Dr. Andrew Young",
+      "office": "Mayor Pro-Tem, City Council Member",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": "Super District 5",
+      "phone": null,
+      "email": "ayoung@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/727/Super-District-5Mayor-Pro-Tem---Dr-Andre",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=2256",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Andrew Young is the City Council representative for Super District 5, which encompasses Districts 1 and 2, and he also serves as Mayor Pro Tem. He is a board-certified foot surgeon and podiatrist with Podiatry Associates of Victoria, and was first elected to the City Council in 2013.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:victoria:mayor:duane-crocker",
+      "name": "Duane Crocker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Victoria City Council",
+      "district": null,
+      "phone": null,
+      "email": "dcrocker@victoriatx.gov",
+      "url": "https://www.victoriatx.gov/725/Mayor---Duane-Crocker",
+      "photo_url": "https://www.victoriatx.gov/ImageRepository/Document?documentID=13640",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 West Juan Linn St.\nVictoria, TX 77901",
+      "offices": [],
+      "hours": null,
+      "bio": "Duane Crocker is the mayor of Victoria. A Victoria native, he is the principal shareholder in The Law Office of Duane G. Crocker, PC. He earned his bachelor’s degree in political science from Texas A&M University and his doctorate in law from Texas Tech University.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Victoria",
+        "state": "TX"
+      },
+      "source_url": "https://www.victoriatx.gov/27/Government",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

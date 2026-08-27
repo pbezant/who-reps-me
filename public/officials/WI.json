@@ -1,12 +1,13 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 58,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 65,
   "cities": [
     "Dane County",
     "Eau Claire County",
     "Green Bay",
     "Madison",
+    "Oshkosh",
     "Outagamie County",
     "Ozaukee County",
     "St. Croix County",
@@ -755,6 +756,223 @@
       },
       "source_url": "https://www.cityofmadison.com/mayor/about",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:council-member:alec-lefeber",
+      "name": "Alec Lefeber",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-312-7887",
+      "email": "alefeber@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/20",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/AlecLefeber.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Church Avenue P.O. Box 1130 Oshkosh, WI 54903-1130",
+      "offices": [],
+      "hours": "8:00 AM - 4:30 PM",
+      "bio": "Alec Lefeber is a UW Oshkosh Honors College graduate and works as a Senior Content Specialist. He is actively involved in the Oshkosh community, having served on the Oshkosh Landmarks Commission, and believes in informed and engaged local government. In his free time, he enjoys spending time with his wife and pugs, watching movies, reading, and creative projects.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:council-member:brad-spanbauer",
+      "name": "Brad Spanbauer",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-379-7286",
+      "email": "bspanbauer@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/18",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/BradSpanbauer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Brad Spanbauer is a two-time alumnus of UW-Oshkosh, where he has taught Biology and Environmental Studies since 2014. Since 2019, he has served as the Campus Sustainability Director at UWO, helping to save money, protect the environment, and support the community. In his free time, Brad enjoys biking, kayaking, birding, and traveling.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:council-member:jacob-amos",
+      "name": "Jacob Amos",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": null,
+      "email": "jamos@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/24",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/JacobAmos.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jacob Amos is a community leader, loan officer, and a public servant committed to strengthening Oshkosh through transparency, accessibility, and equity. His work is rooted in the belief that local government should be responsive, fiscally responsible, and centered on the people it serves. Jacob brings an engaged leadership experience to his public service, currently serving on Oshkosh’s Long Range Finance Committee and having participated in the leadership Oshkosh class of 2025.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:council-member:joseph-stephenson",
+      "name": "Joseph Stephenson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-203-1395",
+      "email": "jstephenson@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/16",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/JosephStephenson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Stephenson is a community advocate with deep roots in Oshkosh, holding a Bachelor's in Urban and Regional Planning and a Master’s in Public Administration from UW Oshkosh. He has extensive experience in housing, walkability, and redevelopment, and has served on numerous community boards including the Parks Board and Oshkosh Museum Board. As a Council Person, he aims to leverage his planning and community development expertise to improve Oshkosh for everyone.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:council-member:paul-esslinger",
+      "name": "Paul Esslinger",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-410-1104",
+      "email": "pesslinger@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/21",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/PaulEsslinger.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Church Avenue P.O. Box 1130 Oshkosh, WI 54903-1130",
+      "offices": [],
+      "hours": "8:00 AM - 4:30 PM",
+      "bio": "Paul Esslinger is a returning Council member who previously served 13 years, including 2 years as Mayor. He has served on various city commissions and is a lifelong resident of Oshkosh, working as a Real Estate agent. He holds degrees in Marketing and is married with two children.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:deputy-mayor:karl-buelow",
+      "name": "Karl Buelow",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-810-1793",
+      "email": "kbuelow@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/17",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/KarlBuelow.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Church Avenue P.O. Box 1130 Oshkosh, WI 54903-1130",
+      "offices": [],
+      "hours": "8:00 AM - 4:30 PM",
+      "bio": "Council Member Karl Buelow is currently serving his second term on the Oshkosh Common Council, holding positions on the Diversity, Equity, and Inclusion Committee, the Plan Commission, and the Oshkosh Metropolitan Planning Organization. He has dedicated his career to hospitality and community service, working with various organizations and now serving as Director of Development at The Grand Oshkosh. Karl focuses on listening, inclusion, and collaboration to strengthen the Oshkosh community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:oshkosh:mayor:matt-mugerauer",
+      "name": "Matt Mugerauer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Oshkosh City Council",
+      "district": null,
+      "phone": "920-216-4947",
+      "email": "mmugerauer@oshkoshwi.gov",
+      "url": "https://www.oshkoshwi.gov/CityCouncil/CouncilMember/13",
+      "photo_url": "https://www.oshkoshwi.gov/Resources/images/CouncilMembers/mugerauer.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Matt is currently serving his fifth term on the Oshkosh Common Council, having been elected as a Council Member in 2018, elected Mayor in 2023 and re-elected in 2025. He is a lifelong resident of Oshkosh, where he and his wife Lindsey are raising three children, and he believes the community is a great place to raise a family. He graduated from Oshkosh West High School and attended the University of Wisconsin Oshkosh.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Oshkosh",
+        "state": "WI"
+      },
+      "source_url": "https://www.oshkoshwi.gov/CityCouncil/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

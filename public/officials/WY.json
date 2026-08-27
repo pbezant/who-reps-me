@@ -1,11 +1,43 @@
 {
   "state": "WY",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 11,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 12,
   "cities": [
+    "Cheyenne",
     "Natrona County"
   ],
   "officials": [
+    {
+      "id": "wy:cheyenne:mayor:patrick-collins",
+      "name": "Patrick Collins",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Cheyenne City Council",
+      "district": null,
+      "phone": "307-637-6300",
+      "email": "mayor@cheyennecity.org",
+      "url": "https://www.cheyennecity.org/Your-Government/Mayor",
+      "photo_url": "https://www.cheyennecity.org/files/assets/public/v/1/templateimages/mayor-patrick-collins-headshot.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2101 O'Neil Ave.\nCheyenne, WY 82001",
+      "offices": [],
+      "hours": "8:00 am - 5:00 pm MST Monday - Friday",
+      "bio": "Patrick Collins was sworn in as Cheyenne's Mayor on January 4, 2021. Prior to that, Collins found a calling in civil service and was elected to the Cheyenne City Council in 2000. During that time, he served three terms and was elected as council president four times.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Cheyenne",
+        "state": "WY"
+      },
+      "source_url": "https://www.cheyennecity.org/Your-Government/Mayor?lang_update=639232939511886276",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
     {
       "id": "wy:natrona-county:assessor:tammy-saulsbury",
       "name": "Tammy Saulsbury",

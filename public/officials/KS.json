@@ -1,14 +1,170 @@
 {
   "state": "KS",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 37,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 42,
   "cities": [
+    "Butler County",
     "Kansas City",
     "Leavenworth County",
     "Wichita",
     "Wyandotte County"
   ],
   "officials": [
+    {
+      "id": "ks:butler-county:county-commissioner:dan-woydziak",
+      "name": "Dan Woydziak",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": "District 5",
+      "phone": "316-322-4300",
+      "email": null,
+      "url": "https://www.bucoks.gov/Directory.aspx?EID=6",
+      "photo_url": "https://www.bucoks.gov/ImageRepository/Document?documentID=9152",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 W Central Avenue\nEl Dorado, KS 67042",
+      "offices": [],
+      "hours": null,
+      "bio": "Dan Woydziak represents District 5 which encompasses the southwest corner of Butler County which include Pleasant, Walnut, Richland, Douglass and Bruno Townships. Some of the communities in District 5 include Rose Hill and Douglass. Commissioner Woydziak was re-elected November 2022 and sworn into office January 2023 for a four-year term that expires January 2027.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "KS"
+      },
+      "source_url": "https://www.bucoks.gov/120/Meet-the-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:butler-county:county-commissioner:darren-jackson",
+      "name": "Darren Jackson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": "District 4",
+      "phone": "316-322-4300",
+      "email": null,
+      "url": "https://www.bucoks.gov/Directory.aspx?EID=175",
+      "photo_url": "https://www.bucoks.gov/ImageRepository/Document?documentID=10636",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 W Central Avenue, El Dorado, KS 67042",
+      "offices": [],
+      "hours": null,
+      "bio": "Darren Jackson represents District 4 which encompasses the entire eastern half of Butler County. He was elected November 2022 and sworn into office January 2023 for a four-year term expiring January 2027.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "KS"
+      },
+      "source_url": "https://www.bucoks.gov/120/Meet-the-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:butler-county:county-commissioner:jeff-masterson",
+      "name": "Jeff Masterson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": "District 1",
+      "phone": "316-322-4300",
+      "email": null,
+      "url": "https://www.bucoks.gov/Directory.aspx?EID=2",
+      "photo_url": "https://www.bucoks.gov/ImageRepository/Document?documentID=9149",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jeff Masterson represents District 1 which includes Benton and Bruno townships on the western edge of Butler County. Some of the communities within his district are Andover and Benton. Commissioner Masterson was re-elected November 2022 and sworn into office January 2023 for a four-year term expiring January 2027.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "KS"
+      },
+      "source_url": "https://www.bucoks.gov/120/Meet-the-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:butler-county:county-commissioner:kelly-herzet",
+      "name": "Kelly Herzet",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": "District 3 2026 Vice Chair",
+      "phone": "316-322-4300",
+      "email": null,
+      "url": "https://www.bucoks.gov/Directory.aspx?EID=171",
+      "photo_url": "https://www.bucoks.gov/ImageRepository/Document?documentID=9148",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 W Central Avenue\nEl Dorado, KS 67042",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Kelly Herzet represents District 3 of Butler County, elected in November 2020 and again in 2024 for a term expiring January 2029. He retired from the Butler County Sheriff's Office after 33 years of service and has been active with Flinthills Services Inc. and CASA. Commissioner Herzet has two grown children, three grandsons, and resides in Potwin.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "KS"
+      },
+      "source_url": "https://www.bucoks.gov/120/Meet-the-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:butler-county:county-commissioner:marc-murphy",
+      "name": "Marc Murphy",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Butler County Commissioners Court",
+      "district": "District 2 2026 Chair",
+      "phone": "316-322-4300",
+      "email": null,
+      "url": "https://www.bucoks.gov/Directory.aspx?EID=124",
+      "photo_url": "https://www.bucoks.gov/ImageRepository/Document?documentID=9150",
+      "social": {
+        "twitter": "https://www.bucoks.gov/twitter",
+        "facebook": "https://www.bucoks.gov/facebook",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Marc Murphy represents District 2, covering the City of Augusta and several townships. He was elected in November 2016, 2020, and 2024, and is sworn in for a term expiring January 2029. A lifelong resident of Augusta, Commissioner Murphy is a local small business owner, a graduate of Butler County Community College and Wichita State University, and has three children with his wife.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Butler County",
+        "state": "KS"
+      },
+      "source_url": "https://www.bucoks.gov/120/Meet-the-Commissioners",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
     {
       "id": "ks:kansas-city:1st-district-commissioner:jermaine-howard",
       "name": "Jermaine Howard",

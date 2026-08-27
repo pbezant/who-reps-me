@@ -1,8 +1,9 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-26T04:58:35.496Z",
-  "count": 83,
+  "generated_at": "2026-08-27T06:19:49.346Z",
+  "count": 91,
   "cities": [
+    "Allegany County",
     "Anne Arundel County",
     "Calvert County",
     "Carroll County",
@@ -12,10 +13,42 @@
     "Harford County",
     "Howard County",
     "Montgomery County",
+    "Rockville",
     "Washington County",
     "Wicomico County"
   ],
   "officials": [
+    {
+      "id": "md:allegany-county:sheriff:craig-robertson",
+      "name": "Craig Robertson",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Allegany County Commissioners Court",
+      "district": null,
+      "phone": "301-777-2526",
+      "email": null,
+      "url": "https://alleganygov.org/1604/Sheriff-Craig-Robertson",
+      "photo_url": "https://alleganygov.org/ImageRepository/Document?documentID=4162",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "701 Kelly Road\nCumberland, MD 21502",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Craig A. Robertson was born in Frostburg, Maryland, and graduated from Allegany College of Maryland in Criminal Justice. A 30-year veteran of law enforcement, he was elected Sheriff in 2010 after serving in various roles with the Cumberland City Police and the Sheriff's Office. He is a graduate of the FBI National Academy on Leadership and Management.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Allegany County",
+        "state": "MD"
+      },
+      "source_url": "https://alleganygov.org/385/Quick-Government-Facts",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
     {
       "id": "md:anne-arundel-county:clerk-of-the-court:scott-poyer",
       "name": "Scott Poyer",
@@ -2120,7 +2153,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 0.9
     },
     {
@@ -2151,7 +2184,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 0.9
     },
     {
@@ -2213,7 +2246,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-27T06:19:49.346Z",
       "confidence": 0.9
     },
     {
@@ -2245,6 +2278,223 @@
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:adam-van-grack",
+      "name": "Adam Van Grack",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8292",
+      "email": "avangrack@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/adam-van-grack/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/adam-van-grack.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Adam Van Grack is a councilmember for the City of Rockville. He is liaison to the Environment Commission, Recreation and Park Advisory Board, and Rockville Sister Cities Corporation. He also serves as Rockville’s representative to the Metropolitan Washington Council of Government’s Chesapeake Bay and Water Resources Policy Committee and is co-chair of the Bar Association of Montgomery County Legal Ethics Committee.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:barry-jackson",
+      "name": "Barry Jackson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8295",
+      "email": "bjackson@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/barry-jackson/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/barry-jackson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Barry Jackson is a councilmember in the City of Rockville. He is a liaison to the Commission on Aging, the Financial Advisory Board and a voting member of the Retirement Board.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:david-myles",
+      "name": "David Myles",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8294",
+      "email": "dmyles@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/david-myles/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/david-myles.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "David Myles, first elected in 2019 and re-elected in 2023, is serving his second term as a Rockville councilmember. He completed his pediatrics medical training in Baltimore, at Johns Hopkins Hospital. Myles first moved to Maryland in 2010, following medical and graduate school at Yale University, and is a proud Morehouse College alumnus.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:izola-(zola)-shaw",
+      "name": "Izola (Zola) Shaw",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8297",
+      "email": "ishaw@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/izola-shaw/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/izola-shaw.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Izola (Zola) Shaw is a councilmember for the City of Rockville. She is liaison to the Human Rights Commission, Rockville Housing Enterprises and the Metropolitan Washington Council of Governments’ Region Forward Coalition. Shaw has served on several Montgomery County and city boards and committees, including the Charter Review Commission.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:kate-fulton",
+      "name": "Kate Fulton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8293",
+      "email": "kfulton@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/kate-fulton/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/kate-fulton.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Kate Fulton was elected in November 2023 and is serving her first term as a Rockville councilmember. She has over 20 years of professional experience making government work efficiently and effectively, having served in various roles at four federal agencies including senior counsel, chief of staff, and chief operating officer.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:council-member:marissa-valeri",
+      "name": "Marissa Valeri",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8296",
+      "email": "mvaleri@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/marissa-valeri/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/marissa-valeri.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Marissa Valeri was born and raised in Wheaton, Montgomery County, and has lived in Rockville for 13 years. She graduated from the University of Maryland Global Campus and has 27 years of professional experience in the nonprofit sector, focusing on health-care access and physician membership associations.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:rockville:mayor:monique-ashton",
+      "name": "Monique Ashton",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rockville City Council",
+      "district": null,
+      "phone": "240-314-8291",
+      "email": "mashton@rockvillemd.gov",
+      "url": "https://www.rockvillemd.gov/government/mayor-and-council/monique-ashton/",
+      "photo_url": "https://www.rockvillemd.gov/wp-content/uploads/2025/09/monique-ashton.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Mayor and Council Chambers Rockville City Hall 111 Maryland Ave. Rockville, MD 20850",
+      "offices": [],
+      "hours": null,
+      "bio": "Monique Ashton is mayor of the City of Rockville and is the first mayor of color in the city’s history. She is also president of the Montgomery Chapter of the Maryland Municipal League and District 5 vice president at the state level.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Rockville",
+        "state": "MD"
+      },
+      "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

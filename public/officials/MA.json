@@ -1,15 +1,18 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 88,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 111,
   "cities": [
     "Boston",
     "Cambridge",
     "Framingham",
+    "Haverhill",
     "Lowell",
+    "Malden",
     "Norfolk County",
     "Quincy",
     "Somerville",
+    "Waltham",
     "Worcester"
   ],
   "officials": [
@@ -1087,6 +1090,130 @@
       "confidence": 1
     },
     {
+      "id": "ma:haverhill:license-commission-clerk:nicholas-k.-flynn",
+      "name": "Nicholas K. Flynn",
+      "office": "License Commission Clerk",
+      "level": "local",
+      "body": "Haverhill City Council",
+      "district": null,
+      "phone": "978-420-3630",
+      "email": "nflynn@haverhillma.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 118 4 Summer Street Haverhill, MA 01830",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haverhill",
+        "state": "MA"
+      },
+      "source_url": "https://www.haverhillma.gov/government/boards-committees-and-commissions/license-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:haverhill:license-commissioner,-chairperson:elizabeth-a.-laliberty",
+      "name": "Elizabeth A. Laliberty",
+      "office": "License Commissioner, Chairperson",
+      "level": "local",
+      "body": "Haverhill City Council",
+      "district": null,
+      "phone": "978-420-3630",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 118 4 Summer Street Haverhill, MA 01830",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haverhill",
+        "state": "MA"
+      },
+      "source_url": "https://www.haverhillma.gov/government/boards-committees-and-commissions/license-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ma:haverhill:license-commissioner:linda-l.-koutoulas",
+      "name": "Linda L. Koutoulas",
+      "office": "License Commissioner",
+      "level": "local",
+      "body": "Haverhill City Council",
+      "district": null,
+      "phone": "978-420-3630",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 118 4 Summer Street Haverhill, MA 01830",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haverhill",
+        "state": "MA"
+      },
+      "source_url": "https://www.haverhillma.gov/government/boards-committees-and-commissions/license-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ma:haverhill:license-commissioner:patrick-j.-driscoll",
+      "name": "Patrick J. Driscoll",
+      "office": "License Commissioner",
+      "level": "local",
+      "body": "Haverhill City Council",
+      "district": null,
+      "phone": "978-420-3630",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall, Room 118 4 Summer Street Haverhill, MA 01830",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haverhill",
+        "state": "MA"
+      },
+      "source_url": "https://www.haverhillma.gov/government/boards-committees-and-commissions/license-commission/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 0.9
+    },
+    {
       "id": "ma:lowell:city-councilor-at-large:erik-gitschier",
       "name": "Erik Gitschier",
       "office": "City Councilor At Large",
@@ -1425,6 +1552,130 @@
       },
       "source_url": "https://www.lowellma.gov/27/Government",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:malden:chief-of-police:glenn-cronin",
+      "name": "Glenn Cronin",
+      "office": "Chief of Police",
+      "level": "local",
+      "body": "Malden City Council",
+      "district": null,
+      "phone": "781-397-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Pleasant Street Malden, MA 02148",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Malden",
+        "state": "MA"
+      },
+      "source_url": "https://www.cityofmalden.org/m/newsflash/home/detail/1189",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:malden:chief-of-police:marc-gatcomb",
+      "name": "Marc Gatcomb",
+      "office": "Chief of Police",
+      "level": "local",
+      "body": "Malden City Council",
+      "district": null,
+      "phone": "781-397-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Pleasant Street Malden, MA 02148",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Malden",
+        "state": "MA"
+      },
+      "source_url": "https://www.cityofmalden.org/m/newsflash/home/detail/1189",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:malden:city-council-president:amanda-linehan",
+      "name": "Amanda Linehan",
+      "office": "City Council President",
+      "level": "local",
+      "body": "Malden City Council",
+      "district": null,
+      "phone": "781-397-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Pleasant Street Malden, MA 02148",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Malden",
+        "state": "MA"
+      },
+      "source_url": "https://www.cityofmalden.org/m/newsflash/home/detail/1189",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:malden:mayor:gary-christenson",
+      "name": "Gary Christenson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Malden City Council",
+      "district": null,
+      "phone": "781-397-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "215 Pleasant Street Malden, MA 02148",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Malden",
+        "state": "MA"
+      },
+      "source_url": "https://www.cityofmalden.org/m/newsflash/home/detail/1189",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {
@@ -2169,6 +2420,471 @@
       },
       "source_url": "https://www.somervillema.gov/departments/city-council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large,-council-vice-president:randall-j.-leblanc",
+      "name": "Randall J. LeBlanc",
+      "office": "Councillor At Large, Council Vice President",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "781-373-2465",
+      "email": "rleblanc@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large:carlos-a.-vidal",
+      "name": "Carlos A. Vidal",
+      "office": "Councillor At Large",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "781-899-2282",
+      "email": "cvidal@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large:colleen-bradley-macarthur",
+      "name": "Colleen Bradley-MacArthur",
+      "office": "Councillor At Large",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "781-330-0523",
+      "email": "cbmacarthur@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large:emma-tzioumis",
+      "name": "Emma Tzioumis",
+      "office": "Councillor At Large",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "781-330-0442",
+      "email": "etzioumis@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large:paul-j.-brasco",
+      "name": "Paul J. Brasco",
+      "office": "Councillor At Large",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "781-893-6260",
+      "email": "pbrasco@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:councillor-at-large:tim-king",
+      "name": "Tim King",
+      "office": "Councillor At Large",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": null,
+      "phone": "617-600-8955",
+      "email": "tking@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor,-council-president:robert-g.-logan",
+      "name": "Robert G. Logan",
+      "office": "Ward Councillor, Council President",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Nine",
+      "phone": "781-893-3572",
+      "email": "rlogan@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:anthony-lafauci",
+      "name": "Anthony LaFauci",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward One",
+      "phone": "781-609-2777",
+      "email": "alafauci@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:bill-hanley",
+      "name": "Bill Hanley",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Three",
+      "phone": "617-594-2188",
+      "email": "whanley@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:caren-dunn",
+      "name": "Caren Dunn",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Two",
+      "phone": "781-290-9431",
+      "email": "cdunn@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:cathyann-harris",
+      "name": "Cathyann Harris",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Eight",
+      "phone": "781-697-4560",
+      "email": "charris@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:john-j.-mclaughlin",
+      "name": "John J. McLaughlin",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Four",
+      "phone": "781-891-6486",
+      "email": "jmclaughlin@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:joseph-p.-lacava",
+      "name": "Joseph P. LaCava",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Five",
+      "phone": "781-736-7836",
+      "email": "jlacava@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:paul-s.-katz",
+      "name": "Paul S. Katz",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Seven",
+      "phone": "781-606-7579",
+      "email": "pkatz@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:waltham:ward-councillor:sean-durkee",
+      "name": "Sean Durkee",
+      "office": "Ward Councillor",
+      "level": "local",
+      "body": "Waltham City Council",
+      "district": "Ward Six",
+      "phone": "781-974-4971",
+      "email": "sdurkee@city.waltham.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "610 Main Street, Waltham, MA 02452",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waltham",
+        "state": "MA"
+      },
+      "source_url": "https://www.city.waltham.ma.us/1341/City-Council",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     },
     {

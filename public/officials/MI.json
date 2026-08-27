@@ -1,7 +1,7 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 140,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 169,
   "cities": [
     "Ann Arbor",
     "Berrien County",
@@ -9,6 +9,7 @@
     "Eaton County",
     "Grand Rapids",
     "Ingham County",
+    "Isabella County",
     "Kalamazoo",
     "Kalamazoo County",
     "Kent County",
@@ -16,7 +17,10 @@
     "Macomb County",
     "Marquette",
     "Monroe County",
+    "Novi",
+    "Pontiac",
     "Rochester Hills",
+    "Shiawassee County",
     "St. Clair County",
     "Troy",
     "Wyoming"
@@ -2103,6 +2107,223 @@
       "confidence": 0.9
     },
     {
+      "id": "mi:isabella-county:board-of-commissioners:bob-campbell",
+      "name": "Bob Campbell",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 2",
+      "phone": "989-289-6937",
+      "email": "bcampbell@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2020/01/Bob-Campbell-Photo-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:frank-engler",
+      "name": "Frank Engler",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 4",
+      "phone": "989-330-4501",
+      "email": "fengler@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2019/02/Commissioner-Frank-Engler-min.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:james-s.-moreno",
+      "name": "James S. Moreno",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 5",
+      "phone": "989-954-5144",
+      "email": "jmoreno@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2019/02/Commissioner-James-Moreno-min.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:jerry-jaloszynski",
+      "name": "Jerry Jaloszynski",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 3",
+      "phone": "989-330-4890",
+      "email": "jjaloszynski@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2019/02/Commissioner-Jerry-Jaloszynksi-min.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:steve-swaney",
+      "name": "Steve Swaney",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 6",
+      "phone": "734-276-8009",
+      "email": "sswaney@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2019/02/steve-swaney-commissioner-min.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:steven-g.-weber",
+      "name": "Steven G. Weber",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 1",
+      "phone": "989-330-3075",
+      "email": "sweber@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2020/01/Steve-Weber-Photo-1-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:isabella-county:board-of-commissioners:tobin-hope",
+      "name": "Tobin Hope",
+      "office": "Board of Commissioners",
+      "level": "county",
+      "body": "Isabella County Commissioners Court",
+      "district": "District 7",
+      "phone": "989-330-3792",
+      "email": "thope@isabellacounty.org",
+      "url": null,
+      "photo_url": "https://www.isabellacounty.org/wp-content/uploads/2019/02/Commissioner-Tobin-Hope-min.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N. Main Street, Suite 205, Mt. Pleasant, MI 48858",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Isabella County",
+        "state": "MI"
+      },
+      "source_url": "https://www.isabellacounty.org/boards-commissions-committees/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "mi:kalamazoo-county:commissioner,-chair:jen-strebs",
       "name": "Jen Strebs",
       "office": "Commissioner, Chair",
@@ -3560,6 +3781,471 @@
       "confidence": 1
     },
     {
+      "id": "mi:novi:council-member:aaron-martinez",
+      "name": "Aaron Martinez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/izbbncle/aaron-martinez.png?rmode=max&amp;width=201&amp;height=198",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:council-member:brian-smith",
+      "name": "Brian Smith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/eapaslyb/portrait-smith.jpg?rmode=max&amp;width=150&amp;height=225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:council-member:david-staudt",
+      "name": "David Staudt",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/xgfj2rqw/portrait-davidstaudt.jpg?rmode=max&amp;width=150&amp;height=225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:council-member:matt-heintz",
+      "name": "Matt Heintz",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/gomibbpf/heintz_matt2023.jpg?rmode=max&amp;width=129&amp;height=129",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:council-member:priya-gurumurthy",
+      "name": "Priya Gurumurthy",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/w2llbnon/priya_headshot.png?rmode=max&amp;width=169&amp;height=211",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:mayor-pro-tem:laura-marie-casey",
+      "name": "Laura Marie Casey",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/emnhdg0p/casey_laura2023.jpg?rmode=max&amp;width=125&amp;height=171",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:novi:mayor:justin-fischer",
+      "name": "Justin Fischer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Novi City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://cityofnovi.org/media/izyfuhff/portrait-fischer.jpg?rmode=max&amp;width=150&amp;height=225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Novi",
+        "state": "MI"
+      },
+      "source_url": "https://cityofnovi.org/government/city-council/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:austin",
+      "name": "Austin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "At Large",
+      "phone": "248-758-3018",
+      "email": "aaustin@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/at_large.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/adrianaustin%20-%20Copy.jpg?t=202601081010050",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman-at-Large Adrian Austin is a lifelong resident of Pontiac, Michigan, committed to serving his community with integrity, transparency, and innovative solutions. Professionally, he has distinguished himself as a two-term UAW Chairperson and Bargaining Representative, advocating for workers' rights and negotiating significant gains. Beyond his professional and political service, he is a founder of Operation Pontiac Pride, a community organization, and continues to lead with vision and dedication to Pontiac's citizens.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:campbell",
+      "name": "Campbell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 6",
+      "phone": "248-758-3019",
+      "email": "rcampbell@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/district_6.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/revize_photo_gallery/Government/City%20Council/District/reginacampbellnew.jpg?t=202601062039220",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Regina K. Campbell is the City Councilwoman for Pontiac’s District 6, committed to building trust through collaboration and advancing policies that strengthen neighborhoods, support local businesses, and promote equitable and sustainable growth. She brings over a decade of experience in construction, real estate, and community development, and is the founder of Ginasis Construction. Councilperson Campbell is deeply engaged in the community through volunteer service, youth mentorship, housing advocacy, and voting-rights initiatives.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:carrington",
+      "name": "Carrington",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 5",
+      "phone": "248-758-3014",
+      "email": "wcarrington@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/district_5.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/revize_photo_gallery/Government/City%20Council/District/williamcarrington.jpg?t=202601020850390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman William A. Carrington is a proven servant leader whose work is rooted in integrity, collaboration, and measurable results, deeply committed to strengthening Pontiac’s neighborhoods and improving the quality of life for all residents. Born in Knoxville, Tennessee, and raised in Flint, Michigan, he holds multiple degrees and serves as Data and Quality Manager for Wayne State University’s School of Medicine and an Adjunct Professor.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:goodman",
+      "name": "Goodman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 3",
+      "phone": "248-758-3015",
+      "email": "MGoodman@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/district_3.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/revize_photo_gallery/Government/City%20Council/District/mikalgoodman2026.jpg?t=202602241424510",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "47450 Woodward Avenue, Pontiac, Michigan 48342",
+      "offices": [],
+      "hours": "Monday - Friday 8 a.m. to 5 p.m.",
+      "bio": "Mikal Goodman is a lifelong Pontiac resident who grew up on the city's East Side. Since taking office in 2021, he has made housing justice his top priority, leading efforts to hold slumlords accountable and protect families from exploitation, and securing funds for homelessness prevention.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:jackson",
+      "name": "Jackson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 1",
+      "phone": "248-758-3017",
+      "email": "cjackson@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/district_1.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/chrisjackson%20-%20Copy.jpg?t=202601081011110",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Chris serves as the Director of Policy and Innovation for Honor Community Health and was previously the Executive Director for the Michigan Legislative Black Caucus. He is also an advocate in the Cannabis Industry, serving as Chairman of the Board for the National Cannabis Industry Association, and is the Team Market Owner of the Pontiac Pharaohs basketball team. Councilperson Jackson was elected to represent City Council District One in November 2025 to a four-year term expiring on January 1, 2030.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:james",
+      "name": "James",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 4",
+      "phone": "248-758-3016",
+      "email": "KJames@pontiac.mi.us",
+      "url": "https://www.pontiac.mi.us/government/city_council/district_4.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/revize_photo_gallery/Government/City%20Council/District/kathaleejames.jpg?t=202303090819330",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kathalee James retired from General Motors as a Senior Quality Engineer and holds a Bachelor of Arts degree from Oakland University. She was elected to represent City Council District Four in November 2025 to a four-year term expiring on January 1, 2030. She has affiliations with Eastside Church of God and was the Founder and President of Friends of the Pontiac Parks Association.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:council-member:jones",
+      "name": "Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": "District 2",
+      "phone": "248-758-3027",
+      "email": null,
+      "url": "https://www.pontiac.mi.us/government/city_council/district_2.php",
+      "photo_url": "https://www.pontiac.mi.us/government/city_council/milannajones081026.jpeg?t=202608100749130",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Milanna Jones is a dynamic and self-driven woman who has called Pontiac her home since 2017. Since moving to Pontiac, she has remained an active member in her community. Her mission has been to provide thoughtful and impactful leadership in her community and allocate her time and energy efficiently for the well-being and longevity of her community.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:pontiac:mayor:mayor-mcguinness",
+      "name": "Mayor McGuinness",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Pontiac City Council",
+      "district": null,
+      "phone": "248-758-3000",
+      "email": null,
+      "url": "https://www.pontiac.mi.us/government/mayor/index.php",
+      "photo_url": "https://www.pontiac.mi.us/government/mayor/Mayor%20McGuinness%20Headshot%20-%20Copy.jpg?t=202601060918010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "47450 Woodward Avenue, Pontiac, Michigan 48342",
+      "offices": [],
+      "hours": "Monday - Friday 8 a.m. to 5 p.m.",
+      "bio": "Happy 2026, Pontiac! It is my great honor to work for you as our municipality's Chief Executive Officer. We have a hardworking and dedicated team here at Pontiac City Hall. I'm grateful for the opportunity to work alongside them as we deliver results for Pontiac residents.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Pontiac",
+        "state": "MI"
+      },
+      "source_url": "https://www.pontiac.mi.us/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
       "id": "mi:rochester-hills:mayor:bryan-k.-barnett",
       "name": "Bryan K. Barnett",
       "office": "Mayor",
@@ -3589,6 +4275,223 @@
       "source_url": "https://www.rochesterhills.org/government/index.php",
       "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 0.9
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner---chairman:gregory-brodeur",
+      "name": "Gregory Brodeur",
+      "office": "County Commissioner - Chairman",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 2",
+      "phone": "989-413-0621",
+      "email": "gbrodeur@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner---vice-chairperson:cindy-l.-garber",
+      "name": "Cindy L. Garber",
+      "office": "County Commissioner - Vice Chairperson",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 6",
+      "phone": "989-627-2035",
+      "email": "cgarber@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner:bill-johnson",
+      "name": "Bill Johnson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 4",
+      "phone": "989-666-2501",
+      "email": "bjohnson@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner:brad-howard",
+      "name": "Brad Howard",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 5",
+      "phone": "989-277-5856",
+      "email": "bhoward@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI. 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner:gary-holzhausen",
+      "name": "Gary Holzhausen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 3",
+      "phone": "989-277-6699",
+      "email": "gholz63@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner:josh-haley",
+      "name": "Josh Haley",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 1",
+      "phone": "989-992-4698",
+      "email": "jhaley@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:shiawassee-county:county-commissioner:matthew-shepard",
+      "name": "Matthew Shepard",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Shiawassee County Commissioners Court",
+      "district": "District 7",
+      "phone": "989-413-9952",
+      "email": "mshepard@shiawassee.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 N. Shiawassee Street Corunna, MI 48817",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shiawassee County",
+        "state": "MI"
+      },
+      "source_url": "https://shiawassee.net/board-of-commissioners/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
     },
     {
       "id": "mi:st.-clair-county:board-of-commissioners:dave-vandenbossche",

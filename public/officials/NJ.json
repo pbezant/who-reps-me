@@ -1,7 +1,7 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 73,
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 79,
   "cities": [
     "Camden",
     "Cape May County",
@@ -14,7 +14,9 @@
     "Jersey City",
     "Newark",
     "Passaic",
-    "Paterson"
+    "Paterson",
+    "Salem County",
+    "Vineland"
   ],
   "officials": [
     {
@@ -2288,6 +2290,192 @@
       },
       "source_url": "https://www.patersonnj.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:salem-county:county-commissioner:daniel-timmerman",
+      "name": "Daniel Timmerman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Salem County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salem County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:salem-county:county-commissioner:ed-ramsay",
+      "name": "Ed Ramsay",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Salem County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salem County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:salem-county:county-commissioner:paul-collier",
+      "name": "Paul Collier",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Salem County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salem County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:salem-county:deputy-director:cordy-taylor",
+      "name": "Cordy Taylor",
+      "office": "Deputy Director",
+      "level": "county",
+      "body": "Salem County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salem County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:salem-county:director:ben-laury",
+      "name": "Ben Laury",
+      "office": "Director",
+      "level": "county",
+      "body": "Salem County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salem County",
+        "state": "NJ"
+      },
+      "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:vineland:mayor:anthony-fanucci",
+      "name": "Anthony Fanucci",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Vineland City Council",
+      "district": null,
+      "phone": "856-794-4011",
+      "email": "abroshchan@vinelandcity.org",
+      "url": "https://www.vinelandcity.org/mayors-office/",
+      "photo_url": "https://www.vinelandcity.org/wp-content/uploads/2022/06/Mayor-Fanucci-5.13.22-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "640 East Wood St, P.O. Box 1508, Vineland, NJ 08362-1508",
+      "offices": [],
+      "hours": null,
+      "bio": "Anthony R. Fanucci is serving his third term as Mayor of the City of Vineland, having been re-elected in November of 2020, and 2024. He previously served one term as City Council President and is also a former two-term member of the Vineland Board of Education. Mr. Fanucci owns and operates A.R. Fanucci Insurance and A.R. Fanucci Real Estate.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Vineland",
+        "state": "NJ"
+      },
+      "source_url": "https://www.vinelandcity.org/mayors-office/",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
     }
   ]
