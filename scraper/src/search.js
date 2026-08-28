@@ -15,10 +15,30 @@
 // can never fix on its own: a city whose domain changed since the model's cutoff.
 //
 // Config:
-//   SEARCH_PRESET   brave | google | tavily      (default: brave)
-//   SEARCH_API_KEY  provider key
-//   SEARCH_CX       Google's Programmable Search Engine id (the "cx" param) — brave/tavily don't
-//                   need a second id, so this is ignored for those presets.
+//   SEARCH_PRESET       brave | google | tavily  (default: brave) — used for every search except
+//                       news (jurisdiction/roster discovery in discover.js).
+//   SEARCH_PRESET_NEWS  brave | google | tavily  (default: whatever SEARCH_PRESET resolves to) —
+//                       used only for `topic: "news"` searches, i.e. rep-news.mjs's profile-page
+//                       section. Lets one provider serve what it's actually good at without
+//                       forcing the other path onto it: Brave indexes the general web and honors
+//                       search operators (findRosterPage() issues `site:<domain> ...` queries),
+//                       while Tavily has a first-class news topic and returns LLM-shaped
+//                       title/content pairs. See "Two providers at once" below.
+//   <PRESET>_API_KEY    per-provider key: BRAVE_API_KEY / TAVILY_API_KEY / GOOGLE_API_KEY. Needed
+//                       only when running two providers at once, since SEARCH_API_KEY alone can't
+//                       hold two keys.
+//   SEARCH_API_KEY      provider key, used for any preset with no <PRESET>_API_KEY set. Still the
+//                       whole configuration for a single-provider setup.
+//   SEARCH_CX           Google's Programmable Search Engine id (the "cx" param) — brave/tavily
+//                       don't need a second id, so this is ignored for those presets.
+//
+// Two providers at once: set SEARCH_PRESET=brave + SEARCH_PRESET_NEWS=tavily and give each its
+// own BRAVE_API_KEY/TAVILY_API_KEY. Both keys must be set wherever a search actually runs — that
+// is BOTH Netlify (rep-news.mjs does news; local-officials.mjs runs on-demand discovery) and the
+// run-daily workflow (phase 3's batch discovery). Nothing here fails over between providers: a
+// news search never silently falls back to Brave, since the whole point of routing is that the
+// news path gets Tavily's news topic. Each caller already treats a throw as "search isn't
+// available" and degrades to its non-search path.
 //
 // Bing isn't an option here at all: Microsoft fully retired every Bing Search API (Web, News,
 // Custom, ...) on 2025-08-11 — confirmed against learn.microsoft.com/en-us/lifecycle/
@@ -59,13 +79,28 @@ export const SEARCH_PRESETS = {
   },
 };
 
-export function resolveSearchConfig() {
-  const presetName = process.env.SEARCH_PRESET || "brave";
+// Which env var holds each preset's key when two providers run side by side. SEARCH_API_KEY stays
+// the fallback for every preset, so a single-provider setup needs none of these.
+const PRESET_KEY_ENV = { brave: "BRAVE_API_KEY", google: "GOOGLE_API_KEY", tavily: "TAVILY_API_KEY" };
+
+// `topic` is the same option callers already pass to webSearch() ("news" from rep-news.mjs, unset
+// everywhere else), so routing by purpose needs no call-site changes at all. SEARCH_PRESET_NEWS
+// deliberately falls back to SEARCH_PRESET rather than defaulting to tavily on its own: an
+// existing single-key deployment must keep behaving exactly as it did before routing existed,
+// rather than suddenly sending news to a provider it has no key for.
+export function resolveSearchConfig({ topic } = {}) {
+  const newsOverride = topic === "news" ? process.env.SEARCH_PRESET_NEWS : "";
+  const presetName = newsOverride || process.env.SEARCH_PRESET || "brave";
+  const presetEnv = newsOverride ? "SEARCH_PRESET_NEWS" : "SEARCH_PRESET";
   const preset = SEARCH_PRESETS[presetName];
   if (!preset) {
-    throw new Error(`Unknown SEARCH_PRESET "${presetName}". Options: ${Object.keys(SEARCH_PRESETS).join(", ")}`);
+    throw new Error(
+      `Unknown ${presetEnv} "${presetName}". Options: ${Object.keys(SEARCH_PRESETS).join(", ")}`
+    );
   }
-  return { presetName, preset, apiKey: process.env.SEARCH_API_KEY || "", cx: process.env.SEARCH_CX || "" };
+  const keyEnv = PRESET_KEY_ENV[presetName];
+  const apiKey = process.env[keyEnv] || process.env.SEARCH_API_KEY || "";
+  return { presetName, presetEnv, preset, apiKey, keyEnv, cx: process.env.SEARCH_CX || "" };
 }
 
 // Pure response -> {title, url, snippet}[] mappers, split out from the fetch calls below so they
@@ -154,16 +189,17 @@ export function resetSearchCallCount() {
 // this codebase wraps it in try/catch and treats any throw as "fall back to the non-search path",
 // so the distinction wouldn't be actionable anyway.
 //
-// `topic` is Tavily-specific ("news" biases results toward recent news coverage — see
-// netlify/functions/rep-news.mjs) and silently ignored by Brave/Google, which have no equivalent
-// concept — passing it with SEARCH_PRESET=brave/google is a no-op, not an error, so a caller
-// doesn't need to branch on which preset is active just to ask for news-flavored results.
+// `topic` does double duty. It selects the provider (topic "news" resolves SEARCH_PRESET_NEWS —
+// see resolveSearchConfig()), and it's passed through to Tavily, where "news" biases results
+// toward recent news coverage. Brave/Google have no equivalent concept and silently ignore it, so
+// a caller never has to branch on which preset is active just to ask for news-flavored results.
 export async function webSearch(query, { count = 5, topic } = {}) {
-  const cfg = resolveSearchConfig();
+  const cfg = resolveSearchConfig({ topic });
   if (!cfg.apiKey) {
     throw new Error(
-      "No search API key. Set SEARCH_API_KEY (and SEARCH_CX for SEARCH_PRESET=google) to enable " +
-        "the search fallback, or leave unset to skip it entirely — see scraper/README.md."
+      `No search API key for ${cfg.presetEnv}=${cfg.presetName}. Set ${cfg.keyEnv} or ` +
+        "SEARCH_API_KEY (and SEARCH_CX for the google preset) to enable this search, or leave " +
+        "unset to skip it entirely — see scraper/README.md."
     );
   }
   await throttle(cfg.preset.rps);

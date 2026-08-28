@@ -254,6 +254,15 @@ jobs:
           SCRAPER_REFRESH_DAYS: ${{ vars.SCRAPER_REFRESH_DAYS || '30' }}
         run: node scraper/src/run.js
 
+      # The only phase that searches the web (discoverJurisdictionSite()/findRosterPage() in
+      # discover.js) — the other phases never call webSearch(), so the search key belongs here
+      # and nowhere else in this workflow. Brave rather than Tavily on purpose: this path issues
+      # `site:<domain> ...` operator queries against the general web index, which is what Brave
+      # is good at, while Tavily is reserved for the profile page's news search (that runs in
+      # Netlify, not here — see scraper/src/search.js's header comment on the split).
+      # Entirely optional, exactly as before: with no key set, webSearch() throws, both callers
+      # catch it, and discovery degrades to LLM-recall-only + a plain crawl. SEARCH_API_KEY is
+      # accepted as a fallback so an existing single-key secret keeps working.
       - name: "Phase 3: discover"
         env:
           LLM_PRESET: ${{ inputs.provider || vars.LLM_PRESET || 'gemini' }}
@@ -262,6 +271,9 @@ jobs:
           SCRAPER_BROWSER: ${{ vars.SCRAPER_BROWSER }}
           DISCOVER_STATES: ${{ inputs.states || vars.DISCOVER_STATES }}
           DISCOVER_BUDGET: ${{ inputs.discover_budget || vars.DISCOVER_BUDGET }}
+          SEARCH_PRESET: ${{ vars.SEARCH_PRESET || 'brave' }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          SEARCH_API_KEY: ${{ secrets.SEARCH_API_KEY }}
         run: node scraper/src/discover-jurisdictions.js
 
       - name: "Phase 4: QA check"
