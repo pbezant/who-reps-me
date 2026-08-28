@@ -1,10 +1,11 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 53,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 54,
   "cities": [
     "Cache County",
     "Herriman",
+    "Logan",
     "Millcreek",
     "Orem",
     "Salt Lake County",
@@ -384,6 +385,37 @@
       },
       "source_url": "https://www.herriman.gov/city-council",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:logan:division-superintendent:dan-blakely",
+      "name": "Dan Blakely",
+      "office": "Division Superintendent",
+      "level": "local",
+      "body": "Logan City Council",
+      "district": null,
+      "phone": "435-716-9247",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Logan Community Recreation Center 195 S 100 W Logan, UT 84321",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Logan",
+        "state": "UT"
+      },
+      "source_url": "https://www.loganutah.gov/government/departments/parks_and_recreation/recreation_division/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

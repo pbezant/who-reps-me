@@ -1,9 +1,11 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 197,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 208,
   "cities": [
     "Albany",
+    "Brookhaven",
+    "Camden County",
     "Carroll County",
     "Chatham County",
     "Cobb County",
@@ -15,6 +17,7 @@
     "Effingham County",
     "Floyd County",
     "Fulton County",
+    "Gordon County",
     "Gwinnett County",
     "Hall County",
     "Houston County",
@@ -248,6 +251,192 @@
       },
       "source_url": "https://www.albanyga.gov/Home",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:brookhaven:council-representative:conor-sen",
+      "name": "Conor Sen",
+      "office": "Council Representative",
+      "level": "local",
+      "body": "Brookhaven City Council",
+      "district": "District 2",
+      "phone": "404-637-0714",
+      "email": "conorsen@gmail.com",
+      "url": "https://www.brookhavenga.gov/m/directory/employee?eid=90",
+      "photo_url": "https://www.brookhavenga.gov/ImageRepository/Document?documentID=3916",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4001 Peachtree Road NE\nBrookhaven, GA 30319",
+      "offices": [],
+      "hours": null,
+      "bio": "Conor Sen was appointed to serve as Brookhaven's District 2 Council Member. He has served on Brookhaven's Planning Commission for 10 years, including two as Chair, and was a member of the City's 2022 Charter Review Commission. Sen is the founder of Peachtree Creek Investments and a former Bloomberg Opinion columnist.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Brookhaven",
+        "state": "GA"
+      },
+      "source_url": "https://www.brookhavenga.gov/m/directory/department?did=38",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:brookhaven:council-representative:john-j.-funny",
+      "name": "John J. Funny",
+      "office": "Council Representative",
+      "level": "local",
+      "body": "Brookhaven City Council",
+      "district": "District 4",
+      "phone": "404-637-0718",
+      "email": "John.Funny@BrookhavenGA.gov",
+      "url": "https://www.brookhavenga.gov/m/directory/employee?eid=92",
+      "photo_url": "https://www.brookhavenga.gov/ImageRepository/Document?documentID=1620",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A Brookhaven resident since 2010, District 4 Councilman John J. Funny and Mayor Pro Tempore was elected in November 2021 and sworn into office on January 4, 2022. He was subsequently re-elected in 2026 to serve another four-year term. Councilman Funny is also the President and CEO of Grice Consulting Group, an internationally recognized city/urban planning, traffic engineering, and transportation engineering consulting firm.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Brookhaven",
+        "state": "GA"
+      },
+      "source_url": "https://www.brookhavenga.gov/m/directory/department?did=38",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:brookhaven:council-representative:madeleine-simmons",
+      "name": "Madeleine Simmons",
+      "office": "Council Representative",
+      "level": "local",
+      "body": "Brookhaven City Council",
+      "district": "District 3",
+      "phone": "404-637-0716",
+      "email": "Madeleine.Simmons@BrookhavenGA.gov",
+      "url": "https://www.brookhavenga.gov/m/directory/employee?eid=91",
+      "photo_url": "https://www.brookhavenga.gov/ImageRepository/Document?documentID=3726",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Madeleine Simmons was elected in November 2019 to represent District 3 and was re-elected unopposed in November 2023. As Councilwoman, she has championed initiatives such as gaining ownership of Brookhaven Park, building Langford Park, and leading on mental health crisis intervention funding. She is also an equity partner at Stewart Miller Simmons Trial Attorneys and President of the Georgia Trial Lawyers Association.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Brookhaven",
+        "state": "GA"
+      },
+      "source_url": "https://www.brookhavenga.gov/m/directory/department?did=38",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:brookhaven:council-representative:michael-diaz",
+      "name": "Michael Diaz",
+      "office": "Council Representative",
+      "level": "local",
+      "body": "Brookhaven City Council",
+      "district": "District 1",
+      "phone": "404-637-0712",
+      "email": "Michael.Diaz@BrookhavenGA.gov",
+      "url": "https://www.brookhavenga.gov/m/directory/employee?eid=89",
+      "photo_url": "https://www.brookhavenga.gov/ImageRepository/Document?documentID=1616",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": "https://www.instagram.com/diazforbrookhaven/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Michael Diaz was elected to the City of Brookhaven City Council District 1 in December 2023 and was sworn into office on January 8, 2024, to serve a four-year term. He has been a dedicated member of the Brookhaven community since 2009, serving on the City's Planning Commission and the Peachtree Creek Greenway Board of Directors. Professionally, Michael is a Civil Engineer specializing in Water and Wastewater.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Brookhaven",
+        "state": "GA"
+      },
+      "source_url": "https://www.brookhavenga.gov/m/directory/department?did=38",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:brookhaven:mayor:john-park",
+      "name": "John Park",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Brookhaven City Council",
+      "district": null,
+      "phone": "404-637-0500",
+      "email": null,
+      "url": "https://www.brookhavenga.gov/m/directory/employee?eid=88",
+      "photo_url": "https://www.brookhavenga.gov/ImageRepository/Document?documentID=1613",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4001 Peachtree Road NE Brookhaven, GA 30319",
+      "offices": [],
+      "hours": null,
+      "bio": "After winning the general runoff election on December 4, 2023, Mayor John Park was sworn into office as Brookhaven's fourth mayor on January 8, 2024, to serve a four-year term. Mayor Park previously served as Brookhaven's District 2 Councilman beginning in November 2014 in a special election. In 2017 and 2021, then-Councilman Park was reelected for his second and third terms.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Brookhaven",
+        "state": "GA"
+      },
+      "source_url": "https://www.brookhavenga.gov/m/directory/department?did=38",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:camden-county:commissioner:robbie-cheek",
+      "name": "Robbie Cheek",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Camden County Commissioners Court",
+      "district": "District 1",
+      "phone": "912-674-3119",
+      "email": null,
+      "url": "https://www.camdencountyga.gov/130/District-1",
+      "photo_url": "https://www.camdencountyga.gov/ImageRepository/Document?documentID=17656",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 E 4th Street P.O. Box 99 Woodbine, GA 31569",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Camden County, District 1 Commissioner Robbie Cheek can trace his family roots back many generations. With deep ties to the community and a strong desire to help shape its future, Robbie is committed to ensuring Camden County remains a premier place for all citizens, both now and in the years ahead.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Camden County",
+        "state": "GA"
+      },
+      "source_url": "https://www.camdencountyga.gov/FormCenter/Contact-Us-4/Contact-the-District-1-Commissioner-79",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -3038,6 +3227,161 @@
       },
       "source_url": "https://www.fultoncountyga.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gordon-county:chair:m.l.-bud-owens",
+      "name": "M.L. Bud Owens",
+      "office": "Chair",
+      "level": "county",
+      "body": "Gordon County Commissioners Court",
+      "district": "District 1",
+      "phone": "706-629-3795",
+      "email": "bud.owens@gordoncountyga.gov",
+      "url": null,
+      "photo_url": "https://www.gordoncountyga.gov/ImageRepository/Document?documentID=800",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Wall Street, Calhoun, GA 30701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gordon County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gordoncountyga.gov/185/Board-of-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gordon-county:commissioner:chad-steward",
+      "name": "Chad Steward",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gordon County Commissioners Court",
+      "district": "District 2",
+      "phone": "706-629-3795",
+      "email": "chad.steward@gordoncountyga.gov",
+      "url": null,
+      "photo_url": "https://www.gordoncountyga.gov/ImageRepository/Document?documentID=801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Wall Street, Calhoun, GA 30701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gordon County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gordoncountyga.gov/185/Board-of-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gordon-county:commissioner:kurt-sutherland",
+      "name": "Kurt Sutherland",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gordon County Commissioners Court",
+      "district": "District 4",
+      "phone": "706-629-3795",
+      "email": "kurt.sutherland@gordoncountyga.gov",
+      "url": null,
+      "photo_url": "https://www.gordoncountyga.gov/ImageRepository/Document?documentID=803",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Wall Street, Calhoun, GA 30701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gordon County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gordoncountyga.gov/185/Board-of-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gordon-county:commissioner:randy-abernathy",
+      "name": "Randy Abernathy",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Gordon County Commissioners Court",
+      "district": "District 3",
+      "phone": "706-629-3795",
+      "email": "randy.abernathy@gordoncountyga.gov",
+      "url": null,
+      "photo_url": "https://www.gordoncountyga.gov/ImageRepository/Document?documentID=804",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Wall Street, Calhoun, GA 30701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gordon County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gordoncountyga.gov/185/Board-of-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gordon-county:vice-chair:kevin-cunningham",
+      "name": "Kevin Cunningham",
+      "office": "Vice-Chair",
+      "level": "county",
+      "body": "Gordon County Commissioners Court",
+      "district": "District 5",
+      "phone": "706-629-3795",
+      "email": "kevin.cunningham@gordoncountyga.gov",
+      "url": null,
+      "photo_url": "https://www.gordoncountyga.gov/ImageRepository/Document?documentID=802",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 North Wall Street, Calhoun, GA 30701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gordon County",
+        "state": "GA"
+      },
+      "source_url": "https://www.gordoncountyga.gov/185/Board-of-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

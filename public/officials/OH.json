@@ -1,7 +1,7 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 124,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 130,
   "cities": [
     "Akron",
     "Canton",
@@ -17,6 +17,8 @@
     "Parma",
     "Pickaway County",
     "Richland County",
+    "Sandusky County",
+    "Seneca County",
     "Summit County",
     "Toledo",
     "Tuscarawas County",
@@ -2719,6 +2721,192 @@
       },
       "source_url": "https://www.richlandcountyoh.gov/",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:sandusky-county:commissioner:justin-smith",
+      "name": "Justin Smith",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Sandusky County Commissioners Court",
+      "district": null,
+      "phone": "419-334-6100",
+      "email": "jsmith@sanduskycountyoh.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "622 Croghan Street Fremont, Ohio 43420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandusky County",
+        "state": "OH"
+      },
+      "source_url": "https://www.sanduskycountyoh.gov/index.php?page=commissioner-s-office",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:sandusky-county:commissioner:russ-zimmerman",
+      "name": "Russ Zimmerman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Sandusky County Commissioners Court",
+      "district": null,
+      "phone": "419-334-6100",
+      "email": "rzimmerman@sanduskycountyoh.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "622 Croghan Street Fremont, Ohio 43420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandusky County",
+        "state": "OH"
+      },
+      "source_url": "https://www.sanduskycountyoh.gov/index.php?page=commissioner-s-office",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:sandusky-county:commissioner:scott-miller",
+      "name": "Scott Miller",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Sandusky County Commissioners Court",
+      "district": null,
+      "phone": "419-334-6100",
+      "email": "smiller@sanduskycountyoh.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "622 Croghan Street Fremont, Ohio 43420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sandusky County",
+        "state": "OH"
+      },
+      "source_url": "https://www.sanduskycountyoh.gov/index.php?page=commissioner-s-office",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:seneca-county:commissioner:holly-stacy",
+      "name": "Holly Stacy",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Seneca County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seneca County",
+        "state": "OH"
+      },
+      "source_url": "https://senecacountyohio.gov/commissioners-remember-john-mccain/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:seneca-county:commissioner:mike-kerschner",
+      "name": "Mike Kerschner",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Seneca County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seneca County",
+        "state": "OH"
+      },
+      "source_url": "https://senecacountyohio.gov/commissioners-remember-john-mccain/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:seneca-county:commissioner:shayne-thomas",
+      "name": "Shayne Thomas",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Seneca County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seneca County",
+        "state": "OH"
+      },
+      "source_url": "https://senecacountyohio.gov/commissioners-remember-john-mccain/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

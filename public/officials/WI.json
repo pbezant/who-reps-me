@@ -1,8 +1,9 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 65,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 73,
   "cities": [
+    "Columbia County",
     "Dane County",
     "Eau Claire County",
     "Green Bay",
@@ -14,6 +15,264 @@
     "Waukesha County"
   ],
   "officials": [
+    {
+      "id": "wi:columbia-county:circuit-judge-branch-i:todd-hepler",
+      "name": "Todd Hepler",
+      "office": "Circuit Judge Branch I",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9619",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/Default.aspx?tabid=2128",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 587 Portage, WI 53901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:circuit-judge-branch-ii:w.-andrew-voigt",
+      "name": "W. Andrew Voigt",
+      "office": "Circuit Judge Branch II",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9653",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/Default.aspx?tabid=2159",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 587 Portage, WI 53901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:circuit-judge-branch-iii:roger-klopp",
+      "name": "Roger Klopp",
+      "office": "Circuit Judge Branch III",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9633",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/Default.aspx?tabid=2190",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 587 Portage, WI 53901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:clerk-of-circuit-court:julie-kayartz",
+      "name": "Julie Kayartz",
+      "office": "Clerk of Circuit Court",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9625",
+      "email": "julie.kayartz@wicourts.gov",
+      "url": "https://www.co.columbia.wi.us/columbiacounty/Default.aspx?tabid=2064",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 587 Portage, WI 53901",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:county-treasurer:stacy-opalewski",
+      "name": "Stacy Opalewski",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9613",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/treasurer/TreasurerHomePage/tabid/653/Default.aspx",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 198 Portage, WI 53901",
+      "offices": [],
+      "hours": "8:00 am - 4:30 pm\nMonday - Friday",
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:district-attorney:brenda-yaskal",
+      "name": "Brenda Yaskal",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9650",
+      "email": "ColumbiaDA@da.wi.gov",
+      "url": "https://www.co.columbia.wi.us/columbiacounty/da/DistrictAttorneyHomePage/tabid/1090/Default.aspx",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 DeWitt St. Portage, WI 53901",
+      "offices": [],
+      "hours": "8:00 a.m. - 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:register-of-deeds:christine-clark",
+      "name": "Christine Clark",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-9677",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/registerofdeeds/RegisterofDeedsHomePage/tabid/52/Default.aspx",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 E. Edgewater St. Portage, WI 53901",
+      "offices": [],
+      "hours": "8:00 a.m. - 4:30 p.m.\nGenealogy Search Hours 9:00 a.m. - 3:00 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:columbia-county:sheriff:roger-brandner",
+      "name": "Roger Brandner",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Columbia County Commissioners Court",
+      "district": null,
+      "phone": "608-742-4166",
+      "email": null,
+      "url": "https://www.co.columbia.wi.us/columbiacounty/sheriff/SheriffsOfficeHomePage/tabid/551/Default.aspx",
+      "photo_url": "https://www.co.columbia.wi.us/columbiacounty/Portals/11/images/Sheriff%20Brandner%20(2).jpg?ver=2022-07-17-160212-110",
+      "social": {
+        "twitter": "https://twitter.com/#!/COSOWI",
+        "facebook": "https://www.facebook.com/ColumbiaCountySheriffWI",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 132 Portage, WI 53901",
+      "offices": [
+        {
+          "classification": "facility",
+          "name": "County Jail",
+          "city": "Portage",
+          "address": "403 Jackson Street\nPortage, WI 53901",
+          "phone": "608-742-6476",
+          "fax": "(608) 745-4809",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "I am honored to serve as your Sheriff. I have worked for the Sheriff’s Office for over 30 years and am proud of the good men and women that serve with me.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Columbia County",
+        "state": "WI"
+      },
+      "source_url": "https://www.co.columbia.wi.us/columbiacounty/Government/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "wi:dane-county:clerk-of-the-courts:jeff-okazaki",
       "name": "Jeff Okazaki",

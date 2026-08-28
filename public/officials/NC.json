@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-27T06:19:49.346Z",
-  "count": 219,
+  "generated_at": "2026-08-28T07:15:56.557Z",
+  "count": 230,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -9,6 +9,7 @@
     "Buncombe County",
     "Carteret County",
     "Catawba County",
+    "Chapel Hill",
     "Charlotte",
     "Cleveland County",
     "Craven County",
@@ -24,6 +25,7 @@
     "Jacksonville",
     "Mecklenburg County",
     "Moore County",
+    "Mooresville",
     "Nash County",
     "New Hanover County",
     "Onslow County",
@@ -35,6 +37,7 @@
     "Rockingham County",
     "Rowan County",
     "Stanly County",
+    "Wake Forest",
     "Wayne County",
     "Wilkes County",
     "Wilmington"
@@ -770,6 +773,285 @@
       "confidence": 1
     },
     {
+      "id": "nc:chapel-hill:chapel-hill-mayor:jessica-anderson",
+      "name": "Jessica Anderson",
+      "office": "Chapel Hill Mayor",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/mayor-jess-anderson-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:amy-ryan",
+      "name": "Amy Ryan",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/260225_amy_ryan_02.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:elizabeth-sharp",
+      "name": "Elizabeth Sharp",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/260225_eliizabeth_sharp_04.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:louie-rivers-iii",
+      "name": "Louie Rivers III",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/louie-rivers-iii-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:melissa-mccullough",
+      "name": "Melissa McCullough",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/melissa-mccullough-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:paris-miller-foushee",
+      "name": "Paris Miller-Foushee",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/paris-miller-foushee-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:theodore-nollert",
+      "name": "Theodore Nollert",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/theodore-nollert-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:council-member:wes-mcmahon",
+      "name": "Wes McMahon",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/wes-mcmahon-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:chapel-hill:mayor-pro-tem:camille-berry",
+      "name": "Camille Berry",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Chapel Hill City Council",
+      "district": null,
+      "phone": "919-968-2743",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chapelhillnc.gov/files/assets/town/v/1/mayor-and-council/images/camille-berry-headshot.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "405 Martin Luther King Jr Blvd. Chapel Hill, NC 27514",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chapel Hill",
+        "state": "NC"
+      },
+      "source_url": "https://www.chapelhillnc.gov/Town-Government/Mayor-and-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:charlotte:city-attorney:andrea-leslie-fite",
       "name": "Andrea Leslie-Fite",
       "office": "City Attorney",
@@ -797,7 +1079,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -859,7 +1141,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -890,7 +1172,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -952,7 +1234,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -3952,6 +4234,37 @@
       "confidence": 1
     },
     {
+      "id": "nc:mooresville:mayor:chris-carney",
+      "name": "Chris Carney",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Mooresville City Council",
+      "district": null,
+      "phone": "704-799-4210",
+      "email": "ccarney@mooresvillenc.gov",
+      "url": null,
+      "photo_url": "https://www.mooresvillenc.gov/government/town_board/mayor_s_office/Site%20Images/Board/Carney1.png?t=202603041051500",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "413 North Main Street Mooresville, NC 28115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mooresville",
+        "state": "NC"
+      },
+      "source_url": "https://www.mooresvillenc.gov/government/town_board/mayor_s_office/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:nash-county:chairman,-commissioner:marvin-c.-arrington",
       "name": "Marvin C. Arrington",
       "office": "Chairman, Commissioner",
@@ -6201,6 +6514,37 @@
       },
       "source_url": "https://www.stanlycountync.gov/162/County-Commissioners",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:wake-forest:mayor:ben-clapsaddle",
+      "name": "Ben Clapsaddle",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Wake Forest City Council",
+      "district": null,
+      "phone": "919-805-4551",
+      "email": "bclapsaddle@wakeforestnc.gov",
+      "url": "https://www.wakeforestnc.gov/mayor",
+      "photo_url": "https://www.wakeforestnc.gov/sites/default/files/uploads/2025/mayorclapsaddle_700x891.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Wake Forest Town Hall 301 S. Brooks St. Wake Forest, NC 27587",
+      "offices": [],
+      "hours": null,
+      "bio": "Ben Clapsaddle was sworn in as Mayor of the Town of Wake Forest on December 16, 2025, following dedicated service as a Wake Forest Town Commissioner from December 2023 to December 2025. After nearly 30 years of distinguished military service, Ben retired from the United States Army in September 2008 at the rank of Colonel. Following his military retirement, Ben continued his public service and leadership career as a Project Manager with Booz Allen Hamilton.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Wake Forest",
+        "state": "NC"
+      },
+      "source_url": "https://www.wakeforestnc.gov/mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

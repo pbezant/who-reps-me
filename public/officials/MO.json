@@ -1,8 +1,9 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 87,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 88,
   "cities": [
+    "Blue Springs",
     "Cass County",
     "Clay County",
     "Cole County",
@@ -16,6 +17,37 @@
     "St. Louis"
   ],
   "officials": [
+    {
+      "id": "mo:blue-springs:council-member:jeremy-rowan",
+      "name": "Jeremy Rowan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Blue Springs City Council",
+      "district": "District 3",
+      "phone": "816-622-4006",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Blue Springs",
+        "state": "MO"
+      },
+      "source_url": "https://www.bluespringsgov.com/1634/Economic-Development-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "mo:cass-county:north-commissioner:jeff-fletcher",
       "name": "Jeff Fletcher",

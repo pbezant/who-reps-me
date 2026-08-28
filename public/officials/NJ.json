@@ -1,7 +1,7 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 79,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 89,
   "cities": [
     "Camden",
     "Cape May County",
@@ -9,12 +9,14 @@
     "East Orange",
     "Essex County",
     "Gloucester County",
+    "Hoboken",
     "Hudson County",
     "Hunterdon County",
     "Jersey City",
     "Newark",
     "Passaic",
     "Paterson",
+    "Plainfield",
     "Salem County",
     "Vineland"
   ],
@@ -885,6 +887,285 @@
       },
       "source_url": "https://www.gloucestercountynj.gov/164/Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-at-large:caitlin-layson",
+      "name": "Caitlin Layson",
+      "office": "Council At-Large",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "At-Large",
+      "phone": "201-855-6771",
+      "email": "clayson@hobokennj.gov",
+      "url": "https://www.hobokennj.gov/members/caitlin-layson",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Caitlin Layson Namin is a lifelong Hoboken resident who grew up in the city’s 4th Ward. She has served in Hoboken public schools as a special education teacher for several years, working every day and advocating for students of all abilities. Her professional experience has shaped her understanding of the needs of working families, educators, longtime residents, and individuals who are often underserved.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-at-large:joseph-quintero",
+      "name": "Joseph Quintero",
+      "office": "Council At-Large",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "At-Large",
+      "phone": "(201) 420-2000 X 2009",
+      "email": "councilmanquintero@gmail.com",
+      "url": "https://www.hobokennj.gov/members/joe-quintero",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Quintero was sworn in to the Hoboken City Council on January 1, 2022. A New Jersey native, Joe moved to Hoboken in 2006 to attend Fordham Law School in Manhattan. Joe has worked in banking/finance as a compliance officer since 2008 where he has focused on banking governance, ethics, and government interactions compliance.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-at-large:steve-firestone",
+      "name": "Steve Firestone",
+      "office": "Council At-Large",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "At-Large",
+      "phone": "201-736-8648",
+      "email": "sfirestone@hobokennj.gov",
+      "url": "https://www.hobokennj.gov/members/steve-firestone",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Steve Firestone was initially elected to the Hoboken City Council in 2025. He was born in Philadelphia, Pennsylvania and grew up in Princeton, New Jersey. Steve currently serves as the Chair of the Department of Business and as an Associate Teaching Professor of Finance at Drew University.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-member:diane-imus",
+      "name": "Diane Imus",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "6th Ward",
+      "phone": "551-999-0912",
+      "email": "dianeforhoboken6@gmail.com",
+      "url": "https://www.hobokennj.gov/members/diane-imus-2",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Diane Imus was elected as Hoboken City Council Sixth Ward representative in a special election to fill out the remaining two years of Councilwoman Jennifer Giattino’s term. Diane was born in Hoboken, lived in Guttenberg and then Lincroft, NewJersey. She moved back to Hoboken after graduating from Fordham University, with her husband Jay.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-member:michael-russo",
+      "name": "Michael Russo",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "3rd Ward",
+      "phone": "(201) 420-2000 X 2003",
+      "email": "councilmanrusso@gmail.com",
+      "url": "https://www.hobokennj.gov/members/michael-russo",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Michael Russo, DPT, the longest-serving Council member in Hoboken history, is proudly Hoboken born and raised. A graduate of Hoboken High, Michael earned his Bachelor of Science degree in Biology from Richard Stockton University, Master of Science degree in Physical Therapy from Rutgers University (formally UMDNJ) and Doctor of Physical Therapy degree from Utica College.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-member:paul-presinzano",
+      "name": "Paul Presinzano",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "1st Ward",
+      "phone": "(201) 420-2000 X 2001",
+      "email": "ppresinzano@hobokennj.gov",
+      "url": "https://www.hobokennj.gov/members/paul-presinzano",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Presinzano, a Hoboken resident since 1996, is committed to improving the quality of life for residents, focusing on wise tax spending, road safety, and public asset maintenance. With a 25-year career in finance and extensive community involvement, he brings a thoughtful approach to the City Council. He currently chairs the Parks and Recreation and Community Development (South) committees.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-member:tiffanie-fisher",
+      "name": "Tiffanie Fisher",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "2nd Ward",
+      "phone": "(201) 420-2000 X 2002",
+      "email": "hoboken2nd@gmail.com",
+      "url": "https://www.hobokennj.gov/members/tiffanie-fisher",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/tiffaniefisher/",
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Tiffanie Fisher was sworn in as the 2nd Ward Council person on January 1st, 2016. She has a 23-year career in commercial real estate finance, most recently as CFO of Brixmor Property Group. Her growing interest in public service led her to run for office in 2015.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-president:ruben-ramos-jr.",
+      "name": "Ruben Ramos Jr.",
+      "office": "Council President",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "4th Ward",
+      "phone": "(201) 420-2000 X 2004",
+      "email": "councilmanramos4@gmail.com",
+      "url": "https://www.hobokennj.gov/members/ruben-ramos-jr",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Ruben Ramos Jr. served as a New Jersey State Assemblyman from 2008 to 2014, where he was on the Appropriations and Education Committees. He currently works as an educator in Paterson and holds a B.A. in Political Science from Fairleigh Dickinson University. He is also a cancer survivor and resides in Hoboken with his family.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hoboken:council-vice-president:phil-cohen",
+      "name": "Phil Cohen",
+      "office": "Council Vice President",
+      "level": "local",
+      "body": "Hoboken City Council",
+      "district": "5th Ward",
+      "phone": "(201) 420-2000 X 2005",
+      "email": "pcohen@hobokennj.gov",
+      "url": "https://www.hobokennj.gov/members/phil-cohen",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "94 Washington St. Hoboken, NJ 07030",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Vice President Phil Cohen has proudly served as an elected member of the Hoboken City Council since 2020. Phil has lived in Hoboken for 39 years, moving to town after graduating from Tufts University to attend Rutgers Law School. Phil and his wife Rebecca Kramnick proudly raised their daughters, Madeline 29 and Anna 25, here in Hoboken.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Hoboken",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hobokennj.gov/departments/city-council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -2290,6 +2571,37 @@
       },
       "source_url": "https://www.patersonnj.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:plainfield:business-administrator:abby-levenson",
+      "name": "Abby Levenson",
+      "office": "Business Administrator",
+      "level": "local",
+      "body": "Plainfield City Council",
+      "district": null,
+      "phone": "908-753-3310",
+      "email": "abby.levenson@plainfieldnj.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Plainfield",
+        "state": "NJ"
+      },
+      "source_url": "https://www.plainfieldnj.gov/government/business_administrator.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

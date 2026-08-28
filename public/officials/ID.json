@@ -1,13 +1,14 @@
 {
   "state": "ID",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 49,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 56,
   "cities": [
     "Bannock County",
     "Boise City",
     "Bonneville County",
     "Caldwell",
     "Canyon County",
+    "Coeur d'Alene",
     "Idaho Falls",
     "Nampa"
   ],
@@ -1136,6 +1137,223 @@
       },
       "source_url": "https://www.canyoncounty.id.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:amy-evans",
+      "name": "Amy Evans",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:christie-wood",
+      "name": "Christie Wood",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:dan-english",
+      "name": "Dan English",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:dan-sheckler",
+      "name": "Dan Sheckler",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:kenny-gabriel",
+      "name": "Kenny Gabriel",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:council-member:kiki-miller",
+      "name": "Kiki Miller",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:coeur-d'alene:mayor:dan-gookin",
+      "name": "Dan Gookin",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Coeur d'Alene City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Coeur d'Alene",
+        "state": "ID"
+      },
+      "source_url": "https://www.cdaid.org/government/departments/planning/community-development-block-grant-cdbg/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

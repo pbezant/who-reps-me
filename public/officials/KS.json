@@ -1,11 +1,12 @@
 {
   "state": "KS",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 42,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 51,
   "cities": [
     "Butler County",
     "Kansas City",
     "Leavenworth County",
+    "Lenexa",
     "Wichita",
     "Wyandotte County"
   ],
@@ -783,6 +784,285 @@
       },
       "source_url": "https://www.leavenworthcounty.gov/government/index.php",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:avery-bell",
+      "name": "Avery Bell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:bill-nicks",
+      "name": "Bill Nicks",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:chelsea-williamson",
+      "name": "Chelsea Williamson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:chris-herron",
+      "name": "Chris Herron",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:courtney-eiterich",
+      "name": "Courtney Eiterich",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:craig-denny",
+      "name": "Craig Denny",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:john-michael-handley",
+      "name": "John Michael Handley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:council-member:mark-charlton",
+      "name": "Mark Charlton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ks:lenexa:mayor:julie-sayers",
+      "name": "Julie Sayers",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lenexa City Council",
+      "district": null,
+      "phone": "913-477-7550",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17101 W. 87th St. Pkwy. Lenexa, KS 66219",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lenexa",
+        "state": "KS"
+      },
+      "source_url": "https://www.lenexa.com/Government/Mayor-City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

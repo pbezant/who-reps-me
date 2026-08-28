@@ -1,8 +1,9 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 92,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 108,
   "cities": [
+    "Arlington Heights",
     "Chicago",
     "Cook County",
     "DeKalb County",
@@ -10,11 +11,291 @@
     "Lake County",
     "Madison County",
     "McLean County",
+    "Oak Lawn",
     "Peoria County",
     "St. Clair County",
     "Waukegan"
   ],
   "officials": [
+    {
+      "id": "il:arlington-heights:mayor:jim-tinaglia",
+      "name": "Jim Tinaglia",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-748-4176",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Village%20Board%20Photos%202023/jim%20tinaglia%20headshot.jpg?t=202604291805320",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 W. Hawthorne Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:bill-manganaro",
+      "name": "Bill Manganaro",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-845-4780",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/revize_photo_gallery/Government/Village%20Board/Trustee-Manganaro.jpg?t=202505201743430",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "409 S. Bristol Lane",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:carina-h.-santa-maria",
+      "name": "Carina H. Santa Maria",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/revize_photo_gallery/Government/Village%20Board/Trustee-SantaMaria.jpg?t=202505201744250",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2362 E. Bradshire Court",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:colin-gilbert",
+      "name": "Colin Gilbert",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-934-6000",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Colin%20Gibert%20Head%20Shot%202025.jpg?t=202510151308200",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1011 W Burgoyne Rd.",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:greg-zyck",
+      "name": "Greg Zyck",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/revize_photo_gallery/Government/Village%20Board/Trustee-Zyck.jpg?t=202505201745000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17 W. Waverly Road",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:james-j.-bertucci",
+      "name": "James J. Bertucci",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-710-6772",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Village%20Board%20Photos%202023/JimBertucci.jpg?t=202407261731590",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "77 S Evergreen Ave., Unit 709",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:robin-labedz",
+      "name": "Robin LaBedz",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-392-6195",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Village%20Board%20Photos%202023/RobinLaBedz.jpg?t=202407261736250",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "209 W. Fremont Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:thomas-f.-schwingbeck-jr",
+      "name": "Thomas F. Schwingbeck Jr",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Village%20Board%20Photos%202023/TomSchwingbeck.jpg?t=202407261737130",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "506 E. Orchard Street",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:arlington-heights:trustee:wendy-dunnington",
+      "name": "Wendy Dunnington",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Arlington Heights City Council",
+      "district": null,
+      "phone": "847-616-5030",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.vah.com/government/Government/Boards%20&%20Commissions/Village%20Board/Village%20Board%20Photos%202023/WendyDennington.jpg?t=202407261733290",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "530 S. Chestnut Avenue",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arlington Heights",
+        "state": "IL"
+      },
+      "source_url": "https://www.vah.com/government/village_board.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "il:chicago:mayor:brandon-johnson",
       "name": "Brandon Johnson",
@@ -1935,6 +2216,223 @@
       },
       "source_url": "https://www.mcleancountyil.gov/486/Elected-Officials",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:mayor/village-president:terry-vorderer",
+      "name": "Terry Vorderer",
+      "office": "Mayor / Village President",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": null,
+      "phone": "708-499-7740",
+      "email": "tvorderer@oaklawn-il.gov",
+      "url": "https://www.oaklawn-il.gov/government/government/mayor_vorderer.php",
+      "photo_url": "https://www.oaklawn-il.gov/government/revize_photo_gallery/Government/Headshots/TerryVorderer.jpg?t=202601062233520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:alex-olejniczak",
+      "name": "Alex Olejniczak",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 2",
+      "phone": "708-346-7002",
+      "email": "aolejniczak@oaklawn-il.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:benjamin-warren",
+      "name": "Benjamin Warren",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 1",
+      "phone": "708-346-7001",
+      "email": "bwarren@oaklawn-il.gov",
+      "url": null,
+      "photo_url": "https://www.oaklawn-il.gov/government/revize_photo_gallery/Government/Headshots/Ben%20Warren%20suit%20and%20tie%20headshot%20-%20Copy%20-%20Copy.jpg?t=202607091027390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:jamie-pembroke",
+      "name": "Jamie Pembroke",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 4",
+      "phone": "708-346-7004",
+      "email": "jpembroke@oaklawn-il.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:paul-mallo",
+      "name": "Paul Mallo",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 3",
+      "phone": "708-346-7003",
+      "email": "pmallo@oaklawn-il.gov",
+      "url": null,
+      "photo_url": "https://www.oaklawn-il.gov/government/Document%20Center/Government/Governing%20Body/VIllage%20Officials/pmallo.jpg?t=202306131354030",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:ralph-soch",
+      "name": "Ralph Soch",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 6",
+      "phone": "708-346-7006",
+      "email": "rsoch@oaklawn-il.gov",
+      "url": null,
+      "photo_url": "https://www.oaklawn-il.gov/government/revize_photo_gallery/Government/Headshots/Soch%20Headshot%202023%20cropped%20website.jpg?t=202306140933080",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:oak-lawn:trustee:william-bud-stalker",
+      "name": "William \"Bud\" Stalker",
+      "office": "Trustee",
+      "level": "local",
+      "body": "Oak Lawn City Council",
+      "district": "District 5",
+      "phone": "708-346-7005",
+      "email": "bstalker@oaklawn-il.gov",
+      "url": null,
+      "photo_url": "https://www.oaklawn-il.gov/government/Document%20Center/Government/Governing%20Body/VIllage%20Officials/bstalker.gif?t=202306131359550",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9446 S. Raymond Ave. Oak Lawn, IL 60453",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oak Lawn",
+        "state": "IL"
+      },
+      "source_url": "https://www.oaklawn-il.gov/government/village_bot.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

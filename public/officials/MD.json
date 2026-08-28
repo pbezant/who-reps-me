@@ -1,10 +1,11 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-27T06:19:49.346Z",
-  "count": 91,
+  "generated_at": "2026-08-28T07:15:56.557Z",
+  "count": 103,
   "cities": [
     "Allegany County",
     "Anne Arundel County",
+    "Bowie",
     "Calvert County",
     "Carroll County",
     "Cecil County",
@@ -13,6 +14,7 @@
     "Harford County",
     "Howard County",
     "Montgomery County",
+    "Queen Anne's County",
     "Rockville",
     "Washington County",
     "Wicomico County"
@@ -449,6 +451,223 @@
       },
       "source_url": "https://www.aacounty.org/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:council-member-at-large:dennis-brady",
+      "name": "Dennis Brady",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "At-Large",
+      "phone": "301-809-3029",
+      "email": "dbrady@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2926/Dennis-Brady-At-Large-Councilmember",
+      "photo_url": "https://www.cityofbowie.org/ImageRepository/Document?documentId=19464",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Brady was elected as an At-Large Councilman on November 7, 2023, having previously served on the City Council from 1994 to 2015. During his prior tenure, he was active in the Maryland Municipal League (MML) and the Prince George’s County Municipal Association (PGCMA), even serving as president for both organizations.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:council-member-at-large:wanda-rogers",
+      "name": "Wanda Rogers",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "At-Large",
+      "phone": "301-809-3029",
+      "email": "wrogers@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2881/Wanda-Rogers-At-Large-Councilmember",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Wanda is the CEO of W Rogers Executive Consulting, LLC that she started in 2017. She is also the office manager for the family business, Realty Transaction Services. Wanda retired from the U.S. Department of the Treasury in 2017 after 36 years of federal service, where she held several high-ranking positions.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:council-member:clinton-truesdale,-sr.",
+      "name": "Clinton Truesdale, Sr.",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "District 3",
+      "phone": "301-809-3029",
+      "email": "ctruesdale@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2762/Clinton-Truesdale-Sr-District-3-Councilm",
+      "photo_url": "https://www.cityofbowie.org/ImageRepository/Document?documentId=19472",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Clinton Boyce Truesdale has been a Prince George's County resident for over 40 years, residing in Bowie for 27 years. An entrepreneur and community activist, he was appointed to the Bowie City Council in February 2023 and re-elected in November 2023. He focuses on Economic Development, Public Safety, and Community Engagement, and serves as Council Liaison to the Advisory Planning Board and Community Recreation Committee.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:council-member:roxy-ndebumadu",
+      "name": "Roxy Ndebumadu",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "District 4",
+      "phone": "301-809-3029",
+      "email": "rndebumadu@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2526/Roxy-Ndebumadu-District-4-Councilmember",
+      "photo_url": "https://www.cityofbowie.org/ImageRepository/Document?documentId=19466",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Roxy Ndebumadu is a two-term Bowie City Councilmember, geoeconomic strategist, and founder whose work bridges governance, technology, and economic opportunity. She brings a cross-sector perspective shaped by public service, global technology leadership, and civic institution-building. In 2019, she made history as the youngest woman elected to the Bowie City Council and the first African American woman to represent District 4 in the State of Maryland.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:council-member:zipporah-miller",
+      "name": "Zipporah Miller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "District 1",
+      "phone": "301-809-3029",
+      "email": "zmiller@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2520/Zipporah-Miller-District-1-Councilmember",
+      "photo_url": "https://www.cityofbowie.org/ImageRepository/Document?documentId=23795",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Zipporah Miller was elected to fill the District 1 seat in June 2026. Councilmember Miller is Council Liaison to the following City committees: Arts Committee Community Outreach Committee.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:mayor-pro-tem,-council-member:dufour-woolfley",
+      "name": "Dufour Woolfley",
+      "office": "Mayor Pro Tem, City Council Member",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": "District 2",
+      "phone": "301-809-3029",
+      "email": "dwoolfley@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2525/Dufour-WoolfleyMayor-Pro-Tem-District-2-",
+      "photo_url": "https://www.cityofbowie.org/ImageRepository/Document?documentId=19474",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Dufour Woolfley was re-elected to the District 2 seat in November 2023 and selected as Mayor Pro Tem. He has served on the Council since March 2018, and previously in an At-Large term from January 2015. A Bowie resident for over 20 years, he has been active in city affairs and community advocacy, serving on various committees and boards.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:bowie:mayor:michael-estève",
+      "name": "Michael Estève",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bowie City Council",
+      "district": null,
+      "phone": "301-809-3029",
+      "email": "mesteve@cityofbowie.org",
+      "url": "https://www.cityofbowie.org/2524/Michael-Estve-Mayor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "15901 Fred Robinson Way Bowie, MD 20716",
+      "offices": [],
+      "hours": null,
+      "bio": "Michael Estève is a lifelong Bowie resident. Raised by an Army Officer and English teacher, he is the product of Prince George's County public elementary and middle schools. He is a graduate of DeMatha Catholic High School and received a B.A. from Loyola University Maryland.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bowie",
+        "state": "MD"
+      },
+      "source_url": "https://www.cityofbowie.org/27/Government",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -2153,7 +2372,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 0.9
     },
     {
@@ -2184,7 +2403,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 0.9
     },
     {
@@ -2246,7 +2465,7 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 0.9
     },
     {
@@ -2278,6 +2497,161 @@
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:queen-anne's-county:county-commissioner:christopher-m.-corchiarino",
+      "name": "Christopher M. Corchiarino",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Queen Anne's County Commissioners Court",
+      "district": null,
+      "phone": "410-758-4098",
+      "email": "qaccommissionersandadministrator@qac.org",
+      "url": "https://www.qac.org/626/Chris-Corchiarino",
+      "photo_url": "https://www.qac.org/ImageRepository/Document?documentId=21719",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 North Liberty Street Centreville, MD 21617",
+      "offices": [],
+      "hours": null,
+      "bio": "Christopher M. Corchiarino was elected November 8, 2022, and is serving his second term as a Queen Anne’s County Commissioner representing District 4. A 1992 graduate of Queen Anne's County High School, he earned a BA from the University of Maryland and a Juris Doctorate from the University of Baltimore School of Law, and is licensed to practice law in multiple states. He lives in Stevensville with his wife and three daughters, and has always sought ways to give back to the County.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Queen Anne's County",
+        "state": "MD"
+      },
+      "source_url": "https://www.qac.org/617/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:queen-anne's-county:county-commissioner:j.-patrick-mclaughlin",
+      "name": "J. Patrick McLaughlin",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Queen Anne's County Commissioners Court",
+      "district": null,
+      "phone": "410-758-4098",
+      "email": "qaccommissionersandadministrator@qac.org",
+      "url": "https://www.qac.org/1584/J-Patrick-McLaughlin",
+      "photo_url": "https://www.qac.org/ImageRepository/Document?documentId=21720",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 North Liberty Street Centreville, MD 21617",
+      "offices": [],
+      "hours": null,
+      "bio": "Patrick McLaughlin was elected November 8, 2022, and is serving his first term as a Queen Anne’s County Commissioner representing District 2. He graduated from Drexel University with a bachelor’s degree in Business Administration and founded his own Specialty Medical Distribution company. After retiring from the medical field, he became the Owner/Operator of a local Allstate Insurance Agency and serves on several boards and commissions.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Queen Anne's County",
+        "state": "MD"
+      },
+      "source_url": "https://www.qac.org/617/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:queen-anne's-county:county-commissioner:jack-n.-wilson,-jr.",
+      "name": "Jack N. Wilson, Jr.",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Queen Anne's County Commissioners Court",
+      "district": null,
+      "phone": "410-758-4098",
+      "email": "qaccommissionersandadministrator@qac.org",
+      "url": "https://www.qac.org/910/Jack-N-Wilson-Jr",
+      "photo_url": "https://www.qac.org/ImageRepository/Document?documentId=21723",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 North Liberty Street Centreville, MD 21617",
+      "offices": [],
+      "hours": null,
+      "bio": "Jack N. Wilson, Jr. was re-elected November 8, 2022, serving his third term as a Queen Anne’s County Commissioner representing District 1. He was first appointed in 2015 and focuses on expanding trade programs in schools and broadband throughout the County. He graduated from Severna Park High School and completed a Steamfitters Apprenticeship Program.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Queen Anne's County",
+        "state": "MD"
+      },
+      "source_url": "https://www.qac.org/617/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:queen-anne's-county:county-commissioner:james-j.-moran",
+      "name": "James J. Moran",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Queen Anne's County Commissioners Court",
+      "district": "At-Large",
+      "phone": "410-758-4098",
+      "email": "qaccommissionersandadministrator@qac.org",
+      "url": "https://www.qac.org/622/James-J-Moran---at-Large",
+      "photo_url": "https://www.qac.org/ImageRepository/Document?documentId=21722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 North Liberty Street Centreville, MD 21617",
+      "offices": [],
+      "hours": null,
+      "bio": "James J. Moran was first appointed to the Queen Anne's County Commissioners in 2013 and was re-elected in 2022, now serving his third term as an At-Large Commissioner. A Marine Corps veteran, he founded his own construction businesses before entering public service. He is dedicated to preserving farmland and supporting the Drug Free Coalition in Queen Anne's County.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Queen Anne's County",
+        "state": "MD"
+      },
+      "source_url": "https://www.qac.org/617/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:queen-anne's-county:county-commissioner:philip-l.-dumenil",
+      "name": "Philip L. Dumenil",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Queen Anne's County Commissioners Court",
+      "district": null,
+      "phone": "410-758-4098",
+      "email": "qaccommissionersandadministrator@qac.org",
+      "url": "https://www.qac.org/797/Phil-Dumenil",
+      "photo_url": "https://www.qac.org/ImageRepository/Document?documentId=21721",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "107 North Liberty Street Centreville, MD 21617",
+      "offices": [],
+      "hours": null,
+      "bio": "PHILIP L. DUMENIL was elected in November 8, 2022 and is serving his third, non-consecutive, term as a Queen Anne’s County Commissioner representing District 3. He was duly sworn and qualified as a Queen Anne's County Commissioner on Tuesday, December 6, 2022.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Queen Anne's County",
+        "state": "MD"
+      },
+      "source_url": "https://www.qac.org/617/Board-of-County-Commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

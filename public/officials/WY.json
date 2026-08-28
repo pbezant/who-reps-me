@@ -1,12 +1,292 @@
 {
   "state": "WY",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 12,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 21,
   "cities": [
+    "Casper",
     "Cheyenne",
     "Natrona County"
   ],
   "officials": [
+    {
+      "id": "wy:casper:councilor:amber-pollock",
+      "name": "Amber Pollock",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward I",
+      "phone": "307-215-1912",
+      "email": "apollock@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:brandy-haskins",
+      "name": "Brandy Haskins",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward III",
+      "phone": "307-258-0523",
+      "email": "bhaskins@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:gena-jensen",
+      "name": "Gena Jensen",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward I",
+      "phone": "307-251-5830",
+      "email": "gjensen@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:matt-larson",
+      "name": "Matt Larson",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward II",
+      "phone": "307-462-1583",
+      "email": "mlarson@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:michael-bond",
+      "name": "Michael Bond",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward II",
+      "phone": "307-259-9521",
+      "email": "mbond@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:michael-mcintosh",
+      "name": "Michael McIntosh",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward III",
+      "phone": "307-217-6957",
+      "email": "mmcintosh@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:councilor:pat-sweeney",
+      "name": "Pat Sweeney",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward I",
+      "phone": "307-259-2145",
+      "email": "psweeney@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:mayor:ray-pacheco",
+      "name": "Ray Pacheco",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward III",
+      "phone": "307-258-1226",
+      "email": "rpacheco@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wy:casper:vice-mayor:kyle-gamroth",
+      "name": "Kyle Gamroth",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Casper City Council",
+      "district": "Ward II",
+      "phone": "307-439-4069",
+      "email": "kgamroth@casperwy.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 N David St Casper, WY 82601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Casper",
+        "state": "WY"
+      },
+      "source_url": "https://www.casperwy.gov/government/city_council/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "wy:cheyenne:mayor:patrick-collins",
       "name": "Patrick Collins",

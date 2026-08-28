@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-27T06:19:49.346Z",
-  "count": 377,
+  "generated_at": "2026-08-28T07:15:56.557Z",
+  "count": 397,
   "cities": [
     "Abilene",
     "Allen",
@@ -15,6 +15,7 @@
     "Bexar County",
     "Brownsville",
     "Bryan",
+    "Burnet County",
     "Caldwell County",
     "Cameron County",
     "Cedar Park",
@@ -24,6 +25,7 @@
     "Corpus Christi",
     "Coryell County",
     "Dallas County",
+    "DeSoto",
     "Denton County",
     "El Paso",
     "El Paso County",
@@ -52,6 +54,7 @@
     "McAllen",
     "McKinney",
     "McLennan County",
+    "Medina County",
     "Mission",
     "Montgomery County",
     "New Braunfels",
@@ -67,6 +70,7 @@
     "Sugar Land",
     "Tarrant County",
     "Temple",
+    "Texas City",
     "Travis County",
     "Victoria",
     "Waco",
@@ -1859,6 +1863,37 @@
       "confidence": 1
     },
     {
+      "id": "tx:burnet-county:precinct-3-commissioner:chad-collier",
+      "name": "Chad Collier",
+      "office": "Precinct 3 Commissioner",
+      "level": "county",
+      "body": "Burnet County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "512-715-5236",
+      "email": "ccollier@burnetcountytexas.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "220 S. Pierce Street\nCourthouse on the Square\nBurnet, TX 78611",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burnet County",
+        "state": "TX"
+      },
+      "source_url": "https://www.burnetcountytexas.org/1380/Commissioner-Pct-3",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:caldwell-county:commissioner:b.-j.-westmoreland",
       "name": "B. J. Westmoreland",
       "office": "Commissioner",
@@ -1875,7 +1910,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1898,7 +1933,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1921,7 +1956,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1975,7 +2010,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -3322,6 +3357,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:desoto:council-member:brian-wesley",
+      "name": "Brian Wesley",
+      "office": "Council Member",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Four",
+      "phone": "972-274-2489",
+      "email": "bwesley@desototexas.gov",
+      "url": "https://www.desototexas.gov/208/Place-Four",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=1991",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Wesley has proudly called the Dallas area home for more than 47 years. A dedicated public servant, he is committed to strengthening the DeSoto community through leadership, service, and meaningful community engagement.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:council-member:crystal-chism",
+      "name": "Crystal Chism",
+      "office": "Council Member",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Six",
+      "phone": "972-274-2489",
+      "email": "CChism@desototexas.gov",
+      "url": "https://www.desototexas.gov/211/Place-Six",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=232",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Crystal Chism proudly serves as the DeSoto City Councilmember for Place 6, having secured a resounding 62.86% of the vote in the May 1, 2021 election. She was recently re-elected for her second full term, in May 2024. Her journey in public service is a testament to her dedication to her constituents and her community.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:council-member:debrah-north",
+      "name": "Debrah North",
+      "office": "Council Member",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Five",
+      "phone": "972-274-2489",
+      "email": "DNorth@desototexas.gov",
+      "url": "https://www.desototexas.gov/207/Place-Five",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=230",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "A Dallas native and DeSoto resident, Debrah North brings a diverse background in financial services, insurance, asset management, and technology. Her professional career spans roles with Fortune 500 companies, tech startups, and executive coaching engagements across the U.S., with a focus on leadership development and client relationship management. Debrah remains committed to advocating for economic opportunity, safe and vibrant neighborhoods, and quality of life where residents and local businesses feel welcomed, represented, and supported.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:council-member:pierette-parker",
+      "name": "Pierette Parker",
+      "office": "Council Member",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Two",
+      "phone": "972-274-2489",
+      "email": "PParker@desototexas.gov",
+      "url": "https://www.desototexas.gov/213/Place-Two",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=224",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Pierette Parker was elected to DeSoto City Council in the June 2023 Runoff election to serve for Place Two. A 20+ year DeSoto resident, she has served on many boards/committees, including as Park Board Chair on the DeSoto Parks and Recreations Development Board. She is also a trained Technology Business Analyst, Certified Community Association Manager, and Texas Licensed Realtor(R).",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:deputy-mayor-pro-tem:ken-waters",
+      "name": "Ken Waters",
+      "office": "Deputy Mayor Pro Tem",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Three",
+      "phone": "972-274-2489",
+      "email": "KWaters@desototexas.gov",
+      "url": "https://www.desototexas.gov/212/Place-Three",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=226",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Ken Waters joined the DeSoto City Council on June 16, 2025, and has been a longtime resident committed to serving and improving the community. With a background in business administration, he has worked across various industries and is actively involved in numerous community organizations, including leadership roles in civic and emergency response teams.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:mayor-pro-tem:letitia-hughes",
+      "name": "Letitia Hughes",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place Seven",
+      "phone": "972-274-2489",
+      "email": "LHughes@desototexas.gov",
+      "url": "https://www.desototexas.gov/210/Place-Seven",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=234",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Letitia Hughes was elected to DeSoto City Council February 2021 (Special Election) to serve an unexpired term for Place Seven. She was recently re-elected for a third term (her second full term), in May 2024. Letitia has been a resident of the City of DeSoto for over 20 years and is the owner of The Hughes Group Real Estate Services in DeSoto.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:desoto:mayor:rachel-l.-proctor",
+      "name": "Rachel L. Proctor",
+      "office": "Mayor",
+      "level": "local",
+      "body": "DeSoto City Council",
+      "district": "Place One",
+      "phone": "972-274-2489",
+      "email": "rproctor@desototexas.gov",
+      "url": "https://www.desototexas.gov/209/Place-One---Mayor",
+      "photo_url": "https://www.desototexas.gov/ImageRepository/Document?documentId=180",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "211 East Pleasant Run Road DeSoto, TX 75115",
+      "offices": [],
+      "hours": null,
+      "bio": "Learn more about Mayor Rachel Proctor. Explore her leadership vision and contributions to the DeSoto community, including a full biography of her personal and professional milestones.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "DeSoto",
+        "state": "TX"
+      },
+      "source_url": "https://www.desototexas.gov/173/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:el-paso-county:commissioner:david-stout",
       "name": "David Stout",
       "office": "Commissioner",
@@ -4434,7 +4686,7 @@
         "state": "TX"
       },
       "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -7453,6 +7705,161 @@
       "confidence": 1
     },
     {
+      "id": "tx:medina-county:commissioner:danny-lawler",
+      "name": "Danny Lawler",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Medina County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "830-665-8015",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1340 State HWY 173 N\nDevine, TX 78016",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Medina County",
+        "state": "TX"
+      },
+      "source_url": "https://www.medinatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:medina-county:commissioner:david-lynch",
+      "name": "David Lynch",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Medina County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "830-741-6006",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1300 Avenue M, Room 148\nHondo, TX 78861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Medina County",
+        "state": "TX"
+      },
+      "source_url": "https://www.medinatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:medina-county:commissioner:jessica-castiglione",
+      "name": "Jessica Castiglione",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Medina County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "830-741-6016",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "275 County Road 341\nHondo, TX 78861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Medina County",
+        "state": "TX"
+      },
+      "source_url": "https://www.medinatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:medina-county:commissioner:larry-sittre",
+      "name": "Larry Sittre",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Medina County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "830-931-4000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8366 FM 471 S\nCastroville, TX 78009",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Medina County",
+        "state": "TX"
+      },
+      "source_url": "https://www.medinatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:medina-county:county-judge:keith-lutz",
+      "name": "Keith Lutz",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Medina County Commissioners Court",
+      "district": null,
+      "phone": "830-741-6020",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.medinatx.gov/upload/page/0071/Judge%20Lutz.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Courthouse Annex\n1300 Avenue M, Room 250\nHondo, Texas 78861",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Medina County",
+        "state": "TX"
+      },
+      "source_url": "https://www.medinatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:mission:council-member:jessica-ortega",
       "name": "Jessica Ortega",
       "office": "City Council Member",
@@ -7765,7 +8172,7 @@
     {
       "id": "tx:new-braunfels:council-member:d.-lee-edwards",
       "name": "D. Lee Edwards",
-      "office": "Councilmember",
+      "office": "City Councilmember",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 3",
@@ -7790,7 +8197,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -7821,7 +8228,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -7852,7 +8259,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -7883,7 +8290,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1
     },
     {
@@ -10134,6 +10541,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:texas-city:commissioner-at-large:brian-goetschius",
+      "name": "Brian Goetschius",
+      "office": "Commissioner At-Large",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": null,
+      "phone": "409-948-3111",
+      "email": "bgoetschius@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7797",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:commissioner-at-large:wade-johnson",
+      "name": "Wade Johnson",
+      "office": "Commissioner At-Large",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": null,
+      "phone": "409-948-3111",
+      "email": "wjohnson@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:commissioner:barbie-tucker",
+      "name": "Barbie Tucker",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": "District 2",
+      "phone": "409-948-3111",
+      "email": "btucker@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7796",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:commissioner:chris-sharp",
+      "name": "Chris Sharp",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": "District 3",
+      "phone": "409-948-3111",
+      "email": "csharp@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7798",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:commissioner:deandre-knoxson",
+      "name": "DeAndre' Knoxson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": "District 1",
+      "phone": "409-948-3111",
+      "email": "dknoxson@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7799",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:commissioner:jason-delgado",
+      "name": "Jason Delgado",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": "District 4",
+      "phone": "409-948-3111",
+      "email": "jdelgado@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7800",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:texas-city:mayor:abel-garza,-jr.",
+      "name": "Abel Garza, Jr.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Texas City City Council",
+      "district": null,
+      "phone": "409-948-3111",
+      "email": "agarza@texascitytx.gov",
+      "url": null,
+      "photo_url": "https://www.texascitytx.gov/ImageRepository/Document?documentID=7795",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1801 9th Avenue North Texas City, TX 77590",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Texas City",
+        "state": "TX"
+      },
+      "source_url": "https://www.texascitytx.gov/178/City-Commission-Mayor",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:travis-county:commissioner:ann-howard",
       "name": "Ann Howard",
       "office": "Commissioner",
@@ -10870,7 +11494,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -10893,7 +11517,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -10916,7 +11540,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -10939,7 +11563,7 @@
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-28T07:15:56.557Z",
       "confidence": 1,
       "social": {},
       "offices": [],

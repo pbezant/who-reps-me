@@ -1,9 +1,10 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 120,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 128,
   "cities": [
     "Beaver County",
+    "Bethlehem",
     "Blair County",
     "Bucks County",
     "Butler County",
@@ -15,6 +16,7 @@
     "Dauphin County",
     "Fayette County",
     "Lackawanna County",
+    "Lancaster",
     "Lancaster County",
     "Lawrence County",
     "Mercer County",
@@ -58,6 +60,37 @@
       },
       "source_url": "https://www.beavercountypa.gov/departments/board-of-commissioners/commissioners/jack-manning",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:bethlehem:mayor:j.-william-reynolds",
+      "name": "J. William Reynolds",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bethlehem City Council",
+      "district": null,
+      "phone": "610-865-7000",
+      "email": null,
+      "url": "https://www.bethlehem-pa.gov/Meet-Your-Government/The-Mayor",
+      "photo_url": "https://www.bethlehem-pa.gov/getmedia/9b9c7af6-3298-4521-b529-b1a85d0ff94e/2026-Budget-Address-Pic.jpg",
+      "social": {
+        "twitter": "https://twitter.com/bethlehemmayor?lang=en",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 East Church Street • Bethlehem, PA 18018",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bethlehem",
+        "state": "PA"
+      },
+      "source_url": "https://www.bethlehem-pa.gov/meet-your-government/the-mayor/budget-address/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -2197,6 +2230,223 @@
       },
       "source_url": "https://www.lancastercountypa.gov/223/Advisory-Authority-Board-Commission-Coun",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:councilor:amos-stoltzfus",
+      "name": "Amos Stoltzfus",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "astoltzfus@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:councilor:cheryl-holland-jones",
+      "name": "Cheryl Holland-Jones",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "cholland-jones@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:councilor:kat-gastineau",
+      "name": "Kat Gastineau",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "kgastineau@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:councilor:marshall-miller",
+      "name": "Marshall Miller",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "mmiller@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:councilor:nancy-millan",
+      "name": "Nancy Millan",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "nmilan@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:president:ahmed-ahmed",
+      "name": "Ahmed Ahmed",
+      "office": "President",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "ahmedahmed@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:lancaster:vice-president:john-hursh",
+      "name": "John Hursh",
+      "office": "Vice President",
+      "level": "local",
+      "body": "Lancaster City Council",
+      "district": null,
+      "phone": null,
+      "email": "jhursh@cityoflancasterpa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "source_url": "https://www.cityoflancasterpa.gov/city-council/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

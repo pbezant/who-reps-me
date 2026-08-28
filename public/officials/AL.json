@@ -1,14 +1,264 @@
 {
   "state": "AL",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 16,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 31,
   "cities": [
+    "Autauga County",
     "Elmore County",
     "Lee County",
     "Mobile County",
+    "Russell County",
     "St. Clair County"
   ],
   "officials": [
+    {
+      "id": "al:autauga-county:circuit-clerk:debra-hill",
+      "name": "Debra Hill",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6801",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Debra%20Hill%20Circuit%20Clerk_250x375.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "134 N. Court St. Rm. 114 Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:circuit-judge:joy-pace-booth",
+      "name": "Joy Pace Booth",
+      "office": "Circuit Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Joy%20Booth_250x166.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:coroner:malvin-buster-barber",
+      "name": "Malvin \"Buster\" Barber",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:district-attorney:c.j.-robinson",
+      "name": "C.J. Robinson",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-365-5715",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:district-judge:jessica-sanders",
+      "name": "Jessica Sanders",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6820",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:probate-judge:kimberly-g.-kervin",
+      "name": "Kimberly G. Kervin",
+      "office": "Probate Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-361-3728",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Kimberly%20Kervin_250x366.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "176 West 5th Street Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:revenue-commissioner:kathy-evans",
+      "name": "Kathy Evans",
+      "office": "Revenue Commissioner",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6789",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Revenue/KEvans_250x280.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "135 N. Court St., Suite D Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:sheriff:mark-harrell",
+      "name": "Mark Harrell",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-361-2500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/IMG-2673.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "162 W. 4th Street Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "al:elmore-county:circuit-clerk:michael-dozier",
       "name": "Michael Dozier",
@@ -500,6 +750,223 @@
       },
       "source_url": "https://www.mobilecountyal.gov/government/history-of-mobile-county-commission/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:cedric-darrell-darty",
+      "name": "Cedric Darrell Darty",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 5",
+      "phone": "334-298-6426",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_5.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:chance-corbett",
+      "name": "Chance Corbett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 6 Chair",
+      "phone": "706-575-4389",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_6.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:gentry-lee",
+      "name": "Gentry Lee",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 1",
+      "phone": "334-298-0869",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_1.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:larry-screws",
+      "name": "Larry Screws",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 7",
+      "phone": "334-298-6426",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_7.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:rod-costello",
+      "name": "Rod Costello",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 3 Vice-Chair",
+      "phone": "334-468-4282",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_3.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:ronnie-reed",
+      "name": "Ronnie Reed",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 4",
+      "phone": "334-298-2510",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_4.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:scott-chambers",
+      "name": "Scott Chambers",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 2",
+      "phone": "334-468-1145",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_2.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

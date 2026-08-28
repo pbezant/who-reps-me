@@ -1,13 +1,14 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 272,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 284,
   "cities": [
     "Alachua County",
     "Apopka",
     "Bay County",
     "Boca Raton",
     "Boynton Beach",
+    "Bradenton",
     "Coral Springs",
     "Davie",
     "Daytona Beach",
@@ -32,6 +33,7 @@
     "Miramar",
     "Monroe County",
     "Nassau County",
+    "North Miami",
     "Okaloosa County",
     "Orlando",
     "Osceola County",
@@ -700,6 +702,192 @@
       },
       "source_url": "https://www.boynton-beach.org/897/Commissioner-Mack-McCray-District-II",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:council-member:kemp-schuessler",
+      "name": "Kemp Schuessler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": "Ward Three",
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/schuessler",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/Councilman_Schuessler_Swearing-In_1_07232(1)_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m.\nFriday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Kemp Schuessler was appointed to the Ward Three seat on the Bradenton City Council on July 23, 2025. A longtime resident of the Wares Creek neighborhood, he brings more than 30 years of executive level leadership in the financial services industry and currently serves as an Independent Insurance Agent. Mr. Schuessler is a strong advocate for forward-thinking policies that support vibrant neighborhoods, economic growth, and quality of life for Bradenton residents.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:council-member:lisa-gonzalez-moore",
+      "name": "Lisa Gonzalez Moore",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": "Ward Four",
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/moore",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/LM_resize_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m. Friday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Lisa Gonzalez Moore, a local real estate and business attorney, is serving her first term as the City Council representative for Ward Four. She has been a resident of Manatee County for over 20 years and graduated from the University of Florida with a Political Science degree and a Juris Doctor. Councilwoman Moore is actively involved in numerous legal industry and local non-profits, serving on boards and in leadership roles.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:council-member:marianne-barnebey",
+      "name": "Marianne Barnebey",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": "Ward Two",
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/barnebey",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/800x596_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m. Friday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Marianne Barnebey first served the citizens of Bradenton as Ward Two Councilwoman in January 1998. She was elected to the seat for four terms before she resigned to run for another office in 2012. When the Ward Two seat was vacated in June 2020, she jumped at the chance to come back and was appointed on June 24.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:council-member:pam-coachman",
+      "name": "Pam Coachman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": "Ward Five",
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/coachman",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/800x602_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m. Friday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Pam Coachman was victorious in her first and second attempts at public office and calls her area of the city - Ward 5 - “alive.” She is looking forward to being “a voice for all of Ward 5 on the Bradenton City Council,\" and adds that she will \"advocate for progress across the City of Bradenton,\" and \"make equity real for everyone.\"",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:mayor:gene-brown",
+      "name": "Gene Brown",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": null,
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/brown",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/mayor_desk_2-1_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m.\nFriday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Gene Brown served three terms on the Bradenton City Council as Ward Two Councilman before deciding to run for Mayor. He was successful in his first bid to become Mayor and has served as Mayor since January 2021. Mayor Brown brings a unique perspective to the Mayor’s office – as Vice President and COO of Brown & Sons Funeral Homes & Crematory, where he has served Bradenton since 1989, he understands first-hand the needs of the business community.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:bradenton:vice-mayor,-council-member:jayne-kocher",
+      "name": "Jayne Kocher",
+      "office": "Vice Mayor, City Council Member",
+      "level": "local",
+      "body": "Bradenton City Council",
+      "district": "Ward One",
+      "phone": "941-932-9400",
+      "email": null,
+      "url": "https://cityofbradenton.com/kocher",
+      "photo_url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/800x597_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 Old Main Street, Bradenton, FL 34205",
+      "offices": [],
+      "hours": "Monday - Thursday: 7:30 a.m. - 4:30 p.m. Friday: 7:30 a.m. - 3:30 p.m.",
+      "bio": "Jayne Kocher is a popular longtime area realtor with extensive experience in downtown redevelopment and community planning, having served on the Bradenton Downtown Development Authority. She has long been engaged in issues affecting Bradenton residents, including infrastructure, traffic, neighborhood preservation, and water quality. A graduate of Florida State University, she is a faithful member of St. Joseph’s Catholic Church and a mother of two and grandmother of three.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Bradenton",
+        "state": "FL"
+      },
+      "source_url": "https://cityofbradenton.com/council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -5323,6 +5511,202 @@
       "source_url": "https://www.nassaucountyfl.com/95/Meet-the-Commissioners",
       "extracted_at": "2026-08-24T03:21:09.305Z",
       "confidence": 1
+    },
+    {
+      "id": "fl:north-miami:city-clerk:vanessa-joseph",
+      "name": "Vanessa Joseph",
+      "office": "City Clerk",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": null,
+      "phone": "305-895-9817",
+      "email": "vajoseph@northmiamifl.gov",
+      "url": "https://www.northmiamifl.gov/703/City-Clerk-Vanessa-Joseph-Esq",
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=7813",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Vanessa Joseph, Esq., is the City of North Miami's Elected City Clerk, making history as both the City's youngest and first Black female City Clerk. She holds a bachelor's degree in Political Science, a Master of Public Administration, and a Juris Doctorate from the University of Miami. As a dedicated attorney and servant leader, she advocates for vulnerable populations and actively volunteers in her community.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami:councilman:kevin-a.-burns",
+      "name": "Kevin A. Burns",
+      "office": "Councilman",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": "District 1",
+      "phone": "305-895-9815",
+      "email": "kburns@northmiamifl.gov",
+      "url": "https://www.northmiamifl.gov/1378/Councilman-Kevin-A-Burns-District-1",
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=19797",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kevin A. Burns was born and raised in North Miami, and comes from a family six siblings. Kevin is an accomplished business man famously known for operating KB`s Real Christmas Trees for the past 49 years, and is a successful real estate broker with One Sothebys international Realty. Kevin Burns was twice elected mayor of the City of North Miami and served from 2005 -2009 with distinction.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami:councilman:pierre-frantz-charles",
+      "name": "Pierre Frantz Charles",
+      "office": "Councilman",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": "District 4",
+      "phone": "305-895-9818",
+      "email": "pcharles@northmiamifl.gov",
+      "url": "https://www.northmiamifl.gov/1134/Councilman-Pierre-Frantz-Charles-MEd-Dis",
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=14967",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "776 NE 125 Street North Miami, FL 33161",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District 4 Satellite Office",
+          "city": "North Miami",
+          "address": "13753 NW 7th Avenue North Miami, FL 33168",
+          "phone": "305-893-6511, Ext. 26003",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Councilman Pierre Frantz Charles was elected in December 2024 to continue serving as the district 4 representative on the North Miami City Council. A dedicated educator and community leader, he is committed to improving economic opportunities, expanding affordable housing, and enhancing public safety in District 4.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami:councilwoman:kassandra-timothe",
+      "name": "Kassandra Timothe",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": "District 2",
+      "phone": "305-895-9818",
+      "email": "district2@northmiamifl.gov",
+      "url": "https://www.northmiamifl.gov/964/Councilwoman-Kassandra-Timothe-MPA-Distr",
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=11172",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/CouncilwomanKTimothe",
+        "instagram": "https://www.instagram.com/councilwoman_kt/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "776 NE 125 Street North Miami, FL 33161",
+      "offices": [],
+      "hours": null,
+      "bio": "Kassandra Timothe was born and raised in North Miami a few blocks away from W.J. Bryan Elementary and North Miami Middle where she attended grade school. A true North Miami native, Kassandra lives, works, and plays in the heart and pulse of the city in District 2.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:north-miami:mayor:alix-desulme",
+      "name": "Alix Desulme",
+      "office": "Mayor",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=21971",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami:vice-mayor:mary-estimé-irvin",
+      "name": "Mary Estimé-Irvin",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "North Miami City Council",
+      "district": "District 3",
+      "phone": "305-895-9818",
+      "email": "mestime-irvin@northmiamifl.gov",
+      "url": "https://www.northmiamifl.gov/476/Vice-Mayor-Mary-Estim-Irvin-District-3",
+      "photo_url": "https://www.northmiamifl.gov/ImageRepository/Document?documentId=21648",
+      "social": {
+        "twitter": "https://x.com/VMEstimeIrvin",
+        "facebook": "https://www.facebook.com/CouncilwomanEstimeIrvin?mibextid=wwXIfr&rdid=devqHbxSUVtaZq6r&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Ag6dTdKBr%2F%3Fmibextid%3DwwXIfr#",
+        "instagram": "https://www.instagram.com/vicemayorestimeirvin/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Mary Estimé-Irvin has served District 3 residents and North Miami since 2019. An accomplished business leader and devoted civic advocate, she is the current Managing Partner of Estime & Irvin Consulting, LLC, and former President and CEO of E&I Associates. She is known for promoting community interests, with a focus on Youth & Women Empowerment, Minority Businesses, and Transportation.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "North Miami",
+        "state": "FL"
+      },
+      "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
     },
     {
       "id": "fl:okaloosa-county:commissioner,-chairman-2026:trey-goodwin",
