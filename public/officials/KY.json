@@ -1,13 +1,14 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 32,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 37,
   "cities": [
     "Boone County",
     "Bowling Green",
     "Campbell County",
     "Hardin County",
-    "Oldham County"
+    "Oldham County",
+    "Owensboro"
   ],
   "officials": [
     {
@@ -1001,6 +1002,161 @@
       "source_url": "https://www.oldhamcountyky.gov/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 0.9
+    },
+    {
+      "id": "ky:owensboro:commissioner:curtis-maglinger",
+      "name": "Curtis Maglinger",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Owensboro City Council",
+      "district": null,
+      "phone": "270-687-8565",
+      "email": "c.maglinger@owensboro.org",
+      "url": "https://www.owensboro.org/government/board_of_commissioners/business_detail_T15_R211.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East 4th Street, Owensboro, KY 42303",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Owensboro",
+        "state": "KY"
+      },
+      "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:owensboro:commissioner:jeff-sanford",
+      "name": "Jeff Sanford",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Owensboro City Council",
+      "district": null,
+      "phone": "270-687-8563",
+      "email": "j.sanford@owensboro.org",
+      "url": "https://www.owensboro.org/government/board_of_commissioners/business_detail_T15_R210.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East 4th Street, Owensboro, KY 42303",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Owensboro",
+        "state": "KY"
+      },
+      "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:owensboro:commissioner:sharon-nesmith",
+      "name": "Sharon NeSmith",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Owensboro City Council",
+      "district": null,
+      "phone": "270-687-8564",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East 4th Street, Owensboro, KY 42303",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Owensboro",
+        "state": "KY"
+      },
+      "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ky:owensboro:mayor-pro-tem:bob-glenn",
+      "name": "Bob Glenn",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Owensboro City Council",
+      "district": null,
+      "phone": "270-687-8566",
+      "email": "b.glenn@owensboro.org",
+      "url": "https://www.owensboro.org/government/board_of_commissioners/business_detail_T15_R209.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East 4th Street, Owensboro, KY 42303",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Owensboro",
+        "state": "KY"
+      },
+      "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:owensboro:mayor:tom-watson",
+      "name": "Tom Watson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Owensboro City Council",
+      "district": null,
+      "phone": "270-687-8561",
+      "email": "t.watson@owensboro.org",
+      "url": "https://www.owensboro.org/government/board_of_commissioners/business_detail_T15_R208.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 East 4th Street, Owensboro, KY 42303",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Owensboro",
+        "state": "KY"
+      },
+      "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
     }
   ]
 }

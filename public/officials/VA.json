@@ -1,7 +1,7 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 82,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 83,
   "cities": [
     "Alexandria",
     "Arlington County",
@@ -9,6 +9,7 @@
     "Chesapeake city",
     "Chesterfield County",
     "Fairfax County",
+    "Franklin County",
     "Hampton",
     "Hampton city",
     "Hanover County",
@@ -1012,6 +1013,37 @@
       },
       "source_url": "https://www.fairfaxcounty.gov/cableconsumer/channel-16/fairfax-county-government-television#",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:franklin-county:commissioner-of-revenue:margaret-s.-torrence",
+      "name": "Margaret S. Torrence",
+      "office": "Commissioner of Revenue",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": null,
+      "phone": "540-483-3083",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1255 Franklin St., Suite 102 Rocky Mount, VA 24151",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "VA"
+      },
+      "source_url": "https://www.franklincountyva.gov/FormCenter/Commissioner-of-Revenue-4/Personal-Property-Real-Estate-Change-of--46",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

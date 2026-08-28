@@ -1,11 +1,12 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 115,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 125,
   "cities": [
     "Anoka County",
     "Bloomington",
     "Brooklyn Park",
+    "Chisago County",
     "Clay County",
     "Coon Rapids",
     "Duluth",
@@ -15,6 +16,7 @@
     "Ramsey County",
     "Rice County",
     "Scott County",
+    "St. Cloud",
     "St. Louis County",
     "St. Paul",
     "Washington County",
@@ -701,6 +703,68 @@
       },
       "source_url": "https://www.brooklynpark.org/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:chisago-county:auditor-treasurer:bridgitte-s.-konrad",
+      "name": "Bridgitte S. Konrad",
+      "office": "Auditor-Treasurer",
+      "level": "county",
+      "body": "Chisago County Commissioners Court",
+      "district": null,
+      "phone": "651-213-8500",
+      "email": "bkonrad@chisagocountymn.gov",
+      "url": null,
+      "photo_url": "https://www.chisagocountymn.gov/ImageRepository/Document?documentId=24079",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "313 N Main Street - Room 271/274 Center City, MN 55012",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chisago County",
+        "state": "MN"
+      },
+      "source_url": "https://www.chisagocountymn.gov/150/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:chisago-county:chief-deputy-auditor-treasurer:kim-doherty",
+      "name": "Kim Doherty",
+      "office": "Chief Deputy Auditor-Treasurer",
+      "level": "county",
+      "body": "Chisago County Commissioners Court",
+      "district": null,
+      "phone": "651-213-8500",
+      "email": "kdoherty@chisagocountymn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "313 N Main Street - Room 271/274 Center City, MN 55012",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chisago County",
+        "state": "MN"
+      },
+      "source_url": "https://www.chisagocountymn.gov/150/Elected-Officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -2849,6 +2913,254 @@
       },
       "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-member:hudda-ibrahim",
+      "name": "Hudda Ibrahim",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "3rd Ward",
+      "phone": "320-255-7201",
+      "email": "hudda.ibrahim@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=190",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=28665",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-member:karen-larson",
+      "name": "Karen Larson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "2nd Ward",
+      "phone": "320-255-7201",
+      "email": "Karen.Larson@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=173",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentId=24201",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-member:mark-johnson",
+      "name": "Mark Johnson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "At-Large",
+      "phone": "320-255-7201",
+      "email": "mark.johnson@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=194",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=28675",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-member:scott-brodeen",
+      "name": "Scott Brodeen",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "At-Large",
+      "phone": "320-255-7201",
+      "email": "scott.brodeen@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=192",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=28673",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-member:tami-calhoun",
+      "name": "Tami Calhoun",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "At-Large",
+      "phone": "320-255-7201",
+      "email": "tami.calhoun@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=193",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=28669",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-president:mike-conway",
+      "name": "Mike Conway",
+      "office": "Council President",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "4th Ward",
+      "phone": "320-255-7201",
+      "email": "mike.conway@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=128",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=28672",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:council-vice-president:dave-masters",
+      "name": "Dave Masters",
+      "office": "Council Vice-President",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": "1st Ward",
+      "phone": "320-255-7201",
+      "email": "dave.masters@ci.stcloud.mn.us",
+      "url": "https://ci.stcloud.mn.us/m/directory/employee?eid=32",
+      "photo_url": "https://ci.stcloud.mn.us/ImageRepository/Document?documentID=24197",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:st.-cloud:mayor:jake-anderson",
+      "name": "Jake Anderson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "St. Cloud City Council",
+      "district": null,
+      "phone": "320-255-7201",
+      "email": "Jake.Anderson@ci.stcloud.mn.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 7th Street South, St. Cloud, MN 56301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Cloud",
+        "state": "MN"
+      },
+      "source_url": "https://ci.stcloud.mn.us/81/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

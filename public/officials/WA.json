@@ -1,7 +1,7 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-27T06:19:49.346Z",
-  "count": 166,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 174,
   "cities": [
     "Bellevue",
     "Bellingham",
@@ -18,10 +18,12 @@
     "Lewis County",
     "Marysville",
     "Mason County",
+    "Olympia",
     "Pasco",
     "Pierce County",
     "Redmond",
     "Renton",
+    "Sammamish",
     "Seattle",
     "Skagit County",
     "Snohomish County",
@@ -2842,6 +2844,223 @@
       "confidence": 1
     },
     {
+      "id": "wa:olympia:council-member:clark-gilman",
+      "name": "Clark Gilman",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:council-member:dani-madrone",
+      "name": "Dani Madrone",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:council-member:kelly-green",
+      "name": "Kelly Green",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:council-member:paul-berendt",
+      "name": "Paul Berendt",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:council-member:robert-vanderpool",
+      "name": "Robert Vanderpool",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:mayor-pro-tem:yến-huỳnh",
+      "name": "Yến Huỳnh",
+      "office": "Mayor Pro-tem",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:olympia:mayor:dontae-payne",
+      "name": "Dontae Payne",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Olympia City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Olympia",
+        "state": "WA"
+      },
+      "source_url": "https://www.olympiawa.gov/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:pasco:council-member:abel-campos",
       "name": "Abel Campos",
       "office": "Councilmember",
@@ -3676,6 +3895,37 @@
       },
       "source_url": "https://www.rentonwa.gov/Government/City-Council",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:sammamish:director-of-administrative-services:mark-baird",
+      "name": "Mark Baird",
+      "office": "Director of Administrative Services",
+      "level": "local",
+      "body": "Sammamish City Council",
+      "district": null,
+      "phone": null,
+      "email": "mbaird@sammamish.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 228th Avenue SE Sammamish, WA 98075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sammamish",
+        "state": "WA"
+      },
+      "source_url": "https://www.sammamish.us/government/administrative-services/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {

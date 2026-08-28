@@ -1,9 +1,10 @@
 {
   "state": "ME",
-  "generated_at": "2026-08-21T03:34:25.818Z",
-  "count": 5,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 8,
   "cities": [
-    "Cumberland County"
+    "Cumberland County",
+    "Oxford County"
   ],
   "officials": [
     {
@@ -159,6 +160,99 @@
       },
       "source_url": "https://www.cumberlandcountyme.gov/boards___committees/county_commissioners/index.php",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:oxford-county:commissioner:h.-sawin-millett",
+      "name": "H. Sawin Millett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Oxford County Commissioners Court",
+      "district": "District 1",
+      "phone": "207-743-6359",
+      "email": "sawin.millett@gmail.com",
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com/f21d25f4/dms3rep/multi/opt/Sawin-1920w.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "26 Western Avenue\nSouth Paris, ME 04281",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oxford County",
+        "state": "ME"
+      },
+      "source_url": "https://www.oxfordcounty.org/commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:oxford-county:commissioner:lisa-keim",
+      "name": "Lisa Keim",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Oxford County Commissioners Court",
+      "district": "District 2",
+      "phone": "207-562-6023",
+      "email": "lkeim@oxfordcounty.org",
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com/f21d25f4/dms3rep/multi/opt/IMG954842-61f6fe9e-5682022c-563cdfcf-dceeb80f-1920w.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "26 Western Avenue\nSouth Paris, ME 04281",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oxford County",
+        "state": "ME"
+      },
+      "source_url": "https://www.oxfordcounty.org/commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:oxford-county:commissioner:timothy-turner",
+      "name": "Timothy Turner",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Oxford County Commissioners Court",
+      "district": "District 3",
+      "phone": "207-336-2817",
+      "email": "twturner53@gmail.com",
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com/f21d25f4/dms3rep/multi/opt/Tim-Turner-Oxford-09f0f572-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "26 Western Avenue\nSouth Paris, ME 04281",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Oxford County",
+        "state": "ME"
+      },
+      "source_url": "https://www.oxfordcounty.org/commissioners",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     }
   ]

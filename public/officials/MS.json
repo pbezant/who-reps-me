@@ -1,10 +1,11 @@
 {
   "state": "MS",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 2,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 9,
   "cities": [
     "Harrison County",
-    "Madison County"
+    "Madison County",
+    "Southaven"
   ],
   "officials": [
     {
@@ -67,6 +68,223 @@
       },
       "source_url": "https://www.madison-co.com/elected-offices/board-of-supervisors/district-3",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:charlie-hoots",
+      "name": "Charlie Hoots",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 2",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:george-payne",
+      "name": "George Payne",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "At Large",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:joel-gallagher",
+      "name": "Joel Gallagher",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 4",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:john-david-wheeler",
+      "name": "John David Wheeler",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 5",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:judy-jenkins",
+      "name": "Judy Jenkins",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 1",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:raymond-flores",
+      "name": "Raymond Flores",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 6",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:william-jerome",
+      "name": "William Jerome",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 3",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     }
   ]

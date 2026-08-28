@@ -1,13 +1,15 @@
 {
   "state": "OK",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 30,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 48,
   "cities": [
     "Cleveland County",
     "Edmond",
     "Lawton",
+    "Midwest City",
     "Oklahoma County",
-    "Rogers County"
+    "Rogers County",
+    "Washington County"
   ],
   "officials": [
     {
@@ -380,6 +382,223 @@
       },
       "source_url": "https://www.lawtonok.gov/178/City-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:brian-triger",
+      "name": "Brian Triger",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 1",
+      "phone": "405-739-1202",
+      "email": "ward1@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=167",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Triger was elected to his first four-year term on February 10, 2026. He was appointed by the Council and sworn in on February 24, 2026 to fill the remainder of the previous representative's term. He was sworn in to his first full term on April 20, 2026, which will expire in April of 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:marc-thompson",
+      "name": "Marc Thompson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 4",
+      "phone": "405-739-1202",
+      "email": "ward4@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=126",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1018",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Marc Thompson was elected to his first four-year term on April 4, 2024. His term expires in April of 2028.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:pat-byrne",
+      "name": "Pat Byrne",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 2",
+      "phone": "405-739-1202",
+      "email": "ward2@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=124",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1016",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Pat Byrne was elected to his first four-year term on February 10, 2016, and is currently the longest-standing Councilmember for Midwest City. Byrne was re-elected in 2020 and 2024. Byrne's current term on the council expires in April 2028.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:raymond-melton",
+      "name": "Raymond Melton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 3",
+      "phone": "405-739-1202",
+      "email": "ward3@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=125",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1017",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Raymond Melton ran unopposed for his first four-year term as a Midwest City Councilmember. Melton was sworn in on April 20, 2026. His first four-year term expires in April 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:rick-favors",
+      "name": "Rick Favors",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 6",
+      "phone": "405-739-1202",
+      "email": "ward6@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=128",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1020",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:sara-bana",
+      "name": "Sara Bana",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 5",
+      "phone": "405-739-1202",
+      "email": "ward5@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=127",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1019",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Sara Bana ran unopposed for her second four-year term as a Midwest City Councilmember. Bana was sworn in on April 20, 2026. Her second four-year term expires in April 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:mayor:rick-rice",
+      "name": "Rick Rice",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": null,
+      "phone": "405-739-1209",
+      "email": "mayor@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=123",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1015",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Rick Rice was elected to his first four-year term on February 10, 2026. Rice was sworn in on April 20, 2026. His term expires in April of 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     },
     {
@@ -938,6 +1157,377 @@
       },
       "source_url": "https://rogerscounty.org/27/Government",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:assessor:steve-campbell",
+      "name": "Steve Campbell",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2830",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/assessor",
+      "photo_url": "https://washingtoncountyok.gov/SteveCampbell_Resize.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone, Ste 300 Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:associate-district-judge:russell-vaclaw",
+      "name": "Russell Vaclaw",
+      "office": "Associate District Judge",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Russell%20Vaclaw.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:corey-shivel",
+      "name": "Corey Shivel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 2",
+      "phone": "918-337-2820",
+      "email": "commissioner2@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-2",
+      "photo_url": "https://washingtoncountyok.gov/CoreyShivel_Resize.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Dewey",
+          "address": "399000 West 1500 Road Dewey, OK 74029",
+          "phone": "918-534-1170",
+          "fax": "918-534-1172",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:mike-dunlap",
+      "name": "Mike Dunlap",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 3",
+      "phone": "918-337-2820",
+      "email": "commissioner3@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-3",
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Mike%20Dunlap.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Ramona",
+          "address": "371 3rd Street Ramona, OK 74061",
+          "phone": "918-536-3315",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:mitch-antle",
+      "name": "Mitch Antle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 1",
+      "phone": "918-337-2820",
+      "email": "commissioner1@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-1",
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Mitch%20Antle.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Copan",
+          "address": "371 W. Weldon Copan, OK 74022",
+          "phone": "918-532-4222",
+          "fax": "918-532-4828",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:county-clerk:annette-smith",
+      "name": "Annette Smith",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2840",
+      "email": "county_clerk@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/county-clerk",
+      "photo_url": "https://washingtoncountyok.gov/AnnetteSmith.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S Johnstone Room 100\nBartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": "The County Clerk serves as the register of deeds and custodian of records for the County. The County Clerk also serves as the secretary to several boards, including the Board of County Commissioners, the County Excise Board, the County Board of Equalizations, and the Board of Tax Roll Corrections. The County Clerk reviews all the claims for payment of goods and services purchased or contracted by the County, and prepares the proper warrants for payment of those goods and services and the County payroll.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:court-clerk:jean-davis",
+      "name": "Jean Davis",
+      "office": "Court Clerk",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2870",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/court-clerk",
+      "photo_url": "https://washingtoncountyok.gov/jeandavis-9.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "420 S. Johnstone ave. bartlesville, ok 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:district-attorney:william-drake",
+      "name": "William Drake",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2860",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/district-attorney",
+      "photo_url": "https://washingtoncountyok.gov/willdrake.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "420 S. Johnstone ave. bartlesville, ok 74003",
+      "offices": [],
+      "hours": null,
+      "bio": "As the chief attorney for County Government, the District Attorney acts as the legal advisor to the County Officers on matters related to their duties. When any County in the District is involved in civil litigation, the District Attorney serves as its defender or prosecutor. County Officials may call upon the District Attorney to clarify a law or request an official interpretation from the Attorney General.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:district-judge:linda-thomas",
+      "name": "Linda Thomas",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Linda%20Thomas1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:sheriff:scott-owen",
+      "name": "Scott Owen",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Scott%20Owen.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:treasurer:melissa-thornbrugh",
+      "name": "Melissa Thornbrugh",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/MelissaThornbrugh.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     }
   ]

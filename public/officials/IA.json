@@ -1,15 +1,17 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 56,
+  "generated_at": "2026-08-28T05:40:45.041Z",
+  "count": 66,
   "cities": [
     "Ankeny",
     "Black Hawk County",
     "Cedar Rapids",
     "Dallas County",
+    "Dubuque",
     "Linn County",
     "Polk County",
-    "Sioux City"
+    "Sioux City",
+    "Warren County"
   ],
   "officials": [
     {
@@ -1046,6 +1048,223 @@
       "confidence": 1
     },
     {
+      "id": "ia:dubuque:at-large-representative:chris-t.-staver",
+      "name": "Chris T. Staver",
+      "office": "At-Large Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "At-Large",
+      "phone": "563-690-6503",
+      "email": "cstaver@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/176/Council-Member-Chris-Staver",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=61999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Chris Staver was elected as an At-Large Representative on the City Council in November 2025. He has owned and operated The Copper Kettle restaurant since 2012 and has spent 25 years renovating historic properties.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:at-large-representative:david-t.-resnick",
+      "name": "David T. Resnick",
+      "office": "At-Large Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "At-Large",
+      "phone": "563-690-6504",
+      "email": "dresnick@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/178/Council-Member-David-Resnick",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=57150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "David Resnick was first elected to the Dubuque City Council in 2007 and re-elected to a fifth term in November 2023 as an at-large member. A native Iowan, he has resided in Dubuque since 1984, serving on the Fine Arts faculty of Clarke University and as executive director of the Northeast Iowa School of Music.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:mayor:brad-m.-cavanagh",
+      "name": "Brad M. Cavanagh",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofdubuque.org/67/Welcome",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=57149",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:ward-representative:danny-c.-sprank",
+      "name": "Danny C. Sprank",
+      "office": "Ward Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "Ward Three",
+      "phone": "563-690-6507",
+      "email": "dsprank@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/2614/Council-Member-Danny-Sprank",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=57155",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 W 13th Street\nDubuque, IA 52001",
+      "offices": [],
+      "hours": null,
+      "bio": "Danny Sprank was sworn in as Dubuque's Third Ward City Council Representative on Nov. 12, 2019, and reelected in 2021. He graduated from the University of Dubuque in 2011 with a bachelor's degree in business management and works as a project manager/estimator for Giese Roofing Company. He is married to Chuck Harris and is active with his church.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:ward-representative:katy-a.-wethal",
+      "name": "Katy A. Wethal",
+      "office": "Ward Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "Ward Four",
+      "phone": "563-690-6508",
+      "email": "kwethal@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/3041/Council-Member-Katy-Wethal",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=57156",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Katy Wethal was first elected to the Dubuque City Council in a special election in March 2022 to represent the city's Fourth Ward and was reelected in November 2023. She is a nurse practitioner in internal medicine and holds a bachelor's degree in nursing from Clarke University and a master's degree from the University of Northern Colorado.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:ward-representative:laura-j.-roussell",
+      "name": "Laura J. Roussell",
+      "office": "Ward Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "Ward Two",
+      "phone": "563-690-6506",
+      "email": "lroussell@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/2310/Council-Member-Laura-Roussell",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=57154",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Laura Roussell was first elected to the Dubuque City Council in November 2019 to represent the city's Second Ward and was reelected in November 2023. She earned a bachelor's and master's degree in business from Clarke University and recently retired as senior community affairs manager at Black Hills Energy.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:dubuque:ward-representative:tyson-j.-leyendecker",
+      "name": "Tyson J. Leyendecker",
+      "office": "Ward Representative",
+      "level": "local",
+      "body": "Dubuque City Council",
+      "district": "Ward One",
+      "phone": "563-690-6505",
+      "email": "tleyendecker@cityofdubuque.org",
+      "url": "https://www.cityofdubuque.org/185/Council-Member-Tyson-Leyendecker",
+      "photo_url": "https://www.cityofdubuque.org/ImageRepository/Document?documentId=62003",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A native of Albuquerque, New Mexico, Tyson Leyendecker has lived in Dubuque since 2017. He currently serves as president and chief credit officer of Capra Bank, having previously been president and CEO of another community bank. He holds an MBA from the University of Arizona and a bachelor’s degree in finance from the University of New Mexico.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Dubuque",
+        "state": "IA"
+      },
+      "source_url": "https://www.cityofdubuque.org/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
       "id": "ia:linn-county:attorney:nick-maybanks",
       "name": "Nick Maybanks",
       "office": "Attorney",
@@ -1766,6 +1985,99 @@
       },
       "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:warren-county:engineer:tim-hill",
+      "name": "Tim Hill",
+      "office": "Engineer",
+      "level": "county",
+      "body": "Warren County Commissioners Court",
+      "district": null,
+      "phone": "515-690-9290",
+      "email": "engineer@warrencountyia.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 N. Buxton, Suite 211 Indianola, IA 50125",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren County",
+        "state": "IA"
+      },
+      "source_url": "https://www.warrencountyia.gov/government/business-and-planning/engineer/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:warren-county:operations-manager:brian-konrad",
+      "name": "Brian Konrad",
+      "office": "Operations Manager",
+      "level": "county",
+      "body": "Warren County Commissioners Court",
+      "district": null,
+      "phone": "515-690-9290",
+      "email": "engineer@warrencountyia.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 N. Buxton, Suite 211 Indianola, IA 50125",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren County",
+        "state": "IA"
+      },
+      "source_url": "https://www.warrencountyia.gov/government/business-and-planning/engineer/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:warren-county:roads-superintendent:robert-enquist",
+      "name": "Robert Enquist",
+      "office": "Roads Superintendent",
+      "level": "county",
+      "body": "Warren County Commissioners Court",
+      "district": null,
+      "phone": "515-690-9290",
+      "email": "engineer@warrencountyia.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 N. Buxton, Suite 211 Indianola, IA 50125",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren County",
+        "state": "IA"
+      },
+      "source_url": "https://www.warrencountyia.gov/government/business-and-planning/engineer/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     }
   ]
