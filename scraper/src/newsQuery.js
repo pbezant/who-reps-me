@@ -74,5 +74,10 @@ export function parseNewsResults(results) {
       url: r.url,
       source: hostnameFrom(r.url),
       snippet: trimSnippet(r.snippet),
+      // Only ever one image per article, chosen upstream — the raw per-result list can run to
+      // fifteen URLs, and all of that would otherwise land in the 12h blob cache for every rep.
+      // Both fields are optional: whether they arrive at all depends on the provider.
+      image: r.image || '',
+      favicon: r.favicon || '',
     }));
 }

@@ -904,6 +904,35 @@
   flex-direction:column;
   gap:0.9em;
 }
+/* Thumbnail beside the text, not above it: a 72px square keeps five stories on screen, where a
+   full-width lead image would push the third result below the fold. Fixed dimensions (not just
+   max-width) so a slow or missing image never reflows the list as it loads. */
+.rep-news-list li{
+  display:flex;
+  gap:0.8em;
+  align-items:flex-start;
+}
+.rep-news-text{
+  min-width:0; /* lets long headlines wrap instead of forcing the flex row wider than the panel */
+}
+.rep-news-thumb{
+  flex:0 0 auto;
+  width:72px;
+  height:72px;
+  object-fit:cover;
+  border-radius:0.5rem;
+  background:rgb(255 255 255 / 6%);
+}
+/* The publisher's favicon stands in when no usable article image came back — enough to anchor the
+   row visually without pretending to be a photo of the story. */
+.rep-news-favicon{
+  flex:0 0 auto;
+  width:20px;
+  height:20px;
+  object-fit:contain;
+  border-radius:0.25rem;
+  margin-top:0.15em;
+}
 /* Each story gets its own hairline-separated block. Without this the headlines and snippets ran
    together into one column of text and there was no visual answer to "where does one article
    end?" — gap alone wasn't enough once snippets are multi-line. */
@@ -917,8 +946,10 @@
   text-decoration:underline;
 }
 .rep-news-source{
+  display:block;
   opacity:0.7;
   font-size:0.85em;
+  margin-top:0.15em;
 }
 /* The headline is the scan target, so it gets its own line above the source rather than sharing
    one — a long headline followed by an inline " — domain" left the source stranded mid-line. */

@@ -42,13 +42,36 @@ test("hostnameFrom() tolerates a malformed URL instead of throwing", () => {
   assert.equal(hostnameFrom("not a url"), "");
 });
 
-test("parseNewsResults() trims to title/url/source/snippet and derives the source from the URL", () => {
+test("parseNewsResults() trims to the rendered fields and derives the source from the URL", () => {
   const results = [
     { title: "Rep. Ellis introduces bill", url: "https://www.statesman.com/story", snippet: "A new bill..." },
   ];
   assert.deepEqual(parseNewsResults(results), [
-    { title: "Rep. Ellis introduces bill", url: "https://www.statesman.com/story", source: "statesman.com", snippet: "A new bill..." },
+    {
+      title: "Rep. Ellis introduces bill",
+      url: "https://www.statesman.com/story",
+      source: "statesman.com",
+      snippet: "A new bill...",
+      image: "",
+      favicon: "",
+    },
   ]);
+});
+
+// The media fields are optional all the way down: a provider that never sends them (brave without
+// a thumbnail, google at all) must still produce a well-formed article the UI can render.
+test("parseNewsResults() carries image and favicon through when a provider supplies them", () => {
+  const [article] = parseNewsResults([
+    {
+      title: "Story",
+      url: "https://example.com/a",
+      snippet: "Body",
+      image: "https://img.example/hero.jpg",
+      favicon: "https://example.com/favicon.png",
+    },
+  ]);
+  assert.equal(article.image, "https://img.example/hero.jpg");
+  assert.equal(article.favicon, "https://example.com/favicon.png");
 });
 
 test("parseNewsResults() drops entries with no url and caps the list at 5", () => {

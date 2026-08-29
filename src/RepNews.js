@@ -65,9 +65,27 @@ export default function RepNews({ rep }) {
         <ul className="rep-news-list">
           {state.articles.map((a, i) => (
             <li key={i}>
-              <a href={a.url} target="_blank" rel="noreferrer noopener">{a.title}</a>
-              {a.source && <span className="rep-news-source"> — {a.source}</span>}
-              {a.snippet && <p className="rep-news-snippet">{a.snippet}</p>}
+              {/* Both media fields are optional and provider-dependent (see
+                  scraper/src/search.js) — an article with neither renders as text alone, which is
+                  why the thumbnail is a sibling of the text block rather than wrapping it.
+                  referrerPolicy keeps the reader's profile URL from leaking to the publisher's CDN
+                  on a hotlinked image, and onError hides anything that 404s or is hotlink-blocked
+                  rather than leaving a broken-image glyph in the list. */}
+              {(a.image || a.favicon) && (
+                <img
+                  className={a.image ? 'rep-news-thumb' : 'rep-news-favicon'}
+                  src={a.image || a.favicon}
+                  alt=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                />
+              )}
+              <div className="rep-news-text">
+                <a href={a.url} target="_blank" rel="noreferrer noopener">{a.title}</a>
+                {a.source && <span className="rep-news-source">{a.source}</span>}
+                {a.snippet && <p className="rep-news-snippet">{a.snippet}</p>}
+              </div>
             </li>
           ))}
         </ul>

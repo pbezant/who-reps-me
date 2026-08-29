@@ -75,7 +75,7 @@ export default async (req) => {
     // topic: "news" only means anything to the tavily preset (biases results toward recent
     // news coverage rather than general web results) — a harmless no-op for brave/google, which
     // have no equivalent concept. See search.js's own header comment on webSearch()'s `topic`.
-    const results = await webSearch(query, { topic: "news" });
+    const results = await webSearch(query, { topic: "news", media: true });
     articles = parseNewsResults(results);
   } catch (error) {
     // webSearch() throws when there's no key configured, same as every other caller in this
