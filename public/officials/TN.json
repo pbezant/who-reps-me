@@ -1,11 +1,12 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 154,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 163,
   "cities": [
     "Bedford County",
     "Blount County",
     "Chattanooga",
+    "Cleveland",
     "Cumberland County",
     "Davidson County",
     "Dickson County",
@@ -15,6 +16,8 @@
     "Jefferson County",
     "Kingsport",
     "Knoxville",
+    "Lawrence County",
+    "Lebanon",
     "Loudon County",
     "Maury County",
     "McMinn County",
@@ -1169,6 +1172,223 @@
       "source_url": "https://chattanooga.gov/government/city-council/committees",
       "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
+    },
+    {
+      "id": "tn:cleveland:council-member:bill-estes",
+      "name": "Bill Estes",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "District 2",
+      "phone": "423-595-0062",
+      "email": "bestes@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/285/District-2",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2817",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Bill Estes was first elected to the City Council in 2006. He came to Cleveland in 1998 as an Assistant Professor of Education at Lee University and serves on the Cleveland Municipal Planning Commission and the Greenway Board. Prior to his council service, he was a public schoolteacher, assistant principal, and principal.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:dan-moore",
+      "name": "Dan Moore",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "At-Large",
+      "phone": "423-584-4880",
+      "email": "Dmoore@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/290/At-Large-1",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2813",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Dan Moore was appointed to the City Council on September 1st, 2024.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:david-may",
+      "name": "David May",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "District 4",
+      "phone": "423-593-8236",
+      "email": "dmay@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/287/District-4",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2820",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman May has a long history of service to Cleveland, starting as a fire department volunteer and later serving as CFD chief for 14 years. He was a founding member of the 911 board and has volunteered on numerous projects and committees. A state-licensed contractor, he is married to Linda May and has two children.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:duane-goff",
+      "name": "Duane Goff",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "District 5",
+      "phone": "423-584-4881",
+      "email": "Dgoff@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/288/District-5",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2815",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Duane Goff was elected District 5 Councilman on September 1, 2024. A Cleveland native and Lee University graduate, he has been a local business owner for over two decades and is actively involved in community service, including roles with Bradley County Fire and Rescue and the Cleveland Entrepreneurial Task Force.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:ken-webb",
+      "name": "Ken Webb",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "At-Large",
+      "phone": "423-641-2026",
+      "email": "kwebb@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/291/AtLarge-2",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2818",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Ken Webb joined the Cleveland City Council on August 2, 2018 as an At-Large member. Prior to his retirement in late 2016, he was President- CEO of Cleveland Utilities. His tenure at Cleveland Utilities covered twenty-nine years, twenty-six of which he was CFO and three as CEO.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:marsha-mckenzie",
+      "name": "Marsha McKenzie",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "District 1",
+      "phone": "423-584-9513",
+      "email": "mmckenzie@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/284/District-1",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2814",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Marsha McKenzie was appointed to the City Council on February 10, 2021, and has been a Cleveland resident for 58 years. She has a background in business, owning and operating a furniture warehouse and home renovation business for many years. McKenzie also served as an associate Missionary overseas for five years, working with children's orphanages and street ministries.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cleveland:council-member:tom-cassada",
+      "name": "Tom Cassada",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Cleveland City Council",
+      "district": "District 3",
+      "phone": "423-457-9867",
+      "email": "tcassada@clevelandtn.gov",
+      "url": "https://www.clevelandtn.gov/286/District-3",
+      "photo_url": "https://www.clevelandtn.gov/ImageRepository/Document?documentID=2819",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "190 Church Street NE Cleveland, TN 37311",
+      "offices": [],
+      "hours": null,
+      "bio": "Tom Cassada graduated from Bradley County High School in 1981 and received his Bachelor of Science in Business Administration from Lee University in 1992. He is currently VP of Operations for ABCOR Packaging, a company he co-founded. Cassada was elected to the Cleveland City Council representing District 3 and sworn in on September 12, 2016.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Cleveland",
+        "state": "TN"
+      },
+      "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
     },
     {
       "id": "tn:cumberland-county:circuit-court-clerk:jessica-burgess",
@@ -3100,6 +3320,68 @@
       },
       "source_url": "https://www.knoxvilletn.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:lawrence-county:commissioner:colton-copley",
+      "name": "Colton Copley",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": null,
+      "phone": "740-533-4300",
+      "email": "ccopley@lawrencegov.org",
+      "url": "https://lawrencecounty.org/commissioner-copley/",
+      "photo_url": "https://i0.wp.com/lawrencecounty.org/wp-content/uploads/2020/01/Colton528Tall.jpg?fit=528%2C900&quality=89&ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse\n111 South Fourth Street\nIronton, Ohio 45638",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Copley was inspired to go into public service after both he and his brother received an outpouring of support from the community after a family tragedy. Commissioner Copley focuses on what’s best for Lawrence County, even if that means some “outside the box” thinking.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "TN"
+      },
+      "source_url": "https://lawrencecounty.org/commissioner-copley/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:lebanon:mayor:rick-bell",
+      "name": "Rick Bell",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lebanon City Council",
+      "district": null,
+      "phone": "615-443-2839",
+      "email": "rick.bell@lebanontn.org",
+      "url": null,
+      "photo_url": "https://www.lebanontn.org/ImageRepository/Document?documentID=6953",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 North Castle Heights Avenue Lebanon, TN 37087",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lebanon",
+        "state": "TN"
+      },
+      "source_url": "https://www.lebanontn.org/172/Mayors-Department",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

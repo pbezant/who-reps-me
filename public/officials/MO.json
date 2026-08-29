@@ -1,20 +1,22 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 88,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 104,
   "cities": [
     "Blue Springs",
     "Cass County",
     "Clay County",
     "Cole County",
     "Columbia",
+    "Florissant",
     "Greene County",
     "Jefferson County",
     "Lee's Summit",
     "O'Fallon",
     "Springfield",
     "St. Charles County",
-    "St. Louis"
+    "St. Louis",
+    "Wentzville"
   ],
   "officials": [
     {
@@ -1038,6 +1040,285 @@
       },
       "source_url": "https://www.como.gov/city-council/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:andrew-harris",
+      "name": "Andrew Harris",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 1",
+      "phone": "314-246-9150",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=62",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=700",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:jackie-pagano",
+      "name": "Jackie Pagano",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 7",
+      "phone": "314-837-1315",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=83",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=739",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:jeff-caputa",
+      "name": "Jeff Caputa",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 4",
+      "phone": "314-239-1568",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=70",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=725",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:joseph-eagan",
+      "name": "Joseph Eagan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 3",
+      "phone": "314-393-0458",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=69",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=724",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:keith-schildroth",
+      "name": "Keith Schildroth",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 5",
+      "phone": "314-839-2927",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=75",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=731",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:paul-manganelli",
+      "name": "Paul Manganelli",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 2",
+      "phone": "314-606-6578",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=64",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:tanya-parson",
+      "name": "Tanya Parson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 8",
+      "phone": "314-643-8879",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=87",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=749",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:tom-odonnell",
+      "name": "Tom O'Donnell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 6",
+      "phone": "314-691-7856",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=78",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=734",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:florissant:council-member:tommy-siam",
+      "name": "Tommy Siam",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Florissant City Council",
+      "district": "Ward 9",
+      "phone": "314-757-2594",
+      "email": null,
+      "url": "https://www.florissantmo.com/m/directory/employee?eid=90",
+      "photo_url": "https://www.florissantmo.com/ImageRepository/Document?documentID=750",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "955 St Francois, Florissant, MO 63031",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Florissant",
+        "state": "MO"
+      },
+      "source_url": "https://www.florissantmo.com/166/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -2743,6 +3024,223 @@
       },
       "source_url": "https://www.stlouis-mo.gov/government/departments/affordable-housing/index.cfm",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:chantel-summers",
+      "name": "Chantel Summers",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 1",
+      "phone": "636-242-5665",
+      "email": "Chantel.Summers@wentzvillemo.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:frank-martell",
+      "name": "Frank Martell",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 2",
+      "phone": "636-497-2852",
+      "email": "Frank.Martell@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2026/04/img-3985-e1776953941667-1024x1024.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:linda-roth",
+      "name": "Linda Roth",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 1",
+      "phone": "636-497-0524",
+      "email": "Linda.Roth@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2026/04/img-3739-e1776953843913-1024x1024.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:michael-hays",
+      "name": "Michael Hays",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 3",
+      "phone": "636-639-0039",
+      "email": "Michael.Hays@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2024/05/2_600.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:michael-lovell",
+      "name": "Michael Lovell",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 3",
+      "phone": "636-856-6948",
+      "email": "Michael.Lovell@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2024/05/michael-lovell-headshot-2023-1_600.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:alderman:robert-hussey",
+      "name": "Robert Hussey",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": "Ward 2",
+      "phone": "636-655-0931",
+      "email": "Robert.Hussey@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2024/05/5_600.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:wentzville:mayor:nick-guccione",
+      "name": "Nick Guccione",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Wentzville City Council",
+      "district": null,
+      "phone": "636-639-0354",
+      "email": "Nick.Guccione@wentzvillemo.gov",
+      "url": null,
+      "photo_url": "https://www.wentzvillemo.gov/wp-content/uploads/2024/05/Mayor2023_600.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1001 Schroeder Creek Blvd.\nWentzville, MO 63385",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wentzville",
+        "state": "MO"
+      },
+      "source_url": "https://www.wentzvillemo.gov/government/mayor-aldermen/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     }
   ]

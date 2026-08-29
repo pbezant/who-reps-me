@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-28T07:15:56.557Z",
-  "count": 230,
+  "generated_at": "2026-08-29T04:33:42.194Z",
+  "count": 241,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -14,13 +14,16 @@
     "Cleveland County",
     "Craven County",
     "Davidson County",
+    "Duplin County",
     "Durham County",
+    "Edgecombe County",
     "Fayetteville",
     "Forsyth County",
     "Franklin County",
     "Gaston County",
     "Gastonia",
     "Greenville",
+    "Holly Springs",
     "Huntersville",
     "Jacksonville",
     "Mecklenburg County",
@@ -1079,7 +1082,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1141,7 +1144,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1172,7 +1175,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1234,7 +1237,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1703,6 +1706,161 @@
       "confidence": 0.9
     },
     {
+      "id": "nc:duplin-county:commissioner,-chair:dexter-b.-edwards",
+      "name": "Dexter B. Edwards",
+      "office": "Commissioner, Chair",
+      "level": "county",
+      "body": "Duplin County Commissioners Court",
+      "district": "District Two",
+      "phone": "910-296-2100",
+      "email": "dexter.edwards@duplinnc.gov",
+      "url": null,
+      "photo_url": "https://www.duplinnc.gov/ImageRepository/Document?documentID=208",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 Seminary Street Kenansville, NC 28349",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Duplin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.duplinnc.gov/187/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:duplin-county:commissioner,-vice-chair:elwood-garner",
+      "name": "Elwood Garner",
+      "office": "Commissioner, Vice-Chair",
+      "level": "county",
+      "body": "Duplin County Commissioners Court",
+      "district": "District One",
+      "phone": "910-296-2100",
+      "email": "elwood.garner@duplinnc.gov",
+      "url": null,
+      "photo_url": "https://www.duplinnc.gov/ImageRepository/Document?documentID=207",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 Seminary Street Kenansville, NC 28349",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Duplin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.duplinnc.gov/187/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:duplin-county:commissioner:jesse-l.-dowe,-iii",
+      "name": "Jesse L. Dowe, III",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Duplin County Commissioners Court",
+      "district": "District Four",
+      "phone": "910-296-2100",
+      "email": "jesse.dowe@duplinnc.gov",
+      "url": null,
+      "photo_url": "https://www.duplinnc.gov/ImageRepository/Document?documentID=209",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 Seminary Street Kenansville, NC 28349",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Duplin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.duplinnc.gov/187/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:duplin-county:commissioner:justin-edwards",
+      "name": "Justin Edwards",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Duplin County Commissioners Court",
+      "district": "District Three",
+      "phone": "910-296-2100",
+      "email": "justin.edwards@duplinnc.gov",
+      "url": null,
+      "photo_url": "https://www.duplinnc.gov/ImageRepository/Document?documentID=662",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 Seminary Street Kenansville, NC 28349",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Duplin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.duplinnc.gov/187/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:duplin-county:commissioner:wayne-e.-branch",
+      "name": "Wayne E. Branch",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Duplin County Commissioners Court",
+      "district": "District Five",
+      "phone": "910-296-2100",
+      "email": "wayne.branch@duplinnc.gov",
+      "url": null,
+      "photo_url": "https://www.duplinnc.gov/ImageRepository/Document?documentID=211",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 Seminary Street Kenansville, NC 28349",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Duplin County",
+        "state": "NC"
+      },
+      "source_url": "https://www.duplinnc.gov/187/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:durham-county:commissioner,-chair:dr.-mike-lee",
       "name": "Dr. Mike Lee",
       "office": "Commissioner, Chair",
@@ -1855,6 +2013,37 @@
       },
       "source_url": "https://dconc.gov/Board-of-Commissioners/Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:edgecombe-county:chairman,-board-of-county-commissioners:leonard-wiggins",
+      "name": "Leonard Wiggins",
+      "office": "Chairman, Board of County Commissioners",
+      "level": "county",
+      "body": "Edgecombe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.edgecombecountync.gov/residents/Pics/leonard%20wiggins%2012815.jpg?t=202509101215350",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Edgecombe County",
+        "state": "NC"
+      },
+      "source_url": "https://www.edgecombecountync.gov/residents/board_of_commissioners.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -3229,6 +3418,161 @@
       },
       "source_url": "https://www.greenvillenc.gov/183/City-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:holly-springs:council-member:chris-deshazor",
+      "name": "Chris Deshazor",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Holly Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holly Springs",
+        "state": "NC"
+      },
+      "source_url": "https://www.hollyspringsnc.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:holly-springs:council-member:danielle-hewetson",
+      "name": "Danielle Hewetson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Holly Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holly Springs",
+        "state": "NC"
+      },
+      "source_url": "https://www.hollyspringsnc.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:holly-springs:council-member:dr.-kara-foster",
+      "name": "Dr. Kara Foster",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Holly Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holly Springs",
+        "state": "NC"
+      },
+      "source_url": "https://www.hollyspringsnc.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:holly-springs:council-member:sarah-larson",
+      "name": "Sarah Larson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Holly Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holly Springs",
+        "state": "NC"
+      },
+      "source_url": "https://www.hollyspringsnc.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:holly-springs:mayor-pro-tem:annie-drees",
+      "name": "Annie Drees",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Holly Springs City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holly Springs",
+        "state": "NC"
+      },
+      "source_url": "https://www.hollyspringsnc.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

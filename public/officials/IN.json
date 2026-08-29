@@ -1,14 +1,17 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 62,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 80,
   "cities": [
     "Boone County",
     "Clark County",
     "Delaware County",
     "Hamilton County",
     "Hammond",
+    "Henry County",
+    "Jackson County",
     "Lake County",
+    "Lawrence",
     "Marion County",
     "Morgan County",
     "Warrick County"
@@ -1100,6 +1103,254 @@
       "confidence": 1
     },
     {
+      "id": "in:henry-county:county-council-member:bobbi-plummer",
+      "name": "Bobbi Plummer",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "4th",
+      "phone": "765-465-0571",
+      "email": "bplummer@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=88",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:chad-malicoat",
+      "name": "Chad Malicoat",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "At-Large",
+      "phone": "765-465-0585",
+      "email": "cmalicoat@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=87",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:jay-davis",
+      "name": "Jay Davis",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "At-Large",
+      "phone": "765-545-0293",
+      "email": "jdavis@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=91",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:kenon-gray",
+      "name": "Kenon Gray",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "1st",
+      "phone": "765-686-1063",
+      "email": "kgray@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=86",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:mike-regner",
+      "name": "Mike Regner",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "2nd",
+      "phone": "765-521-3918",
+      "email": "mregner@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=89",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:scott-koontz",
+      "name": "Scott Koontz",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "At-Large",
+      "phone": "765-593-9523",
+      "email": "skoontz@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=90",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:henry-county:county-council-member:shannon-thom",
+      "name": "Shannon Thom",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": "3rd",
+      "phone": "765-524-0403",
+      "email": "sthom@henrycounty.in.gov",
+      "url": "https://www.henrycounty.in.gov/Directory.aspx?EID=92",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S Main Street New Castle, IN 47362",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "IN"
+      },
+      "source_url": "https://www.henrycounty.in.gov/257/County-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:jackson-county:assessor:katie-kaufman",
+      "name": "Katie Kaufman",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Jackson County Commissioners Court",
+      "district": null,
+      "phone": "812-358-6111",
+      "email": "kkaufman@jacksoncounty.in.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "111 S. Main Street - Suite 116 Brownstown, IN 47220",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jackson County",
+        "state": "IN"
+      },
+      "source_url": "https://www.jacksoncounty.in.gov/government/departments_a-h/assessor/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "in:lake-county:council-president:christine-cid",
       "name": "Christine Cid",
       "office": "Council President",
@@ -1314,6 +1565,316 @@
       },
       "source_url": "https://www.lakecountyin.gov/departments/council",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member-at-large:betty-robinson",
+      "name": "Betty Robinson",
+      "office": "Common Council Member At-Large",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "At-large",
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityoflawrence.org/betty-robinson",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/BettyRobinson_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member-at-large:liz-masur",
+      "name": "Liz Masur",
+      "office": "Common Council Member At-Large",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "At-large",
+      "phone": "(317) 545-6191 ext. 2105",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/liz-masur",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/LizMasur_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I am a 61 year old retired teacher, mom, wife, volunteer, and nature lover. My husband, JD, and I, along with our three daughters, moved to Lawrence in 1996. We wanted a community with good schools and good people. We made a good decision!",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member-at-large:tracy-boyd",
+      "name": "Tracy Boyd",
+      "office": "Common Council Member At-Large",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "At-large",
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityoflawrence.org/tracy-boyd",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/tracyboyd_2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:carlos-jennings",
+      "name": "Carlos Jennings",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 4",
+      "phone": "(317)-545-6191 ext.2108",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/carlos-jennings",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/CarlosJennings_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:kristie-krone",
+      "name": "Kristie Krone",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 6",
+      "phone": "(317) 545-6191 ext. 2104",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/kristie-krone",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/KristieKrone_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Kristie Krone moved to Lawrence over 20 years ago, raising her three children in local schools. She is an AVID tutor and editor, and has served her community as a Girl Scout Leader and PFO/LCPAA Executive Board member. She is excited to represent District 6 and collaborate with the council to enhance residents' lives.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:rick-wells",
+      "name": "Rick Wells",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 2",
+      "phone": "(317) 545-6191 ext. 2107",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/rick-wells",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/Rick%20Wells_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:sherron-freeman",
+      "name": "Sherron Freeman",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 3",
+      "phone": "317-826-4372",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/sherron-freeman",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/sherron_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:tyrrell-giles",
+      "name": "Tyrrell Giles",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 1",
+      "phone": "(317) 545-6191 ext. 2103",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/tyrrell-giles",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/Giles_2024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:common-council-member:zach-cramer",
+      "name": "Zach Cramer",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": "District 5",
+      "phone": "(317) 545-6191 ext. 2101",
+      "email": null,
+      "url": "https://www.cityoflawrence.org/zach-cramer",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/staff-photos/ZachCramer_2024_website.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence:mayor:deborah-whitfield",
+      "name": "Deborah Whitfield",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lawrence City Council",
+      "district": null,
+      "phone": "317-545-6191",
+      "email": "mayormail@cityoflawrence.org",
+      "url": "https://www.cityoflawrence.org/mayor-deb-whitfield",
+      "photo_url": "https://www.cityoflawrence.org/sites/default/files/page-photos/Deb%20Photo.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9001 East 59th Street Lawrence, IN 46216",
+      "offices": [],
+      "hours": null,
+      "bio": "Deb and her late husband moved to Lawrence almost 30 years ago and raised their children in Lawrence Township schools. She has worked her entire career for Community Health Network, first as a respiratory therapist and currently as the Director of Diversity, Equity, and Inclusion. She was elected to the Lawrence Common Council At-Large in 2019 and serves as Chair of the Public Safety Committee. Deb's priorities as Mayor include bringing more growth and economic opportunities to Lawrence, working with public safety officials to keep our city safe, and making city spending more equitable so that we can effectively serve all of Lawrence—no matter your neighborhood or income.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lawrence",
+        "state": "IN"
+      },
+      "source_url": "https://www.cityoflawrence.org/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

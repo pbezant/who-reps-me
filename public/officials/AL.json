@@ -1,9 +1,10 @@
 {
   "state": "AL",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 31,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 36,
   "cities": [
     "Autauga County",
+    "Dale County",
     "Elmore County",
     "Lee County",
     "Mobile County",
@@ -257,6 +258,161 @@
       },
       "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commission-chairman:steve-mckinnon",
+      "name": "Steve Mckinnon",
+      "office": "Commission Chairman",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-0-portals-1thumbcapture2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:adam-enfinger",
+      "name": "Adam Enfinger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-3-portals-4capture.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:chris-carroll",
+      "name": "Chris Carroll",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-1-portals-2chris-20carroll.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:donald-o.-grantham",
+      "name": "Donald O. Grantham",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-2-portals-25donald11.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:frankie-wilson",
+      "name": "Frankie Wilson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-4-portals-5capture.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

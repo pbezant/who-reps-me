@@ -1,11 +1,13 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 138,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 147,
   "cities": [
+    "Barnstable Town",
     "Boston",
     "Cambridge",
     "Chicopee",
+    "Everett",
     "Framingham",
     "Haverhill",
     "Lowell",
@@ -19,6 +21,37 @@
     "Worcester"
   ],
   "officials": [
+    {
+      "id": "ma:barnstable-town:administrator-to-the-town-council:cynthia-a.-lovell",
+      "name": "Cynthia A. Lovell",
+      "office": "Administrator to the Town Council",
+      "level": "local",
+      "body": "Barnstable Town City Council",
+      "district": null,
+      "phone": "508-862-4738",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "367 Main Street Hyannis, MA 02601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barnstable Town",
+        "state": "MA"
+      },
+      "source_url": "https://barnstable.gov/boardscommittees/TownCouncil/default.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
     {
       "id": "ma:boston:city-council-president;-city-councilor:liz-breadon",
       "name": "Liz Breadon",
@@ -1133,6 +1166,254 @@
       },
       "source_url": "https://www.chicopeema.gov/416/Elected-Officials",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:chair,-council-on-aging:carol-dello-russo",
+      "name": "Carol Dello Russo",
+      "office": "Chair, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": "617-599-9448",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:director-of-the-council-on-aging:dale-a.-palma",
+      "name": "Dale A. Palma",
+      "office": "Director of the Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": "dpalma@ci.everett.ma.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:member,-council-on-aging:carol-garrett",
+      "name": "Carol Garrett",
+      "office": "Member, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": "617-389-3183",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:member,-council-on-aging:charles-diperri",
+      "name": "Charles DiPerri",
+      "office": "Member, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:member,-council-on-aging:josephine-chickie-navarra",
+      "name": "Josephine “Chickie” Navarra",
+      "office": "Member, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": "617-387-7832",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:member,-council-on-aging:patricia-connors",
+      "name": "Patricia Connors",
+      "office": "Member, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": "617-387-6012",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:secretary,-council-on-aging:sharon-white",
+      "name": "Sharon White",
+      "office": "Secretary, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:everett:vice-chair,-council-on-aging:marie-dillon",
+      "name": "Marie Dillon",
+      "office": "Vice Chair, Council on Aging",
+      "level": "local",
+      "body": "Everett City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Edward G. Connolly Center 90 Chelsea Street Everett, MA 02149",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Everett",
+        "state": "MA"
+      },
+      "source_url": "https://cityofeverett.com/city-hall/board-commissions/council-on-aging/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

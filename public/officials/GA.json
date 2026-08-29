@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 208,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 215,
   "cities": [
     "Albany",
     "Brookhaven",
@@ -9,6 +9,7 @@
     "Carroll County",
     "Chatham County",
     "Cobb County",
+    "Colquitt County",
     "Columbia County",
     "Columbus",
     "DeKalb County",
@@ -17,6 +18,7 @@
     "Effingham County",
     "Floyd County",
     "Fulton County",
+    "Gainesville",
     "Gordon County",
     "Gwinnett County",
     "Hall County",
@@ -778,6 +780,37 @@
       },
       "source_url": "https://www.cobbcounty.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:colquitt-county:county-clerk:melissa-lawson",
+      "name": "Melissa Lawson",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Colquitt County Commissioners Court",
+      "district": null,
+      "phone": "229-616-7409",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colquitt County",
+        "state": "GA"
+      },
+      "source_url": "https://www.colquittcountyga.gov/government/county_clerk/courthouse_square_rental_agreement.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -3227,6 +3260,192 @@
       },
       "source_url": "https://www.fultoncountyga.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:council-member:abigail-guzman",
+      "name": "Abigail Guzman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": "Ward 4",
+      "phone": "770-549-5939",
+      "email": null,
+      "url": "https://www.gainesville.org/310/Abigail-Guzman",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=8798",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Abigail Guzman is a local entrepreneur and the Gainesville City Council’s first-ever Hispanic representative. She owns two popular restaurants and a boutique cleaning company in Gainesville. As a voice for Ward 4, her Mexican-American heritage and business experience bring a fresh perspective to the City’s governing body.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:council-member:barbara-b.-brooks",
+      "name": "Barbara B. Brooks",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": "Ward 3",
+      "phone": "678-858-0305",
+      "email": null,
+      "url": "https://www.gainesville.org/309/Barbara-B-Brooks",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=8796",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:council-member:bob-norton",
+      "name": "Bob Norton",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": "Ward 1",
+      "phone": "770-535-6865",
+      "email": null,
+      "url": "https://www.gainesville.org/1014/Bob-Norton",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=14969",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.gainesville.org/facebook",
+        "instagram": "https://www.gainesville.org/instagram",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Bob Norton was elected to serve the City of Gainesville as the Ward 1 representative. Norton is completing the unexpired term of former Ward 1 council member, the late C. Danny Dunagan Jr.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:council-member:jon-elliott",
+      "name": "Jon Elliott",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": "Ward 2",
+      "phone": "770-535-6865",
+      "email": null,
+      "url": "https://www.gainesville.org/1004/Jon-Elliott",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=13650",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jon Elliott was elected to serve the City of Gainesville as the Ward 2 representative in a November 2025 special election. Elliott is completing the unexpired term of former Ward 2 council member Zack Thompson, now mayor, who resigned from his seat in June 2025.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:council-member:juli-hayes",
+      "name": "Juli Hayes",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": "Ward 5",
+      "phone": "404-314-1457",
+      "email": null,
+      "url": "https://www.gainesville.org/312/Juli-Clay",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=8797",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:gainesville:mayor:zack-thompson",
+      "name": "Zack Thompson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Gainesville City Council",
+      "district": null,
+      "phone": "770-535-6865",
+      "email": null,
+      "url": "https://www.gainesville.org/308/Zack-Thompson",
+      "photo_url": "https://www.gainesville.org/ImageRepository/Document?documentId=8801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Zack Thompson serves as mayor of the City of Gainesville. Before securing the title of mayor, Thompson served as Ward 2 representative for nearly a decade, from November 2015-June 2025.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Gainesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.gainesville.org/304/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

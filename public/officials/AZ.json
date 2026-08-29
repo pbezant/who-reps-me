@@ -1,9 +1,10 @@
 {
   "state": "AZ",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 27,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 30,
   "cities": [
     "Cochise County",
+    "Gila County",
     "Maricopa County",
     "Mohave County",
     "Pima County",
@@ -101,6 +102,99 @@
       },
       "source_url": "https://www.cochise.az.gov/",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:gila-county:board-of-supervisors:steve-christensen",
+      "name": "Steve Christensen",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Gila County Commissioners Court",
+      "district": "District 1",
+      "phone": "928-474-7101",
+      "email": "s.christensen@gilacountyaz.gov",
+      "url": "https://www.gilacountyaz.gov/government/board_of_supervisors/government/board_of_supervisors/district_1.php",
+      "photo_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/images/S.%20Christensen3Sm.jpg?t=202503281608210",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Gila County Tommie Cline Martin Complex 707 S. Colcord Road, Payson, Arizona 85541",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gila County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:gila-county:board-of-supervisors:tim-r.-humphrey",
+      "name": "Tim R. Humphrey",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Gila County Commissioners Court",
+      "district": "District 2",
+      "phone": "928-425-3231",
+      "email": "t.humphrey@gilacountyaz.gov",
+      "url": "https://www.gilacountyaz.gov/government/board_of_supervisors/government/board_of_supervisors/district_2.php",
+      "photo_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/government/board_of_supervisors/district_2/images/Tim_Humphrey_NEW_450wide.jpg?t=202503281608240",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Gila County Courthouse 1400 E. Ash Street Globe, Arizona 85501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gila County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "az:gila-county:board-of-supervisors:woody-cline",
+      "name": "Woody Cline",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Gila County Commissioners Court",
+      "district": "District 3",
+      "phone": "928-425-3231",
+      "email": "t.humphrey@gilacountyaz.gov",
+      "url": "https://www.gilacountyaz.gov/government/board_of_supervisors/government/board_of_supervisors/district_3n.php",
+      "photo_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/government/board_of_supervisors/district_3/images/Woody_Cline-for-web.jpg?t=202503281608280",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Gila County Courthouse 1400 E. Ash Street Globe, Arizona 85501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gila County",
+        "state": "AZ"
+      },
+      "source_url": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

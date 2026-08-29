@@ -1,11 +1,12 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-28T07:15:56.557Z",
-  "count": 397,
+  "generated_at": "2026-08-29T04:33:42.194Z",
+  "count": 426,
   "cities": [
     "Abilene",
     "Allen",
     "Arlington",
+    "Atascosa County",
     "Austin",
     "Bastrop",
     "Bastrop County",
@@ -32,17 +33,21 @@
     "Elgin",
     "Fort Bend County",
     "Frisco",
+    "Galveston",
     "Garland",
     "Granbury",
     "Grand Prairie",
+    "Grapevine",
     "Grayson County",
     "Harris County",
     "Harrison County",
     "Hays County",
     "Hidalgo County",
+    "Huntsville",
     "Hutto",
     "Jefferson County",
     "Kaufman County",
+    "Kendall County",
     "Killeen",
     "Kyle",
     "Lakeway",
@@ -74,6 +79,7 @@
     "Travis County",
     "Victoria",
     "Waco",
+    "Waxahachie",
     "Wichita Falls",
     "Williamson County"
   ],
@@ -542,6 +548,130 @@
       "source_url": "https://www.arlingtontx.gov/Government/Contact-Us?OC_EA_EmergencyAnnouncementList_Dismiss=d6384cea-be50-47fe-925b-431c024cdd64",
       "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 0.8
+    },
+    {
+      "id": "tx:atascosa-county:county-commissioner:george-butch-pawelek",
+      "name": "George \"Butch\" Pawelek",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Atascosa County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "830-277-1213",
+      "email": "comm3@co.atascosa.tx.us",
+      "url": null,
+      "photo_url": "https://co.atascosa.tx.us/wp-content/uploads/2025/11/SAM_0182-819x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Physical Address: 76 Yule Ave Charlotte, TX 78011; Mailing Address: 1 Courthouse Circle Drive Suite 105 Jourdanton, TX 78026",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Atascosa County",
+        "state": "TX"
+      },
+      "source_url": "https://co.atascosa.tx.us/commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:atascosa-county:county-commissioner:joseph-b.-eustace",
+      "name": "Joseph B. Eustace",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Atascosa County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "830-569-1147",
+      "email": "commissioner4@atascosacounty.texas.gov",
+      "url": null,
+      "photo_url": "https://co.atascosa.tx.us/wp-content/uploads/2026/01/1751577813923.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Physical Address: 384 Shale Road Pleasanton, TX 78064; Mailing Address: 1 Courthouse Circle Drive Suite 105 Jourdanton, TX 78026",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Atascosa County",
+        "state": "TX"
+      },
+      "source_url": "https://co.atascosa.tx.us/commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:atascosa-county:county-commissioner:mark-bowen",
+      "name": "Mark Bowen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Atascosa County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "830-742-3946",
+      "email": "comm2@co.atascosa.tx.us",
+      "url": null,
+      "photo_url": "https://co.atascosa.tx.us/wp-content/uploads/2025/11/SAM_0209-861x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Physical Address: 100 W FM 476, Poteet, TX 78065; Mailing Address: 1 Courthouse Circle Drive Suite 105 Jourdanton, TX 78026",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Atascosa County",
+        "state": "TX"
+      },
+      "source_url": "https://co.atascosa.tx.us/commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:atascosa-county:county-commissioner:mark-gillespie",
+      "name": "Mark Gillespie",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Atascosa County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "830-569-2901",
+      "email": "commissioner1@atascosacounty.texas.gov",
+      "url": null,
+      "photo_url": "https://co.atascosa.tx.us/wp-content/uploads/2025/11/SAM_0185-900x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Physical Address: 152 Ben Parker Pleasanton, TX 78064; Mailing Address: 1 Courthouse Circle Drive Suite 105 Jourdanton, TX 78026",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Atascosa County",
+        "state": "TX"
+      },
+      "source_url": "https://co.atascosa.tx.us/commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
     },
     {
       "id": "tx:austin:council-member:josé-chito-vela",
@@ -1910,7 +2040,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1933,7 +2063,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1956,7 +2086,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2010,7 +2140,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -4349,6 +4479,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:galveston:council-member:alex-porretto",
+      "name": "Alex Porretto",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "AlexPorretto@GalvestonTX.gov",
+      "url": "https://www.galvestontx.gov/759/District-4---Alex-Porretto",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=19468",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council in 2024 and 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:council-member:bob-brown",
+      "name": "Bob Brown",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "BobBrown@GalvestonTX.Gov",
+      "url": "https://www.galvestontx.gov/518/District-3---Bob-Brown",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=19246",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council in 2024. Term expires in May 2026.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:council-member:jason-hardcastle",
+      "name": "Jason Hardcastle",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "jasonhardcastle@galvestontx.gov",
+      "url": "https://www.galvestontx.gov/1447/District-6---Jason-Hardcastle",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=22246",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council in 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:council-member:jeff-taylor",
+      "name": "Jeff Taylor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": "jeffreytaylor@galvestontx.gov",
+      "url": "https://www.galvestontx.gov/1446/District-2---Jeff-Taylor",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=22244",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:council-member:michael-niebuhr",
+      "name": "Michael Niebuhr",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "michaelniebuhr@galvestontx.gov",
+      "url": "https://www.galvestontx.gov/412/District-5---Michael-Niebuhr",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=22245",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council in 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:council-member:sharon-b.-lewis",
+      "name": "Sharon B. Lewis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "sharonlewis@galvestontx.gov",
+      "url": "https://www.galvestontx.gov/409/District-1---Sharon-B-Lewis",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=16117",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council in 2021 Special Election, 2022, 2024 and 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:galveston:mayor:john-paul-listowski",
+      "name": "John Paul Listowski",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Galveston City Council",
+      "district": null,
+      "phone": "409-797-3500",
+      "email": "johnlistowski@galvestontx.gov",
+      "url": "https://www.galvestontx.gov/1448/Mayor---John-Paul-Listowski",
+      "photo_url": "https://www.galvestontx.gov/ImageRepository/Document?documentID=22243",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 779 823 Rosenberg Galveston, TX 77553",
+      "offices": [],
+      "hours": null,
+      "bio": "Elected Galveston Mayor in 2026. Term expires in May 2028.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Galveston",
+        "state": "TX"
+      },
+      "source_url": "https://www.galvestontx.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:garland:council-member:christina-segoviano",
       "name": "Christina Segoviano",
       "office": "City Council Member",
@@ -4969,6 +5316,223 @@
       "confidence": 0.85
     },
     {
+      "id": "tx:grapevine:council-member:chris-coy",
+      "name": "Chris Coy",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 5",
+      "phone": "817-410-3000",
+      "email": "ccoy@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/98/Place-5---Chris-Coy",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12155",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to Place 5 in 2008, Chris Coy's term expires in 2026. A Grapevine resident since 1989, he is the Vice President of Finance for Authentix and holds an MBA from Southern Methodist University.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:council-member:duff-odell",
+      "name": "Duff O'Dell",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 6",
+      "phone": "817-410-3000",
+      "email": "dodell@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/99/Place-6---Duff-ODell",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12156",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Duff O'Dell was elected to Place 6 in 2014, with her term expiring in 2026. A Grapevine resident since 1985, she is married to Patrick O'Dell and is retired from Delta Air Lines and Premier Bank Texas.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:council-member:leon-leal",
+      "name": "Leon Leal",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 3",
+      "phone": "817-410-3000",
+      "email": "lleal@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/96/Place-3---Leon-Leal",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12152",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Leon Leal has been a proud Grapevine resident since 1992, dedicating decades to serving the community through civic, educational, and nonprofit organizations, including nine years on the Grapevine-Colleyville Board of Trustees. He is a graduate of the University of Oklahoma, owner of Abba Staffing & Consulting Inc. and Abba Investment LLC, and is committed to preserving Grapevine's quality of life.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:council-member:sean-shope",
+      "name": "Sean Shope",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 4",
+      "phone": "817-410-3000",
+      "email": "sshope@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/97/Place-4---Sean-Shope",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12151",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong Grapevine resident, Sean Shope was elected to City Council Place 4 in 2025, with his term expiring in 2028. He brings over 30 years of professional experience in banking and finance to his community service, and he and his wife, Paula, are proud parents and grandparents.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:council-member:sharron-rogers",
+      "name": "Sharron Rogers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 2",
+      "phone": "817-410-3000",
+      "email": "Sharronr@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/95/Place-2---Sharron-Rogers",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12154",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Sharron Rogers was elected to Place 2 in 1985, with her current term expiring in 2027. She has been a Grapevine resident since 1975, retired from American Airlines after 21 years of service, and is a past Vice President for Spencer Engineering, Inc.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:mayor-pro-tem,-council-member:paul-slechta",
+      "name": "Paul Slechta",
+      "office": "Mayor Pro Tem, City Council Member",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": "Place 1",
+      "phone": "817-410-3000",
+      "email": "pslechta@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/94/Place-1---Mayor-Pro-Tem---Paul-Slechta",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Slechta was elected to Place 1 in November 2015 and Mayor Pro Tem in May 2025, with his term expiring in May 2027. A Grapevine resident since 1990 and a graduate of North Carolina State University, he owns Panda Embroidery in Grapevine and is married to Tiffany with two children, Katelyn and Tucker.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:grapevine:mayor:william-d.-tate",
+      "name": "William D. Tate",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Grapevine City Council",
+      "district": null,
+      "phone": "817-410-3000",
+      "email": "wtate@grapevinetexas.gov",
+      "url": "https://www.grapevinetexas.gov/93/Mayor---William-D-Tate",
+      "photo_url": "https://www.grapevinetexas.gov/ImageRepository/Document?documentId=12153",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Main Street Grapevine, TX 76051",
+      "offices": [],
+      "hours": null,
+      "bio": "Born and raised in Grapevine, William D. Tate has a law practice and title company in the city. He holds a Bachelor of Business Administration in Accounting from North Texas State University and a Doctor of Jurisprudence from the University of Houston. He is married to Betty Tate and they have five daughters.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Grapevine",
+        "state": "TX"
+      },
+      "source_url": "https://www.grapevinetexas.gov/27/Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:grayson-county:commissioner:matt-hardenburg",
       "name": "Matt Hardenburg",
       "office": "Commissioner",
@@ -5534,6 +6098,285 @@
       "confidence": 1
     },
     {
+      "id": "tx:huntsville:council-member-at-large:bert-lyle",
+      "name": "Bert Lyle",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "At-Large Position 1",
+      "phone": "936-291-5413",
+      "email": "blyle@huntsvilletx.gov",
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=312",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25555",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member-at-large:karen-denman",
+      "name": "Karen Denman",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "At-Large Position 2",
+      "phone": "936-291-5400",
+      "email": null,
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=259",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25557",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member-at-large:pat-graham",
+      "name": "Pat Graham",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "At-Large Position 4",
+      "phone": "936-291-5413",
+      "email": "pgraham@huntsvilletx.gov",
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=315",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25553",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member-at-large:vicki-mckenzie",
+      "name": "Vicki McKenzie",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "At-Large Position 3",
+      "phone": "936-291-5400",
+      "email": null,
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=316",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25554",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member:anissa-antwine",
+      "name": "Anissa Antwine",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "Ward 3",
+      "phone": "936-291-5413",
+      "email": "anissa.antwine@huntsvilletx.gov",
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=413",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25558",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": "Anissa Antwine serves as Councilmember Ward Three.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member:casey-cox",
+      "name": "Casey Cox",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "Ward 2",
+      "phone": "936-291-5413",
+      "email": "casey.cox@huntsvilletx.gov",
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=412",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25556",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:council-member:tore-fossum",
+      "name": "Tore Fossum",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "Ward 1",
+      "phone": "936-291-5413",
+      "email": "tore.fossum@huntsvilletx.gov",
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=411",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25559",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:mayor-pro-tem:jon-strong",
+      "name": "Jon Strong",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": "Ward 4",
+      "phone": "936-291-5400",
+      "email": null,
+      "url": "https://www.huntsvilletx.gov/directory.aspx?EID=347",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:huntsville:mayor:russell-humphrey",
+      "name": "Russell Humphrey",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Huntsville City Council",
+      "district": null,
+      "phone": "936-291-5350",
+      "email": null,
+      "url": "https://www.huntsvilletx.gov/Directory.aspx?EID=299",
+      "photo_url": "https://www.huntsvilletx.gov/ImageRepository/Document?documentId=25561",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1212 Avenue M Huntsville, TX 77340",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Huntsville",
+        "state": "TX"
+      },
+      "source_url": "https://www.huntsvilletx.gov/343/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:hutto:council-member:aaron-king",
       "name": "Aaron King",
       "office": "Councilmember",
@@ -5693,6 +6536,37 @@
       },
       "source_url": "https://www.kaufmancounty.net/530/Precinct-4-Commissioner-Tommy-Moore",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:kendall-county:commissioner:jennifer-mccall",
+      "name": "Jennifer McCall",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Kendall County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "(830)249-9343 Ext 370",
+      "email": "jennifer.mccall@co.kendall.tx.us",
+      "url": "https://www.kendallcountytx.gov/m/directory/employee?eid=27",
+      "photo_url": "https://www.kendallcountytx.gov/ImageRepository/Document?documentID=2410",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 San Antonio Ave.\nBoerne, TX 78006",
+      "offices": [],
+      "hours": "Monday through Friday : 8 am to 5 pm Saturday through Sunday: Closed",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Kendall County",
+        "state": "TX"
+      },
+      "source_url": "https://www.kendallcountytx.gov/m/directory/department?did=69",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -11258,6 +12132,37 @@
       },
       "source_url": "https://www.waco-texas.com/Government/City-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:waxahachie:mayor-pro-tem,-city-council:travis-smith",
+      "name": "Travis Smith",
+      "office": "Mayor Pro Tem, City Council",
+      "level": "local",
+      "body": "Waxahachie City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": "travissmith@waxahachietx.gov",
+      "url": null,
+      "photo_url": "https://www.waxahachietx.gov/ImageRepository/Document?documentID=2986",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waxahachie",
+        "state": "TX"
+      },
+      "source_url": "https://www.waxahachietx.gov/m/directory/employee?eid=45",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

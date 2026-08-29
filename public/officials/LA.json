@@ -1,14 +1,16 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 50,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 61,
   "cities": [
     "Bossier City",
     "Lafayette Parish",
     "Lake Charles",
+    "Monroe",
     "New Orleans",
     "Orleans Parish",
     "Shreveport",
+    "St. Martin Parish",
     "St. Tammany Parish",
     "Terrebonne Parish"
   ],
@@ -476,6 +478,68 @@
       },
       "source_url": "https://www.cityoflakecharles.com/171/City-Council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:monroe:council-clerk:carolus-riley",
+      "name": "Carolus Riley",
+      "office": "Council Clerk",
+      "level": "local",
+      "body": "Monroe City Council",
+      "district": null,
+      "phone": "318-329-2252",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monroe",
+        "state": "LA"
+      },
+      "source_url": "https://monroela.us/government/city-council/citizen-support/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:monroe:interim-internal-auditor:yolanda-washington",
+      "name": "Yolanda Washington",
+      "office": "Interim Internal Auditor",
+      "level": "local",
+      "body": "Monroe City Council",
+      "district": null,
+      "phone": "318-329-2303",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Monroe",
+        "state": "LA"
+      },
+      "source_url": "https://monroela.us/government/city-council/citizen-support/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -1220,6 +1284,285 @@
       },
       "source_url": "https://www.shreveportla.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member,-chair:chris-tauzin",
+      "name": "Chris Tauzin",
+      "office": "Parish Council Member, Chair",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 5",
+      "phone": "337-277-3563",
+      "email": "ctauzin@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Chris%20Tauzin%202024%20-%20Copy.jpg?t=202401180943340",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1013 Circle T Farms Road Breaux Bridge, Louisiana 70517",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member,-vice-chair:chris-courville",
+      "name": "Chris Courville",
+      "office": "Parish Council Member, Vice-Chair",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 9",
+      "phone": "337-581-4878",
+      "email": "cpcourville@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Chris%20Courville%202024%20-%20Copy.jpg?t=202401180948070",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1057 Sandy Nell Drive Breaux Bridge, Louisiana 70517",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:ben-clay",
+      "name": "Ben Clay",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 8",
+      "phone": "337-342-4855",
+      "email": "bclay@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Ben%20Clay%202024%20-%20Copy.jpg?t=202401180947230",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2436 Cecilia Sr High School Highway Breaux Bridge, Louisiana 70517",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:carla-jeanbatiste",
+      "name": "Carla JeanBatiste",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 2",
+      "phone": "337-341-9115",
+      "email": "cjeanbatiste@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Carla%20JeanBatiste%202024%20-%20Copy%20-%20Copy.jpg?t=202401180925320",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1084 Alexander Circle St. Martinville, Louisiana 70582",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:corey-melancon",
+      "name": "Corey Melancon",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 6",
+      "phone": "337-552-3463",
+      "email": "cmelancon@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Corey%20Melancon%202024%20-%20Copy.jpg?t=202401180944380",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "487 Nona Street Breaux Bridge, Louisiana 70517",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:david-poirier",
+      "name": "David Poirier",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 4",
+      "phone": "337-680-1405",
+      "email": "dpoirier@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/David%20Poirier%202024%20-%20Copy.jpg?t=202401180941110",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1817 Cypress Island Highway St. Martinville, Louisiana 70582",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:hoyt-louviere",
+      "name": "Hoyt Louviere",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 1",
+      "phone": "337-680-0032",
+      "email": "hlouviere@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Hoyt%20Louviere%202024%20-%20Copy%20(2).jpg?t=202401180939560",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1020 Doris Road St. Martinville, Louisiana 70582",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:tangie-narcisse",
+      "name": "Tangie Narcisse",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 3",
+      "phone": "337-342-8897",
+      "email": "tnarcisse@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Tangie%20Narcisse%202024%20-%20Copy.jpg?t=202401180940250",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1070 Belle Terre Drive St. Martinville, Louisiana 70582",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-martin-parish:parish-council-member:vincent-alexander",
+      "name": "Vincent Alexander",
+      "office": "Parish Council Member",
+      "level": "county",
+      "body": "St. Martin Parish Commissioners Court",
+      "district": "District 7",
+      "phone": "337-278-8349",
+      "email": "valexander@stmartinparish.net",
+      "url": null,
+      "photo_url": "https://www.stmartinparish.net/government/parish_council/government/parish%20council/Vincent%20Alexander%202024%20-%20Copy.jpg?t=202401180946000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 West Mills Avenue Breaux Bridge, Louisiana 70517",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Martin Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.stmartinparish.net/government/parish_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

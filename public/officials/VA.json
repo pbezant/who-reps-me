@@ -1,7 +1,7 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 83,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 85,
   "cities": [
     "Alexandria",
     "Arlington County",
@@ -14,12 +14,14 @@
     "Hampton city",
     "Hanover County",
     "Henrico County",
+    "Henry County",
     "Newport News",
     "Norfolk",
     "Prince William County",
     "Roanoke",
     "Suffolk",
     "Suffolk city",
+    "Washington County",
     "York County"
   ],
   "officials": [
@@ -1543,6 +1545,37 @@
       "confidence": 1
     },
     {
+      "id": "va:henry-county:commissioner-of-the-revenue:tiffany-r.-hairston",
+      "name": "Tiffany R. Hairston",
+      "office": "Commissioner of the Revenue",
+      "level": "county",
+      "body": "Henry County Commissioners Court",
+      "district": null,
+      "phone": "276-634-4690",
+      "email": "trhairston@henrycountyva.gov",
+      "url": "https://www.henrycountyva.gov/m/directory/employee?eid=68",
+      "photo_url": "https://www.henrycountyva.gov/ImageRepository/Document?documentID=1101",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3300 Kings Mountain Road Martinsville, VA 24112",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Henry County",
+        "state": "VA"
+      },
+      "source_url": "https://www.henrycountyva.gov/274/Commissioner-of-the-Revenue",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "va:newport-news:mayor:phillip-jones",
       "name": "Phillip Jones",
       "office": "Mayor",
@@ -2563,6 +2596,37 @@
       },
       "source_url": "https://www.suffolkva.us/881/City-Council-Mayor",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:washington-county:county-administrator:jason-berry",
+      "name": "Jason Berry",
+      "office": "County Administrator",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.washingtoncountyva.com/wp-content/uploads/2019/08/Jason-Round-2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "VA"
+      },
+      "source_url": "https://www.washingtoncountyva.com/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

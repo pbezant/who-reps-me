@@ -1,10 +1,11 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 174,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 182,
   "cities": [
     "Bellevue",
     "Bellingham",
+    "Burien",
     "Clallam County",
     "Clark County",
     "Everett",
@@ -29,6 +30,7 @@
     "Snohomish County",
     "Spokane County",
     "Spokane Valley",
+    "Stevens County",
     "Thurston County",
     "Whatcom County",
     "Yakima",
@@ -281,6 +283,223 @@
       },
       "source_url": "https://cob.org/gov/mayor",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:council-member:alex-andrade",
+      "name": "Alex Andrade",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:council-member:kevin-schilling",
+      "name": "Kevin Schilling",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:council-member:patricia-hudson",
+      "name": "Patricia Hudson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:council-member:rocco-devito",
+      "name": "Rocco DeVito",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:council-member:sam-méndez",
+      "name": "Sam Méndez",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:deputy-mayor:hugo-garcia",
+      "name": "Hugo Garcia",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:burien:mayor:sarah-moore",
+      "name": "Sarah Moore",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Burien City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Burien",
+        "state": "WA"
+      },
+      "source_url": "https://www.burienwa.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -4764,6 +4983,37 @@
       "source_url": "https://www.spokanevalleywa.gov/",
       "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 0.7
+    },
+    {
+      "id": "wa:stevens-county:clerk-of-the-board-of-stevens-county-commissioners:jonnie-brown",
+      "name": "Jonnie Brown",
+      "office": "Clerk of the Board of Stevens County Commissioners",
+      "level": "county",
+      "body": "Stevens County Commissioners Court",
+      "district": null,
+      "phone": "509-684-3751",
+      "email": "jbrown@stevenscountywa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stevens County",
+        "state": "WA"
+      },
+      "source_url": "https://www.stevenscountywa.gov/20844/eastern-washington-council-of-governments",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
     },
     {
       "id": "wa:thurston-county:commissioner:carolina-mejia",

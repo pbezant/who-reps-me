@@ -1,7 +1,7 @@
 {
   "state": "NY",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 171,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 190,
   "cities": [
     "Albany",
     "Buffalo",
@@ -11,6 +11,7 @@
     "Livingston County",
     "Madison County",
     "Monroe County",
+    "Montgomery County",
     "Mount Vernon",
     "Nassau County",
     "Ontario County",
@@ -18,6 +19,7 @@
     "Rochester",
     "Saratoga County",
     "Suffolk County",
+    "Troy",
     "Ulster County",
     "Utica",
     "Washington County",
@@ -2878,6 +2880,378 @@
       "confidence": 1
     },
     {
+      "id": "ny:montgomery-county:clerk-of-the-legislature:patricia-beck",
+      "name": "Patricia Beck",
+      "office": "Clerk of the Legislature",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": "518-853-8338",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:county-clerk/clerk-of-supreme-&-county-court/records-access-officer:brittany-kolbe",
+      "name": "Brittany Kolbe",
+      "office": "County Clerk / Clerk of Supreme & County Court /Records Access Officer",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": "518-853-8111",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:county-executive:pete-vroman",
+      "name": "Pete Vroman",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": null,
+      "phone": "518-853-4304",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:aurelio-j.-fiorillo",
+      "name": "Aurelio J. Fiorillo",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 5",
+      "phone": "518-848-2407",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:brian-d.-sweet",
+      "name": "Brian D. Sweet",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 2",
+      "phone": "518-848-2327",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:chad-j.-majewski",
+      "name": "Chad J. Majewski",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 6",
+      "phone": "518-774-0437",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:maria-kowalczyk",
+      "name": "Maria Kowalczyk",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 8",
+      "phone": "518-705-8887",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:michael-j.-pepe",
+      "name": "Michael J. Pepe",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 7",
+      "phone": "518-366-1562",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:michael-l.-muhlebeck",
+      "name": "Michael L. Muhlebeck",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 3",
+      "phone": "518-752-6269",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:michele-pawlik",
+      "name": "Michele Pawlik",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 9",
+      "phone": "518-866-1193",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:robert-headwell,-jr.",
+      "name": "Robert Headwell, Jr.",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 4",
+      "phone": "518-365-6837",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:montgomery-county:legislator:thomas-w.-elwood",
+      "name": "Thomas W. Elwood",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Montgomery County Commissioners Court",
+      "district": "District 1",
+      "phone": "518-848-2696",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montgomery County",
+        "state": "NY"
+      },
+      "source_url": "https://www.montgomerycountyny.gov/web/sites/government/officials.asp",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "ny:mount-vernon:acting-president-pro-tem:cathlin-b.-gleason",
       "name": "Cathlin B. Gleason",
       "office": "Acting President Pro Tem",
@@ -4239,6 +4613,223 @@
       },
       "source_url": "https://www.suffolkcountyny.gov/#",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:council-member:greg-campbell-cohen",
+      "name": "Greg Campbell-Cohen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 6",
+      "phone": "518-279-7130",
+      "email": "Greg.Campbell-Cohen@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=65",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:council-member:jona-favreau",
+      "name": "Jona Favreau",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 5",
+      "phone": "518-279-7130",
+      "email": "Jona.Favreau@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=33",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:council-member:noreen-mckee",
+      "name": "Noreen McKee",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 4",
+      "phone": "518-279-7130",
+      "email": "Noreen.McKee@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=62",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:council-member:phil-dilorenzo",
+      "name": "Phil DiLorenzo",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 1",
+      "phone": "518-279-7130",
+      "email": "Phil.DiLorenzo@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=61",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:council-member:shikole-struber",
+      "name": "Shikole Struber",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 2",
+      "phone": "518-279-7130",
+      "email": "Shikole.Struber@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=63",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:president-at-large:sue-steele",
+      "name": "Sue Steele",
+      "office": "President At Large",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "At Large",
+      "phone": "518-279-7130",
+      "email": "sue.steele@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=30",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:troy:president-pro-tempore:katie-spain-mclaren",
+      "name": "Katie Spain-McLaren",
+      "office": "President Pro Tempore",
+      "level": "local",
+      "body": "Troy City Council",
+      "district": "District 3",
+      "phone": "518-279-7130",
+      "email": "Katie.Mclaren@troyny.gov",
+      "url": "https://www.troyny.gov/Directory.aspx?EID=64",
+      "photo_url": "https://www.troyny.gov/ImageRepository/Document?documentID=3179",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "433 River St, Troy, NY 12180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Troy",
+        "state": "NY"
+      },
+      "source_url": "https://www.troyny.gov/315/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

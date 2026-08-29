@@ -1,17 +1,205 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-28T07:15:56.557Z",
-  "count": 55,
+  "generated_at": "2026-08-29T04:33:42.194Z",
+  "count": 63,
   "cities": [
+    "Albany",
     "Clackamas County",
     "Deschutes County",
     "Eugene",
+    "Lincoln County",
     "Linn County",
     "Multnomah County",
     "Portland",
     "Umatilla County"
   ],
   "officials": [
+    {
+      "id": "or:albany:council-member:chris-van-drimmelen",
+      "name": "Chris Van Drimmelen",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 2a",
+      "phone": "541-990-1613",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/chris-van-drimmelen.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:albany:council-member:marilyn-smith",
+      "name": "Marilyn Smith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 3b",
+      "phone": "541-990-2917",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/marilyn-smith.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:albany:council-member:michael-thomson",
+      "name": "Michael Thomson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 1b",
+      "phone": "541-990-3292",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/michael-thomson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:albany:council-member:ramycia-mcghee",
+      "name": "Ramycia McGhee",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 3a",
+      "phone": "541-990-0637",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/ramycia-mcghee.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:albany:council-member:steph-newton",
+      "name": "Steph Newton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": "Ward 1a",
+      "phone": "541-619-2435",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/steph-newton.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:albany:mayor:alex-johnson-ii",
+      "name": "Alex Johnson II",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Albany City Council",
+      "district": null,
+      "phone": "541-990-3404",
+      "email": null,
+      "url": null,
+      "photo_url": "https://albanyoregon.gov/images/stories/citycouncil/headshots/alex-johnson-ii.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Albany",
+        "state": "OR"
+      },
+      "source_url": "https://albanyoregon.gov/council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
     {
       "id": "or:clackamas-county:chair:craig-roberts",
       "name": "Craig Roberts",
@@ -664,6 +852,68 @@
       "confidence": 1
     },
     {
+      "id": "or:lincoln-county:commissioner:casey-miller",
+      "name": "Casey Miller",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": "Position 1",
+      "phone": "541-265-4100",
+      "email": "clmiller@co.lincoln.or.us",
+      "url": "https://www.co.lincoln.or.us/m/directory/employee?eid=104",
+      "photo_url": "https://www.co.lincoln.or.us/ImageRepository/Document?documentId=3233",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 W Olive Street Room 110 Newport, OR 97365",
+      "offices": [],
+      "hours": null,
+      "bio": "Casey has referred to himself as a generalist in regard to the various skillsets he brings to his work with the commission. Born in Newport, prior to his current term, Casey served our community as the Public Information Officer in the Board of Commissioners Office since 2008. As an elected official he brings 14 years of experience in communications, emergency response communications and unique administrative experience to his work as commissioner. Casey lives with wife, son and cat in just outside of Newport.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OR"
+      },
+      "source_url": "https://www.co.lincoln.or.us/m/directory/department?did=60",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:lincoln-county:commissioner:walter-chuck",
+      "name": "Walter Chuck",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": "Position 3/Vice Chair",
+      "phone": "541-265-4100",
+      "email": "boc@co.lincoln.or.us",
+      "url": "https://www.co.lincoln.or.us/m/directory/employee?eid=207",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 W Olive Street Room 110 Newport, OR 97365",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OR"
+      },
+      "source_url": "https://www.co.lincoln.or.us/m/directory/department?did=60",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "or:linn-county:attorney:nick-maybanks",
       "name": "Nick Maybanks",
       "office": "Attorney",
@@ -1290,7 +1540,7 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/1/jamie-dunphy",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Dunphy---IMG_8672---square---web.jpg?h=85b25253&amp;itok=_ZaBt48i",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Dunphy---IMG_8672---square---web.jpg",
       "social": {
         "twitter": null,
         "facebook": null,
@@ -1308,7 +1558,7 @@
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1321,14 +1571,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/1/candace-avalos",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Pink-Official-Background_0.png?h=8212257a&amp;itok=Brmxkd2Z",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Pink-Official-Background_0.png",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1344,14 +1594,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/1/loretta-smith",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/CouncilorSmithheadshot.jpg?h=a925b36f&amp;itok=KeVIbhqt",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/CouncilorSmithheadshot.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1367,14 +1617,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/2/dan-ryan",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Ryan---IMG_8965---square---web.jpg?h=1db93414&amp;itok=fo_q-c2P",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Ryan---IMG_8965---square---web.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1390,14 +1640,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/2/elana-pirtle-guiney",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/Untitled---August-24--2026-at-16.24.00_0.png?h=3521e804&amp;itok=AX6vASpV",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/Untitled---August-24--2026-at-16.24.00_0.png",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1413,14 +1663,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/2/sameer-kanal",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Kanal---IMG_9048---square---web_0.jpg?h=b74eb11d&amp;itok=93pYVUt0",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Kanal---IMG_9048---square---web_0.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1436,14 +1686,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/3/angelita-morillo",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/Untitled---July-08--2026-at-14.11.29--1-.png?h=75572f1c&amp;itok=o44tX70l",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/Untitled---July-08--2026-at-14.11.29--1-.png",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1459,14 +1709,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/3/steve-novick",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Novick---IMG_9553---square---web.jpg?h=9e2f3413&amp;itok=SWYkJ4oQ",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Novick---IMG_9553---square---web.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1482,14 +1732,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/3/tiffany-koyama-lane",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/TKL-profile-yellow-background_0.jpg?h=8304430a&amp;itok=HAKhwOuo",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2026/TKL-profile-yellow-background_0.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1505,7 +1755,7 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/4/olivia-clark",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Clark---IMG_9110---square---web_0.jpg?h=441c11e4&amp;itok=Hi_KbBVG",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Clark---IMG_9110---square---web_0.jpg",
       "social": {
         "twitter": null,
         "facebook": null,
@@ -1523,7 +1773,7 @@
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -1536,14 +1786,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/4/eric-zimmerman",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Profile-Photo.png?h=297da09b&amp;itok=F2dX8q8T",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Profile-Photo.png",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1559,14 +1809,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/council/districts/4/mitch-green",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Green---IMG_8827---square---web.jpg?h=f28e14bd&amp;itok=Ha4gKrA-",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2025/Green---IMG_8827---square---web.jpg",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -1582,14 +1832,14 @@
       "phone": null,
       "email": null,
       "url": "https://www.portland.gov/mayor/keith-wilson",
-      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2024/Wilson-Blue-Background_0.png?h=99257d56&amp;itok=JOUt3T_g",
+      "photo_url": "https://www.portland.gov/sites/default/files/styles/1_1_80w/public/2024/Wilson-Blue-Background_0.png",
       "address": null,
       "jurisdiction": {
         "city": "Portland",
         "state": "OR"
       },
       "source_url": "https://www.portland.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1,
       "social": {},
       "offices": [],

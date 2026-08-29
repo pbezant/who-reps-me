@@ -1,10 +1,11 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 37,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 40,
   "cities": [
     "Boone County",
     "Bowling Green",
+    "Boyd County",
     "Campbell County",
     "Hardin County",
     "Oldham County",
@@ -350,6 +351,99 @@
       },
       "source_url": "https://www.bgky.org/city-commission",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:boyd-county:commissioner:david-salisbury",
+      "name": "David Salisbury",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Boyd County Commissioners Court",
+      "district": "District 1",
+      "phone": "606-739-4134",
+      "email": "dsalisbury@boydcountyky.gov",
+      "url": "https://boydcountyky.gov/m/directory/employee?eid=8",
+      "photo_url": "https://boydcountyky.gov/ImageRepository/Document?documentID=339",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2800 Louisa Street\nCatlettsburg, KY 41129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Boyd County",
+        "state": "KY"
+      },
+      "source_url": "https://boydcountyky.gov/196/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:boyd-county:commissioner:jeremy-holbrook",
+      "name": "Jeremy Holbrook",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Boyd County Commissioners Court",
+      "district": "District 2",
+      "phone": "606-739-4134",
+      "email": "jholbrook@boydcountyky.gov",
+      "url": "https://boydcountyky.gov/m/directory/employee?eid=9",
+      "photo_url": "https://boydcountyky.gov/ImageRepository/Document?documentID=340",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2800 Louisa Street\nCatlettsburg, KY 41129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Boyd County",
+        "state": "KY"
+      },
+      "source_url": "https://boydcountyky.gov/196/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:boyd-county:commissioner:randy-stapleton",
+      "name": "Randy Stapleton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Boyd County Commissioners Court",
+      "district": "District 3",
+      "phone": "606-928-9063",
+      "email": "rstapleton@boydcountyky.gov",
+      "url": "https://boydcountyky.gov/m/directory/employee?eid=10",
+      "photo_url": "https://boydcountyky.gov/ImageRepository/Document?documentID=338",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2800 Louisa Street\nCatlettsburg, KY 41129",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Boyd County",
+        "state": "KY"
+      },
+      "source_url": "https://boydcountyky.gov/196/County-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

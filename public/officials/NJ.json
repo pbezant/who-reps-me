@@ -1,7 +1,7 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 89,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 95,
   "cities": [
     "Camden",
     "Cape May County",
@@ -18,6 +18,7 @@
     "Paterson",
     "Plainfield",
     "Salem County",
+    "Sayreville",
     "Vineland"
   ],
   "officials": [
@@ -2757,6 +2758,192 @@
       },
       "source_url": "https://www.salemcountynj.gov/commissioner-documents/collective-bargaining-agreements/",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:council-president:john-zebrowski",
+      "name": "John Zebrowski",
+      "office": "Council President",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:councilman:alberto-rios",
+      "name": "Alberto Rios",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:councilman:herve-blemur",
+      "name": "Herve Blemur",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:councilman:michael-colaci",
+      "name": "Michael Colaci",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:councilman:stanley-synarski",
+      "name": "Stanley Synarski",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:sayreville:councilwoman:mary-novak",
+      "name": "Mary Novak",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Sayreville City Council",
+      "district": null,
+      "phone": "732-390-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "167 Main Street Sayreville, NJ 08872",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sayreville",
+        "state": "NJ"
+      },
+      "source_url": "https://www.sayreville.com/cn/TownCouncil/?tpid=8636",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

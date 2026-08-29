@@ -1,15 +1,18 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 54,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 66,
   "cities": [
     "Cache County",
     "Herriman",
     "Logan",
     "Millcreek",
+    "Murray",
     "Orem",
+    "Riverton",
     "Salt Lake County",
     "South Jordan",
+    "Spanish Fork",
     "St. George",
     "Utah County",
     "West Valley City"
@@ -574,6 +577,37 @@
       "confidence": 1
     },
     {
+      "id": "ut:murray:mayor:brett-a.-hales",
+      "name": "Brett A. Hales",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Murray City Council",
+      "district": null,
+      "phone": "801-264-2600",
+      "email": null,
+      "url": "https://www.murray.utah.gov/113/Mayors-Biography",
+      "photo_url": "https://www.murray.utah.gov/ImageRepository/Document?documentID=15236",
+      "social": {
+        "twitter": "https://twitter.com/MurrayCityUT",
+        "facebook": "https://www.facebook.com/MurrayCityUtah",
+        "instagram": "https://www.instagram.com/murraycityutah/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 East 4800 South\n3rd Floor\nMurray, UT 84107",
+      "offices": [],
+      "hours": null,
+      "bio": "Brett A. Hales was elected Mayor of Murray City and took the oath of office on Tuesday, January 4, 2022. He has been married to his wife, Cindy, for 40 years and together they raised five children in Murray. Before running for Mayor, Brett served on the Murray City Council for 10 years, representing District 5.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Murray",
+        "state": "UT"
+      },
+      "source_url": "https://www.murray.utah.gov/113/Mayors-Biography",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "ut:orem:city-council:chris-killpack",
       "name": "Chris Killpack",
       "office": "City Council",
@@ -788,6 +822,161 @@
       },
       "source_url": "https://orem.gov/citycouncil/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:riverton:council-member:alexander-johnson",
+      "name": "Alexander Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Riverton City Council",
+      "district": "District 3",
+      "phone": "801-810-0612",
+      "email": "ajohnson@rivertonutah.gov",
+      "url": null,
+      "photo_url": "https://www.rivertonutah.gov/government/city-council/assets/staff-photos/alexander-johnson-1.2026.png?t=202601081546520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Riverton",
+        "state": "UT"
+      },
+      "source_url": "https://www.rivertonutah.gov/government/city-council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:riverton:council-member:andy-pierucci",
+      "name": "Andy Pierucci",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Riverton City Council",
+      "district": "District 1",
+      "phone": "801-999-0195",
+      "email": "apierucci@rivertonutah.gov",
+      "url": null,
+      "photo_url": "https://www.rivertonutah.gov/government/city-council/assets/staff-photos/andy-pierucci-1.2026.png?t=202601081545490",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Riverton",
+        "state": "UT"
+      },
+      "source_url": "https://www.rivertonutah.gov/government/city-council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:riverton:council-member:shannon-smith",
+      "name": "Shannon Smith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Riverton City Council",
+      "district": "District 4",
+      "phone": "801-520-4136",
+      "email": "ssmith@rivertonutah.gov",
+      "url": null,
+      "photo_url": "https://www.rivertonutah.gov/government/city-council/assets/staff-photos/shannon-smith-2026-1.jpg?t=202601141012210",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Riverton",
+        "state": "UT"
+      },
+      "source_url": "https://www.rivertonutah.gov/government/city-council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:riverton:council-member:spencer-haymond",
+      "name": "Spencer Haymond",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Riverton City Council",
+      "district": "District 5",
+      "phone": "801-381-5757",
+      "email": "shaymond@rivertonutah.gov",
+      "url": null,
+      "photo_url": "https://www.rivertonutah.gov/government/city-council/departments/recorder/elections/spencer-haymond-1.2026.png?t=202601081547380",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Riverton",
+        "state": "UT"
+      },
+      "source_url": "https://www.rivertonutah.gov/government/city-council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:riverton:council-member:troy-mcdougal",
+      "name": "Troy McDougal",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Riverton City Council",
+      "district": "District 2",
+      "phone": "801-931-9933",
+      "email": "tmcdougal@rivertonutah.gov",
+      "url": null,
+      "photo_url": "https://www.rivertonutah.gov/government/city-council/assets/staff-photos/troy-mcdougal-1.2026-2.jpg?t=202601081714360",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Riverton",
+        "state": "UT"
+      },
+      "source_url": "https://www.rivertonutah.gov/government/city-council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -1129,6 +1318,192 @@
       },
       "source_url": "https://www.sjc.utah.gov/241/City-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:council-member:jesse-cardon",
+      "name": "Jesse Cardon",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/jesse_cardon.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/JesseCardon.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Jesse Cardon was first appointed to the City Council in December 2022 and elected in 2023 to serve a 4-year term. Born and raised in Utah County, he holds a bachelor's degree from Utah Valley University and an online MBA from the University of Ohio, and currently works as a Project Portfolio Manager for Proesis Bio.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:council-member:kevin-oyler",
+      "name": "Kevin Oyler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/kevin_oyler.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/K_Oyler.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Oyler is serving his first term on the city council. He is a lifetime resident of Spanish Fork, graduated from Spanish Fork High School in 1996, and earned a bachelor's degree in Information Technology. He currently works as a Business Intelligence Analyst and previously served four years on the Spanish Fork Planning Commission.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:council-member:landon-tooke",
+      "name": "Landon Tooke",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/landon_tooke.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/LandonTooke.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Landon Tooke has volunteered as a parade announcer at Fiesta Days and served as Santa Claus in the Winter Lights parade. He graduated from Spanish Fork High School, Utah Valley University, and earned his MPA from Brigham Young University. Currently, Landon works at BYU as a Designated Student Official Specialist for International Student & Scholar Services.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:council-member:shane-marshall",
+      "name": "Shane Marshall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/shane_marshall.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/S_Marshall.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Marshall is serving his first term on the city council. After graduating with a civil engineering background, he spent 25 years with the Utah Department of Transportation and also served for four years on the Spanish Fork Planning Commission. Currently, Marshall is the Chief Revenue Officer with Horrocks Engineering.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:council-member:stacy-beck",
+      "name": "Stacy Beck",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/stacy_beck.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/StacyBeck.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Stacy Beck is serving her third term on City Council. She attended UVU and has worked at Utah Valley Magazine for 19 years as a Senior Account Rep. An active member and former President of the Chamber of Commerce, she enjoys traveling, spending time with her 7 grandkids, paddle boarding, and reading.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:spanish-fork:mayor:mike-mendenhall",
+      "name": "Mike Mendenhall",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Spanish Fork City Council",
+      "district": null,
+      "phone": "801-804-4500",
+      "email": "council@spanishfork.gov",
+      "url": "https://www.spanishfork.gov/government/mayor_and_city_council/mike_mendenhall.php",
+      "photo_url": "https://www.spanishfork.gov/government/mayor_and_city_council/images/Government/MikeMendenhall.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "40 S Main St, Spanish Fork, UT 84660",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Mike Mendenhall was born and raised in Spanish Fork, graduating from Spanish Fork High School in 1998. He works full-time as a Financial Advisor with Edward Jones Investments and is married to Amber Geslison, with whom he has three children. Mike has served two four-year terms on the City Council and is currently in his first term as Mayor.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Spanish Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
