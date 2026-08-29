@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { resolveSearchConfig, parseBraveResults, parseGoogleResults, parseTavilyResults } from "./search.js";
+import { resolveSearchConfig, parseBraveResults, parseGoogleResults, parseTavilyResults, pickResultImage } from "./search.js";
 
 // Snapshot/restore the handful of env vars resolveSearchConfig() reads, so a test that sets one
 // can't leak into the next test in this file (node:test runs a file's tests in one process).
@@ -125,7 +125,7 @@ test("parseBraveResults() maps the API shape to {title, url, snippet}", () => {
     },
   };
   assert.deepEqual(parseBraveResults(data), [
-    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site" },
+    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "", score: null, publishedAt: "" },
   ]);
 });
 
@@ -151,7 +151,7 @@ test("parseGoogleResults() drops a result with no link and tolerates a missing i
 test("parseTavilyResults() maps the API shape to {title, url, snippet}, using `content` as the snippet", () => {
   const data = { results: [{ title: "City of Example", url: "https://cityofexample.gov", content: "Official site" }] };
   assert.deepEqual(parseTavilyResults(data), [
-    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site" },
+    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "", score: null, publishedAt: "" },
   ]);
 });
 
@@ -159,4 +159,77 @@ test("parseTavilyResults() drops a result with no url and tolerates a missing re
   assert.deepEqual(parseTavilyResults({ results: [{ title: "no url" }] }), []);
   assert.deepEqual(parseTavilyResults({}), []);
   assert.deepEqual(parseTavilyResults(null), []);
+});
+
+// Fixtures below are abridged from a real Tavily `topic: "news"` response (include_images +
+// include_favicon) for a Texas House member — the exact mix of editorial photo and page furniture
+// that pickResultImage() exists to tell apart.
+test("pickResultImage() takes a real article image even with no file extension", () => {
+  assert.equal(
+    pickResultImage([
+      "https://i.insider.com/68f7a9cf1c1f80efbec5f739?width=700",
+      "https://www.businessinsider.com/public/assets/logos/placeholder.png",
+    ]),
+    "https://i.insider.com/68f7a9cf1c1f80efbec5f739?width=700"
+  );
+});
+
+test("pickResultImage() rejects a page full of interface furniture rather than picking one", () => {
+  assert.equal(
+    pickResultImage([
+      "https://news-cdn.bindg.com/indg/assets/icons/icon-search-white.svg",
+      "https://news-cdn.bindg.com/indg/assets/news/images/logo-law-inline-white.svg",
+      "https://news-cdn.bindg.com/indg/images/26_AUTO_icon-X-black.webp",
+      "https://www.businessinsider.com/public/assets/badges/app-store-badge.svg",
+      "https://www.businessinsider.com/public/assets/badges/google-play-badge.svg",
+    ]),
+    ""
+  );
+});
+
+test("pickResultImage() skips an author thumbnail sized into the URL", () => {
+  assert.equal(
+    pickResultImage(["https://bwrite-static.bloombergindustry.com/dims4/default/a21f901/legacy_thumbnail/80x80%3E/quality/90/x.jpg"]),
+    ""
+  );
+});
+
+test("pickResultImage() keeps a large image whose dimensions are in the URL", () => {
+  const url = "https://cdn.example.com/photos/1200x800/story.jpg";
+  assert.equal(pickResultImage([url]), url);
+});
+
+test("pickResultImage() tolerates a missing, empty, or malformed list", () => {
+  assert.equal(pickResultImage(undefined), "");
+  assert.equal(pickResultImage([]), "");
+  assert.equal(pickResultImage([null, 42, ""]), "");
+});
+
+test("parseTavilyResults() carries through one filtered image and the favicon", () => {
+  const [r] = parseTavilyResults({
+    results: [
+      {
+        url: "https://www.businessinsider.com/story",
+        title: "A story",
+        content: "Body text",
+        images: ["https://www.businessinsider.com/public/assets/logos/stacked-black.svg", "https://i.insider.com/abc?width=700"],
+        favicon: "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-72x72.png",
+      },
+    ],
+  });
+  assert.equal(r.image, "https://i.insider.com/abc?width=700");
+  assert.equal(r.favicon, "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-72x72.png");
+});
+
+test("parseTavilyResults() yields empty media fields when the caller didn't request them", () => {
+  const [r] = parseTavilyResults({ results: [{ url: "https://example.com/a", title: "T", content: "C" }] });
+  assert.equal(r.image, "");
+  assert.equal(r.favicon, "");
+});
+
+test("parseBraveResults() carries through brave's own per-result thumbnail", () => {
+  const [r] = parseBraveResults({
+    web: { results: [{ title: "T", url: "https://example.com/a", description: "D", thumbnail: { src: "https://img.example/t.jpg" } }] },
+  });
+  assert.equal(r.image, "https://img.example/t.jpg");
 });

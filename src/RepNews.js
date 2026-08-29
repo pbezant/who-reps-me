@@ -7,6 +7,16 @@ import { useEffect, useState } from 'react';
 // server-side. That call is routed by SEARCH_PRESET_NEWS (tavily, for its news topic) rather
 // than the SEARCH_PRESET the scraper's discovery fallback uses (brave) — see search.js's header
 // comment. With no key configured, the "isn't set up yet" branch below renders.
+// Absolute date rather than "3 days ago": a relative label silently goes stale against the 12h
+// blob cache (rep-news.mjs), and for news that's months rather than minutes old a real date is
+// what a reader actually wants to judge freshness by.
+function formatPublished(iso) {
+  if (!iso) return '';
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return '';
+  return date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
 export default function RepNews({ rep }) {
   const [state, setState] = useState({ status: 'loading', articles: [], reason: null });
 
@@ -65,9 +75,33 @@ export default function RepNews({ rep }) {
         <ul className="rep-news-list">
           {state.articles.map((a, i) => (
             <li key={i}>
-              <a href={a.url} target="_blank" rel="noreferrer noopener">{a.title}</a>
-              {a.source && <span className="rep-news-source"> — {a.source}</span>}
-              {a.snippet && <p className="rep-news-snippet">{a.snippet}</p>}
+              {/* Both media fields are optional and provider-dependent (see
+                  scraper/src/search.js) — an article with neither renders as text alone, which is
+                  why the thumbnail is a sibling of the text block rather than wrapping it.
+                  referrerPolicy keeps the reader's profile URL from leaking to the publisher's CDN
+                  on a hotlinked image, and onError hides anything that 404s or is hotlink-blocked
+                  rather than leaving a broken-image glyph in the list. */}
+              {(a.image || a.favicon) && (
+                <img
+                  className={a.image ? 'rep-news-thumb' : 'rep-news-favicon'}
+                  src={a.image || a.favicon}
+                  alt=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                />
+              )}
+              <div className="rep-news-text">
+                <a href={a.url} target="_blank" rel="noreferrer noopener">{a.title}</a>
+                {(a.source || a.publishedAt) && (
+                  <span className="rep-news-source">
+                    {a.source}
+                    {a.source && a.publishedAt && ' · '}
+                    {a.publishedAt && <time dateTime={a.publishedAt}>{formatPublished(a.publishedAt)}</time>}
+                  </span>
+                )}
+                {a.snippet && <p className="rep-news-snippet">{a.snippet}</p>}
+              </div>
             </li>
           ))}
         </ul>

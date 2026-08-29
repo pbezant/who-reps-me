@@ -88,7 +88,9 @@ finally had room for:
   provider via `SEARCH_PRESET_NEWS` (see `scraper/README.md`'s "Search fallback" table), so this
   section can run on Tavily — whose `topic: "news"` mode is built for exactly this "recent news
   about a person" case — while jurisdiction discovery stays on Brave's general web index. With no
-  key configured, this section just says news search isn't set up.
+  key configured, this section just says news search isn't set up. Results are bounded to the last
+  180 days and dropped below a relevance threshold: Tavily strips quotes from a phrase query, so
+  without that floor a common first name pulls in articles about an entirely different person.
 - **Voting / legislative record** (`netlify/functions/state-votes.mjs`,
   `netlify/functions/federal-votes.mjs`) — recent bill sponsorship/cosponsorship, not true
   roll-call yes/no vote history: neither Open States nor Congress.gov exposes a clean per-member

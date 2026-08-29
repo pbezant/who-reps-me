@@ -109,7 +109,20 @@ export function resolveSearchConfig({ topic } = {}) {
 // section) but still tests the decision/parsing logic around it.
 export function parseBraveResults(data) {
   return (data?.web?.results || [])
-    .map((r) => ({ title: r.title || "", url: r.url, snippet: r.description || "" }))
+    .map((r) => ({
+      title: r.title || "",
+      url: r.url,
+      snippet: r.description || "",
+      // Brave serves a real per-result thumbnail rather than a scrape of every image on the page,
+      // so it needs none of pickResultImage()'s filtering. Keeps the news UI working unchanged if
+      // SEARCH_PRESET_NEWS is ever pointed back at brave.
+      image: typeof r.thumbnail?.src === "string" ? r.thumbnail.src : "",
+      favicon: typeof r.profile?.img === "string" ? r.profile.img : "",
+      // Brave exposes no relevance score. null (not 0) so a score filter can tell "this provider
+      // doesn't score results" apart from "this result scored badly" and keep the result.
+      score: null,
+      publishedAt: typeof r.page_age === "string" ? r.page_age : "",
+    }))
     .filter((r) => r.url);
 }
 
@@ -122,9 +135,48 @@ export function parseGoogleResults(data) {
 // Tavily's `content` field is the description/snippet (confirmed against docs.tavily.com/
 // documentation/api-reference/endpoint/search on 2026-08-24) — everything else maps 1:1 with
 // the other two parsers' output shape, so every caller of webSearch() stays provider-agnostic.
+// Tavily's per-result `images` is whatever was scraped off the page, not an editorial lead image:
+// a real article photo sometimes comes first, but the list is just as often SVG chrome — nav
+// icons, share buttons, app-store badges, author thumbnails. Verified against a live response for
+// a Texas House member: Business Insider's first entry was a genuine hero image, while every one
+// of Bloomberg Law's fifteen was interface furniture. So this picks the first entry that survives
+// a conservative filter and otherwise yields nothing, because no image reads far better on a news
+// list than a "Download on the App Store" badge does.
+const NON_EDITORIAL_RE = /logo|icon|badge|placeholder|sprite|favicon|app-store|google-play|avatar|button/i;
+const SVG_RE = /\.svg(\?|$)/i;
+// A dimension pair baked into the URL (".../80x80/...", "?w=64") that's too small to be a story
+// image — usually an author headshot or a UI glyph that dodged the name filter above.
+const SMALL_DIMENSIONS_RE = /(?:^|[^\d])(\d{2,4})\s*[x×]\s*(\d{2,4})(?:[^\d]|$)/;
+
+export function pickResultImage(images) {
+  for (const url of images || []) {
+    if (typeof url !== "string" || !url) continue;
+    if (SVG_RE.test(url) || NON_EDITORIAL_RE.test(url)) continue;
+    const dims = url.match(SMALL_DIMENSIONS_RE);
+    if (dims && Number(dims[1]) < 200 && Number(dims[2]) < 200) continue;
+    return url;
+  }
+  return "";
+}
+
 export function parseTavilyResults(data) {
   return (data?.results || [])
-    .map((r) => ({ title: r.title || "", url: r.url, snippet: r.content || "" }))
+    .map((r) => ({
+      title: r.title || "",
+      url: r.url,
+      snippet: r.content || "",
+      // Both optional and provider-specific: absent for brave/google, and absent from tavily too
+      // unless the caller asked for them (see webSearch()'s `media` option). Every consumer
+      // treats them as nice-to-have, never required.
+      image: pickResultImage(r.images),
+      favicon: typeof r.favicon === "string" ? r.favicon : "",
+      // Tavily's own relevance score (0-1) and publish timestamp. Both matter for the news path:
+      // Tavily strips quotes from a phrase query, so `"Jane Doe" ...` degrades to loose token
+      // matching and a common first name pulls in articles about a different person entirely —
+      // the score is the only signal that separates them. See newsQuery.js's MIN_SCORE.
+      score: typeof r.score === "number" ? r.score : null,
+      publishedAt: typeof r.published_date === "string" ? r.published_date : "",
+    }))
     .filter((r) => r.url);
 }
 
@@ -160,11 +212,22 @@ async function searchGoogle(query, { count, apiKey, cx }) {
 // through as-is when given (webSearch()'s callers only ever pass "news" today, but this doesn't
 // validate against Tavily's enum — an invalid value is Tavily's 400 to raise, not this file's to
 // pre-guess) and otherwise omitted, letting Tavily's own "general" default apply.
-async function searchTavily(query, { count, apiKey, topic }) {
+// `media` asks for the per-result image/favicon fields the news UI renders. Off by default: the
+// image arrays are large (fifteen-plus URLs per result is normal) and discovery has no use for
+// them, so only the caller that renders them pays for them.
+async function searchTavily(query, { count, apiKey, topic, media, days }) {
   const res = await fetch("https://api.tavily.com/search", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
-    body: JSON.stringify({ query, max_results: count, ...(topic ? { topic } : {}) }),
+    body: JSON.stringify({
+      query,
+      max_results: count,
+      ...(topic ? { topic } : {}),
+      ...(media ? { include_images: true, include_favicon: true } : {}),
+      // Tavily bounds the news topic by age when asked; without it a "recent news" section
+      // happily returns something from last year. Only meaningful alongside topic: "news".
+      ...(days ? { days } : {}),
+    }),
   });
   if (!res.ok) throw new Error(`tavily search HTTP ${res.status}`);
   return parseTavilyResults(await res.json());
@@ -193,7 +256,7 @@ export function resetSearchCallCount() {
 // see resolveSearchConfig()), and it's passed through to Tavily, where "news" biases results
 // toward recent news coverage. Brave/Google have no equivalent concept and silently ignore it, so
 // a caller never has to branch on which preset is active just to ask for news-flavored results.
-export async function webSearch(query, { count = 5, topic } = {}) {
+export async function webSearch(query, { count = 5, topic, media = false, days } = {}) {
   const cfg = resolveSearchConfig({ topic });
   if (!cfg.apiKey) {
     throw new Error(
@@ -206,6 +269,6 @@ export async function webSearch(query, { count = 5, topic } = {}) {
   callCount++;
   if (cfg.presetName === "brave") return searchBrave(query, { count, apiKey: cfg.apiKey });
   if (cfg.presetName === "google") return searchGoogle(query, { count, apiKey: cfg.apiKey, cx: cfg.cx });
-  if (cfg.presetName === "tavily") return searchTavily(query, { count, apiKey: cfg.apiKey, topic });
+  if (cfg.presetName === "tavily") return searchTavily(query, { count, apiKey: cfg.apiKey, topic, media, days });
   throw new Error(`Unknown SEARCH_PRESET "${cfg.presetName}".`);
 }

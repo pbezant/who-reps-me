@@ -75,7 +75,11 @@ export default async (req) => {
     // topic: "news" only means anything to the tavily preset (biases results toward recent
     // news coverage rather than general web results) — a harmless no-op for brave/google, which
     // have no equivalent concept. See search.js's own header comment on webSearch()'s `topic`.
-    const results = await webSearch(query, { topic: "news" });
+    // days: a "Recent news" section that surfaces a ten-month-old article isn't recent. Six
+    // months rather than a tighter window because coverage of a local council member or a
+    // back-bench legislator is genuinely sparse — too narrow a bound turns this section empty for
+    // exactly the officials it's most useful for. Tavily-only; brave/google ignore it.
+    const results = await webSearch(query, { topic: "news", media: true, days: 180 });
     articles = parseNewsResults(results);
   } catch (error) {
     // webSearch() throws when there's no key configured, same as every other caller in this
