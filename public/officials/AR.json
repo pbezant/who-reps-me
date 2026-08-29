@@ -1,9 +1,10 @@
 {
   "state": "AR",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 19,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 39,
   "cities": [
     "Garland County",
+    "Greene County",
     "Pulaski County"
   ],
   "officials": [
@@ -408,6 +409,626 @@
       },
       "source_url": "https://www.garlandcounty.org/27/Government",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:assessor:ashley-reynolds",
+      "name": "Ashley Reynolds",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6303",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/assessors-office/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/03/elected_officials___1_-346031.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Room 101, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": "The Assessor’s duty is to appraise and assess all real and personal property in the county between January 1st and May 31st each year. This includes: personal and business property, residential real estate, and commercial real estate.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:circuit-clerk:lisa-gramling",
+      "name": "Lisa Gramling",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6330",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/circuit-clerk/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/07/LESA-GRAMLING-1.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": "8:00 a.m. to 4:00 p.m. for land recording and 4:30 p.m. for all other services",
+      "bio": "The Circuit Clerk is the Clerk of the Circuit Courts and acts as the ex-officio recorder of Greene County. The Circuit Court is made up of Domestic Relations, Civil, Criminal, and Juvenile Courts. The administrative duties of the Circuit Clerk are to maintain a record of all proceedings of the Circuit Courts and serve as the Land Recorder for the County.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:collector:cindy-tracer",
+      "name": "Cindy Tracer",
+      "office": "Collector",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6305",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/collectors-office/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/07/CINDY-COLLECTOR.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Room 103, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:coroner:martin-buchman",
+      "name": "Martin Buchman",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-680-2357",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/coroners-office/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/03/greene_county_courthouse__300_x_200_px___1_-402404.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1809 N. Rockingchair Road, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": "The County Coroner is charged with determining the cause of death of deceased individuals. This full-time position involves investigating deaths within the county 24 hours a day, 7 days a week, and 365 days per year, reviewing background and medical information to determine the cause and manner of death.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:county-clerk:phyllis-rhynes",
+      "name": "Phyllis Rhynes",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6311",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/county-clerks-office/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/03/elected_officials___4_-242158.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Office 102, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": "The County Clerk is the official bookkeeper of county government and is the custodian of absentee ballots and assists the county election commission in the overall process of elections.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:county-judge:rusty-mcmillon",
+      "name": "Rusty McMillon",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6300",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/greene-county-judge/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/03/elected_officials___2_-402310.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Office 107, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": "The Greene County Judge serves as the chief executive officer of the county, overseeing the day-to-day operations of county government. Responsibilities include managing the county budget, supervising county departments, presiding over quorum court meetings, and ensuring the effective delivery of public services. The Judge also plays a key role in emergency management and community development efforts. Dedicated to transparency and service, the Greene County Judge works closely with local officials and residents to support the county’s growth and well-being.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:allen-davis",
+      "name": "Allen Davis",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:bill-mccartney",
+      "name": "Bill McCartney",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:dean-wooldridge",
+      "name": "Dean Wooldridge",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:jonathon-davis",
+      "name": "Jonathon Davis",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:kirk-brinkley",
+      "name": "Kirk Brinkley",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 11",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:marc-reeves",
+      "name": "Marc Reeves",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 9",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:michele-boling",
+      "name": "Michele Boling",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:phillip-keeling",
+      "name": "Phillip Keeling",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:robby-glasco",
+      "name": "Robby Glasco",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:ronnie-roberts",
+      "name": "Ronnie Roberts",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 10",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:justice-of-the-peace:sherma-clark-dicus",
+      "name": "Sherma Clark Dicus",
+      "office": "Justice Of the Peace",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ar:greene-county:prosecuting-attorney:sonia-f.-hagood",
+      "name": "Sonia F. Hagood",
+      "office": "Prosecuting Attorney",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-9598",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/prosecuting-attorney/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/08/SONIA.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:sheriff:brad-snyder",
+      "name": "Brad Snyder",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6343",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/sheriffs-department/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/03/elected_officials___1_-353936.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:greene-county:treasurer:kristi-rawls",
+      "name": "Kristi Rawls",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Greene County Commissioners Court",
+      "district": null,
+      "phone": "870-239-6304",
+      "email": null,
+      "url": "https://greenecounty.arkansas.gov/treasurer/",
+      "photo_url": "https://greenecounty.arkansas.gov/wp-content/uploads/2025/07/KRISTI-LAST.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 West Court St, Paragould, AR 72450",
+      "offices": [],
+      "hours": "Monday - Friday | 8:00AM - 4:30PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Greene County",
+        "state": "AR"
+      },
+      "source_url": "https://greenecounty.arkansas.gov/elected-officials/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

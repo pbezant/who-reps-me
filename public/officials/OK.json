@@ -1,10 +1,11 @@
 {
   "state": "OK",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 48,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 55,
   "cities": [
     "Cleveland County",
     "Edmond",
+    "Enid",
     "Lawton",
     "Midwest City",
     "Oklahoma County",
@@ -73,6 +74,223 @@
       "source_url": "https://www.edmondok.gov/1320/Past-Edmond-Mayors",
       "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 0.9
+    },
+    {
+      "id": "ok:enid:commissioner:cheryl-patterson",
+      "name": "Cheryl Patterson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 1",
+      "phone": "580-234-7960",
+      "email": "ward1@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/cheryl-patterson.jpeg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:courtney-dennis",
+      "name": "Courtney Dennis",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 6",
+      "phone": "580-402-4642",
+      "email": "ward6@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/1/administration/images/city-commission/courtney-dennis-vertical.jpg.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:derwin-norwood",
+      "name": "Derwin Norwood",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 2",
+      "phone": "580-297-3860",
+      "email": "ward2@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/derwin-norwood.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:frank-baker",
+      "name": "Frank Baker",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "ward3@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/content/public/v/12/government/city-council/ward-3-commissioner/frank-baker-1_4x5.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:rob-stallings",
+      "name": "Rob Stallings",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 5",
+      "phone": "580-977-9310",
+      "email": "ward5@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/rob-stallings-ward-5.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:whitney-roberts",
+      "name": "Whitney Roberts",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 4",
+      "phone": "405-714-7112",
+      "email": "ward4@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/whitney-roberts.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:mayor:david-mason",
+      "name": "David Mason",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": null,
+      "phone": "580-616-7269",
+      "email": "dmason@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/content/public/v/9/government/city-council/mayor/david-mason-10x8_1.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
     },
     {
       "id": "ok:lawton:fort-sill-liaison:col.-john-morgan",

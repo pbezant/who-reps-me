@@ -1,12 +1,13 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 54,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 64,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
     "Doña Ana County",
     "Rio Rancho",
+    "Roswell",
     "Sandoval County",
     "Santa Fe",
     "Santa Fe County"
@@ -1126,6 +1127,316 @@
       },
       "source_url": "https://rrnm.gov/29/Governing-Body",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:angela-moore",
+      "name": "Angela Moore",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 5",
+      "phone": "575-317-4175",
+      "email": "a.moore@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/582/Angela-Moore",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28350",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Angela Moore is a native of Roswell, New Mexico, holding two Bachelor degrees in Business Administration and Management. She dedicated many years to the Roswell Independent School District as a special education teacher and IEP/Transition Specialist.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:carlos-marrujo",
+      "name": "Carlos Marrujo",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 5",
+      "phone": "575-416-1165",
+      "email": "c.marrujo@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/581/Carlos-Marrujo",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28351",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "My name is Carlos Marrujo Jr, I am 58 years old. I grew up in Roswell, New Mexico, I attended Edgewood Elementary, Mesa middle school and I graduated from Goddard High School in 1983. I am currently employed at ENMU-Roswell and a member at Church on the Move where I serve at the 180 Youth Group. I am looking forward to serving my community.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:cristina-a.-arnold",
+      "name": "Cristina A. Arnold",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 1",
+      "phone": "505-353-6669",
+      "email": "c.arnold@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/546/Cristina-A-Arnold",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28342",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Cristina A. Arnold currently serves as the Roswell City Councilor for Ward 1. She is a proud fourth-generation Roswellian and New Mexican, a local small business owner, mother of three adult children, and an active member of the Roswell Community. With a diverse background in community advocacy and a legal education, she is equipped to fulfill the needs and aspirations of the community she serves.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:darrell-johnson",
+      "name": "Darrell Johnson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 4",
+      "phone": "575-416-3180",
+      "email": "d.johnson@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/576/Darrell-Johnson",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28349",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Darrell Johnson graduated from Goddard High School and Eastern New Mexico University, working for 22 years at Transportation Manufacturing Corporation (TMC) and Nova Bus. He has spent the last 20 years with the New Mexico Department of Transportation, currently serving as the General Business Manager for District 2, overseeing a multimillion-dollar budget. Johnson has a strong history of community involvement, including coaching youth sports and serving as a mentor for at-risk youth.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:edward-heldenbrand",
+      "name": "Edward Heldenbrand",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 3",
+      "phone": "575-317-4267",
+      "email": "e.heldenbrand@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/574/Edward-Heldenbrand",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28346",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:juan-oropesa",
+      "name": "Juan Oropesa",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 1",
+      "phone": "575-626-2043",
+      "email": "j.oropesa@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/545/Juan-Oropesa",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=24276",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor Juan Oropesa was born and raised in Artesia, New Mexico. He married his wife, Corrine in 1969 and they have been residents of Roswell since, raising three children and 12 grandchildren. He holds a BA degree in Spanish and a minor in History from ENMU-Portales.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:juliana-halvorson",
+      "name": "Juliana Halvorson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 2",
+      "phone": "575-246-1966",
+      "email": "j.halvorson@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/1230/Juliana-Halvorson",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28344",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Juliana grew up living in many locations as her father was in the Air Force. She moved to Roswell in 1980. Juliana graduated from Goddard High School, where she laid the foundation for her future endeavors. She further pursued her academic aspirations at Eastern New Mexico University-Roswell, where she honed her skills and acquired the knowledge necessary for success in her professional endeavors.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:kurt-gass",
+      "name": "Kurt Gass",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 3",
+      "phone": "575-420-0359",
+      "email": null,
+      "url": "https://www.roswell-nm.gov/571/Kurt-Gass",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:robert-corn",
+      "name": "Robert Corn",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 4",
+      "phone": "575-416-4516",
+      "email": "r.corn@roswell-nm.gov",
+      "url": "https://www.roswell-nm.gov/578/Robert-Corn",
+      "photo_url": "https://www.roswell-nm.gov/ImageRepository/Document?documentId=28348",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Robert Corn was elected Magistrate Judge for Chaves County in 1994, serving until 2009, and previously served in the New Mexico House of Representatives from 1980 to 1986. He was a Chaves County Commissioner for District 4 from 2012 to 2020 and was elected Roswell City Councilor for Ward 4 in March 2022.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:roswell:council-member:will-cavin",
+      "name": "Will Cavin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roswell City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": null,
+      "url": "https://www.roswell-nm.gov/1865/Will-Cavin",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roswell",
+        "state": "NM"
+      },
+      "source_url": "https://www.roswell-nm.gov/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

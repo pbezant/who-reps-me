@@ -1,11 +1,13 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 198,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 215,
   "cities": [
     "Ann Arbor",
+    "Battle Creek",
     "Berrien County",
     "Calhoun County",
+    "East Lansing",
     "Eaton County",
     "Grand Rapids",
     "Ingham County",
@@ -19,6 +21,7 @@
     "Monroe County",
     "Novi",
     "Pontiac",
+    "Portage",
     "Rochester Hills",
     "Shiawassee County",
     "St. Clair County",
@@ -247,6 +250,285 @@
       },
       "source_url": "https://www.a2gov.org/city-council/",
       "extracted_at": "2026-08-18T18:46:20.391Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:carla-reynolds",
+      "name": "Carla Reynolds",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "At-Large",
+      "phone": "269-274-0040",
+      "email": "ccreynolds@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=69",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17724",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Carla Reynolds is an At-Large Commissioner for the City of Battle Creek. She was first elected on November 3, 2020, and re-elected on November 5, 2024, for a two-year term ending November 2026.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:christopher-simmons",
+      "name": "Christopher Simmons",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "Ward 4",
+      "phone": "269-274-8993",
+      "email": "ccsimmons@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=143",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17719",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "City of Battle Creek Commissioner, Ward 4; two-year term ending November 2026. Re-elected - Nov. 5, 2024. Previously served - 2009-2011, 2017-2020, 2022-present.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:jenasia-morris",
+      "name": "Jenasia Morris",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "Ward 2",
+      "phone": "269-986-8451",
+      "email": "jmmorris@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=64",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17715",
+      "social": {
+        "twitter": "https://www.battlecreekmi.gov/x",
+        "facebook": "https://www.battlecreekmi.gov/facebook",
+        "instagram": "https://www.battlecreekmi.gov/instagram",
+        "linkedin": "https://www.battlecreekmi.gov/linkedin",
+        "youtube": "https://www.battlecreekmi.gov/youtube"
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jenasia Morris is the Commissioner for Ward 2 of the City of Battle Creek. She was first elected on November 3, 2020, and re-elected on November 5, 2024, for a two-year term ending November 2026.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:jessica-lacosse",
+      "name": "Jessica LaCosse",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "Ward 1",
+      "phone": "906-241-0493",
+      "email": "jllacosse@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=141",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17709",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 N. Division St.\nBattle Creek, MI 49014",
+      "offices": [],
+      "hours": null,
+      "bio": "City of Battle Creek Commissioner, Ward 1; two-year term ending November 2026. First elected - Nov. 5, 2024.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:jim-lance",
+      "name": "Jim Lance",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "Ward 5",
+      "phone": "269-441-4522",
+      "email": "jdlance@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=71",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "City of Battle Creek Commissioner, Ward 5; two-year term ending November 2026. Re-elected - Nov. 5, 2024. First appointed - July 31, 2018 to finish a partial term.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:paige-katsarsky-smith",
+      "name": "Paige Katsarsky-Smith",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "At-Large",
+      "phone": "269-601-9145",
+      "email": "plkatsarsky-smith@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=144",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17721",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Paige Katsarsky-Smith serves as a City of Battle Creek Commissioner, At-Large, for a two-year term ending November 2026. She was first elected on November 5, 2024.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:commissioner:patrick-odonnell",
+      "name": "Patrick O'Donnell",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "Ward 3",
+      "phone": "269-966-4040",
+      "email": "paodonnell@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=142",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17717",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "City of Battle Creek Commissioner, Ward 3; two-year term ending November 2026. Re-elected - Nov. 5, 2024. First elected - Nov. 8, 2022.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:mayor:mark-behnke",
+      "name": "Mark Behnke",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "At-Large",
+      "phone": "269-441-7663",
+      "email": "markbehnke@aol.com",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=70",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17727",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "City of Battle Creek Mayor, At-Large; two-year term ending November 2026. Re-elected - Nov. 5, 2024. First elected - Nov. 5, 1991.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:battle-creek:vice-mayor:sherry-sofia",
+      "name": "Sherry Sofia",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Battle Creek City Council",
+      "district": "At-Large",
+      "phone": "269-967-8272",
+      "email": "slsofia@battlecreekmi.gov",
+      "url": "https://www.battlecreekmi.gov/Directory.aspx?EID=97",
+      "photo_url": "https://www.battlecreekmi.gov/ImageRepository/Document?documentID=17729",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Sherry Sofia serves as the Vice Mayor and At-Large Commissioner for the City of Battle Creek, with her current two-year term ending in November 2026. She was first elected on November 7, 2017, and re-elected on November 5, 2024.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Battle Creek",
+        "state": "MI"
+      },
+      "source_url": "https://www.battlecreekmi.gov/1080/Meet-Your-Commissioners",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -836,6 +1118,37 @@
       },
       "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:east-lansing:city-manager:robert-belleman",
+      "name": "Robert Belleman",
+      "office": "City Manager",
+      "level": "local",
+      "body": "East Lansing City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.cityofeastlansing.com/157/City-Manager",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "410 Abbot Road, East Lansing, MI 48823",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "East Lansing",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofeastlansing.com/175/Council-Manager-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -4246,6 +4559,223 @@
       },
       "source_url": "https://www.pontiac.mi.us/",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:council-member:chris-burns",
+      "name": "Chris Burns",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "708-710-3102",
+      "email": "chris.burns@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=655",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:council-member:jihan-ain-young",
+      "name": "Jihan Ain Young",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-759-0323",
+      "email": "jihan.young@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=8814",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:council-member:kathleen-olmsted",
+      "name": "Kathleen Olmsted",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-720-0085",
+      "email": "olmstedk@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=13810",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:council-member:nicole-miller",
+      "name": "Nicole Miller",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-924-1901",
+      "email": "nicole.miller@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=8815",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:council-member:vic-ledbetter",
+      "name": "Vic Ledbetter",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-330-6404",
+      "email": "vic.ledbetter@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=3081",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:mayor-pro-tem:jim-pearson",
+      "name": "Jim Pearson",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-303-5459",
+      "email": "councilmemberjp@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=498",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:portage:mayor:patricia-m.-randall",
+      "name": "Patricia M. Randall",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Portage City Council",
+      "district": null,
+      "phone": "269-329-4400",
+      "email": "patricia.randall@portagemi.gov",
+      "url": null,
+      "photo_url": "https://www.portagemi.gov/ImageRepository/Document?documentID=496",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Portage",
+        "state": "MI"
+      },
+      "source_url": "https://www.portagemi.gov/487/Mayor-City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

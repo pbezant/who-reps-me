@@ -1,7 +1,7 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 284,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 302,
   "cities": [
     "Alachua County",
     "Apopka",
@@ -18,6 +18,7 @@
     "Flagler County",
     "Fort Lauderdale",
     "Fort Myers",
+    "Fort Pierce",
     "Hialeah",
     "Highlands County",
     "Hollywood",
@@ -34,11 +35,13 @@
     "Monroe County",
     "Nassau County",
     "North Miami",
+    "Ocoee",
     "Okaloosa County",
     "Orlando",
     "Osceola County",
     "Palm Beach County",
     "Pasco County",
+    "Pensacola",
     "Port Orange",
     "Port St. Lucie",
     "Sanford",
@@ -46,6 +49,7 @@
     "St. Cloud",
     "St. Johns County",
     "St. Petersburg",
+    "Suwannee County",
     "Tallahassee",
     "Tamarac",
     "Tampa",
@@ -2014,6 +2018,161 @@
       },
       "source_url": "https://fortmyers.gov/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-pierce:city-commissioner:arnold-s.-gaines",
+      "name": "Arnold S. Gaines",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Fort Pierce City Council",
+      "district": "District 1, Seat 5",
+      "phone": "772-467-3065",
+      "email": "againes@cityoffortpierce.com",
+      "url": "https://www.cityoffortpierce.com/1018/Arnold-S-Gaines-District-1",
+      "photo_url": "https://www.cityoffortpierce.com/ImageRepository/Document?documentId=39417",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N. U.S. Highway 1, Fort Pierce, FL 34950",
+      "offices": [],
+      "hours": "Wednesdays, 10:00 AM to 1:00 PM",
+      "bio": "Arnold S. Gaines was born and raised in Fort Pierce, Florida, and holds a Juris Doctor from the University of Miami School of Law. An accomplished attorney and active community member, he was elected as a Fort Pierce City Commissioner for District 1 on January 3, 2022, continuing his family's long history of public service.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Fort Pierce",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityoffortpierce.com/182/Mayor-City-Commission",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-pierce:city-commissioner:chris-dzadovsky",
+      "name": "Chris Dzadovsky",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Fort Pierce City Council",
+      "district": "District 2, Seat 2",
+      "phone": "772-467-3065",
+      "email": "cdzadovsky@cityoffortpierce.com",
+      "url": "https://www.cityoffortpierce.com/893/Chris-Dzadovsky-District-2",
+      "photo_url": "https://www.cityoffortpierce.com/ImageRepository/Document?documentId=58343",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N. U.S. Highway 1, Fort Pierce, FL 34950",
+      "offices": [],
+      "hours": "Wednesdays, 10:00 AM to noon",
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Fort Pierce",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityoffortpierce.com/182/Mayor-City-Commission",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-pierce:city-commissioner:curtis-johnson,-jr.",
+      "name": "Curtis Johnson, Jr.",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Fort Pierce City Council",
+      "district": "District 1, Seat 3",
+      "phone": "772-467-3065",
+      "email": "cjohnson@cityoffortpierce.com",
+      "url": "https://www.cityoffortpierce.com/892/Curtis-Johnson-Jr-District-1",
+      "photo_url": "https://www.cityoffortpierce.com/ImageRepository/Document?documentId=11380",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N. U.S. Highway 1, Fort Pierce, FL 34950",
+      "offices": [],
+      "hours": "Wednesdays, 10:00 AM to 1:00 PM",
+      "bio": "Curtis Johnson is the founder and CEO of The Cuvey Group, LLC, bringing over two decades of experience to help organizations and individuals. He earned a business degree and an MBA from Florida Agricultural and Mechanical University. Curtis Johnson, Jr. was elected as a Fort Pierce City Commissioner, District 1 in November 2020.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Fort Pierce",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityoffortpierce.com/182/Mayor-City-Commission",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-pierce:city-commissioner:michael-broderick",
+      "name": "Michael Broderick",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Fort Pierce City Council",
+      "district": "District 2, Seat 4",
+      "phone": "772-467-3065",
+      "email": "mbroderick@cityoffortpierce.com",
+      "url": "https://www.cityoffortpierce.com/730/Michael-Broderick-District-2",
+      "photo_url": "https://www.cityoffortpierce.com/ImageRepository/Document?documentId=24777",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N. U.S. Highway 1, Fort Pierce, FL 34950",
+      "offices": [],
+      "hours": "Wednesdays, 10:00 AM to Noon",
+      "bio": "Michael Broderick, a local businessman, was elected as City Commissioner, District 2, Seat 2 on November 8, 2022. He previously served on the Historic Preservation Board, Planning Board, and Parking Committee, and currently serves on several other city boards and committees.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Fort Pierce",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityoffortpierce.com/182/Mayor-City-Commission",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:fort-pierce:mayor:linda-hudson",
+      "name": "Linda Hudson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fort Pierce City Council",
+      "district": null,
+      "phone": "772-467-3065",
+      "email": "lhudson@cityoffortpierce.com",
+      "url": "https://www.cityoffortpierce.com/729/Mayor-Linda-Hudson",
+      "photo_url": "https://www.cityoffortpierce.com/ImageRepository/Document?documentId=39416",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N. U.S. Highway 1, Fort Pierce, FL 34950",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Linda Hudson was first elected Mayor in 2012, the first female to be elected Mayor of the City of Fort Pierce. She was unopposed and reelected in 2016. Mayor Hudson was reelected in 2020 and 2024.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Fort Pierce",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityoffortpierce.com/182/Mayor-City-Commission",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -5709,6 +5868,37 @@
       "confidence": 0.9
     },
     {
+      "id": "fl:ocoee:commissioner:scott-kennedy",
+      "name": "Scott Kennedy",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Ocoee City Council",
+      "district": "District 1",
+      "phone": "407-905-3112",
+      "email": "SKennedy@ocoee.org",
+      "url": null,
+      "photo_url": "https://www.ocoee.org/ImageRepository/Document?documentID=18744",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1 North Bluford Avenue, Ocoee, FL 34761",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Ocoee",
+        "state": "FL"
+      },
+      "source_url": "https://www.ocoee.org/m/directory/employee?eid=469",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:okaloosa-county:commissioner,-chairman-2026:trey-goodwin",
       "name": "Trey Goodwin",
       "office": "Commissioner, Chairman 2026",
@@ -6700,6 +6890,223 @@
       },
       "source_url": "https://www.pascocountyfl.gov/government/county_commissioners/index.php",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:allison-patton",
+      "name": "Allison Patton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-977-3892",
+      "email": "APatton@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3408/Allison-Patton",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=23750",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Allison Patton was elected in November 2022 as the City Council Representative for District 6. She brings expertise in business, finance, and legal matters to Pensacola City government, and is committed to building a stronger, more resilient community for all residents.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:casey-jones",
+      "name": "Casey Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-903-2058",
+      "email": "cjones@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3206/Casey-Jones",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=25516",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "On November 24, 2020, Casey Jones was installed as the City Council Member for District 3. He is a visionary leader dedicated to championing the best interests of Pensacola, especially District 3, fostering intelligent growth and enhancing vibrancy. With over two decades of leadership and consulting experience, Casey brings invaluable knowledge to shape the city's trajectory, having been elected City Council Vice President in 2022 and President in 2023.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:charles-bare",
+      "name": "Charles Bare",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-977-3862",
+      "email": "CBare@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3407/Charles-Bare",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=23748",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Charles Bare was elected in November 2022 as the City Council Representative for District 2. He previously served as the last at-large council member from November 2012 to November 2016 and was elected Council President in November 2015. Since returning to the Council, he has served on several boards and committees, including the Florida-Alabama Transportation Planning Organization and the Florida League of Cities.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:delarian-wiggins",
+      "name": "Delarian Wiggins",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-903-2055",
+      "email": "dewiggins@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3212/Delarian-Wiggins",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=22409",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "On November 24, 2020, Delarian Wiggins was installed as the City Council Member for District 7. Delarian Wiggins is a native Pensacolian who is aware of and committed to finding innovative and collaborative ways to approach and overcome the challenges that may thwart the success of those who live, work and play in District 7. He is especially passionate about finding viable ways to: approach homelessness; address mental health issues; improve communication between law enforcement and the community; and foster diversity & inclusion amongst stakeholders.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:jared-moore",
+      "name": "Jared Moore",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-418-2269",
+      "email": "jmoore@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/512/Jared-Moore",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=21487",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jared Moore was elected to represent District 4 in November 2018 and has served as Council Vice President and President. A lifelong Pensacola resident and 3rd generation family business owner, he holds degrees from Samford University and the University of West Florida. He is an avid athlete, involved in youth mentorship, and an active member of Olive Baptist Church.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:jennifer-brahier",
+      "name": "Jennifer Brahier",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-903-2150",
+      "email": "JBrahier@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3209/Jennifer-Brahier",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=20340",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "On November 24, 2020, Jennifer Brahier was installed as the City Council Member for District 1. A resident of the Scenic Heights Neighborhood since 1974, she brings a wealth of experience and deep-rooted commitment to her role as a public servant. As a tenured Professor of Mathematics at Pensacola State College, she applies a disciplined approach to problem-solving.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:pensacola:council-member:teniadé-broughton",
+      "name": "Teniadé Broughton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Pensacola City Council",
+      "district": null,
+      "phone": "850-903-2051",
+      "email": "TBroughton@cityofpensacola.com",
+      "url": "https://www.cityofpensacola.com/3211/Teniade-Broughton",
+      "photo_url": "https://www.cityofpensacola.com/ImageRepository/Document?documentID=20345",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected in 2020, Teniadé Broughton is the councilmember for District 5 and a longtime resident of Pensacola’s Woodland Heights neighborhood. She is a proud graduate of Booker T. Washington High School, the University of West Florida, and Florida A&M University. Deeply active in the community, she is a seventh-generation Pensacolian and involved in several local organizations.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Pensacola",
+        "state": "FL"
+      },
+      "source_url": "https://www.cityofpensacola.com/27/City-Government",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -8446,6 +8853,161 @@
       },
       "source_url": "https://www.stpete.org/government/mayor___city_council/mayor_s_office/index.php",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:suwannee-county:county-commissioner,-chairman:franklin-white",
+      "name": "Franklin White",
+      "office": "County Commissioner, Chairman",
+      "level": "county",
+      "body": "Suwannee County Commissioners Court",
+      "district": "District 5",
+      "phone": "386-249-1738",
+      "email": "commissioner.white@suwgov.org",
+      "url": null,
+      "photo_url": "https://suwanneecountyfl.gov/wp-content/uploads/img_69dfa0021b7a6.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suwannee County",
+        "state": "FL"
+      },
+      "source_url": "https://suwanneecountyfl.gov/county-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:suwannee-county:county-commissioner:clyde-fleming",
+      "name": "Clyde Fleming",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Suwannee County Commissioners Court",
+      "district": "District 2",
+      "phone": "386-678-1450",
+      "email": "commissioner.fleming@suwgov.org",
+      "url": null,
+      "photo_url": "https://suwanneecountyfl.gov/wp-content/uploads/img_69df9fa660db1.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suwannee County",
+        "state": "FL"
+      },
+      "source_url": "https://suwanneecountyfl.gov/county-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:suwannee-county:county-commissioner:don-hale",
+      "name": "Don Hale",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Suwannee County Commissioners Court",
+      "district": "District 1",
+      "phone": "386-249-0164",
+      "email": "commissioner.hale@suwgov.org",
+      "url": null,
+      "photo_url": "https://suwanneecountyfl.gov/wp-content/uploads/img_69df9f9853a7b.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suwannee County",
+        "state": "FL"
+      },
+      "source_url": "https://suwanneecountyfl.gov/county-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:suwannee-county:county-commissioner:leo-mobley",
+      "name": "Leo Mobley",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Suwannee County Commissioners Court",
+      "district": "District 4",
+      "phone": "386-678-1723",
+      "email": "commissioner.mobley@suwgov.org",
+      "url": null,
+      "photo_url": "https://suwanneecountyfl.gov/wp-content/uploads/img_69df9ff5314ae.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suwannee County",
+        "state": "FL"
+      },
+      "source_url": "https://suwanneecountyfl.gov/county-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:suwannee-county:county-commissioner:travis-land",
+      "name": "Travis Land",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Suwannee County Commissioners Court",
+      "district": "District 3",
+      "phone": "386-249-0243",
+      "email": "commissioner.land@suwgov.org",
+      "url": null,
+      "photo_url": "https://suwanneecountyfl.gov/wp-content/uploads/img_69df9fd0b1963.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Suwannee County",
+        "state": "FL"
+      },
+      "source_url": "https://suwanneecountyfl.gov/county-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {

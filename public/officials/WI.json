@@ -1,7 +1,7 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 73,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 102,
   "cities": [
     "Columbia County",
     "Dane County",
@@ -11,8 +11,11 @@
     "Oshkosh",
     "Outagamie County",
     "Ozaukee County",
+    "Sheboygan",
     "St. Croix County",
-    "Waukesha County"
+    "Waukesha",
+    "Waukesha County",
+    "Waupaca County"
   ],
   "officials": [
     {
@@ -1731,6 +1734,316 @@
       "confidence": 1
     },
     {
+      "id": "wi:sheboygan:common-council-member,-city-council-president:susie-boorse",
+      "name": "Susie Boorse",
+      "office": "Common Council Member, City Council President",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 5 (Wards 9, 10, 21)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=171",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1721",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member,-vice-president-of-city-council:michael-close",
+      "name": "Michael Close",
+      "office": "Common Council Member, Vice President of City Council",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 3 (Wards 5, 6)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=169",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1722",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:alanza-grawien",
+      "name": "Alanza Grawien",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 4 (Wards 7, 8)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=170",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1011",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:bryan-kelly",
+      "name": "Bryan Kelly",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 8 (wards 15,16)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=174",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1716",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:dean-dekker",
+      "name": "Dean Dekker",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 6 (Wards 11, 12)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=172",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1013",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:erin-bremser",
+      "name": "Erin Bremser",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 2 (Wards 3, 4)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=168",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1715",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:grazia-perrella",
+      "name": "Grazia Perrella",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 7 (Wards 13, 14)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=173",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1015",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:joseph-heidemann",
+      "name": "Joseph Heidemann",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 10 (Wards 19, 20)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=176",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1004",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:ryan-menzer",
+      "name": "Ryan Menzer",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 1 (Wards 1, 2)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=167",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1007",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sheboygan:common-council-member:trey-mitchell",
+      "name": "Trey Mitchell",
+      "office": "Common Council Member",
+      "level": "local",
+      "body": "Sheboygan City Council",
+      "district": "District 9 (Wards 17, 18)",
+      "phone": null,
+      "email": null,
+      "url": "https://www.sheboyganwi.gov/m/directory/employee?eid=175",
+      "photo_url": "https://www.sheboyganwi.gov/ImageRepository/Document?documentID=1016",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sheboygan",
+        "state": "WI"
+      },
+      "source_url": "https://www.sheboyganwi.gov/395/Common-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "wi:st.-croix-county:aging-and-disability-resource-center-administrator:kristin-newton",
       "name": "Kristin Newton",
       "office": "Aging and Disability Resource Center Administrator",
@@ -2286,6 +2599,595 @@
       },
       "source_url": "https://www.waukeshacounty.gov/our-government/departments/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:dale-matthews",
+      "name": "Dale Matthews",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 12",
+      "phone": "262-236-5332",
+      "email": "alddist12@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/12_Dale%20Matthews.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:daniel-j.-manion",
+      "name": "Daniel J. Manion",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 7",
+      "phone": "262-542-5550",
+      "email": "alddist7@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/07_Daniel%20Manion.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:doreen-wigderson",
+      "name": "Doreen Wigderson",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 3",
+      "phone": "262-352-6209",
+      "email": "alddist3@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/03_Doreen%20Wigderson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:eileen-micklitz",
+      "name": "Eileen Micklitz",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 13",
+      "phone": "262-454-2176",
+      "email": "alddist13@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/13_Eileen%20Micklitz.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:elizabeth-moltzan",
+      "name": "Elizabeth Moltzan",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 8",
+      "phone": "262-349-4078",
+      "email": "alddist8@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/08_Elizabeth%20Moltzan.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:erik-helgestad",
+      "name": "Erik Helgestad",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 11",
+      "phone": "262-264-8517",
+      "email": "alddist11@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/11_Erik%20Helgestad.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:jack-wells",
+      "name": "Jack Wells",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 6",
+      "phone": "262-290-5103",
+      "email": "alddist6@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/06_Jack%20Wells.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:jim-evert",
+      "name": "Jim Evert",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 2",
+      "phone": "262-354-4649",
+      "email": "alddist2@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/02_James%20Evert%20(Updated).jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:joe-pieper",
+      "name": "Joe Pieper",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 4",
+      "phone": "262-896-0454",
+      "email": "alddist4@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/04_Joe%20Pieper.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:mike-anderson",
+      "name": "Mike Anderson",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 10",
+      "phone": "262-289-2739",
+      "email": "alddist10@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/10_Mike%20Anderson.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:mike-chrisien",
+      "name": "Mike Chrisien",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 1",
+      "phone": "262-875-4860",
+      "email": "alddist1@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/01_Mike%20Chrisien.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:paul-wuteska",
+      "name": "Paul Wuteska",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 9",
+      "phone": "262-271-2563",
+      "email": "alddist9@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/09_Paul%20Wuteska.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:rick-lemke",
+      "name": "Rick Lemke",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 14",
+      "phone": "262-442-2580",
+      "email": "alddist14@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/14_Rick%20Lemke.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:rico-camacho",
+      "name": "Rico Camacho",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 15",
+      "phone": "414-405-6347",
+      "email": "alddist15@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/15_Rico%20Camacho.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:alderman:steve-van-trieste",
+      "name": "Steve Van Trieste",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": "Aldermanic District 5",
+      "phone": "262-309-7251",
+      "email": "alddist5@waukesha-wi.gov",
+      "url": null,
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Common%20Council/05_Steve%20Van%20Trieste.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waukesha:mayor:alicia-halvensleben",
+      "name": "Alicia Halvensleben",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Waukesha City Council",
+      "district": null,
+      "phone": "262-524-3700",
+      "email": "ahalvensleben@waukesha-wi.gov",
+      "url": "https://www.waukesha-wi.gov/about_the_common_council/mayor.php",
+      "photo_url": "https://www.waukesha-wi.gov/about_the_common_council/Government/Departments/Department%20Heads/2026/Alicia%20Halvensleben.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 Delafield Street, Waukesha, WI 53188",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waukesha",
+        "state": "WI"
+      },
+      "source_url": "https://www.waukesha-wi.gov/about_the_common_council/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waupaca-county:chief-deputy-county-clerk:ellen-radies",
+      "name": "Ellen Radies",
+      "office": "Chief Deputy County Clerk",
+      "level": "county",
+      "body": "Waupaca County Commissioners Court",
+      "district": null,
+      "phone": "715-258-6200",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "811 Harding St Waupaca, WI 54981",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waupaca County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waupacacounty-wi.gov/departments/government_departments/county_clerk/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waupaca-county:county-clerk:kristy-k.-opperman",
+      "name": "Kristy K. Opperman",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Waupaca County Commissioners Court",
+      "district": null,
+      "phone": "715-258-6200",
+      "email": "Kristy.Opperman@co.waupaca.wi.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "811 Harding St Waupaca, WI 54981",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waupaca County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waupacacounty-wi.gov/departments/government_departments/county_clerk/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:waupaca-county:deputy-county-clerk:nicole-houdek",
+      "name": "Nicole Houdek",
+      "office": "Deputy County Clerk",
+      "level": "county",
+      "body": "Waupaca County Commissioners Court",
+      "district": null,
+      "phone": "715-258-6200",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "811 Harding St Waupaca, WI 54981",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Waupaca County",
+        "state": "WI"
+      },
+      "source_url": "https://www.waupacacounty-wi.gov/departments/government_departments/county_clerk/index.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     }
   ]

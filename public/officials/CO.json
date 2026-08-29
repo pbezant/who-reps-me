@@ -1,12 +1,13 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 42,
+  "generated_at": "2026-08-29T04:33:42.194Z",
+  "count": 44,
   "cities": [
     "Arapahoe County",
     "Boulder",
     "Broomfield County",
     "Denver County",
+    "Douglas County",
     "Durango",
     "Jefferson County",
     "Mesa County"
@@ -948,6 +949,37 @@
       "confidence": 1
     },
     {
+      "id": "co:douglas-county:sheriff:darren-weekly",
+      "name": "Darren Weekly",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "CO"
+      },
+      "source_url": "https://www.douglasco.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
       "id": "co:durango:council-member:gilda-yazzie",
       "name": "Gilda Yazzie",
       "office": "City Council Member",
@@ -1099,7 +1131,38 @@
         "state": "CO"
       },
       "source_url": "https://www.durangogov.org",
-      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:councilor:shirley-gonzales",
+      "name": "Shirley Gonzales",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
