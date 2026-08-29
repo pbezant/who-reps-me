@@ -625,8 +625,9 @@ existed (LLM recall only, plain breadth-first crawl only). Set it to unlock two 
 alone can't do: resolve a jurisdiction the model's training data never covered, and resolve one
 whose domain changed since that training cutoff.
 
-The same `webSearch()` is also what powers the frontend's "recent news" profile-page section
-(`netlify/functions/rep-news.mjs`) — whichever preset is configured here covers both.
+The same `webSearch()` also powers the frontend's "recent news" profile-page section
+(`netlify/functions/rep-news.mjs`), but that path is routed separately — see "Two providers, one
+for each job" below.
 
 ```bash
 SEARCH_PRESET=brave SEARCH_API_KEY=... npm run discover-jurisdictions
@@ -641,6 +642,44 @@ SEARCH_PRESET=brave SEARCH_API_KEY=... npm run discover-jurisdictions
 Bing isn't in this table because it isn't an option at all: Microsoft fully retired every Bing
 Search API on 2025-08-11 (confirmed at
 [learn.microsoft.com](https://learn.microsoft.com/en-us/lifecycle/announcements/bing-search-api-retirement)).
+
+#### Two providers, one for each job
+
+The two search paths in this project want different things, so they can be pointed at different
+providers instead of sharing one:
+
+- **Jurisdiction/roster discovery** (`discover.js`, and phase 3 of `run-daily.yml`) needs a
+  general web index that honors search operators — `findRosterPage()` issues
+  `site:<domain> city council OR commissioners ...`. That's **Brave**.
+- **The profile page's recent news** (`rep-news.mjs`) needs recent news coverage about a named
+  person, and passes `topic: "news"`. That's **Tavily**, the only preset that honors it.
+
+```bash
+SEARCH_PRESET=brave        # everything except news
+SEARCH_PRESET_NEWS=tavily  # news only
+BRAVE_API_KEY=...
+TAVILY_API_KEY=...
+```
+
+`SEARCH_PRESET_NEWS` defaults to whatever `SEARCH_PRESET` is, so an existing single-key setup
+(`SEARCH_API_KEY` alone) keeps behaving exactly as it did — routing is opt-in. `SEARCH_API_KEY`
+remains the fallback for any preset with no `<PRESET>_API_KEY` set, which is why adding a second
+provider never means moving the first one's key.
+
+Both keys have to be set **everywhere a search actually runs**, which is not one place:
+
+| Where | Which searches run there | Needs |
+| --- | --- | --- |
+| Netlify env vars | `rep-news.mjs` (news) **and** `local-officials.mjs`, which runs on-demand discovery for an uncovered city | both keys |
+| `run-daily.yml` repo secrets | phase 3's batch discovery only — no other phase calls `webSearch()` | `BRAVE_API_KEY` (or `SEARCH_API_KEY`) |
+| Local CLI | whatever you invoke | whichever that path uses |
+
+There is deliberately **no failover between providers**: a news search never quietly falls back to
+Brave, since the entire point of routing is that the news path gets Tavily's news mode — a Brave
+result set here reads noticeably more Ballotpedia/Wikipedia than news. A provider failure degrades
+the same way a missing key always has (the caller catches the throw and takes its non-search
+path), and `rep-news.mjs` caches per rep for 12 hours, so whichever provider answered is frozen in
+for that window.
 
 Search only ever fires as a *fallback* — for `discoverJurisdictionSite()`, when the LLM's recall
 returns `UNKNOWN` or the recalled URL doesn't verify as a real gov site; for `findRosterPage()`,

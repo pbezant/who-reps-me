@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react';
 // prefetched for the whole results list — most reps' profiles are never opened, so eagerly
 // searching for all of them would burn through the search API's free-tier quota for nothing).
 // Backed by netlify/functions/rep-news.mjs, which reuses scraper/src/search.js's webSearch()
-// server-side — the same Brave-search key already configured for the scraper's own discovery
-// fallback, no new setup required for this feature.
+// server-side. That call is routed by SEARCH_PRESET_NEWS (tavily, for its news topic) rather
+// than the SEARCH_PRESET the scraper's discovery fallback uses (brave) — see search.js's header
+// comment. With no key configured, the "isn't set up yet" branch below renders.
 export default function RepNews({ rep }) {
   const [state, setState] = useState({ status: 'loading', articles: [], reason: null });
 

@@ -11,7 +11,7 @@ Enter an address or ZIP and see everyone who represents you — federal, state, 
 | State executives (Governor, Lt. Governor, AG, ...) | [Open States v3](https://docs.openstates.org/api-v3/) `/people?org_classification=executive` | free | `OPENSTATES_API_KEY` (server-side) |
 | City / county officials | this repo's own scraper | free | see [`scraper/README.md`](scraper/README.md) |
 | Geocoding | US Census Geocoder, with [Nominatim](https://nominatim.openstreetmap.org/) (OpenStreetMap) as a fallback for a bare "City, State" search | free | none |
-| Recent news (profile page) | web search — reuses the scraper's own `webSearch()` (Brave by default, Tavily also supported — see [`scraper/README.md`](scraper/README.md)) | free tier | `SEARCH_API_KEY` (server-side) |
+| Recent news (profile page) | web search — reuses the scraper's own `webSearch()`; Tavily recommended here for its news topic, Brave/Google also supported (see [`scraper/README.md`](scraper/README.md)) | free tier | `TAVILY_API_KEY` + `SEARCH_PRESET_NEWS=tavily`, or `SEARCH_API_KEY` for a single-provider setup (server-side) |
 | Voting / legislative record — state legislators (profile page) | [Open States v3](https://docs.openstates.org/api-v3/) `/bills` (sponsor filter) | free | `OPENSTATES_API_KEY` (server-side) |
 | Voting / legislative record — US House / Senate (profile page) | [Congress.gov API](https://api.congress.gov/) member sponsored/cosponsored legislation | free | `CONGRESS_API_KEY` (server-side) |
 
@@ -84,12 +84,11 @@ finally had room for:
 
 - **Recent news** (`netlify/functions/rep-news.mjs`) — a web search for the rep's name plus
   enough office/state context to disambiguate a common name, reusing the scraper's own
-  provider-agnostic `webSearch()` (`scraper/src/search.js`) server-side. Same `SEARCH_API_KEY`/
-  `SEARCH_PRESET` as the scraper's discovery fallback; unset, this section just says news search
-  isn't set up. Requests Tavily's `topic: "news"` mode when that preset is active (a no-op on
-  Brave/Google) — see `scraper/README.md`'s "Search fallback" table for why Tavily is worth
-  considering over Brave: a free tier with no credit card required, and a search mode built for
-  exactly this "recent news about a person" case.
+  provider-agnostic `webSearch()` (`scraper/src/search.js`) server-side. Routed to its own
+  provider via `SEARCH_PRESET_NEWS` (see `scraper/README.md`'s "Search fallback" table), so this
+  section can run on Tavily — whose `topic: "news"` mode is built for exactly this "recent news
+  about a person" case — while jurisdiction discovery stays on Brave's general web index. With no
+  key configured, this section just says news search isn't set up.
 - **Voting / legislative record** (`netlify/functions/state-votes.mjs`,
   `netlify/functions/federal-votes.mjs`) — recent bill sponsorship/cosponsorship, not true
   roll-call yes/no vote history: neither Open States nor Congress.gov exposes a clean per-member
@@ -113,11 +112,18 @@ The app runs without any setup; each key only improves one layer.
 ```
 OPENSTATES_API_KEY=...   # free key from https://open.pluralpolicy.com/ — state legislators +
                           # executives + their voting/legislative-activity section
-SEARCH_API_KEY=...       # free key from the SEARCH_PRESET provider (brave by default, tavily
-                          # also supported — see scraper/README.md's "Search fallback" table) —
-                          # on-demand jurisdiction discovery's search fallback + the profile
-                          # page's "recent news" section
-SEARCH_PRESET=tavily     # optional, only if not using the brave default
+SEARCH_PRESET=brave      # provider for jurisdiction discovery's search fallback (default: brave)
+SEARCH_PRESET_NEWS=tavily # provider for the profile page's "recent news" section — optional,
+                          # defaults to whatever SEARCH_PRESET is. Set it to run two providers
+                          # at once, each on what it's good at (see scraper/README.md's "Search
+                          # fallback" table).
+BRAVE_API_KEY=...        # free key from https://brave.com/search/api — discovery's search
+                          # fallback (general web index, handles the `site:` queries that path
+                          # issues)
+TAVILY_API_KEY=...       # free key from https://tavily.com — the "recent news" section
+                          # (first-class news topic, no credit card required)
+SEARCH_API_KEY=...       # single-provider shorthand: used for any preset with no
+                          # <PRESET>_API_KEY set. One provider for everything = just this.
 CONGRESS_API_KEY=...     # free key from https://api.congress.gov/sign-up/ — federal reps'
                           # voting/legislative-activity section on the profile page
 LLM_PRESET=groq          # on-demand local scraping (see scraper/README.md) + bug-report triage
@@ -151,7 +157,7 @@ executive lookups for 90 days (per state — a much smaller, much slower-changin
 longer window is safe); voting-record lookups for 24 hours (legislative activity changes weekly,
 not monthly, so this deliberately does not reuse either of those longer TTLs).
 
-`SEARCH_API_KEY` and `CONGRESS_API_KEY` are likewise read only server-side, by
+The search keys and `CONGRESS_API_KEY` are likewise read only server-side, by
 `netlify/functions/rep-news.mjs` and `netlify/functions/federal-votes.mjs` respectively, each
 cached in Netlify Blobs — news for 12 hours (it changes daily; a longer window would show stale
 headlines), federal voting/legislative activity for 24 hours (same reasoning as the state-votes
