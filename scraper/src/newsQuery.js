@@ -41,6 +41,27 @@ export function hostnameFrom(url) {
 
 const MAX_ARTICLES = 5;
 
+// Tavily's `content` is an extractive digest, not a headline blurb: several passages lifted from
+// the article and joined with a literal " [...] ", routinely 800+ characters. Rendered raw, one
+// result filled the whole panel and buried the next headline — the profile page wants a taste of
+// each story, not the story. Trimmed here rather than only clamped in CSS so the response payload
+// stays small too, and so the cut lands on a word boundary instead of mid-syllable.
+const MAX_SNIPPET_CHARS = 240;
+
+export function trimSnippet(text) {
+  const cleaned = String(text || "")
+    .replace(/\s+/g, " ")
+    // The joiner reads as noise mid-sentence; an ellipsis says the same thing in one character.
+    .replace(/\[\.\.\.\]/g, "…")
+    .replace(/^[…\s]+|[…\s]+$/g, "")
+    .trim();
+  if (cleaned.length <= MAX_SNIPPET_CHARS) return cleaned;
+  const cut = cleaned.slice(0, MAX_SNIPPET_CHARS);
+  const lastSpace = cut.lastIndexOf(" ");
+  // Drop trailing punctuation so the result never reads as ",…" or ".…".
+  return `${(lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:.—-]+$/, "")}…`;
+}
+
 // Trims webSearch()'s {title, url, snippet}[] down to what the client actually renders, adding
 // the derived source label and capping the count — a rep's profile page is a summary, not a
 // full search-results page.
@@ -52,6 +73,6 @@ export function parseNewsResults(results) {
       title: r.title || r.url,
       url: r.url,
       source: hostnameFrom(r.url),
-      snippet: r.snippet || '',
+      snippet: trimSnippet(r.snippet),
     }));
 }
