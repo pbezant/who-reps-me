@@ -125,7 +125,7 @@ test("parseBraveResults() maps the API shape to {title, url, snippet}", () => {
     },
   };
   assert.deepEqual(parseBraveResults(data), [
-    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "" },
+    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "", score: null, publishedAt: "" },
   ]);
 });
 
@@ -151,7 +151,7 @@ test("parseGoogleResults() drops a result with no link and tolerates a missing i
 test("parseTavilyResults() maps the API shape to {title, url, snippet}, using `content` as the snippet", () => {
   const data = { results: [{ title: "City of Example", url: "https://cityofexample.gov", content: "Official site" }] };
   assert.deepEqual(parseTavilyResults(data), [
-    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "" },
+    { title: "City of Example", url: "https://cityofexample.gov", snippet: "Official site", image: "", favicon: "", score: null, publishedAt: "" },
   ]);
 });
 

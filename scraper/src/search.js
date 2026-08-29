@@ -118,6 +118,10 @@ export function parseBraveResults(data) {
       // SEARCH_PRESET_NEWS is ever pointed back at brave.
       image: typeof r.thumbnail?.src === "string" ? r.thumbnail.src : "",
       favicon: typeof r.profile?.img === "string" ? r.profile.img : "",
+      // Brave exposes no relevance score. null (not 0) so a score filter can tell "this provider
+      // doesn't score results" apart from "this result scored badly" and keep the result.
+      score: null,
+      publishedAt: typeof r.page_age === "string" ? r.page_age : "",
     }))
     .filter((r) => r.url);
 }
@@ -166,6 +170,12 @@ export function parseTavilyResults(data) {
       // treats them as nice-to-have, never required.
       image: pickResultImage(r.images),
       favicon: typeof r.favicon === "string" ? r.favicon : "",
+      // Tavily's own relevance score (0-1) and publish timestamp. Both matter for the news path:
+      // Tavily strips quotes from a phrase query, so `"Jane Doe" ...` degrades to loose token
+      // matching and a common first name pulls in articles about a different person entirely —
+      // the score is the only signal that separates them. See newsQuery.js's MIN_SCORE.
+      score: typeof r.score === "number" ? r.score : null,
+      publishedAt: typeof r.published_date === "string" ? r.published_date : "",
     }))
     .filter((r) => r.url);
 }
@@ -205,7 +215,7 @@ async function searchGoogle(query, { count, apiKey, cx }) {
 // `media` asks for the per-result image/favicon fields the news UI renders. Off by default: the
 // image arrays are large (fifteen-plus URLs per result is normal) and discovery has no use for
 // them, so only the caller that renders them pays for them.
-async function searchTavily(query, { count, apiKey, topic, media }) {
+async function searchTavily(query, { count, apiKey, topic, media, days }) {
   const res = await fetch("https://api.tavily.com/search", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
@@ -214,6 +224,9 @@ async function searchTavily(query, { count, apiKey, topic, media }) {
       max_results: count,
       ...(topic ? { topic } : {}),
       ...(media ? { include_images: true, include_favicon: true } : {}),
+      // Tavily bounds the news topic by age when asked; without it a "recent news" section
+      // happily returns something from last year. Only meaningful alongside topic: "news".
+      ...(days ? { days } : {}),
     }),
   });
   if (!res.ok) throw new Error(`tavily search HTTP ${res.status}`);
@@ -243,7 +256,7 @@ export function resetSearchCallCount() {
 // see resolveSearchConfig()), and it's passed through to Tavily, where "news" biases results
 // toward recent news coverage. Brave/Google have no equivalent concept and silently ignore it, so
 // a caller never has to branch on which preset is active just to ask for news-flavored results.
-export async function webSearch(query, { count = 5, topic, media = false } = {}) {
+export async function webSearch(query, { count = 5, topic, media = false, days } = {}) {
   const cfg = resolveSearchConfig({ topic });
   if (!cfg.apiKey) {
     throw new Error(
@@ -256,6 +269,6 @@ export async function webSearch(query, { count = 5, topic, media = false } = {})
   callCount++;
   if (cfg.presetName === "brave") return searchBrave(query, { count, apiKey: cfg.apiKey });
   if (cfg.presetName === "google") return searchGoogle(query, { count, apiKey: cfg.apiKey, cx: cfg.cx });
-  if (cfg.presetName === "tavily") return searchTavily(query, { count, apiKey: cfg.apiKey, topic, media });
+  if (cfg.presetName === "tavily") return searchTavily(query, { count, apiKey: cfg.apiKey, topic, media, days });
   throw new Error(`Unknown SEARCH_PRESET "${cfg.presetName}".`);
 }

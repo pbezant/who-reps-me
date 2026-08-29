@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildNewsQuery, hostnameFrom, parseNewsResults, trimSnippet } from "./newsQuery.js";
+import { buildNewsQuery, hostnameFrom, parseNewsResults, trimSnippet, toIsoDate } from "./newsQuery.js";
 
 test("buildNewsQuery() disambiguates a federal rep by office title + state", () => {
   const q = buildNewsQuery({ name: "Jordan Ellis", area: "US House", state: "TX" });
@@ -54,6 +54,7 @@ test("parseNewsResults() trims to the rendered fields and derives the source fro
       snippet: "A new bill...",
       image: "",
       favicon: "",
+      publishedAt: "",
     },
   ]);
 });
@@ -126,4 +127,48 @@ test("parseNewsResults() trims each snippet it passes through", () => {
   ]);
   assert.ok(article.snippet.length <= 241);
   assert.ok(article.snippet.endsWith("…"));
+});
+
+// Guards the "wrong Erin" case: a live Tavily response for a Texas House member returned articles
+// about two unrelated people who merely shared a first name, scoring 0.26 and 0.13.
+test("parseNewsResults() drops weakly-scored results that are probably a different person", () => {
+  const parsed = parseNewsResults([
+    { title: "Right person", url: "https://example.com/good", score: 0.82 },
+    { title: "Different Erin entirely", url: "https://example.com/bad", score: 0.26 },
+    { title: "Also unrelated", url: "https://example.com/worse", score: 0.13 },
+  ]);
+  assert.deepEqual(parsed.map((a) => a.url), ["https://example.com/good"]);
+});
+
+// Score filtering must happen before the 5-item cap, or junk crowds out the good results behind it.
+test("parseNewsResults() filters by score before capping the list", () => {
+  const weak = Array.from({ length: 5 }, (_, i) => ({ title: `weak ${i}`, url: `https://example.com/w${i}`, score: 0.1 }));
+  const strong = { title: "strong", url: "https://example.com/strong", score: 0.9 };
+  assert.deepEqual(parseNewsResults([...weak, strong]).map((a) => a.url), ["https://example.com/strong"]);
+});
+
+// brave/google don't score results at all — a null score must never be read as a bad one.
+test("parseNewsResults() keeps results from a provider that reports no score", () => {
+  const parsed = parseNewsResults([
+    { title: "Unscored", url: "https://example.com/a" },
+    { title: "Explicit null", url: "https://example.com/b", score: null },
+  ]);
+  assert.equal(parsed.length, 2);
+});
+
+test("toIsoDate() normalizes Tavily's RFC 1123 timestamps and rejects junk", () => {
+  assert.equal(toIsoDate("Thu, 30 Oct 2025 09:00:02 GMT"), "2025-10-30T09:00:02.000Z");
+  assert.equal(toIsoDate("2025-10-30T09:00:02Z"), "2025-10-30T09:00:02.000Z");
+  assert.equal(toIsoDate("last tuesday"), "");
+  assert.equal(toIsoDate(""), "");
+  assert.equal(toIsoDate(undefined), "");
+});
+
+test("parseNewsResults() normalizes publishedAt and leaves it empty when absent", () => {
+  const [withDate, without] = parseNewsResults([
+    { title: "A", url: "https://example.com/a", publishedAt: "Thu, 30 Oct 2025 09:00:02 GMT" },
+    { title: "B", url: "https://example.com/b" },
+  ]);
+  assert.equal(withDate.publishedAt, "2025-10-30T09:00:02.000Z");
+  assert.equal(without.publishedAt, "");
 });
