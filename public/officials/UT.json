@@ -1,8 +1,9 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 66,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 68,
   "cities": [
+    "Bountiful",
     "Cache County",
     "Herriman",
     "Logan",
@@ -18,6 +19,68 @@
     "West Valley City"
   ],
   "officials": [
+    {
+      "id": "ut:bountiful:council-member:john-cook",
+      "name": "John Cook",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bountiful City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bountiful",
+        "state": "UT"
+      },
+      "source_url": "https://www.bountiful.gov/166/Bountiful-City-Youth-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ut:bountiful:council-member:matt-murri",
+      "name": "Matt Murri",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Bountiful City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bountiful",
+        "state": "UT"
+      },
+      "source_url": "https://www.bountiful.gov/166/Bountiful-City-Youth-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
     {
       "id": "ut:cache-county:county-council-member:david-erickson",
       "name": "David Erickson",

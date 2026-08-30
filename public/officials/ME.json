@@ -1,9 +1,10 @@
 {
   "state": "ME",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 8,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 12,
   "cities": [
     "Cumberland County",
+    "Hancock County",
     "Oxford County"
   ],
   "officials": [
@@ -160,6 +161,130 @@
       },
       "source_url": "https://www.cumberlandcountyme.gov/boards___committees/county_commissioners/index.php",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:hancock-county:commissioner:john-a.-wombacher",
+      "name": "John A. Wombacher",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hancock County Commissioners Court",
+      "district": "District II",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://hancockcountymaine.gov/wp-content/uploads/2021/01/john-wombacher-785.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 State Street, Suite 7 Ellsworth, ME 04605",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hancock County",
+        "state": "ME"
+      },
+      "source_url": "https://hancockcountymaine.gov/commissioners/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:hancock-county:commissioner:samuel-dibella",
+      "name": "Samuel Dibella",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hancock County Commissioners Court",
+      "district": "District III",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://hancockcountymaine.gov/wp-content/uploads/2025/11/DiBella-Sam-2-1_crop.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 State Street, Suite 7 Ellsworth, ME 04605",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hancock County",
+        "state": "ME"
+      },
+      "source_url": "https://hancockcountymaine.gov/commissioners/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:hancock-county:commissioner:william-f.-clark",
+      "name": "William F. Clark",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hancock County Commissioners Court",
+      "district": "District I",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://hancockcountymaine.gov/wp-content/uploads/2020/09/WillamFClark.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 State Street, Suite 7 Ellsworth, ME 04605",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hancock County",
+        "state": "ME"
+      },
+      "source_url": "https://hancockcountymaine.gov/commissioners/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:hancock-county:county-administrator:michael-crooker",
+      "name": "Michael Crooker",
+      "office": "County Administrator",
+      "level": "county",
+      "body": "Hancock County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://hancockcountymaine.gov/wp-content/uploads/2023/01/Michael-Crooker2-sq500.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "50 State Street, Suite 7 Ellsworth, ME 04605",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hancock County",
+        "state": "ME"
+      },
+      "source_url": "https://hancockcountymaine.gov/commissioners/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

@@ -1,13 +1,15 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 182,
+  "generated_at": "2026-08-30T04:30:18.639Z",
+  "count": 208,
   "cities": [
     "Bellevue",
     "Bellingham",
+    "Bremerton",
     "Burien",
     "Clallam County",
     "Clark County",
+    "Douglas County",
     "Everett",
     "Federal Way",
     "Franklin County",
@@ -22,6 +24,7 @@
     "Olympia",
     "Pasco",
     "Pierce County",
+    "Puyallup",
     "Redmond",
     "Renton",
     "Sammamish",
@@ -283,6 +286,293 @@
       },
       "source_url": "https://cob.org/gov/mayor",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:anna-mockler",
+      "name": "Anna Mockler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 6",
+      "phone": "360-473-5280",
+      "email": "Anna.Mockler@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1415/District-6",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=12008",
+      "social": {
+        "twitter": "https://www.bremertonwa.gov/x",
+        "facebook": "https://www.bremertonwa.gov/facebook",
+        "instagram": null,
+        "linkedin": "https://www.bremertonwa.gov/linkedin",
+        "youtube": "https://www.bremertonwa.gov/youtube"
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603 Mailing: 345 6th St., Suite 100 Bremerton, WA 98370",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Anna holds a Bachelor’s degree in Psychology from Antioch College and a Master of Arts in Environmental Conservation from New York University. She is a writer, ecologist, and Certified Professional Wetland Scientist with a career spanning environmental science, ecological restoration, mitigation planning, and community advocacy. Anna brings a science-based perspective and a deep commitment to community service to her work on behalf of Bremerton residents.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:christy-cammarata",
+      "name": "Christy Cammarata",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 3",
+      "phone": "360-473-5280",
+      "email": "Christy.Cammarata@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1438/District-3",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=13188",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Christy Cammarata represents Bremerton City Council District 3. She brings over 18 years of state government experience and is committed to building a more inclusive, balanced, and effective local government, focusing on supporting small businesses and creating a safe, walkable community.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:denise-frey",
+      "name": "Denise Frey",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 2",
+      "phone": "360-473-5280",
+      "email": "Denise.Frey@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1437/District-2",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=9528",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603, Bremerton, WA 98370",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Denise Frey, a retired nonprofit executive with a 40-year career in community leadership, was appointed to Bremerton City Council District 2 in 2022 and began her first elected term in 2024. She is committed to fostering a community where all residents are engaged and have equal access to housing, work, and recreation.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:jane-rebelowski",
+      "name": "Jane Rebelowski",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 4",
+      "phone": "360-473-5280",
+      "email": "Jane.Rebelowski@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1439/District-4",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=11088",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Jane Rebelowski represents Bremerton City Council District 4, serving her first elected term from 2024 through 2027. She has extensive experience in public service, community leadership, and civic engagement, having worked as a Public Works Inspector for the City of Bremerton and a Senior Civil Engineering Specialist for the City of Seattle.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:jennifer-chamberlin",
+      "name": "Jennifer Chamberlin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 1",
+      "phone": "360-473-5280",
+      "email": "Jennifer.Chamberlin@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1435/District-1",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=9334",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Jennifer Chamberlin has called Bremerton home for more than 20 years, bringing a diverse background in education, business, public service, and community engagement. She holds degrees from Olympic College and The Evergreen State College, including a Master of Public Administration. Jennifer previously worked for the Bremerton School District and currently owns Heathens Bakery.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:michael-goodnow",
+      "name": "Michael Goodnow",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 5",
+      "phone": "360-473-5280",
+      "email": "Michael.Goodnow@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1440/District-5",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentID=5596",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603, Bremerton, WA 98370",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Michael Goodnow represents Bremerton City Council District 5, serving his third term through 2029, and was Council President in 2022. He holds a Master of Arts in Organizational Leadership and a Bachelor of Science in Workforce Education and Development, with 20 years of military service and over 15 years in the non-profit sector.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:bremerton:council-member:rick-tift",
+      "name": "Rick Tift",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bremerton City Council",
+      "district": "District 7",
+      "phone": "360-473-5280",
+      "email": "Rick.Tift@bremertonwa.gov",
+      "url": "https://www.bremertonwa.gov/1441/District-7",
+      "photo_url": "https://www.bremertonwa.gov/ImageRepository/Document?documentId=13189",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "345 6th St., Suite 603, Bremerton, WA 98337",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Council Office",
+          "city": "Bremerton",
+          "address": "345 6th St., Suite 603",
+          "phone": "360-473-5280",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Rick Tift is a lifelong Bremerton resident with degrees from Olympic College, the University of Washington, and the University of Puget Sound. He retired after a 45-year career at Puget Sound Naval Shipyard, including 19 years as Executive Director, and has a long history of civic involvement, serving on the Bremerton Planning Commission and various boards. His policy priorities include public safety, shipyard modernization, and addressing homelessness and housing affordability.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Bremerton",
+        "state": "WA"
+      },
+      "source_url": "https://www.bremertonwa.gov/155/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -748,6 +1038,409 @@
       },
       "source_url": "https://clark.wa.gov/councilors",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:agriculture-representative:william-carpenter",
+      "name": "William Carpenter",
+      "office": "Agriculture Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "will.carpenter@co.chelan.wa.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:business-and-industry-representative:jana-fischback",
+      "name": "Jana Fischback",
+      "office": "Business and Industry Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "jana@sustainablencw.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:city-of-bridgeport-representative:sergio-orozco",
+      "name": "Sergio Orozco",
+      "office": "City of Bridgeport Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "Mayor@BridgeportWA.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:city-of-east-wenatchee-representative:christine-johnson",
+      "name": "Christine Johnson",
+      "office": "City of East Wenatchee Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "ctjohnson@eastwenatchee.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:city-of-rock-island-representative:niko-gabaldo",
+      "name": "Niko Gabaldo",
+      "office": "City of Rock Island Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "mayor@rockislandwa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:department-of-ecology-representative:michelle-mulrony",
+      "name": "Michelle Mulrony",
+      "office": "Department of Ecology Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "mmul461@ecy.wa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:douglas-county-representative:marc-straub",
+      "name": "Marc Straub",
+      "office": "Douglas County Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "mstraub@co.douglas.wa.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:michelson-packaging-representative:josh-williamson",
+      "name": "Josh Williamson",
+      "office": "Michelson Packaging Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "josh.williamson@mpcyak.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:organics-representative:robbette-schmit",
+      "name": "Robbette Schmit",
+      "office": "Organics Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "robettes@wintonmfg.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:public-health-and-safety-representative:brian-dickey",
+      "name": "Brian Dickey",
+      "office": "Public Health and Safety Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "brian.dickey@cdhd.wa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:town-of-mansfield-representative:clint-wall",
+      "name": "Clint Wall",
+      "office": "Town of Mansfield Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "cwallmansfield@nwi.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:town-of-waterville-representative:loyd-smith",
+      "name": "Loyd Smith",
+      "office": "Town of Waterville Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "waterville@nwi.net",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:douglas-county:waste-industry-representative:tyler-mackay",
+      "name": "Tyler Mackay",
+      "office": "Waste Industry Representative",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "tmackay@wm.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "WA"
+      },
+      "source_url": "https://www.douglascountywa.gov/452/Solid-Waste-Advisory-Committee-SWAC",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -3524,7 +4217,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -3555,7 +4248,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -3617,7 +4310,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -3648,7 +4341,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -3679,7 +4372,193 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-27T06:19:49.346Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:council-member:dennis-king",
+      "name": "Dennis King",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": "District 2",
+      "phone": "253-841-4321",
+      "email": "dking@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/638/District-2---Dennis-King",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=25189",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": "Open Monday - Friday: 8 am - 5 pm",
+      "bio": "Dennis King was elected in 2021 for the 2022 -2025 term. In 2024, he was selected by the Council to serve as Deputy Mayor for 2024 - 2025. King was re-elected in November 2025 to serve a second term from 2026 - 2029.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:council-member:jim-kastama",
+      "name": "Jim Kastama",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": "District 1",
+      "phone": "253-278-6022",
+      "email": "jkastama@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/634/District-1---Jim-Kastama",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=6696",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Kastama was first elected to District I in 2017 and re-elected for subsequent terms. He graduated from Puyallup High School in 1978 and earned a Bachelor of Arts from the University of California at Berkeley. He previously served as a State Representative and Senator, chairing the Senate Economic Development, Trade and Innovation Committee.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:council-member:lauren-adler",
+      "name": "Lauren Adler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": "District 1",
+      "phone": "253-400-6249",
+      "email": "ladler@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/635/District-1---Lauren-Adler",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=25190",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": null,
+      "bio": "Lauren Adler was elected to represent District 1 in November 2023, with her current term running from 2024-2027. A third-generation Puyallup resident, she has over 20 years of experience working in local, state, and federal government. Councilmember Adler is committed to elevating issues related to affordable housing, economic development, public safety, and smart growth, and has a long history of community advocacy.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:council-member:lindsay-smolko",
+      "name": "Lindsay Smolko",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": "District 3",
+      "phone": "253-509-6169",
+      "email": "lsmolko@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/666/District-3---Lindsay-Smolko",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=25187",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": null,
+      "bio": "Lindsay Smolko was elected by District 3 in November 2025. She is an elementary school teacher and STEAM Specialist with a Master's in Marriage & Family Therapy and a Bachelor's in Communications. She is an active community member, serving on boards and volunteering, and is committed to inclusivity and youth engagement.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:council-member:renne-gilliam",
+      "name": "Renne Gilliam",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": "At Large",
+      "phone": "253-400-6223",
+      "email": "rgilliam@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/665/At-Large---Renne-Gilliam",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=25188",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": "Monday - Friday: 8 am - 5 pm",
+      "bio": "Renne Gilliam was elected in 2023 to serve the At Large position on City Council for the term 2024 to 2027. A proud 4th generation Puyallup resident, she draws inspiration for community service from her family's legacy and currently works as a Career and Technical Education Teacher in the Puyallup School District.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:puyallup:deputy-mayor:dean-johnson",
+      "name": "Dean Johnson",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Puyallup City Council",
+      "district": null,
+      "phone": "253-244-8510",
+      "email": "djohnson@puyallupwa.gov",
+      "url": "https://www.puyallupwa.gov/671/Deputy-Mayor---Dean-Johnson",
+      "photo_url": "https://www.puyallupwa.gov/ImageRepository/Document?documentID=20683",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "333 S. Meridian, Puyallup, WA 98371",
+      "offices": [],
+      "hours": null,
+      "bio": "Dean Johnson was first elected to the Puyallup City Council in 2015 and re-elected in 2019 as the At-Large member. He served as Mayor from January 2022 to January 2024 and was selected as Deputy Mayor from 2026 to 2028. A seasoned real estate professional, he is committed to public safety, community engagement, and affordable homeownership.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Puyallup",
+        "state": "WA"
+      },
+      "source_url": "https://www.puyallupwa.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

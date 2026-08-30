@@ -1,11 +1,12 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 64,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 69,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
     "Doña Ana County",
+    "Farmington",
     "Rio Rancho",
     "Roswell",
     "Sandoval County",
@@ -910,6 +911,161 @@
       },
       "source_url": "https://www.donaana.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:farmington:city-councilor:janis-jakino",
+      "name": "Janis Jakino",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Farmington City Council",
+      "district": "District 4",
+      "phone": "505-599-1105",
+      "email": "jjakino@farmingtonnm.gov",
+      "url": "https://farmingtonnm.gov/315/District-4-Janis-Jakino",
+      "photo_url": "https://farmingtonnm.gov/ImageRepository/Document?documentID=27479",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Municipal Drive\nFarmington, NM 87401",
+      "offices": [],
+      "hours": null,
+      "bio": "City Councilor Janis Jakino is a proud native New Mexican raised in Farmington. She has a diverse professional background, including real estate development and management, financial management, and county corrections. She entered public service in 2018 when she was elected to the Farmington City Council.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Farmington",
+        "state": "NM"
+      },
+      "source_url": "https://farmingtonnm.gov/141/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:farmington:city-councilor:jeanine-bingham-kelly",
+      "name": "Jeanine Bingham-Kelly",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Farmington City Council",
+      "district": "District 3",
+      "phone": "505-599-1141",
+      "email": "jbkelly@farmingtonnm.gov",
+      "url": "https://farmingtonnm.gov/313/District-3-Jeanine-Bingham-Kelly",
+      "photo_url": "https://farmingtonnm.gov/ImageRepository/Document?documentID=27477",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Municipal Drive\nFarmington, NM 87401",
+      "offices": [],
+      "hours": null,
+      "bio": "City Councilor Jeanine Bingham-Kelly, a dedicated community leader and advocate, was born and raised in Farmington and has a deep-rooted commitment to its growth and prosperity. Her educational journey culminated in a Bachelor of Business Administration in Finance and Economics, with a minor in Government, from New Mexico State University.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Farmington",
+        "state": "NM"
+      },
+      "source_url": "https://farmingtonnm.gov/141/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:farmington:city-councilor:linda-rodgers",
+      "name": "Linda Rodgers",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Farmington City Council",
+      "district": "District 1",
+      "phone": "505-599-1155",
+      "email": "lrodgers@farmingtonnm.gov",
+      "url": "https://farmingtonnm.gov/310/District-1-Linda-Rodgers",
+      "photo_url": "https://farmingtonnm.gov/ImageRepository/Document?documentID=27480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Municipal Drive\nFarmington, NM 87401",
+      "offices": [],
+      "hours": null,
+      "bio": "Linda Rodgers was appointed to the Farmington City Council in August 2015 and is currently serving her second term, after being elected in 2016 and re-elected in 2021. She has been the Chief Financial Officer (CFO) of Process Equipment & Service Company, Inc. (PESCO) since 2012. Linda is a graduate of Aztec High School, San Juan College, and New Mexico Highlands University, and has served on numerous boards in Farmington.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Farmington",
+        "state": "NM"
+      },
+      "source_url": "https://farmingtonnm.gov/141/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:farmington:city-councilor:stewart-logan",
+      "name": "Stewart Logan",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Farmington City Council",
+      "district": "District 2",
+      "phone": "505-599-1112",
+      "email": "slogan@farmingtonnm.gov",
+      "url": "https://farmingtonnm.gov/1386/District-2-Stewart-Logan",
+      "photo_url": "https://farmingtonnm.gov/ImageRepository/Document?documentID=27923",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Municipal Drive\nFarmington, NM 87401",
+      "offices": [],
+      "hours": null,
+      "bio": "Stewart Logan, City Councilor for District 2, moved to Farmington permanently after college and has been heavily involved in the community for over 40 years. He has a background in finance and served as Benefits and Compensation Manager for San Juan County, retiring in 2024. Stewart is also a reserve deputy and has a long history of involvement in school sports officiating.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Farmington",
+        "state": "NM"
+      },
+      "source_url": "https://farmingtonnm.gov/141/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:farmington:mayor:nate-duckett",
+      "name": "Nate Duckett",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Farmington City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Municipal Drive\nFarmington, NM 87401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Farmington",
+        "state": "NM"
+      },
+      "source_url": "https://farmingtonnm.gov/141/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

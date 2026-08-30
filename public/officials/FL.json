@@ -1,7 +1,7 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 302,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 329,
   "cities": [
     "Alachua County",
     "Apopka",
@@ -19,11 +19,13 @@
     "Fort Lauderdale",
     "Fort Myers",
     "Fort Pierce",
+    "Greenacres",
     "Hialeah",
     "Highlands County",
     "Hollywood",
     "Homestead",
     "Jacksonville",
+    "Lake Worth Beach",
     "Lakeland",
     "Largo",
     "Lee County",
@@ -35,6 +37,8 @@
     "Monroe County",
     "Nassau County",
     "North Miami",
+    "North Miami Beach",
+    "Oakland Park",
     "Ocoee",
     "Okaloosa County",
     "Orlando",
@@ -44,6 +48,7 @@
     "Pensacola",
     "Port Orange",
     "Port St. Lucie",
+    "Royal Palm Beach",
     "Sanford",
     "Seminole County",
     "St. Cloud",
@@ -2176,6 +2181,192 @@
       "confidence": 1
     },
     {
+      "id": "fl:greenacres:council-member:elisa-leheny",
+      "name": "Elisa Leheny",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "eleheny@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/233/Elisa-Leheny-Councilmember",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3081",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Leheny was appointed to the City Council District V seat in November 2025 and has been a Greenacres resident for nearly 20 years. She holds a Masters of Social Work degree and has over 12 years of clinical experience working with individuals, families, and community professionals, advocating for social justice.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:greenacres:council-member:judith-dugo",
+      "name": "Judith Dugo",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "jdugo@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/231/Judith-Dugo-Councilmember",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3079",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Judith Dugo was first elected to the City Council in March 2014 and was re-elected most recently in March 2022. She was voted Deputy Mayor by her peers on the Council in 2020 and served two (2) terms. Prior to being elected, she served on various City boards and committees and has been a resident of District III for 26 years.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:greenacres:council-member:peter-a.-noble",
+      "name": "Peter A. Noble",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "pnoble@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/230/Peter-A-Noble-Councilmember",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3080",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Noble was elected to the Council in March 1998, and was re-elected into office most recently in March 2022. For over forty years, he was active in the financial services industry as a Financial Advisor. He is married to Ana Noble and has three children and three grandchildren.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:greenacres:council-member:susy-díaz",
+      "name": "Susy Díaz",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "sdiaz@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/229/Susy-Daz-Councilmember",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3180",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Susy Díaz is a proud Palm Beach County native and first-generation American who has spent nearly three decades making a meaningful impact in the community. Elected to the Greenacres City Council in 2022, she is deeply committed to fostering positive change and strengthening community ties. A graduate of both Palm Beach State College and Florida Atlantic University, Susy holds a Bachelor of Arts in Political Science and Social Sciences and a Master of Arts in Political Science, graduating magna cum laude.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:greenacres:deputy-mayor:john-tharp",
+      "name": "John Tharp",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "jtharp@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/232/John-Tharp-Deputy-Mayor",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3077",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Tharp was appointed to the City Council District I seat in July 2017, and was recently re-elected in March 2024. Mr. Tharp previously served on the City Council, and on the City’s Planning Commission Board. He has been a resident of Greenacres and resides here with his wife and daughter. Mr. Tharp is a graduate of Johnson and Wales University in Providence and his professional experience includes sales and project management in Information Technology and Real Estate.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:greenacres:mayor:chuck-shaw",
+      "name": "Chuck Shaw",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Greenacres City Council",
+      "district": null,
+      "phone": "561-642-2017",
+      "email": "cshaw@greenacresfl.gov",
+      "url": "https://www.greenacresfl.gov/235/Chuck-Shaw-Mayor",
+      "photo_url": "https://www.greenacresfl.gov/ImageRepository/Document?documentID=3076",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Charles (Chuck) Shaw was elected in March 2024, having previously served five terms as a City of Greenacres Councilmember and Deputy Mayor. He is well known for his over 50 years of service in the Palm Beach County School system, including roles as Principal, Area Superintendent, and Director of Governmental Relations. Shaw was inducted into the Palm Beach County Sports Hall of Fame in 2006 and served on the Palm Beach County School Board as Member, Chairman, and Vice Chairman.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Greenacres",
+        "state": "FL"
+      },
+      "source_url": "https://www.greenacresfl.gov/163/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
       "id": "fl:hialeah:mayor:bryan-calvo",
       "name": "Bryan Calvo",
       "office": "Mayor",
@@ -3609,6 +3800,130 @@
       },
       "source_url": "https://www.jacksonville.gov/city-council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lake-worth-beach:administrative-assistant:beatrice-hollimon",
+      "name": "Beatrice Hollimon",
+      "office": "Administrative Assistant",
+      "level": "local",
+      "body": "Lake Worth Beach City Council",
+      "district": null,
+      "phone": "561-586-1662",
+      "email": "bhollimon@lakeworthbeachfl.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7 N Dixie Hwy, Lake Worth Beach, FL 33460",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Worth Beach",
+        "state": "FL"
+      },
+      "source_url": "https://lakeworthbeachfl.gov/government/city-clerk",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lake-worth-beach:city-clerk:melissa-ann-coyne",
+      "name": "Melissa Ann Coyne",
+      "office": "City Clerk",
+      "level": "local",
+      "body": "Lake Worth Beach City Council",
+      "district": null,
+      "phone": "561-586-1659",
+      "email": "mcoyne@lakeworthbeachfl.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7 N Dixie Hwy, Lake Worth Beach, FL 33460",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Worth Beach",
+        "state": "FL"
+      },
+      "source_url": "https://lakeworthbeachfl.gov/government/city-clerk",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lake-worth-beach:deputy-city-clerk:shayla-ellis",
+      "name": "Shayla Ellis",
+      "office": "Deputy City Clerk",
+      "level": "local",
+      "body": "Lake Worth Beach City Council",
+      "district": null,
+      "phone": "561-586-1663",
+      "email": "sellis@lakeworthbeachfl.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7 N Dixie Hwy, Lake Worth Beach, FL 33460",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Worth Beach",
+        "state": "FL"
+      },
+      "source_url": "https://lakeworthbeachfl.gov/government/city-clerk",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:lake-worth-beach:executive-assistant-to-the-city-clerk:wanda-maldonado",
+      "name": "Wanda Maldonado",
+      "office": "Executive Assistant to the City Clerk",
+      "level": "local",
+      "body": "Lake Worth Beach City Council",
+      "district": null,
+      "phone": "561-586-1660",
+      "email": "wmaldonado@lakeworthbeachfl.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7 N Dixie Hwy, Lake Worth Beach, FL 33460",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lake Worth Beach",
+        "state": "FL"
+      },
+      "source_url": "https://lakeworthbeachfl.gov/government/city-clerk",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -5672,6 +5987,223 @@
       "confidence": 1
     },
     {
+      "id": "fl:north-miami-beach:commissioner:daniela-jean",
+      "name": "Daniela Jean",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 3",
+      "phone": "305-948-2986",
+      "email": "Daniela.Jean@citynmb.com",
+      "url": "https://www.citynmb.com/440/Daniela-Jean",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12104",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Daniela Jean was born in Paris, France, and raised in North Miami Beach, attending local schools and starting her first job at the NMB Library. She holds degrees in Biology and Global Strategic Communications, reflecting her commitment to innovation and equity. As a social strategist, speaker, author, and Assistant Professor, she mentors future leaders and champions accessibility to arts and culture.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:commissioner:fortuna-smukler",
+      "name": "Fortuna Smukler",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 4",
+      "phone": "305-948-2986",
+      "email": "Fortuna.Smukler@citynmb.com",
+      "url": "https://www.citynmb.com/1020/Fortuna-Smukler",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12801",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Hi - I am Fortuna Smukler, Commissioner with the City of North Miami Beach, where I have served since 2018. Prior to that, I served on multiple NMB City Boards and Committees and was the Chair of the Civil Service Board and the Multi-Cultural Committee. It is important to me to return phone calls, emails, and to listen to my constituents.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:commissioner:jay-chernoff",
+      "name": "Jay Chernoff",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 2",
+      "phone": null,
+      "email": "jay.chernoff@citynmb.com",
+      "url": "https://www.citynmb.com/1423/Jay-R-Chernoff",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12802",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Jay Chernoff is a lifelong resident of North Miami Beach, proudly calling this city home for 63 years. Deeply rooted in the community, he is dedicated to improving the quality of life for all residents through leadership, responsible governance, and civic engagement. He is married to his lovely wife, Robin Chernoff, and together they have a son.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:commissioner:lynn-su",
+      "name": "Lynn Su",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 7",
+      "phone": "305-948-2986",
+      "email": "lynn.su@citynmb.com",
+      "url": "https://www.citynmb.com/1191/Lynn-Su",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12803",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Born to immigrant parents from Thailand, Lynn Su's journey embodies the American dream. After earning a degree in Biochemistry from UCLA, she led her family's businesses in Thailand, demonstrating strategic brilliance and determination. With a history of leadership roles and involvement in various non-profit organizations, she is deeply ingrained in her community's fabric.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:commissioner:phyllis-smith",
+      "name": "Phyllis Smith",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 6",
+      "phone": "305-947-7581",
+      "email": "phyllis.smith@citynmb.com",
+      "url": "https://www.citynmb.com/1424/Phyllis-Smith",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12806",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Phyllis S. Smith is a dedicated public servant with over 16 years of experience as a City Commissioner for North Miami Beach. A resident of the city for more than 53 years, she is committed to improving the community she loves. She was re-elected in November 2022 for a new four-year term.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:mayor:michael-joseph,-esq.",
+      "name": "Michael Joseph, Esq.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": null,
+      "phone": "305-948-2986",
+      "email": "Michael.Joseph@citynmb.com",
+      "url": "https://www.citynmb.com/396/Mayor",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12805",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Michael Joseph is an attorney and the mayor for the city of North Miami Beach, Florida. He holds a Master’s in Business Administration from Florida International University and a Juris Doctorate from St. Thomas University. Today, he is a practicing attorney as a partner with the law firm of Galbut Walters & Associates specializing in civil rights and land use.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:north-miami-beach:vice-mayor:mckenzie-fleurimond",
+      "name": "McKenzie Fleurimond",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "North Miami Beach City Council",
+      "district": "Group 5",
+      "phone": "305-948-2986",
+      "email": "McKenzie.Fleurimond@citynmb.com",
+      "url": "https://www.citynmb.com/1190/McKenzie-Fleurimond",
+      "photo_url": "https://www.citynmb.com/ImageRepository/Document?documentID=12804",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17011 NE 19th Avenue\n4th Floor\nNorth Miami Beach , FL 33162",
+      "offices": [],
+      "hours": null,
+      "bio": "McKenzie Fleurimond was raised in North Miami Beach and has called NMB home for over 27 years. He was elected in 2018 and 2020, bringing a measured approach to the North Miami Beach Commission with a focus on meaningful progress and economic development initiatives.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "North Miami Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.citynmb.com/385/Mayor-City-Commission",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:north-miami:city-clerk:vanessa-joseph",
       "name": "Vanessa Joseph",
       "office": "City Clerk",
@@ -5866,6 +6398,161 @@
       "source_url": "https://www.northmiamifl.gov/1401/North-Miami-Elected-Officials",
       "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 0.9
+    },
+    {
+      "id": "fl:oakland-park:commissioner:fitz-budhoo",
+      "name": "Fitz Budhoo",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oakland Park City Council",
+      "district": null,
+      "phone": "954-493-4013",
+      "email": "fitz.budhoo@oaklandparkfl.gov",
+      "url": "https://www.oaklandparkfl.gov/792/Commissioner-Fitz-Budhoo",
+      "photo_url": "https://www.oaklandparkfl.gov/ImageRepository/Document?documentID=14218",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1100 Park Lane East Oakland Park, FL 33334",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Fitz Budhoo was elected to the Oakland Park City Commission on November 5, 2024, to serve a four-year term. Born in Manhattan, New York, he moved to Miami, Florida, in 1985 and began his journey into public service in 1991 with the Miami-Dade County Solid Waste Management Department. He holds a Master of Arts in Business Administration from Florida International University and is an active member of the Oakland Park Kiwanis Club.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Oakland Park",
+        "state": "FL"
+      },
+      "source_url": "https://www.oaklandparkfl.gov/27/Your-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:oakland-park:commissioner:letitia-newbold",
+      "name": "Letitia Newbold",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oakland Park City Council",
+      "district": null,
+      "phone": "954-605-4634",
+      "email": "letitia.newbold@oaklandparkfl.gov",
+      "url": "https://www.oaklandparkfl.gov/747/Commissioner-Letitia-Newbold",
+      "photo_url": "https://www.oaklandparkfl.gov/ImageRepository/Document?documentID=12279",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1100 Park Lane East Oakland Park, FL 33334",
+      "offices": [],
+      "hours": null,
+      "bio": "Letitia Newbold was initially appointed to the Oakland Park Commission on March 1, 2023, and re-elected in November 2024 to serve a four-year term. A resident of Oakland Park for 15 years, she brings strong leadership abilities and a commitment to community involvement.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Oakland Park",
+        "state": "FL"
+      },
+      "source_url": "https://www.oaklandparkfl.gov/27/Your-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:oakland-park:commissioner:tim-lonergan",
+      "name": "Tim Lonergan",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oakland Park City Council",
+      "district": null,
+      "phone": "954-683-2658",
+      "email": "timl@oaklandparkfl.gov",
+      "url": "https://www.oaklandparkfl.gov/744/Commissioner-Tim-Lonergan",
+      "photo_url": "https://www.oaklandparkfl.gov/ImageRepository/Document?documentID=11519",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1100 Park Lane East\nOakland Park, FL 33334",
+      "offices": [],
+      "hours": null,
+      "bio": "Former Mayor Lonergan is grateful and proud to have another opportunity to serve the wonderfully diverse residents of Oakland Park. Born and raised in Milwaukee, Wisconsin, Tim moved to Oakland Park in January 2000. He lives in the Coral Heights neighborhood with his husband and their cat, Tiger.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Oakland Park",
+        "state": "FL"
+      },
+      "source_url": "https://www.oaklandparkfl.gov/27/Your-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:oakland-park:mayor:steven-r.-arnst",
+      "name": "Steven R. Arnst",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Oakland Park City Council",
+      "district": null,
+      "phone": "954-943-2055",
+      "email": "stevena@oaklandparkfl.gov",
+      "url": "https://www.oaklandparkfl.gov/745/Mayor-Steven-R-Arnst",
+      "photo_url": "https://www.oaklandparkfl.gov/ImageRepository/Document?documentID=11522",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1100 Park Lane East Oakland Park, FL 33334",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Steven R. Arnst was born and raised in South Florida and moved to Oakland Park in 1984. He has served on the Oakland Park City Commission for multiple terms and is passionate about helping the community.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Oakland Park",
+        "state": "FL"
+      },
+      "source_url": "https://www.oaklandparkfl.gov/27/Your-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:oakland-park:vice-mayor:aisha-gordon",
+      "name": "Aisha Gordon",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Oakland Park City Council",
+      "district": null,
+      "phone": "954-397-1921",
+      "email": "aisha.gordon@oaklandparkfl.gov",
+      "url": "https://www.oaklandparkfl.gov/642/Vice-Mayor-Aisha-Gordon",
+      "photo_url": "https://www.oaklandparkfl.gov/ImageRepository/Document?documentID=13926",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1100 Park Lane East Oakland Park, FL 33334",
+      "offices": [],
+      "hours": null,
+      "bio": "Vice Mayor Aisha Gordon was initially elected to the Oakland Park City Commission in 2020 and served as Mayor 2022-2023. She was re-elected in November 2024 and will serve her second term until November 2028. Aisha has been a resident of Oakland Park for 18 years, after annexation in 2005. She believes in collective envisioning and community mobilizing to assure a more vibrant, cleaner, greener, safer, a sustainable environment and a strong economy for years to come.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Oakland Park",
+        "state": "FL"
+      },
+      "source_url": "https://www.oaklandparkfl.gov/27/Your-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
     },
     {
       "id": "fl:ocoee:commissioner:scott-kennedy",
@@ -7294,6 +7981,161 @@
       "source_url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Human-Resources?lang_update=639228689410259971",
       "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 1
+    },
+    {
+      "id": "fl:royal-palm-beach:council-member:jan-rodusky",
+      "name": "Jan Rodusky",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Royal Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1050 Royal Palm Beach Blvd. Royal Palm Beach, FL 33411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Royal Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.royalpalmbeachfl.gov/411/Contact-the-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:royal-palm-beach:council-member:jeff-hmara",
+      "name": "Jeff Hmara",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Royal Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1050 Royal Palm Beach Blvd. Royal Palm Beach, FL 33411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Royal Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.royalpalmbeachfl.gov/411/Contact-the-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:royal-palm-beach:council-member:richard-valuntas",
+      "name": "Richard Valuntas",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Royal Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1050 Royal Palm Beach Blvd. Royal Palm Beach, FL 33411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Royal Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.royalpalmbeachfl.gov/411/Contact-the-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:royal-palm-beach:council-member:selena-samios",
+      "name": "Selena Samios",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Royal Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1050 Royal Palm Beach Blvd. Royal Palm Beach, FL 33411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Royal Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.royalpalmbeachfl.gov/411/Contact-the-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "fl:royal-palm-beach:council-member:sylvia-sharps",
+      "name": "Sylvia Sharps",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Royal Palm Beach City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1050 Royal Palm Beach Blvd. Royal Palm Beach, FL 33411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Royal Palm Beach",
+        "state": "FL"
+      },
+      "source_url": "https://www.royalpalmbeachfl.gov/411/Contact-the-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
     },
     {
       "id": "fl:sanford:commissioner,-vice-mayor:patrick-austin",

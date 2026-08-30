@@ -1,7 +1,7 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 136,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 158,
   "cities": [
     "Arlington Heights",
     "Boone County",
@@ -16,6 +16,7 @@
     "Oak Lawn",
     "Peoria County",
     "St. Clair County",
+    "Stephenson County",
     "Waukegan"
   ],
   "officials": [
@@ -3954,6 +3955,688 @@
       },
       "source_url": "https://www.co.st-clair.il.us/elected-officials",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-administration-committee;-vice-chairman,-finance-and-procurement-committee;-member,-public-works-committee:larry-jogerst",
+      "name": "Larry Jogerst",
+      "office": "Chairman, Administration Committee; Vice Chairman, Finance and Procurement Committee; Member, Public Works Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-court-services-committee;-member,-finance-and-procurement-committee;-member,-planning-and-development-committee:dale-diddens",
+      "name": "Dale Diddens",
+      "office": "Chairman, Court Services Committee; Member, Finance and Procurement Committee; Member, Planning and Development Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-etsb/911-committee:denise-book",
+      "name": "Denise Book",
+      "office": "Chairman, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-finance-and-procurement-committee;-vice-chairman,-nursing-center-committee;-vice-chairman,-planning-and-development-committee;-member,-etsb/911-committee:nicole-baker",
+      "name": "Nicole Baker",
+      "office": "Chairman, Finance and Procurement Committee; Vice Chairman, Nursing Center Committee; Vice Chairman, Planning and Development Committee; Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-nursing-center-committee;-member,-finance-and-procurement-committee;-member,-public-property-and-safety-committee:cindy-lawfer",
+      "name": "Cindy Lawfer",
+      "office": "Chairman, Nursing Center Committee; Member, Finance and Procurement Committee; Member, Public Property and Safety Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-planning-and-development-committee;-member,-administration-committee;-member,-finance-and-procurement-committee:steve-fricke",
+      "name": "Steve Fricke",
+      "office": "Chairman, Planning and Development Committee; Member, Administration Committee; Member, Finance and Procurement Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-public-property-and-safety-committee;-member,-finance-and-procurement-committee;-member,-nursing-center-committee:ronnie-bush",
+      "name": "Ronnie Bush",
+      "office": "Chairman, Public Property and Safety Committee; Member, Finance and Procurement Committee; Member, Nursing Center Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:chairman,-public-works-committee;-member,-finance-and-procurement-committee;-member,-planning-and-development-committee:brian-brandt",
+      "name": "Brian Brandt",
+      "office": "Chairman, Public Works Committee; Member, Finance and Procurement Committee; Member, Planning and Development Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:coordinator,-etsb/911-committee:robyn-stovall",
+      "name": "Robyn Stovall",
+      "office": "Coordinator, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-administration-committee;-member,-planning-and-development-committee:clayton-zimmerman",
+      "name": "Clayton Zimmerman",
+      "office": "Member, Administration Committee; Member, Planning and Development Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-administration-committee;-member,-public-works-committee:adam-moderow",
+      "name": "Adam Moderow",
+      "office": "Member, Administration Committee; Member, Public Works Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-court-services-committee;-member,-public-property-and-safety-committee:patrick-busker",
+      "name": "Patrick Busker",
+      "office": "Member, Court Services Committee; Member, Public Property and Safety Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-court-services-committee;-member,-public-works-committee:lynette-williams",
+      "name": "Lynette Williams",
+      "office": "Member, Court Services Committee; Member, Public Works Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-etsb/911-committee:chris-shenberger",
+      "name": "Chris Shenberger",
+      "office": "Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-etsb/911-committee:ray-busker",
+      "name": "Ray Busker",
+      "office": "Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-etsb/911-committee:riley-austin",
+      "name": "Riley Austin",
+      "office": "Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-etsb/911-committee:steven-stovall",
+      "name": "Steven Stovall",
+      "office": "Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:member,-etsb/911-committee:will-backus",
+      "name": "Will Backus",
+      "office": "Member, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:vice-chairman,-administration-committee;-vice-chairman,-public-property-and-safety-committee:lou-ann-hayes",
+      "name": "Lou Ann Hayes",
+      "office": "Vice Chairman, Administration Committee; Vice Chairman, Public Property and Safety Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:vice-chairman,-court-services-committee;-member,-nursing-center-committee:william-hadley",
+      "name": "William Hadley",
+      "office": "Vice Chairman, Court Services Committee; Member, Nursing Center Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:vice-chairman,-etsb/911-committee:scott-townsend",
+      "name": "Scott Townsend",
+      "office": "Vice Chairman, ETSB/911 Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:stephenson-county:vice-chairman,-public-works-committee;-member,-public-property-and-safety-committee:sam-newton",
+      "name": "Sam Newton",
+      "office": "Vice Chairman, Public Works Committee; Member, Public Property and Safety Committee",
+      "level": "county",
+      "body": "Stephenson County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Stephenson County",
+        "state": "IL"
+      },
+      "source_url": "https://www.stephensoncountyil.gov/government/county_board/standing_committees/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

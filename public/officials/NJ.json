@@ -1,7 +1,7 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 95,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 100,
   "cities": [
     "Camden",
     "Cape May County",
@@ -9,6 +9,7 @@
     "East Orange",
     "Essex County",
     "Gloucester County",
+    "Hackensack",
     "Hoboken",
     "Hudson County",
     "Hunterdon County",
@@ -888,6 +889,161 @@
       },
       "source_url": "https://www.gloucestercountynj.gov/164/Commissioners",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hackensack:councilman:philip-carroll",
+      "name": "Philip Carroll",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Hackensack City Council",
+      "district": null,
+      "phone": null,
+      "email": "pcarroll@hackensack.org",
+      "url": null,
+      "photo_url": "https://www.hackensack.org/wp-content/uploads/2025/07/DSCF0570-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hackensack",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hackensack.org/mayor-city-council/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hackensack:councilman:roberto-diaz",
+      "name": "Roberto Diaz",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Hackensack City Council",
+      "district": null,
+      "phone": null,
+      "email": "rdiaz@hackensack.org",
+      "url": null,
+      "photo_url": "https://www.hackensack.org/wp-content/uploads/2025/07/DSCF0513-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hackensack",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hackensack.org/mayor-city-council/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hackensack:councilwoman:sonya-clark-collins",
+      "name": "Sonya Clark-Collins",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Hackensack City Council",
+      "district": null,
+      "phone": null,
+      "email": "sclarkcollins@hackensack.org",
+      "url": null,
+      "photo_url": "https://www.hackensack.org/wp-content/uploads/2025/07/DSCF0433-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hackensack",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hackensack.org/mayor-city-council/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hackensack:deputy-mayor:agatha-toomey",
+      "name": "Agatha Toomey",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Hackensack City Council",
+      "district": null,
+      "phone": null,
+      "email": "atoomey@hackensack.org",
+      "url": null,
+      "photo_url": "https://www.hackensack.org/wp-content/uploads/2025/07/DSCF0113-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hackensack",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hackensack.org/mayor-city-council/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:hackensack:mayor:caseen-gaines",
+      "name": "Caseen Gaines",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Hackensack City Council",
+      "district": null,
+      "phone": null,
+      "email": "cgaines@hackensack.org",
+      "url": null,
+      "photo_url": "https://www.hackensack.org/wp-content/uploads/2025/07/DSCF0486-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hackensack",
+        "state": "NJ"
+      },
+      "source_url": "https://www.hackensack.org/mayor-city-council/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
