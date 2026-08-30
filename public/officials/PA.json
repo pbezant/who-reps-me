@@ -1,7 +1,7 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 128,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 145,
   "cities": [
     "Beaver County",
     "Bethlehem",
@@ -15,6 +15,7 @@
     "Cumberland County",
     "Dauphin County",
     "Fayette County",
+    "Harrisburg",
     "Lackawanna County",
     "Lancaster",
     "Lancaster County",
@@ -28,6 +29,7 @@
     "Reading",
     "Schuylkill County",
     "Scranton",
+    "York",
     "York County"
   ],
   "officials": [
@@ -2047,6 +2049,285 @@
       "confidence": 1
     },
     {
+      "id": "pa:harrisburg:assistant-city-clerk:cedric-humphrey",
+      "name": "Cedric Humphrey",
+      "office": "Assistant City Clerk",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:city-clerk:jared-truesdale",
+      "name": "Jared Truesdale",
+      "office": "City Clerk",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-member:ausha-green",
+      "name": "Ausha Green",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": "https://harrisburgpa.gov/government/business_detail_T7_R9.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-member:crystal-davis",
+      "name": "Crystal Davis",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": "https://harrisburgpa.gov/government/business_detail_T7_R12.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-member:jocelyn-rawls",
+      "name": "Jocelyn Rawls",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-member:ralph-rodriguez",
+      "name": "Ralph Rodriguez",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-member:robert-lawson",
+      "name": "Robert Lawson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-president:danielle-hill",
+      "name": "Danielle Hill",
+      "office": "Council President",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": "https://harrisburgpa.gov/government/business_detail_T7_R8.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:harrisburg:council-vice-president:lamont-jones",
+      "name": "Lamont Jones",
+      "office": "Council Vice President",
+      "level": "local",
+      "body": "Harrisburg City Council",
+      "district": null,
+      "phone": "717-255-3060",
+      "email": null,
+      "url": "https://harrisburgpa.gov/government/business_detail_T7_R11.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 North 2nd Street, Suite 305 Harrisburg, PA 17101",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrisburg",
+        "state": "PA"
+      },
+      "source_url": "https://harrisburgpa.gov/government/city_council.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:lackawanna-county:clerk-of-judicial-records:lauren-mailen",
       "name": "Lauren Mailen",
       "office": "Clerk of Judicial Records",
@@ -3997,6 +4278,254 @@
       },
       "source_url": "https://www.yorkcountypa.gov/1180/Vice-President-Commissioner-Scott-Burfor",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:city-council-president:edquina-washington",
+      "name": "Edquina Washington",
+      "office": "City Council President",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": "717-849-2246",
+      "email": "ETWashington@yorkcity.org",
+      "url": "https://www.yorkcity.org/government/city-council/city-council-members/",
+      "photo_url": "https://www.yorkcity.org/wp-content/uploads/2026/01/Edquina-Washington-President-scaled.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 S. George St., York, PA 17401",
+      "offices": [],
+      "hours": null,
+      "bio": "Edquina Washington, a Democrat, was appointed to York City Council on January 24, 2018, to fill a vacancy and served until the first Monday of January 2020. After a successful election bid, Edquina was elected to York City Council in January 2020 to serve a four-year term and was again reelected in January 2024 to a four-year term. Edquina serves as Council’s liaison to the City/School District Cooperation & Open Communications Committee, York City Civil Service Board, and the York City Housing Authority Board.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:city-council-vice-president:betsy-buckingham",
+      "name": "Betsy Buckingham",
+      "office": "City Council Vice President",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:controller:henry-m.-buckingham",
+      "name": "Henry M. Buckingham",
+      "office": "Controller",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "pa:york:council-member:elizabeth-bupp",
+      "name": "Elizabeth Bupp",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:council-member:ryan-supler",
+      "name": "Ryan Supler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:council-member:teresa-johnescu",
+      "name": "Teresa Johnescu",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:mayor:sandie-walker",
+      "name": "Sandie Walker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": "717-849-2221",
+      "email": "mayorsoffice@yorkcity.org",
+      "url": "https://www.yorkcity.org/government/mayor-sandie-walker-mayors-office/",
+      "photo_url": "https://www.yorkcity.org/wp-content/uploads/2026/03/Sandie-Walker-Mayor.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 South George Street, York, PA 17401",
+      "offices": [],
+      "hours": "8:30am – 4:30pm",
+      "bio": "Sandie Denise Walker was first elected as York City Mayor in November 2025. A graduate of William Penn Senior High School and the University of Richmond, she began her career in public service with the York City Health Bureau and as Youth Program Coordinator. She previously served six years as a director for the School District of the City of York and as President of York City Council.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:york:treasurer:joe-jefcoat",
+      "name": "Joe Jefcoat",
+      "office": "Treasurer",
+      "level": "local",
+      "body": "York City Council",
+      "district": null,
+      "phone": null,
+      "email": "jjefcoat@yorkcity.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "York",
+        "state": "PA"
+      },
+      "source_url": "https://www.yorkcity.org/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 215,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 229,
   "cities": [
     "Ann Arbor",
     "Battle Creek",
@@ -18,11 +18,13 @@
     "Livonia",
     "Macomb County",
     "Marquette",
+    "Midland",
     "Monroe County",
     "Novi",
     "Pontiac",
     "Portage",
     "Rochester Hills",
+    "Saginaw",
     "Shiawassee County",
     "St. Clair County",
     "St. Clair Shores",
@@ -3787,6 +3789,161 @@
       "confidence": 1
     },
     {
+      "id": "mi:midland:councilman:dave-pasek",
+      "name": "Dave Pasek",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Midland City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "dpasek@midland-mi.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midland",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofmidlandmi.gov/428/City-Council---Manager-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:midland:councilman:marty-wazbinski",
+      "name": "Marty Wazbinski",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Midland City Council",
+      "district": "Ward 5",
+      "phone": null,
+      "email": "mwazbinski@midland-mi.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midland",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofmidlandmi.gov/428/City-Council---Manager-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:midland:councilman:tim-soler",
+      "name": "Tim Soler",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Midland City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": "tsoler@midland-mi.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midland",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofmidlandmi.gov/428/City-Council---Manager-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:midland:mayor-pro-tem/councilman:diane-brown-wilhelm",
+      "name": "Diane Brown Wilhelm",
+      "office": "Mayor Pro Tem / Councilman",
+      "level": "local",
+      "body": "Midland City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": "dbrown@midland-mi.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midland",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofmidlandmi.gov/428/City-Council---Manager-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:midland:mayor/councilman:maureen-donker",
+      "name": "Maureen Donker",
+      "office": "Mayor / Councilman",
+      "level": "local",
+      "body": "Midland City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": "mdonker@midland-mi.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midland",
+        "state": "MI"
+      },
+      "source_url": "https://www.cityofmidlandmi.gov/428/City-Council---Manager-Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "mi:monroe-county:administrator/chief-financial-officer:michael-bosanac",
       "name": "Michael Bosanac",
       "office": "Administrator / Chief Financial Officer",
@@ -4808,6 +4965,285 @@
       "source_url": "https://www.rochesterhills.org/government/index.php",
       "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 0.9
+    },
+    {
+      "id": "mi:saginaw:council-member:bill-ostash",
+      "name": "Bill Ostash",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=32",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=353",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Bill Ostash is a lifelong resident of the Great Lakes Bay Region, holding a Bachelor's Degree in Computer Science with a minor in Management. He has served on the City Council since 2018 and was previously active in historic preservation, including chairing the Saginaw Historic District Commission. He is dedicated to Saginaw's progress and rebirth.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:carly-rose-hammond",
+      "name": "Carly Rose Hammond",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=28",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=2852",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:eric-d.-braddock,-sr.",
+      "name": "Eric D. Braddock, Sr.",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/directory.aspx?EID=26",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=2757",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Eric D. Braddock, Sr. was born in Saginaw, Michigan, and served honorably in the United States Army before pursuing higher education. Upon returning to Saginaw, he dedicated himself to public service, community advocacy, and education, including roles with Saginaw Citizens United for Equity and Justice and the Saginaw Public School District. He was elected as a Saginaw City Councilman in 2024, continuing his mission to serve his hometown.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:heidi-g.-wiggins",
+      "name": "Heidi G. Wiggins",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=33",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=2788",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Council Member Heidi Wiggins is a lifelong resident of Saginaw and a graduate of Delta College. She began serving on City Council in 2024 and is committed to ensuring all City of Saginaw residents are represented and have the best environment to live, grow, and prosper.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:jacinta-seals",
+      "name": "Jacinta Seals",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=29",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=2755",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:michael-balls",
+      "name": "Michael Balls",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=27",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=346",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Michael Balls is a lifelong resident of Saginaw, dedicated to the common good. He retired from Saginaw Steering GM in 2007 and currently works at Nexteer Corporation. Having served on the City Council since 2013, he is committed to building a stronger Saginaw.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:council-member:tobias-young",
+      "name": "Tobias Young",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=31",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=4006",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Tobias Young is a dedicated lifelong resident of Saginaw, serving as a Council Member since 2025. With a background as a journeyman electrician and entrepreneur, he brings practical experience and a deep commitment to community development, advocating for housing and small businesses. He is actively involved in his community and prides himself on a hands-on approach to problem-solving.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:mayor-pro-tempore:priscilla-garcia",
+      "name": "Priscilla Garcia",
+      "office": "Mayor Pro Tempore",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=30",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=350",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Pro Tem Priscilla Garcia is a lifelong Saginaw resident with a master's degree in business administration, dedicated to community service through various organizations. Elected to City Council in 2022 and Mayor Pro Tem in 2024, she works professionally as a Licensed Medicare Specialist and aims to ensure Saginaw's vibrancy for future generations.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:saginaw:mayor:brenda-moore",
+      "name": "Brenda Moore",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Saginaw City Council",
+      "district": null,
+      "phone": "989-399-1311",
+      "email": null,
+      "url": "https://www.saginaw-mi.com/Directory.aspx?EID=25",
+      "photo_url": "https://www.saginaw-mi.com/ImageRepository/Document?documentId=352",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1315 South Washington Avenue Saginaw, MI 48601",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Brenda Fay Moore is a life-long resident of the City of Saginaw and a proud graduate of Saginaw High School. Since her 2013 election to City Council, she has actively engaged with the Michigan Municipal League, serving as President of the Michigan Black Caucus of Local Elected Officials and the Michigan Association of Mayors. Elected Mayor in 2020, she aims to positively impact youth and young adults and serves on several influential boards and commissions.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Saginaw",
+        "state": "MI"
+      },
+      "source_url": "https://www.saginaw-mi.com/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
     },
     {
       "id": "mi:shiawassee-county:county-commissioner---chairman:gregory-brodeur",

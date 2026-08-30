@@ -1,12 +1,44 @@
 {
   "state": "WV",
-  "generated_at": "2026-08-24T03:21:09.305Z",
-  "count": 20,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 21,
   "cities": [
+    "Charleston",
     "Kanawha County",
     "Monongalia County"
   ],
   "officials": [
+    {
+      "id": "wv:charleston:mayor:amy-shuler-goodwin",
+      "name": "Amy Shuler Goodwin",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Charleston City Council",
+      "district": null,
+      "phone": "304-348-8174",
+      "email": "mayorsoffice@cityofcharleston.org",
+      "url": "https://www.charlestonwv.gov/mayor",
+      "photo_url": "https://www.charlestonwv.gov/sites/default/files/inline-images/amy-24_0.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Virginia St. East Charleston, WV 25301",
+      "offices": [],
+      "hours": "Monday thru Friday: 8 a.m. - 5 p.m. Closed Saturday and Sunday",
+      "bio": "Amy Shuler Goodwin was elected in 2018 as the first female Mayor of Charleston, West Virginia, and was re-elected in 2022. Since taking office, Mayor Goodwin has prioritized fiscal accountability, transparent and efficient processes, investment in critical infrastructure, people-focused solutions, and forward-thinking policies and programming. She also serves as National League of Cities Vice President of the Women in Municipal Government and President of the West Virginia Municipal League Board of Directors.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Charleston",
+        "state": "WV"
+      },
+      "source_url": "https://www.charlestonwv.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
     {
       "id": "wv:kanawha-county:commissioner:natalie-tennant",
       "name": "Natalie Tennant",

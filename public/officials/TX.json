@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-29T04:33:42.194Z",
-  "count": 426,
+  "generated_at": "2026-08-30T04:30:18.639Z",
+  "count": 461,
   "cities": [
     "Abilene",
     "Allen",
@@ -39,6 +39,7 @@
     "Grand Prairie",
     "Grapevine",
     "Grayson County",
+    "Haltom City",
     "Harris County",
     "Harrison County",
     "Hays County",
@@ -66,8 +67,10 @@
     "North Richland Hills",
     "Parker County",
     "Pasadena",
+    "Princeton",
     "Randall County",
     "Rockwall County",
+    "Rosenberg",
     "Round Rock",
     "San Marcos",
     "San Patricio County",
@@ -76,10 +79,12 @@
     "Tarrant County",
     "Temple",
     "Texas City",
+    "The Colony",
     "Travis County",
     "Victoria",
     "Waco",
     "Waxahachie",
+    "Weslaco",
     "Wichita Falls",
     "Williamson County"
   ],
@@ -2040,7 +2045,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2063,7 +2068,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2120,7 +2125,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-26T04:58:35.496Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -2140,7 +2145,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -5008,7 +5013,7 @@
     {
       "id": "tx:granbury:council-member:greg-corrigan",
       "name": "Greg Corrigan",
-      "office": "City Council Member",
+      "office": "Council member",
       "level": "local",
       "body": "Granbury City Council",
       "district": null,
@@ -5033,8 +5038,8 @@
         "state": "TX"
       },
       "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
-      "confidence": 1
+      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "confidence": 0.5
     },
     {
       "id": "tx:granbury:council-member:skip-overdier",
@@ -5561,6 +5566,254 @@
       },
       "source_url": "https://www.co.grayson.tx.us/page/comp4.home",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:dana-coffman",
+      "name": "Dana Coffman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1627",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:don-cooper",
+      "name": "Don Cooper",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 7",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1628",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:kyle-hantz",
+      "name": "Kyle Hantz",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1629",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:lin-thompson",
+      "name": "Lin Thompson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1630",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:ollie-anderson",
+      "name": "Ollie Anderson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1632",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:scott-lindgren",
+      "name": "Scott Lindgren",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1633",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:council-member:troy-dunn",
+      "name": "Troy Dunn",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1634",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:haltom-city:mayor:an-truong",
+      "name": "An Truong",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Haltom City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.haltomcitytx.com/ImageRepository/Document?documentId=1631",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Haltom City",
+        "state": "TX"
+      },
+      "source_url": "https://www.haltomcitytx.com/449/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -9071,7 +9324,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -9102,7 +9355,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -9133,7 +9386,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -9164,7 +9417,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1
     },
     {
@@ -9733,6 +9986,223 @@
       },
       "source_url": "https://www.pasadenatx.gov/406/City-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:ben-long",
+      "name": "Ben Long",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/737/Ben-Long",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=2646",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2000 E Princeton Drive Princeton, TX 75407",
+      "offices": [],
+      "hours": "Mon.–Fri. 7AM–5:30PM",
+      "bio": "Ben Long has called Princeton home since 2020, is married with three children, and has over 25 years of construction experience. He is dedicated to facilitating growth and enhancing the quality of life for his community.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:bryan-washington",
+      "name": "Bryan Washington",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/734/Bryan-Washington",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=2643",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Bryan Washington, Mayor Pro Tem and Council Member, Place 3, has deep roots in Princeton, moving there in 2008. He is known for his commitment to youth sports, community outreach, and supporting local businesses, including co-founding The Jym—Princeton. Now in his second term on City Council, he focuses on enhancing local parks, business growth, and job opportunities, having been appointed Mayor Pro Tem in 2025.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:carolyn-david-graves",
+      "name": "Carolyn David-Graves",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/738/Carolyn-David-Graves",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=2644",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2000 E Princeton Drive, Princeton, TX 75407",
+      "offices": [],
+      "hours": "Mon.–Fri. 7AM–5:30PM",
+      "bio": "Carolyn David-Graves grew up in the Caribbean and moved to Texas in 2015, choosing Princeton for her family's home. Committed to the city's growth, she joined the City Council to make a positive difference. She holds a Masters Degree in Public Administration and Mental Health Counseling and works as a Clinical Research Quality & Regulatory Specialist.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:cristina-todd",
+      "name": "Cristina Todd",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/733/Cristina-Todd",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=3518",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2000 E Princeton Drive\nPrinceton, TX 75407",
+      "offices": [],
+      "hours": "Mon.–Fri. 7AM–5:30PM",
+      "bio": "Cristina Todd made Princeton her home in 2016 with her husband, Jake, and their pets. She has a lifelong commitment to community service, fostered by Rotary's principle of \"Service Above Self,\" and has been actively involved with Rotary for over 20 years. Cristina holds a Bachelor of Science and a Master's degree from the University of North Texas and has nearly two decades of experience in Special Education.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:jaisen-rutledge",
+      "name": "Jaisen Rutledge",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/735/Jaisen-Rutledge",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=8764",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jaisen Rutledge is committed to thoughtful leadership, responsible governance, and serving the residents of Princeton with integrity, transparency, and accountability. A proud Princeton resident, he and his wife are raising their three sons in the community. Before being elected to City Council, Jaisen served in several key leadership roles, including as the first African American Chair of the Princeton Community Development Corporation.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:council-member:steven-deffibaugh",
+      "name": "Steven Deffibaugh",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/736/Steven-Deffibaugh",
+      "photo_url": "https://www.princetontx.gov/ImageRepository/Document?documentId=2645",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2000 E Princeton Drive\nPrinceton, TX 75407",
+      "offices": [],
+      "hours": "Mon.–Fri. 7AM–5:30PM",
+      "bio": "Steven Deffibaugh was born in Borger, Texas, was married to his wife Judy for 46 years, and has one son and two grandkids. Some of his career highlights include serving in the Marine Corps, being a police officer for both the Van Alstyne and McKinney Police Departments, and being Collin County Fire Marshal, to name a few. His background includes serving two terms as Mayor for the City of Princeton; he currently serves as Mayor Pro Tempore and has been on the City Council since May of 2010.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:princeton:mayor:terrance-johnson",
+      "name": "Terrance Johnson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Princeton City Council",
+      "district": null,
+      "phone": "972-736-2416",
+      "email": null,
+      "url": "https://www.princetontx.gov/732/Terrance-Johnson",
+      "photo_url": "https://princetontx.gov/ImageRepository/Document?documentId=3517",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2000 E Princeton Drive\nPrinceton, TX 75407",
+      "offices": [],
+      "hours": "Mon.–Fri. 7AM–5:30PM",
+      "bio": "Terrance Johnson is a Dallas, Texas, native and alumnus of Woodrow Wilson High School, who pursued a Bachelor of Science in Business Administration at Texas A&M University–Commerce. He relocated to Collin County in 2013 to launch a faith-based youth organization and later served as the first African American Board Chair for the Princeton Economic Development Corporation. Married with two daughters, he is deeply invested in policies enhancing quality of life and educational opportunities for Princeton families.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Princeton",
+        "state": "TX"
+      },
+      "source_url": "https://www.princetontx.gov/27/Government",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -10477,6 +10947,223 @@
       },
       "source_url": "https://www.rockwallcountytexas.com/101/Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:councilor-at-large:amanda-j.-barta",
+      "name": "Amanda J. Barta",
+      "office": "Councilor At Large",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "Pos. 2",
+      "phone": "832-595-3300",
+      "email": "abarta@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/622/Amanda%20J%20Barta",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8133",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor Barta was elected to serve the City of Rosenberg on May 2, 2026 as Councilor At Large, Position 2. She served the residents of the City of Rosenberg in multiple leadership roles over six years, including as Council Member for District 4 and Mayor Pro-Tem.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:councilor-at-large:richard-olson",
+      "name": "Richard Olson",
+      "office": "Councilor At Large",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "Pos. 1",
+      "phone": "832-595-3300",
+      "email": "rolson@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/379/Marc-A-Morales",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8135",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Richard Olson was first elected to Rosenberg City Council District 4 in 2018, At Large, Position 1 in a runoff election on June 15, 2024 and At Large, Position 1 on May 2, 2026.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:councilor:george-a.-zepeda",
+      "name": "George A. Zepeda",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "District 4",
+      "phone": "832-595-3300",
+      "email": "gzepeda@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/377/George-Zepeda",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8138",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor George Zepeda was elected to the office of City Councilor, District 4 in May 2022, re-elected on May 4, 2024, and again on May 2, 2026.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:councilor:scott-peterson",
+      "name": "Scott Peterson",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "District 3",
+      "phone": "832-595-3300",
+      "email": "speterson@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/718/Hector-Trevino",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor Peterson is a licensed Customs Broker with 20 years experience working privately to assist importers with Customs clearance, import compliance, and timely payment of duty.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:councilor:steven-degregorio",
+      "name": "Steven DeGregorio",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "District 2",
+      "phone": "832-595-3300",
+      "email": "sdegregorio@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/378/Susan-Euton",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8137",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Steve DeGregorio was first elected to Rosenberg City Council District 2 in 2018, re-elected in a runoff election held on June 15, 2024, and again on May 2, 2026.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:mayor-pro-tem-councilor:felix-vargas,-jr.",
+      "name": "Felix Vargas, Jr.",
+      "office": "Mayor Pro Tem Councilor",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": "District 1",
+      "phone": "832-595-3300",
+      "email": "fvargas@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/713/Keith-Parker",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8139",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "Felix was first elected to District 1 in May 2024 and again on May 2, 2026, and was appointed Mayor Pro Tem on July 7, 2026. A Rosenberg, Texas native, he is a Foster High School graduate and earned an associate degree in computer electronics. With 17 years of experience in oil and gas, Felix is now self-employed, running Vargas Removal Service.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:rosenberg:mayor:william-benton",
+      "name": "William Benton",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rosenberg City Council",
+      "district": null,
+      "phone": "832-595-3300",
+      "email": "wbenton@rosenbergtx.gov",
+      "url": "https://www.rosenbergtx.gov/380/Kevin-Raines",
+      "photo_url": "https://www.rosenbergtx.gov/ImageRepository/Document?documentId=8134",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2110 4th Street\nP.O. Box 32\nRosenberg, TX 77471",
+      "offices": [],
+      "hours": null,
+      "bio": "William Benton was first elected to Rosenberg City Council in 2011 and became Mayor in 2017, re-elected multiple times. He is a self-employed business owner with an Associate's and Bachelor's Degree. Mayor Benton is active in several community service organizations.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Rosenberg",
+        "state": "TX"
+      },
+      "source_url": "https://www.rosenbergtx.gov/346/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
@@ -11632,6 +12319,192 @@
       "confidence": 1
     },
     {
+      "id": "tx:the-colony:council-member:brian-wade",
+      "name": "Brian Wade",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 3, Single Member District",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13862",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:the-colony:council-member:dan-rainey",
+      "name": "Dan Rainey",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 4, Single Member District",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13863",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:the-colony:council-member:joel-marks",
+      "name": "Joel Marks",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 6, Single Member District",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13865",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:the-colony:council-member:judy-ensweiler",
+      "name": "Judy Ensweiler",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 1, At-Large",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13860",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:the-colony:council-member:perry-schrag",
+      "name": "Perry Schrag",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 5, Single Member District",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13864",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:the-colony:council-member:robyn-holtz",
+      "name": "Robyn Holtz",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "The Colony City Council",
+      "district": "Place 2, At-Large",
+      "phone": "972-624-4440",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.thecolonytx.gov/ImageRepository/Document?documentId=13861",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6053 Main Street The Colony, Texas 75056",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "The Colony",
+        "state": "TX"
+      },
+      "source_url": "https://www.thecolonytx.gov/552/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:travis-county:commissioner:ann-howard",
       "name": "Ann Howard",
       "office": "Commissioner",
@@ -12166,6 +13039,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:weslaco:city-commissioner:adrian-farias",
+      "name": "Adrian Farias",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "afarias@weslacotx.gov",
+      "url": "https://www.weslacotx.gov/government/city_commission/district_4.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/Adrian%20Farias,%20Comissioner,%20District%201%202025%20-%20Copy.jpg?t=202512031559520",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner - District 4 Adrian Farias Elected in 2019.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:city-commissioner:israel-gonzalez-jr.",
+      "name": "Israel Gonzalez Jr.",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": "igonzalez@weslacotx.gov",
+      "url": "https://www.weslacotx.gov/government/city_commission/district_1.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/Israel%20Gonzalez%20Jr,%20Comissioner%20At%20Large%202025%20-%20Copy.jpg?t=202512031549180",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Israel Gonzalez Jr. Elected in November 2022",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:city-commissioner:jose-jp-rodriguez",
+      "name": "Jose 'JP' Rodriguez",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": "jprodriguez@weslacotx.gov",
+      "url": "https://www.weslacotx.gov/government/city_commission/district_3.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/JP%20Rodriguez,%20Commissioner,%20District%203%202025%20-%20Copy.jpg?t=202512031558530",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner - District 3 Jose \"JP\" Rodriguez Elected in 2017.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:city-commissioner:josh-pedraza",
+      "name": "Josh Pedraza",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "josh.pedraza@weslacotx.gov",
+      "url": "https://www.weslacotx.gov/government/city_commission/district_6.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/Josh%20Pedraza,%20Commissioner%20District%201%202025%20-%20Copy.jpg?t=202512031604390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner - District 1 Josh Pedraza Elected 2016",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:city-commissioner:letty-lopez",
+      "name": "Letty Lopez",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": "letty.lopez@weslacotx.gov",
+      "url": "https://www.weslacotx.gov/government/city_commission/district_5.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/Letty%20Lopez,%20Commissioner,%20District%202%202025%20-%20Copy.jpg?t=202512031600470",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner - District 2 Letty Lopez Elected in 2015.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:city-commissioner:pete-garcia-jr.",
+      "name": "Pete Garcia Jr.",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": "At-Large",
+      "phone": "956-968-3181",
+      "email": null,
+      "url": "https://www.weslacotx.gov/government/city_commission/district_at_large.php",
+      "photo_url": "https://www.weslacotx.gov/government/city_commission/revize_photo_gallery/Department/Commissioners/Pete%20Garcia%20Jr,%20Comissioner%20At%20Large%202025%20-%20Copy.jpg?t=202512031605280",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": "Monday - Friday 8:00 AM - 5:00 PM",
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weslaco:mayor:joe-v.-sanchez",
+      "name": "Joe V. Sanchez",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Weslaco City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.weslacotx.gov/government/office_of_the_mayor/index.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "255 S. Kansas Ave Weslaco, TX 78596",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Weslaco",
+        "state": "TX"
+      },
+      "source_url": "https://www.weslacotx.gov/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:wichita-falls:council-member-at-large:austin-cobb",
       "name": "Austin Cobb",
       "office": "Council Member At-Large",
@@ -12393,13 +13483,13 @@
       "email": null,
       "url": "https://www.wilco.org/382/Precinct-Two",
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown, TX 78626",
+      "address": "1848 Texas Trail Georgetown , TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -12416,13 +13506,13 @@
       "email": null,
       "url": null,
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown, TX 78626",
+      "address": "1848 Texas Trail Georgetown , TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -12439,13 +13529,13 @@
       "email": null,
       "url": "https://www.wilco.org/349/Precinct-One",
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown, TX 78626",
+      "address": "1848 Texas Trail Georgetown , TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -12462,13 +13552,13 @@
       "email": null,
       "url": null,
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown, TX 78626",
+      "address": "1848 Texas Trail Georgetown , TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-28T07:15:56.557Z",
+      "extracted_at": "2026-08-30T04:30:18.639Z",
       "confidence": 1,
       "social": {},
       "offices": [],

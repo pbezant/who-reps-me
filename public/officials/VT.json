@@ -1,0 +1,41 @@
+{
+  "state": "VT",
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 1,
+  "cities": [
+    "Burlington"
+  ],
+  "officials": [
+    {
+      "id": "vt:burlington:mayor:emma-mulvaney-stanak",
+      "name": "Emma Mulvaney-Stanak",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Burlington City Council",
+      "district": null,
+      "phone": "802-865-7272",
+      "email": null,
+      "url": "https://www.burlingtonvt.gov/476/Mayor-Emma-Mulvaney-Stanak",
+      "photo_url": "https://www.burlingtonvt.gov/ImageRepository/Document?documentID=11999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 149 Church Street Burlington, VT 05401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Burlington",
+        "state": "VT"
+      },
+      "source_url": "https://www.burlingtonvt.gov/1168/ICE-Updates-and-Press-Releases",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    }
+  ]
+}

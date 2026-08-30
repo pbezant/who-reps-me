@@ -1,7 +1,7 @@
 {
   "state": "VA",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 85,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 99,
   "cities": [
     "Alexandria",
     "Arlington County",
@@ -15,8 +15,10 @@
     "Hanover County",
     "Henrico County",
     "Henry County",
+    "Manassas",
     "Newport News",
     "Norfolk",
+    "Prince George County",
     "Prince William County",
     "Roanoke",
     "Suffolk",
@@ -1576,6 +1578,223 @@
       "confidence": 1
     },
     {
+      "id": "va:manassas:council-member:ashley-hutson",
+      "name": "Ashley Hutson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:council-member:ralph-j.-smith",
+      "name": "Ralph J. Smith",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": "703-303-8530",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:council-member:sonia-vásquez-luna",
+      "name": "Sonia Vásquez Luna",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": "571-682-4325",
+      "email": "sluna@manassasva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:council-member:theresa-coates-ellis",
+      "name": "Theresa Coates Ellis",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:council-member:tom-osina",
+      "name": "Tom Osina",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": "571-621-4069",
+      "email": "tosina@manassasva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:mayor:michelle-davis-younger",
+      "name": "Michelle Davis-Younger",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": "703-257-8211",
+      "email": "mdavis-younger@ci.manassas.va.us",
+      "url": null,
+      "photo_url": "https://www.manassasva.gov/connect/mayor_and_council/Mayor%20and%20City%20Council/content%20images/Council%20Headshots/2025%20Michelle%20Davis-Younger_Circle.png?t=202505081027120",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:manassas:vice-mayor:mark-d.-wolfe",
+      "name": "Mark D. Wolfe",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Manassas City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9027 Center St., 4th floor",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Manassas",
+        "state": "VA"
+      },
+      "source_url": "https://www.manassasva.gov/connect/mayor_and_council/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "va:newport-news:mayor:phillip-jones",
       "name": "Phillip Jones",
       "office": "Mayor",
@@ -1852,6 +2071,223 @@
       },
       "source_url": "https://www.norfolk.gov/27/Government",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:chief-deputy:briley-a.-vaughan",
+      "name": "Briley A. Vaughan",
+      "office": "Chief Deputy",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "BVaughan@princegeorgecountyva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:deputy:brooke-d.-hill",
+      "name": "Brooke D. Hill",
+      "office": "Deputy",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:deputy:holly-d.-fratarcangelo",
+      "name": "Holly D. Fratarcangelo",
+      "office": "Deputy",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "hfratarcangelo@princegeorgecountyva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:deputy:shanika-l.-flowers",
+      "name": "Shanika L. Flowers",
+      "office": "Deputy",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "sflowers@princegeorgecountyva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:interim-commissioner-of-the-revenue:lindsay-a.-lane",
+      "name": "Lindsay A. Lane",
+      "office": "Interim Commissioner of the Revenue",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": "804-722-8740",
+      "email": "LLane@princegeorgecountyva.gov",
+      "url": null,
+      "photo_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/Commissioner%20of%20Revenue/IMG_3432%20-%20Copy%20-%20Copy.JPG?t=202511251100180",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:mdcr-deputy-license-inspector:linda-j.-howard",
+      "name": "Linda J. Howard",
+      "office": "MDCR Deputy License Inspector",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "LHoward@princegeorgecountyva.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "va:prince-george-county:staff:ladonna-m.-montgomery",
+      "name": "LaDonna M. Montgomery",
+      "office": "Staff",
+      "level": "county",
+      "body": "Prince George County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6602 Courts Dr, First Floor Prince George, VA 23875",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Prince George County",
+        "state": "VA"
+      },
+      "source_url": "https://www.princegeorgecountyva.gov/residents/property_and_taxes/commissioner_of_the_revenue/index.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

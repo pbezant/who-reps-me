@@ -1,12 +1,479 @@
 {
   "state": "NH",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 17,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 35,
   "cities": [
+    "Concord",
     "Manchester",
-    "Nashua"
+    "Nashua",
+    "Sullivan County"
   ],
   "officials": [
+    {
+      "id": "nh:concord:council-member-at-large:amanda-grady-sexton",
+      "name": "Amanda Grady Sexton",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": null,
+      "phone": "603-548-9377",
+      "email": "agradysexton@concordnh.gov",
+      "url": "https://www.concordnh.gov/directory.aspx?EID=19",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member-at-large:fred-keach",
+      "name": "Fred Keach",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": null,
+      "phone": "603-568-7667",
+      "email": "fkeach@concordnh.gov",
+      "url": "https://www.concordnh.gov/directory.aspx?EID=25",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member-at-large:judith-kurtz",
+      "name": "Judith Kurtz",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member-at-large:nathan-fennessy",
+      "name": "Nathan Fennessy",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": null,
+      "phone": "603-856-3890",
+      "email": "nfennessy@concordnh.gov",
+      "url": "https://www.concordnh.gov/directory.aspx?EID=14",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:aislinn-kalob",
+      "name": "Aislinn Kalob",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Six",
+      "phone": "603-995-1171",
+      "email": "akalob@concordnh.gov",
+      "url": "https://www.concordnh.gov/Directory.aspx?EID=290",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:ali-sekou",
+      "name": "Ali Sekou",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Eight",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:brent-todd",
+      "name": "Brent Todd",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward One",
+      "phone": "603-753-9609",
+      "email": "brenttoddconcord@gmail.com",
+      "url": "https://www.concordnh.gov/directory.aspx?EID=135",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:jeff-foote",
+      "name": "Jeff Foote",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Ten",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:jennifer-kretovic",
+      "name": "Jennifer Kretovic",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Three",
+      "phone": "603-228-8395",
+      "email": "JKretovic@concordnh.gov",
+      "url": "https://www.concordnh.gov/Directory.aspx?EID=18",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": "Jennifer Kretovic serves as the Ward Three City Councilor. She is involved in several committees including the Ad-Hoc Semiquincentennial and Tri-Centennial Committee (Chair), DEIJB Committee, and Fiscal Policy Advisory Committee.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:jim-schlosser",
+      "name": "Jim Schlosser",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Seven",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:kris-schultz",
+      "name": "Kris Schultz",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Nine",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:mark-davie",
+      "name": "Mark Davie",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Four",
+      "phone": "603-409-3640",
+      "email": "mdavie@concordnh.gov",
+      "url": "https://www.concordnh.gov/Directory.aspx?EID=289",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:michele-horne",
+      "name": "Michele Horne",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Two",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:council-member:stacey-brown",
+      "name": "Stacey Brown",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": "Ward Five",
+      "phone": "603-717-1350",
+      "email": "sfbrown@concordnh.gov",
+      "url": "https://www.concordnh.gov/Directory.aspx?EID=223",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:concord:mayor:byron-champlin",
+      "name": "Byron Champlin",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Concord City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Council Chambers 37 Green Street Concord, NH 03301",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Concord",
+        "state": "NH"
+      },
+      "source_url": "https://www.concordnh.gov/282/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
     {
       "id": "nh:manchester:at-large-alderman:oneil",
       "name": "O'Neil",
@@ -533,6 +1000,99 @@
       "source_url": "https://www.nashuanh.gov/1544/Mayors-Youth-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 0.7
+    },
+    {
+      "id": "nh:sullivan-county:commissioner,-chair:joe-osgood",
+      "name": "Joe Osgood",
+      "office": "Commissioner, Chair",
+      "level": "county",
+      "body": "Sullivan County Commissioners Court",
+      "district": null,
+      "phone": "603-477-9744",
+      "email": "joejfcc@gmail.com",
+      "url": "https://www.sullivancountynh.gov/1230/Joe-Osgood",
+      "photo_url": "https://www.sullivancountynh.gov/ImageRepository/Document?documentID=929",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "55 Case Hill Road Claremont, NH 03743",
+      "offices": [],
+      "hours": null,
+      "bio": "Joe was born and raised in Claremont, New Hampshire. He has been married for 46 years and has three children and four grandchildren.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Sullivan County",
+        "state": "NH"
+      },
+      "source_url": "https://www.sullivancountynh.gov/166/Commissioners",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:sullivan-county:commissioner,-clerk:bennie-c.-nelson",
+      "name": "Bennie C. Nelson",
+      "office": "Commissioner, Clerk",
+      "level": "county",
+      "body": "Sullivan County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "bennienelson1981@gmail.com",
+      "url": "https://www.sullivancountynh.gov/167/Bennie-C-Nelson",
+      "photo_url": "https://www.sullivancountynh.gov/ImageRepository/Document?documentID=140",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Bennie C. Nelson serves as Clerk, representing Republican District 2, which includes Croydon, Grantham, Newport, Plainfield, and Springfield. Her term runs from January 4, 2023, to January 5, 2027.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Sullivan County",
+        "state": "NH"
+      },
+      "source_url": "https://www.sullivancountynh.gov/166/Commissioners",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "nh:sullivan-county:commissioner,-vice-chair:george-hebert",
+      "name": "George Hebert",
+      "office": "Commissioner, Vice Chair",
+      "level": "county",
+      "body": "Sullivan County Commissioners Court",
+      "district": null,
+      "phone": "603-381-9566",
+      "email": "commissionerghebert@gmail.com",
+      "url": "https://www.sullivancountynh.gov/168/George-Hebert",
+      "photo_url": "https://www.sullivancountynh.gov/ImageRepository/Document?documentID=138",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Sullivan County",
+        "state": "NH"
+      },
+      "source_url": "https://www.sullivancountynh.gov/166/Commissioners",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 125,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 133,
   "cities": [
     "Anoka County",
     "Bloomington",
@@ -12,10 +12,12 @@
     "Duluth",
     "Eagan",
     "Minneapolis",
+    "Moorhead",
     "Olmsted County",
     "Ramsey County",
     "Rice County",
     "Scott County",
+    "Shakopee",
     "St. Cloud",
     "St. Louis County",
     "St. Paul",
@@ -1904,6 +1906,37 @@
       "confidence": 1
     },
     {
+      "id": "mn:moorhead:city-manager:dan-mahli",
+      "name": "Dan Mahli",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Moorhead City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "403 Center Ave Moorhead, MN 56561-0779",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Moorhead",
+        "state": "MN"
+      },
+      "source_url": "https://www.moorheadmn.gov/government/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "mn:olmsted-county:county-commissioner:bob-hopkins",
       "name": "Bob Hopkins",
       "office": "County Commissioner",
@@ -2913,6 +2946,223 @@
       },
       "source_url": "https://www.scottcountymn.gov/773/Human-Services-Resource-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:2nd-vice-chair,-board-of-adjustment-&-appeals/planning-commission-member:james-weiler",
+      "name": "James Weiler",
+      "office": "2nd Vice Chair, Board of Adjustment & Appeals / Planning Commission Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:chair,-board-of-adjustment-&-appeals/planning-commission-member:noreen-reding",
+      "name": "Noreen Reding",
+      "office": "Chair, Board of Adjustment & Appeals / Planning Commission Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:chair,-planning-commission/board-of-adjustment-&-appeals-member:josh-forsythe",
+      "name": "Josh Forsythe",
+      "office": "Chair, Planning Commission / Board of Adjustment & Appeals Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:planning-commission/board-of-adjustment-&-appeals-member:collins-cherus",
+      "name": "Collins Cherus",
+      "office": "Planning Commission / Board of Adjustment & Appeals Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:planning-commission/board-of-adjustment-&-appeals-member:sean-vander-veen",
+      "name": "Sean Vander Veen",
+      "office": "Planning Commission / Board of Adjustment & Appeals Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:vice-chair,-board-of-adjustment-&-appeals/2nd-vice-chair,-planning-commission/planning-commission-member:mustafa-sandhu",
+      "name": "Mustafa Sandhu",
+      "office": "Vice Chair, Board of Adjustment & Appeals / 2nd Vice Chair, Planning Commission / Planning Commission Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:shakopee:vice-chair,-planning-commission/board-of-adjustment-&-appeals-member:kent-robbins",
+      "name": "Kent Robbins",
+      "office": "Vice Chair, Planning Commission / Board of Adjustment & Appeals Member",
+      "level": "local",
+      "body": "Shakopee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Shakopee",
+        "state": "MN"
+      },
+      "source_url": "https://www.shakopeemn.gov/government/mayor_city_council/boards_commissions.php",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 215,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 228,
   "cities": [
     "Albany",
     "Brookhaven",
@@ -28,7 +28,9 @@
     "Lowndes County",
     "Macon-Bibb County",
     "Muscogee County",
+    "Newnan",
     "Newton County",
+    "Peachtree Corners",
     "Richmond County",
     "Rockdale County",
     "Savannah",
@@ -5123,6 +5125,192 @@
       "confidence": 1
     },
     {
+      "id": "ga:newnan:council-member:cynthia-jenkins",
+      "name": "Cynthia Jenkins",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 003 Post B",
+      "phone": "678-953-7451",
+      "email": "cjenkins@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=31",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5666",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Cynthia Jenkins has served on the Newnan City Council since 2004 and served as Mayor Pro Tem from 2006 to 2020. Ms. Jenkins is a Coweta County native, educated in the Coweta County School System, and is a graduate of East Coweta High School. She currently serves as the CEO of Southern Crescent Habitat for Humanity.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newnan:council-member:dustin-koritko",
+      "name": "Dustin Koritko",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 001 Post B",
+      "phone": "404-480-0150",
+      "email": "dkoritko@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=27",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5667",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Dustin Koritko was elected in November 2013 to represent the City of Newnan's District 1. He holds a Bachelor of Science in Political Science from Liberty University and a Master of Education from the University of West Georgia. A Navy veteran, he served as an Aviator and Project Manager, including a deployment to Iraq in support of Operation Enduring Freedom.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newnan:council-member:james-j.-jim-thomasson-iii",
+      "name": "James J. \"Jim\" Thomasson III",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 003 Post A",
+      "phone": "770-328-6711",
+      "email": "jthomasson@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=107",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5668",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jim Thomasson is a proud native of Newnan, Ga, where he graduated from The Heritage School in 1980 before earning a Bachelor of Arts from Emory University. His commitment to community service began early serving the Boy Scouts of America in various capacities and becoming an Eagle Scout. Representing District 3 on the Newnan City Council, Jim actively contributes to the Newnan community.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newnan:council-member:jennifer-morrison",
+      "name": "Jennifer Morrison",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 002 Post A",
+      "phone": "770-253-2682",
+      "email": "jmorrison@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=120",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5665",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Born and raised in Newnan, GA, Jennifer Morrison graduated from Newnan High School in 1998 and received her B.A. from Hollins University in 2002. She is currently employed as CFO by Redwine Cottages, Inc. and serves on the board of the Newnan Carnegie Library Foundation and the Nixon Centre for Performing Arts.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newnan:council-member:paul-guillaume",
+      "name": "Paul Guillaume",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 001 Post A",
+      "phone": "770-557-9377",
+      "email": "pguillaume@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=26",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5664",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Paul Guillaume was elected to the Newnan City Council in November 2018. A U.S. Army veteran, he has over 25 years of experience in sales, marketing, and sales training, and recently retired after 8 years as a Realtor. He has also served as President of his Community's Homeowners Association Board and as an Elder and Deacon at his church.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:newnan:mayor-pro-tem:scott-berta",
+      "name": "Scott Berta",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Newnan City Council",
+      "district": "District 002 Post B",
+      "phone": "770-647-6491",
+      "email": "sberta@newnanga.gov",
+      "url": "https://www.newnanga.gov/m/directory/employee?eid=121",
+      "photo_url": "https://www.newnanga.gov/ImageRepository/Document?documentID=5662",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Scott Berta has served on the city council since January 2026. Born in Richmond, Virginia, he has called Newnan home since 1977 and is a graduate of the University of Georgia and the University of West Georgia. Mr. Berta is actively engaged in the community through various organizations and enjoys spending time with his family and friends.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Newnan",
+        "state": "GA"
+      },
+      "source_url": "https://www.newnanga.gov/258/City-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:newton-county:chairman:marcello-banes",
       "name": "Marcello Banes",
       "office": "Chairman",
@@ -5306,6 +5494,223 @@
       },
       "source_url": "https://www.newtoncountyga.gov/157/Board-of-Commissioners",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member:alex-wright",
+      "name": "Alex Wright",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 3 / District 3",
+      "phone": "678-691-1200",
+      "email": "awright@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=33",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=307",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "310 Technology Parkway Peachtree Corners, GA 30092",
+      "offices": [],
+      "hours": null,
+      "bio": "Alex Wright is a founding member of the Peachtree Corners City Council, first elected in 2012 and re-elected multiple times. A U.S. Navy veteran, he holds degrees from Georgia Tech and Wake Forest, and after a career in corporate finance, founded Burn the Ships Financial. He is passionate about the Town Green area and is involved with the Peachtree Corners Veterans Association and Arts.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member:eric-christ",
+      "name": "Eric Christ",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 2 / District 2",
+      "phone": null,
+      "email": "echrist@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=32",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=3736",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of Peachtree Corners since 1998, Eric Christ was first elected to the City Council in May 2016 and his current term runs until December 2029. Prior to joining the City Council, he served as Vice Chairman of the City’s Zoning Board of Appeals for four years. His legislative priorities include public engagement, transparency in spending, increased citizen participation, and improved public safety.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member:joe-sawyer",
+      "name": "Joe Sawyer",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 4 / At Large",
+      "phone": null,
+      "email": "jsawyer@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=34",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=308",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Joe Sawyer has been a resident of Peachtree Corners since 1994 and serves as City Council Post 4 / At Large. He is a veteran, a two-time cancer survivor, and owns Alpha & Omega Carpet Cleaning. Sawyer is passionate about community service, having served as president of the Meadow Green HOA and co-founded Bridges Peachtree Corners, with a mission to build community while embracing diversity.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member:ora-b-douglass",
+      "name": "Ora B Douglass",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 5 / At Large",
+      "phone": null,
+      "email": "odouglass@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=35",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=3119",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of Peachtree Corners for over 25 years, Ora B. Douglass was elected as the first African American female Councilwoman in November 2023. She is a retired registered nurse with a Bachelor of Science in Nursing from Florida A&M University and a Master of Nursing Administration Degree from Emory University, and a veteran of the US Army Nurse Corps.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member:weare-gratwick",
+      "name": "Weare Gratwick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 6 / At Large",
+      "phone": "678-691-1200",
+      "email": "wgratwick@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=36",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=310",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "310 Technology Parkway Peachtree Corners, GA 30092",
+      "offices": [],
+      "hours": null,
+      "bio": "Weare Gratwick has over 35 years of banking experience and has served as a community leader in Peachtree Corners for over 20 years. Currently, Gratwick is the Gwinnett Market President for Tandem Bank in Peachtree Corners and served as the Vice Mayor on the City Council until January 27, 2026.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:council-member/vice-mayor:phil-sadd",
+      "name": "Phil Sadd",
+      "office": "City Council Member / Vice Mayor",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": "Post 1 / District 1",
+      "phone": "678-691-1200",
+      "email": "psadd@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=31",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=304",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "310 Technology Parkway Peachtree Corners, GA 30092",
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of the Peachtree Corners community since 1998, sales executive Phil Sadd was elected to the City Council in 2012 and as Vice Mayor January 27, 2026. Currently a Senior Vice President of Fundtech, a technology company in Peachtree Corners, Sadd is the managing director of the company's first international subsidiary and top revenue producer for the company. He serves on the board of several local non-profits serving the entire Peachtree Corners community and Gwinnett County and earned a Bachelor in Business Administration degree from the University of Georgia.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-corners:mayor:mike-mason",
+      "name": "Mike Mason",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Peachtree Corners City Council",
+      "district": null,
+      "phone": null,
+      "email": "mmason@peachtreecornersga.gov",
+      "url": "https://www.peachtreecornersga.gov/m/directory/employee?eid=30",
+      "photo_url": "https://www.peachtreecornersga.gov/ImageRepository/Document?documentID=303",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of the Peachtree Corners community since 1985, Mike Mason was elected its first Mayor in March 2012 after leading the successful Peachtree Corners Yes! campaign to establish the City. Before retirement, Mason served as Chief Financial Officer for multiple firms over his career. Mason co-founded the United Peachtree Corners Civic Association in 1993 and served as president of the organization many times, helping address land use and community issues before the area’s incorporation on July 1, 2012.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Peachtree Corners",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtreecornersga.gov/206/Mayor-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 116,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 123,
   "cities": [
     "Anderson County",
     "Beaufort County",
@@ -16,6 +16,7 @@
     "Oconee County",
     "Pickens County",
     "Spartanburg County",
+    "Sumter",
     "Sumter County"
   ],
   "officials": [
@@ -3613,6 +3614,223 @@
       },
       "source_url": "https://www.sumtercountysc.gov/",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilman-and-mayor-pro-tem:james-b.-blassingame",
+      "name": "James B. Blassingame",
+      "office": "Councilman and Mayor Pro Tem",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": "jblassingame@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/blassingame-j.jpg.webp?itok=uQqMvJzA",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilman:anthony-gibson",
+      "name": "Anthony Gibson",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": "agibson@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/gibson-a.jpg.webp?itok=GGo3Dkld",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilman:calvin-k.-hastie-sr.",
+      "name": "Calvin K. Hastie Sr.",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "chastie@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/hastie-c.jpg.webp?itok=YJDe-lNt",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilman:colin-c.-davis",
+      "name": "Colin C. Davis",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 5",
+      "phone": null,
+      "email": "cdavis@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/davis-c.jpg.webp?itok=7i3QdIGZ",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilman:gifford-m.-shaw",
+      "name": "Gifford M. Shaw",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 6",
+      "phone": null,
+      "email": "gshaw@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/shaw-g.jpg.webp?itok=3co81Gii",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:councilwoman:rebecca-lynn-kennedy",
+      "name": "Rebecca Lynn Kennedy",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": "Ward 4",
+      "phone": null,
+      "email": "rkennedy@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/kennedy-l.jpg.webp?itok=nt-mV5bZ",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:sumter:mayor:david-p.-merchant",
+      "name": "David P. Merchant",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sumter City Council",
+      "district": null,
+      "phone": null,
+      "email": "mayor@sumtersc.gov",
+      "url": null,
+      "photo_url": "https://www.sumtersc.gov/sites/default/files/styles/headshot_250x300/public/uploads/headshots/merchant-d.jpg.webp?itok=qsqRUDaS",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sumter",
+        "state": "SC"
+      },
+      "source_url": "https://www.sumtersc.gov/city-council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 80,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 101,
   "cities": [
     "Boone County",
     "Clark County",
@@ -12,7 +12,9 @@
     "Jackson County",
     "Lake County",
     "Lawrence",
+    "Lawrence County",
     "Marion County",
+    "Mishawaka",
     "Morgan County",
     "Warrick County"
   ],
@@ -1568,6 +1570,223 @@
       "confidence": 1
     },
     {
+      "id": "in:lawrence-county:county-council-member:amy-redman",
+      "name": "Amy Redman",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:dustin-gabhart",
+      "name": "Dustin Gabhart",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:janie-craig-chenault",
+      "name": "Janie Craig Chenault",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:julie-hewetson",
+      "name": "Julie Hewetson",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:larry-arnold",
+      "name": "Larry Arnold",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:phil-inman",
+      "name": "Phil Inman",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:lawrence-county:county-council-member:rick-butterfield",
+      "name": "Rick Butterfield",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Lawrence County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lawrence County Courthouse 916 15th Street Bedford, IN 47421",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lawrence County",
+        "state": "IN"
+      },
+      "source_url": "https://www.lawrencecounty.in.gov/183/County-Council",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
       "id": "in:lawrence:common-council-member-at-large:betty-robinson",
       "name": "Betty Robinson",
       "office": "Common Council Member At-Large",
@@ -2185,6 +2404,440 @@
       },
       "source_url": "https://www.indy.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:advisory-member:adam-sheer",
+      "name": "Adam Sheer",
+      "office": "Advisory Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:advisory-member:dave-eisen",
+      "name": "Dave Eisen",
+      "office": "Advisory Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:advisory-member:heather-kelley",
+      "name": "Heather Kelley",
+      "office": "Advisory Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:advisory-member:jason-stoller",
+      "name": "Jason Stoller",
+      "office": "Advisory Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:advisory-member:kate-voelker",
+      "name": "Kate Voelker",
+      "office": "Advisory Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:chairperson:alan-grzeskowiak",
+      "name": "Alan Grzeskowiak",
+      "office": "Chairperson",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:common-council-representative:lacy-hahn",
+      "name": "Lacy Hahn",
+      "office": "Common Council Representative",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:bob-sullivan",
+      "name": "Bob Sullivan",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:doug-merritt",
+      "name": "Doug Merritt",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:louann-welsh",
+      "name": "LouAnn Welsh",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:michael-bultinck",
+      "name": "Michael Bultinck",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:nancy-seidler",
+      "name": "Nancy Seidler",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:shirley-mcalister",
+      "name": "Shirley McAlister",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:mishawaka:member:thomas-morris",
+      "name": "Thomas Morris",
+      "office": "Member",
+      "level": "local",
+      "body": "Mishawaka City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Lincolnway West, Mishawaka, IN",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mishawaka",
+        "state": "IN"
+      },
+      "source_url": "https://mishawaka.in.gov/government/elected-appointed-officials/boards-commissions/historic-preservation-commission/",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     },
     {
