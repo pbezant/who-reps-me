@@ -1,7 +1,7 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 329,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 330,
   "cities": [
     "Alachua County",
     "Apopka",
@@ -59,7 +59,8 @@
     "Tamarac",
     "Tampa",
     "Wellington",
-    "West Palm Beach"
+    "West Palm Beach",
+    "Winter Springs"
   ],
   "officials": [
     {
@@ -10470,6 +10471,37 @@
       },
       "source_url": "https://www.wpb.org/Our-City/Office-of-Mayor-Keith-A.-James/Hurricane-Readiness-Guide?OC_EA_EmergencyAnnouncementList_Dismiss=68ec2169-5da2-4ff1-bb7b-c8fabb4dbf34",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:winter-springs:commissioner:sarah-baker",
+      "name": "Sarah Baker",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Winter Springs City Council",
+      "district": "District Three",
+      "phone": "407-327-7583",
+      "email": "sbaker@winterspringsfl.org",
+      "url": "https://www.winterspringsfl.org/224/Commissioner-Sarah-Baker",
+      "photo_url": "https://www.winterspringsfl.org/ImageRepository/Document?documentId=887",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah Baker proudly serves as Commissioner for Winter Springs, District 3. She is a marketing professional with a passion for community service, having served on PTA boards and HOAs, and volunteered at an animal shelter. Sarah moved to Florida in 2018 and was prompted to run for Commission due to her love for Winter Springs and a desire to improve city infrastructure and processes.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Winter Springs",
+        "state": "FL"
+      },
+      "source_url": "https://www.winterspringsfl.org/224/Commissioner-Sarah-Baker",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     }
   ]

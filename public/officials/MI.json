@@ -1,7 +1,7 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 229,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 236,
   "cities": [
     "Ann Arbor",
     "Battle Creek",
@@ -18,6 +18,7 @@
     "Livonia",
     "Macomb County",
     "Marquette",
+    "Mecosta County",
     "Midland",
     "Monroe County",
     "Novi",
@@ -3786,6 +3787,223 @@
       },
       "source_url": "https://marquettemi.gov/citycommission/",
       "extracted_at": "2026-08-21T20:38:13.875Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-chair-person:chris-zimmerman",
+      "name": "Chris Zimmerman",
+      "office": "Board of Commissioners Chair Person",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "3rd District",
+      "phone": "231-408-8014",
+      "email": "czimmerman@mecostacounty.org",
+      "url": null,
+      "photo_url": "https://www.mecostacounty.org/government/revize_photo_gallery/Chris%20Zimmerman.jpg?t=202501030737450",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-member:allitta-hren",
+      "name": "Allitta Hren",
+      "office": "Board of Commissioners Member",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "6th District",
+      "phone": "231-250-8192",
+      "email": "ahren@mecostacounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-member:gary-lambrix",
+      "name": "Gary Lambrix",
+      "office": "Board of Commissioners Member",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "4th District",
+      "phone": "231-349-1651",
+      "email": "glambrix@mecostacounty.org",
+      "url": null,
+      "photo_url": "https://www.mecostacounty.org/government/revize_photo_gallery/lambrix2.jpg?t=202501030640290",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-member:greg-adams",
+      "name": "Greg Adams",
+      "office": "Board of Commissioners Member",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "2nd District",
+      "phone": "586-431-0700",
+      "email": "gadams@mecostacounty.org",
+      "url": null,
+      "photo_url": "https://www.mecostacounty.org/government/revize_photo_gallery/adams.jpg?t=202501060607020",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-member:randy-lapreze",
+      "name": "Randy LaPreze",
+      "office": "Board of Commissioners Member",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "5th District",
+      "phone": "231-349-1395",
+      "email": "rlapreze@mecostacounty.org",
+      "url": null,
+      "photo_url": "https://www.mecostacounty.org/government/revize_photo_gallery/Randy%20LaPreze%20-%20small.jpg?t=202604060508070",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-member:william-routley",
+      "name": "William Routley",
+      "office": "Board of Commissioners Member",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "7th District",
+      "phone": "231-796-5167",
+      "email": "wroutley@mecostacounty.org",
+      "url": null,
+      "photo_url": "https://www.mecostacounty.org/government/BOC/images/William%20Routley.jpg?t=202006181338010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:mecosta-county:board-of-commissioners-vice-chair-person:jeff-jackson",
+      "name": "Jeff Jackson",
+      "office": "Board of Commissioners Vice-Chair Person",
+      "level": "county",
+      "body": "Mecosta County Commissioners Court",
+      "district": "1st District",
+      "phone": "231-250-8534",
+      "email": "jjackson@mecostacounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mecosta County",
+        "state": "MI"
+      },
+      "source_url": "https://www.mecostacounty.org/government/boc.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

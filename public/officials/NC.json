@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 269,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 284,
   "cities": [
     "Alamance County",
     "Asheville",
@@ -37,11 +37,13 @@
     "New Hanover County",
     "Onslow County",
     "Orange County",
+    "Pasquotank County",
     "Pender County",
     "Pitt County",
     "Raleigh",
     "Randolph County",
     "Rockingham County",
+    "Rocky Mount",
     "Rowan County",
     "Stanly County",
     "Vance County",
@@ -6081,6 +6083,223 @@
       "confidence": 1
     },
     {
+      "id": "nc:pasquotank-county:commissioner,-chairman:lloyd-griffin-iii",
+      "name": "Lloyd Griffin III",
+      "office": "Commissioner, Chairman",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "Northern Inside",
+      "phone": "252-333-6105",
+      "email": "griffinl@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/lloyd-griffin-iii",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/1552570950777-NEQ5LFNU1QS1Q77YR47H/griffinl.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner,-vice-chairman:clifford-shaw",
+      "name": "Clifford Shaw",
+      "office": "Commissioner, Vice-Chairman",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "Southern Inside",
+      "phone": "252-267-5093",
+      "email": "shawc@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/clifford-shaw",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/2a5723ad-eb37-4a9b-abe7-a885883f1f4b/shaw.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner:barry-overman",
+      "name": "Barry Overman",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "At Large",
+      "phone": "252-202-6380",
+      "email": "overmanb@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/barry-overman",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/42fb62a7-df2c-4364-b626-2d52c3129a26/IMG_8647.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Barry Overman is an At Large Commissioner whose term expires in December 2026.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner:charles-jordan",
+      "name": "Charles Jordan",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "At Large",
+      "phone": "252-339-0121",
+      "email": "jordanc@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/charles-jordan",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/1549551356985-0XTKY9YNM9ZVW56BYZTD/IMG_8545.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner:jonathan-meads",
+      "name": "Jonathan Meads",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "Southern Outside",
+      "phone": "252-339-6379",
+      "email": "meadsj@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/jonathan-meads",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/dbc6fa6d-ad8e-43a7-9346-bc78f337f43d/meadsj.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner:sam-davis,-iii",
+      "name": "Sam Davis, III",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "At Large",
+      "phone": "252-267-5865",
+      "email": "daviss@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/sam-davis",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/a1440627-ea2b-4ee2-818b-550ce22dd83c/samdavis.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:pasquotank-county:commissioner:sean-lavin",
+      "name": "Sean Lavin",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Pasquotank County Commissioners Court",
+      "district": "Northern Outside",
+      "phone": "252-714-3358",
+      "email": "lavins@co.pasquotank.nc.us",
+      "url": "https://www.pasquotankcountync.org/commprofiles/2023/9/25/sean-lavin",
+      "photo_url": "https://images.squarespace-cdn.com/content/v1/5b0584b6aa49a1a281fb3205/c0bdf7d8-7055-470e-932b-df94534c9a12/IMG_8653.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Pasquotank County",
+        "state": "NC"
+      },
+      "source_url": "https://www.pasquotankcountync.org/commissioner-profiles",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:pender-county:county-commissioner:brent-springer",
       "name": "Brent Springer",
       "office": "County Commissioner",
@@ -7132,6 +7351,254 @@
       },
       "source_url": "https://www.rockinghamcountync.gov/21038/Board-of-County-Commissioners",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:andre-knight",
+      "name": "Andre Knight",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 1",
+      "phone": "252-443-1619",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=116",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1517 Cherry Street Rocky Mount, NC 27801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:charles-roberson",
+      "name": "Charles Roberson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 3",
+      "phone": "252-904-5837",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=6298",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:lige-daughtridge",
+      "name": "Lige Daughtridge",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 5",
+      "phone": "252-904-6129",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=120",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "112 Candle Court, Rocky Mount, NC 27804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:reuben-c.-blackwell,-iv",
+      "name": "Reuben C. Blackwell, IV",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 2",
+      "phone": "252-212-3480",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=117",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 2723, Rocky Mount, NC 27802",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:t.j.-walker",
+      "name": "T.J. Walker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 4",
+      "phone": "252-908-4911",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=119",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "548 Powell Drive Rocky Mount, NC 27803",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:council-member:tom-harris",
+      "name": "Tom Harris",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 6",
+      "phone": "252-443-4292",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=121",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "801 Joshua Clay Drive Rocky Mount, NC 27803",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:mayor-pro-tem:jabaris-d.-walker",
+      "name": "Jabaris D. Walker",
+      "office": "Mayor Pro-Tem",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": "Ward 7",
+      "phone": "252-903-8874",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=122",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4245 Belmont Villas Way Rocky Mount, NC 27804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:rocky-mount:mayor:c.-saunders-roberson,-jr.",
+      "name": "C. Saunders Roberson, Jr.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Rocky Mount City Council",
+      "district": null,
+      "phone": "252-972-1130",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.rockymountnc.gov/ImageRepository/Document?documentID=115",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "130 South Franklin Street Rocky Mount, NC 27802-1180",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rocky Mount",
+        "state": "NC"
+      },
+      "source_url": "https://www.rockymountnc.gov/176/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

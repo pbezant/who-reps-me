@@ -1,7 +1,7 @@
 {
   "state": "NY",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 190,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 197,
   "cities": [
     "Albany",
     "Buffalo",
@@ -15,6 +15,7 @@
     "Mount Vernon",
     "Nassau County",
     "Ontario County",
+    "Orleans County",
     "Putnam County",
     "Rochester",
     "Saratoga County",
@@ -4210,6 +4211,223 @@
       },
       "source_url": "https://www.ontariocountyny.gov/2174/Governmental-Operations-and-Insurance",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:chairman-of-the-legislature:lynne-m.-johnson",
+      "name": "Lynne M. Johnson",
+      "office": "Chairman of the Legislature",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "District 2",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:legislator:edward-f.-morgan",
+      "name": "Edward F. Morgan",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "At Large - East",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:legislator:john-m.-fitzak",
+      "name": "John M. Fitzak",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "District 4",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:legislator:merle-skip-draper",
+      "name": "Merle \"Skip\" Draper",
+      "office": "Legislator",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "At Large - West",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:majority-leader:don-allport",
+      "name": "Don Allport",
+      "office": "Majority Leader",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "At Large - Central",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:minority-leader:fred-miller",
+      "name": "Fred Miller",
+      "office": "Minority Leader",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "District 3",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ny:orleans-county:vice-chairman-of-the-legislature:william-h.-eick",
+      "name": "William H. Eick",
+      "office": "Vice Chairman of the Legislature",
+      "level": "county",
+      "body": "Orleans County Commissioners Court",
+      "district": "District 1",
+      "phone": "585-589-7000",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14016 Route 31 West, Albion, NY 14411",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Orleans County",
+        "state": "NY"
+      },
+      "source_url": "https://www.orleanscountyny.gov/government/county_legislature/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

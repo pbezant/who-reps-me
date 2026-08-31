@@ -1,12 +1,13 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 158,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 166,
   "cities": [
     "Arlington Heights",
     "Boone County",
     "Chicago",
     "Cook County",
+    "DeKalb",
     "DeKalb County",
     "Evanston",
     "Jackson County",
@@ -762,6 +763,254 @@
       },
       "source_url": "https://dekalbcounty.org/government/county-board/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:andre-powell",
+      "name": "Andre Powell",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 5",
+      "phone": "815-748-2000",
+      "email": "Andre.Powell@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=170",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=17875",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:barb-larson",
+      "name": "Barb Larson",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 2",
+      "phone": "815-748-2000",
+      "email": "barb.larson@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=26",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=16190",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:carolyn-zasada",
+      "name": "Carolyn Zasada",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 1",
+      "phone": "815-748-2000",
+      "email": "carolyn.zasada@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=168",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=9405",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:john-walker",
+      "name": "John Walker",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 7",
+      "phone": "815-748-2000",
+      "email": "john.walker@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=31",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=16186",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:justin-carlson",
+      "name": "Justin Carlson",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 4",
+      "phone": "815-748-2000",
+      "email": "Justin.Carlson@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/directory.aspx?EID=172",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=19252",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:mike-verbic",
+      "name": "Mike Verbic",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 6",
+      "phone": "815-748-2000",
+      "email": "mike.verbic@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=30",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=5632",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:alderman:tracy-smith",
+      "name": "Tracy Smith",
+      "office": "Alderman",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": "Ward 3",
+      "phone": "815-748-2000",
+      "email": "tracy.smith@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=169",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=9404",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:dekalb:mayor:cohen-barnes",
+      "name": "Cohen Barnes",
+      "office": "Mayor",
+      "level": "local",
+      "body": "DeKalb City Council",
+      "district": null,
+      "phone": "815-748-2000",
+      "email": "cohen.barnes@cityofdekalb.com",
+      "url": "https://www.cityofdekalb.com/Directory.aspx?EID=32",
+      "photo_url": "https://www.cityofdekalb.com/ImageRepository/Document?documentID=12642",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "164 East Lincoln Highway DeKalb, IL 60115",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5:00 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "DeKalb",
+        "state": "IL"
+      },
+      "source_url": "https://www.cityofdekalb.com/333/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

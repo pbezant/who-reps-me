@@ -1,20 +1,25 @@
 {
   "state": "SC",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 123,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 151,
   "cities": [
     "Anderson County",
     "Beaufort County",
     "Charleston",
+    "Colleton County",
     "Columbia",
+    "Florence",
+    "Fort Mill",
     "Greenville",
     "Greenville County",
     "Greenwood County",
+    "Jasper County",
     "Lancaster County",
     "Lexington County",
     "Mount Pleasant",
     "Oconee County",
     "Pickens County",
+    "Spartanburg",
     "Spartanburg County",
     "Sumter",
     "Sumter County"
@@ -951,6 +956,161 @@
       "confidence": 1
     },
     {
+      "id": "sc:colleton-county:county-council-member-at-large,-vice-chairman:bubba-trippe",
+      "name": "Bubba Trippe",
+      "office": "County Council Member At-Large, Vice Chairman",
+      "level": "county",
+      "body": "Colleton County Commissioners Court",
+      "district": "At-Large",
+      "phone": "843-893-7058",
+      "email": "btrippe@colletoncounty.org",
+      "url": null,
+      "photo_url": "https://www.colletoncounty.org/sites/default/files/styles/council/public/uploads/headshots/btrippenew.jpg?itok=bb8hPZit",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "196 Partridge Trail Walterboro, SC 29488",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colleton County",
+        "state": "SC"
+      },
+      "source_url": "https://www.colletoncounty.org/county-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:colleton-county:county-council-member,-council-chairman:scott-biering",
+      "name": "Scott Biering",
+      "office": "County Council Member, Council Chairman",
+      "level": "county",
+      "body": "Colleton County Commissioners Court",
+      "district": "District 2 Eastern",
+      "phone": "843-224-8614",
+      "email": "sbiering@colletoncounty.org",
+      "url": null,
+      "photo_url": "https://www.colletoncounty.org/sites/default/files/styles/council/public/uploads/headshots/beiring-scott-council-photo-jan25-low-res.jpg?itok=O4qihPyu",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "445 Chamblee Road Walterboro, SC 29488",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colleton County",
+        "state": "SC"
+      },
+      "source_url": "https://www.colletoncounty.org/county-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:colleton-county:county-council-member:johnny-frank",
+      "name": "Johnny Frank",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Colleton County Commissioners Court",
+      "district": "District 5 Western",
+      "phone": "843-866-3227",
+      "email": "jfrank@colletoncounty.org",
+      "url": null,
+      "photo_url": "https://www.colletoncounty.org/sites/default/files/styles/council/public/uploads/headshots/frank-johnnie-council-photo-jan-25.jpg?itok=0tQK1QLy",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "PO Box 157 Walterboro, SC 29488",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colleton County",
+        "state": "SC"
+      },
+      "source_url": "https://www.colletoncounty.org/county-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:colleton-county:county-council-member:phillip-m.-taylor,-sr.",
+      "name": "Phillip M. Taylor, Sr.",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Colleton County Commissioners Court",
+      "district": "District 3 Eastern",
+      "phone": "843-599-1711",
+      "email": "ptaylor@colletoncounty.org",
+      "url": null,
+      "photo_url": "https://www.colletoncounty.org/sites/default/files/styles/council/public/uploads/headshots/ptaylorpic.jpg?itok=uT8BC7O6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1066 Holly Ridge Lane Cottageville, SC 29435",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colleton County",
+        "state": "SC"
+      },
+      "source_url": "https://www.colletoncounty.org/county-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:colleton-county:county-council-member:steven-d.-murdaugh",
+      "name": "Steven D. Murdaugh",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Colleton County Commissioners Court",
+      "district": "District 4 Western",
+      "phone": "843-782-6070",
+      "email": "sdmurdaugh@colletoncounty.org",
+      "url": null,
+      "photo_url": "https://www.colletoncounty.org/sites/default/files/styles/council/public/uploads/headshots/s-murdaugh.jpg?itok=0uUF2CyN",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Colleton County",
+        "state": "SC"
+      },
+      "source_url": "https://www.colletoncounty.org/county-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "sc:columbia:city-manager:teresa-wilson",
       "name": "Teresa Wilson",
       "office": "City Manager",
@@ -1196,6 +1356,440 @@
       },
       "source_url": "https://columbiasc.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:at-large:chaquez-t.-mccall",
+      "name": "Chaquez T. McCall",
+      "office": "At-Large",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": null,
+      "phone": "843-409-8515",
+      "email": "cmccall@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/chaquez-t-mccall",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/chaquez-mccall-2310-2-f-45.jpg?itok=kB6YSh0Z",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "Chaquez McCall is a lifelong resident of Florence, South Carolina, a husband, father, attorney, and public servant committed to strengthening the community that raised him. He is the owner and managing attorney of McCall Law Firm in Florence. In 2020, he was elected to Florence City Council, becoming the youngest person ever elected to the council in the city’s history.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:at-large:zach-mckay",
+      "name": "Zach McKay",
+      "office": "At-Large",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": null,
+      "phone": "843-992-8896",
+      "email": "zmckay@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/zach-mckay",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/zack-mckay-2292-f-45.jpg?itok=NSt7L7HA",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:district-1:lashonda-nesmith-jackson",
+      "name": "LaShonda NeSmith-Jackson",
+      "office": "District 1",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": "District 1",
+      "phone": "843-617-1000",
+      "email": "ljackson@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/lashonda-nesmith-jackson",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/lashonda-nesmith-jackson-2315-b-f-45.jpg?itok=OKJWC-JE",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "LaShonda NeSmith-Jackson is a proud native of Florence, South Carolina and a Wilson High School Graduate. She is a community advocate, an entrepreneur, a certified mentor, a Certified Champion Influence® Coach and a Curriculum Facilitator. LaShonda strives to help unlock the potential of the underserved and disenfranchised members of our community.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:district-2:j.-lawrence-smith,-ii",
+      "name": "J. Lawrence Smith, II",
+      "office": "District 2",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": "District 2",
+      "phone": "843-601-8534",
+      "email": "jlsmith@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/j-lawrence-smith-ii",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/chipper-smith-2308-f-45.jpg?itok=bOw7w2A6",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "Lawrence Smith II, LFD is a lifelong resident of Florence, serving as Vice President of Smith Funeral Home and Sunset Memory Gardens. He holds a B.S. in Business Administration and a degree in Mortuary Science. Active in his community, he serves on various boards and is the Head Baseball Coach at Wilson High School.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:district-3:bryan-a.-braddock",
+      "name": "Bryan A. Braddock",
+      "office": "District 3",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": "District 3",
+      "phone": "843-992-9534",
+      "email": "bbraddock@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/bryan-braddock",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/bryan-braddock-2302-f-45.jpg?itok=q1x-2oSM",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "Bryan A. Braddock was born in Florence and is a graduate of Francis Marion University. He operates a real estate company and is the founder of the Take the Soap Foundation. He is excited to serve the community he loves.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:mayor-pro-tempore/at-large:george-d.-jebaily",
+      "name": "George D. Jebaily",
+      "office": "Mayor Pro Tempore/At-Large",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": null,
+      "phone": "843-319-9900",
+      "email": "gjebaily@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/george-d-jebaily",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/george-jebaily-2333-f-45.jpg?itok=VDCqQOun",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "George D. Jebaily is the Mayor Pro Tempore/At-Large for the City of Florence, SC, and a managing partner at Jebaily Law Firm. He has been a leader in Downtown Florence redevelopment efforts since 1995, serving on various boards and commissions, and is also involved in youth programs and distracted driving awareness.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:florence:mayor:lethonia-barnes",
+      "name": "Lethonia Barnes",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Florence City Council",
+      "district": null,
+      "phone": "843-665-3170",
+      "email": "lbarnes@cityofflorencesc.gov",
+      "url": "https://www.cityofflorencesc.gov/person/lethonia-barnes",
+      "photo_url": "https://www.cityofflorencesc.gov/sites/default/files/styles/headshot/public/uploads/headshots/lethonia-barnes-2281-f-45.jpg?itok=sv1WQAC_",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "324 W. Evans Street Florence, South Carolina 29501",
+      "offices": [],
+      "hours": null,
+      "bio": "Born the fourth of five children to Sudie Bradley Moses and the late Edward Bradley, Lethonia Bradley Barnes has dedicated her life to service, leadership, faith, and community empowerment. She has been married for 37 years to the love of her life, John Kirven Barnes, and together they have built a strong family foundation with two children and one beloved granddaughter. In public service, Lethonia previously served four years as a Florence City Councilwoman and now proudly serves as Mayor of Florence.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Florence",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofflorencesc.gov/city-council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:at-large:chris-wolfe",
+      "name": "Chris Wolfe",
+      "office": "At Large",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": null,
+      "phone": "803-547-2034",
+      "email": "cwolfe@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/263/Chris-Wolfe",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=1675",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White St. Fort Mill, SC 29715",
+      "offices": [],
+      "hours": "Town Hall is open to the public 8:30 a.m. to 5 p.m. each weekday, except for holidays.",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:at-large:lisa-cook",
+      "name": "Lisa Cook",
+      "office": "At Large",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": null,
+      "phone": "803-547-2034",
+      "email": "lcook@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/262/Lisa-Cook",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=480",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/fortmillsc",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": "8:30 a.m. to 5 p.m. each weekday, except for holidays.",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:mayor:guynn-savage",
+      "name": "Guynn Savage",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": null,
+      "phone": "803-547-2116",
+      "email": "gsavage@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/240/Mayors-Office",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=482",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": "8:30 a.m. to 5 p.m. each weekday, except for holidays.",
+      "bio": "Our Mayor is the Honorable Guynn Savage, who was first sworn in on January 11, 2016.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:ward-1:allen-garrison",
+      "name": "Allen Garrison",
+      "office": "Ward 1",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": "agarrison@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/282/Allen-Garrison",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=1673",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:ward-2,-mayor-pro-tem:ronald-helms",
+      "name": "Ronald Helms",
+      "office": "Ward 2, Mayor Pro Tem",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": "rhelms@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/264/Ronald-Helms",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=255",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": null,
+      "bio": "Ronald Helms serves as Councilman for Ward 2 and Mayor Pro Tem. His term began in January 2024 and is set to expire in January 2028.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:ward-3:ben-hudgins",
+      "name": "Ben Hudgins",
+      "office": "Ward 3",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": "Ward 3",
+      "phone": "803-547-2034",
+      "email": "bhudgins@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/265/Ben-Hudgins",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=1674",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": "8:30 a.m. to 5 p.m. each weekday, except for holidays.",
+      "bio": "Ben Hudgins serves as Councilman for Ward 3. His qualification date was January 10, 2022, with his term expiring in January 2030.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:fort-mill:ward-4:chris-moody",
+      "name": "Chris Moody",
+      "office": "Ward 4",
+      "level": "local",
+      "body": "Fort Mill City Council",
+      "district": "Ward 4",
+      "phone": "803-547-2034",
+      "email": "cmoody@fortmillsc.gov",
+      "url": "https://www.fortmillsc.gov/279/Chris-Moody",
+      "photo_url": "https://www.fortmillsc.gov/ImageRepository/Document?documentId=478",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "205 N. White Street Fort Mill, SC 29715",
+      "offices": [],
+      "hours": "8:30 a.m. to 5 p.m. each weekday, except for holidays.",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Mill",
+        "state": "SC"
+      },
+      "source_url": "https://www.fortmillsc.gov/241/Town-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
@@ -2002,6 +2596,37 @@
       },
       "source_url": "https://www.greenwoodcounty-sc.gov/county-council",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:jasper-county:clerk-to-county-council:wanda-(simmons)-giles",
+      "name": "Wanda (Simmons) Giles",
+      "office": "Clerk to County Council",
+      "level": "county",
+      "body": "Jasper County Commissioners Court",
+      "district": null,
+      "phone": "843-717-3696",
+      "email": "wsimmons@jaspercountysc.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 1149, Ridgeland, SC 29936",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jasper County",
+        "state": "SC"
+      },
+      "source_url": "https://www.jaspercountysc.gov/government/boards-and-commissions/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
@@ -3366,6 +3991,254 @@
       },
       "source_url": "https://www.spartanburgcounty.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:city-clerk-&-office-manager:christie-lindsey",
+      "name": "Christie Lindsey",
+      "office": "City Clerk & Office Manager",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": null,
+      "phone": "864-596-2796",
+      "email": "clindsey@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=145",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=2645",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "295 E Main Street Spartanburg, SC 29302",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:erica-brown",
+      "name": "Erica Brown",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 6",
+      "phone": "864-596-2796",
+      "email": "ebrown@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=133",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=539",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:jamie-fulmer",
+      "name": "Jamie Fulmer",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 4",
+      "phone": "864-596-2796",
+      "email": "jfulmer@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=131",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=537",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "295 E Main Street Spartanburg, SC 29302",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:janie-salley",
+      "name": "Janie Salley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 5",
+      "phone": "864-596-2796",
+      "email": "jsalley@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=132",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=538",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:leslie-rodgers",
+      "name": "Leslie Rodgers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 2",
+      "phone": "864-596-2796",
+      "email": "lrodgers@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=217",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=2644",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Elected to City Council on November 18, 2025, Leslie Rodgers represents City Council District 2, focusing on thoughtful infrastructure planning, natural resource preservation, and policies that prioritize all neighborhoods. She brings experience in business development, marketing, and policy initiatives, including work with Atlas Organics, to build sustainable communities. As a mother of three and active volunteer, she advocates for sustainable growth benefiting families, businesses, and future generations.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:meghan-smith",
+      "name": "Meghan Smith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 1",
+      "phone": "864-596-2796",
+      "email": "mesmith@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=128",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=534",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:council-member:ruth-littlejohn",
+      "name": "Ruth Littlejohn",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": "District 3",
+      "phone": "864-596-2796",
+      "email": "rlittlejohn@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=130",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=536",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "sc:spartanburg:mayor:jerome-rice",
+      "name": "Jerome Rice",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Spartanburg City Council",
+      "district": null,
+      "phone": "864-596-2796",
+      "email": "Jerome.Rice@cityofspartanburg.org",
+      "url": "https://www.cityofspartanburg.org/m/directory/employee?eid=127",
+      "photo_url": "https://www.cityofspartanburg.org/ImageRepository/Document?documentID=490",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "295 E Main Street Spartanburg, SC 29302",
+      "offices": [],
+      "hours": null,
+      "bio": "Jerome Rice Jr. was elected Mayor of the City of Spartanburg on November 2, 2021, and was sworn into his second term on January 12, 2026. Prior to serving as mayor, he dedicated 12 years to public service as the District 5 City Councilman for Spartanburg, completing three consecutive terms marked by strong community engagement and leadership. Mayor Rice actively serves on numerous boards and commissions that support regional growth and community well-being.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Spartanburg",
+        "state": "SC"
+      },
+      "source_url": "https://www.cityofspartanburg.org/316/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

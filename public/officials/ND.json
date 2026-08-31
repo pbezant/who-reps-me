@@ -1,11 +1,12 @@
 {
   "state": "ND",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 12,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 13,
   "cities": [
     "Bismarck",
     "Fargo",
-    "Minot"
+    "Minot",
+    "West Fargo"
   ],
   "officials": [
     {
@@ -378,6 +379,37 @@
       },
       "source_url": "https://www.minotnd.gov/252/City-Council",
       "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:west-fargo:commissioner:rory-jorgensen",
+      "name": "Rory Jorgensen",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "West Fargo City Council",
+      "district": null,
+      "phone": "701-831-7273",
+      "email": null,
+      "url": "https://www.westfargond.gov/1380/Commissioner-Rory-Jorgensen",
+      "photo_url": "https://www.westfargond.gov/ImageRepository/Document?documentId=11406",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2515 6th Street E. West Fargo, ND 58078",
+      "offices": [],
+      "hours": "7:30 a.m. to 4:30 p.m. Monday through Friday",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "West Fargo",
+        "state": "ND"
+      },
+      "source_url": "https://www.westfargond.gov/1380/Commissioner-Rory-Jorgensen",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     }
   ]

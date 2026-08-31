@@ -1,7 +1,7 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 147,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 156,
   "cities": [
     "Columbia County",
     "Dane County",
@@ -16,6 +16,7 @@
     "Polk County",
     "Sheboygan",
     "St. Croix County",
+    "Sun Prairie",
     "Waukesha",
     "Waukesha County",
     "Waupaca County"
@@ -3470,6 +3471,285 @@
       },
       "source_url": "https://www.sccwi.gov/582/Council-on-Aging-Disabilities",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:bill-baker",
+      "name": "Bill Baker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 2",
+      "phone": "608-608-9991",
+      "email": "bbaker@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/16337/Baker-Biography-2025",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=16427",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:casey-drengler",
+      "name": "Casey Drengler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 1",
+      "phone": "608-608-9990",
+      "email": "cdrengler@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/16352/Alder-Bio-Drengler",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=16584",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:cheryl-batterman",
+      "name": "Cheryl Batterman",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 4",
+      "phone": "608-692-1658",
+      "email": "cbatterman@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/17521",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=17528",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:emily-comstock",
+      "name": "Emily Comstock",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 4",
+      "phone": "608-608-9992",
+      "email": "ecomstock@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/16338/Comstock-Biography-2025-Updated",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=16336",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:maureen-crombie",
+      "name": "Maureen Crombie",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 3",
+      "phone": "608-669-7058",
+      "email": "mcrombie@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/15099/Alder-Crombie_2024",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=4004",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:mike-jacobs",
+      "name": "Mike Jacobs",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 3",
+      "phone": "608-438-6983",
+      "email": "mjacobs@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/15100/Alder-Jacobs_2024",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=2419",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:rex-owens",
+      "name": "Rex Owens",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 1",
+      "phone": "608-896-4260",
+      "email": "rowens@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/16446",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=16585",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:council-member:santiago-rosas",
+      "name": "Santiago Rosas",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": "District 2",
+      "phone": "608-206-3916",
+      "email": "srosas@cityofsunprairie.com",
+      "url": "https://www.cityofsunprairie.com/DocumentCenter/View/15103/Alder-Rosas_2024",
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=14932",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:sun-prairie:mayor:steve-stocker",
+      "name": "Steve Stocker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sun Prairie City Council",
+      "district": null,
+      "phone": "608-354-8511",
+      "email": "mayor@cityofsunprairie.com",
+      "url": null,
+      "photo_url": "https://www.cityofsunprairie.com/ImageRepository/Document?documentID=4002",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sun Prairie",
+        "state": "WI"
+      },
+      "source_url": "https://www.cityofsunprairie.com/801/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

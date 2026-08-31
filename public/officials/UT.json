@@ -1,8 +1,9 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 68,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 83,
   "cities": [
+    "American Fork",
     "Bountiful",
     "Cache County",
     "Herriman",
@@ -15,10 +16,197 @@
     "South Jordan",
     "Spanish Fork",
     "St. George",
+    "Syracuse",
     "Utah County",
     "West Valley City"
   ],
   "officials": [
+    {
+      "id": "ut:american-fork:council-member:clark-taylor",
+      "name": "Clark Taylor",
+      "office": "Council Member",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "ctaylor@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=11201",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:american-fork:council-member:ernie-john",
+      "name": "Ernie John",
+      "office": "Council Member",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "ejohn@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=17420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:american-fork:council-member:ryan-hunter",
+      "name": "Ryan Hunter",
+      "office": "Council Member",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "rhunter@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=13326",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:american-fork:council-member:staci-carroll",
+      "name": "Staci Carroll",
+      "office": "Council Member",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "scarroll@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=11199",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:american-fork:council-member:tim-holley",
+      "name": "Tim Holley",
+      "office": "Council Member",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "tholley@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=17418",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:american-fork:mayor:brad-frost",
+      "name": "Brad Frost",
+      "office": "Mayor",
+      "level": "local",
+      "body": "American Fork City Council",
+      "district": null,
+      "phone": "801-763-3000",
+      "email": "mayor@americanfork.gov",
+      "url": null,
+      "photo_url": "https://www.americanfork.gov/ImageRepository/Document?documentID=5660",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "51 E Main St. American Fork, UT 84003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "American Fork",
+        "state": "UT"
+      },
+      "source_url": "https://www.americanfork.gov/678/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
     {
       "id": "ut:bountiful:council-member:john-cook",
       "name": "John Cook",
@@ -1598,6 +1786,285 @@
       },
       "source_url": "https://sgcityutah.gov/government/city_council/public_comments.php",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:chair:leanna-hamblin",
+      "name": "LeAnna Hamblin",
+      "office": "Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:city-liaison:dave-maughan",
+      "name": "Dave Maughan",
+      "office": "City Liaison",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:junior-theater-chair:heather-ganus",
+      "name": "Heather Ganus",
+      "office": "Junior Theater Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:music-chair:christopher-weaver",
+      "name": "Christopher Weaver",
+      "office": "Music Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:publicity-chair:kenzie-buckway",
+      "name": "Kenzie Buckway",
+      "office": "Publicity Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:secretary:taylor-sachs",
+      "name": "Taylor Sachs",
+      "office": "Secretary",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:theater-chair:libby-fawcett",
+      "name": "Libby Fawcett",
+      "office": "Theater Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:treasurer:daphne-lynch",
+      "name": "Daphne Lynch",
+      "office": "Treasurer",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:syracuse:vice-chair:kresta-robinson",
+      "name": "Kresta Robinson",
+      "office": "Vice Chair",
+      "level": "local",
+      "body": "Syracuse City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1979 West 1900 South Syracuse, UT 84075",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Syracuse",
+        "state": "UT"
+      },
+      "source_url": "https://www.syracuseut.gov/252/Syracuse-Arts-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
