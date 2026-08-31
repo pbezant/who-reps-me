@@ -1,11 +1,12 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 207,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 225,
   "cities": [
     "Bedford County",
     "Blount County",
     "Brentwood",
+    "Campbell County",
     "Chattanooga",
     "Cheatham County",
     "Cleveland",
@@ -18,6 +19,7 @@
     "Jefferson County",
     "Kingsport",
     "Knoxville",
+    "La Vergne",
     "Lawrence County",
     "Lebanon",
     "Loudon County",
@@ -1143,6 +1145,552 @@
       },
       "source_url": "https://www.brentwoodtn.gov/Your-Government/Board-of-Commissioners",
       "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:campbell-county-mayor:jack-lynch",
+      "name": "Jack Lynch",
+      "office": "Campbell County Mayor",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-2526",
+      "email": "mayorlynch@campbellcountygov.com",
+      "url": "https://campbellcountytn.gov/government/office-of-the-mayor/",
+      "photo_url": "https://campbellcountytn.gov/wp-content/uploads/2023/02/CCG_Mayor-Jack-Lynch-1-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "570 Main Street P.O. Box 435 Jacksboro, Tennessee 37757",
+      "offices": [],
+      "hours": null,
+      "bio": "Jack Lynch is a lifetime resident and farmer of Campbell County. He is a graduate of LMU and UTK, as well as a retired Economics Instructor with most of his tenure teaching at CCHS. He has also served as an Adult Education teacher in the county jail.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:chancery-court-clerk:elizabeth-c.-asbury",
+      "name": "Elizabeth C. Asbury",
+      "office": "Chancery Court Clerk",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3496",
+      "email": null,
+      "url": "https://campbellcountytn.gov/courts/chancery-court/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:circuit-court-clerk:bobby-w.-vann",
+      "name": "Bobby W. Vann",
+      "office": "Circuit Court Clerk",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-0296",
+      "email": null,
+      "url": "https://campbellcountytn.gov/courts/circuit-court/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:clerk-&-master:dennis-potter",
+      "name": "Dennis Potter",
+      "office": "Clerk & Master",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3496",
+      "email": null,
+      "url": "https://campbellcountytn.gov/courts/chancery-court/#clerk-and-master",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:county-clerk:todd-nance",
+      "name": "Todd Nance",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-4985",
+      "email": null,
+      "url": "https://campbellcountytn.gov/elected-officials/county-clerk/",
+      "photo_url": "https://campbellcountytn.gov/wp-content/uploads/2023/02/CCG_County-Clerk-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "590 Main Street, Suite A 21\nPO Box 450\nJacksboro, TN 37757",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "LaFollette Annex",
+          "city": "LaFollette",
+          "address": "705 E Central Avenue\nLaFollette, TN 37766",
+          "phone": "423-566-8130",
+          "fax": null,
+          "hours": "Mon-Fri: 8:00 AM – 4:30 PM; Sat: 8:00 AM – 11:30 AM"
+        },
+        {
+          "classification": "district",
+          "name": "Jellico",
+          "city": "Jellico",
+          "address": "315 S Main Street\nJellico, TN 37762",
+          "phone": "423-784-8608",
+          "fax": null,
+          "hours": "Mon, Tues, Thurs, Fri: 8:30 AM – 4:30 PM; Wed: 8:30 AM – 12 PM; First and Last Saturday of the Month: 8:30 AM – 12 PM"
+        }
+      ],
+      "hours": "Mon-Fri: 8:00 AM – 4:30 PM; Sat: 8:00 AM – 11:30 AM",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:county-trustee:monty-bullock",
+      "name": "Monty Bullock",
+      "office": "County Trustee",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-5185",
+      "email": null,
+      "url": "https://campbellcountytn.gov/elected-officials/trustee/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:election-commissioner:mallory-rosenfeld",
+      "name": "Mallory Rosenfeld",
+      "office": "Election Commissioner",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-9777",
+      "email": "mrosenfeld@campbellcountygov.com",
+      "url": "https://campbellcountytn.gov/elections-office/",
+      "photo_url": "https://campbellcountytn.gov/wp-content/uploads/2021/10/CCG_ELection-Commissioner.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "129 Church Alley PO Box 84 Jacksboro, TN 37757",
+      "offices": [],
+      "hours": "Monday – Friday, 8:00 a.m. to 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:emergency-management-agency-director:jay-muncy",
+      "name": "Jay Muncy",
+      "office": "Emergency Management Agency Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-1333",
+      "email": "jaymuncy@campbellcountygov.com",
+      "url": "https://campbellcountytn.gov/emergency-management-agency/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/Campbell-County-Office-of-Emergency-Management-Homeland-Security-330433990322165/",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "136 N. Massachusetts Avenue, Suite 1 LaFollette, TN 37766",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:emergency-medical-services-director:bruce-perkins",
+      "name": "Bruce Perkins",
+      "office": "Emergency Medical Services Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-6151",
+      "email": null,
+      "url": "https://campbellcountytn.gov/ems/",
+      "photo_url": "https://campbellcountytn.gov/wp-content/uploads/2021/07/EMS_Bruce-Perkins-Director.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "136 N. Massachusetts Ave LaFollette, TN 37766",
+      "offices": [],
+      "hours": null,
+      "bio": "Led by Ambulance Director Bruce Perkins, Campbell County EMS serves a geographic area of 498 square miles and a population of almost 40,000 residents.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:finance-director:jeff-marlow",
+      "name": "Jeff Marlow",
+      "office": "Finance Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-6201",
+      "email": null,
+      "url": "https://campbellcountytn.gov/finance-department/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:highway-department-director:ron-dilbeck",
+      "name": "Ron Dilbeck",
+      "office": "Highway Department Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3404",
+      "email": "rdilbeck@campbellcountygov.com",
+      "url": "https://campbellcountytn.gov/departments/highway-department/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "136 Mt. Paran Road Jacksboro, TN 37757",
+      "offices": [],
+      "hours": "Monday – Thursday: 6:30 AM – 5:00 PM Friday: CLOSED",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:historical-records-director:gerry-myers",
+      "name": "Gerry Myers",
+      "office": "Historical Records Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-566-3581",
+      "email": null,
+      "url": "https://campbellcountytn.gov/historical-records/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:property-assessor:brandon-partin",
+      "name": "Brandon Partin",
+      "office": "Property Assessor",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3201",
+      "email": null,
+      "url": "https://campbellcountytn.gov/elected-officials/property-assessor/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:register-of-deeds:brittany-foust",
+      "name": "Brittany Foust",
+      "office": "Register of Deeds",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3864",
+      "email": null,
+      "url": "https://campbellcountytn.gov/elected-officials/register-of-deeds/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:sanitation-director:david-adkins",
+      "name": "David Adkins",
+      "office": "Sanitation Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-1414",
+      "email": null,
+      "url": "https://campbellcountytn.gov/departments/sanitation/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:sheriff:wayne-barton",
+      "name": "Wayne Barton",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-7446",
+      "email": null,
+      "url": "https://campbellcountytn.gov/elected-officials/sheriff/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:campbell-county:veterans-affairs-director:shane-prater",
+      "name": "Shane Prater",
+      "office": "Veterans Affairs Director",
+      "level": "county",
+      "body": "Campbell County Commissioners Court",
+      "district": null,
+      "phone": "423-562-3531",
+      "email": "ccvetoff@comcast.net",
+      "url": "https://campbellcountytn.gov/office-of-veteran-affairs/",
+      "photo_url": "https://campbellcountytn.gov/wp-content/uploads/2023/02/shane-prater-e1676314253577.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "705 E. Central Ave. LaFollette, TN 37766",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Campbell County",
+        "state": "TN"
+      },
+      "source_url": "https://campbellcountytn.gov/government/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
@@ -3912,6 +4460,37 @@
       },
       "source_url": "https://www.knoxvilletn.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "tn:la-vergne:vice-mayor:steve-noe",
+      "name": "Steve Noe",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "La Vergne City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Vergne",
+        "state": "TN"
+      },
+      "source_url": "https://www.lavergnetn.gov/FormCenter/Board-of-Mayor-and-Aldermen-21/Contact-Vice-Mayor-Steve-Noe-176",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 228,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 248,
   "cities": [
     "Albany",
     "Brookhaven",
@@ -15,6 +15,7 @@
     "DeKalb County",
     "Dougherty County",
     "Douglas County",
+    "Douglasville",
     "Effingham County",
     "Floyd County",
     "Fulton County",
@@ -30,11 +31,13 @@
     "Muscogee County",
     "Newnan",
     "Newton County",
+    "Peachtree City",
     "Peachtree Corners",
     "Richmond County",
     "Rockdale County",
     "Savannah",
     "South Fulton",
+    "Tift County",
     "Troup County",
     "Walker County",
     "Walton County"
@@ -2395,6 +2398,254 @@
       "source_url": "https://www.douglascountyga.gov/27/Government",
       "extracted_at": "2026-08-23T03:20:24.901Z",
       "confidence": 0.9
+    },
+    {
+      "id": "ga:douglasville:council-member:chris-coach-watts",
+      "name": "Chris \"Coach\" Watts",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 4",
+      "phone": "678-449-3014",
+      "email": "wattsc@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/4/city-council/images/chris-watts-council-lowres1.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:council-member:devetrion-d.-caldwell",
+      "name": "Devetrion D. Caldwell",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 3, Post 1",
+      "phone": "678-449-3006",
+      "email": "caldwelld@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/devetrion-caldwell-ward-3-post-1-edited.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:council-member:elena-hudson",
+      "name": "Elena Hudson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 2, Post 2",
+      "phone": "678-449-3004",
+      "email": "hudsone@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/elena-hudson-council-lowres1.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:council-member:howard-m.-estes",
+      "name": "Howard M. Estes",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 5",
+      "phone": "678-449-3010",
+      "email": "estesh@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/howard-m-estes-ward-5-lowres1.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:council-member:nycole-n.-miller",
+      "name": "Nycole N. Miller",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 2, Post 1",
+      "phone": "678-449-3012",
+      "email": "millern@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/nycole-miller-council-lowres2.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:council-member:sam-davis",
+      "name": "Sam Davis",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 3, Post 2",
+      "phone": "678-449-3008",
+      "email": "daviss@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/sam-david-ward-3-lowres1.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:mayor-pro-tem:terry-s.-miller",
+      "name": "Terry S. Miller",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": "Ward 1",
+      "phone": "678-449-3002",
+      "email": "millert@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/2/city-council/images/terry-miller-council-lowres1.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:douglasville:mayor:rochelle-robinson",
+      "name": "Rochelle Robinson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Douglasville City Council",
+      "district": null,
+      "phone": "678-449-3000",
+      "email": "robinsonr@douglasvillega.gov",
+      "url": null,
+      "photo_url": "https://www.douglasvillega.gov/files/assets/city/v/1/city-council/images/mayor-robinson-headshot.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglasville",
+        "state": "GA"
+      },
+      "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
     },
     {
       "id": "ga:effingham-county:chairman-at-large:damon-rahn",
@@ -5497,6 +5748,161 @@
       "confidence": 1
     },
     {
+      "id": "ga:peachtree-city:council-member:clint-holland",
+      "name": "Clint Holland",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Peachtree City City Council",
+      "district": "Post 3",
+      "phone": null,
+      "email": "cholland@peachtree-city.org",
+      "url": null,
+      "photo_url": "https://www.peachtree-city.org/ImageRepository/Document?documentId=21137",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peachtree City",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtree-city.org/109/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-city:council-member:laura-johnson",
+      "name": "Laura Johnson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Peachtree City City Council",
+      "district": "Post 1",
+      "phone": null,
+      "email": "ljohnson@peachtree-city.org",
+      "url": null,
+      "photo_url": "https://www.peachtree-city.org/ImageRepository/Document?documentId=23313",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peachtree City",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtree-city.org/109/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-city:council-member:michael-polacek",
+      "name": "Michael Polacek",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Peachtree City City Council",
+      "district": "Post 4",
+      "phone": null,
+      "email": "mpolacek@peachtree-city.org",
+      "url": null,
+      "photo_url": "https://www.peachtree-city.org/ImageRepository/Document?documentId=23315",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peachtree City",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtree-city.org/109/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-city:mayor-pro-tem,-council-member:suzanne-brown",
+      "name": "Suzanne Brown",
+      "office": "Mayor Pro Tem, Council Member",
+      "level": "local",
+      "body": "Peachtree City City Council",
+      "district": "Post 2",
+      "phone": null,
+      "email": "sbrown@peachtree-city.org",
+      "url": null,
+      "photo_url": "https://www.peachtree-city.org/ImageRepository/Document?documentId=23314",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peachtree City",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtree-city.org/109/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:peachtree-city:mayor:kim-learnard",
+      "name": "Kim Learnard",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Peachtree City City Council",
+      "district": null,
+      "phone": null,
+      "email": "klearnard@peachtree-city.org",
+      "url": null,
+      "photo_url": "https://www.peachtree-city.org/ImageRepository/Document?documentId=23312",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Peachtree City",
+        "state": "GA"
+      },
+      "source_url": "https://www.peachtree-city.org/109/Mayor-City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:peachtree-corners:council-member:alex-wright",
       "name": "Alex Wright",
       "office": "City Council Member",
@@ -6703,6 +7109,223 @@
       },
       "source_url": "https://www.cityofsouthfultonga.gov/27/Government",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:chairman:tony-mcbrayer",
+      "name": "Tony McBrayer",
+      "office": "Chairman",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": null,
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/chairman_tony_mcbrayer.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:commissioner:donnie-hester",
+      "name": "Donnie Hester",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 1",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/commissioner_donnie_hester.php",
+      "photo_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/Hester%20-%20Copy%20(2).jpg?t=202405091049390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:commissioner:greg-wood",
+      "name": "Greg Wood",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 6",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/commissioner_greg_wood.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:commissioner:paul-webb",
+      "name": "Paul Webb",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 3",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/commissioner_paul_webb.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:commissioner:stan-stalnaker",
+      "name": "Stan Stalnaker",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 4",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/commissioner_stan_stalnaker.php",
+      "photo_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/Stalnaker%20-%20Copy%20(2).jpg?t=202405091055220",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:commissioner:tyler-riddle",
+      "name": "Tyler Riddle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 5",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissioners/commissioner_tyler_riddle.php",
+      "photo_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/Commissioner%20Pictures/TA4_4075%20(1)%20-%20Copy.JPG?t=202510291100420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tift-county:vice-chair:melissa-hughes",
+      "name": "Melissa Hughes",
+      "office": "Vice Chair",
+      "level": "county",
+      "body": "Tift County Commissioners Court",
+      "district": "District 2",
+      "phone": "229-386-7850",
+      "email": null,
+      "url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/county_commissionersgovernment/commissioner_melissa_hughes.php",
+      "photo_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/Hughes%20-%20Copy%20(2).jpg?t=202405091052320",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "225 Tift Avenue N Tifton, GA 31794",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tift County",
+        "state": "GA"
+      },
+      "source_url": "https://www.tiftcounty.org/county_commissionersgovernment/county_commissioners/index.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

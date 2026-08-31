@@ -1,13 +1,15 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 100,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 108,
   "cities": [
+    "Atlantic City",
     "Camden",
     "Cape May County",
     "Clifton",
     "East Orange",
     "Essex County",
+    "Fort Lee",
     "Gloucester County",
     "Hackensack",
     "Hoboken",
@@ -23,6 +25,37 @@
     "Vineland"
   ],
   "officials": [
+    {
+      "id": "nj:atlantic-city:chief:james-a.-sarkos",
+      "name": "James A. Sarkos",
+      "office": "Chief",
+      "level": "local",
+      "body": "Atlantic City City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.acnj.gov/_Content/img/Chief-J-Sarkos.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1301 Bacharach Boulevard Atlantic City, NJ, 08401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Atlantic City",
+        "state": "NJ"
+      },
+      "source_url": "https://www.acnj.gov/Departments/Police",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
     {
       "id": "nj:camden:mayor:victor-g.-carstarphen",
       "name": "Victor G. Carstarphen",
@@ -672,6 +705,223 @@
       },
       "source_url": "https://www.essexcountynj.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilman:bryan-drumgoole",
+      "name": "Bryan Drumgoole",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": null,
+      "url": "https://www.fortleenj.org/688/Councilman-Bryan-Drumgoole",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=5673",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilman Drumgoole is a lifelong resident of Fort Lee; Bryan graduated from Don Bosco Prep High School. In January of 2005, Bryan was hired as a Fort Lee Police Officer where he proudly served until his recent transfer of August 2022 to the Bergen County Sheriff&rsquo;s Department where he retired from his law enforcement career. Bryan was honored to be sworn in as Councilman of the Borough of Fort Lee on November 10, 2022 and join his colleagues to serve the residents of the community he grew up in and is so proud to be raising his family in.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilman:harvey-sohmer",
+      "name": "Harvey Sohmer",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "h-sohmer@fortleenj.org",
+      "url": "https://www.fortleenj.org/170/Councilman-Harvey-Sohmer",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=445",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "A resident of Fort Lee for most of his life, Harvey Sohmer is a graduate of Fort Lee High School, where he attended with his wife, Roberta Gordan Sohmer.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilman:joseph-cervieri",
+      "name": "Joseph Cervieri",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "j-cervieri@fortleenj.org",
+      "url": "https://www.fortleenj.org/165/Councilman-Joseph-Cervieri",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=106",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "A third-generation Fort Lee resident, Joseph \"Joe\" L. Cervieri, Jr., is serving his 24th consecutive year on Fort Lee's Borough Council and presently as Borough Council president.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilman:paul-k.-yoon",
+      "name": "Paul K. Yoon",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "p-yoon@fortleenj.org",
+      "url": "https://www.fortleenj.org/168/Councilman-Paul-K-Yoon",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=108",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "A Fort Lee resident for the past decade, Paul K. Yoon is the second Korean-American to be elected as council member in the Borough of Fort Lee.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilman:peter-j.-suh",
+      "name": "Peter J. Suh",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "p-suh@fortleenj.org",
+      "url": "https://www.fortleenj.org/169/Councilman-Peter-J-Suh",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=109",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "Raised in Fort Lee, Peter J. Suh attended Fort Lee Elementary School Number 4, Lewis F. Cole Middle School and Fort Lee High School. He was active in marching band, chorus and theatre, and played football for the Junior Bridgemen. Suh now gets the honor of coaching his son in both football and baseball in the same leagues he grew up in, as well as his daughter in basketball and softball.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:councilwoman:ila-kasofsky",
+      "name": "Ila Kasofsky",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "i-kasofsky@fortleenj.org",
+      "url": "https://www.fortleenj.org/166/Councilwoman-Ila-Kasofsky",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=1147",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "A councilwoman for the Borough of Fort Lee since 2002, Ila Kasofsky founded the Environmental and Beautification committee to promote greener living and environmental awareness. She also advocates for health initiatives, including flu shots and the annual Health Fair, and leads a Women's Health initiative.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:fort-lee:mayor:mark-j.-sokolich",
+      "name": "Mark J. Sokolich",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Fort Lee City Council",
+      "district": null,
+      "phone": "201-592-3500 x1003",
+      "email": "mayor@fortleenj.org",
+      "url": "https://www.fortleenj.org/294/Mayor-Mark-J-Sokolich",
+      "photo_url": "https://www.fortleenj.org/ImageRepository/Document?documentId=561",
+      "social": {
+        "twitter": "https://twitter.com/FortLeeToday",
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "309 Main Street Fort Lee, NJ 07024",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark J. Sokolich is a lifelong resident of Fort Lee and has been dedicated to serving the Borough through its government for many years. He served on the Borough Council for four terms, and as a Councilperson, he was liaison to the Fire Department, Police Department, Department of Public Works and Beautification and Historic Committees. He was elected Mayor in 2008 and is currently in his 18th year of service to the town he loves so dearly.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Fort Lee",
+        "state": "NJ"
+      },
+      "source_url": "https://www.fortleenj.org/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

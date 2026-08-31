@@ -1,10 +1,11 @@
 {
   "state": "ME",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 12,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 20,
   "cities": [
     "Cumberland County",
     "Hancock County",
+    "Lewiston",
     "Oxford County"
   ],
   "officials": [
@@ -285,6 +286,254 @@
       },
       "source_url": "https://hancockcountymaine.gov/commissioners/",
       "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:bret-martel",
+      "name": "Bret Martel",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 7",
+      "phone": "207-513-3121",
+      "email": null,
+      "url": "https://www.lewistonmaine.gov/1419/WARD-7-Councilor-Bret-Martel",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=18871",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:chrissy-noble",
+      "name": "Chrissy Noble",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 5",
+      "phone": "207-513-3121",
+      "email": null,
+      "url": "https://www.lewistonmaine.gov/1421/Ward-5-Councilor-Chrissy-Noble",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=18921",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:david-chittim",
+      "name": "David Chittim",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 6",
+      "phone": "207-513-3121",
+      "email": "dchittim@lewistonmaine.gov",
+      "url": "https://www.lewistonmaine.gov/1344/Ward-6-Councilor-David-Chittim",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=16481",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "David B. Chittim is a retired Professional Engineer and Land Surveyor with an M.S. in Environmental Engineering from Purdue University. He is actively involved in community engagement, serving on various boards and committees including the Androscoggin Historical Society and the Historic Preservation Review Board.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:joshua-nagine",
+      "name": "Joshua Nagine",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 1",
+      "phone": "207-240-2779",
+      "email": null,
+      "url": "https://www.lewistonmaine.gov/1340/Ward-1-Councilor-Joshua-Nagine",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=16475",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Joshua Nagine is a Ward 1 City Councilor in Lewiston, Maine. He is self-employed as a consultant focusing on data analysis and commercial management, following a career in operations and product development. A resident of Lewiston since 2003, he is passionate about land conservation, accessible open spaces, and community quality of life.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:michael-roy",
+      "name": "Michael Roy",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 4",
+      "phone": "207-713-8577",
+      "email": "mroy@lewistonmaine.gov",
+      "url": "https://www.lewistonmaine.gov/1342/Ward-4-Councilor-Michael-Roy",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=16478",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Councilor Roy is a lifelong resident of Lewiston who enjoys spending family time with his three children, grandchildren, and friends; going for motorcycle rides; cooking; learning new things, and he believes in Lewiston.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:scott-a.-harriman",
+      "name": "Scott A. Harriman",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 3",
+      "phone": "207-513-3121",
+      "email": "sharriman@lewistonmaine.gov",
+      "url": "https://www.lewistonmaine.gov/1184/Ward-3-Councilor-Scott-A-Harriman",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=16477",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I’m a lifelong Mainer who has lived in Lewiston since 2017. I enjoy home improvement, reading, and hanging out with my cat, Sunny.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:councilor:susan-longchamps",
+      "name": "Susan Longchamps",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": "Ward 2",
+      "phone": "207-376-5300",
+      "email": "slongchamps@lewistonmaine.gov",
+      "url": "https://www.lewistonmaine.gov/1341/Ward-2-Councilor-Susan-Longchamps",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentId=16489",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Susan G. Longchamps is a lifelong resident of Lewiston, owner of Webbs Market, and a local real estate investor. She is dedicated to public service, community engagement, and revitalizing properties, and cherishes time with her family and grandchildren.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "me:lewiston:mayor:carl-l.-sheline",
+      "name": "Carl L. Sheline",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lewiston City Council",
+      "district": null,
+      "phone": "207-513-3121",
+      "email": "csheline@lewistonmaine.gov",
+      "url": "https://www.lewistonmaine.gov/1182/Mayor-Carl-L-Sheline",
+      "photo_url": "https://www.lewistonmaine.gov/ImageRepository/Document?documentID=13190",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "27 Pine Street Lewiston, ME 04240",
+      "offices": [],
+      "hours": null,
+      "bio": "Carl Sheline is an entrepreneur and a long-standing, engaged member of the Lewiston business community. He founded Munka, a co-working space in downtown Lewiston in 2016 and previously served as office manager for a large multi-site healthcare office in Maine.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lewiston",
+        "state": "ME"
+      },
+      "source_url": "https://www.lewistonmaine.gov/27/Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

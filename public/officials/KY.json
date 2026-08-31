@@ -1,15 +1,17 @@
 {
   "state": "KY",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 40,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 55,
   "cities": [
     "Boone County",
     "Bowling Green",
     "Boyd County",
     "Campbell County",
+    "Georgetown",
     "Hardin County",
     "Oldham County",
-    "Owensboro"
+    "Owensboro",
+    "Richmond"
   ],
   "officials": [
     {
@@ -568,6 +570,285 @@
       },
       "source_url": "https://campbellcountyky.gov/officials/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:greg-hampton",
+      "name": "Greg Hampton",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=74",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=2275",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:karen-tingle-sames",
+      "name": "Karen Tingle Sames",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=181",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=3169",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:kim-menke",
+      "name": "Kim Menke",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": "kmenke@georgetownky.gov",
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=178",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=3155",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:michael-crisp",
+      "name": "Michael Crisp",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=179",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=3153",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:sonja-wilkins-brent",
+      "name": "Sonja Wilkins Brent",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=71",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=2538",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:tammy-lusby-mitchell",
+      "name": "Tammy Lusby Mitchell",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=180",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=3159",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:todd-stone",
+      "name": "Todd Stone",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=77",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=2270",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:council-member:willow-hambrick",
+      "name": "Willow Hambrick",
+      "office": "City Councilmember",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=72",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=2271",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:georgetown:mayor:burney-jenkins",
+      "name": "Burney Jenkins",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Georgetown City Council",
+      "district": null,
+      "phone": "502-863-9800",
+      "email": null,
+      "url": "https://www.georgetownky.gov/CivicAlerts.aspx?AID=89",
+      "photo_url": "https://www.georgetownky.gov/ImageRepository/Document?documentID=2536",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Court Street, Georgetown, KY 40324",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Georgetown",
+        "state": "KY"
+      },
+      "source_url": "https://www.georgetownky.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
@@ -1250,6 +1531,192 @@
       },
       "source_url": "https://www.owensboro.org/government/board_of_commissioners/elected_officials.php",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:city-manager:robert-minerich",
+      "name": "Robert Minerich",
+      "office": "City Manager",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-623-1000",
+      "email": "rminerich@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:commissioner:jim-newby",
+      "name": "Jim Newby",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-358-2304",
+      "email": "jnewby@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:commissioner:mendi-goble",
+      "name": "Mendi Goble",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-893-1424",
+      "email": "mgoble@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:commissioner:mike-brewer",
+      "name": "Mike Brewer",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-248-5322",
+      "email": "mbrewer@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:mayor-pro-tem:tammy-cole",
+      "name": "Tammy Cole",
+      "office": "Mayor Pro-Tem",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-248-2973",
+      "email": "tcole@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ky:richmond:mayor:robert-r.-blythe",
+      "name": "Robert R. Blythe",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Richmond City Council",
+      "district": null,
+      "phone": "859-661-0289",
+      "email": "rblythe@richmondky.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Richmond",
+        "state": "KY"
+      },
+      "source_url": "https://www.richmondky.gov/government/board_of_commissioners.php",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     }
   ]

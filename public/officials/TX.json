@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-30T04:30:18.639Z",
-  "count": 461,
+  "generated_at": "2026-08-31T04:40:08.267Z",
+  "count": 494,
   "cities": [
     "Abilene",
     "Allen",
@@ -14,12 +14,14 @@
     "Beaumont",
     "Bee Cave",
     "Bexar County",
+    "Brown County",
     "Brownsville",
     "Bryan",
     "Burnet County",
     "Caldwell County",
     "Cameron County",
     "Cedar Park",
+    "Cibolo",
     "Collin County",
     "Comal County",
     "Conroe",
@@ -31,6 +33,7 @@
     "El Paso",
     "El Paso County",
     "Elgin",
+    "Forney",
     "Fort Bend County",
     "Frisco",
     "Galveston",
@@ -74,6 +77,7 @@
     "Round Rock",
     "San Marcos",
     "San Patricio County",
+    "Seguin",
     "Smithville",
     "Sugar Land",
     "Tarrant County",
@@ -84,6 +88,7 @@
     "Victoria",
     "Waco",
     "Waxahachie",
+    "Weatherford",
     "Weslaco",
     "Wichita Falls",
     "Williamson County"
@@ -1750,6 +1755,161 @@
       "confidence": 1
     },
     {
+      "id": "tx:brown-county:commissioner:david-doc-reid",
+      "name": "David “Doc” Reid",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brown County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "325-643-1985",
+      "email": "david.reid@browncountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Broadway, Room 322 Brownwood, TX 76801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brown County",
+        "state": "TX"
+      },
+      "source_url": "https://www.browncountytx.gov/page/brown.Commissioners.Court",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:brown-county:commissioner:joel-kelton",
+      "name": "Joel Kelton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brown County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "325-643-1985",
+      "email": "joel.kelton@browncountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Broadway, Room 322 Brownwood, TX 76801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brown County",
+        "state": "TX"
+      },
+      "source_url": "https://www.browncountytx.gov/page/brown.Commissioners.Court",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:brown-county:commissioner:kirk-chastain",
+      "name": "Kirk Chastain",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brown County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "325-643-1985",
+      "email": "kirk.chastain@browncountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Broadway, Room 322 Brownwood, TX 76801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brown County",
+        "state": "TX"
+      },
+      "source_url": "https://www.browncountytx.gov/page/brown.Commissioners.Court",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:brown-county:commissioner:larry-traweek",
+      "name": "Larry Traweek",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Brown County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "325-643-1985",
+      "email": "larry.traweek@browncountytx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Broadway, Room 322 Brownwood, TX 76801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brown County",
+        "state": "TX"
+      },
+      "source_url": "https://www.browncountytx.gov/page/brown.Commissioners.Court",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:brown-county:county-judge:shane-britton",
+      "name": "Shane Britton",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Brown County Commissioners Court",
+      "district": null,
+      "phone": "325-643-1985",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 S. Broadway #322 Brownwood TX 76801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brown County",
+        "state": "TX"
+      },
+      "source_url": "https://www.browncountytx.gov/page/brown.Commissioners.Court",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
       "id": "tx:brownsville:mayor:john-cowen,-jr.",
       "name": "John Cowen, Jr.",
       "office": "Mayor",
@@ -2045,7 +2205,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2068,7 +2228,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2091,7 +2251,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2145,7 +2305,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2622,6 +2782,254 @@
       "source_url": "https://www.cedarparktexas.gov/231/Government",
       "extracted_at": "2026-08-26T03:21:53.889Z",
       "confidence": 0.9
+    },
+    {
+      "id": "tx:cibolo:council-member-at-large:donetta-roberts",
+      "name": "Donetta Roberts",
+      "office": "Councilmember At-Large",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 6",
+      "phone": "210-658-9900",
+      "email": "donetta.roberts@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/donetta_roberts.php",
+      "photo_url": "https://www.cibolotx.gov/government/revize_photo_gallery/Staff%20Directory/Council%20Memeber_Donetta%20Roberts.jpg?t=202503171708030",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": "Monday-Friday, 8 am to 5 pm",
+      "bio": "Donetta Roberts is a native Texan who has proudly called Cibolo home since 2004. A graduate of Calallen High School in Corpus Christi, she later pursued higher education at the University of Texas at San Antonio, where she earned a Bachelor of Arts in Political Science.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:council-member-at-large:norma-sanchez-stephens",
+      "name": "Norma Sanchez-Stephens",
+      "office": "Councilmember At-Large",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": "nsanchezstephens@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/norma_sanchez-stephens/index.php",
+      "photo_url": "https://www.cibolotx.gov/government/norma_sanchez-stephens/revize_photo_gallery/Staff%20Directory/Council%20Member_Norma%20Sanchez-Stephens.jpg?t=202503181730230",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": null,
+      "bio": "Norma Sanchez-Stephens is a native Texan and a longtime resident of the Texas Tri-County area, holding a Bachelor's Degree in Banking and Finance. After a successful career in the mortgage industry, she dedicated time to her family and volunteered with the National Guard Unit's Family Readiness Group. She is honored to represent At-Large Place 5 and the City of Cibolo, serving its residents.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:council-member-at-large:summer-marie-brown",
+      "name": "Summer-Marie Brown",
+      "office": "Councilmember At-Large",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 7",
+      "phone": null,
+      "email": "smbrown@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/summer-marie_brown.php",
+      "photo_url": "https://www.cibolotx.gov/government/Government/Council/Place%207%20Councilwoman%20Brown.jpg?t=202602021409150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": null,
+      "bio": "Summer-Marie Brown was elected to the Cibolo City Council, representing At Large Place 7, in December 2025. She was born in Joplin, Missouri, and raised in the Netherlands as a military child, an experience that shaped her global perspective and deep respect for service. She served nine years as an enlisted Soldier in the United States Army before receiving a Direct Commission as an Active-duty Medical Service Officer, and her civilian career includes senior leadership roles in Human Resources.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:council-member:jeff-mcglothin",
+      "name": "Jeff McGlothin",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 1",
+      "phone": "210-658-9900",
+      "email": "jmcglothin@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/jeff_mcglothin.php",
+      "photo_url": "https://www.cibolotx.gov/government/Government/Council/Council%20Member_Jeff%20McGlothin.jpg?t=202505271006420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": "Monday-Friday, 8 am to 5 pm",
+      "bio": "Jeff McGlothin was born in Milwaukie, Oregon, and holds degrees in Intelligence Technologies and Criminal Justice. He served in the Oregon Air National Guard as an intelligence analyst and later as an Intelligence Officer in the Air Force Reserve. After moving to Cibolo, Texas, in 2019, he was elected to City Council in 2023, advocating for small businesses and preserving Cibolo's small-town charm.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:council-member:marissa-ellen-patterson",
+      "name": "Marissa-Ellen Patterson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": "mepatterson@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/marissa-ellen_patterson.php",
+      "photo_url": "https://www.cibolotx.gov/government/Government/Council/Place%203%20Councilwoman%20Patterson.jpg?t=202602021408420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": null,
+      "bio": "Marissa-Ellen Patterson was elected to the Cibolo City Council in December 2025 and is honored to serve as the Place 3 Councilwoman. She is committed to advancing smart growth, public safety, fostering innovation, and championing transparent, community-centered governance.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:council-member:randy-roberts",
+      "name": "Randy Roberts",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": "rroberts@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/randy_roberts/index.php",
+      "photo_url": "https://www.cibolotx.gov/government/randy_roberts/Government/Council/Randy%20Roberts.jpg?t=202304171745440",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:mayor-pro-tem-&-council-member:katie-cunningham",
+      "name": "Katie Cunningham",
+      "office": "Mayor Pro-Tem & Councilmember",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": "Place 4",
+      "phone": "210-658-9900",
+      "email": "kcunningham@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/katie_cunningham/index.php",
+      "photo_url": "https://www.cibolotx.gov/government/katie_cunningham/Government/Council/Place%204%20Councilwoman%20Cunningham.jpg?t=202602021408580",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": "Monday-Friday, 8 am to 5 pm",
+      "bio": "Katie Cunningham was elected to the Cibolo City Council, representing District 4, in November 2021. With extensive experience in nonprofit organizations and city government, Katie has cultivated a deep passion for community service and a people-first approach. She is actively engaged in her community, regularly participating in block walks, attending neighborhood and community meetings, communicating with constituents via calls and texts, conducting ride-alongs with city departments, organizing and contributing to community clean-up efforts, and collaborating with numerous outstanding organizations throughout the Cibolo area.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:cibolo:mayor:kara-latimer",
+      "name": "Kara Latimer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Cibolo City Council",
+      "district": null,
+      "phone": "210-870-4132",
+      "email": "klatimer@cibolotx.gov",
+      "url": "https://www.cibolotx.gov/government/kara_latimer.php",
+      "photo_url": "https://www.cibolotx.gov/government/Government/Council/Mayor%20Latimer.jpg?t=202602021408180",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Main Street Cibolo, TX 78108",
+      "offices": [],
+      "hours": "Monday-Friday, 8 am to 5 pm",
+      "bio": "As mayor of Cibolo, Kara Latimer is committed to leadership grounded in professionalism, stability, and respect. Having raised her family and built her business in Cibolo, she works to ensure the city thrives for current and future generations.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Cibolo",
+        "state": "TX"
+      },
+      "source_url": "https://www.cibolotx.gov/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
     },
     {
       "id": "tx:collin-county:district-attorney:greg-willis",
@@ -4112,6 +4520,223 @@
       "confidence": 1
     },
     {
+      "id": "tx:forney:council-member:cecil-chambers",
+      "name": "Cecil Chambers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.forneytx.gov/959/Cecil-Chambers",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=7201",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "As Forney continues to grow, Cecil Chambers is committed to preserving the qualities that make the community a great place to live while planning for the future. As a Lieutenant with the Dallas Police Department for nearly 20 years, he is committed to ensuring public safety. He is married with three children, has lived in Forney since 2005, and previously served on the Forney Planning and Zoning Commission.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:greg-helm",
+      "name": "Greg Helm",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": "972-552-6620",
+      "email": null,
+      "url": "https://www.forneytx.gov/832/Greg-Helm",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=7205",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pinson Rd. Forney, TX 75126",
+      "offices": [],
+      "hours": "Monday - Thursday 7:30 a.m. to 5:30 p.m. Closed Fridays",
+      "bio": "I am married to a wonderful woman, and we have two fantastic daughters. I graduated from UNT with a Logistics Management degree and have worked in the Supply Chain arena for over 20 years. I have most recently served as Vice Chairman of the Planning and Zoning Commission.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:james-traylor",
+      "name": "James Traylor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.forneytx.gov/931/James-Traylor",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentId=7200",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "James Traylor is a City Council Member for Place 1, committed to thoughtful, responsible growth, attracting entertainment and recreational developments, and supporting public safety. He has a background in multi-family development and property management and has been actively involved with the Forney Soccer Association.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:jason-roberson",
+      "name": "Jason Roberson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": "972-552-6620",
+      "email": null,
+      "url": "https://www.forneytx.gov/831/Jason-Roberson",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=10090",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 Pinson Rd. Forney, TX 75126",
+      "offices": [],
+      "hours": "Monday - Thursday 7:30 a.m. to 5:30 p.m. Closed Fridays",
+      "bio": "Jason Roberson was first elected to the Forney City Council in May 2021 and aims to continue building Forney's infrastructure, fostering an ethical environment, and supporting first responders. His professional background is in communications, working as a journalist, public relations executive, and ghostwriter.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:jay-weatherford",
+      "name": "Jay Weatherford",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.forneytx.gov/836/Jay-Weatherford",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=8129",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Jay Weatherford serves on the Forney City Council, Place 3, with his term expiring in 2027. He is a retired CPA with a bachelor's degree in accounting, bringing extensive experience from private, non-profit, and public program administration. As a father and grandfather, his primary goals for Forney include ensuring family safety and fostering a family-friendly environment amidst the city's growth.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:sarah-salgado",
+      "name": "Sarah Salgado",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.forneytx.gov/834/Sarah-Salgado",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=7203",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I’m a native Texan who has lived in Forney for over 15 years. My professional background is in education, with a Bachelor of Science in Special Education. I am married with four children and ran for city council to help Forney be its best for decades to come.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tx:forney:council-member:zahnd-schlensker",
+      "name": "Zahnd Schlensker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Forney City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.forneytx.gov/869/Zahnd-Schlensker",
+      "photo_url": "https://www.forneytx.gov/ImageRepository/Document?documentID=7204",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I am a native of Richardson, Texas. Forney has been my home for the last 19 years. I graduated from Austin College in Sherman, TX, and have worked in the Automobile Industry for 29 years. I have a son, Luke, who is engaged to my future daughter-in-law Janell.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Forney",
+        "state": "TX"
+      },
+      "source_url": "https://www.forneytx.gov/956/City-Council-Recaps",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 0.9
+    },
+    {
       "id": "tx:fort-bend-county:commissioner:andy-meyers",
       "name": "Andy Meyers",
       "office": "Commissioner",
@@ -5038,7 +5663,7 @@
         "state": "TX"
       },
       "source_url": "https://www.granbury.org/Faq.aspx?QID=46",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 0.5
     },
     {
@@ -9324,7 +9949,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -9355,7 +9980,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -9386,7 +10011,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -9417,7 +10042,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -11555,6 +12180,285 @@
       "confidence": 1
     },
     {
+      "id": "tx:seguin:council-member:bill-keller",
+      "name": "Bill Keller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 8",
+      "phone": "830-305-0879",
+      "email": "bkeller@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:david-eveld",
+      "name": "David Eveld",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 2",
+      "phone": "830-491-8767",
+      "email": "develd@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:jason-biesenbach",
+      "name": "Jason Biesenbach",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 7",
+      "phone": "830-832-3962",
+      "email": "jbiesenbach@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:jim-lievens",
+      "name": "Jim Lievens",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 3",
+      "phone": "830-556-2530",
+      "email": "jlievens@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:joe-rea",
+      "name": "Joe Rea",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 1",
+      "phone": "830-556-1663",
+      "email": "jrea@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:john-carlsson",
+      "name": "John Carlsson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 4",
+      "phone": "703-343-5018",
+      "email": "jcarlsson@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:monica-napier",
+      "name": "Monica Napier",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 6",
+      "phone": "210-255-0575",
+      "email": "mcarter@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:council-member:paul-gaytan",
+      "name": "Paul Gaytan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": "District 5",
+      "phone": "830-305-2606",
+      "email": "pgaytan@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:seguin:mayor:donna-dodgen",
+      "name": "Donna Dodgen",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Seguin City Council",
+      "district": null,
+      "phone": "830-401-2307",
+      "email": "ddodgen@seguintexas.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 E. Gonzales St. Seguin, TX 78155",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Seguin",
+        "state": "TX"
+      },
+      "source_url": "https://www.seguintexas.gov/520/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:smithville:mayor:sharon-foerster",
       "name": "Sharon Foerster",
       "office": "Mayor",
@@ -13036,6 +13940,130 @@
       },
       "source_url": "https://www.waxahachietx.gov/m/directory/employee?eid=45",
       "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weatherford:council-member,-mayor-pro-tem:zack-smith",
+      "name": "Zack Smith",
+      "office": "City Council Member, Mayor Pro Tem",
+      "level": "local",
+      "body": "Weatherford City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": "zsmith@weatherfordtx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "303 Palo Pinto St. P.O. Box 255 Weatherford, TX 76086",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Weatherford",
+        "state": "TX"
+      },
+      "source_url": "https://www.weatherfordtx.gov/678/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weatherford:council-member:luke-williams",
+      "name": "Luke Williams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Weatherford City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": "lwilliams@weatherfordtx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "303 Palo Pinto St. P.O. Box 255 Weatherford, TX 76086",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Weatherford",
+        "state": "TX"
+      },
+      "source_url": "https://www.weatherfordtx.gov/678/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weatherford:council-member:matt-ticzkus",
+      "name": "Matt Ticzkus",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Weatherford City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": "mticzkus@weatherfordtx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "303 Palo Pinto St. P.O. Box 255 Weatherford, TX 76086",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Weatherford",
+        "state": "TX"
+      },
+      "source_url": "https://www.weatherfordtx.gov/678/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:weatherford:council-member:rod-white",
+      "name": "Rod White",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Weatherford City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": "rwhite@weatherfordtx.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "303 Palo Pinto St. P.O. Box 255 Weatherford, TX 76086",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Weatherford",
+        "state": "TX"
+      },
+      "source_url": "https://www.weatherfordtx.gov/678/City-Council-Members",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

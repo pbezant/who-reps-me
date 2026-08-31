@@ -1,7 +1,7 @@
 {
   "state": "LA",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 61,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 71,
   "cities": [
     "Bossier City",
     "Lafayette Parish",
@@ -10,6 +10,7 @@
     "New Orleans",
     "Orleans Parish",
     "Shreveport",
+    "St. John the Baptist Parish",
     "St. Martin Parish",
     "St. Tammany Parish",
     "Terrebonne Parish"
@@ -1284,6 +1285,316 @@
       },
       "source_url": "https://www.shreveportla.gov/",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:dixie-ramirez",
+      "name": "Dixie Ramirez",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:lennix-madere,-jr.",
+      "name": "Lennix Madere, Jr.",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:michael-p.-wright",
+      "name": "Michael P. Wright",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:robert-arcuri",
+      "name": "Robert Arcuri",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:tammy-houston",
+      "name": "Tammy Houston",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:tyra-duhe-griffin",
+      "name": "Tyra Duhe-Griffin",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:vernon-bailey,-sr.",
+      "name": "Vernon Bailey, Sr.",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:virgie-jarrow-johnson",
+      "name": "Virgie Jarrow Johnson",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-council-member:warren-bosco-torres",
+      "name": "Warren \"Bosco\" Torres",
+      "office": "St. John Parish Council Member",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "la:st.-john-the-baptist-parish:st.-john-parish-president:jaclyn-hotard",
+      "name": "Jaclyn Hotard",
+      "office": "St. John Parish President",
+      "level": "county",
+      "body": "St. John the Baptist Parish Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. John the Baptist Parish",
+        "state": "LA"
+      },
+      "source_url": "https://www.sjbparish.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

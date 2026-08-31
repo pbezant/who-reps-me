@@ -1,7 +1,7 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-30T04:30:18.639Z",
-  "count": 208,
+  "generated_at": "2026-08-31T04:40:08.267Z",
+  "count": 225,
   "cities": [
     "Bellevue",
     "Bellingham",
@@ -15,10 +15,12 @@
     "Franklin County",
     "Grant County",
     "Island County",
+    "Issaquah",
     "Kennewick",
     "King County",
     "Kitsap County",
     "Lewis County",
+    "Lynnwood",
     "Marysville",
     "Mason County",
     "Olympia",
@@ -2217,6 +2219,254 @@
       "confidence": 1
     },
     {
+      "id": "wa:issaquah:council-member:erika-boyd",
+      "name": "Erika Boyd",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:council-member:kevin-nichols",
+      "name": "Kevin Nichols",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:council-member:lindsey-walsh",
+      "name": "Lindsey Walsh",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:council-member:paul-adair",
+      "name": "Paul Adair",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:council-member:russell-joe",
+      "name": "Russell Joe",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:council-president:tola-marts",
+      "name": "Tola Marts",
+      "office": "Council President",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:deputy-council-president:kelly-jiang",
+      "name": "Kelly Jiang",
+      "office": "Deputy Council President",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:issaquah:mayor:mark-mullet",
+      "name": "Mark Mullet",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Issaquah City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Issaquah",
+        "state": "WA"
+      },
+      "source_url": "https://www.issaquahwa.gov/27/Your-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:kennewick:council-member:brad-beauchamp",
       "name": "Brad Beauchamp",
       "office": "Council Member",
@@ -3498,6 +3748,254 @@
       "confidence": 1
     },
     {
+      "id": "wa:lynnwood:council-member:bryce-owings",
+      "name": "Bryce Owings",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos3@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Council-Member-Owings",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/cm-ownings-1.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "19100 44th Ave W Lynnwood WA 98036",
+      "offices": [],
+      "hours": null,
+      "bio": "Bryce Owings is a lifelong resident of Lynnwood, raised in the Alderwood-Manor neighborhood. He is a union carpenter who has worked on local infrastructure projects and currently teaches a pre-apprenticeship program at Edmonds College.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:chelsea-wright",
+      "name": "Chelsea Wright",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos6@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Council-Member-Wright",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/chelsea-wright-cropped.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Chelsea works at the Washington State Department of Labor & Industries as a WERC Program Specialist 4. She is actively involved in many state Business Resource Groups and previously served as Chair of the City of Lynnwood’s DEI Commission. Originally from Illinois, Chelsea made Lynnwood home in 2010 and is deeply engaged in the community, enjoying local parks with her chihuahuas and spending time with family.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:david-parshall",
+      "name": "David Parshall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos7@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Parshall-new-format",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/cm_parshall.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "David Parshall has deep ties to the Lynnwood community. He grew up in the Lynnwood area, attending local schools, and later earned a bachelor's degree in political science and a Master's Degree in Education from the University of Washington. He returned to Lynnwood to teach and coach in the Edmonds School District, becoming interested in city government and regularly attending council meetings since 2016.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:derica-escamilla",
+      "name": "Derica Escamilla",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos1@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Council-Member-Escamilla",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/final_escamilla.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Almaderica Escamilla, known as “Derica” or “Coach D,” is a first-generation Mexican American who graduated from Texas State University in 2004. She moved to Washington State in 2005 and has since served on several City of Lynnwood Boards and Committees, including the Economic Development Advisory Board and the South Lynnwood Neighborhood Co-Design Committee. She is also an active basketball coach and community volunteer.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:isabel-mata",
+      "name": "Isabel Mata",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos2@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Mata",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/cm-mata-final.png?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "I am a queer, neurodivergent writer, advocate, and mindfulness meditation teacher with more than eight years of experience in public engagement, community building, and social impact leadership. My work is grounded in collaboration, care, and a deep belief that strong communities are built when people feel heard, respected, and connected.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:nick-coelho",
+      "name": "Nick Coelho",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos4@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Coelho-new-format",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/cm_coelho_1.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Nick is a Lynnwood entrepreneur, volunteer, and parks advocate who has owned and operated Lynnwood's first Boardgame Cafe since 2013. He and his wife Layla live in the South Lynnwood neighborhood, where they enjoy frequent strolls through the serene Scriber Lake Park.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:council-member:robert-leutwyler",
+      "name": "Robert Leutwyler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": null,
+      "email": "CouncilPos5@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/City-Council/Robert-Leutwyler",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/robert-leutwyler.jpg?dimension=homepagelisting&w=496&h=328",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Robert Leutwyler was born and raised in Texas and served in the military, including a deployment to Afghanistan. He earned his MBA from the University of Washington and works as a program manager in the financial benefits industry. Prior to joining the City Council, he served on the Planning Commission.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:lynnwood:mayor:george-hurst",
+      "name": "George Hurst",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lynnwood City Council",
+      "district": null,
+      "phone": "425-670-5002",
+      "email": "mayor@lynnwoodwa.gov",
+      "url": "https://www.lynnwoodwa.gov/Government/Mayor-George-Hurst",
+      "photo_url": "https://www.lynnwoodwa.gov/files/sharedassets/public/v/1/city-council/photos/cp_hurst.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall\n19100 44th Ave W\n98036",
+      "offices": [],
+      "hours": "Each Wednesday afternoon from 4:00-5:00 PM",
+      "bio": "Welcome to our vibrant and welcoming City of Lynnwood! You will find arts and culture, parks and trails, education and recreation and a great entrepreneurial spirit. Our community members help shape and guide the city’s progress as a leading marketplace of business and commerce; and it is a perfect place to call home. Your thoughts, ideas, and concerns are important to me, our City Council and City Staff, and I invite you to be engaged!",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Lynnwood",
+        "state": "WA"
+      },
+      "source_url": "https://www.lynnwoodwa.gov/Home",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:marysville:council-member:dan-perkins",
       "name": "Dan Perkins",
       "office": "City Council Member",
@@ -4217,7 +4715,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -4248,7 +4746,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -4281,6 +4779,37 @@
       "source_url": "https://www.piercecountywa.gov/",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 0.9
+    },
+    {
+      "id": "wa:pierce-county:county-executive:ryan-n.-mello",
+      "name": "Ryan N. Mello",
+      "office": "County Executive",
+      "level": "county",
+      "body": "Pierce County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.piercecountywa.gov/100/County-Executive",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pierce County",
+        "state": "WA"
+      },
+      "source_url": "https://www.piercecountywa.gov/",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "confidence": 1
     },
     {
       "id": "wa:pierce-county:executive:ryan-n.-mello",
@@ -4341,7 +4870,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {
@@ -4372,7 +4901,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-08-31T04:40:08.267Z",
       "confidence": 1
     },
     {

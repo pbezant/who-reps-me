@@ -1,13 +1,14 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 101,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 108,
   "cities": [
     "Boone County",
     "Clark County",
     "Delaware County",
     "Hamilton County",
     "Hammond",
+    "Harrison County",
     "Henry County",
     "Jackson County",
     "Lake County",
@@ -1102,6 +1103,223 @@
       },
       "source_url": "https://www.gohammond.com/departments/city-council/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:holli-castetter",
+      "name": "Holli Castetter",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "hcastetter@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/Holli2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:jake-blackman",
+      "name": "Jake Blackman",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "jake.blackman@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/jake-blackman-2023.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:jennie-capelle",
+      "name": "Jennie Capelle",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": "dhussung@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/Jennie.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:joe-kellum",
+      "name": "Joe Kellum",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "joe.kellum@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/joe-kellum-2023.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:kyle-nix",
+      "name": "Kyle Nix",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "knix@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/KNix.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:richard-gerdon",
+      "name": "Richard Gerdon",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": "richard.gerdon@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/richard_gerdon-125.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:harrison-county:county-council-member:sherry-brown",
+      "name": "Sherry Brown",
+      "office": "County Council Member",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "At Large",
+      "phone": null,
+      "email": "sherrybrown@harrisoncounty.in.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/harrison/images/sherry_brown.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/harrison/leadership/council/",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

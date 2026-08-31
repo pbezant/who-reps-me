@@ -1,12 +1,14 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-29T04:33:42.194Z",
-  "count": 63,
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 77,
   "cities": [
     "Albany",
     "Clackamas County",
+    "Clatsop County",
     "Deschutes County",
     "Eugene",
+    "Grants Pass",
     "Lincoln County",
     "Linn County",
     "Multnomah County",
@@ -542,6 +544,161 @@
       "confidence": 1
     },
     {
+      "id": "or:clatsop-county:commissioner:anthony-huacuja",
+      "name": "Anthony Huacuja",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clatsop County Commissioners Court",
+      "district": "District 2",
+      "phone": "503-298-9056",
+      "email": "ahuacuja@ClatsopCounty.gov",
+      "url": "https://www.clatsopcounty.gov/855/Commissioner-Anthony-Huacuja",
+      "photo_url": "https://www.clatsopcounty.gov/ImageRepository/Document?documentID=3689",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Anthony Huacuja was elected to the Board of Commissioners in June 2024 to a term that ends December 2028. Huacuja represents District 2, which covers Gearhart and Clatsop Plains, and portions of Seaside and Warrenton.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Clatsop County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clatsopcounty.gov/848/Local-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clatsop-county:commissioner:courtney-bangs",
+      "name": "Courtney Bangs",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clatsop County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": "cbangs@ClatsopCounty.gov",
+      "url": "https://www.clatsopcounty.gov/859/Commissioner-Courtney-Bangs",
+      "photo_url": "https://www.clatsopcounty.gov/ImageRepository/Document?documentID=3688",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Exchange Street\nAstoria, OR 97103",
+      "offices": [],
+      "hours": null,
+      "bio": "Courtney Bangs was elected to the Board of Commissioners in May 2020 and re-elected in 2024, with her current term expiring December 2028. She began serving as Vice Chair of the Clatsop County Board of Commissioners in January 2023. Bangs represents District 4 and has a background in agriculture education, currently teaching at Encore Academy in Warrenton.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Clatsop County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clatsopcounty.gov/848/Local-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clatsop-county:commissioner:lianne-thompson",
+      "name": "Lianne Thompson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clatsop County Commissioners Court",
+      "district": "District 5",
+      "phone": "503-741-1715",
+      "email": "lthompson@ClatsopCounty.gov",
+      "url": "https://www.clatsopcounty.gov/861/Commissioner-Lianne-Thompson",
+      "photo_url": "https://www.clatsopcounty.gov/ImageRepository/Document?documentID=3687",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Lianne Thompson was elected to the Board of Commissioners in 2014, reelected in 2018 and 2022 to a four-year term that expires in December 2026. She represents District 5, covering southern Clatsop County. A native of Michigan, Thompson holds a Bachelor's degree from Michigan State University and a Master's degree in social work from the University of Michigan.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Clatsop County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clatsopcounty.gov/848/Local-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clatsop-county:commissioner:mark-kujala",
+      "name": "Mark Kujala",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clatsop County Commissioners Court",
+      "district": "District 1",
+      "phone": "503-440-4636",
+      "email": "mkujala@ClatsopCounty.gov",
+      "url": "https://www.clatsopcounty.gov/853/Commissioner-Mark-Kujala",
+      "photo_url": "https://www.clatsopcounty.gov/ImageRepository/Document?documentID=3686",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Kujala was elected to the Board of Commissioners in 2018 and reelected in 2022, representing District 1. A lifelong Clatsop County resident, he previously served 12 years on the Warrenton City Commission, including five years as mayor. He is currently the executive director of the Columbia Memorial Hospital Foundation.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Clatsop County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clatsopcounty.gov/848/Local-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:clatsop-county:commissioner:pamela-wev",
+      "name": "Pamela Wev",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Clatsop County Commissioners Court",
+      "district": "District 3",
+      "phone": "971-207-5666",
+      "email": "pwev@ClatsopCounty.gov",
+      "url": "https://www.clatsopcounty.gov/857/Commissioner-Pamela-Wev",
+      "photo_url": "https://www.clatsopcounty.gov/ImageRepository/Document?documentID=3690",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "800 Exchange Street\nAstoria, OR 97103",
+      "offices": [],
+      "hours": null,
+      "bio": "Pamela Wev was elected to the Board of Commissioners in 2018 and reelected in 2022 to a four-year term that expires December 2026. She represents District 3, which covers most of incorporated Astoria. Wev owns Wev Consulting LLC, and has more than 40 years' experience in government service and consulting work in land-use and development.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Clatsop County",
+        "state": "OR"
+      },
+      "source_url": "https://www.clatsopcounty.gov/848/Local-Government",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
       "id": "or:deschutes-county:commissioner:tony-debone",
       "name": "Tony DeBone",
       "office": "Commissioner",
@@ -849,6 +1006,285 @@
       },
       "source_url": "https://www.eugene-or.gov/537/Mayor-and-City-Council",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:erich-schloegl",
+      "name": "Erich Schloegl",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 3",
+      "phone": "541-450-6000",
+      "email": "eschloegl@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=360",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=36278",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:indra-nicholas",
+      "name": "Indra Nicholas",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 1",
+      "phone": "541-450-6000",
+      "email": "inicholas@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=361",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=36794",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 NW A Street Grants Pass, OR 97526",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:joel-king",
+      "name": "Joel King",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 4",
+      "phone": "541-761-7538",
+      "email": "jking@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=271",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=14535",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Joel King is the Ward 4 Representative on the City Council. He was sworn in on January 2, 2019, and his term ends on December 31, 2026.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:kathleen-krohn",
+      "name": "Kathleen Krohn",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 4",
+      "phone": "541-450-6000",
+      "email": "kkrohn@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=362",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=36680",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 NW A Street Grants Pass, OR 97526",
+      "offices": [],
+      "hours": null,
+      "bio": "Kathleen Krohn is the Ward 4 Representative for the City Council. She was sworn in on January 6, 2025, and her term ends on December 31, 2028.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:seth-benham",
+      "name": "Seth Benham",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 3",
+      "phone": "541-441-2600",
+      "email": "sbenham@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=365",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=36818",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Seth Benham is the Ward 3 Representative on the City Council, sworn in on March 3, 2025, with his term ending on December 31, 2026.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-member:victoria-marshall",
+      "name": "Victoria Marshall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 2",
+      "phone": "541-450-6000",
+      "email": "vmarshall@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=363",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=36721",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 NW A Street Grants Pass, OR 97526",
+      "offices": [],
+      "hours": null,
+      "bio": "Victoria Marshall is the Ward 2 Representative for the City Council. She was sworn in on January 6, 2025, and her term ends on December 31, 2028.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-president:rob-pell",
+      "name": "Rob Pell",
+      "office": "Council President",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 1",
+      "phone": "541-476-7578",
+      "email": "rpell@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=299",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=21579",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rob Pell is the Ward 1 Representative and Council President. He was sworn in on January 4, 2021, and his term ends on December 31, 2026.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:council-vice-president:rick-riker",
+      "name": "Rick Riker",
+      "office": "Council Vice-President",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": "Ward 2",
+      "phone": "541-479-7333",
+      "email": "rriker@grantspassoregon.gov",
+      "url": "https://www.grantspassoregon.gov/m/directory/employee?eid=101",
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentID=11515",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rick Riker is the Ward 2 Representative and Council Vice-President. He was sworn in on April 7, 2010, and his term ends on December 31, 2026.",
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:grants-pass:mayor:clint-scherf",
+      "name": "Clint Scherf",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Grants Pass City Council",
+      "district": null,
+      "phone": "541-450-6000",
+      "email": "cscherf@grantspassoregon.gov",
+      "url": null,
+      "photo_url": "https://www.grantspassoregon.gov/ImageRepository/Document?documentId=36789",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 NW A Street Grants Pass, OR 97526",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Grants Pass",
+        "state": "OR"
+      },
+      "source_url": "https://www.grantspassoregon.gov/173/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {

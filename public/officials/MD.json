@@ -1,9 +1,10 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-30T04:30:18.639Z",
-  "count": 103,
+  "generated_at": "2026-08-31T04:40:08.267Z",
+  "count": 112,
   "cities": [
     "Allegany County",
+    "Annapolis",
     "Anne Arundel County",
     "Bowie",
     "Calvert County",
@@ -49,6 +50,285 @@
       },
       "source_url": "https://alleganygov.org/385/Quick-Government-Facts",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderman:brooks-schandelmeier",
+      "name": "Brooks Schandelmeier",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 5",
+      "phone": "410-996-4983",
+      "email": "aldschandelmeier@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=17912",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderman:frank-thorp",
+      "name": "Frank Thorp",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 8",
+      "phone": "410-279-8807",
+      "email": "aldthorp@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=37744",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderman:harry-huntley",
+      "name": "Harry Huntley",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 1",
+      "phone": "410-528-3109",
+      "email": "aldhuntley@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=33334",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderman:keanuú-smith-brown",
+      "name": "Keanuú Smith-Brown",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 3",
+      "phone": "443-333-9577",
+      "email": "aldSmith-Brown@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=37740",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderman:robert-savidge",
+      "name": "Robert Savidge",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 7",
+      "phone": "443-906-1361",
+      "email": "aldsavidge@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=8564",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderwoman:diesha-contee",
+      "name": "Diesha Contee",
+      "office": "Alderwoman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 6",
+      "phone": "443-694-2723",
+      "email": "aldcontee@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=37745",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderwoman:janice-elaine-allsup-johnson",
+      "name": "Janice Elaine Allsup-Johnson",
+      "office": "Alderwoman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 4",
+      "phone": "443-254-0726",
+      "email": "aldallsup-johnson@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=37742",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:alderwoman:karma-oneill",
+      "name": "Karma O'Neill",
+      "office": "Alderwoman",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": "Ward 2",
+      "phone": "410-919-8393",
+      "email": "aldoneill@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=20885",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:annapolis:mayor:jared-littmann",
+      "name": "Jared Littmann",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Annapolis City Council",
+      "district": null,
+      "phone": "410-263-7997",
+      "email": "mayor@annapolis.gov",
+      "url": null,
+      "photo_url": "https://www.annapolis.gov/ImageRepository/Document?documentID=37743",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "160 Duke of Gloucester Street 2nd Floor, City Council Chambers Annapolis MD 21401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Annapolis",
+        "state": "MD"
+      },
+      "source_url": "https://www.annapolis.gov/483/City-Council",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
       "confidence": 1
     },
     {
@@ -2372,8 +2652,8 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
-      "confidence": 1
+      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "confidence": 0.9
     },
     {
       "id": "md:montgomery-county:council-member:laurie-anne-sayles",
@@ -2403,8 +2683,8 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
-      "confidence": 1
+      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "confidence": 0.9
     },
     {
       "id": "md:montgomery-county:council-member:shebra-evans",
@@ -2465,8 +2745,8 @@
         "state": "MD"
       },
       "source_url": "https://www.montgomerycountymd.gov/government/legislative-branch/county-council",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
-      "confidence": 1
+      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "confidence": 0.9
     },
     {
       "id": "md:montgomery-county:council-president:fani-gonzalez",
