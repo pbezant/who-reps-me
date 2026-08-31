@@ -102,7 +102,11 @@ function repFromWindow(param) {
 }
 
 export default function RepProfile() {
-  const param = useParams()['*'] || '';
+  // Strip a trailing slash: Netlify serves each prerendered page at its directory path, so a cold
+  // load lands on /rep/<slug>/ (with the slash) and the splat param carries it. Without this, the
+  // slug never equals slugFromId(id) and both window.__REP__ and the shard lookup miss — the page
+  // would replace its own correct prerendered content with the "not found" fallback.
+  const param = (useParams()['*'] || '').replace(/\/+$/, '');
   const { state } = useLocation();
 
   const initial = () => state?.rep || repFromWindow(param) || null;

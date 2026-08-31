@@ -142,6 +142,33 @@ test('shows the noindex fallback when a cold-loaded slug is not in the shard', a
   expect(await screen.findByText(/don't have this representative's info/i)).toBeInTheDocument();
 });
 
+// Netlify serves each prerendered page at its directory path, so a cold visit lands on the URL
+// with a trailing slash. The splat param must be normalized or nothing resolves.
+test('resolves a slug that arrives with a trailing slash (how Netlify serves prerendered pages)', async () => {
+  const shard = {
+    state: 'TX',
+    officials: [
+      { id: 'tx:hays-county:commissioner:debbie-ingalsbe', name: 'Debbie Ingalsbe', office: 'Commissioner', district: 'Precinct 1', extracted_at: '2026-08-18T00:00:00.000Z', confidence: 1 },
+    ],
+  };
+  global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve(shard) }));
+
+  renderAt([{ pathname: '/rep/tx/hays-county/commissioner/debbie-ingalsbe/' }]);
+
+  expect(await screen.findByRole('heading', { name: 'Debbie Ingalsbe' })).toBeInTheDocument();
+});
+
+test('reads a prerendered window.__REP__ even when the param has a trailing slash', () => {
+  window.__REP__ = { id: 'tx:hays-county:commissioner:debbie-ingalsbe', name: 'Debbie Ingalsbe', area: 'Commissioner', social: {} };
+  global.fetch = jest.fn(() => new Promise(() => {}));
+
+  renderAt([{ pathname: '/rep/tx/hays-county/commissioner/debbie-ingalsbe/' }]);
+
+  expect(screen.getByRole('heading', { name: 'Debbie Ingalsbe' })).toBeInTheDocument();
+  expect(global.fetch).not.toHaveBeenCalledWith(expect.stringContaining('/officials/'));
+  delete window.__REP__;
+});
+
 test('reads a prerendered rep from window.__REP__ without fetching', () => {
   window.__REP__ = {
     id: 'tx:austin:mayor:kirk-watson',
