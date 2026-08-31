@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+import { slugFromId } from './officials';
+
 // Shared pieces between the results-list summary card (RepCard, below) and the full profile
 // page (src/RepProfile.js) — split out of App.js so the profile page can reuse them instead of
 // duplicating rendering logic. See App.js's git history for why this split happened: the old
@@ -188,7 +190,12 @@ export function areaLabel(rep) {
 // id-addressable store for federal/state reps, only the results already in memory from this
 // search (a deliberate v1 scope decision — see the plan's "same-session only" note).
 export default function RepCard({ rep }) {
-  const profilePath = `/rep/${encodeURIComponent(rep.id)}`;
+  // Local officials get a readable, crawlable slug URL (/rep/tx/austin/mayor/jane-doe) that a
+  // cold visit can resolve back to the record and the build prerenders (see src/officials.js and
+  // scripts/prerender-officials.js). Federal/state reps have no id-addressable store, so their
+  // ids don't slugify — those keep the opaque, same-session-only encoded-id URL.
+  const slug = slugFromId(rep.id);
+  const profilePath = slug ? `/rep/${slug}` : `/rep/${encodeURIComponent(rep.id)}`;
   return (
     <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
       {/* The photo is a second route into the same profile — clicking a person's face is the

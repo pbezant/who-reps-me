@@ -31,7 +31,7 @@ function renderAt(initialEntries) {
     <HelmetProvider>
       <MemoryRouter initialEntries={initialEntries}>
         <Routes>
-          <Route path="/rep/:id" element={<RepProfile />} />
+          <Route path="/rep/*" element={<RepProfile />} />
         </Routes>
       </MemoryRouter>
     </HelmetProvider>
@@ -105,6 +105,61 @@ test('says so plainly when no contact details are on file, instead of rendering 
   expect(screen.getByRole('link', { name: /check the official page/i })).toHaveAttribute('href', bare.sourceUrl);
 });
 
+// A cold visit (no router state) resolves the slug against the state shard. This is the path that
+// makes local-official pages indexable and shareable.
+test('resolves a local official from its slug on a cold load, no router state', async () => {
+  const shard = {
+    state: 'TX',
+    officials: [
+      {
+        id: 'tx:austin:mayor:kirk-watson',
+        name: 'Kirk Watson',
+        office: 'Mayor',
+        body: 'Austin City Council',
+        phone: '512-555-0100',
+        email: 'mayor@austintexas.gov',
+        extracted_at: '2026-08-01T00:00:00.000Z',
+        source_url: 'https://www.austintexas.gov/mayor',
+        confidence: 1,
+      },
+    ],
+  };
+  global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve(shard) }));
+
+  renderAt([{ pathname: '/rep/tx/austin/mayor/kirk-watson' }]);
+
+  expect(await screen.findByRole('heading', { name: 'Kirk Watson' })).toBeInTheDocument();
+  expect(screen.getByText('mayor@austintexas.gov')).toBeInTheDocument();
+  expect(global.fetch).toHaveBeenCalledWith(expect.stringContaining('/officials/TX.json'));
+});
+
+test('shows the noindex fallback when a cold-loaded slug is not in the shard', async () => {
+  const shard = { state: 'TX', officials: [] };
+  global.fetch = jest.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve(shard) }));
+
+  renderAt([{ pathname: '/rep/tx/austin/mayor/nobody-here' }]);
+
+  expect(await screen.findByText(/don't have this representative's info/i)).toBeInTheDocument();
+});
+
+test('reads a prerendered rep from window.__REP__ without fetching', () => {
+  window.__REP__ = {
+    id: 'tx:austin:mayor:kirk-watson',
+    name: 'Kirk Watson',
+    area: 'Mayor',
+    social: {},
+  };
+  global.fetch = jest.fn(() => new Promise(() => {}));
+
+  renderAt([{ pathname: '/rep/tx/austin/mayor/kirk-watson' }]);
+
+  expect(screen.getByRole('heading', { name: 'Kirk Watson' })).toBeInTheDocument();
+  // RepNews/RepVotingRecord still fetch on mount — the point is we never fetched a shard to
+  // resolve the rep, because window.__REP__ already had it.
+  expect(global.fetch).not.toHaveBeenCalledWith(expect.stringContaining('/officials/'));
+  delete window.__REP__;
+});
+
 test('drops an office phone that only repeats the number already shown as the Call action', () => {
   const withDupe = {
     ...rep,
@@ -119,10 +174,12 @@ test('drops an office phone that only repeats the number already shown as the Ca
   expect(screen.getAllByText('202-555-0100')).toHaveLength(1);
 });
 
-test('shows a "go back and search again" fallback on a cold visit (no router state)', () => {
+test('shows the fallback on a cold visit to a federal rep (no shard to resolve from)', async () => {
+  // A bioguide id doesn't slugify and isn't in any shard, so it resolves to nothing.
+  global.fetch = jest.fn(() => Promise.resolve({ ok: false }));
   renderAt(['/rep/C001131']);
 
-  expect(screen.getByText(/click through from a search result/i)).toBeInTheDocument();
-  expect(screen.getByRole('link', { name: /go back and search again/i })).toHaveAttribute('href', '/');
+  expect(await screen.findByText(/don't have this representative's info/i)).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /go back and search/i })).toHaveAttribute('href', '/');
   expect(screen.queryByRole('heading', { name: 'Jordan Ellis' })).not.toBeInTheDocument();
 });
