@@ -13,15 +13,17 @@
  * Pointing the app at a real custom domain is therefore a zero-code change: Netlify updates $URL
  * when the primary domain changes and this regenerates on the next deploy.
  *
- * SCOPE — why only `/` is listed today: the /rep/:id profile pages render real content only when
- * reached in-session (the rep object arrives via router state; see src/RepProfile.js). A cold
- * crawl of /rep/:id hits the "search again" fallback, which we mark noindex. Listing those URLs
- * would just advertise thin pages. When deep-linking gains a static id->rep lookup (the local
- * officials in public/officials/*.json are already id-addressable), add them to ROUTES below and
- * they will flow straight into the sitemap.
+ * SCOPE: the home page plus every local-official profile (/rep/<slug>) — the pages scripts/
+ * prerender-officials.js writes as real, indexable HTML. Each official's <lastmod> is its own
+ * extraction date, so an honest per-page freshness signal tells crawlers which pages to recrawl
+ * after a nightly update. Federal/state /rep pages are deliberately excluded — they have no
+ * id-addressable store, render a noindex fallback on a cold load, and would just be thin pages.
  */
 const fs = require('fs');
 const path = require('path');
+const { buildSlugMap } = require('../src/officials');
+
+const OFFICIALS_DIR = path.join(__dirname, '..', 'public', 'officials');
 
 function siteUrl() {
   const raw =
@@ -32,27 +34,50 @@ function siteUrl() {
   return raw.replace(/\/+$/, '');
 }
 
-// Static, cold-crawlable routes. `path` is appended to the base URL; `changefreq`/`priority` are
-// hints only.
-const ROUTES = [{ path: '/', changefreq: 'weekly', priority: '1.0' }];
+function xmlEscape(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function urlEntry({ loc, lastmod, changefreq, priority }) {
+  const lines = [`    <loc>${xmlEscape(loc)}</loc>`, `    <lastmod>${lastmod}</lastmod>`];
+  if (changefreq) lines.push(`    <changefreq>${changefreq}</changefreq>`);
+  if (priority) lines.push(`    <priority>${priority}</priority>`);
+  return `  <url>\n${lines.join('\n')}\n  </url>`;
+}
+
+// Every local-official page, one <url> each, with the official's own extraction date as lastmod.
+// Reads the committed shards (same source the app and prerender use), so the sitemap can't list a
+// URL the prerender didn't write. Returns { urls, count, collisions }.
+function officialUrls(base, today) {
+  if (!fs.existsSync(OFFICIALS_DIR)) return { urls: [], count: 0, collisions: 0 };
+  const urls = [];
+  let collisions = 0;
+  for (const file of fs.readdirSync(OFFICIALS_DIR).filter((f) => f.endsWith('.json'))) {
+    const shard = JSON.parse(fs.readFileSync(path.join(OFFICIALS_DIR, file), 'utf8'));
+    const map = buildSlugMap(shard.officials || []);
+    collisions += map.collisions;
+    for (const { slug, official } of map.entries) {
+      const lastmod = official.extracted_at ? String(official.extracted_at).slice(0, 10) : today;
+      urls.push(urlEntry({ loc: `${base}/rep/${slug}`, lastmod }));
+    }
+  }
+  return { urls, count: urls.length, collisions };
+}
 
 function buildSitemap(base) {
   const today = new Date().toISOString().slice(0, 10);
-  const urls = ROUTES.map(
-    (r) =>
-      `  <url>\n` +
-      `    <loc>${base}${r.path}</loc>\n` +
-      `    <lastmod>${today}</lastmod>\n` +
-      `    <changefreq>${r.changefreq}</changefreq>\n` +
-      `    <priority>${r.priority}</priority>\n` +
-      `  </url>`
-  ).join('\n');
-  return (
-    `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    `${urls}\n` +
-    `</urlset>\n`
-  );
+  const home = urlEntry({ loc: `${base}/`, lastmod: today, changefreq: 'weekly', priority: '1.0' });
+  const officials = officialUrls(base, today);
+  const body = [home, ...officials.urls].join('\n');
+  return {
+    xml:
+      `<?xml version="1.0" encoding="UTF-8"?>\n` +
+      `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+      `${body}\n` +
+      `</urlset>\n`,
+    count: officials.count + 1,
+    collisions: officials.collisions,
+  };
 }
 
 // Start from the committed public/robots.txt (crawl rules), strip any existing Sitemap: line, and
@@ -100,13 +125,17 @@ function main() {
     console.warn('[sitemap] build/ not found — run this via `npm run build` (postbuild). Skipping.');
     return;
   }
-  fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), buildSitemap(base));
+  const sitemap = buildSitemap(base);
+  fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), sitemap.xml);
   fs.writeFileSync(
     path.join(buildDir, 'robots.txt'),
     robotsWithSitemap(base, path.join(root, 'public'))
   );
   absolutizeHead(base, buildDir);
-  console.log(`[sitemap] wrote build/sitemap.xml + robots.txt and absolutized head tags for ${base}`);
+  console.log(
+    `[sitemap] wrote build/sitemap.xml (${sitemap.count} urls) + robots.txt and absolutized head tags for ${base}` +
+      (sitemap.collisions ? ` (${sitemap.collisions} slug collision(s) disambiguated)` : '')
+  );
 }
 
 main();

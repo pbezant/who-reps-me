@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 
 import {
@@ -12,15 +13,19 @@ import {
 import RepNews from './RepNews';
 import RepVotingRecord from './RepVotingRecord';
 import Seo from './Seo';
+import { slugFromId, stateFromSlug, toRepCard } from './officials';
 
 // Full detail page for one representative, reached via RepCard's "View full profile" link
-// (`/rep/:id`, rep object handed through router `state` — see that Link in RepCard.js).
+// (`/rep/<slug>`, rep object handed through router `state` — see that Link in RepCard.js).
 //
-// v1 is deliberately same-session only: a cold visit (hard refresh, a bookmarked or shared
-// link) has no `state.rep` to render, since federal/state reps have no static, id-addressable
-// source to re-fetch from today (only local officials do, via the committed per-state shards).
-// Building that lookup is out of scope for this iteration — see the plan's "Deep links" note —
-// so a cold visit gets a small, honest fallback instead of a crash or an infinite spinner.
+// COLD LOADS (refresh, shared link, crawler) carry no `state.rep`, so we resolve it from the URL:
+//   1. window.__REP__  — the build prerenders every local official as static HTML with the record
+//      inlined (scripts/prerender-officials.js), so the first render already has data.
+//   2. the state shard — otherwise fetch public/officials/<STATE>.json and match the slug.
+//   3. the "search again" fallback (marked noindex) — for federal/state reps, which have no
+//      id-addressable store, and for unknown slugs.
+// This is what makes the local-official pages indexable; see src/officials.js for the id<->slug
+// mapping shared with the build scripts.
 //
 // LAYOUT: this used to be one flat <ul> holding every field a rep could have, which gave a
 // phone number you might actually want to call exactly the same visual weight as a "Verified
@@ -64,29 +69,86 @@ function ContactAction({ href, icon, label, value, variant, external }) {
   );
 }
 
-export default function RepProfile() {
-  const { id } = useParams();
-  const { state } = useLocation();
-  const rep = state?.rep;
+// Resolve a /rep/* param to a rep card on a cold load. The param is either a local official's slug
+// (tx/austin/mayor/jane-doe) or, from a legacy shared link, the raw colon id — either way the
+// state is the first segment, so we fetch just that one shard and match. Returns null for anything
+// not in the shards (federal/state reps, unknown slugs) — the caller shows the noindex fallback.
+async function resolveRepFromParam(param) {
+  if (!param) return null;
+  const isLegacyId = param.includes(':');
+  const st = isLegacyId ? param.split(':')[0].toUpperCase() : stateFromSlug(param);
+  if (!/^[A-Z]{2}$/.test(st)) return null;
+  try {
+    const res = await fetch(`${process.env.PUBLIC_URL}/officials/${st}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const match = (data.officials || []).find((o) =>
+      isLegacyId ? o.id === param : slugFromId(o.id) === param
+    );
+    return match ? toRepCard(match, st) : null;
+  } catch (error) {
+    return null;
+  }
+}
 
-  if (!rep) {
+// Prerendered pages inline the record as window.__REP__ so the first client render already has it —
+// but only trust it when it matches the URL we're on, so a client-side nav to a different rep can
+// never reuse a stale payload.
+function repFromWindow(param) {
+  if (typeof window === 'undefined' || !window.__REP__ || !param) return null;
+  const w = window.__REP__;
+  const matches = param.includes(':') ? w.id === param : slugFromId(w.id) === param;
+  return matches ? w : null;
+}
+
+export default function RepProfile() {
+  const param = useParams()['*'] || '';
+  const { state } = useLocation();
+
+  const initial = () => state?.rep || repFromWindow(param) || null;
+  const [rep, setRep] = useState(initial);
+  const [status, setStatus] = useState(() => (initial() ? 'ready' : 'loading'));
+
+  useEffect(() => {
+    const inHand = state?.rep || repFromWindow(param);
+    if (inHand) {
+      setRep(inHand);
+      setStatus('ready');
+      return;
+    }
+    let cancelled = false;
+    setStatus('loading');
+    resolveRepFromParam(param).then((resolved) => {
+      if (cancelled) return;
+      setRep(resolved);
+      setStatus(resolved ? 'ready' : 'notfound');
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [param, state]);
+
+  if (status === 'loading') {
+    // No <Seo> override here: a non-prerendered cold load briefly shows this while the shard
+    // fetch runs, and we don't want a "Loading…" title becoming the page's canonical title.
     return (
       <section className="rep-profile-missing">
-        {/* A cold visit (shared link, refresh, typed URL) has no rep data to show, so this page
-            is genuinely thin — tell crawlers not to index it rather than let a contentless
-            "search again" fallback compete with the real pages. */}
-        <Seo path={`/rep/${encodeURIComponent(id)}`} noindex />
-        <p>We don't have this representative's info handy right now.</p>
-        <p>This page only works when you click through from a search result.</p>
-        <Link to="/">Go back and search again</Link>
+        <p>Loading…</p>
       </section>
     );
   }
 
-  // Sanity check only, never authoritative — state.rep is what actually renders. Mismatches
-  // here would mean a stale Link somewhere, not a real data problem worth surfacing to a user.
-  if (decodeURIComponent(id) !== String(rep.id)) {
-    console.warn('RepProfile: route id does not match the rep in router state', { id, repId: rep.id });
+  if (status === 'notfound' || !rep) {
+    return (
+      <section className="rep-profile-missing">
+        {/* Genuinely thin (federal/state reps, or an unknown slug) — noindex so it never competes
+            with the real pages in search results. */}
+        <Seo path={`/rep/${param}`} noindex />
+        <p>We don't have this representative's info handy right now.</p>
+        <p>Search for your address to find who represents you.</p>
+        <Link to="/">Go back and search</Link>
+      </section>
+    );
   }
 
   const hasContact = Boolean(rep.phone || rep.email || rep.url || rep.address);
@@ -100,11 +162,17 @@ export default function RepProfile() {
 
   const officeTitle = [areaLabel(rep), rep.district].filter(Boolean).join(' — ');
 
+  // Local officials have a canonical slug URL and are indexable; a federal/state rep viewed
+  // in-session has no slug (and no cold-load page), so mark those noindex.
+  const slug = slugFromId(rep.id);
+  const canonicalPath = slug ? `/rep/${slug}` : `/rep/${encodeURIComponent(rep.id)}`;
+
   return (
     <section className={`rep-profile${hasSocial ? '' : ' rep-profile--nosocial'}`}>
       <Seo
         title={rep.name}
-        path={`/rep/${encodeURIComponent(rep.id)}`}
+        path={canonicalPath}
+        noindex={!slug}
         description={`Contact details, offices, recent news, and legislative record for ${rep.name}${officeTitle ? `, ${officeTitle}` : ''}.`}
         image={rep.photoURL || undefined}
         jsonLd={{

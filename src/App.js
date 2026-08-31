@@ -4,6 +4,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
 import Seo from './Seo';
+// toRepCard lives in ./officials (shared with the build scripts); re-exported below so existing
+// importers (App.test.js) keep getting it from './App'.
+import { toRepCard } from './officials';
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
@@ -14,6 +17,8 @@ import RepProfile from './RepProfile';
 import './App.css';
 
 const apiKey = "16d983f13d34f95039958108";
+
+export { toRepCard };
 
 function App() {
   const [repList, setRepList] = useState(null);
@@ -40,13 +45,15 @@ function App() {
             />
           }
         />
-        {/* Same-session only (see RepProfile.js's own header comment): reached by clicking
-            "View full profile" on a card from repList above, which hands the clicked rep's
-            data along via router state. A cold visit — refresh, a shared link, typing the URL —
-            has no repList to draw from, so RepProfile shows a "go back and search again"
-            fallback instead of attempting a fresh id→rep lookup that doesn't exist yet for
-            federal/state tiers. */}
-        <Route path="/rep/:id" element={<RepProfile />} />
+        {/* In-session clicks hand the rep object through router state (fast path). A cold visit
+            — refresh, shared link, crawler — has no state, so RepProfile resolves the URL itself:
+            local officials by fetching their state shard and matching the slug (and the build
+            prerenders each one as static HTML), federal/state reps fall back to "search again"
+            since they have no id-addressable store. See RepProfile.js. */}
+        {/* Splat, not :id — a local official's slug is a multi-segment path
+            (tx/austin/mayor/jane-doe). RepProfile reads the full splat and resolves it; a legacy
+            colon-id still matches too. */}
+        <Route path="/rep/*" element={<RepProfile />} />
       </Routes>
       {/* Always available, unlike the officials-suggestion button it replaced — a bug can
           happen before a search ever completes. See ReportBug.js's own header comment. */}
@@ -422,43 +429,6 @@ async function getRepList(apiKey, location) {
   } catch (error) {
     console.error('Error fetching data:', error);
   }
-}
-
-// Map a scraped official record (static shard or on-demand response — same shape, see
-// scraper/src/normalize.js) into the card shape the 5calls reps use.
-export function toRepCard(o, state) {
-  return {
-    id: o.id,
-    name: o.name,
-    area: o.office || o.body || 'Local',
-    state,
-    phone: o.phone || '',
-    url: o.url || '',
-    photoURL: o.photo_url || '',
-    email: o.email || '',
-    district: o.district || '',
-    address: o.address || '',
-    social: o.social || {},
-    offices: o.offices || [],
-    // Governing body (e.g. "Austin City Council"), for context alongside the office title.
-    // Only surfaced when `office` is present — when it's absent, `area` above already fell
-    // back to `body` itself, so repeating it here would just show the same text twice.
-    body: o.office ? (o.body || '') : '',
-    // hours/bio are only ever populated by the bio-page follow-up pass (see normalize.js) — a
-    // roster-page-only record always has both null.
-    hours: o.hours || '',
-    bio: o.bio || '',
-    // Provenance: when this record was last (re)confirmed, and the page it came from — lets
-    // the frontend show a "verified on" date instead of presenting scraped data as evergreen.
-    // See normalize.js's own header comment for the same intent.
-    verifiedAt: o.extracted_at || null,
-    sourceUrl: o.source_url || '',
-    // LLM self-reported extraction confidence, 0-1 (local officials only — state/federal come
-    // from structured APIs, not extraction). Not shown as a raw number; used to flag a record
-    // worth double-checking instead.
-    confidence: typeof o.confidence === 'number' ? o.confidence : null,
-    isLocal: true,
-  };
 }
 
 // Maps 5calls' field_offices (phone + city, no street address) onto the shared cross-tier
