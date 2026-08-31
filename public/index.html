@@ -16,8 +16,41 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="App to find who your US representatives are."
+      content="Enter an address or ZIP and see everyone who represents you — federal, state, and local — with contact details for each."
     />
+
+    <!-- Default social-card metadata. Social scrapers (Slack, iMessage, Facebook, most of
+         Twitter/X) do NOT run our JavaScript, so these static tags are what they read on a cold
+         shared link; react-helmet-async (src/Seo.js) layers per-route overrides on top for
+         real browsers and for crawlers that do execute JS. %PUBLIC_URL% resolves to the site
+         root at build time. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Who Reps Me" />
+    <meta property="og:title" content="Who Reps Me" />
+    <meta
+      property="og:description"
+      content="Enter an address or ZIP and see everyone who represents you — federal, state, and local."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Who Reps Me" />
+    <meta
+      name="twitter:description"
+      content="Enter an address or ZIP and see everyone who represents you — federal, state, and local."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo512.png" />
+
+    <!-- Site-level structured data. Per-page Person/WebApplication JSON-LD is injected at
+         runtime by src/Seo.js. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Who Reps Me",
+        "description": "Find everyone who represents you — federal, state, and local — from your address or ZIP code."
+      }
+    </script>
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a

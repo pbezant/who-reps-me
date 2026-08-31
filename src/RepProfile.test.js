@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import RepProfile from './RepProfile';
 
 const rep = {
@@ -27,11 +28,13 @@ const rep = {
 
 function renderAt(initialEntries) {
   return render(
-    <MemoryRouter initialEntries={initialEntries}>
-      <Routes>
-        <Route path="/rep/:id" element={<RepProfile />} />
-      </Routes>
-    </MemoryRouter>
+    <HelmetProvider>
+      <MemoryRouter initialEntries={initialEntries}>
+        <Routes>
+          <Route path="/rep/:id" element={<RepProfile />} />
+        </Routes>
+      </MemoryRouter>
+    </HelmetProvider>
   );
 }
 
