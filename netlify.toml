@@ -1,3 +1,10 @@
+# Forward Netlify's own $URL (the site's primary URL — it updates automatically when a custom
+# domain is set as primary) into REACT_APP_SITE_URL, which Create React App inlines into the
+# bundle at build time and scripts/generate-sitemap.js reads for absolute canonical/og/sitemap
+# URLs. This is why adopting a real domain later needs no code change.
+[build]
+  command = "REACT_APP_SITE_URL=$URL npm run build"
+
 [[redirects]]
   from = "/v1/*"
   to = "https://api.5calls.org/v1/:splat"

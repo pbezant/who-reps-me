@@ -11,6 +11,7 @@ import {
 } from './RepCard';
 import RepNews from './RepNews';
 import RepVotingRecord from './RepVotingRecord';
+import Seo from './Seo';
 
 // Full detail page for one representative, reached via RepCard's "View full profile" link
 // (`/rep/:id`, rep object handed through router `state` — see that Link in RepCard.js).
@@ -71,6 +72,10 @@ export default function RepProfile() {
   if (!rep) {
     return (
       <section className="rep-profile-missing">
+        {/* A cold visit (shared link, refresh, typed URL) has no rep data to show, so this page
+            is genuinely thin — tell crawlers not to index it rather than let a contentless
+            "search again" fallback compete with the real pages. */}
+        <Seo path={`/rep/${encodeURIComponent(id)}`} noindex />
         <p>We don't have this representative's info handy right now.</p>
         <p>This page only works when you click through from a search result.</p>
         <Link to="/">Go back and search again</Link>
@@ -93,8 +98,29 @@ export default function RepProfile() {
   const hasSocial = Boolean(rep.social && Object.values(rep.social).some(Boolean));
   const lowConfidence = rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD;
 
+  const officeTitle = [areaLabel(rep), rep.district].filter(Boolean).join(' — ');
+
   return (
     <section className={`rep-profile${hasSocial ? '' : ' rep-profile--nosocial'}`}>
+      <Seo
+        title={rep.name}
+        path={`/rep/${encodeURIComponent(rep.id)}`}
+        description={`Contact details, offices, recent news, and legislative record for ${rep.name}${officeTitle ? `, ${officeTitle}` : ''}.`}
+        image={rep.photoURL || undefined}
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: rep.name,
+          jobTitle: officeTitle || undefined,
+          image: rep.photoURL || undefined,
+          url: rep.url || undefined,
+          telephone: rep.phone || undefined,
+          email: rep.email || undefined,
+          affiliation: rep.party
+            ? { '@type': 'Organization', name: rep.party }
+            : undefined,
+        }}
+      />
       <Link to="/" className="rep-profile-back">← Back to search</Link>
 
       <div className={`rep-profile-hero ${rep.area.toLowerCase().replace(/ /g, "-")}`}>

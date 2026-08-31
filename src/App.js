@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import axios from 'axios';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
+import Seo from './Seo';
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
@@ -24,6 +26,7 @@ function App() {
   useRouteScroll(appRef);
 
   return (
+    <HelmetProvider>
     <div className="App" ref={appRef}>
       <Routes>
         <Route
@@ -49,6 +52,7 @@ function App() {
           happen before a search ever completes. See ReportBug.js's own header comment. */}
       <ReportBug repList={repList} />
     </div>
+    </HelmetProvider>
   );
 }
 export default App;
@@ -59,6 +63,20 @@ export default App;
 function HomePage({ repList, setRepList, location, setLocation }) {
   return (
     <main>
+      <Seo
+        path="/"
+        description="Enter an address or ZIP and instantly see everyone who represents you — your US House member and Senators, state legislators and executives, and local city and county officials — with contact details for each."
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'WebApplication',
+          name: 'Who Reps Me',
+          applicationCategory: 'GovernmentApplication',
+          operatingSystem: 'Web',
+          description:
+            'Find everyone who represents you — federal, state, and local — from your address or ZIP code.',
+          offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        }}
+      />
       <h1 className='hero-title'>Who Reps Me?</h1>
       <h2 className='hero-subtitle'>An application to find your representatives</h2>
       <SearchBar apiKey={apiKey} setRepList={setRepList} location={location} setLocation={setLocation} />
