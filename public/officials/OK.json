@@ -1,18 +1,176 @@
 {
   "state": "OK",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 55,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 77,
   "cities": [
+    "Bartlesville",
     "Cleveland County",
     "Edmond",
     "Enid",
     "Lawton",
+    "Lincoln County",
     "Midwest City",
+    "Muskogee",
     "Oklahoma County",
     "Rogers County",
     "Washington County"
   ],
   "officials": [
+    {
+      "id": "ok:bartlesville:council-member:aaron-kirkpatrick",
+      "name": "Aaron Kirkpatrick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bartlesville City Council",
+      "district": "Ward 4",
+      "phone": "918-914-9759",
+      "email": "ward4council@cityofbartlesville.org",
+      "url": null,
+      "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.cityofbartlesville.org/wp-content/uploads/2025/04/Aaron-Kirkpatrick-Headshot-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 S. Johnstone Ave. Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bartlesville",
+        "state": "OK"
+      },
+      "source_url": "https://www.cityofbartlesville.org/city-government/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:bartlesville:council-member:larry-east",
+      "name": "Larry East",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bartlesville City Council",
+      "district": "Ward 2",
+      "phone": "918-480-1238",
+      "email": "Ward2council@cityofbartlesville.org",
+      "url": null,
+      "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.cityofbartlesville.org/wp-content/uploads/2025/03/IMG_2710-Larry-East-square.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 S. Johnstone Ave. Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bartlesville",
+        "state": "OK"
+      },
+      "source_url": "https://www.cityofbartlesville.org/city-government/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:bartlesville:council-member:tim-sherrick",
+      "name": "Tim Sherrick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Bartlesville City Council",
+      "district": "Ward 1",
+      "phone": "918-280-9401",
+      "email": "Ward1council@cityofbartlesville.org",
+      "url": null,
+      "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.cityofbartlesville.org/wp-content/uploads/2025/03/IMG_9071-Sherrick-square.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 S. Johnstone Ave. Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bartlesville",
+        "state": "OK"
+      },
+      "source_url": "https://www.cityofbartlesville.org/city-government/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:bartlesville:mayor:jim-curd,-jr.",
+      "name": "Jim Curd, Jr.",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bartlesville City Council",
+      "district": "Ward 3",
+      "phone": "918-397-3092",
+      "email": "Jimforward3@gmail.com",
+      "url": null,
+      "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.cityofbartlesville.org/wp-content/uploads/2025/03/Jim-Curd-2019-mug-square.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 S. Johnstone Ave. Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bartlesville",
+        "state": "OK"
+      },
+      "source_url": "https://www.cityofbartlesville.org/city-government/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:bartlesville:vice-mayor:trevor-dorsey",
+      "name": "Trevor Dorsey",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Bartlesville City Council",
+      "district": "Ward 5",
+      "phone": "918-886-3516",
+      "email": "ward5council@cityofbartlesville.org",
+      "url": null,
+      "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.cityofbartlesville.org/wp-content/uploads/2025/03/Trevor-Dorsey2019-mugSQUARE.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "401 S. Johnstone Ave. Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bartlesville",
+        "state": "OK"
+      },
+      "source_url": "https://www.cityofbartlesville.org/city-government/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
     {
       "id": "ok:cleveland-county:chairman,-board-of-county-commissioners:rusty-grissom",
       "name": "Rusty Grissom",
@@ -603,6 +761,254 @@
       "confidence": 1
     },
     {
+      "id": "ok:lincoln-county:commissioner:lee-doolen",
+      "name": "Lee Doolen",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_be52b0194ddb48b5a46bd54e1ca45995~mv2.jpg/v1/crop/x_61,y_47,w_440,h_440/fill/w_108,h_108,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Lee%20Photo_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:commissioner:marlon-miller",
+      "name": "Marlon Miller",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_4ed43085eb0b466eb59095f49d496069~mv2.jpg/v1/fill/w_63,h_63,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/marlonmiller_1__804_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:commissioner:will-fine",
+      "name": "Will Fine",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_c85b06a8f33144c5a5c959a875123c20~mv2.jpg/v1/fill/w_63,h_63,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/will_fine_926_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:county-assessor:jackie-holcomb",
+      "name": "Jackie Holcomb",
+      "office": "County Assessor",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": null,
+      "phone": "405-258-1209",
+      "email": "Assessor@LincolnCountyOK.gov",
+      "url": "https://www.lincolncountyok.gov/assessor",
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_ae08eae41dc345339a3732da00bed137~mv2.jpg/v1/crop/x_63,y_132,w_276,h_276/fill/w_130,h_130,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/holcomb_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": "8:00a-4:30p Mon- Fri",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:county-clerk:alicia-wagnon",
+      "name": "Alicia Wagnon",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": null,
+      "phone": "405-258-1264",
+      "email": null,
+      "url": "https://www.lincolncountyok.gov/countyclerk",
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_1e23c99f7ca54346abce41942dcbb6df~mv2.jpg/v1/crop/x_189,y_7,w_559,h_559/fill/w_144,h_144,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/wagnon_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": "8:00a-4:30p Mon- Thurs",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:county-sheriff:kevin-garrett",
+      "name": "Kevin Garrett",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": null,
+      "phone": "405-258-1191",
+      "email": null,
+      "url": "https://www.lincolncountyok.gov/sheriff",
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_4e088466607b48d2a960e51d43a3b1da~mv2.jpg/v1/crop/x_64,y_3,w_621,h_621/fill/w_144,h_144,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/kevin-garrett2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": "8-4 M-F",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:county-treasurer:brenda-jackson",
+      "name": "Brenda Jackson",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": null,
+      "phone": "405-258-1491",
+      "email": null,
+      "url": "https://www.lincolncountyok.gov/treasurer",
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_fc55898c48ad4f4a870aa8b99a5ea837~mv2.jpg/v1/fill/w_63,h_63,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/B%20Jackson_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": "8:00a-4:30p Mon- Thurs",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lincoln-county:court-clerk:kris-hammock",
+      "name": "Kris Hammock",
+      "office": "Court Clerk",
+      "level": "county",
+      "body": "Lincoln County Commissioners Court",
+      "district": null,
+      "phone": "405-258-1309",
+      "email": null,
+      "url": "https://www.lincolncountyok.gov/courtclerk",
+      "photo_url": "https://static.wixstatic.com/media/8d5d9e_c09fcb49e09948c19dc17d836e1bbd76~mv2.jpg/v1/crop/x_0,y_0,w_269,h_269/fill/w_67,h_67,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/hammock_edited.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Lincoln County Courthouse, 811 Manvel Avenue Chandler, OK 74834",
+      "offices": [],
+      "hours": "8:00a-4:30p Mon- Thurs",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lincoln County",
+        "state": "OK"
+      },
+      "source_url": "https://www.lincolncountyok.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "ok:midwest-city:council-member:brian-triger",
       "name": "Brian Triger",
       "office": "Councilmember",
@@ -817,6 +1223,285 @@
       },
       "source_url": "https://www.midwestcityok.org/164/City-Council",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:dan-hall",
+      "name": "Dan Hall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward II",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:jeremy-schuler",
+      "name": "Jeremy Schuler",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward II",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:melody-cranford",
+      "name": "Melody Cranford",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward III",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:mike-brawley",
+      "name": "Mike Brawley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward I",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:shirley-hilton-flanary",
+      "name": "Shirley Hilton-Flanary",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward I",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:tom-martindale",
+      "name": "Tom Martindale",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward IV",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:council-member:tracy-hoos",
+      "name": "Tracy Hoos",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward IV",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:deputy-mayor:derrick-reed",
+      "name": "Derrick Reed",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": "Ward III",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:muskogee:mayor:ryan-lowe",
+      "name": "Ryan Lowe",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Muskogee City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskogee",
+        "state": "OK"
+      },
+      "source_url": "https://www.muskogeeok.gov/government/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

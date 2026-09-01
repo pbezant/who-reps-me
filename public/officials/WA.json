@@ -1,7 +1,7 @@
 {
   "state": "WA",
-  "generated_at": "2026-08-31T04:40:08.267Z",
-  "count": 225,
+  "generated_at": "2026-09-01T04:40:11.651Z",
+  "count": 239,
   "cities": [
     "Bellevue",
     "Bellingham",
@@ -20,9 +20,11 @@
     "King County",
     "Kitsap County",
     "Lewis County",
+    "Longview",
     "Lynnwood",
     "Marysville",
     "Mason County",
+    "Mount Vernon",
     "Olympia",
     "Pasco",
     "Pierce County",
@@ -3748,6 +3750,223 @@
       "confidence": 1
     },
     {
+      "id": "wa:longview:council-member:chris-bryant",
+      "name": "Chris Bryant",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/1022/Chris-Bryant",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:erik-halvorson",
+      "name": "Erik Halvorson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/891/Erik-Halvorson",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:kalei-lafave",
+      "name": "Kalei LaFave",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/894/Kalei-LaFave",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:keith-young",
+      "name": "Keith Young",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/895/Keith-Young",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:mike-claxton",
+      "name": "Mike Claxton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/1021/Mike-Claxton",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:ruth-kendall",
+      "name": "Ruth Kendall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/629/Ruth-Kendall",
+      "photo_url": "https://www.mylongview.com/ImageRepository/Document?documentID=4074",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:longview:council-member:wayne-nichols",
+      "name": "Wayne Nichols",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Longview City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.mylongview.com/1023/Wayne-Nichols",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 128 1525 Broadway Longview, WA 98632",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Longview",
+        "state": "WA"
+      },
+      "source_url": "https://www.mylongview.com/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:lynnwood:council-member:bryce-owings",
       "name": "Bryce Owings",
       "office": "City Council Member",
@@ -4254,6 +4473,223 @@
       "confidence": 1
     },
     {
+      "id": "wa:mount-vernon:council-at-large:demi-daman",
+      "name": "Demi Daman",
+      "office": "Council At Large",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "At Large",
+      "phone": null,
+      "email": "demid@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/881/Demi-Daman",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18278",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Demi Daman is a lifelong resident of Skagit County and a graduate of Mount Vernon High School. She has worked in healthcare for over three decades and is an active community volunteer. She is honored to serve on the Mount Vernon City Council, committed to listening to residents and representing the community with care and integrity.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:andrew-vander-stoep",
+      "name": "Andrew Vander Stoep",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": "andrewv@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/513/Andrew-Vander-Stoep",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18296",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Andrew Vander Stoep is a third-generation Skagitonian and a journeyman electrician, serving as a Union Representative for the International Brotherhood of Electrical Workers. He is passionate about housing, volunteering with several organizations, and previously served on the Mount Vernon Planning Commission. He is excited to be a member of the City Council and proud to serve the community.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:hannah-oliver",
+      "name": "Hannah Oliver",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 2",
+      "phone": null,
+      "email": "hannaho@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/514/Hannah-Oliver",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18297",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Hannah grew up in Mount Vernon and proudly attended Mount Vernon Public Schools from kindergarten through twelfth grade, and learned from an early age the value of being an active member of our community. Hannah has worked for the Mount Vernon School District, Skagit Habitat for Humanity, and various nonprofits advocating for workers’ rights, school funding, healthcare access, Immigrants’ rights, and an inclusive democracy where everyone has the resources they need to thrive.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:mary-hudson",
+      "name": "Mary Hudson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "maryh@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/517/Mary-Hudson",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18304",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Mary has been a Mount Vernon resident for almost 40 years. She works for Skagit Habitat for Humanity as Bookkeeper/HR Manager and is active in many organizations, including serving on the board for Home Trust of Skagit County, NWCAA, and on the advisory board for North Star. Mary looks forward to continuing to serve on the City Council and is excited about this opportunity to give back to Mount Vernon.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:melissa-beaton",
+      "name": "Melissa Beaton",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "melissab@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/880/Melissa-Beaton",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18298",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Melissa Beaton is a lifelong resident of Skagit County, with a legal career spanning nearly 30 years, culminating in her role as Skagit County Clerk. She is an active community member, serving as a Skagit Rotarian and on various boards, and is grateful for the opportunity to serve on the Mount Vernon City Council.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:navor-tercero",
+      "name": "Navor Tercero",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18299",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wa:mount-vernon:council-member:randy-west",
+      "name": "Randy West",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Mount Vernon City Council",
+      "district": "Ward 1",
+      "phone": null,
+      "email": "randyw@mountvernonwa.gov",
+      "url": "https://www.mountvernonwa.gov/512/Randy-West",
+      "photo_url": "https://www.mountvernonwa.gov/ImageRepository/Document?documentID=18300",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "910 Cleveland Avenue Mount Vernon, WA 98273",
+      "offices": [],
+      "hours": null,
+      "bio": "Randy West serves the residents of Mount Vernon and Ward 1, bringing experience as a Naval Officer and program manager for various U.S. military branches. A long-time resident, he combines his background in private-sector technology and public service to manage city projects with fiscal discipline and efficiency. He is dedicated to transparent governance and practical solutions for infrastructure, maintaining an open-door policy for neighbors.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Mount Vernon",
+        "state": "WA"
+      },
+      "source_url": "https://www.mountvernonwa.gov/98/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "wa:olympia:council-member:clark-gilman",
       "name": "Clark Gilman",
       "office": "Councilmember",
@@ -4715,7 +5151,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -4746,7 +5182,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -4839,7 +5275,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -4870,7 +5306,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -4901,7 +5337,7 @@
         "state": "WA"
       },
       "source_url": "https://www.piercecountywa.gov/",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {

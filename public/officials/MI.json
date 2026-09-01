@@ -1,12 +1,13 @@
 {
   "state": "MI",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 236,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 248,
   "cities": [
     "Ann Arbor",
     "Battle Creek",
     "Berrien County",
     "Calhoun County",
+    "Chippewa County",
     "East Lansing",
     "Eaton County",
     "Grand Rapids",
@@ -21,6 +22,7 @@
     "Mecosta County",
     "Midland",
     "Monroe County",
+    "Muskegon",
     "Novi",
     "Pontiac",
     "Portage",
@@ -1121,6 +1123,161 @@
       },
       "source_url": "https://www.calhouncountymi.gov/departments/board_of_commissioners/index.php",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:chippewa-county:county-commissioner:damon-lieurance",
+      "name": "Damon Lieurance",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Chippewa County Commissioners Court",
+      "district": "District 3",
+      "phone": "906-440-4674",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "319 Court Street Sault Ste. Marie, MI 49783",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chippewa County",
+        "state": "MI"
+      },
+      "source_url": "https://www.chippewacountymi.gov/board-of-commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:chippewa-county:county-commissioner:james-traynor",
+      "name": "James Traynor",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Chippewa County Commissioners Court",
+      "district": "District 4",
+      "phone": "906-297-6881",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "319 Court Street Sault Ste. Marie, MI 49783",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chippewa County",
+        "state": "MI"
+      },
+      "source_url": "https://www.chippewacountymi.gov/board-of-commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:chippewa-county:county-commissioner:jim-martin",
+      "name": "Jim Martin",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Chippewa County Commissioners Court",
+      "district": "District 2",
+      "phone": "906-632-8222",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "319 Court Street Sault Ste. Marie, MI 49783",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chippewa County",
+        "state": "MI"
+      },
+      "source_url": "https://www.chippewacountymi.gov/board-of-commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:chippewa-county:county-commissioner:justin-knepper",
+      "name": "Justin Knepper",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Chippewa County Commissioners Court",
+      "district": "District 1",
+      "phone": "906-630-0579",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "319 Court Street Sault Ste. Marie, MI 49783",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chippewa County",
+        "state": "MI"
+      },
+      "source_url": "https://www.chippewacountymi.gov/board-of-commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:chippewa-county:county-commissioner:scott-shackleton",
+      "name": "Scott Shackleton",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Chippewa County Commissioners Court",
+      "district": "District 5",
+      "phone": "906-635-1232",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "319 Court Street Sault Ste. Marie, MI 49783",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chippewa County",
+        "state": "MI"
+      },
+      "source_url": "https://www.chippewacountymi.gov/board-of-commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -4469,6 +4626,223 @@
       },
       "source_url": "https://www.co.monroe.mi.us/374/Board-of-Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:muskegon:city-commission-member:destinee-keener",
+      "name": "Destinee Keener",
+      "office": "City Commission Member",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:muskegon:city-commission-member:jay-kilgo",
+      "name": "Jay Kilgo",
+      "office": "City Commission Member",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:muskegon:city-commission-member:katrina-kochin",
+      "name": "Katrina Kochin",
+      "office": "City Commission Member",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:muskegon:city-commission-member:kiley-jackson",
+      "name": "Kiley Jackson",
+      "office": "City Commission Member",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:muskegon:city-commission-member:willie-german-jr",
+      "name": "Willie German Jr",
+      "office": "City Commission Member",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "mi:muskegon:mayor:ken-johnson",
+      "name": "Ken Johnson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": "mayor@muskegon-mi.gov",
+      "url": "https://muskegon-mi.gov/city-services/elected-officials/mayor-ken-johnson/",
+      "photo_url": "https://muskegon-mi.gov/cresources/555-235-KEN-JOHNSON-2-7-24-5x7-300DPI-517x434.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "933 Terrace St.\nMuskegon, MI 49440",
+      "offices": [],
+      "hours": "Monday – Thursday: 7:30am – 5:30pm\nFriday, Saturday, Sunday: Closed",
+      "bio": "Kenneth D. Johnson was elected the 67th mayor of the magnificent City of Muskegon in the great State of Michigan on November 2, 2021. He was sworn into office on January 3, 2022. His current term runs through the end of 2029.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mi:muskegon:vice-mayor:rebecca-st.-clair",
+      "name": "Rebecca St. Clair",
+      "office": "Vice Mayor",
+      "level": "local",
+      "body": "Muskegon City Council",
+      "district": null,
+      "phone": null,
+      "email": "rstclair@shorelinecity.com",
+      "url": "https://muskegon-mi.gov/city-services/elected-officials/city-commission/rebecca-st-clair/",
+      "photo_url": "https://muskegon-mi.gov/cresources/2022/05/REBECCA-ST-CLAIR-180x180.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "933 Terrace St.\nMuskegon, MI 49440",
+      "offices": [],
+      "hours": null,
+      "bio": "Rebecca St Clair is a Commissioner at-Large for the City of Muskegon, having moved there in 2002. She is passionate about her city and believes in collaborative governance that benefits all residents, ensuring everyone has a voice. Her priorities include listening to constituents, being a good steward of public funds, and promoting equity, justice, and inclusion.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Muskegon",
+        "state": "MI"
+      },
+      "source_url": "https://muskegon-mi.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

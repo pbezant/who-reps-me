@@ -1,7 +1,7 @@
 {
   "state": "TX",
-  "generated_at": "2026-08-31T04:40:08.267Z",
-  "count": 494,
+  "generated_at": "2026-09-01T04:40:11.651Z",
+  "count": 523,
   "cities": [
     "Abilene",
     "Allen",
@@ -43,6 +43,7 @@
     "Grapevine",
     "Grayson County",
     "Haltom City",
+    "Harker Heights",
     "Harris County",
     "Harrison County",
     "Hays County",
@@ -54,12 +55,14 @@
     "Kendall County",
     "Killeen",
     "Kyle",
+    "La Porte",
     "Lakeway",
     "Leander",
     "Little Elm",
     "Lockhart",
     "Lubbock",
     "Mansfield",
+    "Matagorda County",
     "McAllen",
     "McKinney",
     "McLennan County",
@@ -77,6 +80,7 @@
     "Round Rock",
     "San Marcos",
     "San Patricio County",
+    "Schertz",
     "Seguin",
     "Smithville",
     "Sugar Land",
@@ -2205,7 +2209,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2228,7 +2232,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -2285,7 +2289,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -2305,7 +2309,7 @@
         "state": "TX"
       },
       "source_url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -6442,6 +6446,192 @@
       "confidence": 1
     },
     {
+      "id": "tx:harker-heights:council-member:brian-burt",
+      "name": "Brian Burt",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": "Place 1",
+      "phone": "254-953-5600",
+      "email": "bburt@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/bb2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harker-heights:council-member:jesse-lee-myles-iii",
+      "name": "Jesse Lee Myles III",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": "Place 3",
+      "phone": "254-953-5600",
+      "email": "jmyles@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/jm-2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harker-heights:council-member:roxanne-flores",
+      "name": "Roxanne Flores",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": "Place 4",
+      "phone": "254-953-5600",
+      "email": "rflores@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/rf2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harker-heights:council-member:shane-hodyniak",
+      "name": "Shane Hodyniak",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": "Place 2",
+      "phone": "254-953-5600",
+      "email": "shodyniak@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/shodyniak2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harker-heights:mayor-pro-tem:sam-halabi",
+      "name": "Sam Halabi",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": null,
+      "phone": "254-953-5600",
+      "email": "shalabi@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/sh2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:harker-heights:mayor:michael-blomquist",
+      "name": "Michael Blomquist",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Harker Heights City Council",
+      "district": null,
+      "phone": "254-953-5600",
+      "email": "mayor@harkerheights.gov",
+      "url": null,
+      "photo_url": "https://www.harkerheights.gov/images/2026/07/27/mb_2026.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "305 Millers Crossing Harker Heights, Texas 76548",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Harker Heights",
+        "state": "TX"
+      },
+      "source_url": "https://www.harkerheights.gov/index.php/mayor-city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:harris-county:commissioner:adrian-garcia",
       "name": "Adrian Garcia",
       "office": "Commissioner",
@@ -7857,6 +8047,285 @@
       "bio_checked_at": null
     },
     {
+      "id": "tx:la-porte:council-member-at-large:brandon-lunsford",
+      "name": "Brandon Lunsford",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "At-Large A",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6609",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member-at-large:brent-mccaulley",
+      "name": "Brent McCaulley",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "At-Large B",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6490",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:bill-bentley",
+      "name": "Bill Bentley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6492",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:chuck-engelken",
+      "name": "Chuck Engelken",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6487",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:jay-martin",
+      "name": "Jay Martin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=11137",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:mandi-williams",
+      "name": "Mandi Williams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6607",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:robbie-mclarrin",
+      "name": "Robbie McLarrin",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=6491",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:council-member:robert-guerra",
+      "name": "Robert Guerra",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=11135",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:la-porte:mayor:rick-helton",
+      "name": "Rick Helton",
+      "office": "Mayor",
+      "level": "local",
+      "body": "La Porte City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.laportetx.gov/ImageRepository/Document?documentID=11136",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "604 W Fairmont Parkway La Porte, TX 77571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "La Porte",
+        "state": "TX"
+      },
+      "source_url": "https://www.laportetx.gov/153/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:lakeway:council-member:christopher-forton",
       "name": "Christopher Forton",
       "office": "Councilmember",
@@ -8992,6 +9461,192 @@
       "confidence": 1
     },
     {
+      "id": "tx:matagorda-county:commissioner:charles-bubba-frick",
+      "name": "Charles \"Bubba\" Frick",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": "Precinct 4",
+      "phone": "361-588-6866",
+      "email": "pct4@co.matagorda.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "11795 HWY 35 S. El Maton, Texas 77440",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:matagorda-county:commissioner:edward-bubba-cook",
+      "name": "Edward \"Bubba\" Cook",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": "Precinct 1",
+      "phone": "979-245-3914",
+      "email": "spawlosky@co.matagorda.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2604 Nichols Bay City, TX 77414",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:matagorda-county:commissioner:mike-estlinbaum",
+      "name": "Mike Estlinbaum",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": "Precinct 2",
+      "phone": "979-863-7861",
+      "email": "pct2@co.matagorda.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "487 Magnolia St. Matagorda, TX 77457",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:matagorda-county:commissioner:troy-shimek",
+      "name": "Troy Shimek",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": "Precinct 3",
+      "phone": "361-972-2719",
+      "email": "tshimek@co.matagorda.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25000 Highway 35 South Palacios, TX 77465",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:matagorda-county:commissioners-court-secretary:alexandria-espindola",
+      "name": "Alexandria Espindola",
+      "office": "Commissioners Court Secretary",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": null,
+      "phone": "979-244-7605",
+      "email": "alongoria@co.matagorda.tx.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1700 7th Street, Room 301 Bay City, Texas 77414",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:matagorda-county:county-judge:bobby-seiferman",
+      "name": "Bobby Seiferman",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Matagorda County Commissioners Court",
+      "district": null,
+      "phone": "979-244-7605",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1700 7th Street, Room 301 Bay City, Texas 77414",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matagorda County",
+        "state": "TX"
+      },
+      "source_url": "https://www.matagordatx.gov/page/Commissioners.Court",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "tx:mcallen:assistant-city-manager:elvira-alonzo",
       "name": "Elvira Alonzo",
       "office": "Assistant City Manager",
@@ -9924,7 +10579,7 @@
     {
       "id": "tx:new-braunfels:council-member:d.-lee-edwards",
       "name": "D. Lee Edwards",
-      "office": "City Councilmember",
+      "office": "City Council Member",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 3",
@@ -9939,7 +10594,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "550 Landa St., New Braunfels, TX",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -9949,13 +10604,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:mary-ann-labowski",
       "name": "Mary Ann Labowski",
-      "office": "City Councilmember",
+      "office": "City Council Member",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 5",
@@ -9970,7 +10625,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "550 Landa St., New Braunfels, TX",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -9980,13 +10635,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:michael-capizzi",
       "name": "Michael Capizzi",
-      "office": "City Councilmember",
+      "office": "City Council Member",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 2",
@@ -10001,7 +10656,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "550 Landa St., New Braunfels, TX",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -10011,13 +10666,13 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
       "id": "tx:new-braunfels:council-member:toni-carter",
       "name": "Toni Carter",
-      "office": "City Councilmember",
+      "office": "City Council Member",
       "level": "local",
       "body": "New Braunfels City Council",
       "district": "District 1",
@@ -10032,7 +10687,7 @@
         "linkedin": null,
         "youtube": null
       },
-      "address": null,
+      "address": "550 Landa St., New Braunfels, TX",
       "offices": [],
       "hours": null,
       "bio": null,
@@ -10042,7 +10697,7 @@
         "state": "TX"
       },
       "source_url": "https://www.newbraunfels.gov",
-      "extracted_at": "2026-08-31T04:40:08.267Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -12177,6 +12832,254 @@
       },
       "source_url": "https://www.sanpatriciocountytx.gov/page/commissioner1",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:benjamin-guerrero",
+      "name": "Benjamin Guerrero",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentID=13234",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:dr.-mark-e.-davis",
+      "name": "Dr. Mark E. Davis",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 1",
+      "phone": null,
+      "email": "markdavis@schertz.com",
+      "url": "https://www.schertz.com/234/Mark-E-Davis",
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentID=7711",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilmember Mark Davis has served on City Council since 2016, and he and his family have resided in Schertz since 2007. He retired from the United States Air Force as a Chief Master Sergeant in July 2009 and currently serves as the Chief of Information Protection for the 502d Air Base Wing at Joint Base San Antonio.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:dr.-robert-l.-sheridan-iii",
+      "name": "Dr. Robert L. Sheridan III",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 7",
+      "phone": null,
+      "email": "robertsheridan@schertz.com",
+      "url": "https://www.schertz.com/231/Dr-Robert-Sheridan-III",
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentId=14099",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": "Robert L Sheridan III is a retired federal contracting professional with more than 17 years of Department of Defense acquisition experience. He most recently served as a Division Chief with the U.S. Army’s 410th Contracting Support Brigade. He currently serves as a Councilmember for the City of Schertz, Texas, focusing on strengthening infrastructure, supporting economic growth, and delivering measurable results.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:paul-macaluso",
+      "name": "Paul Macaluso",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentID=9670",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:robert-westbrook",
+      "name": "Robert Westbrook",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentID=9669",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:council-member:sarah-dietz",
+      "name": "Sarah Dietz",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 6",
+      "phone": null,
+      "email": "sarahdietz@schertz.com",
+      "url": "https://www.schertz.com/237/Sarah-Dietz",
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentId=14242",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": "Born and raised in Arizona, Sarah Dietz received a bachelor's degree from Northern Arizona University. As a former military spouse, she spent 14 years supporting military families and later taught in the Schertz-Cibolo-Universal City Independent School District. Today, she is a full-time Realtor specializing in the Schertz/Cibolo areas and serves as President of the Women’s Council of Realtors Hill Country, deeply invested in serving her community.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:mayor-pro-tem/council-member:michelle-watson",
+      "name": "Michelle Watson",
+      "office": "Mayor Pro Tem/Councilmember",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": "Place 2",
+      "phone": null,
+      "email": "mwatson@schertz.com",
+      "url": "https://www.schertz.com/2114/Michelle-Watson",
+      "photo_url": "https://www.schertz.com/ImageRepository/Document?documentId=8389",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": "Councilwoman Michelle Watson was sworn into office to serve her first term in the Place 2 Council seat on Tuesday, January 17. Ms. Watson is a native Texan and a longtime resident of the Texas Tri-County area. Although this is Councilwoman Watson’s first elected position, she has been an active part of the South Texas Community.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "tx:schertz:mayor:ralph-rodriguez",
+      "name": "Ralph Rodriguez",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Schertz City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1400 Schertz Parkway, Bldg 4 Schertz, TX 78154",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Schertz",
+        "state": "TX"
+      },
+      "source_url": "https://www.schertz.com/226/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -14511,13 +15414,13 @@
       "email": null,
       "url": "https://www.wilco.org/382/Precinct-Two",
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown , TX 78626",
+      "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -14534,13 +15437,13 @@
       "email": null,
       "url": null,
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown , TX 78626",
+      "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -14557,13 +15460,13 @@
       "email": null,
       "url": "https://www.wilco.org/349/Precinct-One",
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown , TX 78626",
+      "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],
@@ -14580,13 +15483,13 @@
       "email": null,
       "url": null,
       "photo_url": null,
-      "address": "1848 Texas Trail Georgetown , TX 78626",
+      "address": "1848 Texas Trail Georgetown, TX 78626",
       "jurisdiction": {
         "city": "Williamson County",
         "state": "TX"
       },
       "source_url": "https://www.wilco.org/Commissioners-Court",
-      "extracted_at": "2026-08-30T04:30:18.639Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1,
       "social": {},
       "offices": [],

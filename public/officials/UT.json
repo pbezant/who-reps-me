@@ -1,20 +1,24 @@
 {
   "state": "UT",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 83,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 107,
   "cities": [
     "American Fork",
     "Bountiful",
     "Cache County",
+    "Clearfield",
     "Herriman",
     "Logan",
+    "Midvale",
     "Millcreek",
     "Murray",
     "Orem",
     "Riverton",
+    "Roy",
     "Salt Lake County",
     "South Jordan",
     "Spanish Fork",
+    "Springville",
     "St. George",
     "Syracuse",
     "Utah County",
@@ -487,6 +491,192 @@
       "confidence": 1
     },
     {
+      "id": "ut:clearfield:council-member:dakota-wurth",
+      "name": "Dakota Wurth",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2024/01/Dakota-Wurth-2024.png?resize=720%2C1080&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:clearfield:council-member:danielle-king",
+      "name": "Danielle King",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2026/02/Background.png?resize=1080%2C1620&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:clearfield:council-member:karece-thompson",
+      "name": "Karece Thompson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2024/01/Karece-Thompson-2024.png?resize=720%2C1080&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:clearfield:council-member:megan-ratchford",
+      "name": "Megan Ratchford",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2024/01/Megan-Ratchford-2024-1.png?resize=720%2C1080&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:clearfield:council-member:nike-peterson",
+      "name": "Nike Peterson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2024/01/Nike-Peterson-2024.png?resize=720%2C1080&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:clearfield:mayor:mark-shepherd",
+      "name": "Mark Shepherd",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Clearfield City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://i0.wp.com/clearfield.city/wp-content/uploads/2024/01/Mark-Shepherd-2024.png?resize=720%2C1080&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City Hall 55 S State Street Clearfield UT, 84015",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clearfield",
+        "state": "UT"
+      },
+      "source_url": "https://clearfield.city/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "ut:herriman:council-member:jared-henderson",
       "name": "Jared Henderson",
       "office": "City Council Member",
@@ -670,6 +860,161 @@
       },
       "source_url": "https://www.loganutah.gov/government/departments/parks_and_recreation/recreation_division/index.php",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:midvale:council-member:bonnie-billings",
+      "name": "Bonnie Billings",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Midvale City Council",
+      "district": "District 1",
+      "phone": "385-246-2867",
+      "email": "bbillings@midvaleut.gov",
+      "url": null,
+      "photo_url": "https://www.midvale.utah.gov/government/revize_photo_gallery/Government/City%20Council/2025%20Headshots/Bonnie%20Billings.jpg?t=202511041954080",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midvale",
+        "state": "UT"
+      },
+      "source_url": "https://www.midvale.utah.gov/government/city_council.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:midvale:council-member:bryant-brown",
+      "name": "Bryant Brown",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Midvale City Council",
+      "district": "District 4",
+      "phone": "801-347-1804",
+      "email": "bbrown@midvaleut.gov",
+      "url": null,
+      "photo_url": "https://www.midvale.utah.gov/government/revize_photo_gallery/Government/City%20Council/2025%20Headshots/Bryant%20Brown.jpg?t=202506261203140",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midvale",
+        "state": "UT"
+      },
+      "source_url": "https://www.midvale.utah.gov/government/city_council.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:midvale:council-member:denece-mikolash",
+      "name": "Denece Mikolash",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Midvale City Council",
+      "district": "District 5",
+      "phone": "801-573-3638",
+      "email": "dmikolash@midvaleut.gov",
+      "url": null,
+      "photo_url": "https://www.midvale.utah.gov/government/revize_photo_gallery/Government/City%20Council/2025%20Headshots/Denece%20Mikolash.jpg?t=202506261203400",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midvale",
+        "state": "UT"
+      },
+      "source_url": "https://www.midvale.utah.gov/government/city_council.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:midvale:council-member:heidi-robinson",
+      "name": "Heidi Robinson",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Midvale City Council",
+      "district": "District 3",
+      "phone": "801-560-6234",
+      "email": "hrobinson@midvaleut.gov",
+      "url": null,
+      "photo_url": "https://www.midvale.utah.gov/government/revize_photo_gallery/Government/City%20Council/2024%20City%20Council%20Headshots/Council%20Member%20Heidi%20Robinson.jpg?t=202404221317320",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midvale",
+        "state": "UT"
+      },
+      "source_url": "https://www.midvale.utah.gov/government/city_council.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:midvale:council-member:paul-glover",
+      "name": "Paul Glover",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Midvale City Council",
+      "district": "District 2",
+      "phone": "801-561-5773",
+      "email": "pglover@midvaleut.gov",
+      "url": null,
+      "photo_url": "https://www.midvale.utah.gov/government/revize_photo_gallery/Government/City%20Council/2024%20City%20Council%20Headshots/Council%20Member%20Paul%20Glover.jpg?t=202511041949340",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Midvale",
+        "state": "UT"
+      },
+      "source_url": "https://www.midvale.utah.gov/government/city_council.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -1231,6 +1576,254 @@
       "confidence": 1
     },
     {
+      "id": "ut:roy:council-member:alexis-jackson",
+      "name": "Alexis Jackson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": null,
+      "email": "alexisjackson.roycity1@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:council-member:anthony-w.-dick",
+      "name": "Anthony W. Dick",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": null,
+      "email": "tdkaggie@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:council-member:diane-wilson",
+      "name": "Diane Wilson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": "801-731-3132",
+      "email": "drdianewilsoncares@yahoo.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:council-member:janel-hulbert",
+      "name": "Janel Hulbert",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": "208-360-9617",
+      "email": "hulbertjanel@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:council-member:jason-evan-sphar",
+      "name": "Jason Evan Sphar",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": "801-389-7869",
+      "email": "spharforcitycouncil@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:council-member:randy-r.-scadden",
+      "name": "Randy R. Scadden",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": "801-923-8226",
+      "email": "randyscadden@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:mayor:ann-marinda-jackson",
+      "name": "Ann Marinda Jackson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": null,
+      "email": "jackson6387@msn.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:roy:mayor:mike-j.-vanalfen",
+      "name": "Mike J. VanAlfen",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Roy City Council",
+      "district": null,
+      "phone": "801-725-7579",
+      "email": "mjvanalfen@gmail.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Roy",
+        "state": "UT"
+      },
+      "source_url": "https://www.royutah.gov/government/elections/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "ut:salt-lake-county:chief-of-staff:andrew-roberts",
       "name": "Andrew Roberts",
       "office": "Chief of Staff",
@@ -1755,6 +2348,161 @@
       },
       "source_url": "https://www.spanishfork.gov/government/mayor_and_city_council/index.php",
       "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:springville:council-member-at-large:jake-smith",
+      "name": "Jake Smith",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Springville City Council",
+      "district": null,
+      "phone": null,
+      "email": "jsmith@springvilleutah.gov",
+      "url": "https://www.springvilleutah.gov/government/jake-smith/",
+      "photo_url": "https://www.springvilleutah.gov/wp-content/smush-webp/2026/02/Jake_pp-Final-copy.jpg.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Springville",
+        "state": "UT"
+      },
+      "source_url": "https://www.springvilleutah.gov/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:springville:council-member-at-large:karen-ellingson",
+      "name": "Karen Ellingson",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Springville City Council",
+      "district": null,
+      "phone": null,
+      "email": "kellingson@springvilleutah.gov",
+      "url": "https://www.springvilleutah.gov/government/karen-ellingson/",
+      "photo_url": "https://www.springvilleutah.gov/wp-content/smush-webp/2026/02/Karen_pp-Final-copy.jpg.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Springville",
+        "state": "UT"
+      },
+      "source_url": "https://www.springvilleutah.gov/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:springville:council-member-at-large:logan-millsap",
+      "name": "Logan Millsap",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Springville City Council",
+      "district": null,
+      "phone": null,
+      "email": "lmillsap@springvilleutah.gov",
+      "url": "https://www.springvilleutah.gov/government/logan-millsap/",
+      "photo_url": "https://www.springvilleutah.gov/wp-content/smush-webp/2026/02/Logan_pp-Final-copy.jpg.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Springville",
+        "state": "UT"
+      },
+      "source_url": "https://www.springvilleutah.gov/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:springville:council-member-at-large:mike-snelson",
+      "name": "Mike Snelson",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Springville City Council",
+      "district": null,
+      "phone": null,
+      "email": "msnelson@springvilleutah.gov",
+      "url": "https://www.springvilleutah.gov/government/michael-snelson/",
+      "photo_url": "https://www.springvilleutah.gov/wp-content/smush-webp/2026/02/Mike_pp-final-copy.jpg.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Springville",
+        "state": "UT"
+      },
+      "source_url": "https://www.springvilleutah.gov/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ut:springville:council-member-at-large:mindi-wright",
+      "name": "Mindi Wright",
+      "office": "City Council Member At-Large",
+      "level": "local",
+      "body": "Springville City Council",
+      "district": null,
+      "phone": null,
+      "email": "mwright@springvilleutah.gov",
+      "url": "https://www.springvilleutah.gov/government/mindi-wright/",
+      "photo_url": "https://www.springvilleutah.gov/wp-content/smush-webp/2026/02/Mindi_pp-Final-copy.jpg.webp",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Springville",
+        "state": "UT"
+      },
+      "source_url": "https://www.springvilleutah.gov/government/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

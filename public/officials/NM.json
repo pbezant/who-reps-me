@@ -1,10 +1,11 @@
 {
   "state": "NM",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 69,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 70,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
+    "Clovis",
     "Doña Ana County",
     "Farmington",
     "Rio Rancho",
@@ -601,6 +602,37 @@
       },
       "source_url": "https://www.bernco.gov/government/talk-to-us/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:clovis:mayor:mike-morris",
+      "name": "Mike Morris",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Clovis City Council",
+      "district": null,
+      "phone": "575-214-6791 (cell); 575-763-9653 (City Hall)",
+      "email": "mmorris@cityofclovis.org",
+      "url": "https://www.clovisnm.gov/242/Mayor-Morris",
+      "photo_url": "https://www.clovisnm.gov/ImageRepository/Document?documentID=955",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "321 North Connelly Clovis, NM 88101",
+      "offices": [],
+      "hours": null,
+      "bio": "Welcome to Clovis! I would like to invite you to be a part of this wonderful community. Whether you are thinking about living in Clovis or just visiting, we have a fantastic community filled with people who will embrace you with a cheerful greeting and a helping hand. We are excited to see the growth and expansion of Clovis through our economic development endeavors. We have schools that are second to none, great family activities, beautiful parks, and recreational facilities, which include an outstanding zoo. Our rich musical history is showcased with two phenomenal museums featuring the work of Buddy Holly and Norman and Vi Petty. Clovis has activities and events for all ages, and we continue to be great partners with our military family at Cannon Air Force Base. Please come and join a city on the move. You will enjoy a welcoming community and friendly people.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Clovis",
+        "state": "NM"
+      },
+      "source_url": "https://www.clovisnm.gov/242/Mayor-Morris",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

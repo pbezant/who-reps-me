@@ -1,7 +1,7 @@
 {
   "state": "MD",
-  "generated_at": "2026-08-31T04:40:08.267Z",
-  "count": 112,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 126,
   "cities": [
     "Allegany County",
     "Annapolis",
@@ -10,6 +10,7 @@
     "Calvert County",
     "Carroll County",
     "Cecil County",
+    "College Park",
     "Frederick",
     "Frederick County",
     "Harford County",
@@ -17,6 +18,7 @@
     "Montgomery County",
     "Queen Anne's County",
     "Rockville",
+    "Talbot County",
     "Washington County",
     "Wicomico County"
   ],
@@ -1633,6 +1635,285 @@
       "confidence": 1
     },
     {
+      "id": "md:college-park:council-member:alan-y.-hew",
+      "name": "Alan Y. Hew",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 1",
+      "phone": "240-478-9752",
+      "email": "ahew@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=5490",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:daniel-oates",
+      "name": "Daniel Oates",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 3",
+      "phone": "240-972-4236",
+      "email": "doates@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=7397",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:denise-mitchell",
+      "name": "Denise Mitchell",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 4",
+      "phone": "301-233-6857",
+      "email": "dmitchell@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=5489",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:holly-simmons",
+      "name": "Holly Simmons",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 2",
+      "phone": "240-636-3584",
+      "email": "hsimmons@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=7399",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:jacob-t.-hernandez",
+      "name": "Jacob T. Hernandez",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 1",
+      "phone": "202-868-1687",
+      "email": "jhernandez@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=5479",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:kelly-jordan",
+      "name": "Kelly Jordan",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 2",
+      "phone": "202-603-3634",
+      "email": "kjordan@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=7398",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:council-member:ray-ranker",
+      "name": "Ray Ranker",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 3",
+      "phone": "202-815-8277",
+      "email": "rranker@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=6822",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:mayor-pro-tem;-council-member:maria-e.-mackie",
+      "name": "Maria E. Mackie",
+      "office": "Mayor Pro Tem; Councilmember",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": "District 4",
+      "phone": "202-993-0395",
+      "email": "mmackie@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=5464",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:college-park:mayor:s.m.-fazlul-kabir",
+      "name": "S.M. Fazlul Kabir",
+      "office": "Mayor",
+      "level": "local",
+      "body": "College Park City Council",
+      "district": null,
+      "phone": "202-961-9599",
+      "email": "fkabir@collegeparkmd.gov",
+      "url": null,
+      "photo_url": "https://www.collegeparkmd.gov/ImageRepository/Document?documentID=5488",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7401 Baltimore Avenue Suite 201 College Park, MD 20740",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "College Park",
+        "state": "MD"
+      },
+      "source_url": "https://www.collegeparkmd.gov/27/Mayor-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "md:frederick-county:county-council-member:jerry-donald",
       "name": "Jerry Donald",
       "office": "County Council Member",
@@ -3149,6 +3430,161 @@
       },
       "source_url": "https://www.rockvillemd.gov/government/mayor-and-council/",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:talbot-county:county-council-member-at-large:chuck-callahan",
+      "name": "Chuck Callahan",
+      "office": "County Council Member At-Large",
+      "level": "county",
+      "body": "Talbot County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/C-Callahan",
+      "photo_url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/uploads/images/council/Images/CC300.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Talbot County Courthouse 11 North Washington St. Easton, MD 21601",
+      "offices": [],
+      "hours": null,
+      "bio": "CHUCK CALLAHAN is serving his third term on the Talbot County Council and currently serves as President. Born in Talbot County in 1966, he has lived there all his life and graduated from Easton High School in 1985. He owns West and Callahan, a custom home and home remodeling company, and is a life member of the Easton Volunteer Fire Department.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Talbot County",
+        "state": "MD"
+      },
+      "source_url": "https://talbotcountymd.gov/meet_the_council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:talbot-county:county-council-member-at-large:dave-stepp",
+      "name": "Dave Stepp",
+      "office": "County Council Member At-Large",
+      "level": "county",
+      "body": "Talbot County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/dave-stepp",
+      "photo_url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/uploads/images/council/Images/DS300.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Talbot County Courthouse 11 North Washington St. Easton, MD 21601",
+      "offices": [],
+      "hours": null,
+      "bio": "Dave Stepp is serving his first term on the Talbot County Council. He is a lifelong Marylander, a small business owner since 2003, and holds an MBA from the University of Maryland. Mr. Stepp also serves as a youth sports coach and mentor in Talbot County.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Talbot County",
+        "state": "MD"
+      },
+      "source_url": "https://talbotcountymd.gov/meet_the_council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:talbot-county:county-council-member-at-large:keasha-haythe",
+      "name": "Keasha Haythe",
+      "office": "County Council Member At-Large",
+      "level": "county",
+      "body": "Talbot County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/keasha-haythe",
+      "photo_url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/uploads/images/council/Images/KH300.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Talbot County Courthouse 11 North Washington St. Easton, MD 21601",
+      "offices": [],
+      "hours": null,
+      "bio": "KEASHA HAYTHE is serving her first term on the Talbot County Council. Ms. Haythe serves as President & CEO for Foundation of HOPE, Inc., a non-profit 501 (c)(3) organization established to help women and young girls. She is the founder of the organization and developed the Economic Development and Empowerment Program for sixth-grade adolescent girls attending Easton Middle School.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Talbot County",
+        "state": "MD"
+      },
+      "source_url": "https://talbotcountymd.gov/meet_the_council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:talbot-county:county-council-member-at-large:lynn-mielke",
+      "name": "Lynn Mielke",
+      "office": "County Council Member At-Large",
+      "level": "county",
+      "body": "Talbot County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/lynn-mielke",
+      "photo_url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/uploads/images/council/Images/LM300.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Talbot County Courthouse 11 North Washington St. Easton, MD 21601",
+      "offices": [],
+      "hours": null,
+      "bio": "LYNN MIELKE is serving her first term on the Talbot County Council. She graduated from Washington College in 1972 and the University of Baltimore School of Law in 1979, subsequently joining a law firm in Easton and serving as an Assistant Public Defender for Talbot County. Prior to her retirement in 2016, she operated a general practice with a concentration in family law.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Talbot County",
+        "state": "MD"
+      },
+      "source_url": "https://talbotcountymd.gov/meet_the_council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "md:talbot-county:county-council-member-at-large:pete-lesher",
+      "name": "Pete Lesher",
+      "office": "County Council Member At-Large",
+      "level": "county",
+      "body": "Talbot County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/pete-lesher",
+      "photo_url": "https://talbotcountymd.gov/County_Council/Meet_the_Council/uploads/images/council/Images/PL300.JPG",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Talbot County Courthouse 11 North Washington St. Easton, MD 21601",
+      "offices": [],
+      "hours": null,
+      "bio": "PETE LESHER is serving his second term on the Talbot County Council and currently serves as Vice President. He was born in Allentown, Pennsylvania, graduated from Lafayette College and holds a masters degree in history from Columbia University. He has served on the staff of the Chesapeake Bay Maritime Museum located in St. Michaels, Maryland since 1991 and currently serves as Chief Historian and Ambassador at Large.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Talbot County",
+        "state": "MD"
+      },
+      "source_url": "https://talbotcountymd.gov/meet_the_council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

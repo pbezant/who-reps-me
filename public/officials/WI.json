@@ -1,12 +1,15 @@
 {
   "state": "WI",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 156,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 173,
   "cities": [
+    "Beloit",
+    "Clark County",
     "Columbia County",
     "Dane County",
     "Douglas County",
     "Eau Claire County",
+    "Franklin",
     "Green Bay",
     "Madison",
     "Marinette County",
@@ -22,6 +25,316 @@
     "Waupaca County"
   ],
   "officials": [
+    {
+      "id": "wi:beloit:city-council-president:kevin-day",
+      "name": "Kevin Day",
+      "office": "City Council President",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-436-8021",
+      "email": "dayk@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Kevin_Day_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:city-council-vice-president:yusuf-adama",
+      "name": "Yusuf Adama",
+      "office": "City Council Vice-President",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-361-8811",
+      "email": "adamay@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Yusuf_Adama_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:council-member:jim-white",
+      "name": "Jim White",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-671-5151",
+      "email": "WhiteJ@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Jim_White_Resize_2026_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:council-member:kevin-leavy",
+      "name": "Kevin Leavy",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-364-4525",
+      "email": "leavyk@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Kevin_Leavy_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:council-member:marty-densch",
+      "name": "Marty Densch",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-774-8655",
+      "email": "denschm@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Marty_Densch_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:council-member:nancy-v.-forbeck",
+      "name": "Nancy V. Forbeck",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-290-9130",
+      "email": "forbeckn@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Nancy_Forbeck_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:beloit:council-member:sherry-blakeley",
+      "name": "Sherry Blakeley",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Beloit City Council",
+      "district": null,
+      "phone": "608-362-1417",
+      "email": "blakeleys@beloitwi.gov",
+      "url": null,
+      "photo_url": "https://www.beloitwi.gov/vertical/Sites/%7B662E25CC-A6A0-4B38-B151-A18A081D6A0A%7D/uploads/Sherry_Blakeley_2024_Web.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Beloit",
+        "state": "WI"
+      },
+      "source_url": "https://www.beloitwi.gov/council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:clark-county:county-board-chairman:ken-gerhardt",
+      "name": "Ken Gerhardt",
+      "office": "County Board Chairman",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WI"
+      },
+      "source_url": "https://www.clarkcountywi.gov/government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:clark-county:county-clerk:christina-jensen",
+      "name": "Christina Jensen",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WI"
+      },
+      "source_url": "https://www.clarkcountywi.gov/government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:clark-county:vice-chairperson:scott-jalling",
+      "name": "Scott Jalling",
+      "office": "Vice Chairperson",
+      "level": "county",
+      "body": "Clark County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Clark County",
+        "state": "WI"
+      },
+      "source_url": "https://www.clarkcountywi.gov/government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
     {
       "id": "wi:columbia-county:circuit-judge-branch-i:todd-hepler",
       "name": "Todd Hepler",
@@ -650,6 +963,223 @@
       },
       "source_url": "https://www.eauclairecounty.gov/government/boards_commissions/board_of_land_use_appeals",
       "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:alderman:danelle-kenney",
+      "name": "Danelle Kenney",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": "District 6",
+      "phone": null,
+      "email": "dkenney@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12302 W. Loomis Court Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:alderman:michelle-eichmann",
+      "name": "Michelle Eichmann",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": "District 2",
+      "phone": "414-510-6442",
+      "email": "meichmann@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9229 W. Loomis Road Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:alderman:mira-kresovic",
+      "name": "Mira Kresovic",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": "District 4",
+      "phone": null,
+      "email": "mkresovic@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8810 S. 51st Street Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:alderman:nabil-salous",
+      "name": "Nabil Salous",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": "District 5",
+      "phone": "414-427-7605",
+      "email": "nsalous@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5455 W. Yale Drive Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:alderman:yousef-hasan",
+      "name": "Yousef Hasan",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": "District 3",
+      "phone": "414-427-7603",
+      "email": "yhasan@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "6939 S. 50th Street Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:mayor:john-nelson",
+      "name": "John Nelson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": null,
+      "phone": "414-427-7529",
+      "email": "jnelson@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7787 S. North Cape Road Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "wi:franklin:municipal-judge:georgia-konstantakis",
+      "name": "Georgia Konstantakis",
+      "office": "Municipal Judge",
+      "level": "local",
+      "body": "Franklin City Council",
+      "district": null,
+      "phone": "414-425-4768",
+      "email": "gkonstantakis@franklinwi.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "9455 W. Loomis Road Franklin, WI 53132",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Franklin",
+        "state": "WI"
+      },
+      "source_url": "https://www.franklinwi.gov/Departments/City-Clerk/Government-Representatives-2021.htm",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

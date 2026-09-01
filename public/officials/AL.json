@@ -1,10 +1,11 @@
 {
   "state": "AL",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 36,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 37,
   "cities": [
     "Autauga County",
     "Dale County",
+    "Dallas County",
     "Elmore County",
     "Lee County",
     "Mobile County",
@@ -413,6 +414,37 @@
       },
       "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
       "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dallas-county:dallas-county-commission-chair:jimmy-nunn",
+      "name": "Jimmy Nunn",
+      "office": "Dallas County Commission Chair",
+      "level": "county",
+      "body": "Dallas County Commissioners Court",
+      "district": null,
+      "phone": "334-876-4830",
+      "email": "jnunn@dallascounty-al.org",
+      "url": "https://www.dallascounty-al.org/County-Departments/Dallas-County-Commission/Commissioner-Profiles/Jimmy-Nunn-Commission-Chair",
+      "photo_url": "https://www.dallascounty-al.org/files/assets/public/v/1/images/jimmy-nunn_0318-002_cropped.jpg?dimension=pageimage&w=480",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Church St. Selma, AL 36701",
+      "offices": [],
+      "hours": null,
+      "bio": "Jimmy Nunn is the Dallas County Commission Chair. He previously served as the first black City Attorney for Selma, Alabama for 18 years, and in 2018, he was elected as the first black Probate Judge in Dallas County's history. He holds degrees in Mathematics and Law.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Dallas County",
+        "state": "AL"
+      },
+      "source_url": "https://www.dallascounty-al.org/County-Departments/Dallas-County-Commission/Commissioner-Profiles/Jimmy-Nunn-Commission-Chair",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

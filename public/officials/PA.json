@@ -1,7 +1,7 @@
 {
   "state": "PA",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 148,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 160,
   "cities": [
     "Beaver County",
     "Bethlehem",
@@ -23,7 +23,9 @@
     "Mercer County",
     "Mifflin County",
     "Montgomery County",
+    "Norristown",
     "Northumberland County",
+    "Penn Hills",
     "Philadelphia",
     "Philadelphia County",
     "Pittsburgh",
@@ -3631,6 +3633,223 @@
       "confidence": 1
     },
     {
+      "id": "pa:norristown:municipal-council-member:david-mcmahon",
+      "name": "David McMahon",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "835-260-8938",
+      "email": "dmcmahon@norristown.gov",
+      "url": "https://www.norristown.gov/327/David-McMahon",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=8206",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:dustin-queenan",
+      "name": "Dustin Queenan",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "484-238-5075",
+      "email": "dqueenan@norristown.gov",
+      "url": "https://www.norristown.gov/321/Dustin-Queenan",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=4883",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:jasmine-griffen",
+      "name": "Jasmine Griffen",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "835-256-4260",
+      "email": "jgriffen@norristown.gov",
+      "url": "https://www.norristown.gov/581/Jasmine-Griffen",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=7676",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:mydera-robinson",
+      "name": "Mydera Robinson",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "835-238-5311",
+      "email": "mrobinson@norristown.gov",
+      "url": "https://www.norristown.gov/324/Mydera-Robinson",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=7678",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:natalie-colson",
+      "name": "Natalie Colson",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "484-803-6548",
+      "email": "ncolson@norristown.org",
+      "url": "https://www.norristown.gov/325/Natalie-Colson",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=7675",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:rashaad-bates",
+      "name": "Rashaad Bates",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "610-308-3202",
+      "email": "rbates@norristown.org",
+      "url": "https://www.norristown.gov/322/Rashaad-Bates",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=4885",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": "Rashaad Bates has called Norristown home for more than 20 years and attended Norristown Area High School. After graduating, he chose to stay local and give back to the community he loves through public service, technology education, and nonprofit work. A self-described “full-time nerd,” Rashaad enjoys building Raspberry Pi projects, collecting comics, and playing Magic: The Gathering.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:norristown:municipal-council-member:william-mccoy",
+      "name": "William McCoy",
+      "office": "Municipal Council Member",
+      "level": "local",
+      "body": "Norristown City Council",
+      "district": null,
+      "phone": "610-920-6466",
+      "email": "wmccoy@norristown.org",
+      "url": "https://www.norristown.gov/323/William-McCoy",
+      "photo_url": "https://www.norristown.gov/ImageRepository/Document?documentID=6777",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "235 East Airy Street Norristown, PA 19401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Norristown",
+        "state": "PA"
+      },
+      "source_url": "https://www.norristown.gov/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "pa:northumberland-county:commissioner:joseph-m.-klebon",
       "name": "Joseph M. Klebon",
       "office": "Commissioner",
@@ -4062,6 +4281,161 @@
       },
       "source_url": "https://northumberlandcountypa.gov/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:penn-hills:council-member:alan-waldron",
+      "name": "Alan Waldron",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Penn Hills City Council",
+      "district": null,
+      "phone": "412-342-1086",
+      "email": "awaldron@pennhillspa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Duff Road, Penn Hills, PA 15235",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Penn Hills",
+        "state": "PA"
+      },
+      "source_url": "https://pennhillspa.gov/government-contacts/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:penn-hills:council-member:ian-t.-cartwright",
+      "name": "Ian T. Cartwright",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Penn Hills City Council",
+      "district": null,
+      "phone": "412-342-1086",
+      "email": "icartwright@pennhillspa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Duff Road, Penn Hills, PA 15235",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Penn Hills",
+        "state": "PA"
+      },
+      "source_url": "https://pennhillspa.gov/government-contacts/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:penn-hills:council-member:shawn-kerestus",
+      "name": "Shawn Kerestus",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Penn Hills City Council",
+      "district": null,
+      "phone": "412-342-1086",
+      "email": "skerestus@pennhillspa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Duff Road, Penn Hills, PA 15235",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Penn Hills",
+        "state": "PA"
+      },
+      "source_url": "https://pennhillspa.gov/government-contacts/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:penn-hills:deputy-mayor:kimberly-refosco",
+      "name": "Kimberly Refosco",
+      "office": "Deputy Mayor",
+      "level": "local",
+      "body": "Penn Hills City Council",
+      "district": null,
+      "phone": "412-342-1086",
+      "email": "krefosco@pennhillspa.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Duff Road, Penn Hills, PA 15235",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Penn Hills",
+        "state": "PA"
+      },
+      "source_url": "https://pennhillspa.gov/government-contacts/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "pa:penn-hills:mayor:pauline-calabrese",
+      "name": "Pauline Calabrese",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Penn Hills City Council",
+      "district": null,
+      "phone": "412-342-1086",
+      "email": "pcalabrese@pennhillspa.gov",
+      "url": "https://pennhillspa.gov/message-from-the-mayor/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Duff Road, Penn Hills, PA 15235",
+      "offices": [],
+      "hours": "Monday through Friday\n8:00 a.m. to 4:30 p.m.",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Penn Hills",
+        "state": "PA"
+      },
+      "source_url": "https://pennhillspa.gov/government-contacts/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

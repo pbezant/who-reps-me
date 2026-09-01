@@ -1,13 +1,14 @@
 {
   "state": "MS",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 17,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 24,
   "cities": [
     "Biloxi",
     "Gulfport",
     "Harrison County",
     "Madison County",
-    "Southaven"
+    "Southaven",
+    "Tupelo"
   ],
   "officials": [
     {
@@ -535,6 +536,223 @@
       },
       "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
       "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:bentley-nolan",
+      "name": "Bentley Nolan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 5",
+      "phone": "662-841-6513",
+      "email": "bentley.nolan@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2025/07/bentleyNolan.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:chad-mims",
+      "name": "Chad Mims",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 1",
+      "phone": "662-841-6513",
+      "email": "chad.mims@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/chadMims_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:janet-gaston",
+      "name": "Janet Gaston",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 6",
+      "phone": "662-841-6513",
+      "email": "janet.gaston@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/janetGaston_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:lynn-bryan",
+      "name": "Lynn Bryan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 2",
+      "phone": "662-841-6513",
+      "email": "lynn.bryan@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/lynnBryan_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:nettie-davis",
+      "name": "Nettie Davis",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 4",
+      "phone": "662-841-6513",
+      "email": "nettie.davis@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/nettieDavis_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:rosie-jones",
+      "name": "Rosie Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 7",
+      "phone": "662-841-6513",
+      "email": "rosie.jones@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/rosieJones_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:tupelo:council-member:travis-beard",
+      "name": "Travis Beard",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Tupelo City Council",
+      "district": "Ward 3",
+      "phone": "662-841-6513",
+      "email": "travis.beard@tupeloms.gov",
+      "url": null,
+      "photo_url": "https://tupeloms.gov/wp-content/uploads/2021/07/travisBeard_2021.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "71 East Troy St. Tupelo, MS, 38804",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tupelo",
+        "state": "MS"
+      },
+      "source_url": "https://www.tupeloms.gov/my-government/city-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     }
   ]

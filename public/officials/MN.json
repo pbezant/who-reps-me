@@ -1,16 +1,18 @@
 {
   "state": "MN",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 133,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 145,
   "cities": [
     "Anoka County",
     "Bloomington",
     "Brooklyn Park",
+    "Carlton County",
     "Chisago County",
     "Clay County",
     "Coon Rapids",
     "Duluth",
     "Eagan",
+    "McLeod County",
     "Minneapolis",
     "Moorhead",
     "Olmsted County",
@@ -705,6 +707,161 @@
       },
       "source_url": "https://www.brooklynpark.org/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:carlton-county:chair,-county-board-of-commissioner:thomas-r.-proulx",
+      "name": "Thomas R. Proulx",
+      "office": "Chair, County Board of Commissioner",
+      "level": "county",
+      "body": "Carlton County Commissioners Court",
+      "district": "District 3",
+      "phone": "218-348-4288",
+      "email": "Thomas.Proulx@carltoncountymn.gov",
+      "url": "https://www.carltoncountymn.gov/396/Thomas-R-Proulx--2026-Chair",
+      "photo_url": "https://www.carltoncountymn.gov/ImageRepository/Document?documentID=370",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "36 - 8th Street Cloquet, MN 55720",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Carlton County",
+        "state": "MN"
+      },
+      "source_url": "https://www.carltoncountymn.gov/386/County-Board-of-Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:carlton-county:county-board-of-commissioner:marv-bodie",
+      "name": "Marv Bodie",
+      "office": "County Board of Commissioner",
+      "level": "county",
+      "body": "Carlton County Commissioners Court",
+      "district": "District 2",
+      "phone": "218-879-2085",
+      "email": "Marv.Bodie@carltoncountymn.gov",
+      "url": "https://www.carltoncountymn.gov/394/Marv-Bodie",
+      "photo_url": "https://www.carltoncountymn.gov/ImageRepository/Document?documentID=368",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 Walnut Avenue P.O. Box 130 Carlton, MN 55718",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Carlton County",
+        "state": "MN"
+      },
+      "source_url": "https://www.carltoncountymn.gov/386/County-Board-of-Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:carlton-county:county-board-of-commissioner:sarah-plante-buhs",
+      "name": "Sarah Plante Buhs",
+      "office": "County Board of Commissioner",
+      "level": "county",
+      "body": "Carlton County Commissioners Court",
+      "district": "District 1",
+      "phone": "218-576-3989",
+      "email": "Sarah.PlanteBuhs@carltoncountymn.gov",
+      "url": "https://www.carltoncountymn.gov/392/Sarah-Plante-Buhs",
+      "photo_url": "https://www.carltoncountymn.gov/ImageRepository/Document?documentID=5409",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 Walnut Avenue P.O. Box 130 Carlton, MN 55718",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Carlton County",
+        "state": "MN"
+      },
+      "source_url": "https://www.carltoncountymn.gov/386/County-Board-of-Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:carlton-county:county-board-of-commissioner:susan-zmyslony",
+      "name": "Susan Zmyslony",
+      "office": "County Board of Commissioner",
+      "level": "county",
+      "body": "Carlton County Commissioners Court",
+      "district": "District 4",
+      "phone": "218-380-2170",
+      "email": "Susan.Zmyslony@carltoncountymn.gov",
+      "url": "https://www.carltoncountymn.gov/395/Susan-Zmyslony",
+      "photo_url": "https://www.carltoncountymn.gov/ImageRepository/Document?documentID=4132",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 Walnut Ave PO BOX 130 Carlton, MN 55718",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Carlton County",
+        "state": "MN"
+      },
+      "source_url": "https://www.carltoncountymn.gov/386/County-Board-of-Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:carlton-county:vice-chair,-county-board-of-commissioner:dan-reed",
+      "name": "Dan Reed",
+      "office": "Vice Chair, County Board of Commissioner",
+      "level": "county",
+      "body": "Carlton County Commissioners Court",
+      "district": "District 5",
+      "phone": "218-380-2857",
+      "email": "dan.reed@carltoncountymn.gov",
+      "url": "https://www.carltoncountymn.gov/393/Dan-Reed--2026-Vice-Chair",
+      "photo_url": "https://www.carltoncountymn.gov/ImageRepository/Document?documentID=5374",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "301 Walnut Avenue P.O. Box 130 Carlton, MN 55718",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Carlton County",
+        "state": "MN"
+      },
+      "source_url": "https://www.carltoncountymn.gov/386/County-Board-of-Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -1469,6 +1626,223 @@
       },
       "source_url": "https://cityofeagan.com/mayor-mike-maguire",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:attorney:ryan-hansch",
+      "name": "Ryan Hansch",
+      "office": "Attorney",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": null,
+      "phone": "320-864-1265",
+      "email": "attorney@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/attorney/index.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2022/23RHANSCH.jpg?t=202305031307540",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": "Monday through Friday 8:00 am - 4:30 pm",
+      "bio": "There are three main areas of responsibility for the County Attorney's Office, including: criminal actions tried on behalf of the State of Minnesota; representation in civil matters and providing legal advice to county departments; and finally, providing representation on behalf of McLeod County in juvenile proceedings.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:commissioner:doug-krueger",
+      "name": "Doug Krueger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": "Second District",
+      "phone": "612-756-2855",
+      "email": "Doug.Krueger@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/county_board/district_two.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2025/DKRUEGER-SMALL%20-%20Copy.jpg?t=202512031310460",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "The Second District Commissioner represents the following areas in McLeod County: City of Glencoe City of Plato Glencoe Township Helen Township.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:commissioner:lori-cacka",
+      "name": "Lori Cacka",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": "Fourth District",
+      "phone": "320-510-1356",
+      "email": "lori.cacka@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/county_board/district_four.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2025/LCACKA-NEW-SMALL%20-%20Copy.jpg?t=202512031318050",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "The Fourth District Commissioner represents the following areas in McLeod County: City of Biscay City of Brownton City of Hutchinson (Northeast and Southeast portions) Hassan Township Rich Valley Township Sumter Township.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:commissioner:nathan-schmalz",
+      "name": "Nathan Schmalz",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": "First District",
+      "phone": "320-282-9647",
+      "email": "Nathan.Schmalz@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/county_board/district_one.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2025/NSCHMALZ-SMALL%20-%20Copy%20(2)%20-%20Copy.jpg?t=202512031302530",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "Nathan Schmalz is the Commissioner and Vice Chair for the First District, representing the City of Lester Prairie, City of Silver Lake, City of Winsted, Bergen Township, Hale Township, and Winsted Township. His term of office expires in January 2029.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:commissioner:paul-wright",
+      "name": "Paul Wright",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": "Third District",
+      "phone": "320-587-7332",
+      "email": "Paul.Wright@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/county_board/district_three.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2025/PWRIGHT%20WEB%20-%20Copy.jpg?t=202608181112240",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Paul Wright represents the Third District, which includes the City of Hutchinson (Southwest portion), City of Stewart, Collins Township, Lynn Township, Penn Township, and Round Grove Township.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:commissioner:tom-dahl",
+      "name": "Tom Dahl",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": "Fifth District",
+      "phone": "320-552-0599",
+      "email": "tom.dahl@mcleodcountymn.gov",
+      "url": "https://www.mcleodcountymn.gov/government/county_board/district_five.php",
+      "photo_url": "https://www.mcleodcountymn.gov/photos/TDAHL%20WEB%20-%20Copy.jpg?t=202608181113530",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "520 Chandler Avenue North Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "Term of Office expires in January 2027. The Fifth District Commissioner represents the following areas in McLeod County: City of Hutchinson (Northwest portion), Acoma Township, and Hutchinson Township.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mn:mcleod-county:sheriff:tim-langenfeld",
+      "name": "Tim Langenfeld",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "McLeod County Commissioners Court",
+      "district": null,
+      "phone": "888-440-3134",
+      "email": null,
+      "url": "https://www.mcleodcountymn.gov/government/sheriff_s_office/index.php",
+      "photo_url": "https://www.mcleodcountymn.gov/Headshots/2022/23TIM%20LANGENFELD.jpg?t=202405011102190",
+      "social": {
+        "twitter": "https://x.com/McLeodCoSheriff",
+        "facebook": "https://www.facebook.com/McLeodCountySheriffsOffice",
+        "instagram": "https://www.instagram.com/mcleodcountysheriffsoffice/",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/@McLeodCoSheriff"
+      },
+      "address": "830 11th Street East Glencoe, Minnesota 55336",
+      "offices": [],
+      "hours": null,
+      "bio": "Sheriff Tim Langenfeld is the 27th Sheriff of McLeod County. The Sheriff is the Chief Law Enforcement Officer of McLeod County and is responsible for both common and statutory law to keep and preserve the peace of the county. The Sheriff is an officer of the McLeod District Court and has charge and custody of the McLeod County Jail.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "McLeod County",
+        "state": "MN"
+      },
+      "source_url": "https://www.mcleodcountymn.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

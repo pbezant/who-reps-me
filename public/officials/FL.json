@@ -1,7 +1,7 @@
 {
   "state": "FL",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 330,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 336,
   "cities": [
     "Alachua County",
     "Apopka",
@@ -28,6 +28,7 @@
     "Lake Worth Beach",
     "Lakeland",
     "Largo",
+    "Lauderdale Lakes",
     "Lee County",
     "Leon County",
     "Melbourne",
@@ -44,6 +45,7 @@
     "Orlando",
     "Osceola County",
     "Palm Beach County",
+    "Panama City",
     "Pasco County",
     "Pensacola",
     "Port Orange",
@@ -4424,6 +4426,37 @@
       "confidence": 1
     },
     {
+      "id": "fl:lauderdale-lakes:commissioner:tycie-causwell",
+      "name": "Tycie Causwell",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Lauderdale Lakes City Council",
+      "district": "Seat 3",
+      "phone": "954-535-2731",
+      "email": "tyciec@lauderdalelakes.org",
+      "url": "https://www.lauderdalelakes.org/568/Commissioner-Tycie-Causwell",
+      "photo_url": "https://www.lauderdalelakes.org/ImageRepository/Document?documentId=6553",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Tycie Causwell, a graduate of Bethlehem College and the University of the West Indies, relocated to Lauderdale Lakes in 1983. She has a background in teaching and is actively involved in community service, including the East Gate Homeowners Association, Redeemer Lutheran Food Pantry, and the Lauderdale Lakes Historic Preservation Board.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Lauderdale Lakes",
+        "state": "FL"
+      },
+      "source_url": "https://www.lauderdalelakes.org/568/Commissioner-Tycie-Causwell",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "fl:lee-county:county-commissioner,-chairman:cecil-pendergrass",
       "name": "Cecil Pendergrass",
       "office": "County Commissioner, Chairman",
@@ -7423,6 +7456,161 @@
       },
       "source_url": "https://www.pbcgov.com",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:panama-city:commissioner:brian-grainger",
+      "name": "Brian Grainger",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Panama City City Council",
+      "district": "Ward 3",
+      "phone": "850-872-3010",
+      "email": "bgrainger@panamacity.gov",
+      "url": "https://www.panamacity.gov/m/directory/employee?eid=5",
+      "photo_url": "https://www.panamacity.gov/ImageRepository/Document?documentID=9998",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Harrison Avenue, Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Grainger is a lifelong Panama City resident with deep roots in the community. He married his high school sweetheart and raised his family in the city he proudly calls home. An avid reader and committed public servant, Brian is passionate about giving back to the community that shaped him.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Panama City",
+        "state": "FL"
+      },
+      "source_url": "https://www.panamacity.gov/m/directory/department?did=4",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:panama-city:commissioner:janice-lucas",
+      "name": "Janice Lucas",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Panama City City Council",
+      "district": "Ward 2",
+      "phone": "850-872-3010",
+      "email": "jlucas@panamacity.gov",
+      "url": "https://www.panamacity.gov/m/directory/employee?eid=7",
+      "photo_url": "https://www.panamacity.gov/ImageRepository/Document?documentID=9999",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Harrison Avenue, Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Panama City",
+        "state": "FL"
+      },
+      "source_url": "https://www.panamacity.gov/m/directory/department?did=4",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:panama-city:commissioner:josh-street",
+      "name": "Josh Street",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Panama City City Council",
+      "district": "Ward 4",
+      "phone": "850-872-3010",
+      "email": "jstreet@panamacity.gov",
+      "url": "https://www.panamacity.gov/m/directory/employee?eid=4",
+      "photo_url": "https://www.panamacity.gov/ImageRepository/Document?documentID=6375",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Harrison Avenue, Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Josh Street was sworn in to serve Ward IV on May 26, 2021.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Panama City",
+        "state": "FL"
+      },
+      "source_url": "https://www.panamacity.gov/m/directory/department?did=4",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:panama-city:commissioner:robbie-hughes",
+      "name": "Robbie Hughes",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Panama City City Council",
+      "district": "Ward 1",
+      "phone": "850-872-3010",
+      "email": "rhughes@panamacity.gov",
+      "url": "https://www.panamacity.gov/m/directory/employee?eid=259",
+      "photo_url": "https://www.panamacity.gov/ImageRepository/Document?documentID=9997",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Harrison Avenue, Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Panama City",
+        "state": "FL"
+      },
+      "source_url": "https://www.panamacity.gov/m/directory/department?did=4",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "fl:panama-city:mayor:allan-branch",
+      "name": "Allan Branch",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Panama City City Council",
+      "district": null,
+      "phone": "850-872-3010",
+      "email": "abranch@panamacity.gov",
+      "url": "https://www.panamacity.gov/m/directory/employee?eid=260",
+      "photo_url": "https://www.panamacity.gov/ImageRepository/Document?documentID=9996",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "501 Harrison Avenue, Panama City, FL 32401",
+      "offices": [],
+      "hours": null,
+      "bio": "Allan Branch is a third-generation entrepreneur and lifelong Bay County resident who has played a key role in the revitalization of downtown Panama City. After achieving early success in the software industry, Allan and his wife Anna began investing in local properties, restoring historic buildings and launching businesses that celebrate the city's heritage. In April 2025, Allan was elected Mayor of Panama City and sworn into office on May 28, 2025.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Panama City",
+        "state": "FL"
+      },
+      "source_url": "https://www.panamacity.gov/m/directory/department?did=4",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

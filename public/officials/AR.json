@@ -1,11 +1,12 @@
 {
   "state": "AR",
-  "generated_at": "2026-08-29T03:05:24.750Z",
-  "count": 39,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 40,
   "cities": [
     "Garland County",
     "Greene County",
-    "Pulaski County"
+    "Pulaski County",
+    "Union County"
   ],
   "officials": [
     {
@@ -1215,6 +1216,37 @@
       },
       "source_url": "https://www.pulaskicounty.net/elected-officials",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ar:union-county:county-judge:mike-loftin",
+      "name": "Mike Loftin",
+      "office": "County Judge",
+      "level": "county",
+      "body": "Union County Commissioners Court",
+      "district": null,
+      "phone": "870-864-1900",
+      "email": "mloftin@unioncountyar.gov",
+      "url": "https://www.unioncountyar.com/county-judge.php",
+      "photo_url": "https://www.unioncountyar.com/images/photos/mike_loftin.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "101 North Washington, El Dorado, AR 71730",
+      "offices": [],
+      "hours": "M-F (8:00 am - 4:30 pm) Closed Federal/State Holidays with the exception of Columbus Day",
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Union County",
+        "state": "AR"
+      },
+      "source_url": "https://www.unioncountyar.com/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     }
   ]

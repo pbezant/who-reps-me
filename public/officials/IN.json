@@ -1,9 +1,10 @@
 {
   "state": "IN",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 108,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 124,
   "cities": [
     "Boone County",
+    "Cass County",
     "Clark County",
     "Delaware County",
     "Hamilton County",
@@ -17,6 +18,7 @@
     "Marion County",
     "Mishawaka",
     "Morgan County",
+    "New Albany",
     "Warrick County"
   ],
   "officials": [
@@ -235,6 +237,223 @@
       },
       "source_url": "https://boonecounty.in.gov/offices/county-council/council-districts/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:cheryl-alcorn",
+      "name": "Cheryl Alcorn",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "At Large",
+      "phone": "574-753-7770",
+      "email": "cheryl.alcorn@casscountyin.gov",
+      "url": "https://www.in.gov/counties/cass/administration/county-council/cheryl-alcorn",
+      "photo_url": "https://www.in.gov/counties/cass/files/Cheryl-Alcorn.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:david-redweik",
+      "name": "David Redweik",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "1st District",
+      "phone": "574-753-7770",
+      "email": "david.redweik@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/images/Dave-Redwick.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:dean-davenport",
+      "name": "Dean Davenport",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "At Large",
+      "phone": "574-753-7770",
+      "email": "dean.davenport@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/images/Dean-Davenport.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:derek-pullen",
+      "name": "Derek Pullen",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "4th District",
+      "phone": "574-753-7770",
+      "email": "derek.pullen@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/images/Derek-pullen.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:john-wicker",
+      "name": "John Wicker",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "3rd District",
+      "phone": "574-753-7770",
+      "email": "John.Wicker@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/files/John-Wicker.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:shawn-shoemaker",
+      "name": "Shawn Shoemaker",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "2nd District",
+      "phone": "574-753-7770",
+      "email": "shawn.shoemaker@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/images/Shawn-Shoemaker.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:cass-county:council-member:tracy-williamson",
+      "name": "Tracy Williamson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Cass County Commissioners Court",
+      "district": "At Large",
+      "phone": "574-753-7770",
+      "email": "tracy.williamson@casscountyin.gov",
+      "url": null,
+      "photo_url": "https://www.in.gov/counties/cass/images/Tracy.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Cass County Government Building 200 Court Park, Room 200 Logansport, IN 46947",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cass County",
+        "state": "IN"
+      },
+      "source_url": "https://www.in.gov/counties/cass/administration/county-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -3273,6 +3492,285 @@
       },
       "source_url": "https://morgancounty.in.gov/council/",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member-(president):adam-dickey",
+      "name": "Adam Dickey",
+      "office": "City Council Member (President)",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "2nd District",
+      "phone": "812-786-5895",
+      "email": "adickey@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member-(vice-president):elaine-murphy",
+      "name": "Elaine Murphy",
+      "office": "City Council Member (Vice President)",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "At-Large",
+      "phone": "812-944-3527",
+      "email": "emurphy@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:chris-fitzgerald",
+      "name": "Chris FitzGerald",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "4th District",
+      "phone": "812-913-5989",
+      "email": "cfitzgerald@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:don-unruh",
+      "name": "Don Unruh",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "At-Large",
+      "phone": "502-494-2194",
+      "email": "dunruh@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:greg-phipps",
+      "name": "Greg Phipps",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "3rd District",
+      "phone": "812-949-8317",
+      "email": "gphipps@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:jennie-collier",
+      "name": "Jennie Collier",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "1st District",
+      "phone": "812-987-3324",
+      "email": "jcollier@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:louise-gohmann",
+      "name": "Louise Gohmann",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "5th District",
+      "phone": "502-389-6926",
+      "email": "lgohmann@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:scott-blair",
+      "name": "Scott Blair",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "6th District",
+      "phone": "812-697-0128",
+      "email": "sblair@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "in:new-albany:council-member:stefanie-griffith",
+      "name": "Stefanie Griffith",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "New Albany City Council",
+      "district": "At-Large",
+      "phone": "502-645-6256",
+      "email": "sgriffith@cityofnewalbany.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "142 E Main Street, Suite 114",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "New Albany",
+        "state": "IN"
+      },
+      "source_url": "https://cityofnewalbany.com/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "state": "IL",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 166,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 185,
   "cities": [
     "Arlington Heights",
     "Boone County",
@@ -10,8 +10,10 @@
     "DeKalb",
     "DeKalb County",
     "Evanston",
+    "Franklin County",
     "Jackson County",
     "Lake County",
+    "Livingston County",
     "Madison County",
     "McLean County",
     "Oak Lawn",
@@ -1042,6 +1044,37 @@
       },
       "source_url": "https://www.cityofevanston.org/government/index.php",
       "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:franklin-county:sheriff:kyle-bacon",
+      "name": "Kyle Bacon",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Franklin County Commissioners Court",
+      "district": null,
+      "phone": "618-438-4841",
+      "email": null,
+      "url": "https://franklincountyil.gov/sheriff/",
+      "photo_url": "https://franklincountyil.gov/wp-content/uploads/2025/04/Kyle-Bacon-Wall-photo-2025-002-872x1024.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Public Square, Benton, IL 62812",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Franklin County",
+        "state": "IL"
+      },
+      "source_url": "https://franklincountyil.gov/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -2127,6 +2160,564 @@
       },
       "source_url": "https://www.lakecountyil.gov/27/Government",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member,-board-chair:james-carley",
+      "name": "James Carley",
+      "office": "County Board Member, Board Chair",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "jcarley@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 E. Washington Street, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member,-vice-chair:steven-lovell",
+      "name": "Steven Lovell",
+      "office": "County Board Member, Vice Chair",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "slovell@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "122 E. South Street, Dwight, IL 60420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:craig-monson",
+      "name": "Craig Monson",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "cmonson@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "409 W. Hickory Street, Fairbury, IL 61739",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:dan-myers",
+      "name": "Dan Myers",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "dmyers@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1716 S. Bloomington Street, Streator, IL 61364",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:gerald-earing",
+      "name": "Gerald Earing",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "gearing@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "28318 N. 3200 East Road, Dwight, IL 60420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:gina-manker",
+      "name": "Gina Manker",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "gmanker@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "922 N. Chicago Street, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:jack-vietti",
+      "name": "Jack Vietti",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1201 N. Chicago Street, Apt. 8B, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:jeffrey-hamilton",
+      "name": "Jeffrey Hamilton",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "jghamilton@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "17387 Billet Road, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:joel-barickman",
+      "name": "Joel Barickman",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "jbarickman@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "28558 N. 690 East Road, Ancona, IL 61311",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:leroy-rodriquez",
+      "name": "Leroy Rodriquez",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "lrodriquez@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7 Brookwood Court, Fairbury, IL 61739",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:linda-ambrose",
+      "name": "Linda Ambrose",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "lambrose@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "19840 E. 300 North Road, Fairbury, IL 61739",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:marty-fannin",
+      "name": "Marty Fannin",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "mfannin@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "507 W. Water Street, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:michael-haag",
+      "name": "Michael Haag",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "mhaag@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "22134 N. 3200 East Road, Emington, IL 60934",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:paul-ritter",
+      "name": "Paul Ritter",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "pritter@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "14366 N. 1775 East Road, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:rebekah-fehr",
+      "name": "Rebekah Fehr",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "rfehr@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Non published by request, Fairbury, IL 61739",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:robert-weller",
+      "name": "Robert Weller",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": "rweller@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "120 Susan Drive, Dwight, IL 60420",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:seth-welch",
+      "name": "Seth Welch",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": "swelch@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "407 E. Oak Street, Fairbury, IL 61739",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "il:livingston-county:county-board-member:william-mays",
+      "name": "William Mays",
+      "office": "County Board Member",
+      "level": "county",
+      "body": "Livingston County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "wmays@livingstoncountyil.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "12 Oakwood Drive, Pontiac, IL 61764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Livingston County",
+        "state": "IL"
+      },
+      "source_url": "https://www.livingstoncountyil.gov/government/county_board_members.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

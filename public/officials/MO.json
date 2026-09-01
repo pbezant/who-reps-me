@@ -1,8 +1,9 @@
 {
   "state": "MO",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 123,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 131,
   "cities": [
+    "Barry County",
     "Blue Springs",
     "Camden County",
     "Cass County",
@@ -21,6 +22,254 @@
     "Wentzville"
   ],
   "officials": [
+    {
+      "id": "mo:barry-county:commissioner:bob-teunessen",
+      "name": "Bob Teunessen",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "bteunessen@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:bruce-campbell",
+      "name": "Bruce Campbell",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 7",
+      "phone": "269-838-7350",
+      "email": "bcampbell@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5131 S Broadway Rd Hastings MI 49058",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:catherine-getty",
+      "name": "Catherine Getty",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 2",
+      "phone": "269-953-3151",
+      "email": "cgetty@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:david-hatfield",
+      "name": "David Hatfield",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 8",
+      "phone": null,
+      "email": "dhatfield@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:david-w.-jackson",
+      "name": "David W. Jackson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 3",
+      "phone": "616-437-0296",
+      "email": "djackson@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "5395 Guernsey Lake Rd. Delton, MI 49046",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:jon-smelker",
+      "name": "Jon Smelker",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 4",
+      "phone": "616-765-8481",
+      "email": "jsmelker@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "7101 Buehler Rd. Freeport, MI 49325",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:marcia-a.-bassett",
+      "name": "Marcia A. Bassett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 6",
+      "phone": null,
+      "email": "MABassett@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mo:barry-county:commissioner:mike-callton",
+      "name": "Mike Callton",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Barry County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": "MCallton@barrycounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Barry County",
+        "state": "MO"
+      },
+      "source_url": "https://www.barrycounty.org/departments_and_officials/officials/board_of_commissioners/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
     {
       "id": "mo:blue-springs:council-member:jeremy-rowan",
       "name": "Jeremy Rowan",
