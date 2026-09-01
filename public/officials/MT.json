@@ -1,10 +1,11 @@
 {
   "state": "MT",
-  "generated_at": "2026-08-26T03:21:53.889Z",
-  "count": 24,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 29,
   "cities": [
     "Billings",
     "Cascade County",
+    "Helena",
     "Lewis and Clark County"
   ],
   "officials": [
@@ -688,6 +689,161 @@
       },
       "source_url": "https://cascadecountymt.gov/165/Senior-Advisory-Council",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:helena:commissioner:benjamin-rigby",
+      "name": "Benjamin Rigby",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Helena City Council",
+      "district": null,
+      "phone": "406-447-8410",
+      "email": "brigby@helenamt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City County Building, Room 323\n316 N. Park\nHelena, MT 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Helena",
+        "state": "MT"
+      },
+      "source_url": "https://www.helenamt.gov/Government/City-Commission?lang_update=639237262662804534",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:helena:commissioner:julia-gustafson",
+      "name": "Julia Gustafson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Helena City Council",
+      "district": null,
+      "phone": "406-447-8410",
+      "email": "jugustafson@helenamt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City County Building, Room 323\n316 N. Park\nHelena, MT 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Helena",
+        "state": "MT"
+      },
+      "source_url": "https://www.helenamt.gov/Government/City-Commission?lang_update=639237262662804534",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:helena:commissioner:melinda-reed",
+      "name": "Melinda Reed",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Helena City Council",
+      "district": null,
+      "phone": "406-447-8410",
+      "email": "mreed@helenamt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City County Building, Room 323\n316 N. Park\nHelena, MT 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Helena",
+        "state": "MT"
+      },
+      "source_url": "https://www.helenamt.gov/Government/City-Commission?lang_update=639237262662804534",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:helena:commissioner:sean-logan",
+      "name": "Sean Logan",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Helena City Council",
+      "district": null,
+      "phone": "406-447-8410",
+      "email": "slogan@helenamt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City County Building, Room 323\n316 N. Park\nHelena, MT 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Helena",
+        "state": "MT"
+      },
+      "source_url": "https://www.helenamt.gov/Government/City-Commission?lang_update=639237262662804534",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "mt:helena:mayor:emily-dean",
+      "name": "Emily Dean",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Helena City Council",
+      "district": null,
+      "phone": "406-447-8410",
+      "email": "edean@helenamt.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "City County Building, Room 323\n316 N. Park\nHelena, MT 59623",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Helena",
+        "state": "MT"
+      },
+      "source_url": "https://www.helenamt.gov/Government/City-Commission?lang_update=639237262662804534",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

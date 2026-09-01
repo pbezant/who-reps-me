@@ -1,12 +1,14 @@
 {
   "state": "NE",
-  "generated_at": "2026-08-27T04:45:21.508Z",
-  "count": 20,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 29,
   "cities": [
     "Bellevue",
     "Hall County",
     "Lincoln",
-    "Sarpy County"
+    "Madison County",
+    "Sarpy County",
+    "Scotts Bluff County"
   ],
   "officials": [
     {
@@ -475,6 +477,99 @@
       "confidence": 1
     },
     {
+      "id": "ne:madison-county:commissioner:eric-stinson",
+      "name": "Eric Stinson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Madison County Commissioners Court",
+      "district": "District #2",
+      "phone": "402-649-8793",
+      "email": "estinson@madisoncountyne.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Madison County Courthouse 1313 North Main Street PO Box 290 Madison, Nebraska 68748",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Madison County",
+        "state": "NE"
+      },
+      "source_url": "https://madisoncountyne.gov/board-of-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:madison-county:commissioner:ronald-schmidt",
+      "name": "Ronald Schmidt",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Madison County Commissioners Court",
+      "district": "District #1",
+      "phone": "402-992-1318",
+      "email": "rschmidt@madisoncountyne.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Madison County Courthouse 1313 North Main Street PO Box 290 Madison, Nebraska 68748",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Madison County",
+        "state": "NE"
+      },
+      "source_url": "https://madisoncountyne.gov/board-of-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:madison-county:commissioner:troy-uhlir",
+      "name": "Troy Uhlir",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Madison County Commissioners Court",
+      "district": "District #3",
+      "phone": "402-841-6386",
+      "email": "tuhlir@madisoncountyne.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Madison County Courthouse 1313 North Main Street PO Box 290 Madison, Nebraska 68748",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Madison County",
+        "state": "NE"
+      },
+      "source_url": "https://madisoncountyne.gov/board-of-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "ne:sarpy-county:county-commissioner:angi-l.-burmeister",
       "name": "Angi L. Burmeister",
       "office": "County Commissioner",
@@ -646,6 +741,192 @@
       },
       "source_url": "https://www.sarpy.gov/332/Board-Members",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:building-&-zoning-director:william-mabin-meyer",
+      "name": "William Mabin Meyer",
+      "office": "Building & Zoning Director",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:county-commissioner:ken-meyer",
+      "name": "Ken Meyer",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:county-commissioner:mark-harris",
+      "name": "Mark Harris",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:county-commissioner:matt-parsley",
+      "name": "Matt Parsley",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:county-commissioner:mike-blue",
+      "name": "Mike Blue",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:scotts-bluff-county:county-commissioner:russ-reisig",
+      "name": "Russ Reisig",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Scotts Bluff County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Scotts Bluff County",
+        "state": "NE"
+      },
+      "source_url": "https://scottsbluffcountyne.gov/board-of-commissioners/commissioner-representative-appointments/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     }
   ]

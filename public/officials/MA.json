@@ -1,7 +1,7 @@
 {
   "state": "MA",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 214,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 227,
   "cities": [
     "Amherst Town",
     "Barnstable Town",
@@ -14,6 +14,7 @@
     "Fitchburg",
     "Framingham",
     "Haverhill",
+    "Holyoke",
     "Lowell",
     "Malden",
     "Marlborough",
@@ -3084,6 +3085,409 @@
       "source_url": "https://www.haverhillma.gov/government/boards-committees-and-commissions/license-commission/",
       "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 0.9
+    },
+    {
+      "id": "ma:holyoke:at-large-city-councilor;-chair-of-charter-and-rules-committee:mimi-panitch",
+      "name": "Mimi Panitch",
+      "office": "At-Large City Councilor; Chair of Charter and Rules Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "m.panitchholyokecitycouncil@proton.me",
+      "url": "https://www.holyoke.org/contacts/mimi-panitch/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "134 Madison Avenue\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:at-large-city-councilor;-chair-of-finance-committee;-vice-chair-of-public-safety-committee-and-public-service-committee:patti-devine",
+      "name": "Patti Devine",
+      "office": "At-Large City Councilor; Chair of Finance Committee; Vice Chair of Public Safety Committee and Public Service Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": "413-532-3974",
+      "email": "devinep@holyoke.org",
+      "url": "https://www.holyoke.org/contacts/patti-devine/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "58 Magnolia Avenue\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:at-large-city-councilor;-vice-chair-of-finance-committee-and-development-and-governmental-relations-committee:michael-j.-sullivan",
+      "name": "Michael J. Sullivan",
+      "office": "At-Large City Councilor; Vice Chair of Finance Committee and Development and Governmental Relations Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": "413-210-3342",
+      "email": "mike.sully53@yahoo.com",
+      "url": "https://www.holyoke.org/contacts/michael-j-sullivan/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "43 Park Slope\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:at-large-city-councilor:howard-greaney-jr.",
+      "name": "Howard Greaney Jr.",
+      "office": "At-Large City Councilor",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": "413-534-5749",
+      "email": null,
+      "url": "https://www.holyoke.org/contacts/howard-greaney-jr/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "351 Hillside Avenue\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:at-large-city-councilor:israel-rivera",
+      "name": "Israel Rivera",
+      "office": "At-Large City Councilor",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": "413-552-9350",
+      "email": "riverai@holyoke.org",
+      "url": "https://www.holyoke.org/contacts/israel-rivera/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "25 Willow St.\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:city-council-president;-at-large-city-councilor:tessa-r.-murphy-romboletti",
+      "name": "Tessa R. Murphy-Romboletti",
+      "office": "City Council President; At-Large City Councilor",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "At-Large",
+      "phone": "413-519-0564",
+      "email": "murphy-rombolettit@holyoke.org",
+      "url": "https://www.holyoke.org/contacts/tessa-r-murphy-romboletti/",
+      "photo_url": "https://storage.googleapis.com/proudcity/holyokema/uploads/2022/01/IMG_2899-2-scaled.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "38 St. Kolbe Drive, Unit D\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": "Tessa Murphy-Romboletti is serving in her third term as an At-Large City Councilor and was recently elected to serve her second term as City Council President. She has served as the Executive Director of EforAll/EparaTodos Pioneer Valley, an innovative nonprofit that partners with communities nationwide to help under-represented individuals successfully start and grow their businesses. She is a proud product of the Holyoke Public Schools, and obtained a Bachelor of Arts in history and sociology from the University of Delaware.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:city-council-vice-president;-ward-7-city-councilor;-chair-of-the-ordinance-committee:meg-magrath-smith",
+      "name": "Meg Magrath-Smith",
+      "office": "City Council Vice President; Ward 7 City Councilor; Chair of the Ordinance Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 7",
+      "phone": "413-535-7500",
+      "email": "megmagrath@gmail.com",
+      "url": "https://www.holyoke.org/contacts/meg-magrath-smith/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-1-city-councilor;-vice-chair-of-joint-city-council-and-school-committee:jenny-rivera",
+      "name": "Jenny Rivera",
+      "office": "Ward 1 City Councilor; Vice Chair of Joint City Council and School Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 1",
+      "phone": "413-539-3377",
+      "email": "jennyriveraward1citycouncil@gmail.com",
+      "url": "https://www.holyoke.org/contacts/jenny-j-rivera/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "56 Mosher St.\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-2-city-councilor:nicole-maisonet",
+      "name": "Nicole Maisonet",
+      "office": "Ward 2 City Councilor",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 2",
+      "phone": "413-799-9882",
+      "email": "nicolem.holyokeward2@gmail.com",
+      "url": "https://www.holyoke.org/contacts/nicole-maisonet/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 Columbia Street, Apt B Holyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-3-city-councilor;-chair-of-public-safety-committee:anne-thalheimer",
+      "name": "Anne Thalheimer",
+      "office": "Ward 3 City Councilor; Chair of Public Safety Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 3",
+      "phone": "413-237-9931",
+      "email": "annefor3@gmail.com",
+      "url": "https://www.holyoke.org/contacts/anne-thalheimer/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "97 Brown Avenue, Apt 2L\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-4-city-councilor;-chair-of-development-and-governmental-relations-committee:richard-purcell",
+      "name": "Richard Purcell",
+      "office": "Ward 4 City Councilor; Chair of Development and Governmental Relations Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 4",
+      "phone": "413-374-5118",
+      "email": "purcellr@holyoke.org",
+      "url": "https://www.holyoke.org/contacts/richard-purcell/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "279 Suffolk Street\nHolyoke, MA 01040",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-5-city-councilor;-vice-chair-of-the-ordinance-committee-and-the-charter-and-rules-committee:linda-vacon",
+      "name": "Linda Vacon",
+      "office": "Ward 5 City Councilor; Vice Chair of the Ordinance Committee and the Charter and Rules Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 5",
+      "phone": "413-210-6077",
+      "email": "lindavac@aol.com",
+      "url": "https://www.holyoke.org/contacts/linda-vacon/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ma:holyoke:ward-6-city-councilor;-chair-of-the-public-service-committee:juan-c.-anderson-burgos",
+      "name": "Juan C. Anderson-Burgos",
+      "office": "Ward 6 City Councilor; Chair of the Public Service Committee",
+      "level": "local",
+      "body": "Holyoke City Council",
+      "district": "Ward 6",
+      "phone": "413-561-5454",
+      "email": "anderson-burgosju@holyoke.org",
+      "url": "https://www.holyoke.org/contacts/juan-c-anderson-burgos/",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Holyoke",
+        "state": "MA"
+      },
+      "source_url": "https://www.holyoke.org/city-council-members/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
     },
     {
       "id": "ma:lowell:city-councilor-at-large:erik-gitschier",

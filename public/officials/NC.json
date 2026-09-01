@@ -1,9 +1,10 @@
 {
   "state": "NC",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 284,
+  "generated_at": "2026-09-01T04:40:11.651Z",
+  "count": 295,
   "cities": [
     "Alamance County",
+    "Alexander County",
     "Asheville",
     "Beaufort County",
     "Brunswick County",
@@ -29,6 +30,7 @@
     "Indian Trail",
     "Jackson County",
     "Jacksonville",
+    "Leland",
     "Mecklenburg County",
     "Monroe",
     "Moore County",
@@ -45,6 +47,7 @@
     "Rockingham County",
     "Rocky Mount",
     "Rowan County",
+    "Salisbury",
     "Stanly County",
     "Vance County",
     "Wake Forest",
@@ -145,6 +148,161 @@
       "source_url": "https://countymanager.alamancecountync.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
       "confidence": 0.9
+    },
+    {
+      "id": "nc:alexander-county:chairman,-county-commissioner:larry-yoder",
+      "name": "Larry Yoder",
+      "office": "Chairman, County Commissioner",
+      "level": "county",
+      "body": "Alexander County Commissioners Court",
+      "district": null,
+      "phone": "828-632-9332",
+      "email": "lyoder@alexandercountync.gov",
+      "url": null,
+      "photo_url": "https://i0.wp.com/alexandercountync.gov/wp-content/uploads/2018/12/Larry-Yoder-1.jpg?resize=300%2C375&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "621 Liledoun Road Taylorsville, NC 28681",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alexander County",
+        "state": "NC"
+      },
+      "source_url": "https://alexandercountync.gov/commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:alexander-county:county-commissioner:kent-herman",
+      "name": "Kent Herman",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alexander County Commissioners Court",
+      "district": null,
+      "phone": "828-632-9332",
+      "email": "kherman@alexandercountync.gov",
+      "url": null,
+      "photo_url": "https://alexandercountync.gov/wp-content/uploads/2021/10/kent-herman.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "621 Liledoun Road Taylorsville, NC 28681",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alexander County",
+        "state": "NC"
+      },
+      "source_url": "https://alexandercountync.gov/commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:alexander-county:county-commissioner:marty-pennell",
+      "name": "Marty Pennell",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alexander County Commissioners Court",
+      "district": null,
+      "phone": "828-632-9332",
+      "email": "mpennell@alexandercountync.gov",
+      "url": null,
+      "photo_url": "https://i0.wp.com/alexandercountync.gov/wp-content/uploads/2018/12/Marty-Pennell-1.jpg?resize=300%2C375&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "621 Liledoun Road Taylorsville, NC 28681",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alexander County",
+        "state": "NC"
+      },
+      "source_url": "https://alexandercountync.gov/commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:alexander-county:county-commissioner:ronnie-reese",
+      "name": "Ronnie Reese",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Alexander County Commissioners Court",
+      "district": null,
+      "phone": "828-632-9332",
+      "email": "rreese@alexandercountync.gov",
+      "url": null,
+      "photo_url": "https://i0.wp.com/alexandercountync.gov/wp-content/uploads/2018/12/Ronnie-Reese-1.jpg?resize=300%2C375&#038;ssl=1",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "621 Liledoun Road Taylorsville, NC 28681",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alexander County",
+        "state": "NC"
+      },
+      "source_url": "https://alexandercountync.gov/commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:alexander-county:vice-chairman,-county-commissioner:josh-lail",
+      "name": "Josh Lail",
+      "office": "Vice-Chairman, County Commissioner",
+      "level": "county",
+      "body": "Alexander County Commissioners Court",
+      "district": null,
+      "phone": "828-632-9332",
+      "email": "jdlail@alexandercountync.gov",
+      "url": null,
+      "photo_url": "https://alexandercountync.gov/wp-content/uploads/2024/09/Josh_Lail.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "621 Liledoun Road Taylorsville, NC 28681",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Alexander County",
+        "state": "NC"
+      },
+      "source_url": "https://alexandercountync.gov/commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
     },
     {
       "id": "nc:asheville:council-member:bo-hess",
@@ -1306,7 +1464,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -1337,8 +1495,8 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-20T02:51:45.007Z",
-      "confidence": 0.9
+      "extracted_at": "2026-09-01T04:40:11.651Z",
+      "confidence": 1
     },
     {
       "id": "nc:charlotte:city-clerk:stephanie-c.-kelly",
@@ -1399,7 +1557,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -1461,7 +1619,7 @@
         "state": "NC"
       },
       "source_url": "https://www.charlottenc.gov",
-      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "extracted_at": "2026-09-01T04:40:11.651Z",
       "confidence": 1
     },
     {
@@ -4616,6 +4774,161 @@
       "confidence": 1
     },
     {
+      "id": "nc:leland:council-member:frank-pendleton",
+      "name": "Frank Pendleton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Leland City Council",
+      "district": null,
+      "phone": "910-332-5015",
+      "email": "fpendleton@townofleland.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Town Hall Drive Leland, NC 28451",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leland",
+        "state": "NC"
+      },
+      "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:leland:council-member:leland-hyer",
+      "name": "Leland Hyer",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Leland City Council",
+      "district": null,
+      "phone": "910-756-5089",
+      "email": "lhyer@townofleland.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Town Hall Drive Leland, NC 28451",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leland",
+        "state": "NC"
+      },
+      "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:leland:council-member:veronica-carter",
+      "name": "Veronica Carter",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Leland City Council",
+      "district": null,
+      "phone": "910-332-5016",
+      "email": "vcarter@townofleland.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Town Hall Drive Leland, NC 28451",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leland",
+        "state": "NC"
+      },
+      "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:leland:mayor-pro-tem:bob-campbell",
+      "name": "Bob Campbell",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Leland City Council",
+      "district": null,
+      "phone": "910-332-5017",
+      "email": "bcampbell@townofleland.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Town Hall Drive Leland, NC 28451",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leland",
+        "state": "NC"
+      },
+      "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:leland:mayor:brenda-bozeman",
+      "name": "Brenda Bozeman",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Leland City Council",
+      "district": null,
+      "phone": "910-332-5014",
+      "email": "bbozeman@townofleland.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "102 Town Hall Drive Leland, NC 28451",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Leland",
+        "state": "NC"
+      },
+      "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "nc:mecklenburg-county:county-commissioner:arthur-griffin",
       "name": "Arthur Griffin",
       "office": "County Commissioner",
@@ -7754,6 +8067,37 @@
       },
       "source_url": "https://www.rowancountync.gov/726/Commissioners",
       "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:salisbury:staff-liaison:victoria-bailiff",
+      "name": "Victoria Bailiff",
+      "office": "Staff Liaison",
+      "level": "local",
+      "body": "Salisbury City Council",
+      "district": null,
+      "phone": "704-638-5212",
+      "email": "victoria.bailiff@salisburync.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Salisbury",
+        "state": "NC"
+      },
+      "source_url": "https://salisburync.gov/Government/City-Council/Boards-and-Commissions/Alternate-Methods-of-Design-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

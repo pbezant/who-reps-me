@@ -1,7 +1,7 @@
 {
   "state": "ID",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 56,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 64,
   "cities": [
     "Bannock County",
     "Boise City",
@@ -10,6 +10,7 @@
     "Canyon County",
     "Coeur d'Alene",
     "Idaho Falls",
+    "Jefferson County",
     "Nampa"
   ],
   "officials": [
@@ -1571,6 +1572,264 @@
       },
       "source_url": "https://www.idahofallsidaho.gov/398/City-Council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:assessor:jessica-roach",
+      "name": "Jessica Roach",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "208-745-9215",
+      "email": "jroach@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=96",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=641",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Courthouse Way Rigby, ID 83442",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:clerk:melanie-smoot",
+      "name": "Melanie Smoot",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "208-745-7756 Ext: 1000",
+      "email": "msmoot@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=10",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Courthouse Way\nRigby, ID 83442",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:commissioner:roger-clark",
+      "name": "Roger Clark",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 3",
+      "phone": "208-745-9222",
+      "email": "rclark@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=33",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=643",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Clark is a rancher and lifelong resident of Jefferson County. He was elected to a four-year term in 2018, re-elected to a two-year term in 2022 and re-elected to a four-year term in 2024. He and his wife live in Menan.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:commissioner:scott-hancock",
+      "name": "Scott Hancock",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 2",
+      "phone": "208-745-9222",
+      "email": "shancock@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=32",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=644",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Hancock is a rancher and retired from the INL. He was elected to a two-year term in 2014, re-elected to a four-year term in 2016, re-elected to a two-year term in 2020 and re-elected to a four-year term in 2022. He and his wife live in Rigby.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:commissioner:shayne-young",
+      "name": "Shayne Young",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": "District 1",
+      "phone": "208-745-9222",
+      "email": "syoung@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=31",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=645",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "County Office",
+          "city": "Rigby",
+          "address": "210 Courthouse Way",
+          "phone": "208-745-7756",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Young is a business owner and lifelong resident of Jefferson County. He was elected to a two-year term in 2018, re-elected to a four year term in 2020 and re-elected to a two-year term in 2024. He and his wife live in Labelle.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:county-coroner:lavar-summers",
+      "name": "LaVar Summers",
+      "office": "County Coroner",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "208-243-2044",
+      "email": "lavarsummers43@gmail.com",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=13",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=640",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Courthouse Way\nRigby, ID 83442",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:sheriff:steve-anderson",
+      "name": "Steve Anderson",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "208-745-9210",
+      "email": null,
+      "url": "https://www.jcgov.us/m/directory/employee?eid=28",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=642",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Courthouse Way\nRigby, ID 83442",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "id:jefferson-county:treasurer:kristine-lund",
+      "name": "Kristine Lund",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "208-745-9219",
+      "email": "klund@co.jefferson.id.us",
+      "url": "https://www.jcgov.us/m/directory/employee?eid=29",
+      "photo_url": "https://www.jcgov.us/ImageRepository/Document?documentID=2651",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "210 Courthouse Way\nRigby, ID 83442",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "ID"
+      },
+      "source_url": "https://www.jcgov.us/300/Elected-Officials",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

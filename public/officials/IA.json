@@ -1,7 +1,7 @@
 {
   "state": "IA",
-  "generated_at": "2026-08-28T05:40:45.041Z",
-  "count": 66,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 73,
   "cities": [
     "Ankeny",
     "Black Hawk County",
@@ -11,6 +11,8 @@
     "Linn County",
     "Polk County",
     "Sioux City",
+    "Urbandale",
+    "Wapello County",
     "Warren County"
   ],
   "officials": [
@@ -1985,6 +1987,243 @@
       },
       "source_url": "https://www.sioux-city.org/formcenter/Contact-Forms-5/Contact-All-Council-Members-110",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:council-member:amy-croll",
+      "name": "Amy Croll",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": "515-278-3900",
+      "email": "acroll@urbandale.org",
+      "url": "https://www.urbandale.org/335/Amy-Croll---Councilmember",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentID=15223",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 86th Street\nUrbandale, IA 50322",
+      "offices": [],
+      "hours": null,
+      "bio": "Amy Croll works for Homeward, the homelessness planning entity for Polk County, and runs her own consulting firm specializing in non-profit management. She previously co-founded and operated Community Youth Concepts (CYC) and started her career at the Iowa Division of Criminal and Juvenile Justice Planning. She holds a B.A. from Luther College and an MSW from the University of Iowa, and is licensed as a macro-level social worker.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:council-member:blake-rozendaal",
+      "name": "Blake Rozendaal",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": "515-278-3900",
+      "email": "brozendaal@urbandale.org",
+      "url": "https://www.urbandale.org/935/Blake-Rozendaal---Councilmember",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentID=15221",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 86th Street\nUrbandale, IA 50322",
+      "offices": [],
+      "hours": null,
+      "bio": "Blake lives in Urbandale with his wife Rachel, two young kids, and two cats. He is a Senior Salesforce Technical Architect at Torrent Consulting, a consulting firm that specializes in healthcare use cases. Blake represents the city on the BRAVO board of directors and as an alternate on the Polk and Dallas county emergency management commissions.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:council-member:bridget-carberry-montgomery",
+      "name": "Bridget Carberry Montgomery",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": "515-278-3900",
+      "email": "bcarberrymontgomery@urbandale.org",
+      "url": "https://www.urbandale.org/933/Bridget-Carberry-Montgomery---Councilmem",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentID=10036",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 86th Street\nUrbandale, IA 50322",
+      "offices": [],
+      "hours": null,
+      "bio": "Bridget Carberry Montgomery is a graduate of the Greater Des Moines Leadership Institute, serving as Commissioner and Chairperson of the Urbandale Planning & Zoning Commission. She holds a Master of Arts in Urban & Regional Planning from the University of Iowa and a Bachelor of Arts from Loyola Marymount University.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:council-member:joe-cacciatore",
+      "name": "Joe Cacciatore",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": null,
+      "email": "jcacciatore@urbandale.org",
+      "url": "https://www.urbandale.org/337/Joe-Cacciatore---Councilmember",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentId=15224",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City of Urbandale",
+          "city": "Urbandale",
+          "address": "3600 86th Street\nUrbandale, IA 50322",
+          "phone": "515-278-3900",
+          "fax": "515-331-6755",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Joe Cacciatore is a Councilmember who has served on the Polk County Housing Solutions Alliance and the Urbandale Board of Adjustment. He is a partner at Ervanian & Cacciatore, LLP, and lives in Urbandale with his wife, Jackie.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:council-member:patricia-boddy",
+      "name": "Patricia Boddy",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": null,
+      "email": "pboddy@urbandale.org",
+      "url": "https://www.urbandale.org/934/Patricia-Boddy---Councilmember",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentID=15225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [
+        {
+          "classification": "main",
+          "name": "City of Urbandale",
+          "city": "Urbandale",
+          "address": "3600 86th Street\nUrbandale, IA 50322",
+          "phone": "515-278-3900",
+          "fax": "515-331-6755",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Pat is married with two children and two grandchildren. She and her husband have lived in Urbandale since 1998.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:urbandale:mayor:bob-andeweg",
+      "name": "Bob Andeweg",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Urbandale City Council",
+      "district": null,
+      "phone": "515-283-3106",
+      "email": "bandeweg@urbandale.org",
+      "url": "https://www.urbandale.org/330/Bob-Andeweg---Mayor",
+      "photo_url": "https://www.urbandale.org/ImageRepository/Document?documentID=15222",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 86th Street, Urbandale, IA 50322",
+      "offices": [],
+      "hours": null,
+      "bio": "Bob Andeweg was elected Mayor in 2005, with his current term expiring December 31, 2029. He previously served as a City Council Person from 2000-2005 and has held various leadership roles in local organizations, including the Urbandale Planning and Zoning Commission and the Greater Des Moines Convention and Visitors Bureau.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Urbandale",
+        "state": "IA"
+      },
+      "source_url": "https://www.urbandale.org/27/Government",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ia:wapello-county:weed-commissioner:josh-batterson",
+      "name": "Josh Batterson",
+      "office": "Weed Commissioner",
+      "level": "county",
+      "body": "Wapello County Commissioners Court",
+      "district": null,
+      "phone": "641-684-5425",
+      "email": "jbatterson@wapellocounty.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "536 Mill St.\nOttumwa, IA 52501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Wapello County",
+        "state": "IA"
+      },
+      "source_url": "https://www.wapellocounty.org/weed_commissioner/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

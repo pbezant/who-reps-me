@@ -1,11 +1,12 @@
 {
   "state": "OH",
-  "generated_at": "2026-08-30T03:05:54.776Z",
-  "count": 168,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 204,
   "cities": [
     "Akron",
     "Beavercreek",
     "Brown County",
+    "Brunswick",
     "Canton",
     "Cincinnati",
     "Clark County",
@@ -13,13 +14,16 @@
     "Columbus",
     "Euclid",
     "Franklin County",
+    "Gahanna",
     "Greene County",
     "Hamilton County",
     "Lake County",
     "Marion County",
     "Mentor",
+    "Morrow County",
     "Newark",
     "Parma",
+    "Perry County",
     "Pickaway County",
     "Richland County",
     "Sandusky County",
@@ -27,7 +31,10 @@
     "Summit County",
     "Toledo",
     "Tuscarawas County",
+    "Upper Arlington",
+    "Warren",
     "Warren County",
+    "Williams County",
     "Wood County"
   ],
   "officials": [
@@ -928,6 +935,254 @@
       },
       "source_url": "https://browncountyohio.gov/index.php/commissioners42",
       "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:clerk-of-council:laura-timura",
+      "name": "Laura Timura",
+      "office": "Clerk of Council",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": null,
+      "phone": "330-558-6845",
+      "email": "ltimura@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member-at-large:kristy-piper",
+      "name": "Kristy Piper",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": null,
+      "phone": "330-558-6845",
+      "email": "kpiper@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member-at-large:tim-smith",
+      "name": "Tim Smith",
+      "office": "Council Member At-Large",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": null,
+      "phone": "330-558-6845",
+      "email": "tsmith@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member,-council-president-pro-tem:joe-delsanter",
+      "name": "Joe Delsanter",
+      "office": "Council Member, Council President Pro Tem",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": "At-Large",
+      "phone": "330-558-6845",
+      "email": "jdelsanter@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member,-vice-mayor/president-of-council:nick-hanek",
+      "name": "Nick Hanek",
+      "office": "Council Member, Vice Mayor/President of Council",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": "Ward 2",
+      "phone": "330-558-6845",
+      "email": "nhanek@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member:keith-a.-kuczma",
+      "name": "Keith A. Kuczma",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": "Ward 4",
+      "phone": "330-558-6845",
+      "email": "kkuczma@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member:mike-abella-jr.",
+      "name": "Mike Abella Jr.",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": "Ward 1",
+      "phone": "330-558-6845",
+      "email": "mabella@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:brunswick:council-member:nate-witsaman",
+      "name": "Nate Witsaman",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Brunswick City Council",
+      "district": "Ward 3",
+      "phone": "330-558-6845",
+      "email": "nwitsaman@brunswick.oh.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "4095 Center Road Brunswick Ohio 44212",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Brunswick",
+        "state": "OH"
+      },
+      "source_url": "https://www.brunswick.oh.us/city-council/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -2078,6 +2333,223 @@
       "confidence": 1
     },
     {
+      "id": "oh:gahanna:council-member:jamille-jones",
+      "name": "Jamille Jones",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:kaylee-padova",
+      "name": "Kaylee Padova",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:merisa-bowers",
+      "name": "Merisa Bowers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:michael-schnetzer",
+      "name": "Michael Schnetzer",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:nancy-mcgregor",
+      "name": "Nancy McGregor",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:stephen-renner",
+      "name": "Stephen Renner",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:gahanna:council-member:trenton-weaver",
+      "name": "Trenton Weaver",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Gahanna City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "825 Tech Center Drive Gahanna, OH 43230",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gahanna",
+        "state": "OH"
+      },
+      "source_url": "https://www.gahanna.gov/191/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "oh:greene-county:clerk-of-courts:aj-williams",
       "name": "AJ Williams",
       "office": "Clerk of Courts",
@@ -3008,6 +3480,68 @@
       "confidence": 1
     },
     {
+      "id": "oh:morrow-county:judge,-common-pleas-court:robert-c.-hickson,-jr.",
+      "name": "Robert C. Hickson, Jr.",
+      "office": "Judge, Common Pleas Court",
+      "level": "county",
+      "body": "Morrow County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.morrowcountyohio.gov/government/county_elected_officials/common_pleas_court/judge_hickson.php",
+      "photo_url": "https://www.morrowcountyohio.gov/government/common_pleas_court/Common%20Pleas/Judge-Hickson-2023-7-Flag-1-768x955.jpeg?t=202403111319210",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "48 East High Street Mount Gilead, OH 43338",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Morrow County",
+        "state": "OH"
+      },
+      "source_url": "https://www.morrowcountyohio.gov/government/common_pleas_court/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:morrow-county:judge,-common-pleas-court:tom-c.-elkin",
+      "name": "Tom C. Elkin",
+      "office": "Judge, Common Pleas Court",
+      "level": "county",
+      "body": "Morrow County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.morrowcountyohio.gov/government/county_elected_officials/common_pleas_court/judge_elkin.php",
+      "photo_url": "https://www.morrowcountyohio.gov/government/common_pleas_court/Common%20Pleas/ElkinTom-C-Common-Pleas-Judge.png?t=202403111318420",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "48 East High Street Mount Gilead, OH 43338",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Morrow County",
+        "state": "OH"
+      },
+      "source_url": "https://www.morrowcountyohio.gov/government/common_pleas_court/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "oh:newark:at-large:bill-cost-jr.",
       "name": "Bill Cost Jr.",
       "office": "At Large",
@@ -3718,6 +4252,99 @@
       },
       "source_url": "https://www.cityofparma-oh.gov/221/City-Council",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:perry-county:county-commissioner:ben-carpenter",
+      "name": "Ben Carpenter",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Perry County Commissioners Court",
+      "district": null,
+      "phone": "740-342-2045",
+      "email": "perryco@perrycountyohio.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 S. Main Street, New Lexington, OH 43764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Perry County",
+        "state": "OH"
+      },
+      "source_url": "https://perrycountyohio.gov/organizer/perry-county-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:perry-county:county-commissioner:chase-bennett",
+      "name": "Chase Bennett",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Perry County Commissioners Court",
+      "district": null,
+      "phone": "740-342-2045",
+      "email": "perryco@perrycountyohio.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 S. Main Street, New Lexington, OH 43764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Perry County",
+        "state": "OH"
+      },
+      "source_url": "https://perrycountyohio.gov/organizer/perry-county-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:perry-county:county-commissioner:scott-owen",
+      "name": "Scott Owen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Perry County Commissioners Court",
+      "district": null,
+      "phone": "740-342-2045",
+      "email": "perryco@perrycountyohio.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 S. Main Street, New Lexington, OH 43764",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Perry County",
+        "state": "OH"
+      },
+      "source_url": "https://perrycountyohio.gov/organizer/perry-county-commissioners/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -4558,6 +5185,223 @@
       "confidence": 1
     },
     {
+      "id": "oh:upper-arlington:city-councilor:ben-tracy",
+      "name": "Ben Tracy",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "btracy@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=60",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=2393",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "Ben Tracy is a former civil rights attorney, a former senior judicial attorney to the Ohio Supreme Court, and is currently an appellate prosecutor and Upper Arlington City Council member. He grew up in Upper Arlington, holds degrees from Exeter, Brown University, and the University of Virginia School of Law, and lives with his wife, Mallory, and daughter, Abigail. He enjoys cooking, Star Wars, board sports, and playing classical piano.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:city-councilor:john-j.-kulewicz",
+      "name": "John J. Kulewicz",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "jkulewicz@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=11",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=153",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "John Kulewicz and his wife, Maryline, began their married life together in Upper Arlington 38 years ago. They proudly raised their two children - Adam and Abigail - in Upper Arlington and are grateful for the many opportunities afforded to them as residents over the years. John is a graduate of The Ohio State University, where he majored in history, and Yale Law School, where he served as an Editor of the Yale Law Journal.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:city-councilor:laura-oldham",
+      "name": "Laura Oldham",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "loldham@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=59",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=2394",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "Laura Oldham moved to Upper Arlington in 2013 and has been committed to community involvement, starting several small businesses focused on communication and sustainable living. With over a decade of volunteering and working with local organizations, she brings creative problem-solving and empathy to her role on City Council, aiming to foster climate resilience and a welcoming community.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:city-councilor:nic-fortkamp",
+      "name": "Nic Fortkamp",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "nfortkamp@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=58",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=2395",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "Nic Fortkamp is a dedicated real estate professional and engaged community leader. Currently, serving his first term on City Council, is part of The Robert Weiler Company's Appraisal Team and is a licensed real estate agent. Nic grew up in Upper Arlington and is proud to have recently served as the Executive Director of LeadershipUA.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:city-councilor:todd-walter",
+      "name": "Todd Walter",
+      "office": "City Councilor",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "twalter@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=14",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=156",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "Todd was raised in Upper Arlington and is a graduate of Upper Arlington High School. After a period away, Todd returned to UA with his wife, Nicole, and now three children. He is humbled by the trust the UA residents have placed in him and is committed to ensuring that UA remains a premier place to live, work, and visit.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:council-president:ukeme-awakessien-jeter",
+      "name": "Ukeme Awakessien Jeter",
+      "office": "Council President",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "uajeter@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=8",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=157",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "When Ukeme moved to Upper Arlington in the fall of 2018, she could not have foreseen how her daughter's experiences as a new member of the community would inspire her deep involvement in the City. In 2021, Ukeme made history, becoming the first person of color to be elected to Upper Arlington City Council, and in January of 2024, she became the first person of color to serve as President and Mayor. As an engineer, licensed attorney, and community leader, her career has been defined by solving complex challenges, building consensus, and delivering results that matter for residents.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:upper-arlington:council-vice-president:heidi-munc",
+      "name": "Heidi Munc",
+      "office": "Council Vice President",
+      "level": "local",
+      "body": "Upper Arlington City Council",
+      "district": null,
+      "phone": "614-583-5030",
+      "email": "hmunc@uaoh.net",
+      "url": "https://www.upperarlingtonoh.gov/m/directory/employee?eid=13",
+      "photo_url": "https://www.upperarlingtonoh.gov/ImageRepository/Document?documentID=155",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "3600 Tremont Road Upper Arlington, OH 43221",
+      "offices": [],
+      "hours": null,
+      "bio": "Heidi Munc is serving her first term as Council Vice President, representing Upper Arlington on the Mid-Ohio Regional Planning Commission. A corporate executive with decades of experience in User Experience and \"Design Thinking,\" she aims to apply these skills for the betterment of Upper Arlington, a city she chose for its exceptional schools and neighborhoods.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Upper Arlington",
+        "state": "OH"
+      },
+      "source_url": "https://www.upperarlingtonoh.gov/170/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "oh:warren-county:auditor:matt-nolan",
       "name": "Matt Nolan",
       "office": "Auditor",
@@ -5082,6 +5926,285 @@
       },
       "source_url": "https://www.warrencountyohio.gov/About/ElectedOfficials/Index",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:warren:clerk-of-council:brenda-smith",
+      "name": "Brenda Smith",
+      "office": "Clerk of Council",
+      "level": "local",
+      "body": "Warren City Council",
+      "district": null,
+      "phone": "330-841-2549",
+      "email": "BSmith@warren.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Warren City Council Municipal Justice Bldg First Floor 141 South Street S.E. Warren, OH 44483",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren",
+        "state": "OH"
+      },
+      "source_url": "https://www.warren.org/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:warren:council-president:john-brown",
+      "name": "John Brown",
+      "office": "Council President",
+      "level": "local",
+      "body": "Warren City Council",
+      "district": null,
+      "phone": "330-399-6657",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Warren City Council Municipal Justice Bldg First Floor 141 South Street S.E. Warren, OH 44483",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren",
+        "state": "OH"
+      },
+      "source_url": "https://www.warren.org/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:warren:deputy-clerk-of-council:melissa-hughes",
+      "name": "Melissa Hughes",
+      "office": "Deputy Clerk of Council",
+      "level": "local",
+      "body": "Warren City Council",
+      "district": null,
+      "phone": "330-841-2550",
+      "email": "mhughes@warren.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Warren City Council Municipal Justice Bldg First Floor 141 South Street S.E. Warren, OH 44483",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Warren",
+        "state": "OH"
+      },
+      "source_url": "https://www.warren.org/city_council/index.php",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:williams-county:administrator:vond-hall",
+      "name": "Vond Hall",
+      "office": "Administrator",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "vhall@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/m/directory/employee?eid=216",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:williams-county:clerk:anne-retcher",
+      "name": "Anne Retcher",
+      "office": "Clerk",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": "419-636-2059",
+      "email": "aretcher@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/m/directory/employee?eid=51",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:williams-county:commissioner:terry-n.-rummel",
+      "name": "Terry N. Rummel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": "419-466-9285",
+      "email": "trummel@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/285/Terry-N-Rummel",
+      "photo_url": "https://www.williamscountyoh.gov/ImageRepository/Document?documentID=3125",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:williams-county:deputy-clerk:robin-kemp",
+      "name": "Robin Kemp",
+      "office": "Deputy Clerk",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": "419-636-2059",
+      "email": "rkemp@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/m/directory/employee?eid=52",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "oh:williams-county:president:scott-a.-lirot",
+      "name": "Scott A. Lirot",
+      "office": "President",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": "419-551-7443",
+      "email": "slirot@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/m/directory/employee?eid=217",
+      "photo_url": "https://www.williamscountyoh.gov/ImageRepository/Document?documentID=3133",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "oh:williams-county:vice-president:bartley-e.-westfall",
+      "name": "Bartley E. Westfall",
+      "office": "Vice President",
+      "level": "county",
+      "body": "Williams County Commissioners Court",
+      "district": null,
+      "phone": "419-553-0323",
+      "email": "bwestfall@wmsco.org",
+      "url": "https://www.williamscountyoh.gov/283/Bartley-E-Westfall",
+      "photo_url": "https://www.williamscountyoh.gov/ImageRepository/Document?documentID=2708",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1425 East High Street Bryan, OH 43506",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Williams County",
+        "state": "OH"
+      },
+      "source_url": "https://www.williamscountyoh.gov/280/Commissioners",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

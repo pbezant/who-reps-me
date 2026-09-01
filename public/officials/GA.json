@@ -1,7 +1,7 @@
 {
   "state": "GA",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 248,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 261,
   "cities": [
     "Albany",
     "Brookhaven",
@@ -12,10 +12,12 @@
     "Colquitt County",
     "Columbia County",
     "Columbus",
+    "Dawson County",
     "DeKalb County",
     "Dougherty County",
     "Douglas County",
     "Douglasville",
+    "East Point",
     "Effingham County",
     "Floyd County",
     "Fulton County",
@@ -23,6 +25,7 @@
     "Gordon County",
     "Gwinnett County",
     "Hall County",
+    "Hinesville",
     "Houston County",
     "Jackson County",
     "Liberty County",
@@ -33,12 +36,15 @@
     "Newton County",
     "Peachtree City",
     "Peachtree Corners",
+    "Pickens County",
     "Richmond County",
     "Rockdale County",
+    "Rome",
     "Savannah",
     "South Fulton",
     "Tift County",
     "Troup County",
+    "Tucker",
     "Walker County",
     "Walton County"
   ],
@@ -1312,6 +1318,68 @@
       },
       "source_url": "https://columbusga.gov/",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dawson-county:emergency-medical-systems-(ems)-advisory-council-board-member:jacob-hansen",
+      "name": "Jacob Hansen",
+      "office": "Emergency Medical Systems (EMS) Advisory Council Board Member",
+      "level": "county",
+      "body": "Dawson County Commissioners Court",
+      "district": null,
+      "phone": "706-344-3666",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "393 Memory Lane Dawsonville, GA 30534",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dawson County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dawsoncountyga.gov/415/Emergency-Medical-Systems-EMS-Advisory-C",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:dawson-county:emergency-medical-systems-(ems)-advisory-council-board-member:johnny-irvin",
+      "name": "Johnny Irvin",
+      "office": "Emergency Medical Systems (EMS) Advisory Council Board Member",
+      "level": "county",
+      "body": "Dawson County Commissioners Court",
+      "district": null,
+      "phone": "706-344-3666",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "393 Memory Lane Dawsonville, GA 30534",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dawson County",
+        "state": "GA"
+      },
+      "source_url": "https://www.dawsoncountyga.gov/415/Emergency-Medical-Systems-EMS-Advisory-C",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -2645,6 +2713,68 @@
       },
       "source_url": "https://www.douglasvillega.gov/Departments/Elected-officials",
       "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:east-point:chief-of-staff:channon-brooks",
+      "name": "Channon Brooks",
+      "office": "Chief of Staff",
+      "level": "local",
+      "body": "East Point City Council",
+      "district": null,
+      "phone": "404-270-7091",
+      "email": "mayor@eastpointcity.org",
+      "url": null,
+      "photo_url": "https://eastpointga.gov/wp-content/uploads/2022/02/Channon-Brooks.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2757 East Point Street, East Point, Georgia 30344",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "East Point",
+        "state": "GA"
+      },
+      "source_url": "https://eastpointga.gov/mayor/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:east-point:mayor:keisha-chapman",
+      "name": "Keisha Chapman",
+      "office": "Mayor",
+      "level": "local",
+      "body": "East Point City Council",
+      "district": null,
+      "phone": "404-806-6299",
+      "email": "mayor@eastpointcity.org",
+      "url": "https://eastpointga.gov/mayor/",
+      "photo_url": "https://eastpointga.gov/wp-content/uploads/2026/01/KC-103b-819x1024.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2757 East Point Street, East Point, Georgia 30344",
+      "offices": [],
+      "hours": "8:00 AM to 5:00 PM",
+      "bio": "Keisha Chapman is the Mayor of East Point, Georgia. Originally from Baltimore, Maryland, she earned her bachelor’s degree from Norfolk State University and a master’s degree from The University of Texas. She brings experience in communications, strategy, and corporate leadership, and is committed to moving East Point forward with purpose, care, and integrity.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "East Point",
+        "state": "GA"
+      },
+      "source_url": "https://eastpointga.gov/mayor/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -4164,6 +4294,37 @@
       },
       "source_url": "https://www.hallcounty.org/409/Board-of-Commissioners",
       "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:hinesville:mayor:karl-riles",
+      "name": "Karl Riles",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Hinesville City Council",
+      "district": null,
+      "phone": "912-876-3564",
+      "email": "mayor@cityofhinesville.org",
+      "url": "https://www.cityofhinesville.org/283/City-of-Hinesville-Mayor",
+      "photo_url": "https://www.cityofhinesville.org/ImageRepository/Document?documentID=3634",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "115 East M.L. King, Jr. Drive Hinesville, GA 31313",
+      "offices": [],
+      "hours": null,
+      "bio": "Karl A. Riles is a native of Hinesville, Georgia. He attended the Bradwell Institute, the University of Georgia, and Armstrong State University. Upon graduation, he returned to Hinesville and owns a tax preparation business.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Hinesville",
+        "state": "GA"
+      },
+      "source_url": "https://www.cityofhinesville.org/185/Mayors-Office",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {
@@ -6120,6 +6281,99 @@
       "confidence": 1
     },
     {
+      "id": "ga:pickens-county:chief-deputy-tax-commissioner:rebecca-prather",
+      "name": "Rebecca Prather",
+      "office": "Chief Deputy Tax Commissioner",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "rprather@pickenscountyga.gov",
+      "url": null,
+      "photo_url": "https://www.pickenscountyga.gov/ImageRepository/Document?documentID=572",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1266 East Church Street Suite 112 Jasper , GA 30143",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "GA"
+      },
+      "source_url": "https://www.pickenscountyga.gov/178/Tax-Commissioner",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:pickens-county:deputy-tax-commissioner:jessica-kassow",
+      "name": "Jessica Kassow",
+      "office": "Deputy Tax Commissioner",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "jkassow@pickenscountyga.gov",
+      "url": null,
+      "photo_url": "https://www.pickenscountyga.gov/ImageRepository/Document?documentID=573",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1266 East Church Street Suite 112 Jasper , GA 30143",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "GA"
+      },
+      "source_url": "https://www.pickenscountyga.gov/178/Tax-Commissioner",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:pickens-county:tax-commissioner:daniel-reeves",
+      "name": "Daniel Reeves",
+      "office": "Tax Commissioner",
+      "level": "county",
+      "body": "Pickens County Commissioners Court",
+      "district": null,
+      "phone": "706-253-8882",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.pickenscountyga.gov/ImageRepository/Document?documentID=563",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1266 East Church Street Suite 112 Jasper , GA 30143",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Pickens County",
+        "state": "GA"
+      },
+      "source_url": "https://www.pickenscountyga.gov/178/Tax-Commissioner",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
       "id": "ga:richmond-county:administrator:tameka-allen",
       "name": "Tameka Allen",
       "office": "Administrator",
@@ -6583,6 +6837,68 @@
       "source_url": "https://www.rockdalecountyga.gov/rockdale-board-of-commissioners/",
       "extracted_at": "2026-08-25T03:19:04.235Z",
       "confidence": 1
+    },
+    {
+      "id": "ga:rome:city-commissioner:fisher",
+      "name": "Fisher",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Rome City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rome",
+        "state": "GA"
+      },
+      "source_url": "https://www.romega.gov/m/newsflash/home/detail/304",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "ga:rome:city-commissioner:hixson",
+      "name": "Hixson",
+      "office": "City Commissioner",
+      "level": "local",
+      "body": "Rome City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rome",
+        "state": "GA"
+      },
+      "source_url": "https://www.romega.gov/m/newsflash/home/detail/304",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.95
     },
     {
       "id": "ga:savannah:council-member:bernetta-lanier",
@@ -7481,6 +7797,99 @@
       },
       "source_url": "https://www.troupcountyga.gov/Home/Commissioners",
       "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tucker:construction-board-of-appeals-member:charles-logan",
+      "name": "Charles Logan",
+      "office": "Construction Board of Appeals Member",
+      "level": "local",
+      "body": "Tucker City Council",
+      "district": null,
+      "phone": null,
+      "email": "respy@tuckerga.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tucker",
+        "state": "GA"
+      },
+      "source_url": "https://www.tuckerga.gov/your-government/boards-and-commissions/construction-board-of-appeals/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tucker:construction-board-of-appeals-member:jason-burton",
+      "name": "Jason Burton",
+      "office": "Construction Board of Appeals Member",
+      "level": "local",
+      "body": "Tucker City Council",
+      "district": null,
+      "phone": null,
+      "email": "jburton@tuckerga.gov",
+      "url": null,
+      "photo_url": "https://www.tuckerga.gov/wp-content/uploads/2023/12/ZBA-Jason_Burton.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tucker",
+        "state": "GA"
+      },
+      "source_url": "https://www.tuckerga.gov/your-government/boards-and-commissions/construction-board-of-appeals/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "ga:tucker:construction-board-of-appeals-member:jo-becker",
+      "name": "Jo Becker",
+      "office": "Construction Board of Appeals Member",
+      "level": "local",
+      "body": "Tucker City Council",
+      "district": null,
+      "phone": null,
+      "email": "abennett@tuckerga.gov",
+      "url": null,
+      "photo_url": "https://www.tuckerga.gov/wp-content/uploads/2023/12/no-photo.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Tucker",
+        "state": "GA"
+      },
+      "source_url": "https://www.tuckerga.gov/your-government/boards-and-commissions/construction-board-of-appeals/",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

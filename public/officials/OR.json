@@ -1,7 +1,7 @@
 {
   "state": "OR",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 77,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 82,
   "cities": [
     "Albany",
     "Clackamas County",
@@ -12,6 +12,7 @@
     "Lincoln County",
     "Linn County",
     "Multnomah County",
+    "Oregon City",
     "Portland",
     "Umatilla County"
   ],
@@ -1881,6 +1882,161 @@
       },
       "source_url": "https://www.multco.us",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:oregon-city:commissioner:adam-marl",
+      "name": "Adam Marl",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oregon City City Council",
+      "district": null,
+      "phone": "503-406-8165",
+      "email": "amarl@orcity.org",
+      "url": "https://www.orcity.org/1775/Commissioner-Adam-Marl",
+      "photo_url": "https://www.orcity.org/ImageRepository/Document?documentID=11641",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Adam Marl serves as Commissioner from January 1, 2023 to December 31, 2026. He holds a BA in Politics and Communications from Willamette University and has worked as a Political Consultant and Legislative Staffer.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Oregon City",
+        "state": "OR"
+      },
+      "source_url": "https://www.orcity.org/933/Mayor-City-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:oregon-city:commissioner:michael-mitchell",
+      "name": "Michael Mitchell",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oregon City City Council",
+      "district": null,
+      "phone": "503-657-0891",
+      "email": "mmitchell@orcity.org",
+      "url": "https://www.orcity.org/1776/Commissioner-Michael-Mitchell",
+      "photo_url": "https://www.orcity.org/ImageRepository/Document?documentId=15099",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "625 Center Street Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Friday 8:00am to 5:00pm",
+      "bio": "Commissioner Mike Mitchell holds a BA in Economics and Business Administration from Linfield College and a Certificate in Human Resource Management from Portland State University. He has 40 years of experience in general management of retail and wholesale companies and is currently retired. He is involved in various city activities including the Urban Renewal Commission and City Budget Committee, and previously served on the Planning Commission.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Oregon City",
+        "state": "OR"
+      },
+      "source_url": "https://www.orcity.org/933/Mayor-City-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:oregon-city:commissioner:rocky-smith,-jr.",
+      "name": "Rocky Smith, Jr.",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oregon City City Council",
+      "district": null,
+      "phone": "503-477-2867",
+      "email": "rsmith@orcity.org",
+      "url": "https://www.orcity.org/1773/Commissioner-Rocky-Smith-Jr",
+      "photo_url": "https://www.orcity.org/ImageRepository/Document?documentID=11639",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Rocky Smith, Jr. is serving a term from January 1, 2023 to December 31, 2026, having previously served from 2009-2016. He is involved in several city activities including the Urban Renewal Commission and Budget Committee. Professionally, he is an Art Teacher at Oregon City High School and owner of Northwest Walking Tours, LLC.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Oregon City",
+        "state": "OR"
+      },
+      "source_url": "https://www.orcity.org/933/Mayor-City-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:oregon-city:commissioner:scott-wilson",
+      "name": "Scott Wilson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Oregon City City Council",
+      "district": null,
+      "phone": "503-657-0891",
+      "email": "swilson@orcity.org",
+      "url": "https://www.orcity.org/1774/Commissioner-Scott-Wilson",
+      "photo_url": "https://www.orcity.org/ImageRepository/Document?documentID=15004",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "625 Center Street Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Friday 8:00am to 5:00pm",
+      "bio": "Commissioner Scott Wilson's term is from January 1, 2025, to December 31, 2028. He is involved in the Urban Renewal Commission, Budget Committee, and Enhancement Grant Committee. He holds an M.A. in Social Work from Indiana University and an M.A. in Business Administration from Western Governors University, and works as a Program Manager/Youth & Family Therapist.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Oregon City",
+        "state": "OR"
+      },
+      "source_url": "https://www.orcity.org/933/Mayor-City-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "or:oregon-city:mayor:denyse-mcgriff",
+      "name": "Denyse McGriff",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Oregon City City Council",
+      "district": null,
+      "phone": "503-656-3912",
+      "email": "dmcgriff@orcity.org",
+      "url": "https://www.orcity.org/1772/Mayor-Denyse-McGriff",
+      "photo_url": "https://www.orcity.org/ImageRepository/Document?documentID=11642",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "625 Center Street Oregon City, OR 97045",
+      "offices": [],
+      "hours": "Monday to Friday 8:00am to 5:00pm",
+      "bio": "Mayor Denyse McGriff's term is from January 1, 2023 to December 31, 2026. She has 32 years of planning and local government experience in Oregon, having previously served as Principal Planner in Oregon City from 1988-1996. She holds a Master of Urban and Regional Planning, a Master of Science in Political Science, and a Bachelor of Arts in History and Politics & Government.",
+      "bio_checked_at": "2026-09-01T03:06:32.373Z",
+      "jurisdiction": {
+        "city": "Oregon City",
+        "state": "OR"
+      },
+      "source_url": "https://www.orcity.org/933/Mayor-City-Commission",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 1
     },
     {

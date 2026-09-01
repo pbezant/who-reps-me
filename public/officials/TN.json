@@ -1,7 +1,7 @@
 {
   "state": "TN",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 225,
+  "generated_at": "2026-09-01T03:06:32.373Z",
+  "count": 230,
   "cities": [
     "Bedford County",
     "Blount County",
@@ -10,6 +10,7 @@
     "Chattanooga",
     "Cheatham County",
     "Cleveland",
+    "Cookeville",
     "Cumberland County",
     "Davidson County",
     "Dickson County",
@@ -2528,6 +2529,161 @@
       },
       "source_url": "https://www.clevelandtn.gov/122/Mayor-City-Council",
       "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cookeville:councilman:ali-bagci",
+      "name": "Ali Bagci",
+      "office": "Councilman",
+      "level": "local",
+      "body": "Cookeville City Council",
+      "district": null,
+      "phone": "931-520-5241",
+      "email": "ewalker@cookeville-tn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "45 East Broad Street Cookeville, TN 38501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cookeville",
+        "state": "TN"
+      },
+      "source_url": "https://www.cookeville-tn.gov/358/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cookeville:councilwoman:cigi-england",
+      "name": "Cigi England",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Cookeville City Council",
+      "district": null,
+      "phone": "931-520-5241",
+      "email": "abagci@cookeville-tn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "45 East Broad Street Cookeville, TN 38501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cookeville",
+        "state": "TN"
+      },
+      "source_url": "https://www.cookeville-tn.gov/358/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cookeville:councilwoman:kelly-parkison",
+      "name": "Kelly Parkison",
+      "office": "Councilwoman",
+      "level": "local",
+      "body": "Cookeville City Council",
+      "district": null,
+      "phone": "931-520-5241",
+      "email": "cgilbert@cookeville-tn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "45 East Broad Street Cookeville, TN 38501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cookeville",
+        "state": "TN"
+      },
+      "source_url": "https://www.cookeville-tn.gov/358/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cookeville:mayor:chad-gilbert",
+      "name": "Chad Gilbert",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Cookeville City Council",
+      "district": null,
+      "phone": "931-520-5241",
+      "email": "lwheaton@cookeville-tn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "45 East Broad Street Cookeville, TN 38501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cookeville",
+        "state": "TN"
+      },
+      "source_url": "https://www.cookeville-tn.gov/358/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "tn:cookeville:vice-mayor:luke-eldridge",
+      "name": "Luke Eldridge",
+      "office": "Vice-Mayor",
+      "level": "local",
+      "body": "Cookeville City Council",
+      "district": null,
+      "phone": "931-520-5241",
+      "email": "leldridge@cookeville-tn.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "45 East Broad Street Cookeville, TN 38501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cookeville",
+        "state": "TN"
+      },
+      "source_url": "https://www.cookeville-tn.gov/358/City-Council",
+      "extracted_at": "2026-09-01T03:06:32.373Z",
       "confidence": 0.9
     },
     {
