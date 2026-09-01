@@ -11,6 +11,7 @@ import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
 import ReportBug from './ReportBug';
+import Support from './Support';
 import RepCard from './RepCard';
 import RepProfile from './RepProfile';
 // import logo from './logo.svg';
@@ -55,6 +56,8 @@ function App() {
             colon-id still matches too. */}
         <Route path="/rep/*" element={<RepProfile />} />
       </Routes>
+      {/* Footer, shown on every route below the page content. */}
+      <Support />
       {/* Always available, unlike the officials-suggestion button it replaced — a bug can
           happen before a search ever completes. See ReportBug.js's own header comment. */}
       <ReportBug repList={repList} />
