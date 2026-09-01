@@ -1,0 +1,652 @@
+{
+  "state": "NE",
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 20,
+  "cities": [
+    "Bellevue",
+    "Hall County",
+    "Lincoln",
+    "Sarpy County"
+  ],
+  "officials": [
+    {
+      "id": "ne:bellevue:mayor:rusty-hike",
+      "name": "Rusty Hike",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bellevue City Council",
+      "district": null,
+      "phone": "402-591-4535",
+      "email": "Rusty.Hike@bellevue.net",
+      "url": "https://www.bellevue.net/m/directory/employee?eid=59",
+      "photo_url": "https://www.bellevue.net/ImageRepository/Document?documentID=1252",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1500 Wall Street Bellevue NE 68005",
+      "offices": [],
+      "hours": null,
+      "bio": "Rusty Hike, Mayor of Bellevue, Nebraska, has deep roots in the city, where his family has resided for generations. He has served on numerous boards and commissions, including the Bellevue Planning Commission and Sarpy County Board of Commissioners, and is currently in his second term as Mayor.",
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Bellevue",
+        "state": "NE"
+      },
+      "source_url": "https://www.bellevue.net/490/THE-Mayor",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner,-board-chair:ron-peterson",
+      "name": "Ron Peterson",
+      "office": "Commissioner, Board Chair",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 7",
+      "phone": "308-218-9931",
+      "email": "ronp@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/7_ron_peterson.png?t=202412211515190",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner,-board-vice-chair:scott-sorensen",
+      "name": "Scott Sorensen",
+      "office": "Commissioner, Board Vice Chair",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 3",
+      "phone": "308-390-2122",
+      "email": "scotts@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/3_scott_sorensen.png?t=202412211504560",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner:butch-hurst",
+      "name": "Butch Hurst",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 1",
+      "phone": "308-391-2940",
+      "email": "butchh@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/1_butch_hurst.png?t=202412211439450",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner:gary-quandt",
+      "name": "Gary Quandt",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 6",
+      "phone": "308-382-8255",
+      "email": "garyq@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/6_gary_quandt.png?t=202412211513000",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner:jane-richardson",
+      "name": "Jane Richardson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 5",
+      "phone": "308-379-2815",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/5_jane_richardson.png?t=202412211510040",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner:karen-bredthauer",
+      "name": "Karen Bredthauer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 2",
+      "phone": "308-382-2070",
+      "email": "karenb@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/2_karen_bredthauer.png?t=202412211459270",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:hall-county:commissioner:pamela-e.-lancaster",
+      "name": "Pamela E. Lancaster",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Hall County Commissioners Court",
+      "district": "District 4",
+      "phone": "308-381-2754",
+      "email": "paml@hallcountyne.gov",
+      "url": null,
+      "photo_url": "https://www.hallcountyne.gov/government/board_of_commissioners/Images/Government/Board%20Of%20Commissioners/Members/4_pamela_lancaster.jpg?t=202412211507390",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "200 South Sycamore Street Grand Island, NE 68801",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Hall County",
+        "state": "NE"
+      },
+      "source_url": "https://www.hallcountyne.gov/government/board_of_commissioners/members.php",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member-(chair):brodey-weber",
+      "name": "Brodey Weber",
+      "office": "City Council Member (CHAIR)",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "NW District 4",
+      "phone": null,
+      "email": "bweber@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-4",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/brodey-weber.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "A lifelong resident of Northwest Lincoln, Brodey Weber was elected to the Lincoln City Council in 2023 at the age of 25. Since assuming office, Brodey has dedicated his efforts to enhancing the accessibility of local government for constituents, prioritizing investments in our infrastructure, and promoting community-centered economic development initiatives. Brodey has earned a Bachelor of Arts in Communication Studies from the University of Nebraska-Lincoln, and a Juris Doctorate from Creighton University School of Law.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member-(vice-chair):tom-duden",
+      "name": "Tom Duden",
+      "office": "City Council Member (VICE CHAIR)",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "SE District 2",
+      "phone": null,
+      "email": "tduden@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-2",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/tom-duden.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 South 10th Street Lincoln, NE 68508",
+      "offices": [],
+      "hours": null,
+      "bio": "Tom Duden had a 26-year career with the Lincoln Police Department and later served as HR Facilities Director for Design Data Corporation. He holds a Bachelor of Arts in Public Administration and a Master of Arts in Management, and currently teaches Criminal Justice courses at Doane University and Southeast Community College. In his free time, he enjoys fishing, camping, sporting events, traveling, and grandparenting with his wife Ronda.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:bennie-shobe",
+      "name": "Bennie Shobe",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "bshobe@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-3",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/shobe480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 South 10th Street Lincoln, NE 68508",
+      "offices": [],
+      "hours": null,
+      "bio": "Bennie earned a Bachelor of General Studies and a Master of Arts from Western Kentucky University. He holds a full-time position as a Program Analyst for the Nebraska Department of Labor.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:james-michael-bowers",
+      "name": "James Michael Bowers",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "NE District 1",
+      "phone": null,
+      "email": "jbowers@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-1",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/bowers480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "James Michael Bowers was elected to the Lincoln City Council to represent District 1 in May of 2019, focusing on public safety, neighborhood reinvestment, and affordable housing. Born and raised in Northeast Lincoln, he is a social worker and small business owner, with a background in public service including volunteering at the Northeast Family Center and serving on various boards. He holds Bachelors and Master's degrees in Social Work.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:justin-p.-carlson",
+      "name": "Justin P. Carlson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "SW District 3",
+      "phone": null,
+      "email": "jpcarlson@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/District-3",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/3/city-council/profile-images/justin-carlson.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Justin P. Carlson was elected to the Lincoln City Council to represent District 3 (Southwest Lincoln) in May of 2023. He is a proud graduate of Lincoln High School and the University of Nebraska-Lincoln College of Business, and an active community volunteer. Professionally, he spent 20 years in insurance and financial services and currently works for the University of Nebraska Foundation.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:sändra-washington",
+      "name": "Sändra Washington",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "swashington@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-1",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/washington480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Sändra Washington, originally from Columbus, Ohio, has lived in Lincoln since 1990. She worked with the National Park Service for 25 years, retiring in 2014 as the Association Regional Director for Cultural Resources, Planning, Construction, Communications, Legislation and Congressional Affairs. Washington currently sits on the board of the Nebraska Trails Foundation and the National Parks Conservation Association.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:lincoln:council-member:tom-beckius",
+      "name": "Tom Beckius",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Lincoln City Council",
+      "district": "At-Large",
+      "phone": null,
+      "email": "tbeckius@lincoln.ne.gov",
+      "url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members/At-Large-2",
+      "photo_url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/city-council/profile-images/beckius480.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "555 S. 10th St., Room 111",
+      "offices": [],
+      "hours": "Monday from 9:00am-1:00pm",
+      "bio": "Tom Beckius was elected to the Lincoln City Council in 2021 and re-elected in 2025. Born and raised in Lincoln, Tom is a graduate of Lincoln Southeast High School and University of Nebraska-Lincoln. Tom owns and operates several small businesses focused on real estate and construction.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Lincoln",
+        "state": "NE"
+      },
+      "source_url": "https://www.lincoln.ne.gov/City/City-Council/Council-Members",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:angi-l.-burmeister",
+      "name": "Angi L. Burmeister",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 3",
+      "phone": "402-593-4155",
+      "email": "aburmeister@sarpy.gov",
+      "url": "https://www.sarpy.gov/341/District-3",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5224",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Angi L. Burmeister is the Sarpy County Commissioner from the 3rd District, first sworn in on January 29, 2019, and elected to subsequent terms. She is an attorney and managing partner with Berkshire and Burmeister Law Offices, holding degrees from UNL and Creighton School of Law. Burmeister is a long-time resident of Bellevue and has served on various community boards.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:david-klug",
+      "name": "David Klug",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 2",
+      "phone": "402-593-4155",
+      "email": "dklug@sarpy.gov",
+      "url": "https://www.sarpy.gov/340/District-2",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5223",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner David Klug is the Sarpy County Commissioner from the 2nd District, elected into office in January 2019. He is the 2025 Board Chair and also served as Vice Chair in 2024 and 2021. Klug works for OrthoNebraska and holds a Master's Degree in Public Administration from the University of Nebraska at Omaha.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:don-kelly",
+      "name": "Don Kelly",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 1",
+      "phone": "402-593-4155",
+      "email": "donkelly@sarpy.gov",
+      "url": "https://www.sarpy.gov/338/District-1",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5222",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [
+        {
+          "classification": "main",
+          "name": "Sarpy County Courthouse Campus",
+          "city": "Papillion",
+          "address": "1210 Golden Gate Drive, Papillion, NE 68046",
+          "phone": "402-593-2100",
+          "fax": null,
+          "hours": null
+        },
+        {
+          "classification": "main",
+          "name": "Sarpy County 1102 Building",
+          "city": "Papillion",
+          "address": "1102 E. 1st Street, Papillion, NE 68046",
+          "phone": null,
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": "Commissioner Don Kelly is the Sarpy County Commissioner from District 1 and the Board's 2026 Chair. He joined the county board in 2013. His priorities include maintaining public safety, improving local infrastructure, and promoting economic development. Don is a lifelong public servant who retired as a colonel from the U.S. Air Force.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:gary-mixan",
+      "name": "Gary Mixan",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 4",
+      "phone": "402-593-4155",
+      "email": "gmixan@sarpy.gov",
+      "url": "https://www.sarpy.gov/345/District-4",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5225",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Gary Mixan is the Sarpy County Commissioner from District 4 who first took office in January 2017. Mixan serves as liaison for the Nebraska Association of County Officials (NACO), Budget and Finance and Merit Commission. He previously served on Sarpy/Cass Department of Health and Wellness and Metropolitan Area Planning Agency Board of Directors.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ne:sarpy-county:county-commissioner:jim-warren",
+      "name": "Jim Warren",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Sarpy County Commissioners Court",
+      "district": "District 5",
+      "phone": "402-593-4155",
+      "email": "jwarren@sarpy.gov",
+      "url": "https://www.sarpy.gov/346/District-5",
+      "photo_url": "https://www.sarpy.gov/ImageRepository/Document?documentId=5226",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1210 Golden Gate Drive Suite 1250 Papillion , NE 68046-2894",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Jim Warren is the Sarpy County Commissioner for the 5th District who took office on January 11, 2011. Warren previously served on the Gretna City Council and as Gretna's Mayor. He holds a degree from Toccoa Falls College in Georgia and resides in Gretna with his wife, Patti, and their three children.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Sarpy County",
+        "state": "NE"
+      },
+      "source_url": "https://www.sarpy.gov/332/Board-Members",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    }
+  ]
+}

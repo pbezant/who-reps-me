@@ -1,13 +1,360 @@
 {
   "state": "CO",
-  "generated_at": "2026-08-20T04:12:47.563Z",
-  "count": 17,
+  "generated_at": "2026-08-30T03:05:54.776Z",
+  "count": 52,
   "cities": [
+    "Arapahoe County",
     "Boulder",
+    "Broomfield County",
     "Denver County",
-    "Durango"
+    "Douglas County",
+    "Durango",
+    "Jefferson County",
+    "Mesa County",
+    "Montrose County"
   ],
   "officials": [
+    {
+      "id": "co:arapahoe-county:arapahoe-county-commissioner:leslie-summey",
+      "name": "Leslie Summey",
+      "office": "Arapahoe County Commissioner",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/your_county/board_of_county_commissioners/commissioner_leslie_summey.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-commissioner:rhonda-fields",
+      "name": "Rhonda Fields",
+      "office": "Arapahoe County Commissioner",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/your_county/board_of_county_commissioners/commissioner_rhonda_fields.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-human-services-director:dan-makelky",
+      "name": "Dan Makelky",
+      "office": "Arapahoe County Human Services Director",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-public-health-director:jennifer-ludwig",
+      "name": "Jennifer Ludwig",
+      "office": "Arapahoe County Public Health Director",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:arapahoe-county-sheriff:tyler-brown",
+      "name": "Tyler Brown",
+      "office": "Arapahoe County Sheriff",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-city-of-aurora:francoise-bergan",
+      "name": "Francoise Bergan",
+      "office": "Councilmember, City of Aurora",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-city-of-centennial:amy-tharp",
+      "name": "Amy Tharp",
+      "office": "Councilmember, City of Centennial",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:council-member,-englewood:steve-ward",
+      "name": "Steve Ward",
+      "office": "Councilmember, Englewood",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:district-attorney:amy-padden",
+      "name": "Amy Padden",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": "18th Judicial District",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:lieutenant,-aurora-police-department:lonnie-eddy",
+      "name": "Lonnie Eddy",
+      "office": "Lieutenant, Aurora Police Department",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:arapahoe-county:town-administrator,-bennett:trish-stiles",
+      "name": "Trish Stiles",
+      "office": "Town Administrator, Bennett",
+      "level": "county",
+      "body": "Arapahoe County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Arapahoe County",
+        "state": "CO"
+      },
+      "source_url": "https://www.arapahoeco.gov/your_county/about_arapahoe_county/regional_opioid_abatement_council.php",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
     {
       "id": "co:boulder:city-council-member:matt-benjamin",
       "name": "Matt Benjamin",
@@ -169,6 +516,347 @@
       "confidence": 1
     },
     {
+      "id": "co:broomfield-county:council-member:austin-ward",
+      "name": "Austin Ward",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "award@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3610/Austin-Ward",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=50017",
+      "social": {
+        "twitter": "https://www.broomfield.org/twitter",
+        "facebook": "https://www.broomfield.org/facebook",
+        "instagram": "https://www.broomfield.org/instagram",
+        "linkedin": "https://www.broomfield.org/linkedin",
+        "youtube": "https://www.broomfield.org/youtube"
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Austin ran and was elected in 2021 for Broomfield City Council representing Ward 2. He has lived in Colorado for the past 10 years and is a fierce transportation advocate, specifically for public transportation, bike infrastructure, and walkable communities. Austin graduated from The University of Colorado Boulder in 2018 with a Bachelor's Degree in Economics and is currently a bus operator for RTD.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:heidi-henkel",
+      "name": "Heidi Henkel",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "hhenkel@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3039/Heidi-Henkel",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=43014",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": "Weekly on Tuesdays 10 am - 1 pm by request via email. Additional time is available by request.",
+      "bio": "Heidi Henkel was born and raised in Colorado and has served Broomfield since 2007. After a career as a high school teacher, she opened a math tutoring business and worked as a Communications Director. Re-elected to Broomfield's Ward 5 City Council in 2023, she advocates for affordability, safety, fiscal responsibility, and environmental sustainability.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:jean-lim",
+      "name": "Jean Lim",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "jlim@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3037/Jean-Lim",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49949",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Jean Lim was elected by Ward 3 in 2019. Her current term ends November, 2027. Jean and her husband, Charlie, have lived in Broomfield for nine years and have two adult sons.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:julie-twiss",
+      "name": "Julie Twiss",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "jtwiss@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4402/Julie-Twiss",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49952",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Julie was elected to represent Ward 1 in 2025. She moved to Colorado from Tennessee in 2001 and has lived in Broomfield's Brandywine neighborhood since 2016. Her family here includes her husband, two teenagers, and her mother. They can often be found walking their dogs or riding bikes through local parks and open spaces.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:katie-peterson",
+      "name": "Katie Peterson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": null,
+      "url": "https://www.broomfield.org/4464/Katie-Peterson",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:laurie-anderson",
+      "name": "Laurie Anderson",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "landerson@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3038/Laurie-Anderson",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=40822",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Laurie Anderson was elected by Ward 4 in 2019, and re-elected in 2023. Her current term ends November 2027. Laurie and her husband, Jason, have lived in Broomfield since 2015.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:paloma-delgadillo",
+      "name": "Paloma Delgadillo",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "pdelgadillo@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3984/Paloma-Delgadillo",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49948",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Paloma moved to Broomfield in July 2020 with her then fiance, now husband. While the choice to move to Broomfield was first born out of practicality, being conveniently located between Boulder and Denver, she soon found her organizing roots here and quickly came to call this place home. Paloma was appointed to Council in January 2023 and was reelected in November of 2023. She looks forward to addressing all things big and small to make Broomfield a welcoming and pleasant place to live for all people.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:sarah-braun",
+      "name": "Sarah Braun",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "sbraun@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4404/Sarah-Braun",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49950",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Sarah was elected by Ward 3 in 2025. She and her husband, Mathew, have lived in Broomfield since 2016. In her free time, she enjoys walking the local trails with her dogs, birdwatching, sharing good food with friends and neighbors, and playing board games.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:sean-mckenzie",
+      "name": "Sean McKenzie",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "smckenzie@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/4403/Sean-McKenzie",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49989",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Sean McKenzie was elected to the Broomfield City Council in November 2025 to represent Ward 4. A husband, sustainability strategist, and longtime advocate for community-based leadership, Sean brings to Council a systems-thinking approach that balances environmental stewardship, economic vitality, and social equity. His work is guided by a simple belief: progress and preservation are not opposites, but complementary commitments to the place we call home.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:council-member:todd-cohen",
+      "name": "Todd Cohen",
+      "office": "Council Member",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "tcohen@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/3497/Todd-Cohen",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49959",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Todd was appointed to represent Ward 5 in 2021 and was elected in November 2021. He and his wife Stacy, a language arts teacher, have lived in Broomfield since 2014. Their two children are Legacy High School graduates.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:broomfield-county:mayor:guyleen-castriotta",
+      "name": "Guyleen Castriotta",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Broomfield County Commissioners Court",
+      "district": null,
+      "phone": "303-469-3301",
+      "email": "gcastriotta@broomfieldcitycouncil.org",
+      "url": "https://www.broomfield.org/2694/Mayor-Guyleen-Castriotta",
+      "photo_url": "https://www.broomfield.org/ImageRepository/Document?documentId=49953",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "One DesCombes Drive Broomfield, CO 80020",
+      "offices": [],
+      "hours": null,
+      "bio": "Guyleen Castriotta was re-elected as Mayor of the City and County of Broomfield in November 2025 and is in her third and final term. Prior to this, she served four years on City Council as Ward 5 Representative and two years as Mayor Pro Tem. Even while guiding Broomfield through a pandemic, Mayor Castriotta implemented an ambitious strategy to transform future Broomfield by upgrading long-neglected infrastructure, increasing access to affordable housing, enhancing workforce development, improving government services, and making resiliency and fiscal sustainability a central focus for Broomfield.",
+      "bio_checked_at": "2026-08-26T03:21:53.889Z",
+      "jurisdiction": {
+        "city": "Broomfield County",
+        "state": "CO"
+      },
+      "source_url": "https://www.broomfield.org/128/Broomfield-Council",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
       "id": "co:denver-county:auditor:timothy-obrien",
       "name": "Timothy O'Brien",
       "office": "Auditor",
@@ -259,6 +947,37 @@
       },
       "source_url": "https://www.denvergov.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:douglas-county:sheriff:darren-weekly",
+      "name": "Darren Weekly",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Douglas County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Douglas County",
+        "state": "CO"
+      },
+      "source_url": "https://www.douglasco.gov/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
       "confidence": 1
     },
     {
@@ -413,7 +1132,38 @@
         "state": "CO"
       },
       "source_url": "https://www.durangogov.org",
-      "extracted_at": "2026-08-19T20:54:54.783Z",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:durango:councilor:shirley-gonzales",
+      "name": "Shirley Gonzales",
+      "office": "Councilor",
+      "level": "local",
+      "body": "Durango City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Durango",
+        "state": "CO"
+      },
+      "source_url": "https://www.durangogov.org",
+      "extracted_at": "2026-08-29T04:33:42.194Z",
       "confidence": 1
     },
     {
@@ -445,6 +1195,347 @@
       },
       "source_url": "https://www.durangogov.org/27/Local-Government",
       "extracted_at": "2026-08-19T20:54:54.783Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:jefferson-county:board-chair,-board-of-county-commissioners:andy-kerr",
+      "name": "Andy Kerr",
+      "office": "Board Chair, Board of County Commissioners",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "303-271-6511",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Jefferson County Parkway Golden, CO 80419",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "CO"
+      },
+      "source_url": "https://www.jeffco.us/m/newsflash/home/detail/2642",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:jefferson-county:county-manager:laura-e.-aldrete",
+      "name": "Laura E. Aldrete",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Jefferson County Commissioners Court",
+      "district": null,
+      "phone": "303-271-6511",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.jeffco.us/ImageRepository/Document?documentID=58607",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 Jefferson County Parkway Golden, CO 80419",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Jefferson County",
+        "state": "CO"
+      },
+      "source_url": "https://www.jeffco.us/m/newsflash/home/detail/2642",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:mesa-county:county-commissioner:cody-davis",
+      "name": "Cody Davis",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mesa County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": "cody.davis@mesacounty.us",
+      "url": "https://www.mesacounty.us/departments-and-services/commissioners/cody-davis",
+      "photo_url": "https://www.mesacounty.us/sites/default/files/styles/max_width_800/public/2023-01/Cody%20Davis%20District%201%20County%20Commissioner%20-%20ratio%201-1.jpg?itok=Q5Xh0E93",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Cody Davis is a husband, father, business owner, and fifth-generation native of the Grand Valley. He and his wife, Alana, have five beautiful children, three of whom they have adopted through their many years of foster parenting. Cody is a loving family man and a successful community leader. He brings both a principled and common-sense approach to local government.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Mesa County",
+        "state": "CO"
+      },
+      "source_url": "https://www.mesacounty.us/departments-and-services/commissioners/cody-davis",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:assessor:brad-hughes",
+      "name": "Brad Hughes",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": null,
+      "phone": "970-249-3753",
+      "email": "assessor@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/Directory.aspx?EID=8",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=19145",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Brad Hughes was elected to his fifth term as Montrose County Assessor in November of 2022, having previously served 8 years as Chief Deputy Assessor. He holds a Bachelor of Arts Degree in Economics and an MAI designation, demonstrating over 34 years of experience in Colorado Assessors' Offices. His primary objective is to achieve accurate and equitable valuations within Montrose County, utilizing new technology to improve property data availability.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:clerk-&-recorder:tressa-guynes",
+      "name": "Tressa Guynes",
+      "office": "Clerk & Recorder",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "tguynes@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/Directory.aspx?EID=70",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=19144",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Tressa Guynes has been the Montrose County Clerk & Recorder since February 2015, initially appointed and then elected in 2016. She relocated to Montrose in 2012 after retiring from the State of Mississippi with over 30 years of public administration service. Providing excellent customer service and professionalism to the citizens of Montrose County is very important to Tressa.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:coroner:rick-fellabaum",
+      "name": "Rick Fellabaum",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": null,
+      "phone": "970-252-4527",
+      "email": "coroner@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/183/Coroner",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=19150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1140 N. Grand Ave ., #150 Montrose, CO 81401",
+      "offices": [],
+      "hours": "Monday – Friday 8 a.m. to 12 noon, excluding legal holidays",
+      "bio": "Rick Fellabaum, born in Montrose County, served in the US Air Force and spent 28 years in Law Enforcement before returning to Montrose. He joined the Coroner's Office in 2008, was appointed Coroner in June 2022, and elected for a 4-year term in November 2022.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:county-commissioner:kirstin-copeland",
+      "name": "Kirstin Copeland",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": "District 1",
+      "phone": "970-252-4530",
+      "email": "kcopeland@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/1266/Kirstin-Copeland",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=25630",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 South 1st Street Suite 300 Montrose, CO 81401",
+      "offices": [],
+      "hours": "Monday - Thursday 7:30 am - 4:30 pm and by appointment",
+      "bio": "Kirstin Copeland is a lifelong public servant and longtime Montrose County resident with over two decades dedicated to public safety, community partnerships, and natural resource management. As a Park Manager and Peace Officer with Colorado Parks and Wildlife, she oversaw daily operations at Ridgway State Park, including infrastructure, emergency response, and fiscal oversight. She remains deeply engaged in community service, serving on various boards and volunteering for local initiatives.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:county-commissioner:sean-pond",
+      "name": "Sean Pond",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": "District 3",
+      "phone": "970-252-4531",
+      "email": "spond@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/1265/Sean-Pond",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=24639",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 South 1st Street Suite 300 Montrose, CO 81401",
+      "offices": [],
+      "hours": "Monday - Thursday 7:30 am - 4:30 pm and by appointment",
+      "bio": "Sean M. Pond is a fifth-generation Colorado native and a veteran of the United States Navy, where he led a 52-man division during two deployments. He has a diverse career background in radiological health and safety with the Department of Energy, and in the oil and gas industry, where he eventually owned a company. Sean is a father of five and grandfather of seven, committed to upholding the Constitution and ensuring freedoms endure in Montrose County.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:county-commissioner:sue-hansen",
+      "name": "Sue Hansen",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": "District 2",
+      "phone": "970-252-4532",
+      "email": "shansen@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/877/Sue-Hansen",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=14171",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "320 South 1st Street Suite 300 Montrose, CO 81401",
+      "offices": [],
+      "hours": "Monday - Thursday 7:30 am - 4:30 pm and by appointment",
+      "bio": "Sue is the District 2 Montrose County Commissioner, currently serving her second and final term. As Commissioner, she has focused on key issues affecting Montrose County, including public lands, agriculture, energy, mental and behavioral health, housing, land use, water, and forest and watershed health. She serves in multiple leadership roles, including vice chair, treasurer, and secretary for Region 14’s opioid response effort.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 1
+    },
+    {
+      "id": "co:montrose-county:sheriff:gene-lillard",
+      "name": "Gene Lillard",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=19146",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "co:montrose-county:treasurer:rosemary-m.-murphy",
+      "name": "Rosemary M. Murphy",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Montrose County Commissioners Court",
+      "district": null,
+      "phone": "970-249-3565",
+      "email": "rmurphy@montrosecounty.net",
+      "url": "https://www.montrosecounty.net/Directory.aspx?EID=29",
+      "photo_url": "https://www.montrosecounty.net/ImageRepository/Document?documentID=19163",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rosemary Murphy was elected as Montrose County Treasurer and Public Trustee in November 2006, bringing with her a strong background in finance and leadership. She previously worked eight years in the Treasurer’s Office, including time as Chief Deputy Treasurer, along with 10 years at a local financial institution and 14 years in management and supervision at a large mail order business in Virginia. In her role at the County, Rosemary is committed to fulfilling all statutory responsibilities while leveraging the experience of her staff to provide professional, reliable service and excellent customer care to the citizens of Montrose County.",
+      "bio_checked_at": "2026-08-30T03:05:54.776Z",
+      "jurisdiction": {
+        "city": "Montrose County",
+        "state": "CO"
+      },
+      "source_url": "https://www.montrosecounty.net/180/Elected-Officials",
+      "extracted_at": "2026-08-30T03:05:54.776Z",
       "confidence": 1
     }
   ]

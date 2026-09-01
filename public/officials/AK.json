@@ -1,0 +1,105 @@
+{
+  "state": "AK",
+  "generated_at": "2026-08-27T04:45:21.508Z",
+  "count": 3,
+  "cities": [
+    "Anchorage Municipality",
+    "Fairbanks North Star Borough",
+    "Kenai Peninsula Borough"
+  ],
+  "officials": [
+    {
+      "id": "ak:anchorage-municipality:mayor:suzanne-lafrance",
+      "name": "Suzanne LaFrance",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Anchorage Municipality Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": "https://www.muni.org/Departments/Mayor/Pages/ContactTheMayor.aspx",
+      "photo_url": "https://www.muni.org/Departments/Mayor/PublishingImages/MayorLaFrance.jpg",
+      "social": {
+        "twitter": "https://x.com/MayorLaFrance",
+        "facebook": "https://www.facebook.com/profile.php?id=61561969847742",
+        "instagram": "https://www.instagram.com/MayorLaFrance/",
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Anchorage Municipality",
+        "state": "AK"
+      },
+      "source_url": "https://www.muni.org/Departments/Mayor/Pages/default.aspx",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ak:fairbanks-north-star-borough:borough-mayor:grier-hopkins",
+      "name": "Grier Hopkins",
+      "office": "Borough Mayor",
+      "level": "county",
+      "body": "Fairbanks North Star Borough Commissioners Court",
+      "district": null,
+      "phone": "907-459-1000",
+      "email": null,
+      "url": "https://www.fnsb.gov/740/Meet-Our-Mayor",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "907 Terminal Street Fairbanks, AK 99701",
+      "offices": [],
+      "hours": "Monday through Friday: 8:00 AM to 5:00 PM",
+      "bio": "Mayor Grier Hopkins was born and raised in Fairbanks, Alaska. He grew up in Goldstream and currently resides in Fairbanks with his wife Kristina Miller and daughter, Isidora.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Fairbanks North Star Borough",
+        "state": "AK"
+      },
+      "source_url": "https://www.fnsb.gov/740/Meet-Our-Mayor",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ak:kenai-peninsula-borough:mayor:peter-a.-micciche",
+      "name": "Peter A. Micciche",
+      "office": "Mayor",
+      "level": "county",
+      "body": "Kenai Peninsula Borough Commissioners Court",
+      "district": null,
+      "phone": "907-262-4441",
+      "email": null,
+      "url": "https://www.kpb.us/local-governance-and-permitting/leadership-governance/mayor/mayor-overview",
+      "photo_url": "https://www.kpb.us/images/KPB/MYR/Images/MayorMicciche_Desk_SM.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "144 North Binkley Street, Soldotna, Alaska 99669",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-27T04:45:21.508Z",
+      "jurisdiction": {
+        "city": "Kenai Peninsula Borough",
+        "state": "AK"
+      },
+      "source_url": "https://www.kpb.us/local-governance-and-permitting/leadership-governance/mayor/mayor-overview",
+      "extracted_at": "2026-08-27T04:45:21.508Z",
+      "confidence": 1
+    }
+  ]
+}

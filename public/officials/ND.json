@@ -1,0 +1,416 @@
+{
+  "state": "ND",
+  "generated_at": "2026-08-31T03:06:51.981Z",
+  "count": 13,
+  "cities": [
+    "Bismarck",
+    "Fargo",
+    "Minot",
+    "West Fargo"
+  ],
+  "officials": [
+    {
+      "id": "nd:bismarck:city-administrator:jason-tomanek",
+      "name": "Jason Tomanek",
+      "office": "City Administrator",
+      "level": "local",
+      "body": "Bismarck City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.bismarcknd.gov/ImageRepository/Document?documentID=55925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bismarck",
+        "state": "ND"
+      },
+      "source_url": "https://www.bismarcknd.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:bismarck:mayor:mike-schmitz",
+      "name": "Mike Schmitz",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Bismarck City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.bismarcknd.gov/ImageRepository/Document?documentID=55925",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Bismarck",
+        "state": "ND"
+      },
+      "source_url": "https://www.bismarcknd.gov/",
+      "extracted_at": "2026-08-26T03:21:53.889Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:fargo:assistant-city-administrator:brenda-e.-derrig",
+      "name": "Brenda E. Derrig",
+      "office": "Assistant City Administrator",
+      "level": "local",
+      "body": "Fargo City Council",
+      "district": null,
+      "phone": "701-241-1310",
+      "email": null,
+      "url": "https://fargond.gov/city-government/departments/administration/assistant-city-administrator",
+      "photo_url": "https://download.fargond.gov/resize/720/660/1/derrig_brenda.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Fargo City Hall 225 4th Street North Fargo, ND 58102",
+      "offices": [],
+      "hours": "Monday — Friday 7:45 a.m. — 4:30 p.m. ( Except for Legal Holidays )",
+      "bio": "Under the general administrative direction of the City Administrator, the Assistant City Administrator provides leadership and direction to all city departments in the provision of city services by establishing goals and objectives within the policy directives set by the City Administrator and the City Commission, and by assisting subordinate managers in developing and implementing procedures to accomplish departmental goals and objectives.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Fargo",
+        "state": "ND"
+      },
+      "source_url": "https://fargond.gov/city-government/departments/administration",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:fargo:city-administrator:michael-j.-redlinger",
+      "name": "Michael J. Redlinger",
+      "office": "City Administrator",
+      "level": "local",
+      "body": "Fargo City Council",
+      "district": null,
+      "phone": "701-241-1310",
+      "email": null,
+      "url": "https://fargond.gov/city-government/departments/administration/city-administrator",
+      "photo_url": "https://download.fargond.gov/resize/720/660/1/redlinger_michael.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Fargo City Hall 225 4th Street North Fargo, ND 58102",
+      "offices": [],
+      "hours": "Monday — Friday 7:45 a.m. — 4:30 p.m. ( Except for Legal Holidays )",
+      "bio": "Under the general administrative direction of the City Commission, the City Administrator provides leadership and direction to all city departments in the provision of city services by establishing goals and objectives within the policy directives set by the City Commission and by assisting subordinate managers in developing and implementing procedures to accomplish departmental goals and objectives. The City Administrator also provides administrative support to the City Commission on matters relating to economic development.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Fargo",
+        "state": "ND"
+      },
+      "source_url": "https://fargond.gov/city-government/departments/administration",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:fargo:director-of-strategic-planning-&-research:jim-gilmour",
+      "name": "Jim Gilmour",
+      "office": "Director of Strategic Planning & Research",
+      "level": "local",
+      "body": "Fargo City Council",
+      "district": null,
+      "phone": "701-241-1476",
+      "email": null,
+      "url": "https://fargond.gov/city-government/departments/administration/strategic-planning-research",
+      "photo_url": "https://download.fargond.gov/resize/720/660/0/gilmour_jim_2021.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Fargo City Hall 225 4th Street North Fargo, ND 58102",
+      "offices": [],
+      "hours": "Monday — Friday 7:30 a.m. — 4:30 p.m. ( Except for Legal Holidays )",
+      "bio": null,
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Fargo",
+        "state": "ND"
+      },
+      "source_url": "https://fargond.gov/city-government/departments/administration",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:council-member:eric-locken",
+      "name": "Eric Locken",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-721-6278",
+      "email": "eric.locken@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=184",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=10392",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:council-member:mike-blessum",
+      "name": "Mike Blessum",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-818-2000",
+      "email": "mike.blessum@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=164",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=8847",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Blessum is an Alderman on the City Council. He is a Shareholder at Accounting Solutions and holds a BS in Chemical Engineering from the University of North Dakota. He is involved with American Experiment ND and the North Dakota Republican Party, and is married with two grown children and one grandchild.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:council-member:rob-fuller",
+      "name": "Rob Fuller",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-720-7274",
+      "email": "rob.fuller@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=162",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=8880",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": "Rob M. Fuller is an Alderman on the City Council. He is the owner/operator of Spartan Firearms and was a commercial banker for 17 years. He is a graduate of Bishop Ryan '91, the University of ND, and the Graduate School of Banking '18. He is married to Katie and has two sons, Tripp and Teage.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:council-member:scott-samuelson",
+      "name": "Scott Samuelson",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-509-7772",
+      "email": "scott.samuelson@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=163",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=8849",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": "Scott Samuelson is an Alderman on the City Council. He is a Master Plumber licensed by the North Dakota State Plumbing Board, educated at Bismarck High School and Dickinson State College, and moved to Minot in 1989. He is married to Connie and has two children.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:mayor:mark-jantzer",
+      "name": "Mark Jantzer",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-833-3404",
+      "email": "mark.jantzer@minotnd.gov",
+      "url": "https://www.minotnd.gov/directory.aspx?EID=48",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=10434",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": "Mark Jantzer is a retired GM of The Computer Store, Inc. He holds a BA from St. John's University and a Masters from Minot State University. He is involved with organizations like MACEDC, TF21, and MSU Regents, and is a Department of the Air Force Civil Leader Emeritus.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:president:steve-podrygula",
+      "name": "Steve Podrygula",
+      "office": "President",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-839-7473",
+      "email": "steve.podrygula@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=185",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=10393",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:minot:vice-president:john-macmartin",
+      "name": "John MacMartin",
+      "office": "Vice-President",
+      "level": "local",
+      "body": "Minot City Council",
+      "district": null,
+      "phone": "701-833-7603",
+      "email": "john.macmartin@minotnd.gov",
+      "url": "https://www.minotnd.gov/Directory.aspx?EID=183",
+      "photo_url": "https://www.minotnd.gov/ImageRepository/Document?documentID=10394",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "10 3rd Ave SW Minot, ND 58701",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Minot",
+        "state": "ND"
+      },
+      "source_url": "https://www.minotnd.gov/252/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "nd:west-fargo:commissioner:rory-jorgensen",
+      "name": "Rory Jorgensen",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "West Fargo City Council",
+      "district": null,
+      "phone": "701-831-7273",
+      "email": null,
+      "url": "https://www.westfargond.gov/1380/Commissioner-Rory-Jorgensen",
+      "photo_url": "https://www.westfargond.gov/ImageRepository/Document?documentId=11406",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2515 6th Street E. West Fargo, ND 58078",
+      "offices": [],
+      "hours": "7:30 a.m. to 4:30 p.m. Monday through Friday",
+      "bio": null,
+      "bio_checked_at": "2026-08-31T03:06:51.981Z",
+      "jurisdiction": {
+        "city": "West Fargo",
+        "state": "ND"
+      },
+      "source_url": "https://www.westfargond.gov/1380/Commissioner-Rory-Jorgensen",
+      "extracted_at": "2026-08-31T03:06:51.981Z",
+      "confidence": 1
+    }
+  ]
+}

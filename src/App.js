@@ -1,35 +1,138 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import axios from 'axios';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
+import Seo from './Seo';
+// toRepCard lives in ./officials (shared with the build scripts); re-exported below so existing
+// importers (App.test.js) keep getting it from './App'.
+import { toRepCard } from './officials';
 import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
 import ReportBug from './ReportBug';
 import Support from './Support';
+import RepCard from './RepCard';
+import RepProfile from './RepProfile';
 // import logo from './logo.svg';
 import './App.css';
 
 const apiKey = "16d983f13d34f95039958108";
 
+export { toRepCard };
+
 function App() {
   const [repList, setRepList] = useState(null);
+  // Lifted out of SearchBar because HomePage unmounts for as long as a profile is open: state
+  // living inside SearchBar would be gone on the way back, leaving the user staring at an empty
+  // search box sitting above their own still-rendered results — which reads as "my search was
+  // lost" even though repList here survived the trip the whole time.
+  const [searchLocation, setSearchLocation] = useState('');
+  const appRef = useRef(null);
+  useRouteScroll(appRef);
 
   return (
-    <div className="App">
-      <main>
-        <h1 className='hero-title'>Who Reps Me?</h1>
-        <h2 className='hero-subtitle'>An application to find your representatives</h2>
-        <SearchBar apiKey={apiKey} setRepList={setRepList} />
-        <Results repList={repList} />
-      </main>
+    <HelmetProvider>
+    <div className="App" ref={appRef}>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <HomePage
+              repList={repList}
+              setRepList={setRepList}
+              location={searchLocation}
+              setLocation={setSearchLocation}
+            />
+          }
+        />
+        {/* In-session clicks hand the rep object through router state (fast path). A cold visit
+            — refresh, shared link, crawler — has no state, so RepProfile resolves the URL itself:
+            local officials by fetching their state shard and matching the slug (and the build
+            prerenders each one as static HTML), federal/state reps fall back to "search again"
+            since they have no id-addressable store. See RepProfile.js. */}
+        {/* Splat, not :id — a local official's slug is a multi-segment path
+            (tx/austin/mayor/jane-doe). RepProfile reads the full splat and resolves it; a legacy
+            colon-id still matches too. */}
+        <Route path="/rep/*" element={<RepProfile />} />
+      </Routes>
+      {/* Footer, shown on every route below the page content. */}
       <Support />
       {/* Always available, unlike the officials-suggestion button it replaced — a bug can
           happen before a search ever completes. See ReportBug.js's own header comment. */}
       <ReportBug repList={repList} />
     </div>
+    </HelmetProvider>
   );
 }
 export default App;
+
+// The search page: hero title, address search bar, and results. This used to be App's whole
+// always-rendered tree before /rep/:id needed a second route to live alongside it (see App()
+// above) — pulled out unchanged so Routes/Route stays the only thing App() itself renders.
+function HomePage({ repList, setRepList, location, setLocation }) {
+  return (
+    <main>
+      <Seo
+        path="/"
+        description="Enter an address or ZIP and instantly see everyone who represents you — your US House member and Senators, state legislators and executives, and local city and county officials — with contact details for each."
+        jsonLd={{
+          '@context': 'https://schema.org',
+          '@type': 'WebApplication',
+          name: 'Who Reps Me',
+          applicationCategory: 'GovernmentApplication',
+          operatingSystem: 'Web',
+          description:
+            'Find everyone who represents you — federal, state, and local — from your address or ZIP code.',
+          offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        }}
+      />
+      <h1 className='hero-title'>Who Reps Me?</h1>
+      <h2 className='hero-subtitle'>An application to find your representatives</h2>
+      <SearchBar apiKey={apiKey} setRepList={setRepList} location={location} setLocation={setLocation} />
+      <Results repList={repList} />
+    </main>
+  );
+}
+
+// Scrolling happens inside .App (height:100vh; overflow-y:scroll — see App.css), not on the
+// window, so neither the browser's own scroll restoration nor a window.scrollTo helps here:
+// every route change would otherwise dump the user at the top of whatever they navigated to.
+//
+// Going back to the results returns them to the exact spot in the list they left from — without
+// this, clicking a rep near the bottom of a long list and coming back means scrolling past the
+// full-height hero and every earlier card to find their place again. Opening a profile always
+// starts at that profile's top, since inheriting the list's scroll offset would drop the user
+// into the middle of a page they have never seen.
+function useRouteScroll(containerRef) {
+  const { pathname } = useLocation();
+  const resultsScrollTop = useRef(0);
+
+  // Listener and scroll reset deliberately live in ONE effect, in this order: React runs the
+  // previous effect's cleanup before the new effect, so leaving the results detaches the listener
+  // *before* anything reassigns scrollTop. Split across two effects this races — the reset to 0
+  // on the way into a profile fires a scroll event that the not-yet-detached listener records,
+  // overwriting the offset we are trying to preserve with 0 (observed, not theoretical).
+  //
+  // Capturing in a cleanup instead of from scroll events doesn't work either: by the time
+  // cleanup runs the DOM has already swapped in the much shorter profile page, so the browser
+  // has clamped scrollTop to that page's height and the real offset is gone.
+  //
+  // useLayoutEffect rather than useEffect so the offset lands before the browser paints;
+  // otherwise the restored page visibly flashes at the top and jumps.
+  useLayoutEffect(() => {
+    const el = containerRef.current;
+    if (!el) return undefined;
+
+    const onResults = pathname === '/';
+    el.scrollTop = onResults ? resultsScrollTop.current : 0;
+    if (!onResults) return undefined;
+
+    const onScroll = () => { resultsScrollTop.current = el.scrollTop; };
+    el.addEventListener('scroll', onScroll, { passive: true });
+    return () => el.removeEventListener('scroll', onScroll);
+  }, [containerRef, pathname]);
+}
 
 // Free, keyless address-suggestion API (Komoot's public Photon instance, built on
 // OpenStreetMap data). It's a shared demo server — no SLA, rate-limited — which is fine for
@@ -41,8 +144,7 @@ const SUGGEST_DEBOUNCE_MS = 300;
 // 'idle' -> 'searching' (normal fetch, usually well under a second) -> possibly 'scraping'
 // (this search fell through to a live on-demand scrape that's taking a while — see
 // scrapeLocalOfficials()'s SLOW_THRESHOLD_MS) -> back to 'idle'.
-function SearchBar({ apiKey, setRepList }) {
-  const [location, setLocation] = useState('');
+function SearchBar({ apiKey, setRepList, location, setLocation }) {
   const [status, setStatus] = useState('idle');
   // What the on-demand scrape actually concluded, once a search that used it finishes — null
   // means either no on-demand scrape happened (shard hit) or it found officials (self-evident
@@ -123,13 +225,17 @@ function SearchBar({ apiKey, setRepList }) {
   };
 
   const selectSuggestion = (label) => {
+    // Capture what the user actually typed before this overwrites it with the corrected
+    // suggestion — `location` here is still last render's value (setLocation below hasn't
+    // committed yet), so this is the raw pre-autocomplete text, for logSearch below.
+    const typed = location;
     setSuggestions([]);
     setShowSuggestions(false);
     setLocation(label);
-    executeSearch(label);
+    executeSearch(label, typed);
   };
 
-  const executeSearch = async (overrideLocation) => {
+  const executeSearch = async (overrideLocation, rawTyped) => {
     const query = (overrideLocation ?? location).trim();
     if (!query || loading) return;
     setShowSuggestions(false);
@@ -140,6 +246,7 @@ function SearchBar({ apiKey, setRepList }) {
       // lookup needs), then fetch federal reps (5calls), our per-state officials shard, the
       // federal social-links shard, and the state legislators in parallel.
       const geo = await geocode(query);
+      logSearch(query, geo, rawTyped);
       const [fedState, shard, federalSocial, federalDetails, stateCards, executiveCards] = await Promise.all([
         getRepList(apiKey, query),
         getOfficialsShard(geo?.state),
@@ -279,6 +386,24 @@ export function localScrapeNote({ city, found, error, source }) {
   return `No local officials found for ${city} yet.`;
 }
 
+// Fire-and-forget: logs what was searched (netlify/functions/log-search.mjs) so it can be
+// reviewed later (netlify/functions/search-log.mjs). Never awaited by the caller and never lets
+// a network hiccup surface — a search that can't be logged still works exactly like one that can.
+//
+// `typedQuery` is what the user had actually typed before an autocomplete suggestion overwrote
+// it (see selectSuggestion) — only sent when it differs from `query`, so the log shows the raw
+// input specifically for the searches where a suggestion corrected it, not a redundant copy of
+// `query` on every other search.
+function logSearch(query, geo, typedQuery) {
+  const typed = typedQuery?.trim();
+  const payload = typed && typed !== query ? { query, geo, typed } : { query, geo };
+  fetch('/.netlify/functions/log-search', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(payload),
+  }).catch((err) => console.error('logSearch failed:', err));
+}
+
 // Build a human-readable address string from a Photon feature's properties.
 function formatAddress(props) {
   const parts = [];
@@ -307,43 +432,6 @@ async function getRepList(apiKey, location) {
   } catch (error) {
     console.error('Error fetching data:', error);
   }
-}
-
-// Map a scraped official record (static shard or on-demand response — same shape, see
-// scraper/src/normalize.js) into the card shape the 5calls reps use.
-export function toRepCard(o, state) {
-  return {
-    id: o.id,
-    name: o.name,
-    area: o.office || o.body || 'Local',
-    state,
-    phone: o.phone || '',
-    url: o.url || '',
-    photoURL: o.photo_url || '',
-    email: o.email || '',
-    district: o.district || '',
-    address: o.address || '',
-    social: o.social || {},
-    offices: o.offices || [],
-    // Governing body (e.g. "Austin City Council"), for context alongside the office title.
-    // Only surfaced when `office` is present — when it's absent, `area` above already fell
-    // back to `body` itself, so repeating it here would just show the same text twice.
-    body: o.office ? (o.body || '') : '',
-    // hours/bio are only ever populated by the bio-page follow-up pass (see normalize.js) — a
-    // roster-page-only record always has both null.
-    hours: o.hours || '',
-    bio: o.bio || '',
-    // Provenance: when this record was last (re)confirmed, and the page it came from — lets
-    // the frontend show a "verified on" date instead of presenting scraped data as evergreen.
-    // See normalize.js's own header comment for the same intent.
-    verifiedAt: o.extracted_at || null,
-    sourceUrl: o.source_url || '',
-    // LLM self-reported extraction confidence, 0-1 (local officials only — state/federal come
-    // from structured APIs, not extraction). Not shown as a raw number; used to flag a record
-    // worth double-checking instead.
-    confidence: typeof o.confidence === 'number' ? o.confidence : null,
-    isLocal: true,
-  };
 }
 
 // Maps 5calls' field_offices (phone + city, no street address) onto the shared cross-tier
@@ -585,148 +673,6 @@ export async function getLocalOfficials(geo, shard, { onSlowScrape, onScrapeResu
   return scrapeLocalOfficials(geo, { onSlowScrape, onScrapeResult });
 }
 
-// Minimal inline glyphs (not literal brand marks) so a social row needs no icon-library
-// dependency, consistent with the rest of this dependency-free frontend.
-const SOCIAL_ICONS = {
-  twitter: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-      <path d="M4 4l16 16M20 4L4 20" />
-    </svg>
-  ),
-  facebook: (
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.3-1.5 1.6-1.5h1.4V4.3C16 4.2 15 4 13.9 4 11.5 4 10 5.4 10 8.2v2.3H7.5v3H10V21h3.5z" />
-    </svg>
-  ),
-  instagram: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
-      <circle cx="12" cy="12" r="4.2" />
-      <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none" />
-    </svg>
-  ),
-  linkedin: (
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <circle cx="6.9" cy="6.6" r="2" />
-      <path d="M5 10.5h3.9V20H5zM12.5 10.5H16v1.3c.6-.9 1.7-1.5 3-1.5 2.5 0 3.5 1.6 3.5 4.1V20h-3.9v-4.6c0-1.1-.4-1.9-1.5-1.9-1 0-1.5.7-1.5 1.9V20h-3.1z" />
-    </svg>
-  ),
-  youtube: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <rect x="2" y="6" width="20" height="12" rx="4" />
-      <path d="M10 9.3l6 2.7-6 2.7z" fill="currentColor" stroke="none" />
-    </svg>
-  ),
-};
-
-const SOCIAL_LABELS = {
-  twitter: 'Twitter/X',
-  facebook: 'Facebook',
-  instagram: 'Instagram',
-  linkedin: 'LinkedIn',
-  youtube: 'YouTube',
-};
-
-function SocialLinks({ social }) {
-  const entries = Object.entries(social || {}).filter(([, url]) => url);
-  if (!entries.length) return null;
-  return (
-    <li className="social-links">
-      {entries.map(([platform, url]) => (
-        <a
-          key={platform}
-          href={url}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="social-icon"
-          aria-label={SOCIAL_LABELS[platform] || platform}
-        >
-          {SOCIAL_ICONS[platform] || platform}
-        </a>
-      ))}
-    </li>
-  );
-}
-
-// Human label for an office's classification string. Sources disagree on the exact wording
-//("capitol", "district-mail", "dc", ...) so normalize.js/stateLegislators.js pass it through
-// as-is rather than validating against a fixed enum — this is where that gets turned into
-// something readable, falling back to a title-cased version of whatever string showed up.
-const OFFICE_LABELS = {
-  capitol: 'Capitol Office',
-  dc: 'DC Office',
-  district: 'District Office',
-  'district-mail': 'District Office',
-  primary: 'Main Office',
-  other: 'Office',
-};
-
-function labelForClassification(classification) {
-  if (OFFICE_LABELS[classification]) return OFFICE_LABELS[classification];
-  return String(classification || 'Office')
-    .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-// Renders a rep's `offices[]` (district/field/capitol offices beyond the single top-level
-// phone already shown above it) — see scraper/src/normalize.js's normalizeOffices() for the
-// shared shape. Skips an entry that would just repeat the top-level phone with nothing else
-// to add (address/fax/hours), so a federal rep's DC office doesn't show up twice.
-function OfficesList({ offices, topLevelPhone }) {
-  const extra = (offices || []).filter((o) => {
-    const addsNothingNew = !o.address && !o.hours && !o.fax;
-    const sameAsTopLevel = topLevelPhone && o.phone === topLevelPhone;
-    return !(addsNothingNew && sameAsTopLevel);
-  });
-  if (!extra.length) return null;
-  return (
-    <li className="offices-list">
-      <span className="offices-label">Other offices</span>
-      <ul>
-        {extra.map((o, i) => (
-          <li key={i} className="office-entry">
-            <strong>{o.name || o.city || labelForClassification(o.classification)}</strong>
-            {o.address && <span className="office-address">{o.address}</span>}
-            {o.phone && <a href={`tel:${o.phone}`}>{o.phone}</a>}
-            {o.hours && <span className="office-hours">{o.hours}</span>}
-          </li>
-        ))}
-      </ul>
-    </li>
-  );
-}
-
-// term_end/committees/bio only ever come from public/federal-details.json (federal reps), so
-// these are always empty/absent for state and local reps — every render below is conditional.
-// Handles both a bare date (term_end, "2029-01-03" — normalized to UTC midnight so it doesn't
-// shift a day depending on the viewer's timezone) and a full timestamp (verifiedAt, already
-// carrying its own time/zone, e.g. "2026-08-18T18:11:02.875Z") without double-appending one.
-function formatDate(iso) {
-  if (!iso) return '';
-  const d = new Date(iso.includes('T') ? iso : `${iso}T00:00:00Z`);
-  if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
-}
-
-// Below this, a local-officials record (see scraper/src/extract.js's "confidence" prompt field)
-// is flagged as worth double-checking rather than shown as a bare, potentially misleading
-// number — most extractions land at 1 (or close to it); this only catches real outliers.
-const LOW_CONFIDENCE_THRESHOLD = 0.7;
-
-function CommitteesList({ committees }) {
-  if (!committees?.length) return null;
-  return (
-    <li className="rep-committees">
-      <span className="offices-label">Committees</span>
-      <ul>
-        {committees.map((c) => (
-          <li key={c.id}>{c.name}{c.role && ` — ${c.role}`}</li>
-        ))}
-      </ul>
-    </li>
-  );
-}
-
 // Local officials go first (see the comment in executeSearch above for why), then federal,
 // then state — each rendered as its own labeled section.
 const GROUP_ORDER = ['Local', 'Federal', 'State'];
@@ -756,53 +702,6 @@ function Results({ repList }) {
           </div>
         </section>
       ))}
-    </section>
-  );
-}
-
-function RepCard({ rep }) {
-  return (
-    <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-      <img
-        src={rep.photoURL || "/generic-profile.jpg"}
-        alt={rep.name}
-        // Fall back to the placeholder for a broken/404 photo URL too, not just a missing one.
-        onError={(e) => {
-          if (e.currentTarget.src.endsWith("/generic-profile.jpg")) return;
-          e.currentTarget.src = "/generic-profile.jpg";
-        }}
-      />
-      <div>
-        <h2>{rep.name}</h2>
-        <ul>
-          <li>
-            {rep.area.replace("StateUpper", `${rep.state} Senate`).replace("StateLower", `${rep.state} House`)}
-            {rep.district && ` — ${rep.district}`}
-          </li>
-          {rep.body && <li className="rep-body">{rep.body}</li>}
-          {rep.phone && <li><a href={`tel:${rep.phone}`}>{rep.phone}</a></li>}
-          {rep.email && <li><a href={`mailto:${rep.email}`}>{rep.email}</a></li>}
-          {rep.address && <li className="rep-address">{rep.address}</li>}
-          {rep.hours && <li className="rep-hours">{rep.hours}</li>}
-          {rep.url && <li><a href={`${rep.url}`}>{rep.url}</a></li>}
-          <SocialLinks social={rep.social} />
-          {rep.term_end && <li className="rep-term">Term ends {formatDate(rep.term_end)}</li>}
-          {rep.bio && <li className="rep-bio">{rep.bio}</li>}
-          <CommitteesList committees={rep.committees} />
-          <OfficesList offices={rep.offices} topLevelPhone={rep.phone} />
-          {rep.confidence != null && rep.confidence < LOW_CONFIDENCE_THRESHOLD && (
-            <li className="rep-low-confidence">⚠ Extracted with lower confidence — double-check before relying on this.</li>
-          )}
-          {rep.verifiedAt && (
-            <li className="rep-verified">
-              Verified {formatDate(rep.verifiedAt)}
-              {rep.sourceUrl && (
-                <> · <a href={rep.sourceUrl} target="_blank" rel="noreferrer noopener">source</a></>
-              )}
-            </li>
-          )}
-        </ul>
-      </div>
     </section>
   );
 }

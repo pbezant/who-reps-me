@@ -1,11 +1,824 @@
 {
   "state": "OK",
-  "generated_at": "2026-08-20T02:51:45.007Z",
-  "count": 9,
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 55,
   "cities": [
-    "Oklahoma County"
+    "Cleveland County",
+    "Edmond",
+    "Enid",
+    "Lawton",
+    "Midwest City",
+    "Oklahoma County",
+    "Rogers County",
+    "Washington County"
   ],
   "officials": [
+    {
+      "id": "ok:cleveland-county:chairman,-board-of-county-commissioners:rusty-grissom",
+      "name": "Rusty Grissom",
+      "office": "Chairman, Board of County Commissioners",
+      "level": "county",
+      "body": "Cleveland County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "201 S. Jones Ave.\nNorman, OK 73069",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Cleveland County",
+        "state": "OK"
+      },
+      "source_url": "https://www.clevelandcountyok.com/m/newsflash/home/detail/126",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:edmond:mayor:darrell-a.-davis",
+      "name": "Darrell A. Davis",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Edmond City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Edmond",
+        "state": "OK"
+      },
+      "source_url": "https://www.edmondok.gov/1320/Past-Edmond-Mayors",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
+    },
+    {
+      "id": "ok:enid:commissioner:cheryl-patterson",
+      "name": "Cheryl Patterson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 1",
+      "phone": "580-234-7960",
+      "email": "ward1@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/cheryl-patterson.jpeg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:courtney-dennis",
+      "name": "Courtney Dennis",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 6",
+      "phone": "580-402-4642",
+      "email": "ward6@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/1/administration/images/city-commission/courtney-dennis-vertical.jpg.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:derwin-norwood",
+      "name": "Derwin Norwood",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 2",
+      "phone": "580-297-3860",
+      "email": "ward2@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/derwin-norwood.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:frank-baker",
+      "name": "Frank Baker",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 3",
+      "phone": null,
+      "email": "ward3@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/content/public/v/12/government/city-council/ward-3-commissioner/frank-baker-1_4x5.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:rob-stallings",
+      "name": "Rob Stallings",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 5",
+      "phone": "580-977-9310",
+      "email": "ward5@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/rob-stallings-ward-5.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:commissioner:whitney-roberts",
+      "name": "Whitney Roberts",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": "Ward 4",
+      "phone": "405-714-7112",
+      "email": "ward4@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/assets/public/v/2/administration/images/city-commission/whitney-roberts.jpg?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:enid:mayor:david-mason",
+      "name": "David Mason",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Enid City Council",
+      "district": null,
+      "phone": "580-616-7269",
+      "email": "dmason@enid.org",
+      "url": null,
+      "photo_url": "https://www.enid.org/files/content/public/v/9/government/city-council/mayor/david-mason-10x8_1.png?dimension=userprofile&w=150&h=150",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Enid",
+        "state": "OK"
+      },
+      "source_url": "https://www.enid.org/Government/City-Council",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:fort-sill-liaison:col.-john-morgan",
+      "name": "Col. John Morgan",
+      "office": "Fort Sill Liaison",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": null,
+      "phone": "580-581-3500",
+      "email": "john.a.morgan1.mil@army.mil",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=110",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=2006",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "COL John “Jay” Morgan was commissioned as a Field Artillery Officer in 2005 after graduating from the Virginia Military Institute, serving in various operational and broadening assignments including deployments to Iraq and Europe. He is a graduate of the Command and General Staff College and the Army War College, with numerous awards and decorations. COL Morgan is married with three children.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:mayor:stan-booker",
+      "name": "Stan Booker",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": null,
+      "phone": "580-581-3500",
+      "email": "mayor@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=109",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1346",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Stan Booker graduated from Eisenhower Senior High and attended Cameron University. He had a career in grocery and convenience stores, later investing in commercial real estate. Elected Mayor of Lawton in November 2018, he was reelected for a second term in 2021 and sworn in for his final term in January 2025.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-1:lane-hooton",
+      "name": "Lane Hooton",
+      "office": "Ward 1",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 1",
+      "phone": "580-581-3500",
+      "email": "ward1@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=101",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1347",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Lane Hooton has served as the Chief Operating Officer of the Cancer Centers of Southwest Oklahoma since 2007 and has dedicated over 50 years to healthcare. A graduate of the University of Oklahoma College of Pharmacy, he previously guided two oncology organizations in the Dallas–Fort Worth area. Councilman Hooton is honored to represent Ward 1 on the Lawton City Council, serving his ward and the entire community.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-2:taron-epps",
+      "name": "Taron Epps",
+      "office": "Ward 2",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 2",
+      "phone": "580-581-3500",
+      "email": "ward2@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=102",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1829",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Taron Epps currently serves as the Executive Director of Business Development at Camgian, where his work plays a key role in advancing Lawton’s economic and technological growth. Prior to this position, he served as Chief Operations Officer at the Lawton Fort Sill Chamber of Commerce, where he demonstrated a strong record of leadership, community engagement, and strategic problem-solving. A proud U.S. Army veteran, Mr. Epps served over 20 years on active duty, including three combat deployments to Iraq and Afghanistan.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-3:kirby-brown",
+      "name": "Kirby Brown",
+      "office": "Ward 3",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 3",
+      "phone": "580-581-3500",
+      "email": "ward3@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=103",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1548",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Kirby Brown serves as the Councilman for Ward 3 in Lawton, beginning his first term in January 2026. He brings decades of leadership experience from a distinguished career in the U.S. Army, where he retired in 1998, and from his subsequent service in key federal civilian roles. As a member of the Department of Defense Senior Executive Service, he served as Deputy to the Commanding General at both the Fires Center of Excellence at Fort Sill and the Combined Arms Center at Fort Leavenworth, guiding major organizational initiatives and supporting Army modernization efforts. His civilian career also included work with the Institute for Defense Analyses and the U.S. Army Space and Missile Defense Command, followed by his tenure as Dean of the School of Business at Park University. Kirby holds degrees from Pittsburg State University and the Florida Institute of Technology and is a graduate of Leadership Oklahoma and the Lawton Citizens Academy. Returning to Lawton in 2022 as his chosen retirement home, he remains deeply committed to public service. Councilman Brown views representing Ward 3 as an honor and is dedicated to serving the community with integrity, responsiveness, and steady leadership.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-4:tiffiney-dimery",
+      "name": "Tiffiney Dimery",
+      "office": "Ward 4",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 4",
+      "phone": "580-581-3500",
+      "email": "ward4@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=104",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1549",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Tiffiney Dimery has been a resident of Lawton since 2014. She is currently a licensed Real Estate Agent with Coldwell Banker Salute and is actively involved in the community. Ms. Dimery is a United States Army Veteran and holds a Master’s degree in Human Resource Management.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-5:allan-hampton",
+      "name": "Allan Hampton",
+      "office": "Ward 5",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 5",
+      "phone": "580-581-3500",
+      "email": "ward5@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=105",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1550",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Allan Hampton is the General Manager KJRF 91.1 FM, a 100,000 watt radio station located in Lawton, Oklahoma. He has been responsible for the daily operation of the studio as well was the transmitter site. He has a rental business he owns and operates.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-6:robert-weger",
+      "name": "Robert Weger",
+      "office": "Ward 6",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 6",
+      "phone": "580-581-3500",
+      "email": "ward6@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=106",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1352",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Dr. Weger currently serves as the pastor of Bible Baptist Lawton, where he's led worship for the past 26 years. He holds a Bachelor of Science from Louisiana Baptist University and a Doctorate in Sacred Theology. Councilman Weger was appointed to fill the vacant Ward 6 seat in May 2023 and won the position in the September 2023 election, with his current term running through 2027.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-7:sherene-l.-williams",
+      "name": "Sherene L. Williams",
+      "office": "Ward 7",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 7",
+      "phone": "580-581-3500",
+      "email": "ward7@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=107",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1551",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Sherene L. Williams took office as Ward 7 Councilmember in January 2024, with her current term expiring in January 2027. She ran on a platform of \"Building Up Our Community Together\" and believes in teamwork to improve the community. Williams retired from the United States Army as a Lieutenant Colonel after 30 years of honorable service.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:lawton:ward-8:randy-warren",
+      "name": "Randy Warren",
+      "office": "Ward 8",
+      "level": "local",
+      "body": "Lawton City Council",
+      "district": "Ward 8",
+      "phone": "580-581-3500",
+      "email": "ward8@lawtonok.gov",
+      "url": "https://www.lawtonok.gov/m/directory/employee?eid=108",
+      "photo_url": "https://www.lawtonok.gov/ImageRepository/Document?documentID=1557",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "212 SW 9th Street Lawton, Oklahoma, 73501-3944",
+      "offices": [],
+      "hours": null,
+      "bio": "Ward 8 Representative Randy Warren moved to Lawton in 1967. He was first elected to office in January 2018 and was sworn in to his current term in January 2024, currently serving as Mayor Pro Tem. He owns and operates Warren Imports, a family automotive business, and is involved with several community boards.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Lawton",
+        "state": "OK"
+      },
+      "source_url": "https://www.lawtonok.gov/178/City-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:brian-triger",
+      "name": "Brian Triger",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 1",
+      "phone": "405-739-1202",
+      "email": "ward1@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=167",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1010",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Brian Triger was elected to his first four-year term on February 10, 2026. He was appointed by the Council and sworn in on February 24, 2026 to fill the remainder of the previous representative's term. He was sworn in to his first full term on April 20, 2026, which will expire in April of 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:marc-thompson",
+      "name": "Marc Thompson",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 4",
+      "phone": "405-739-1202",
+      "email": "ward4@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=126",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1018",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Marc Thompson was elected to his first four-year term on April 4, 2024. His term expires in April of 2028.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:pat-byrne",
+      "name": "Pat Byrne",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 2",
+      "phone": "405-739-1202",
+      "email": "ward2@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=124",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1016",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Pat Byrne was elected to his first four-year term on February 10, 2016, and is currently the longest-standing Councilmember for Midwest City. Byrne was re-elected in 2020 and 2024. Byrne's current term on the council expires in April 2028.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:raymond-melton",
+      "name": "Raymond Melton",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 3",
+      "phone": "405-739-1202",
+      "email": "ward3@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=125",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1017",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Raymond Melton ran unopposed for his first four-year term as a Midwest City Councilmember. Melton was sworn in on April 20, 2026. His first four-year term expires in April 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:rick-favors",
+      "name": "Rick Favors",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 6",
+      "phone": "405-739-1202",
+      "email": "ward6@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=128",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1020",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:council-member:sara-bana",
+      "name": "Sara Bana",
+      "office": "Councilmember",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": "Ward 5",
+      "phone": "405-739-1202",
+      "email": "ward5@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=127",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1019",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Sara Bana ran unopposed for her second four-year term as a Midwest City Councilmember. Bana was sworn in on April 20, 2026. Her second four-year term expires in April 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:midwest-city:mayor:rick-rice",
+      "name": "Rick Rice",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Midwest City City Council",
+      "district": null,
+      "phone": "405-739-1209",
+      "email": "mayor@midwestcityok.org",
+      "url": "https://www.midwestcityok.org/m/directory/employee?eid=123",
+      "photo_url": "https://www.midwestcityok.org/ImageRepository/Document?documentID=1015",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 N Midwest Boulevard Midwest City, OK 73110",
+      "offices": [],
+      "hours": null,
+      "bio": "Mayor Rick Rice was elected to his first four-year term on February 10, 2026. Rice was sworn in on April 20, 2026. His term expires in April of 2030.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Midwest City",
+        "state": "OK"
+      },
+      "source_url": "https://www.midwestcityok.org/164/City-Council",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
     {
       "id": "ok:oklahoma-county:assessor:larry-stein",
       "name": "Larry Stein",
@@ -283,6 +1096,656 @@
       },
       "source_url": "https://www.oklahomacounty.org",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-assessor:scott-marsh",
+      "name": "Scott Marsh",
+      "office": "County Assessor",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-clerk:jeanne-heidlage",
+      "name": "Jeanne Heidlage",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-commissioner:dan-delozier",
+      "name": "Dan DeLozier",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-commissioner:ron-burrows",
+      "name": "Ron Burrows",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-commissioner:steve-hendrix",
+      "name": "Steve Hendrix",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-sheriff:scott-walton",
+      "name": "Scott Walton",
+      "office": "County Sheriff",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:county-treasurer:jason-carini",
+      "name": "Jason Carini",
+      "office": "County Treasurer",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:court-clerk:cathi-edwards",
+      "name": "Cathi Edwards",
+      "office": "Court Clerk",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:rogers-county:district-attorney:matt-ballard",
+      "name": "Matt Ballard",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Rogers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Rogers County",
+        "state": "OK"
+      },
+      "source_url": "https://rogerscounty.org/27/Government",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:assessor:steve-campbell",
+      "name": "Steve Campbell",
+      "office": "Assessor",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2830",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/assessor",
+      "photo_url": "https://washingtoncountyok.gov/SteveCampbell_Resize.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone, Ste 300 Bartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:associate-district-judge:russell-vaclaw",
+      "name": "Russell Vaclaw",
+      "office": "Associate District Judge",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Russell%20Vaclaw.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:corey-shivel",
+      "name": "Corey Shivel",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 2",
+      "phone": "918-337-2820",
+      "email": "commissioner2@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-2",
+      "photo_url": "https://washingtoncountyok.gov/CoreyShivel_Resize.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Dewey",
+          "address": "399000 West 1500 Road Dewey, OK 74029",
+          "phone": "918-534-1170",
+          "fax": "918-534-1172",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:mike-dunlap",
+      "name": "Mike Dunlap",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 3",
+      "phone": "918-337-2820",
+      "email": "commissioner3@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-3",
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Mike%20Dunlap.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Ramona",
+          "address": "371 3rd Street Ramona, OK 74061",
+          "phone": "918-536-3315",
+          "fax": null,
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:commissioner:mitch-antle",
+      "name": "Mitch Antle",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": "District 1",
+      "phone": "918-337-2820",
+      "email": "commissioner1@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/district-1",
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Mitch%20Antle.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S. Johnstone Ave, Ste 201 Bartlesville, OK 74003",
+      "offices": [
+        {
+          "classification": "district",
+          "name": "District Barn",
+          "city": "Copan",
+          "address": "371 W. Weldon Copan, OK 74022",
+          "phone": "918-532-4222",
+          "fax": "918-532-4828",
+          "hours": null
+        }
+      ],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:county-clerk:annette-smith",
+      "name": "Annette Smith",
+      "office": "County Clerk",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2840",
+      "email": "county_clerk@washingtoncountyok.gov",
+      "url": "https://washingtoncountyok.gov/county-clerk",
+      "photo_url": "https://washingtoncountyok.gov/AnnetteSmith.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "400 S Johnstone Room 100\nBartlesville, OK 74003",
+      "offices": [],
+      "hours": null,
+      "bio": "The County Clerk serves as the register of deeds and custodian of records for the County. The County Clerk also serves as the secretary to several boards, including the Board of County Commissioners, the County Excise Board, the County Board of Equalizations, and the Board of Tax Roll Corrections. The County Clerk reviews all the claims for payment of goods and services purchased or contracted by the County, and prepares the proper warrants for payment of those goods and services and the County payroll.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:court-clerk:jean-davis",
+      "name": "Jean Davis",
+      "office": "Court Clerk",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2870",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/court-clerk",
+      "photo_url": "https://washingtoncountyok.gov/jeandavis-9.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "420 S. Johnstone ave. bartlesville, ok 74003",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:district-attorney:william-drake",
+      "name": "William Drake",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": "918-337-2860",
+      "email": null,
+      "url": "https://washingtoncountyok.gov/district-attorney",
+      "photo_url": "https://washingtoncountyok.gov/willdrake.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/profile.php?id=100064313005996",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "420 S. Johnstone ave. bartlesville, ok 74003",
+      "offices": [],
+      "hours": null,
+      "bio": "As the chief attorney for County Government, the District Attorney acts as the legal advisor to the County Officers on matters related to their duties. When any County in the District is involved in civil litigation, the District Attorney serves as its defender or prosecutor. County Officials may call upon the District Attorney to clarify a law or request an official interpretation from the Attorney General.",
+      "bio_checked_at": "2026-08-28T05:40:45.041Z",
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:district-judge:linda-thomas",
+      "name": "Linda Thomas",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Linda%20Thomas1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:sheriff:scott-owen",
+      "name": "Scott Owen",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/caffeine/uploads/files/hs_Scott%20Owen.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ok:washington-county:treasurer:melissa-thornbrugh",
+      "name": "Melissa Thornbrugh",
+      "office": "Treasurer",
+      "level": "county",
+      "body": "Washington County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://washingtoncountyok.gov/MelissaThornbrugh.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Washington County",
+        "state": "OK"
+      },
+      "source_url": "https://washingtoncountyok.gov/elected-officials",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
     }
   ]

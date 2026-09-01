@@ -1,8 +1,25 @@
+# Forward Netlify's own $URL (the site's primary URL — it updates automatically when a custom
+# domain is set as primary) into REACT_APP_SITE_URL, which Create React App inlines into the
+# bundle at build time and scripts/generate-sitemap.js reads for absolute canonical/og/sitemap
+# URLs. This is why adopting a real domain later needs no code change.
+[build]
+  command = "REACT_APP_SITE_URL=$URL npm run build"
+
 [[redirects]]
   from = "/v1/*"
   to = "https://api.5calls.org/v1/:splat"
   status = 200
   force = true
+
+# SPA fallback for client-side routing (src/RepProfile.js's /rep/:id route). Deliberately NOT
+# force=true: Netlify Functions already declare their own `config.path` (see netlify/functions/
+# *.mjs) and take precedence over a non-forced redirect, and a forced catch-all would also shadow
+# real static files (e.g. /officials/TX.json, /federal-social.json). Without this rule, refreshing
+# on /rep/:id — or opening a shared link cold — 404s at Netlify's edge before React ever loads.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [functions]
   directory = "netlify/functions"

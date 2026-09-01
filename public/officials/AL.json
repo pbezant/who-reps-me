@@ -1,0 +1,1160 @@
+{
+  "state": "AL",
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 36,
+  "cities": [
+    "Autauga County",
+    "Dale County",
+    "Elmore County",
+    "Lee County",
+    "Mobile County",
+    "Russell County",
+    "St. Clair County"
+  ],
+  "officials": [
+    {
+      "id": "al:autauga-county:circuit-clerk:debra-hill",
+      "name": "Debra Hill",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6801",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Debra%20Hill%20Circuit%20Clerk_250x375.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "134 N. Court St. Rm. 114 Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:circuit-judge:joy-pace-booth",
+      "name": "Joy Pace Booth",
+      "office": "Circuit Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Joy%20Booth_250x166.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:coroner:malvin-buster-barber",
+      "name": "Malvin \"Buster\" Barber",
+      "office": "Coroner",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:district-attorney:c.j.-robinson",
+      "name": "C.J. Robinson",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-365-5715",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:district-judge:jessica-sanders",
+      "name": "Jessica Sanders",
+      "office": "District Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6820",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:probate-judge:kimberly-g.-kervin",
+      "name": "Kimberly G. Kervin",
+      "office": "Probate Judge",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-361-3728",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/Kimberly%20Kervin_250x366.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "176 West 5th Street Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:revenue-commissioner:kathy-evans",
+      "name": "Kathy Evans",
+      "office": "Revenue Commissioner",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-358-6789",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Revenue/KEvans_250x280.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "135 N. Court St., Suite D Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:autauga-county:sheriff:mark-harrell",
+      "name": "Mark Harrell",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Autauga County Commissioners Court",
+      "district": null,
+      "phone": "334-361-2500",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.autaugaco.org/home/county-government/elected-officials/Images/Main/IMG-2673.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "162 W. 4th Street Prattville, AL 36067",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Autauga County",
+        "state": "AL"
+      },
+      "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commission-chairman:steve-mckinnon",
+      "name": "Steve Mckinnon",
+      "office": "Commission Chairman",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-0-portals-1thumbcapture2.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:adam-enfinger",
+      "name": "Adam Enfinger",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-3-portals-4capture.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:chris-carroll",
+      "name": "Chris Carroll",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-1-portals-2chris-20carroll.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:donald-o.-grantham",
+      "name": "Donald O. Grantham",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-2-portals-25donald11.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:dale-county:commissioner:frankie-wilson",
+      "name": "Frankie Wilson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Dale County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://dalecountyal.org/wp-content/uploads/2026/01/img-1769559805471-4-portals-5capture.png",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "202 South AL-123, Ozark, AL 36360",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Dale County",
+        "state": "AL"
+      },
+      "source_url": "https://dalecountyal.org/county-commision/dale-county-alabama-county-commission-commissioners/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:circuit-clerk:michael-dozier",
+      "name": "Michael Dozier",
+      "office": "Circuit Clerk",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Circuit-2BDozier-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:commissioner:bart-mercer",
+      "name": "Bart Mercer",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": "District 4",
+      "phone": "334-514-5841",
+      "email": null,
+      "url": "https://www.elmoreco.org/commissioner-bart-mercer",
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Mercer-9a8b4f5d-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": "Mon - Fri 8:00 am - 4:30 pm",
+      "bio": "Bart Mercer took office as County Commissioner of District 4 on November 11, 2020. Commissioner Mercer was previously elected on November 14, 2018 and previously appointed by Governor Robert Bentley on December 26, 2016. He was elected as Chairman of the County Commission on October 24, 2022.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:commissioner:brad-davis",
+      "name": "Brad Davis",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": "District 2",
+      "phone": "334-514-5841",
+      "email": null,
+      "url": "https://www.elmoreco.org/commissioner-district-2",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": "Mon - Fri 8:00 am - 4:30 pm",
+      "bio": "Commissioner Brad Davis has been a lifelong resident of the Tallassee area, a U.S. Marine Corps veteran, and a graduate of Faulkner University. He has operated as a small business owner in Elmore County since 1998 and is an active member of the community, serving on various boards and committees. Brad is married to Catherine and they have three children.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:commissioner:dennis-hill",
+      "name": "Dennis Hill",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": "District 3",
+      "phone": "334-514-5841",
+      "email": "dhill@elmoreco.org",
+      "url": "https://www.elmoreco.org/commissioner-district-3",
+      "photo_url": "https://irp.cdn-website.com/6209cf0a/dms3rep/multi/opt/Hill-website-cbd44362-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": null,
+      "bio": "Commissioner Dennis Hill was appointed by Governor Kay Ivey on November 18, 2022, and elected to a full term on November 5, 2024. He holds degrees in Welding Technology and Criminal Justice, and has over 30 years of experience in law enforcement, including serving as a state Police Officer and with the Elmore County Sheriff's Office. Hill is actively involved in various community agencies and boards in Elmore County.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:commissioner:desirae-lewis-jackson",
+      "name": "Desirae Lewis Jackson",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": "District 5",
+      "phone": "334-514-5841",
+      "email": null,
+      "url": "https://www.elmoreco.org/commissioner-desirae-lewis",
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Lewis-31050bda-a74efaf7-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": "Mon - Fri 8:00 am - 4:30 pm",
+      "bio": "Commissioner Desirae Lewis Jackson, representing District 5, began her second term on November 13, 2024, having been first elected on November 11, 2020, as the youngest person ever elected to the Elmore County Commission. A Wetumpka native, she holds a Juris Doctor and is the founder of the Lewis Law Firm, PC, specializing in criminal defense, family law, and juvenile dependency cases. She is highly active in the community, serving as President of the Elmore County Bar Association and Chairman of the Elmore County Mental Health Task Force, among other roles.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:commissioner:henry-hines",
+      "name": "Henry Hines",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": "District 1",
+      "phone": "334-514-5841",
+      "email": "Henryrh41@aol.com",
+      "url": "https://www.elmoreco.org/commissioner-henry-hines",
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Hines-30c79f35-1920w-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": "Mon - Fri 8:00 am - 4:30 pm",
+      "bio": "Commissioner Henry Hines took office as County Commissioner of District 1 on November 11, 2020. Commissioner Hines is an Elmore County native and a graduate of Wetumpka High School. He previously served in the United Air Force and Air Force Reserve and is an active member of Union Congregational Christian Church.",
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:county-coroner:dalan-gassett",
+      "name": "Dalan Gassett",
+      "office": "County Coroner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": "334-452-2672",
+      "email": null,
+      "url": "https://www.elmoreco.org/coroner",
+      "photo_url": "https://irp.cdn-website.com/6209cf0a/dms3rep/multi/opt/D.-Gassett-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:district-attorney:cj-robinson",
+      "name": "CJ Robinson",
+      "office": "District Attorney",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com/6209cf0a/dms3rep/multi/opt/CJRobinson-Web-bfa991cb-715903bc-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:probate-judge:jason-britt",
+      "name": "Jason Britt",
+      "office": "Probate Judge",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": "334-567-1140",
+      "email": "probatejudge@elmoreco.org",
+      "url": "https://www.elmoreco.org/probat4e",
+      "photo_url": "https://irp.cdn-website.com/6209cf0a/dms3rep/multi/opt/Britt+Website-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": "Monday - Friday 8:00am - 4:30pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:revenue-commissioner:lee-macon",
+      "name": "Lee Macon",
+      "office": "Revenue Commissioner",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": "334-567-1184",
+      "email": null,
+      "url": "https://www.elmoreco.org/revenue",
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Revenue%2BMacon-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [
+        {
+          "classification": "department",
+          "name": "Wetumpka Driver License Office",
+          "city": "Wetumpka",
+          "address": "100 E. Commerce Street, Room 109, Wetumpka, AL 36092",
+          "phone": "(334) 567-1184 EXT 5047 DL Renewals, (334) 567-1184 EXT 5048 DL Examiner",
+          "fax": null,
+          "hours": "DL Renewal Office Hours: Monday – Friday 8:00am – 4:00pm DL Examiner Office Hours: Monday – Friday 8:00am – 12pm and 1:00 – 4:00pm"
+        },
+        {
+          "classification": "department",
+          "name": "Wetumpka Tag Department",
+          "city": "Wetumpka",
+          "address": "100 E. Commerce Street, Room 101, Wetumpka, AL 36092",
+          "phone": "334-567-1166",
+          "fax": null,
+          "hours": "Monday - Friday 8:00am – 4:15 pm"
+        },
+        {
+          "classification": "satellite",
+          "name": "Millbrook Satellite Office",
+          "city": "Millbrook",
+          "address": "4864 Main St, Millbrook, AL 36054",
+          "phone": "334-285-3054",
+          "fax": null,
+          "hours": "Monday - Friday 8:00am – 4:00 pm"
+        }
+      ],
+      "hours": "Monday - Friday 8:00am - 4:30pm",
+      "bio": null,
+      "bio_checked_at": "2026-08-25T03:19:04.235Z",
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:elmore-county:sheriff:bill-franklin",
+      "name": "Bill Franklin",
+      "office": "Sheriff",
+      "level": "county",
+      "body": "Elmore County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://irp.cdn-website.com//0f30efcd/dms3rep/multi/opt/Sheriff%2BFranklin-1920w.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "100 E. Commerce Street, Wetumpka, Alabama",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Elmore County",
+        "state": "AL"
+      },
+      "source_url": "https://www.elmoreco.org/about",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:lee-county:weed-commissioner:alicia-haynes",
+      "name": "Alicia Haynes",
+      "office": "Weed Commissioner",
+      "level": "county",
+      "body": "Lee County Commissioners Court",
+      "district": null,
+      "phone": "515-370-3404",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "North Lee County Administration Building 933 Avenue H Fort Madison, IA 52627",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Lee County",
+        "state": "AL"
+      },
+      "source_url": "https://www.leecounty.org/pview.aspx?id=20856&catid=0",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:mobile-county:county-commissioner:connie-hudson",
+      "name": "Connie Hudson",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mobile County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mobile County",
+        "state": "AL"
+      },
+      "source_url": "https://www.mobilecountyal.gov/government/history-of-mobile-county-commission/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:mobile-county:county-commissioner:merceria-l.-ludgood",
+      "name": "Merceria L. Ludgood",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mobile County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mobile County",
+        "state": "AL"
+      },
+      "source_url": "https://www.mobilecountyal.gov/government/history-of-mobile-county-commission/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:mobile-county:county-commissioner:randall-dueitt",
+      "name": "Randall Dueitt",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Mobile County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Mobile County",
+        "state": "AL"
+      },
+      "source_url": "https://www.mobilecountyal.gov/government/history-of-mobile-county-commission/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:cedric-darrell-darty",
+      "name": "Cedric Darrell Darty",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 5",
+      "phone": "334-298-6426",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_5.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:chance-corbett",
+      "name": "Chance Corbett",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 6 Chair",
+      "phone": "706-575-4389",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_6.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:gentry-lee",
+      "name": "Gentry Lee",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 1",
+      "phone": "334-298-0869",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_1.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:larry-screws",
+      "name": "Larry Screws",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 7",
+      "phone": "334-298-6426",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_7.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:rod-costello",
+      "name": "Rod Costello",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 3 Vice-Chair",
+      "phone": "334-468-4282",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_3.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:ronnie-reed",
+      "name": "Ronnie Reed",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 4",
+      "phone": "334-298-2510",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_4.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:russell-county:commissioner:scott-chambers",
+      "name": "Scott Chambers",
+      "office": "Commissioner",
+      "level": "county",
+      "body": "Russell County Commissioners Court",
+      "district": "Russell County District 2",
+      "phone": "334-468-1145",
+      "email": null,
+      "url": "https://www.russellcountyal.gov/county_commissioners/county_commissioners/district_2.php",
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Russell County Commission Office 2nd Floor 1000 Broad Street Phenix City AL 36867",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Russell County",
+        "state": "AL"
+      },
+      "source_url": "https://www.russellcountyal.gov/county_commissioners/index.php",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "al:st.-clair-county:revenue-commissioner:kenneth-l.-crowe",
+      "name": "Kenneth L. Crowe",
+      "office": "Revenue Commissioner",
+      "level": "county",
+      "body": "St. Clair County Commissioners Court",
+      "district": null,
+      "phone": "205-594-2160",
+      "email": "revenue@stclairco.com",
+      "url": null,
+      "photo_url": "https://www.stclairco.com/ImageRepository/Document?documentID=453",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "165 5th Ave.\nSuite 200\nAshville, AL 35953",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "St. Clair County",
+        "state": "AL"
+      },
+      "source_url": "https://www.stclairco.com/221/Revenue-Commissioner",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    }
+  ]
+}

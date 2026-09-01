@@ -1,0 +1,41 @@
+{
+  "state": "SD",
+  "generated_at": "2026-08-23T03:20:24.901Z",
+  "count": 1,
+  "cities": [
+    "Sioux Falls"
+  ],
+  "officials": [
+    {
+      "id": "sd:sioux-falls:mayor:christine-erickson",
+      "name": "Christine Erickson",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Sioux Falls City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "224 W. Ninth St., Sioux Falls, SD 57104",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Sioux Falls",
+        "state": "SD"
+      },
+      "source_url": "https://www.siouxfalls.gov/government?lang_update=639229506675931519",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "state": "MS",
+  "generated_at": "2026-08-29T03:05:24.750Z",
+  "count": 17,
+  "cities": [
+    "Biloxi",
+    "Gulfport",
+    "Harrison County",
+    "Madison County",
+    "Southaven"
+  ],
+  "officials": [
+    {
+      "id": "ms:biloxi:council-member:anthony-marshall",
+      "name": "Anthony Marshall",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 2",
+      "phone": "228-435-6257",
+      "email": "amarshall@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/departments/city-council/city-council-ward-2/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Anthony-Marshall-Ward-2.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:david-shoemaker",
+      "name": "David Shoemaker",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 7",
+      "phone": "228-435-6257",
+      "email": "dshoemaker@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/city-council-ward-7/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/David-Shoemaker-Ward-7.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": "David Shoemaker is a Republican, educated at Biloxi High School, Mississippi Gulf Coast Community College, and the University of Alabama. He is a retired Biloxi Police Department officer and a former Biloxi Civil Service Commissioner, actively involved in various civic organizations.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:jamie-creel",
+      "name": "Jamie Creel",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 4",
+      "phone": "228-435-6257",
+      "email": "jkcreel@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/city-council-ward-4/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Jamie-Creel-Ward-4.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": "Jamie Creel, a Republican, is a graduate of Mercy Cross High School and the University of Southern Mississippi. She has experience as a Player Development Manager at Palace Casino Resort and served in the Mississippi House of Representatives from 2000-2004.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:kenny-glavan",
+      "name": "Kenny Glavan",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 6",
+      "phone": "228-435-6257",
+      "email": "kglavan@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/departments/city-council/city-council-ward-6/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Kenny-Glavin-Ward-5.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": "Kenny Glavan is the City Council Member for Ward 6, a Republican, and a Certified Hotel Administrator. He serves as President of the Mississippi Hotel & Lodging Association and is involved with several civic organizations, including the Biloxi Main Street and Biloxi Bay Chamber of Commerce. Glavan was recognized as Mississippi’s Hotel Manager of the Year in 2009.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:mike-nail",
+      "name": "Mike Nail",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 3",
+      "phone": "228-435-6257",
+      "email": "mnail@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/departments/city-council/city-council-ward-3/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Mike-Nail-Ward-3.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": "Mike Nail, a Republican, is the Ward 3 City Council member. He is the owner of Nail's Lawn Service and previously worked as a lab technician. He has been actively involved in the community, coaching Biloxi Little League Baseball and the Biloxi Allstars, and is a member of the Coastal Conservation Association.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:paul-tisdale",
+      "name": "Paul Tisdale",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 5",
+      "phone": "228-435-6257",
+      "email": "ptisdale1@yahoo.com",
+      "url": "https://biloxi.ms.us/departments/city-council/city-council-ward-5/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Ward-5-Dr.-Paul-Tisdale-240x300.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": "Paul A. Tisdale is the City Council Member for Ward 5. He is a former Superintendent of Biloxi Public Schools and CEO of Tisdale Consulting, LLC. He holds degrees from Biloxi High School, Mississippi Gulf Coast Community College, William Carey College, and the University of Southern Mississippi, and is actively involved in various community organizations.",
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:biloxi:council-member:wayne-gray",
+      "name": "Wayne Gray",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Biloxi City Council",
+      "district": "Ward 1",
+      "phone": "228-435-6257",
+      "email": "wgray@biloxi.ms.us",
+      "url": "https://biloxi.ms.us/departments/city-council/city-council-ward-1/",
+      "photo_url": "https://biloxi.ms.us/wp-content/uploads/2025/06/Wayne-Gray-Ward-1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "140 Lameuse St.",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-29T03:05:24.750Z",
+      "jurisdiction": {
+        "city": "Biloxi",
+        "state": "MS"
+      },
+      "source_url": "https://biloxi.ms.us/departments/city-council/",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:gulfport:public-information-officer:ravin-nettles",
+      "name": "Ravin Nettles",
+      "office": "Public Information Officer",
+      "level": "local",
+      "body": "Gulfport City Council",
+      "district": null,
+      "phone": "228-328-8413",
+      "email": "rnettles@gulfport-ms.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Gulfport",
+        "state": "MS"
+      },
+      "source_url": "https://www.gulfport-ms.gov/government/mayor_s_youth_council.php",
+      "extracted_at": "2026-08-29T03:05:24.750Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:harrison-county:supervisor:rebecca-powers",
+      "name": "Rebecca Powers",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Harrison County Commissioners Court",
+      "district": "District Two",
+      "phone": "228-865-4122",
+      "email": "RPowers@co.harrison.ms.us",
+      "url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/district_two.php",
+      "photo_url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/Becca_2.jpg?t=202106101328040",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": "Rebecca Powers is one of South Mississippi’s most recognized voices, best known for her long-time career as a news anchor at WLOX. Throughout her distinguished journalism career, she has been honored with a Peabody Award, an Edward R. Murrow Award, a Humanitarian Emmy, and 12 Associated Press awards for journalistic excellence.",
+      "bio_checked_at": "2026-08-22T03:16:48.468Z",
+      "jurisdiction": {
+        "city": "Harrison County",
+        "state": "MS"
+      },
+      "source_url": "https://www.harrisoncountyms.gov/government/board_of_supervisors/district_two.php",
+      "extracted_at": "2026-08-22T03:16:48.468Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:madison-county:supervisor:gerald-steen",
+      "name": "Gerald Steen",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Madison County Commissioners Court",
+      "district": "District 3",
+      "phone": "601-790-2590",
+      "email": "gerald.steen@madison-co.com",
+      "url": "https://www.madison-co.com/elected-offices/board-of-supervisors/district-3",
+      "photo_url": "https://www.madison-co.com/sites/default/files/steenad.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "P.O. Box 608 Canton, MS 39046-0608",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-24T03:21:09.305Z",
+      "jurisdiction": {
+        "city": "Madison County",
+        "state": "MS"
+      },
+      "source_url": "https://www.madison-co.com/elected-offices/board-of-supervisors/district-3",
+      "extracted_at": "2026-08-24T03:21:09.305Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:charlie-hoots",
+      "name": "Charlie Hoots",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 2",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:george-payne",
+      "name": "George Payne",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "At Large",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:joel-gallagher",
+      "name": "Joel Gallagher",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 4",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:john-david-wheeler",
+      "name": "John David Wheeler",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 5",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:judy-jenkins",
+      "name": "Judy Jenkins",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 1",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:raymond-flores",
+      "name": "Raymond Flores",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 6",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    },
+    {
+      "id": "ms:southaven:alderman:william-jerome",
+      "name": "William Jerome",
+      "office": "Alderman",
+      "level": "local",
+      "body": "Southaven City Council",
+      "district": "Ward 3",
+      "phone": "662-280-2489",
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "8710 Northwest Dr. Southaven, MS 38671",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Southaven",
+        "state": "MS"
+      },
+      "source_url": "https://www.southaven.org/462/Board-of-Aldermen",
+      "extracted_at": "2026-08-28T05:40:45.041Z",
+      "confidence": 1
+    }
+  ]
+}

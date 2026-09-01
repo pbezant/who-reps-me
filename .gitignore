@@ -25,5 +25,9 @@ yarn-error.log*
 # Local Netlify folder
 .netlify
 
+# netlify dev bootstraps a Deno edge-functions runtime even though this project has none —
+# this lockfile is that tool's local artifact, not a dependency of anything here.
+deno.lock
+
 # Output from record-search-video.js (generated demo recordings)
 /video-out

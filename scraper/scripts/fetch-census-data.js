@@ -12,9 +12,12 @@
 // this script auto-detects the latest published one each run by listing the parent directory
 // (detectLatestGazetteerYear()/detectLatestPopestVintage() below) — the exact technique used to
 // confirm the URL shape by hand in the first place, now automated so nobody has to remember to
-// bump a year annually. If detection itself fails (network hiccup, or Census restructuring the
-// directory layout entirely — a real but much rarer risk than "a new year exists"), it falls back
-// to the last-confirmed-good vintage and logs why, rather than crashing the run outright.
+// bump a year annually. Listing the directory isn't proof the folder is actually populated,
+// though — confirmed live on 2026-08-21, where a "2026_Gazetteer/" link was already listed but
+// every per-state file inside it 404'd — so each candidate is probed against one small real file
+// before being trusted, falling back to the next-older listed candidate first and only to the
+// last-confirmed-good vintage if every listed one is unpopulated or detection itself fails
+// (network hiccup, or Census restructuring the directory layout entirely).
 //
 // Usage:
 //   DISCOVER_STATES=TX,CA node scripts/fetch-census-data.js
@@ -81,32 +84,66 @@ export function parsePopestVintages(html) {
   return [...(html || "").matchAll(/href="(\d{4})-(\d{4})\/"/g)].map((m) => ({ start: Number(m[1]), end: Number(m[2]) }));
 }
 
-// Finds the newest Gazetteer year actually published right now, instead of trusting a hardcoded
-// one that will eventually go stale — falls back to `fallback` on any failure (network error, or
-// an index page whose format this can't parse) so a transient hiccup degrades gracefully rather
-// than blocking every state's discovery.
+// Confirms a URL actually resolves to real content, used to verify a candidate Gazetteer year or
+// population-estimates vintage is genuinely populated before trusting it — a directory listing
+// only proves the folder link exists, not that files have been uploaded into it yet (see
+// detectLatestGazetteerYear()'s header comment for the real case this was written for). A HEAD
+// request is enough and cheaper than downloading the body, but falls back to a real GET for any
+// server that doesn't support HEAD on static files (405/501) rather than misreading that as
+// "missing".
+async function urlExists(url) {
+  try {
+    const res = await fetch(url, { method: "HEAD" });
+    if (res.ok) return true;
+    if (res.status === 405 || res.status === 501) return (await fetch(url)).ok;
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+// Finds the newest Gazetteer year actually populated right now, instead of trusting a hardcoded
+// one that will eventually go stale. Walks every listed year newest-first, probing Rhode Island's
+// place file (small, always present for a real vintage) so a listed-but-empty folder falls
+// through to the next-older listed year instead of being trusted outright. Falls back to
+// `fallback` only once every listed year has failed the probe, or on any failure to list/parse
+// the directory at all (network error, or an index page whose format this can't parse), so a
+// transient hiccup degrades gracefully rather than blocking every state's discovery.
 export async function detectLatestGazetteerYear(fallback) {
   try {
     const html = await fetchText(`${GAZETTEER_BASE}/`);
     const years = parseGazetteerYears(html);
     if (!years.length) throw new Error("no year folders found in directory listing");
-    return String(Math.max(...years));
+    const candidates = [...new Set(years)].sort((a, b) => b - a);
+    for (const year of candidates) {
+      if (await urlExists(`${GAZETTEER_BASE}/${year}_Gazetteer/${year}_gaz_place_44.txt`)) return String(year);
+      console.log(`${year}_Gazetteer/ is listed but not yet populated (Rhode Island probe file missing) — trying an older year.`);
+    }
+    throw new Error("no listed year folder has a populated probe file");
   } catch (err) {
     console.log(`Could not auto-detect the latest Gazetteer year (${err.message}) — using ${fallback}.`);
     return fallback;
   }
 }
 
-// Same idea for the Population Estimates vintage folder — picks the one with the latest end
-// year (vintage folders are named "<first year still in the file>-<latest year>", e.g.
-// "2020-2025"; a new vintage always extends the end year, sometimes also bumping the start).
+// Same idea for the Population Estimates vintage folder — walks candidates newest-end-year-first
+// (vintage folders are named "<first year still in the file>-<latest year>", e.g. "2020-2025"; a
+// new vintage always extends the end year, sometimes also bumping the start), probing the one
+// national county population file (fetched once per run anyway, via countyPopulationUrl()) before
+// trusting a candidate, for the same listed-but-not-yet-populated reason as the Gazetteer year
+// above.
 export async function detectLatestPopestVintage(fallback) {
   try {
     const html = await fetchText(`${POPEST_BASE}/`);
     const vintages = parsePopestVintages(html);
     if (!vintages.length) throw new Error("no vintage folders found in directory listing");
-    const latest = vintages.reduce((a, b) => (b.end > a.end ? b : a));
-    return `${latest.start}-${latest.end}`;
+    const candidates = [...vintages].sort((a, b) => b.end - a.end);
+    for (const { start, end } of candidates) {
+      const vintage = `${start}-${end}`;
+      if (await urlExists(countyPopulationUrl({ popestVintage: vintage }))) return vintage;
+      console.log(`${vintage}/ is listed but not yet populated (county population probe file missing) — trying an older vintage.`);
+    }
+    throw new Error("no listed vintage folder has a populated probe file");
   } catch (err) {
     console.log(`Could not auto-detect the latest population-estimates vintage (${err.message}) — using ${fallback}.`);
     return fallback;

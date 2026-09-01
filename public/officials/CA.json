@@ -1,16 +1,22 @@
 {
   "state": "CA",
-  "generated_at": "2026-08-20T04:12:57.525Z",
-  "count": 46,
+  "generated_at": "2026-08-25T03:19:04.235Z",
+  "count": 62,
   "cities": [
     "Alameda County",
     "Contra Costa County",
+    "El Dorado County",
     "Fresno County",
+    "Humboldt County",
     "Los Angeles County",
+    "Napa County",
+    "Nevada County",
     "Orange County",
+    "Placer County",
     "Sacramento County",
     "San Bernardino County",
     "San Diego County",
+    "Sonoma County",
     "Ventura County"
   ],
   "officials": [
@@ -232,6 +238,37 @@
       "confidence": 1
     },
     {
+      "id": "ca:el-dorado-county:communications-director:carla-hass",
+      "name": "Carla Hass",
+      "office": "Communications Director",
+      "level": "county",
+      "body": "El Dorado County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "carla.hass@edcgov.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "El Dorado County",
+        "state": "CA"
+      },
+      "source_url": "https://www.eldoradocounty.ca.gov/County-Government/Contact-Us?lang_update=639228614069298259",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
       "id": "ca:fresno-county:supervisor:brian-pacheco",
       "name": "Brian Pacheco",
       "office": "Supervisor",
@@ -385,6 +422,37 @@
       "source_url": "https://www.fresnocountyca.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 1
+    },
+    {
+      "id": "ca:humboldt-county:contact,-humboldt-county-fire-safe-council:cybelle-immitt",
+      "name": "Cybelle Immitt",
+      "office": "Contact, Humboldt County Fire Safe Council",
+      "level": "county",
+      "body": "Humboldt County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": "cimmitt@co.humboldt.ca.us",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1105 6th St. Eureka, CA 95501",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Humboldt County",
+        "state": "CA"
+      },
+      "source_url": "https://humboldtgov.org/689/Fire-Safe-Council",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 0.9
     },
     {
       "id": "ca:los-angeles-county:supervisor:hilda-l.-solis",
@@ -542,6 +610,130 @@
       "confidence": 1
     },
     {
+      "id": "ca:napa-county:supervisor:amber-manfree",
+      "name": "Amber Manfree",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/2039/About-Amber-Manfree",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=35473",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "A fifth generation Napan, rural resident, and scientist, Amber brings a unique skillset to local governance. Since the 2010s, she has been a strong advocate for sustainable natural resource management in Napa County, serving on the Groundwater Sustainability Plan Advisory Committee and as Board Secretary for Protect Rural Napa, a local nonprofit. Amber earned her doctorate in Geography from UC Davis in 2014, specializing in land use change, mapping, and plant ecology, and her professional background includes work in natural resources management and sustainable transportation.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:napa-county:supervisor:anne-cottrell",
+      "name": "Anne Cottrell",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/1368/About-Anne-Cottrell",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=27513",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "Anne Cottrell was elected to represent District 3 on the Board of Supervisors in 2022. Anne was born and raised in St. Helena; her parents moved here in 1969 to be part of Napa Valley's agriculture and winemaking community. Anne earned an undergraduate degree from Yale University and a law degree from UC Berkeley.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:napa-county:supervisor:belia-ramos",
+      "name": "Belia Ramos",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Napa County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": "https://www.napacounty.gov/1384/About-Belia-Ramos",
+      "photo_url": "https://www.napacounty.gov/ImageRepository/Document?documentId=27516",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "1195 Third Street Suite 310 Napa, CA 94559",
+      "offices": [],
+      "hours": "Monday through Friday 8 a.m. to 5 p.m.",
+      "bio": "Belia, who lives in American Canyon with her children, was born in Napa and raised in St. Helena and Pope Valley and calls all of Napa County her home. Prior to joining the Napa County Board of Supervisors, Belia was a law professor, operated her own company, and served as a member of the American Canyon City Council.",
+      "bio_checked_at": "2026-08-23T03:20:24.901Z",
+      "jurisdiction": {
+        "city": "Napa County",
+        "state": "CA"
+      },
+      "source_url": "https://www.napacounty.gov/9/Government",
+      "extracted_at": "2026-08-23T03:20:24.901Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:nevada-county:agricultural-commissioner:chris-de-nijs",
+      "name": "Chris de Nijs",
+      "office": "Agricultural Commissioner",
+      "level": "county",
+      "body": "Nevada County Commissioners Court",
+      "district": null,
+      "phone": "530-470-2690",
+      "email": "agdept@nevadacountyca.gov",
+      "url": null,
+      "photo_url": "https://www.nevadacountyca.gov/ImageRepository/Document?documentID=14260",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "950 Maidu Avenue, Suite 170\nPO Box 599002\nNevada City, CA 95959-7902",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Nevada County",
+        "state": "CA"
+      },
+      "source_url": "https://www.nevadacountyca.gov/982/Agricultural-Commissioner",
+      "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
       "id": "ca:orange-county:board-of-supervisors-chairman:doug-chaffee",
       "name": "Doug Chaffee",
       "office": "Board of Supervisors Chairman",
@@ -694,6 +886,161 @@
       },
       "source_url": "https://www.ocgov.com",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:placer-county:board-of-supervisors:anthony-m.-demattei",
+      "name": "Anthony M. DeMattei",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Placer County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Placer County",
+        "state": "CA"
+      },
+      "source_url": "https://www.placer.ca.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:placer-county:board-of-supervisors:bonnie-gore",
+      "name": "Bonnie Gore",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Placer County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Placer County",
+        "state": "CA"
+      },
+      "source_url": "https://www.placer.ca.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:placer-county:board-of-supervisors:cindy-gustafson",
+      "name": "Cindy Gustafson",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Placer County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Placer County",
+        "state": "CA"
+      },
+      "source_url": "https://www.placer.ca.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:placer-county:board-of-supervisors:shanti-landon",
+      "name": "Shanti Landon",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Placer County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Placer County",
+        "state": "CA"
+      },
+      "source_url": "https://www.placer.ca.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:placer-county:board-of-supervisors:suzanne-jones",
+      "name": "Suzanne Jones",
+      "office": "Board of Supervisors",
+      "level": "county",
+      "body": "Placer County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Placer County",
+        "state": "CA"
+      },
+      "source_url": "https://www.placer.ca.gov/27/Government",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {
@@ -1283,6 +1630,161 @@
       },
       "source_url": "https://www.sandiegocounty.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:sonoma-county:supervisor:chris-coursey",
+      "name": "Chris Coursey",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Sonoma County Commissioners Court",
+      "district": "District 3",
+      "phone": "707-565-2241",
+      "email": "district3@sonomacounty.gov",
+      "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/board-of-supervisors/supervisorial-districts/board-of-supervisors-district-3",
+      "photo_url": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/ChrisCoursey160.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/SupervisorCoursey",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "575 Administration Drive\nRoom 100 A\nSanta Rosa , CA 95403",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Sonoma County",
+        "state": "CA"
+      },
+      "source_url": "https://sonomacounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:sonoma-county:supervisor:david-rabbitt",
+      "name": "David Rabbitt",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Sonoma County Commissioners Court",
+      "district": "District 2",
+      "phone": "707-565-2241",
+      "email": "David.Rabbitt@sonomacounty.gov",
+      "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/board-of-supervisors/supervisorial-districts/board-of-supervisors-district-2",
+      "photo_url": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/DavidRabbit160.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "575 Administration Drive, Room 100 A, Santa Rosa, CA 95403",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Sonoma County",
+        "state": "CA"
+      },
+      "source_url": "https://sonomacounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:sonoma-county:supervisor:james-gore",
+      "name": "James Gore",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Sonoma County Commissioners Court",
+      "district": "District 4",
+      "phone": "707-565-2241",
+      "email": "district4@sonomacounty.gov",
+      "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/board-of-supervisors/supervisorial-districts/board-of-supervisors-district-4",
+      "photo_url": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/JamesGore160.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "Board of Supervisors\n575 Administration Drive\nRoom 100 A\nSanta Rosa , CA 95403",
+      "offices": [],
+      "hours": null,
+      "bio": "Supervisor Gore believes public service is a calling to serve the greater good, working to ensure a quality of life in Sonoma County where children can learn safely, businesses flourish, and families achieve upward mobility. His team addresses challenges like fire, flood, and pandemic by bringing people together to manifest a more just, healthy, and prosperous future for all.",
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Sonoma County",
+        "state": "CA"
+      },
+      "source_url": "https://sonomacounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:sonoma-county:supervisor:lynda-hopkins",
+      "name": "Lynda Hopkins",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Sonoma County Commissioners Court",
+      "district": "District 5",
+      "phone": "707-565-2241",
+      "email": "district5@sonomacounty.gov",
+      "url": "https://sonomacounty.gov/district5",
+      "photo_url": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/LyndaHopkins160.jpg",
+      "social": {
+        "twitter": "https://twitter.com/SonomaDistrict5",
+        "facebook": "https://www.facebook.com/supervisorlyndahopkins",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCy7u_uF73_2htucfV3Sc7gA"
+      },
+      "address": "Board of Supervisors\n575 Administration Drive\nRoom 100 A\nSanta Rosa , CA 95403",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Sonoma County",
+        "state": "CA"
+      },
+      "source_url": "https://sonomacounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "ca:sonoma-county:supervisor:rebecca-hermosillo",
+      "name": "Rebecca Hermosillo",
+      "office": "Supervisor",
+      "level": "county",
+      "body": "Sonoma County Commissioners Court",
+      "district": "District 1",
+      "phone": "707-565-2241",
+      "email": "rebecca.hermosillo@sonomacounty.gov",
+      "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/board-of-supervisors/supervisorial-districts/board-of-supervisors-district-1",
+      "photo_url": "https://sonomacounty.gov/Main%20County%20Site/General/Web%20Team/Images/Rebecca-Hermosillo-1.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "575 Administration Drive, Room 100 A, Santa Rosa, CA 95403",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-08-21T03:34:25.818Z",
+      "jurisdiction": {
+        "city": "Sonoma County",
+        "state": "CA"
+      },
+      "source_url": "https://sonomacounty.gov/",
+      "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
     },
     {

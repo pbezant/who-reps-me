@@ -1,15 +1,55 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { MemoryRouter, useNavigate } from 'react-router-dom';
 import App, { officesFromFieldOffices, mergeOffices, mergeFederalSocial, getLocalOfficials, localScrapeNote, toRepCard } from './App';
 
+// App now renders <Routes>/<Route> internally (see App.js), so every render needs a Router
+// context around it — MemoryRouter rather than BrowserRouter since these tests don't touch the
+// real URL/history.
+function renderApp() {
+  return render(<MemoryRouter><App /></MemoryRouter>);
+}
+
 test('renders the search page', () => {
-  render(<App />);
+  renderApp();
   expect(screen.getByText(/who reps me/i)).toBeInTheDocument();
   expect(screen.getByPlaceholderText(/address or zip code/i)).toBeInTheDocument();
 });
 
 test('shows the "help us grow this map" button even before any search has run', () => {
-  render(<App />);
+  renderApp();
   expect(screen.getByRole('button', { name: /help us grow this map/i })).toBeInTheDocument();
+});
+
+// Drives the router from outside App, so the round trip can be exercised without a real search
+// (which would need the network) just to produce a card to click.
+function Go({ to, label }) {
+  const navigate = useNavigate();
+  return <button type="button" onClick={() => navigate(to)}>{label}</button>;
+}
+
+test('keeps the typed address across a trip to a profile page and back', async () => {
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <Go to="/rep/anything" label="to profile" />
+      <Go to="/" label="to results" />
+      <App />
+    </MemoryRouter>
+  );
+
+  // user-event v13 API (no .setup(), calls are synchronous) — see package.json.
+  userEvent.type(screen.getByPlaceholderText(/address or zip code/i), '78640');
+  expect(screen.getByPlaceholderText(/address or zip code/i)).toHaveValue('78640');
+
+  // Opening a profile unmounts HomePage — and with it SearchBar. That's exactly why the address
+  // has to live in App: held inside SearchBar it came back blank, which read as "my search was
+  // lost" even though the results themselves had survived the whole time.
+  // waitFor because React 18 does not flush the navigate() state update synchronously.
+  userEvent.click(screen.getByRole('button', { name: 'to profile' }));
+  await waitFor(() => expect(screen.queryByPlaceholderText(/address or zip code/i)).not.toBeInTheDocument());
+
+  userEvent.click(screen.getByRole('button', { name: 'to results' }));
+  await waitFor(() => expect(screen.getByPlaceholderText(/address or zip code/i)).toHaveValue('78640'));
 });
 
 describe('officesFromFieldOffices', () => {
