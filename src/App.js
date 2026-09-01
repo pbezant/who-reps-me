@@ -5,6 +5,7 @@ import { geocode, normalizePlace } from './geocode';
 import { toStateRepCards, mergeStateLegislators } from './stateLegislators';
 import { toStateExecutiveCards, mergeStateExecutives } from './stateExecutives';
 import ReportBug from './ReportBug';
+import Support from './Support';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <SearchBar apiKey={apiKey} setRepList={setRepList} />
         <Results repList={repList} />
       </main>
+      <Support />
       {/* Always available, unlike the officials-suggestion button it replaced — a bug can
           happen before a search ever completes. See ReportBug.js's own header comment. */}
       <ReportBug repList={repList} />
@@ -761,7 +763,15 @@ function Results({ repList }) {
 function RepCard({ rep }) {
   return (
     <section className={`rep-card ${rep.area.toLowerCase().replace(/ /g, "-")}`}>
-      <img src={!rep.photoURL ? "../generic-profile.jpg" : rep.photoURL} alt={rep.name} />
+      <img
+        src={rep.photoURL || "/generic-profile.jpg"}
+        alt={rep.name}
+        // Fall back to the placeholder for a broken/404 photo URL too, not just a missing one.
+        onError={(e) => {
+          if (e.currentTarget.src.endsWith("/generic-profile.jpg")) return;
+          e.currentTarget.src = "/generic-profile.jpg";
+        }}
+      />
       <div>
         <h2>{rep.name}</h2>
         <ul>
