@@ -19679,7 +19679,639 @@
       "population": 32168,
       "checked_at": "2026-09-01T03:45:40.808Z",
       "reason": "no site found"
+    },
+    {
+      "city": "North Charleston",
+      "state": "SC",
+      "level": "local",
+      "population": 32134,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Pontotoc County",
+      "state": "MS",
+      "level": "county",
+      "population": 32096,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Bethel Park",
+      "state": "PA",
+      "level": "local",
+      "population": 32074,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Monroe County",
+      "state": "GA",
+      "level": "county",
+      "population": 32023,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Evangeline Parish",
+      "state": "LA",
+      "level": "county",
+      "population": 31980,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Amherst County",
+      "state": "VA",
+      "level": "county",
+      "population": 31962,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Woodburn",
+      "state": "OR",
+      "level": "local",
+      "population": 31948,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Alamogordo",
+      "state": "NM",
+      "level": "local",
+      "population": 31906,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Rosemount",
+      "state": "MN",
+      "level": "local",
+      "population": 31881,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Casselberry",
+      "state": "FL",
+      "level": "local",
+      "population": 31872,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Bay City",
+      "state": "MI",
+      "level": "local",
+      "population": 31868,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Kalispell",
+      "state": "MT",
+      "level": "local",
+      "population": 31851,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Brooklyn Center",
+      "state": "MN",
+      "level": "local",
+      "population": 31846,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Hale County",
+      "state": "TX",
+      "level": "county",
+      "population": 31819,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Rome",
+      "state": "NY",
+      "level": "local",
+      "population": 31682,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Marshall County",
+      "state": "KY",
+      "level": "county",
+      "population": 31659,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Boyle County",
+      "state": "KY",
+      "level": "county",
+      "population": 31632,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Juneau City and Borough",
+      "state": "AK",
+      "level": "county",
+      "population": 31609,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Greenbrier County",
+      "state": "WV",
+      "level": "county",
+      "population": 31578,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Titus County",
+      "state": "TX",
+      "level": "county",
+      "population": 31563,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Clare County",
+      "state": "MI",
+      "level": "county",
+      "population": 31543,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "North Olmsted",
+      "state": "OH",
+      "level": "local",
+      "population": 31542,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Kuna",
+      "state": "ID",
+      "level": "local",
+      "population": 31525,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Summit County",
+      "state": "CO",
+      "level": "county",
+      "population": 31517,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "North Attleborough Town",
+      "state": "MA",
+      "level": "local",
+      "population": 31506,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Jefferson Davis Parish",
+      "state": "LA",
+      "level": "county",
+      "population": 31471,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Princeton",
+      "state": "NJ",
+      "level": "local",
+      "population": 31469,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Mauldin",
+      "state": "SC",
+      "level": "local",
+      "population": 31465,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Sanpete County",
+      "state": "UT",
+      "level": "county",
+      "population": 31453,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Vernon County",
+      "state": "WI",
+      "level": "county",
+      "population": 31443,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Giles County",
+      "state": "TN",
+      "level": "county",
+      "population": 31433,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Cass County",
+      "state": "MN",
+      "level": "county",
+      "population": 31430,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Rockledge",
+      "state": "FL",
+      "level": "local",
+      "population": 31343,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Coos County",
+      "state": "NH",
+      "level": "county",
+      "population": 31343,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Washington County",
+      "state": "ME",
+      "level": "county",
+      "population": 31334,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Anderson",
+      "state": "SC",
+      "level": "local",
+      "population": 31323,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Liberty",
+      "state": "MO",
+      "level": "local",
+      "population": 31319,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "West Melbourne",
+      "state": "FL",
+      "level": "local",
+      "population": 31285,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Crestview",
+      "state": "FL",
+      "level": "local",
+      "population": 31193,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "no site found"
+    },
+    {
+      "city": "Spring Valley",
+      "state": "NY",
+      "level": "local",
+      "population": 31192,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Bowling Green",
+      "state": "OH",
+      "level": "local",
+      "population": 31182,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Trempealeau County",
+      "state": "WI",
+      "level": "county",
+      "population": 31171,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Park County",
+      "state": "WY",
+      "level": "county",
+      "population": 31171,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Greene County",
+      "state": "IN",
+      "level": "county",
+      "population": 31165,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Holladay",
+      "state": "UT",
+      "level": "local",
+      "population": 31162,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Adams County",
+      "state": "NE",
+      "level": "county",
+      "population": 31071,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Northampton",
+      "state": "MA",
+      "level": "local",
+      "population": 31047,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Clarendon County",
+      "state": "SC",
+      "level": "county",
+      "population": 31043,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Jackson",
+      "state": "MI",
+      "level": "local",
+      "population": 31022,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Rahway",
+      "state": "NJ",
+      "level": "local",
+      "population": 31010,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "North Royalton",
+      "state": "OH",
+      "level": "local",
+      "population": 30936,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Ballwin",
+      "state": "MO",
+      "level": "local",
+      "population": 30901,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Cherokee County",
+      "state": "NC",
+      "level": "county",
+      "population": 30830,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Fridley",
+      "state": "MN",
+      "level": "local",
+      "population": 30829,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Franklin County",
+      "state": "ME",
+      "level": "county",
+      "population": 30824,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Palo Pinto County",
+      "state": "TX",
+      "level": "county",
+      "population": 30791,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Mecklenburg County",
+      "state": "VA",
+      "level": "county",
+      "population": 30747,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "McCurtain County",
+      "state": "OK",
+      "level": "county",
+      "population": 30744,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Wabash County",
+      "state": "IN",
+      "level": "county",
+      "population": 30713,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Meade County",
+      "state": "SD",
+      "level": "county",
+      "population": 30711,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Meade County",
+      "state": "KY",
+      "level": "county",
+      "population": 30699,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Muhlenberg County",
+      "state": "KY",
+      "level": "county",
+      "population": 30634,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Gloucester",
+      "state": "MA",
+      "level": "local",
+      "population": 30627,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Conway",
+      "state": "SC",
+      "level": "local",
+      "population": 30627,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Door County",
+      "state": "WI",
+      "level": "county",
+      "population": 30616,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Oakdale",
+      "state": "MN",
+      "level": "local",
+      "population": 30588,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Polk County",
+      "state": "MN",
+      "level": "county",
+      "population": 30545,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Elbert County",
+      "state": "CO",
+      "level": "county",
+      "population": 30534,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Huron County",
+      "state": "MI",
+      "level": "county",
+      "population": 30530,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Chaska",
+      "state": "MN",
+      "level": "local",
+      "population": 30513,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Howard County",
+      "state": "TX",
+      "level": "county",
+      "population": 30504,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Venice",
+      "state": "FL",
+      "level": "local",
+      "population": 30477,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Pine County",
+      "state": "MN",
+      "level": "county",
+      "population": 30472,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Southlake",
+      "state": "TX",
+      "level": "local",
+      "population": 30446,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Winter Park",
+      "state": "FL",
+      "level": "local",
+      "population": 30444,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Freeborn County",
+      "state": "MN",
+      "level": "county",
+      "population": 30440,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Ottawa County",
+      "state": "OK",
+      "level": "county",
+      "population": 30438,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Caledonia County",
+      "state": "VT",
+      "level": "county",
+      "population": 30414,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Hopkinsville",
+      "state": "KY",
+      "level": "local",
+      "population": 30411,
+      "checked_at": "2026-09-02T05:10:05.259Z",
+      "reason": "gemini HTTP 429"
     }
   ],
-  "generated_at": "2026-09-01T03:45:40.808Z"
+  "generated_at": "2026-09-02T05:10:05.259Z"
 }
