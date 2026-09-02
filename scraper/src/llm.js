@@ -31,9 +31,15 @@ export const PRESETS = {
   },
   gemini: {
     // Google's OpenAI-compatibility endpoint.
+    // gemini-2.5-flash was retired for new API keys (HTTP 404 "no longer available to new
+    // users"); Google's migration note points at gemini-3.6-flash, the current stable Flash.
+    // Pinned to an explicit stable version rather than the gemini-flash-latest alias, which
+    // Google recommends against for production because it hot-swaps to preview/experimental
+    // builds. Bump this string when 3.6 is itself retired (deprecation notices go to the key's
+    // account email).
     api: "openai",
     baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai",
-    model: "gemini-2.5-flash",
+    model: "gemini-3.6-flash",
     rpm: 12, // limit 15 RPM
   },
   mistral: {
