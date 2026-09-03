@@ -20311,7 +20311,591 @@
       "population": 30411,
       "checked_at": "2026-09-02T05:10:05.259Z",
       "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Easton",
+      "state": "PA",
+      "level": "local",
+      "population": 30402,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Fredericksburg",
+      "state": "VA",
+      "level": "local",
+      "population": 30393,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Fredericksburg city",
+      "state": "VA",
+      "level": "county",
+      "population": 30393,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Salem",
+      "state": "OR",
+      "level": "local",
+      "population": 30380,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Logan County",
+      "state": "WV",
+      "level": "county",
+      "population": 30375,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Newark",
+      "state": "DE",
+      "level": "local",
+      "population": 30359,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Kleberg County",
+      "state": "TX",
+      "level": "county",
+      "population": 30315,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Central",
+      "state": "LA",
+      "level": "local",
+      "population": 30313,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Morgan County",
+      "state": "CO",
+      "level": "county",
+      "population": 30306,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Morgantown",
+      "state": "WV",
+      "level": "local",
+      "population": 30293,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Hazleton",
+      "state": "PA",
+      "level": "local",
+      "population": 30286,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Laurel",
+      "state": "MD",
+      "level": "local",
+      "population": 30254,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Independence",
+      "state": "KY",
+      "level": "local",
+      "population": 30198,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Marysville",
+      "state": "OH",
+      "level": "local",
+      "population": 30188,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Montgomery County",
+      "state": "KS",
+      "level": "county",
+      "population": 30177,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Schoharie County",
+      "state": "NY",
+      "level": "county",
+      "population": 30176,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Alvin",
+      "state": "TX",
+      "level": "local",
+      "population": 30115,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Middletown",
+      "state": "NY",
+      "level": "local",
+      "population": 30098,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Hardin County",
+      "state": "OH",
+      "level": "county",
+      "population": 30072,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Obion County",
+      "state": "TN",
+      "level": "county",
+      "population": 30067,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "McPherson County",
+      "state": "KS",
+      "level": "county",
+      "population": 30064,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Adams County",
+      "state": "MS",
+      "level": "county",
+      "population": 30061,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Englewood",
+      "state": "NJ",
+      "level": "local",
+      "population": 30035,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Bladen County",
+      "state": "NC",
+      "level": "county",
+      "population": 30007,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Orange County",
+      "state": "VT",
+      "level": "county",
+      "population": 30002,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Melissa",
+      "state": "TX",
+      "level": "local",
+      "population": 29969,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Elk County",
+      "state": "PA",
+      "level": "county",
+      "population": 29926,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Randolph County",
+      "state": "IL",
+      "level": "county",
+      "population": 29921,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Union City",
+      "state": "GA",
+      "level": "local",
+      "population": 29910,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Peach County",
+      "state": "GA",
+      "level": "county",
+      "population": 29877,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Schererville",
+      "state": "IN",
+      "level": "local",
+      "population": 29825,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Edgefield County",
+      "state": "SC",
+      "level": "county",
+      "population": 29808,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "North Tonawanda",
+      "state": "NY",
+      "level": "local",
+      "population": 29806,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Marion County",
+      "state": "TN",
+      "level": "county",
+      "population": 29804,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "White County",
+      "state": "GA",
+      "level": "county",
+      "population": 29802,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Baker County",
+      "state": "FL",
+      "level": "county",
+      "population": 29737,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Williamsburg County",
+      "state": "SC",
+      "level": "county",
+      "population": 29662,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "King George County",
+      "state": "VA",
+      "level": "county",
+      "population": 29646,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Ramsey",
+      "state": "MN",
+      "level": "local",
+      "population": 29624,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "White County",
+      "state": "TN",
+      "level": "county",
+      "population": 29612,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Melrose",
+      "state": "MA",
+      "level": "local",
+      "population": 29597,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Iberville Parish",
+      "state": "LA",
+      "level": "county",
+      "population": 29579,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Codington County",
+      "state": "SD",
+      "level": "county",
+      "population": 29562,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Knox County",
+      "state": "KY",
+      "level": "county",
+      "population": 29532,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Williston",
+      "state": "ND",
+      "level": "local",
+      "population": 29522,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "San Jacinto County",
+      "state": "TX",
+      "level": "county",
+      "population": 29488,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Elmore County",
+      "state": "ID",
+      "level": "county",
+      "population": 29465,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Lawrence County",
+      "state": "SD",
+      "level": "county",
+      "population": 29459,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Le Sueur County",
+      "state": "MN",
+      "level": "county",
+      "population": 29453,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Ripley County",
+      "state": "IN",
+      "level": "county",
+      "population": 29434,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Decatur County",
+      "state": "GA",
+      "level": "county",
+      "population": 29432,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Buffalo Grove",
+      "state": "IL",
+      "level": "local",
+      "population": 29332,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Kirkwood",
+      "state": "MO",
+      "level": "local",
+      "population": 29331,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Burton",
+      "state": "MI",
+      "level": "local",
+      "population": 29313,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Bridgewater Town",
+      "state": "MA",
+      "level": "local",
+      "population": 29309,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Carroll County",
+      "state": "VA",
+      "level": "county",
+      "population": 29299,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Sugar Hill",
+      "state": "GA",
+      "level": "local",
+      "population": 29280,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Carroll County",
+      "state": "AR",
+      "level": "county",
+      "population": 29263,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Carroll County",
+      "state": "TN",
+      "level": "county",
+      "population": 29200,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Jeffersontown",
+      "state": "KY",
+      "level": "local",
+      "population": 29193,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Goochland County",
+      "state": "VA",
+      "level": "county",
+      "population": 29187,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Jones County",
+      "state": "GA",
+      "level": "county",
+      "population": 29171,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Marshall County",
+      "state": "WV",
+      "level": "county",
+      "population": 29159,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Raytown",
+      "state": "MO",
+      "level": "local",
+      "population": 29154,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Marion County",
+      "state": "AL",
+      "level": "county",
+      "population": 29097,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Ellis County",
+      "state": "KS",
+      "level": "county",
+      "population": 29075,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Oak Park",
+      "state": "MI",
+      "level": "local",
+      "population": 29072,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Gallia County",
+      "state": "OH",
+      "level": "county",
+      "population": 29072,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Westerville",
+      "state": "OH",
+      "level": "local",
+      "population": 29046,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Mason County",
+      "state": "MI",
+      "level": "county",
+      "population": 29040,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Van Wert County",
+      "state": "OH",
+      "level": "county",
+      "population": 29013,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Fate",
+      "state": "TX",
+      "level": "local",
+      "population": 29007,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
+    },
+    {
+      "city": "Fluvanna County",
+      "state": "VA",
+      "level": "county",
+      "population": 28975,
+      "checked_at": "2026-09-03T05:48:48.848Z",
+      "reason": "gemini HTTP 429"
     }
   ],
-  "generated_at": "2026-09-02T05:10:05.259Z"
+  "generated_at": "2026-09-03T05:48:48.848Z"
 }
