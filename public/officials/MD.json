@@ -1,11 +1,12 @@
 {
   "state": "MD",
-  "generated_at": "2026-09-01T03:06:32.373Z",
-  "count": 126,
+  "generated_at": "2026-09-03T04:23:10.137Z",
+  "count": 127,
   "cities": [
     "Allegany County",
     "Annapolis",
     "Anne Arundel County",
+    "Baltimore",
     "Bowie",
     "Calvert County",
     "Carroll County",
@@ -734,6 +735,37 @@
       "source_url": "https://www.aacounty.org/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
       "confidence": 1
+    },
+    {
+      "id": "md:baltimore:mayor:brandon-m.-scott",
+      "name": "Brandon M. Scott",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Baltimore City Council",
+      "district": null,
+      "phone": "410-396-4900",
+      "email": null,
+      "url": "https://www.baltimorecity.gov/mayor",
+      "photo_url": "https://s3.amazonaws.com/baltimorecity.gov.if-us-east-1/s3fs-public/styles/block_with_image/public/2025-10/mayor_scott_2025_v2.png.webp?h=45681e9d&itok=qtvjlCtD",
+      "social": {
+        "twitter": "https://twitter.com/MayorBMScott",
+        "facebook": "https://www.facebook.com/MayorBMScott",
+        "instagram": "https://www.instagram.com/MayorBMScott",
+        "linkedin": null,
+        "youtube": "https://www.youtube.com/channel/UCasQyO1K4yMq3Hi_0RQ0jfA"
+      },
+      "address": "City Hall - Room 250, 100 N. Holliday St, Baltimore, MD 21202",
+      "offices": [],
+      "hours": "M - F: 8:00am - 5:00pm",
+      "bio": "Brandon M. Scott is the 52nd Mayor of Baltimore, and the youngest person to hold the position in more than 100 years. Mayor Scott is committed to ending gun violence, restoring the public’s trust in government and creating a brighter, better and more equitable Baltimore for all.",
+      "bio_checked_at": "2026-09-03T04:23:10.137Z",
+      "jurisdiction": {
+        "city": "Baltimore",
+        "state": "MD"
+      },
+      "source_url": "https://www.baltimorecity.gov/labor-commissioner",
+      "extracted_at": "2026-09-03T04:23:10.137Z",
+      "confidence": 0.9
     },
     {
       "id": "md:bowie:council-member-at-large:dennis-brady",
