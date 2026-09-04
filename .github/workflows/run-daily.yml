@@ -1,4 +1,4 @@
-# One daily pipeline: link-scrape -> promote -> scrape -> discover -> QA-check -> dedupe, sharing
+# One pipeline: link-scrape -> promote -> scrape -> discover -> QA-check -> dedupe, sharing
 # one daily LLM-call budget across the five LLM-calling phases instead of each having its own
 # fixed, independent cap. (Dedupe is the exception — zero LLM calls, see phase 5 below.)
 #
@@ -67,9 +67,12 @@
 # drifts to 9pm Central once CDT ends (~early November); update to "0 4 * * *" then if a fixed
 # 10pm wall-clock time still matters at that point.
 #
-# TEMPORARY at daily cadence through 2026-09-04 (a 15-day nationwide coverage push agreed on
-# 2026-08-20) — revert the cron to weekly after that (e.g. "0 3 * * 1") once the initial push is
-# done; the shared-budget design itself is meant to stay permanent, just not necessarily daily.
+# Ran at daily cadence from 2026-08-21 through 2026-09-04 (a 15-day nationwide coverage push
+# agreed on 2026-08-20), then reverted to weekly here on 2026-09-04 now that push is done — see
+# that day's check-in for the before/after numbers (24 -> 49 states with data, 370 -> 5,310
+# officials, 67 -> 1,047 auto-discovered jurisdictions). The shared-budget design itself stays
+# permanent; only the cadence dropped back down, since covering new ground nationwide no longer
+# needs a daily push — a weekly run still grows/refreshes the dataset, just slower.
 #
 # IMPORTANT: GitHub only registers workflows (cron + the "Run workflow" button) from the
 # repository's default branch. Until this file is merged there, run the phases locally instead:
@@ -85,7 +88,7 @@ name: Daily data pipeline
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * 1"
   workflow_dispatch:
     inputs:
       provider:
