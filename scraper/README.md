@@ -471,7 +471,10 @@ got to; anything left over just gets picked up next run, the same resumable patt
 LLM-call budget** across all four instead of each phase having its own fixed, independent cap.
 See `src/usage-ledger.js`'s own header comment for the full reasoning, and that workflow file's
 own header comment for the phase order and why. Scheduled for 10pm Central (03:00 UTC) so it
-runs when it's least likely to compete with real user searches for the same provider rate limit.
+runs when it's least likely to compete with real user searches for the same provider rate limit —
+weekly (Mondays) as of 2026-09-04, after a 15-day daily cadence used for an initial nationwide
+coverage push (24 → 49 states with data, 370 → 5,310 officials). See the workflow file's own
+header comment for that count and the reasoning for dropping back to weekly.
 
 **Data lands via a pull request, not a direct commit.** The run's changes are pushed to a
 dedicated `data/daily-run-<date>-<run id>` branch, opened as a PR against the default branch, and
