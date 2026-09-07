@@ -17,7 +17,20 @@
 name: CI
 
 on:
+  # The automated data PRs (run-daily.yml, federal-social.yml) are opened by the default
+  # GITHUB_TOKEN, and GitHub deliberately does not let a GITHUB_TOKEN-triggered event start
+  # a new workflow run — so a pull_request run WAS registered on every such PR but died at
+  # startup ("This run likely failed because of a workflow file issue"), leaving a permanent
+  # red X on data PRs that human PRs never showed. Those PRs only ever touch generated data
+  # files (never source or tests), so excluding those paths means no CI run is registered for
+  # them at all, instead of one that can only fail. Any PR that changes real code still runs.
   pull_request:
+    paths-ignore:
+      - "public/officials/**"
+      - "public/federal-social.json"
+      - "public/federal-details.json"
+      - "scraper/data/**"
+      - "scraper/config/seeds.discovered.json"
   push:
     branches: [master]
 
