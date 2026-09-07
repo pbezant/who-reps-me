@@ -1,7 +1,7 @@
 {
   "state": "CA",
-  "generated_at": "2026-08-25T03:19:04.235Z",
-  "count": 62,
+  "generated_at": "2026-09-07T03:08:22.966Z",
+  "count": 63,
   "cities": [
     "Alameda County",
     "Contra Costa County",
@@ -16,6 +16,7 @@
     "Sacramento County",
     "San Bernardino County",
     "San Diego County",
+    "San Joaquin County",
     "Sonoma County",
     "Ventura County"
   ],
@@ -1631,6 +1632,37 @@
       "source_url": "https://www.sandiegocounty.gov",
       "extracted_at": "2026-08-20T02:51:45.007Z",
       "confidence": 1
+    },
+    {
+      "id": "ca:san-joaquin-county:agventure-coordinator:krista-mccoon",
+      "name": "Krista McCoon",
+      "office": "AgVenture Coordinator",
+      "level": "county",
+      "body": "San Joaquin County Commissioners Court",
+      "district": null,
+      "phone": "209-402-5734",
+      "email": "sjcagventure@yahoo.com",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "San Joaquin County",
+        "state": "CA"
+      },
+      "source_url": "https://www.sjgov.org/department/agricultural-commissioner-new/agricultural-programs/ag-resources/agventure",
+      "extracted_at": "2026-09-07T03:08:22.966Z",
+      "confidence": 0.85
     },
     {
       "id": "ca:sonoma-county:supervisor:chris-coursey",
