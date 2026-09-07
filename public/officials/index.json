@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T03:06:31.548Z",
+  "generated_at": "2026-09-07T03:08:22.966Z",
   "states": {
     "TX": {
       "count": 523,
@@ -101,7 +101,7 @@
       "updated": "2026-09-01T04:40:11.651Z"
     },
     "CA": {
-      "count": 62,
+      "count": 63,
       "cities": [
         "Alameda County",
         "Contra Costa County",
@@ -116,10 +116,11 @@
         "Sacramento County",
         "San Bernardino County",
         "San Diego County",
+        "San Joaquin County",
         "Sonoma County",
         "Ventura County"
       ],
-      "updated": "2026-08-25T03:19:04.235Z"
+      "updated": "2026-09-07T03:08:22.966Z"
     },
     "IL": {
       "count": 185,
