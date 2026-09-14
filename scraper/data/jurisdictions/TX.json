@@ -1,6 +1,6 @@
 {
   "state": "TX",
-  "generated_at": "2026-09-07T03:08:21.431Z",
+  "generated_at": "2026-09-14T03:08:44.244Z",
   "places": [
     {
       "name": "Abbott",
@@ -437,6 +437,10 @@
     {
       "name": "Blooming Grove",
       "population": 882
+    },
+    {
+      "name": "Bloomington",
+      "population": null
     },
     {
       "name": "Blossom",
@@ -3595,6 +3599,10 @@
       "population": 2335
     },
     {
+      "name": "Rangerville",
+      "population": null
+    },
+    {
       "name": "Rankin",
       "population": 733
     },
@@ -4225,6 +4233,10 @@
     {
       "name": "Star Harbor",
       "population": 533
+    },
+    {
+      "name": "Starbase",
+      "population": null
     },
     {
       "name": "Stephenville",

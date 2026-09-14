@@ -1,13 +1,14 @@
 {
   "state": "UT",
-  "generated_at": "2026-09-01T03:06:32.373Z",
-  "count": 107,
+  "generated_at": "2026-09-14T03:08:45.879Z",
+  "count": 108,
   "cities": [
     "American Fork",
     "Bountiful",
     "Cache County",
     "Clearfield",
     "Herriman",
+    "Kaysville",
     "Logan",
     "Midvale",
     "Millcreek",
@@ -830,6 +831,37 @@
       "source_url": "https://www.herriman.gov/city-council",
       "extracted_at": "2026-08-27T04:45:21.508Z",
       "confidence": 1
+    },
+    {
+      "id": "ut:kaysville:council-member:john-adams",
+      "name": "John Adams",
+      "office": "City Council Member",
+      "level": "local",
+      "body": "Kaysville City Council",
+      "district": null,
+      "phone": null,
+      "email": "councilmember.jadams@kaysville.gov",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Kaysville",
+        "state": "UT"
+      },
+      "source_url": "https://www.kaysville.gov/1048/Youth-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 0.95
     },
     {
       "id": "ut:logan:division-superintendent:dan-blakely",
