@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T03:08:22.966Z",
+  "generated_at": "2026-09-14T03:08:45.879Z",
   "states": {
     "TX": {
       "count": 523,
@@ -441,13 +441,14 @@
       "updated": "2026-09-01T04:40:11.651Z"
     },
     "UT": {
-      "count": 107,
+      "count": 108,
       "cities": [
         "American Fork",
         "Bountiful",
         "Cache County",
         "Clearfield",
         "Herriman",
+        "Kaysville",
         "Logan",
         "Midvale",
         "Millcreek",
@@ -464,7 +465,7 @@
         "Utah County",
         "West Valley City"
       ],
-      "updated": "2026-09-01T03:06:32.373Z"
+      "updated": "2026-09-14T03:08:45.879Z"
     },
     "VA": {
       "count": 117,
@@ -637,7 +638,7 @@
       "updated": "2026-09-01T03:06:32.373Z"
     },
     "NJ": {
-      "count": 108,
+      "count": 114,
       "cities": [
         "Atlantic City",
         "Camden",
@@ -652,6 +653,7 @@
         "Hudson County",
         "Hunterdon County",
         "Jersey City",
+        "Long Branch",
         "Newark",
         "Passaic",
         "Paterson",
@@ -660,7 +662,7 @@
         "Sayreville",
         "Vineland"
       ],
-      "updated": "2026-08-31T03:06:51.981Z"
+      "updated": "2026-09-14T03:08:45.879Z"
     },
     "MI": {
       "count": 248,
@@ -925,9 +927,10 @@
       "updated": "2026-09-01T03:06:32.373Z"
     },
     "AL": {
-      "count": 37,
+      "count": 39,
       "cities": [
         "Autauga County",
+        "Chambers County",
         "Dale County",
         "Dallas County",
         "Elmore County",
@@ -936,7 +939,7 @@
         "Russell County",
         "St. Clair County"
       ],
-      "updated": "2026-09-01T03:06:32.373Z"
+      "updated": "2026-09-14T03:08:45.879Z"
     },
     "AR": {
       "count": 40,

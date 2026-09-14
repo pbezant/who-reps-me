@@ -1,9 +1,10 @@
 {
   "state": "AL",
-  "generated_at": "2026-09-01T03:06:32.373Z",
-  "count": 37,
+  "generated_at": "2026-09-14T03:08:45.879Z",
+  "count": 39,
   "cities": [
     "Autauga County",
+    "Chambers County",
     "Dale County",
     "Dallas County",
     "Elmore County",
@@ -260,6 +261,68 @@
       "source_url": "https://www.autaugaco.org/home/county-government/elected-officials/",
       "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
+    },
+    {
+      "id": "al:chambers-county:county-attorney:skip-mccoy",
+      "name": "Skip McCoy",
+      "office": "County Attorney",
+      "level": "county",
+      "body": "Chambers County Commissioners Court",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chamberscountyal.gov/templates/yootheme/cache/31/skipmccoy2-31a155cf.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chambers County",
+        "state": "AL"
+      },
+      "source_url": "https://www.chamberscountyal.gov/government/county-manager",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 0.95
+    },
+    {
+      "id": "al:chambers-county:county-manager:regina-n.-chambers",
+      "name": "Regina N. Chambers",
+      "office": "County Manager",
+      "level": "county",
+      "body": "Chambers County Commissioners Court",
+      "district": null,
+      "phone": "334-864-4341",
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.chamberscountyal.gov/templates/yootheme/cache/ae/reginachambers2-ae390c73.jpeg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "2 South LaFayette Street LaFayette, AL 36862",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Chambers County",
+        "state": "AL"
+      },
+      "source_url": "https://www.chamberscountyal.gov/government/county-manager",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 0.95
     },
     {
       "id": "al:dale-county:commission-chairman:steve-mckinnon",

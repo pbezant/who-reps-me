@@ -1,7 +1,7 @@
 {
   "state": "NJ",
-  "generated_at": "2026-08-31T03:06:51.981Z",
-  "count": 108,
+  "generated_at": "2026-09-14T03:08:45.879Z",
+  "count": 114,
   "cities": [
     "Atlantic City",
     "Camden",
@@ -16,6 +16,7 @@
     "Hudson County",
     "Hunterdon County",
     "Jersey City",
+    "Long Branch",
     "Newark",
     "Passaic",
     "Paterson",
@@ -2172,6 +2173,192 @@
       },
       "source_url": "https://www.jerseycitynj.gov/",
       "extracted_at": "2026-08-21T03:34:25.818Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:council-member:anita-voogt",
+      "name": "Anita Voogt",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "avoogt@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:council-member:david-g.-brown-ii",
+      "name": "David G. Brown II",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "dbrown@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:council-member:glen-rassas",
+      "name": "Glen Rassas",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "grassas@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:council-member:marcos-zalta",
+      "name": "Marcos Zalta",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "mzalta@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:council-member:paulo-barateiro",
+      "name": "Paulo Barateiro",
+      "office": "Council Member",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "pbarateiro@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
+      "confidence": 1
+    },
+    {
+      "id": "nj:long-branch:mayor:john-pallone",
+      "name": "John Pallone",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Long Branch City Council",
+      "district": null,
+      "phone": null,
+      "email": "johnpallone@longbranch.org",
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": "https://www.facebook.com/longbranchofficeofthemayor",
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Long Branch",
+        "state": "NJ"
+      },
+      "source_url": "https://www.longbranch.org/344/Mayor-City-Council",
+      "extracted_at": "2026-09-14T03:08:45.879Z",
       "confidence": 1
     },
     {
