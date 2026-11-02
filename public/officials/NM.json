@@ -1,7 +1,7 @@
 {
   "state": "NM",
-  "generated_at": "2026-09-01T03:06:32.373Z",
-  "count": 70,
+  "generated_at": "2026-11-02T03:05:56.254Z",
+  "count": 75,
   "cities": [
     "Albuquerque",
     "Bernalillo County",
@@ -12,7 +12,8 @@
     "Roswell",
     "Sandoval County",
     "Santa Fe",
-    "Santa Fe County"
+    "Santa Fe County",
+    "Taos County"
   ],
   "officials": [
     {
@@ -2183,6 +2184,161 @@
       },
       "source_url": "https://santafenm.gov/elected-officials",
       "extracted_at": "2026-08-25T03:19:04.235Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:taos-county:commission-chairman:miguel-romero-jr.",
+      "name": "Miguel Romero Jr.",
+      "office": "Commission Chairman",
+      "level": "county",
+      "body": "Taos County Commissioners Court",
+      "district": "District 2",
+      "phone": null,
+      "email": null,
+      "url": "https://www.taoscounty.org/241/Miguel-Romero-Jr---District-2",
+      "photo_url": "https://www.taoscounty.org/ImageRepository/Document?documentID=3306",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Taos County",
+        "state": "NM"
+      },
+      "source_url": "https://www.taoscounty.org/238/County-Commissioners",
+      "extracted_at": "2026-11-02T03:05:56.254Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:taos-county:commission-vice-chairman:darlene-vigil",
+      "name": "Darlene Vigil",
+      "office": "Commission Vice Chairman",
+      "level": "county",
+      "body": "Taos County Commissioners Court",
+      "district": "District 3",
+      "phone": null,
+      "email": null,
+      "url": "https://www.taoscounty.org/242/Darlene-Vigil---District-3",
+      "photo_url": "https://www.taoscounty.org/ImageRepository/Document?documentID=1828",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Taos County",
+        "state": "NM"
+      },
+      "source_url": "https://www.taoscounty.org/238/County-Commissioners",
+      "extracted_at": "2026-11-02T03:05:56.254Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:taos-county:county-commissioner:anjanette-brush",
+      "name": "AnJanette Brush",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Taos County Commissioners Court",
+      "district": "District 4",
+      "phone": "575-779-2095",
+      "email": "anjanette.brush@taoscountynm.gov",
+      "url": "https://www.taoscounty.org/243/AnJanette-Brush---District-4",
+      "photo_url": "https://www.taoscounty.org/ImageRepository/Document?documentID=1829",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": "105 Albright Street, Taos, NM 87571",
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": "2026-11-02T03:05:56.254Z",
+      "jurisdiction": {
+        "city": "Taos County",
+        "state": "NM"
+      },
+      "source_url": "https://www.taoscounty.org/238/County-Commissioners",
+      "extracted_at": "2026-11-02T03:05:56.254Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:taos-county:county-commissioner:fr-bob-romero",
+      "name": "FR Bob Romero",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Taos County Commissioners Court",
+      "district": "District 1",
+      "phone": null,
+      "email": null,
+      "url": "https://www.taoscounty.org/240/FR-Bob-Romero---District-1",
+      "photo_url": "https://www.taoscounty.org/ImageRepository/Document?documentID=2598",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Taos County",
+        "state": "NM"
+      },
+      "source_url": "https://www.taoscounty.org/238/County-Commissioners",
+      "extracted_at": "2026-11-02T03:05:56.254Z",
+      "confidence": 1
+    },
+    {
+      "id": "nm:taos-county:county-commissioner:ronald-mascareñas",
+      "name": "Ronald Mascareñas",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Taos County Commissioners Court",
+      "district": "District 5",
+      "phone": null,
+      "email": null,
+      "url": "https://www.taoscounty.org/244/Ronald-Mascareas---District-5",
+      "photo_url": "https://www.taoscounty.org/ImageRepository/Document?documentID=2597",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Taos County",
+        "state": "NM"
+      },
+      "source_url": "https://www.taoscounty.org/238/County-Commissioners",
+      "extracted_at": "2026-11-02T03:05:56.254Z",
       "confidence": 1
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:10:13.094Z",
+  "generated_at": "2026-11-02T03:05:56.254Z",
   "states": {
     "TX": {
       "count": 523,
@@ -783,7 +783,7 @@
       "updated": "2026-09-01T03:06:32.373Z"
     },
     "NM": {
-      "count": 70,
+      "count": 75,
       "cities": [
         "Albuquerque",
         "Bernalillo County",
@@ -794,9 +794,10 @@
         "Roswell",
         "Sandoval County",
         "Santa Fe",
-        "Santa Fe County"
+        "Santa Fe County",
+        "Taos County"
       ],
-      "updated": "2026-09-01T03:06:32.373Z"
+      "updated": "2026-11-02T03:05:56.254Z"
     },
     "WI": {
       "count": 173,
