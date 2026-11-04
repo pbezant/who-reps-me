@@ -1,7 +1,7 @@
 {
   "state": "NC",
-  "generated_at": "2026-09-01T04:40:11.651Z",
-  "count": 295,
+  "generated_at": "2026-11-04T17:03:05.288Z",
+  "count": 302,
   "cities": [
     "Alamance County",
     "Alexander County",
@@ -31,6 +31,7 @@
     "Jackson County",
     "Jacksonville",
     "Leland",
+    "Matthews",
     "Mecklenburg County",
     "Monroe",
     "Moore County",
@@ -4926,6 +4927,223 @@
       },
       "source_url": "https://www.townofleland.com/mayor-town-council/contact-town-council",
       "extracted_at": "2026-09-01T03:06:32.373Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:commissioner:brian-hacker",
+      "name": "Brian Hacker",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023035121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:commissioner:jennefer-garrity",
+      "name": "Jennefer Garrity",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023059121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:commissioner:john-urban",
+      "name": "John Urban",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023305121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:commissioner:jonathan-clayton",
+      "name": "Jonathan Clayton",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023023121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:commissioner:kerry-lamson",
+      "name": "Kerry Lamson",
+      "office": "Commissioner",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023047121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:mayor-pro-tem:susan-chambers",
+      "name": "Susan Chambers",
+      "office": "Mayor Pro Tem",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023007121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
+      "confidence": 1
+    },
+    {
+      "id": "nc:matthews:mayor:john-f.-higdon",
+      "name": "John F. Higdon",
+      "office": "Mayor",
+      "level": "local",
+      "body": "Matthews City Council",
+      "district": null,
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": "https://www.matthewsnc.gov/files/images/image1561023315121025pm.jpg",
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Matthews",
+        "state": "NC"
+      },
+      "source_url": "https://www.matthewsnc.gov/pview.aspx?id=20705&catid=566",
+      "extracted_at": "2026-11-04T17:03:05.288Z",
       "confidence": 1
     },
     {
