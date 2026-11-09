@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:04:47.200Z",
+  "generated_at": "2026-11-09T06:05:10.036Z",
   "sources": [
     "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
     "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml",
@@ -288,7 +288,7 @@
           "hours": null
         }
       ],
-      "bio": "Amy Jean Klobuchar is an American politician and lawyer serving as the senior United States senator from Minnesota, a seat she has held since 2007. A member of the Minnesota Democratic–Farmer–Labor Party (DFL), Minnesota's affiliate of the Democratic Party, she served from 1999 to 2007 as county attorney of Hennepin County, Minnesota. She is the Democratic nominee in the 2026 Minnesota gubernatorial election.",
+      "bio": "Amy Jean Klobuchar is an American politician and lawyer who is the governor-elect of Minnesota. Since 2007, she has served as a United States senator from Minnesota. A member of the Minnesota Democratic–Farmer–Labor Party (DFL), Minnesota's affiliate of the Democratic Party, she served from 1999 to 2007 as county attorney of Hennepin County, Minnesota.",
       "bio_source": "wikipedia"
     },
     "S000033": {
@@ -940,7 +940,7 @@
           "hours": null
         }
       ],
-      "bio": "Susan Margaret Collins is an American politician serving as the senior United States senator for Maine since 1997. A member of the Republican Party, she is Maine's longest-serving member of Congress and the longest-serving Republican woman in the Senate. Collins has chaired the Senate Appropriations Committee since 2025.",
+      "bio": "Susan Margaret Collins is an American politician who has served since 1997 as a United States senator for Maine. A member of the Republican Party, she is Maine's longest-serving member of Congress and the longest-serving Republican woman in the Senate.",
       "bio_source": "wikipedia"
     },
     "C001056": {
@@ -1528,8 +1528,8 @@
           "hours": null
         }
       ],
-      "bio": "Jeffrey Alan Merkley is an American politician who is the junior United States senator from Oregon. He was first elected to the Senate in 2008. A member of the Democratic Party, he served from 1999 to 2009 as the representative for the 47th district in the Oregon House of Representatives, which covers central Multnomah County, including portions of eastern Portland; he was the speaker of the Oregon House of Representatives during the last two years of his tenure.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "R000122": {
       "term_start": "2021-01-03",
@@ -1665,8 +1665,8 @@
           "hours": null
         }
       ],
-      "bio": "John Francis Reed is an American politician, lawyer, and former Army officer serving as the senior United States senator from Rhode Island, a seat he was first elected to in 1996. A member of the Democratic Party, he was the U.S. representative for Rhode Island's 2nd congressional district from 1991 to 1997. Reed graduated from the United States Military Academy and Harvard University. He served in the U.S. Army on active duty as an infantry officer in the 82nd Airborne Division from 1971 to 1979 and as a reservist from 1979 to 1991, retiring with the rank of Major. He has been the dean of Rhode Island's congressional delegation since John Chafee died in 1999.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "R000584": {
       "term_start": "2021-01-03",
@@ -9904,7 +9904,7 @@
         {
           "id": "HSFA13",
           "name": "House Committee on Foreign Affairs — Middle East and North Africa",
-          "role": "Ranking Member"
+          "role": null
         }
       ],
       "district_offices": [
@@ -10904,6 +10904,11 @@
           "role": null
         },
         {
+          "id": "HSFA17",
+          "name": "House Committee on Foreign Affairs — Oversight and Intelligence",
+          "role": null
+        },
+        {
           "id": "HSAP18",
           "name": "House Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
           "role": "Ranking Member"
@@ -10929,8 +10934,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Deborah Wasserman Schultz is an American politician serving as the U.S. representative for Florida's 25th congressional district, first elected to Congress in 2004. A member of the Democratic Party, she was the chair of the Democratic National Committee (DNC) from 2011 until her resignation in 2016.",
+      "bio_source": "wikipedia"
     },
     "W000187": {
       "term_start": "2025-01-03",
@@ -11142,8 +11147,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Peter Francis Welch is an American lawyer and politician serving since 2023 as the junior United States senator from Vermont. A member of the Democratic Party, he was the U.S. representative for Vermont's at-large congressional district from 2007 to 2023. He has been a major figure in Vermont politics for over four decades and is only the second Democrat to represent Vermont in the Senate, after his predecessor, Patrick Leahy.",
+      "bio_source": "wikipedia"
     },
     "W000795": {
       "term_start": "2025-01-03",
@@ -11386,8 +11391,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Robert Joseph Wittman is an American politician and environmental health specialist serving as the U.S. representative for Virginia's 1st congressional district since 2007. A member of the Republican Party, he previously served as a member of the Virginia House of Delegates from 2006 to 2007. His district contains portions of the Richmond suburbs and Hampton Roads area, as well as the Northern Neck and Middle Peninsula.",
+      "bio_source": "wikipedia"
     },
     "W000809": {
       "term_start": "2025-01-03",
@@ -11696,8 +11701,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Todd Christopher Young is an American politician and attorney serving as the senior United States senator from Indiana, a seat he has held since 2017. From 2011 to 2017, he was the U.S. representative for Indiana's 9th congressional district. Young is a member of the Republican Party.",
+      "bio_source": "wikipedia"
     },
     "A000369": {
       "term_start": "2025-01-03",
@@ -11874,8 +11879,8 @@
           "hours": "M-F 8:30am-5:00pm"
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Suzan Kay DelBene is an American politician and businesswoman who has been the United States representative for Washington's 1st congressional district since 2012.",
+      "bio_source": "wikipedia"
     },
     "M001184": {
       "term_start": "2025-01-03",
@@ -12126,8 +12131,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "George William Foster is an American businessman, physicist, and politician serving as the U.S. representative for Illinois's 11th congressional district since 2013. He was the U.S. representative for Illinois's 14th congressional district from 2008 to 2011. He is a member of the Democratic Party.",
+      "bio_source": "wikipedia"
     },
     "T000468": {
       "term_start": "2025-01-03",
@@ -12388,8 +12393,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Jared William Huffman is an American lawyer and politician serving as the U.S. representative for California's 2nd congressional district since 2013. A member of the Democratic Party, Huffman represented the 6th district in the California State Assembly from 2006 to 2012. He chaired the Assembly Water, Parks & Wildlife Committee and the Assembly Environmental Caucus. He was elected to Congress in 2012 with more than 70% of the vote, defeating Republican nominee Dan Roberts. His congressional district covers the North Coast from the Golden Gate Bridge to the Oregon border.",
+      "bio_source": "wikipedia"
     },
     "B001287": {
       "term_start": "2025-01-03",
@@ -12589,8 +12594,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Raul Ruiz is an American physician and politician serving as the U.S. representative for California's 25th congressional district. He is a member of the Democratic Party.",
+      "bio_source": "wikipedia"
     },
     "T000472": {
       "term_start": "2025-01-03",
@@ -12752,8 +12757,8 @@
           "hours": "T, Th 9:30am-4:30pm"
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Scott Harvey Peters is an American lawyer and politician serving as the U.S. representative from California's 50th congressional district since 2023, previously representing the 52nd congressional district from 2013 to 2023. His district includes both coastal and central portions of San Diego, as well as the suburbs of Poway and Coronado.",
+      "bio_source": "wikipedia"
     },
     "F000462": {
       "term_start": "2025-01-03",
@@ -12982,8 +12987,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Garland Hale \"Andy\" Barr IV is an American attorney and politician who is the United States Senator-elect of Kentucky, also serving as the U.S. representative for Kentucky's 6th congressional district since 2013. Previously, he served in the administration of Kentucky governor Ernie Fletcher. He is a member of the Republican Party.",
+      "bio_source": "wikipedia"
     },
     "W000817": {
       "term_start": "2025-01-03",
@@ -14669,6 +14674,11 @@
         {
           "id": "HSAP23",
           "name": "House Committee on Appropriations — Financial Services and General Government",
+          "role": null
+        },
+        {
+          "id": "HSFA16",
+          "name": "House Committee on Foreign Affairs — Africa",
           "role": null
         }
       ],
@@ -18269,8 +18279,8 @@
           "role": null
         },
         {
-          "id": "HSFA17",
-          "name": "House Committee on Foreign Affairs — Oversight and Intelligence",
+          "id": "HSFA13",
+          "name": "House Committee on Foreign Affairs — Middle East and North Africa",
           "role": null
         }
       ],
@@ -21376,8 +21386,8 @@
           "hours": null
         }
       ],
-      "bio": "Gregory John Stanton is an American lawyer and politician who is the U.S. representative from Arizona's 4th congressional district, serving since 2019. A Democrat, he was previously mayor of Phoenix from 2012 to 2018, and was on the Phoenix City Council from 2000 until 2009.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "H001090": {
       "term_start": "2025-01-03",
@@ -21557,8 +21567,8 @@
           "hours": null
         }
       ],
-      "bio": "Joseph D. Neguse is an American lawyer and politician serving as the U.S. representative for Colorado's 2nd congressional district since 2019. A member of the Democratic Party, he was a regent of the University of Colorado from 2008 to 2015. Neguse is the first Eritrean-American elected to the United States Congress and Colorado's first black member of Congress. Neguse has served as House assistant Democratic leader since 2024.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "C001121": {
       "term_start": "2025-01-03",
@@ -21754,8 +21764,8 @@
           "hours": null
         }
       ],
-      "bio": "William Gregory Steube is an American politician serving as the U.S. representative for Florida's 17th congressional district since 2019. His district is based in Sarasota. A member of the Republican Party, Steube served three terms in the Florida House of Representatives, representing the Sarasota-Manatee area from 2010 to 2016, as well as two years in the Florida Senate until 2018, representing Sarasota County and the western part of Charlotte County.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "M001208": {
       "term_start": "2025-01-03",
@@ -21960,8 +21970,8 @@
           "hours": null
         }
       ],
-      "bio": "Jesús G. \"Chuy\" García is an American politician serving as the U.S. representative for Illinois's 4th district since 2019. A member of the Democratic Party, he served on the Cook County Board of Commissioners, as well as in the Illinois Senate and on the Chicago City Council before his election to Congress. He was also a candidate for mayor of Chicago in 2015 and 2023. Throughout his career in Chicago and national politics, he has been described as a progressive.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "C001117": {
       "term_start": "2025-01-03",
@@ -22148,8 +22158,8 @@
           "hours": null
         }
       ],
-      "bio": "James Richard Baird is an American businessman and politician serving as the U.S. representative for Indiana's 4th congressional district since 2019. A Republican, he previously served as a member of the Indiana House of Representatives from 2010 to 2018 and as a Putnam County commissioner from 2006 to 2010.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "D000629": {
       "term_start": "2025-01-03",
@@ -22302,8 +22312,8 @@
           "hours": null
         }
       ],
-      "bio": "Ayanna Soyini Pressley is an American politician who has served as the U.S. representative for Massachusetts's 7th congressional district since 2019. This district includes the northern three quarters of Boston, most of Cambridge, parts of Milton, as well as all of Chelsea, Everett, Randolph, and Somerville.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "S001208": {
       "term_start": "2025-01-03",
@@ -22536,8 +22546,8 @@
           "hours": null
         }
       ],
-      "bio": "Rashida Harbi Tlaib is an American lawyer and politician serving as a U.S. representative from Michigan since 2019, representing the state's 12th congressional district since 2023. A member of the Democratic Party, she is the first Palestinian American woman to serve in Congress and one of the first two Muslim women elected to Congress.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "C001119": {
       "term_start": "2025-01-03",
@@ -22717,8 +22727,8 @@
           "hours": null
         }
       ],
-      "bio": "Peter Allen Stauber is an American politician, former minor-league hockey player, and retired law enforcement officer from Minnesota serving as the United States representative for Minnesota's 8th congressional district. A member of the Republican Party, Stauber has represented the district since 2019.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "G000591": {
       "term_start": "2025-01-03",
@@ -22951,8 +22961,8 @@
           "hours": null
         }
       ],
-      "bio": "Jefferson H. Van Drew is an American politician serving as the U.S. representative for New Jersey's 2nd congressional district since 2019. He was first elected as a Democrat and later switched to the Republican Party in 2020.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "K000394": {
       "term_start": "2025-01-03",
@@ -23178,8 +23188,8 @@
           "hours": "By appointment only"
         }
       ],
-      "bio": "Alexandria Ocasio-Cortez, also known as AOC, is an American politician and activist who has served since 2019 as the U.S. representative for New York's 14th congressional district. She is a member of the Democratic Party and the Democratic Socialists of America.",
-      "bio_source": "wikipedia"
+      "bio": null,
+      "bio_source": null
     },
     "D000631": {
       "term_start": "2025-01-03",
@@ -29095,8 +29105,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Thomas Jonathan Ossoff is an American politician who has served as the senior United States senator from Georgia since 2021. He is the youngest incumbent U.S. senator, and a member of the Democratic Party.",
+      "bio_source": "wikipedia"
     },
     "W000790": {
       "term_start": "2023-01-03",
@@ -31347,8 +31357,8 @@
           "role": null
         },
         {
-          "id": "HSFA17",
-          "name": "House Committee on Foreign Affairs — Oversight and Intelligence",
+          "id": "HSFA13",
+          "name": "House Committee on Foreign Affairs — Middle East and North Africa",
           "role": "Ranking Member"
         },
         {
@@ -31789,6 +31799,11 @@
           "id": "HSFA07",
           "name": "House Committee on Foreign Affairs — Western Hemisphere",
           "role": null
+        },
+        {
+          "id": "HSFA17",
+          "name": "House Committee on Foreign Affairs — Oversight and Intelligence",
+          "role": "Ranking Member"
         }
       ],
       "district_offices": [
@@ -37673,8 +37688,8 @@
           "hours": "By appointment only"
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Mark Brian Messmer is an American politician who has served as the U.S. representative for Indiana's 8th congressional district since 2025. He is a member of the Republican Party.",
+      "bio_source": "wikipedia"
     },
     "S001228": {
       "term_start": "2025-01-03",
@@ -37881,8 +37896,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Sarah Kelly Elfreth is an American politician who is serving as the U.S. representative for Maryland's 3rd congressional district since 2025. A member of the Democratic Party, she represented the 30th district in the Maryland Senate from 2019 to 2025.",
+      "bio_source": "wikipedia"
     },
     "M001232": {
       "term_start": "2025-01-03",
@@ -38055,8 +38070,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Kristen Lee McDonald Rivet is an American politician who has served as the U.S. representative for Michigan's 8th congressional district since 2025. A member of the Democratic Party, she previously served in the Michigan Senate for the 35th district, where she was the assistant majority floor leader from 2023 to 2025. Her district, located in Central Michigan, includes Flint and the Tri-Cities metropolitan area of Saginaw, Midland, and Bay City.",
+      "bio_source": "wikipedia"
     },
     "M001234": {
       "term_start": "2025-01-03",
@@ -38142,6 +38157,11 @@
         {
           "id": "HSFA",
           "name": "House Committee on Foreign Affairs",
+          "role": null
+        },
+        {
+          "id": "HSFA07",
+          "name": "House Committee on Foreign Affairs — Western Hemisphere",
           "role": null
         },
         {
@@ -38268,8 +38288,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Robert Frank Onder Jr. is an American politician, attorney, and physician from the state of Missouri. He is the member of the United States House of Representatives for Missouri's 3rd congressional district. He is a member of the Republican Party.",
+      "bio_source": "wikipedia"
     },
     "K000404": {
       "term_start": "2025-01-03",
@@ -38504,8 +38524,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Addison Parker McDowell is an American politician and lobbyist serving as the U.S. representative for North Carolina's 6th congressional district since 2025. A member of the Republican Party, McDowell was first elected in 2024.",
+      "bio_source": "wikipedia"
     },
     "H001102": {
       "term_start": "2025-01-03",
@@ -38728,8 +38748,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "John Bradford Knott is an American attorney and politician. He is the member for the United States House of Representatives in North Carolina's 13th congressional district. Prior to taking office in 2025, he worked as a federal prosecutor in the office of the United States attorney for the Eastern District of North Carolina.",
+      "bio_source": "wikipedia"
     },
     "M001236": {
       "term_start": "2025-01-03",
@@ -38890,8 +38910,18 @@
           "role": null
         },
         {
+          "id": "HSVR03",
+          "name": "House Committee on Veterans' Affairs — Health",
+          "role": null
+        },
+        {
           "id": "HSAS02",
           "name": "House Committee on Armed Services — Military Personnel",
+          "role": null
+        },
+        {
+          "id": "HSVR11",
+          "name": "House Committee on Veterans' Affairs — Technology Modernization",
           "role": null
         }
       ],
@@ -38924,8 +38954,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Margaret Vivian Goodlander is an American politician, lawyer, and former naval officer who has served as the U.S. representative from New Hampshire's 2nd congressional district since 2025. A member of the Democratic Party, she is married to Jake Sullivan, former U.S. national security advisor.",
+      "bio_source": "wikipedia"
     },
     "C001136": {
       "term_start": "2025-01-03",
@@ -39103,8 +39133,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Laura Anne Gillen is an American politician and attorney serving as the U.S. representative for New York's 4th congressional district since 2025. A member of the Democratic Party, she previously served as the town supervisor of Hempstead, New York. Her district includes central and southern Nassau County, a suburban area on Long Island.",
+      "bio_source": "wikipedia"
     },
     "L000606": {
       "term_start": "2025-01-03",
@@ -39290,8 +39320,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "John W. Mannion is an American educator and politician who has served as the U.S. representative from New York's 22nd congressional district since 2025. He previously served as a state senator from the 50th district between 2020 and 2024. Before entering politics, Mannion was a high school biology teacher.",
+      "bio_source": "wikipedia"
     },
     "T000490": {
       "term_start": "2025-01-03",
@@ -39472,8 +39502,8 @@
           "hours": null
         }
       ],
-      "bio": null,
-      "bio_source": null
+      "bio": "Janelle Sojourner Bynum is an American politician and businesswoman serving as the U.S. representative for Oregon's 5th congressional district since 2025. A member of the Democratic Party, she previously served in the Oregon House of Representatives from 2017 to 2025.",
+      "bio_source": "wikipedia"
     },
     "M001230": {
       "term_start": "2025-01-03",
@@ -41427,7 +41457,93 @@
         "fax": null,
         "hours": null
       },
-      "committees": [],
+      "committees": [
+        {
+          "id": "SSAP",
+          "name": "Senate Committee on Appropriations",
+          "role": null
+        },
+        {
+          "id": "SSAP16",
+          "name": "Senate Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+          "role": null
+        },
+        {
+          "id": "SSAP22",
+          "name": "Senate Committee on Appropriations — Energy and Water Development",
+          "role": null
+        },
+        {
+          "id": "SSAP23",
+          "name": "Senate Committee on Appropriations — Financial Services and General Government",
+          "role": null
+        },
+        {
+          "id": "SSAP18",
+          "name": "Senate Committee on Appropriations — Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+          "role": null
+        },
+        {
+          "id": "SSAP19",
+          "name": "Senate Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+          "role": null
+        },
+        {
+          "id": "SSAP24",
+          "name": "Senate Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+          "role": null
+        },
+        {
+          "id": "SSEV",
+          "name": "Senate Committee on Environment and Public Works",
+          "role": null
+        },
+        {
+          "id": "SSEV09",
+          "name": "Senate Committee on Environment and Public Works — Chemical Safety, Waste Management, Environmental Justice, and Regulatory Oversight",
+          "role": null
+        },
+        {
+          "id": "SSEV10",
+          "name": "Senate Committee on Environment and Public Works — Clean Air, Climate, and Nuclear Innovation and Safety",
+          "role": null
+        },
+        {
+          "id": "SSEV08",
+          "name": "Senate Committee on Environment and Public Works — Transportation and Infrastructure",
+          "role": null
+        },
+        {
+          "id": "SSBU",
+          "name": "Senate Committee on the Budget",
+          "role": null
+        },
+        {
+          "id": "SSJU",
+          "name": "Senate Committee on the Judiciary",
+          "role": null
+        },
+        {
+          "id": "SSJU22",
+          "name": "Senate Committee on the Judiciary — Crime and Counterterrorism",
+          "role": null
+        },
+        {
+          "id": "SSJU25",
+          "name": "Senate Committee on the Judiciary — Federal Courts, Oversight, Agency Action, and Federal Rights",
+          "role": null
+        },
+        {
+          "id": "SSJU04",
+          "name": "Senate Committee on the Judiciary — Border Security and Immigration",
+          "role": null
+        },
+        {
+          "id": "SSJU28",
+          "name": "Senate Committee on the Judiciary — Privacy, Technology, and the Law",
+          "role": null
+        }
+      ],
       "district_offices": [],
       "bio": null,
       "bio_source": null
@@ -41444,7 +41560,13 @@
         "fax": null,
         "hours": null
       },
-      "committees": [],
+      "committees": [
+        {
+          "id": "HSBA",
+          "name": "House Committee on Financial Services",
+          "role": null
+        }
+      ],
       "district_offices": [],
       "bio": null,
       "bio_source": null
