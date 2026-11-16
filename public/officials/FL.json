@@ -1,7 +1,7 @@
 {
   "state": "FL",
-  "generated_at": "2026-09-01T03:06:32.373Z",
-  "count": 336,
+  "generated_at": "2026-11-16T03:06:04.820Z",
+  "count": 337,
   "cities": [
     "Alachua County",
     "Apopka",
@@ -9,6 +9,7 @@
     "Boca Raton",
     "Boynton Beach",
     "Bradenton",
+    "Collier County",
     "Coral Springs",
     "Davie",
     "Daytona Beach",
@@ -901,6 +902,37 @@
       "source_url": "https://cityofbradenton.com/council",
       "extracted_at": "2026-08-28T05:40:45.041Z",
       "confidence": 1
+    },
+    {
+      "id": "fl:collier-county:county-commissioner:daniel-kowal",
+      "name": "Daniel Kowal",
+      "office": "County Commissioner",
+      "level": "county",
+      "body": "Collier County Commissioners Court",
+      "district": "District 4",
+      "phone": null,
+      "email": null,
+      "url": null,
+      "photo_url": null,
+      "social": {
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "linkedin": null,
+        "youtube": null
+      },
+      "address": null,
+      "offices": [],
+      "hours": null,
+      "bio": null,
+      "bio_checked_at": null,
+      "jurisdiction": {
+        "city": "Collier County",
+        "state": "FL"
+      },
+      "source_url": "https://www.collier.gov/Home",
+      "extracted_at": "2026-11-16T03:06:04.820Z",
+      "confidence": 0.95
     },
     {
       "id": "fl:coral-springs:assistant-city-attorney:vanessa-dragutinovic",
